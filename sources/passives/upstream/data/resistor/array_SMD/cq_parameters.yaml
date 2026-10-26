@@ -1,0 +1,300 @@
+R_Array_Concave_2x0603:
+  L: 1.6  # package length
+  W: 1.6  # package width
+  T: 0.6  # package height
+  pb: 0.3  # pin band
+  pt: 0.025  # pin thickness
+  A1: 0.4  # pin width
+  P: 0.8  # pin pitch
+  np: 2  # number of resistors
+  ef: 0.02  # fillet of edges
+  concave: True  # true for Concave, false for Convex
+  excluded_pins: null  # pins to exclude
+  model_name: R_Array_Concave_2x0603  # model name
+  rotation: 0  # rotation if required
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.vishay.com/docs/31047/cra06p.pdf'
+  include_in_qa: True
+
+R_Array_Concave_4x0402:
+  L: 2.0
+  W: 1.0
+  T: 0.45
+  pb: 0.2
+  pt: 0.025
+  A1: 0.32
+  P: 0.5
+  np: 4
+  ef: 0.02
+  concave: True
+  excluded_pins: null
+  model_name: R_Array_Concave_4x0402
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.vishay.com/docs/31048/cra04p.pdf'
+
+R_Array_Concave_4x0603:
+  L: 3.2
+  W: 1.6
+  T: 0.6
+  pb: 0.3
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 4
+  ef: 0.02
+  concave: True
+  excluded_pins: null
+  model_name: R_Array_Concave_4x0603
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.vishay.com/docs/31047/cra06p.pdf'
+
+R_Array_Convex_2x0402:
+  L: 1.0
+  W: 1.0
+  T: 0.35
+  pb: 0.2
+  pt: 0.025
+  A1: 0.3
+  P: 0.5
+  np: 2
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_2x0402
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_2x0603:
+  L: 1.6
+  W: 1.6
+  T: 0.5
+  pb: 0.25
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 2
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_2x0603
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_2x1206:
+  L: 2.6
+  W: 3.1
+  T: 0.55
+  pb: 0.5
+  pt: 0.025
+  A1: 0.8
+  P: 1.27
+  np: 2
+  ef: 0.04
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_2x1206
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_4x0402:
+  L: 2.0
+  W: 1.0
+  T: 0.35
+  pb: 0.25
+  pt: 0.025
+  A1: 0.3
+  P: 0.5
+  np: 4
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_4x0402
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_4x0603:
+  L: 3.2
+  W: 1.6
+  T: 0.5
+  pb: 0.25
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 4
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_4x0603
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_4x1206:
+  L: 5.4
+  W: 3.1
+  T: 0.55
+  pb: 0.5
+  pt: 0.025
+  A1: 0.8
+  P: 1.27
+  np: 4
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_4x1206
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_5x0603:
+  L: 3.2
+  W: 1.6
+  T: 0.5
+  pb: 0.3
+  pt: 0.025
+  A1: 0.32
+  P: 0.64
+  np: 5
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_5x0603
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_5x1206:
+  L: 6.4
+  W: 3.1
+  T: 0.55
+  pb: 0.5
+  pt: 0.025
+  A1: 0.8
+  P: 1.27
+  np: 5
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_5x1206
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Array_Convex_8x0602:
+  L: 3.8
+  W: 1.6
+  T: 0.45
+  pb: 0.3
+  pt: 0.025
+  A1: 0.3
+  P: 0.5
+  np: 8
+  ef: 0.02
+  concave: False
+  excluded_pins: null
+  model_name: R_Array_Convex_8x0602
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'http://www.rohm.com/web/global/datasheet/MNR12E0APF/mnr-e'
+
+R_Cat16-2:
+  L: 1.6
+  W: 1.6
+  T: 0.5
+  pb: 0.3
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 2
+  ef: 0.02
+  concave: True
+  excluded_pins: null
+  model_name: R_Cat16-2
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'https://www.bourns.com/pdfs/CATCAY.pdf'
+
+R_Cat16-4:
+  L: 3.2
+  W: 1.6
+  T: 0.5
+  pb: 0.3
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 4
+  ef: 0.02
+  concave: True
+  excluded_pins: null
+  model_name: R_Cat16-4
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'https://www.bourns.com/pdfs/CATCAY.pdf'
+
+R_Cat16-8:
+  L: 6.4
+  W: 1.6
+  T: 0.5
+  pb: 0.3
+  pt: 0.025
+  A1: 0.4
+  P: 0.8
+  np: 8
+  ef: 0.02
+  concave: True
+  excluded_pins: null
+  model_name: R_Cat16-8
+  rotation: 0
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  body_top_color_key: 'resistor black body'
+  destination_dir: 'Resistor_array_SMD.3dshapes'
+  source: 'https://www.bourns.com/pdfs/CATCAY.pdf'

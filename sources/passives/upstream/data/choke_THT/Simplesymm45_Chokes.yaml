@@ -1,0 +1,84 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  add_description: http://datasheet.octopart.com/PE-54044NL-Pulse-datasheet-5313493.pdf
+  classname: L
+  ddrill: 1
+  func: makeResistorRadial
+  has3d: 1
+  lib_name: Inductor_THT
+  seriesname: 'Radial'
+  s_3d:
+    - 1
+    - 1
+    - 1
+  specialfpname: ''
+  type: simplesymm45
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+L9.1mm_W9.1mm_Px6.35mm_Py6.35mm_Pulse_LP-25:
+  inherit: base
+  h: 9.14
+  height3d: 7.87
+  name_additions:
+    - Pulse
+    - LP-25
+  rm: 6.35
+  rm2: 6.35
+  specialtags:
+    - Pulse
+    - LP-25
+  w: 9.14
+  w2: 9.14
+
+
+L10.2mm_W10.2mm_Px7.62mm_Py7.62mm_Pulse_LP-30:
+  inherit: base
+  h: 10.16
+  height3d: 7.62
+  name_additions:
+    - Pulse
+    - LP-30
+  rm: 7.62
+  rm2: 7.62
+  specialtags:
+    - Pulse
+    - LP-30
+  w: 10.16
+  w2: 10.16
+
+
+L12.6mm_W12.6mm_Px9.52mm_Py9.52mm_Pulse_LP-37:
+  inherit: base
+  h: 12.57
+  height3d: 9.52
+  name_additions:
+    - Pulse
+    - LP-37
+  rm: 9.52
+  rm2: 9.52
+  specialtags:
+    - Pulse
+    - LP-37
+  w: 12.57
+  w2: 12.57
+
+
+L16.1mm_W16.1mm_Px7.62mm_Py12.7mm_Pulse_LP-44:
+  inherit: base
+  h: 16.13
+  height3d: 9.27
+  name_additions:
+    - Pulse
+    - LP-44
+  rm: 7.62
+  rm2: 12.7
+  specialtags:
+    - Pulse
+    - LP-44
+  w: 16.13
+  w2: 16.13

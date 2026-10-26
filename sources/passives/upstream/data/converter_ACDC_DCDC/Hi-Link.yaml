@@ -1,0 +1,111 @@
+Converter_ACDC_Hi-Link_HLK-2Mxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 2W, Hi-Link, HLK-2Mxx, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf"
+  tags: "ACDC-Converter 2W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-3.0, 8.0]
+  size: [30.5, 16.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 1.70, 2.0, 1.0],
+    ["tht", "2", 5, 0, 1.70, 2.0, 1.0],
+    ["tht", "3", 21.5, 0.0, 1.70, 2.0, 1.0],
+    ["tht", "4", 24.0, 0.0, 1.70, 2.0, 1.0]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-PMxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 3W, Hi-Link, HLK-PMxx, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
+  tags: "ACDC-Converter 3W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-2.86, 7.75]
+  size: [34.8, 20.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 1.70, 2.0, 1.0],
+    ["tht", "2", 0, -5, 1.70, 2.0, 1.0],
+    ["tht", "3", 29.08, 5.0, 1.70, 2.0, 1.0],
+    ["tht", "4", 29.08, -10.0, 1.70, 2.0, 1.0]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-5Mxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 5W, Hi-Link, HLK-5Mxx, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
+  tags: "ACDC-Converter 5W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-2.7, 8.75]
+  size: [39.0, 23.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 1.70, 2.0, 1.0],
+    ["tht", "2", 0, -6, 1.70, 2.0, 1.0],
+    ["tht", "3", 33.6, 6, 1.70, 2.0, 1.0],
+    ["tht", "4", 33.6, -12, 1.70, 2.0, 1.0]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-10Mxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 10W, Hi-Link, HLK-10Mxx, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9710W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9110W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.8.pdf"
+  tags: "ACDC-Converter 10W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-2.5, 10.35]
+  size: [47.5, 28.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 2.0, 2.3, 1.3],
+    ["tht", "2", 0, -7.8, 2.0, 2.3, 1.3],
+    ["tht", "3", 42.5, 7.4, 2.0, 2.3, 1.3],
+    ["tht", "4", 42.5, -15.2, 2.0, 2.3, 1.3]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-12MxxA:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 12W, Hi-Link, HLK-12MxxA, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9712W%E7%B3%BB%E5%88%97/1/12W%E7%B3%BB%E5%88%97%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf"
+  tags: "ACDC-Converter 12W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-2.54, 22.86]
+  size: [50.8, 25.4]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 1.90, 2.2, 1.2],
+    ["tht", "2", 0, 20.32, 1.90, 2.2, 1.2],
+    ["tht", "3", 45.72, 20.32, 1.90, 2.2, 1.2],
+    ["tht", "4", 45.72, 10.16, 1.90, 2.2, 1.2]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-20Mxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 20W, Hi-Link, HLK-20Mxx, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf"
+  tags: "ACDC-Converter 20W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-3.25, 12.25]
+  size: [57.5, 33.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 2.0, 2.3, 1.3],
+    ["tht", "2", 0, -9.0, 2.0, 2.3, 1.3],
+    ["tht", "3", 51.0, 9.0, 2.0, 2.3, 1.3],
+    ["tht", "4", 51.0, -18.0, 2.0, 2.3, 1.3]
+  ]
+
+Converter_ACDC_Hi-Link_HLK-30Mxx:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, 30W, Hi-Link, HLK-30Mxx, HLK-30MxxC, THT"
+  datasheet: "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf"
+  tags: "ACDC-Converter 30W THT Hi-Link board mount module"
+  extratexts: []
+  at: [-3.25, 20.56]
+  size: [57.5, 33.5]
+  body_position_tolerance: [1.0, 1.0]
+  pins: [
+    ["thtr", "1", 0, 0, 2.0, 2.3, 1.3],
+    ["tht", "2", 0, -5.08, 2.0, 2.3, 1.3],
+    ["tht", "3", 51.0, 17.78, 2.0, 2.3, 1.3],
+    ["tht", "6", 51.0, 10.16, 2.0, 2.3, 1.3]
+  ]

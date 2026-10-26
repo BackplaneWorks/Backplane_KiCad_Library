@@ -1,0 +1,206 @@
+defaults_IDC_THT:
+  lib_format: 'Connector_IDC'
+  class_name: 'IDC-Header'
+  class_descr: 'IDC header'
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}{mhole_text}_P{pin_pitch:03.2f}mm{latch_text}_{orientation}"
+  descr_format: '{mount_text} {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch, DIN 41651 / IEC 60603-13{row_text}{latch_text}{mhole_text}'
+  tags_base: '{mount_text} {orientation.lower()} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  mount_text: 'Through hole'
+  pin_pitch: 2.54
+
+# footprint_name = "{classname}_{row_count}x{pos_count:02}{0}_P{pin_pitch:03.2f}mm{1}{2}_{orientation}{3}".format("-1MP" if mh_present else "" , "_Latch" if latching else "" , "{0:03.1f}mm".format(latch_len) if latch_len > 0 else "" , "_SMD" if ddrill==0 else "")
+# example: IDC-Header_2x05-1MP_P2.54mm_Latch_Horizontal
+# description = description + " {class_description}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch, DIN 41651 / IEC 60603-13, {description_rows}{0}{1}{2}".format(", {0:03.1f}mm".format(latch_len) if latch_len > 0 else "", " latches" if latching else "", ", mounting holes" if mh_present else "", )
+# example: Through hole IDC header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+# tags = tags + f" {orientation.lower()} {class_description} {mounting_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm {tags_rows}"
+# example: Through hole vertical IDC header THT 2x05 2.54mm double row
+
+defaults_IDC_SMD:
+  lib_format: 'Connector_IDC'
+  class_name: 'IDC-Header'
+  class_descr: 'IDC box header' # ToDo rename to 'IDC header' like the rest?
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}{mhole_text}_P{pin_pitch:03.2f}mm{latch_text}_{orientation}_SMD"
+  descr_format: '{mount_type} {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch, DIN 41651 / IEC 60603-13{row_text}{latch_text}{mhole_text}'
+  tags_base: '{mount_type} {orientation.lower()} {class_descr}  {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: SMD
+  orientation: Vertical
+  pin_pitch: 2.54
+
+
+# Vertical and horizontal IDC box headers, with latches, with and without mounting holes:
+# from http://multimedia.3m.com/mws/media/22448O/3m-four-wall-header-3000-series-100-x-100-ts-0772.pdf
+# and  http://www.selecom.it/pdf/06din416.pdf
+# and  https://www.reboul.fr/storage/00003af6.pdf
+# and  http://www.oupiin.com/product_iii.html?c1=10&c2=54
+# and  http://www.assmann-wsw.com/fileadmin/catalogue/04_Multiflex_rev4-0.pdf
+# and  https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+IDC_THT_Straight_Latches_MountHole:
+  inherit: defaults_IDC_THT
+  orientation: Vertical
+  pin1_left: True
+  row_count: 2
+  pos_range:
+    list: [5,6,7,8,10,12,13,15,17,20,25,30,32]
+  body:
+    width:  8.8
+    height: 17.4
+    offset: 0.0
+    overlength: 9.70
+    wall_thick:  1.2
+    notch_width: 4.1
+  pins:
+    width:  0.64
+    drill:  1.0
+    offset: 0.0
+    length: 6.2
+  pads:
+    length: 1.7
+    width:  1.7
+    offset: 0
+  mhole: # mounting holes
+    length: 8 # 3M 3000 datasheet says 5/16" screw head which is ~8mm; existing KiCad footprint is 5.46mm
+    width:  8
+    drill:  2.69
+    offset: 1.02
+    overlength: 8.94
+  latch:
+    enable: True
+    length:
+      list: [0, 6.5, 9.5, 12]
+    width:  4.4
+  datasheet: https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+  # ToDo: datasheet: https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0, https://multimedia.3m.com/mws/media/22448O/3m-four-wall-header-3000-series-100-x-100-ts-0772.pdf
+  mating_overlen: 3.92
+
+IDC_THT_Straight_Latches_NoMountHole:
+  inherit: IDC_THT_Straight_Latches_MountHole
+  mhole: # mounting holes
+    length: 0
+    width:  0
+    drill:  0
+    overlength: 0
+
+# the above datasheets cover both horizontal and vertical
+# latches are assumed to hang off the PCB so they aren't included here
+# for this footprint the body outline is hard-coded into the script
+IDC_THT_Angled_Latches_MountHole:
+  inherit: IDC_THT_Straight_Latches_MountHole
+  orientation: Horizontal
+  body:
+    width:  16.77 # 1.24 + 15.53
+    height: 9.95
+    offset: -1.24
+    overlength: 9.70
+    wall_thick:  1.2
+    notch_width: 4.1
+  pins:
+    width:  0.64
+    drill:  1.0
+    offset: 0.0
+    length: 6.2
+  pads:
+    length: 1.7
+    width:  1.7
+    offset: 0
+  mhole: # mounting holes
+    length: 8
+    width:  8
+    drill:  2.69
+    offset: 1.8
+    overlength: 5.905
+  latch:
+    enable: True
+    length: 0
+    # width: 4.4
+  datasheet: https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+  mating_overlen: 3.92
+
+IDC_THT_Angled_Latches_NoMountHole:
+  inherit: IDC_THT_Angled_Latches_MountHole
+  mhole: # mounting holes
+    length: 0
+    width:  0
+    drill:  0
+    overlength: 0
+
+# Vertical IDC box header, no latches, no mounting holes:
+# from http://multimedia.3m.com/mws/media/330367O/3m-four-wall-header-2500-series-ts-0770.pdf
+# and  https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1761681&DocType=Customer+Drawing&DocLang=English
+# and  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
+# and  https://katalog.we-online.de/em/datasheet/6120xx21621.pdf
+# and  https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+IDC_THT_Straight_NoLatch_NoMount:
+  inherit: defaults_IDC_THT
+  class_descr: 'IDC box header' # ToDo rename to 'IDC header' like the rest?
+  orientation: Vertical
+  pin1_left: True
+  row_count: 2
+  pos_range:
+    list: [3,4,5,6,7,8,9,10,11,12,13,15,17,20,22,25,30,32]
+  body:
+    width:  8.9
+    height: 2.54
+    offset: 0.0
+    overlength: 3.83
+    wall_thick:  1.2
+    notch_width: 4.1
+  pins:
+    width:  0.64
+    drill:  1.0
+    offset: 0.0
+    length: 6.2
+  pads:
+    length: 1.7
+    width:  1.7
+    offset: 0
+  latch:
+    enable: False
+  datasheet: https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+  # ToDo: datasheet: https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0, http://multimedia.3m.com/mws/media/330367O/3m-four-wall-header-2500-series-ts-0770.pdf
+  mating_overlen: 3.91
+
+# Horizontal IDC box header, no latches, no mounting holes:
+# from http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf
+# and  https://b2b.harting.com/files/download/PRD/PDF_TS/09185XXX323_100154466DRW007A.pdf
+# and  http://suddendocs.samtec.com/prints/tst-1xx-xx-xx-x-xx-xx-mkt.pdf
+# and  https://katalog.we-online.de/em/datasheet/6120xx21721.pdf
+# and  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75867.pdf
+# and  https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+IDC_THT_Angled_NoLatch_NoMount:
+  inherit: IDC_THT_Straight_NoLatch_NoMount
+  orientation: Horizontal
+  body:
+    offset: 4.38 # distance from pin 1 row to the closest edge of the plastic body
+
+
+# SMD Vertical IDC box header, no latches, no mounting holes:
+# from https://www.tme.eu/Document/4baa0e952ce73e37bc68cf730b541507/T821M114A1S100CEU-B.pdf
+IDC_SMD_Straight_NoLatch_NoMount:
+  inherit: defaults_IDC_SMD
+  orientation: Vertical
+  pin1_left: True
+  row_count: 2
+  row_pitch: 7.60
+  pos_range:
+    list: [3,4,5,6,7,8,9,10,11,12,13,20,22,25,30] # should have range(3, 32) according to datasheet
+  body:
+    width:  8.95
+    height: 9.0
+    offset: 0.0
+    overlength: 3.81
+    wall_thick:  1.2
+    notch_width: 4.1
+  pins:
+    width:  0.64
+    drill:  0.0
+    offset: 0.0
+    length: 6.2
+  pads:
+    length: 5.0
+    width:  1.02
+    offset: 0
+  latch:
+    enable: False
+  datasheet: 'https://www.tme.eu/Document/4baa0e952ce73e37bc68cf730b541507/T821M114A1S100CEU-B.pdf'
+  mating_overlen: 2.72

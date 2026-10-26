@@ -1,0 +1,772 @@
+# TO-252/DPAK SMD packages
+TO-252:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: TO-252
+        description: 'TO-252/DPAK SMD package'
+        keywords: 'DPAK TO-252'
+        footprint:
+            x_mm: 10.6
+            tab:
+                x_mm: 6.4
+                y_mm: 5.8
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 9.9
+            body:
+                x_mm: 6.22
+                y_mm: 6.5
+                z_mm: 2.3
+                waist_z_mm: 0.9
+                marker_offset_x_mm: -1.5
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 5.24
+                y_mm: 5.4
+                z_mm: 0.5
+                project_x_mm: 1.0
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 1.0
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_2:
+            pins: 3
+            pitch_mm: 2.28
+            pad:
+                x_mm: 2.2
+                y_mm: 1.1
+            pin:
+                x_mm: 2.68
+                y_mm: 0.75
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['cut']
+            keywords: 'DPAK-2 TO-252-2'
+            datasheet: https://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-2-1/
+        pins_2_tab1:
+            pins: 2
+            pitch_mm: 4.56
+            pad:
+                x_mm: 2.2
+                y_mm: 1.1
+            pin:
+                x_mm: 2.68
+                y_mm: 0.75
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['uncut']
+            tab_pin_number: 1
+            keywords: 'DPAK-2 TO-252-2'
+            datasheet: https://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-2-1/
+        pins_3:
+            pins: 3
+            pitch_mm: 2.28
+            pad:
+                x_mm: 2.2
+                y_mm: 1.2
+            pin:
+                x_mm: 2.7
+                y_mm: 0.75
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['uncut']
+            keywords: 'DPAK-3 TO-252-3 SOT-428'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+        pins_3_tab2:
+            pins: 3
+            pitch_mm: 2.28
+            pad:
+                x_mm: 2.2
+                y_mm: 1.2
+            pin:
+                x_mm: 2.7
+                y_mm: 0.75
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['uncut']
+            tab_pin_number: 2
+            keywords: 'DPAK-3 TO-252-3 SOT-428'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+        pins_4_tab5:
+            pins: 5
+            pitch_mm: 1.14
+            pad:
+                x_mm: 2.1
+                y_mm: 0.7
+            pin:
+                x_mm: 2.76
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['cut']
+            keywords: 'DPAK-4 TO-252-4'
+            datasheet: https://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+        pins_5:
+            pins: 5
+            pitch_mm: 1.14
+            pad:
+                x_mm: 2.2
+                y_mm: 0.8
+            pin:
+                x_mm: 2.7
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['uncut']
+            keywords: 'DPAK-5 TO-252-5'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+        pins_5_tab3:
+            pins: 5
+            pitch_mm: 1.14
+            pad:
+                x_mm: 2.2
+                y_mm: 0.8
+            pin:
+                x_mm: 2.7
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 0.8
+            centre_pin: ['uncut']
+            tab_pin_number: 3
+            keywords: 'DPAK-5 TO-252-5'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+
+# TO-263/D2PAK SMD packages
+TO-263:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: TO-263
+        description: 'TO-263/D2PAK/DDPAK SMD package'
+        keywords: 'D2PAK DDPAK TO-263'
+        footprint:
+            x_mm: 16.15
+            tab:
+                x_mm: 9.4
+                y_mm: 10.8
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 15.0
+            body:
+                x_mm: 9.25
+                y_mm: 10.0
+                z_mm: 4.4
+                waist_z_mm: 2.4
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 7.55
+                y_mm: 10.0
+                z_mm: 1.27
+                project_x_mm: 1.0
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 2.5
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_2_tab1:
+            pins: 3
+            pitch_mm: 2.54
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 1.0
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['cut']
+            tab_pin_number: 1
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404'
+            datasheet: TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+        pins_2_tab3:
+            pins: 2
+            pitch_mm: 5.08
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 1.0
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404'
+            datasheet: TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+        pins_3_tab2:
+            pins: 3
+            pitch_mm: 2.54
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 1.0
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            tab_pin_number: 2
+            keywords: 'D2PAK-3 TO-263-3 SOT-404'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+        pins_3_tab4:
+            pins: 3
+            pitch_mm: 2.54
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 1.0
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            keywords: 'D2PAK-3 TO-263-3 SOT-404'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+        pins_4_tab3:
+            pins: 5
+            pitch_mm: 1.7
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 0.8
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['cut']
+            keywords: 'D2PAK-5 TO-263-5 SOT-426'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+        pins_5_tab3:
+            pins: 5
+            pitch_mm: 1.7
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 0.8
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            tab_pin_number: 3
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426'
+            datasheet: TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+        pins_5_tab6:
+            pins: 5
+            pitch_mm: 1.7
+            pad:
+                x_mm: 4.6
+                y_mm: 1.1
+            pin:
+                x_mm: 4.7
+                y_mm: 0.8
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426'
+            datasheet: TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+        pins_6_tab4:
+            pins: 7
+            pitch_mm: 1.27
+            pad:
+                x_mm: 4.6
+                y_mm: 0.8
+            pin:
+                x_mm: 4.7
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['cut']
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427'
+            datasheet: TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+        pins_7_tab4:
+            pins: 7
+            pitch_mm: 1.27
+            pad:
+                x_mm: 4.6
+                y_mm: 0.8
+            pin:
+                x_mm: 4.7
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            tab_pin_number: 4
+            keywords: 'D2PAK-7 TO-263-7 SOT-427'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+        pins_7_tab8:
+            pins: 7
+            pitch_mm: 1.27
+            pad:
+                x_mm: 4.6
+                y_mm: 0.8
+            pin:
+                x_mm: 4.7
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            keywords: 'D2PAK-7 TO-263-7 SOT-427'
+            datasheet: http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+        pins_9_tab5:
+            pins: 9
+            pitch_mm: 0.97
+            pad:
+                x_mm: 2.41
+                y_mm: 0.61
+            pin:
+                x_mm: 4.39
+                y_mm: 0.51
+                z_mm: 0.57
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            tab_pin_number: 5
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-9 TO-263-9'
+            datasheet: TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
+        pins_9_tab10:
+            pins: 9
+            pitch_mm: 0.97
+            pad:
+                x_mm: 2.41
+                y_mm: 0.61
+            pin:
+                x_mm: 4.39
+                y_mm: 0.51
+                z_mm: 0.57
+                cut_x_mm: 1.1
+            centre_pin: ['uncut']
+            keywords: 'D2PAK DDPAK TO-263 D2PAK-9 TO-263-9'
+            datasheet: TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
+
+# TO-268/D3PAK SMD packages
+TO-268:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: TO-268
+        description: 'TO-268/D3PAK SMD package'
+        keywords: 'D3PAK TO-268'
+        footprint:
+            x_mm: 21.95
+            tab:
+                x_mm: 13.5
+                y_mm: 16.6
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 19.0
+            body:
+                x_mm: 14.0
+                y_mm: 15.9
+                z_mm: 5.0
+                waist_z_mm: 2.8
+                marker_offset_x_mm: -4.5
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 12.5
+                y_mm: 15.9
+                z_mm: 1.5
+                project_x_mm: 1.0
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 1.6
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_3:
+            pins: 3
+            pitch_mm: 5.45
+            pad:
+                x_mm: 5.0
+                y_mm: 3.0
+            pin:
+                x_mm: 3.9
+                y_mm: 1.3
+                z_mm: 0.5
+                cut_x_mm: 1.3
+            centre_pin: ['cut']
+            keywords: 'D3PAK-3 TO-268-3'
+            datasheet: http://www.icbank.com/icbank_data/semi_package/to268aa_dim.pdf
+    include_in_qa: True
+
+# ATPAK SMD packages
+ATPAK:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: ATPAK
+        description: 'ATPAK SMD package'
+        keywords: 'ATPAK'
+        footprint:
+            x_mm: 10.3
+            tab:
+                x_mm: 6.7
+                y_mm: 6.5
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 9.5
+            body:
+                x_mm: 7.3
+                y_mm: 6.5
+                z_mm: 1.5
+                waist_z_mm: 0.4
+                marker_offset_x_mm: 2.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 6.05
+                y_mm: 6.5
+                z_mm: 0.4
+                project_x_mm: 0.5
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 1.0
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_3:
+            pins: 3
+            pitch_mm: 2.3
+            pad:
+                x_mm: 1.6
+                y_mm: 1.5
+            pin:
+                x_mm: 1.7
+                y_mm: 0.6
+                z_mm: 0.4
+                cut_x_mm: 0.5
+            centre_pin: ['cut']
+            keywords: ''
+            datasheet: http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
+
+# Infineon HSOF-8 SMD packages
+HSOF8 :
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: HSOF-8
+        description: 'Infineon PG-HSOF-8 SMD package'
+        keywords: 'Infineon'
+        footprint:
+            x_mm: 13.3
+            tab:
+                x_mm: 8.0
+                y_mm: 10.1
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 11.675
+            body:
+                x_mm: 10.375
+                y_mm: 9.9
+                z_mm: 2.3
+                waist_z_mm: 0.5
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 7.15
+                y_mm: 9.8
+                z_mm: 0.5
+                project_x_mm: 0.7
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 3.0
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_8:
+            pins: 8
+            pitch_mm: 1.2
+            pad:
+                x_mm: 2.8
+                y_mm: 0.8
+            pin:
+                x_mm: 0.6
+                y_mm: 0.8
+                z_mm: 0.5
+                cut_x_mm: 0.0
+            centre_pin: ['uncut']
+            keywords: ''
+            datasheet: http://www.infineon.com/dgdl/Infineon-IPT111N20NFD-DS-v02_01-EN.pdf?fileId=5546d462533600a401537a8b4b786fc2
+
+# NXP LFPAK56 SMD packages
+LFPAK56:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: LFPAK56
+        description: 'NXP SOT-669 LFPAK56 Power-SO8 SMD package'
+        keywords: 'NXP'
+        footprint:
+            x_mm: 6.8
+            tab:
+                x_mm: 4.6
+                y_mm: 4.7
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 6.0
+            body:
+                x_mm: 4.0
+                y_mm: 4.9
+                z_mm: 1.0
+                waist_z_mm: 0.5
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 1.9
+                colour: 'black body'
+            tab:
+                x_mm: 4.0
+                y_mm: 4.0
+                z_mm: 0.27
+                project_x_mm: 1.05
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 0.5
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_4:
+            pins: 4
+            pitch_mm: 1.27
+            pad:
+                x_mm: 1.15
+                y_mm: 0.7
+            pin:
+                x_mm: 1.05
+                y_mm: 0.425
+                z_mm: 0.22
+                cut_x_mm: 0.0
+            centre_pin: ['uncut']
+            custom_name: 'LFPAK56'
+            keywords: ''
+            datasheet: http://www.nxp.com/documents/outline_drawing/SOT669.pdf
+
+# LFPAK88 / PowerPAK SO-8 x 8L BWL / SOT-1235 SMD package
+LFPAK88:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: SOT-1235
+        description: 'LFPAK88 PowerPAK 8 x 8L BWL Single SOT-1235'
+        keywords: 'PowerPAK 8x8L Nexperia Vishay'
+        author: 'Patrick Baus'
+        author_email: 'patrick.baus@physik.tu-darmstadt.de'
+        footprint:
+            x_mm: 6.8
+            tab:
+                x_mm: 4.6
+                y_mm: 4.7
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 8
+            body:
+                x_mm: 6.2
+                y_mm: 8.0
+                z_mm: 1.6
+                waist_z_mm: 0.9
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 3.15
+                colour: 'black body'
+            tab:
+                x_mm: 5.0
+                y_mm: 6.8
+                z_mm: 0.21
+                large_mm: 0.4  # The extra full width added by the polygon on the top side
+                small_mm: 1.3  # The height of the enlarged part of the tab
+                project_x_mm: 0.91
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 0.8
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        single:
+            pins: 4
+            pitch_mm: 2.00
+            pad:
+                x_mm: 1.15
+                y_mm: 0.7
+            pin:
+                x_mm: 1.778
+                y_mm: 1.0
+                z_mm: 0.2
+                cut_x_mm: 0.0
+            tab:
+                # The two small protrusions on the top of the pad
+                protrusion_offset_x_mm: 1.525
+                protrusion_x_mm: 0.15
+                protrusion_y_mm: 1
+                cut_offset_x_mm: 0.5
+                cut_offset_y_mm: 0.39
+                cut_x_mm: 0.5
+                cut_y_mm: 2.5
+            centre_pin: ['uncut']
+            custom_name: 'LFPAK88'
+            keywords: 'PowerPAK 8x8L Nexperia Vishay'
+            datasheet: https://assets.nexperia.com/documents/package-information/SOT1235.pdf
+
+# SOT-89-3 SMD package
+SOT89:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: SOT-89
+        description: 'SOT-89-3 SMD package'
+        keywords: ''
+        footprint:
+            x_mm: 4.0
+            tab:
+                x_mm: 2.5
+                y_mm: 1.6
+            split_paste: 'off'
+            paste_gutter_mm: 0.0
+        device:
+            x_mm: 4.0
+            body:
+                x_mm: 2.5
+                y_mm: 4.5
+                z_mm: 1.5
+                waist_z_mm: 0.4
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 2.5
+                y_mm: 1.6
+                z_mm: 0.4
+                project_x_mm: 0.5
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 0.7
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_3:
+            pins: 3
+            pitch_mm: 1.5
+            pad:
+                x_mm: 1.5
+                y_mm: 1.0
+            pin:
+                x_mm: 1.0
+                y_mm: 0.4
+                z_mm: 0.4
+                cut_x_mm: 0.0
+            centre_pin: ['uncut']
+            keywords: ''
+            datasheet: https://www.onsemi.com/pub/Collateral/2SB1122-D.PDF
+
+Infineon_PG_TO_220_7Lead_TabPin8:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: Infineon_PG-TO-220-7Lead_TabPin8
+        description: 'Infineon PG-TO-220-7, Tab as Pin 8, see e.g. https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9'
+        keywords: 'Infineon PG-TO-220-7'
+        footprint:
+            x_mm: 16.15
+            tab:
+                x_mm: 9.4
+                y_mm: 10.8
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 13.85
+            body:
+                x_mm: 9.25
+                y_mm: 10.0
+                z_mm: 4.4
+                waist_z_mm: 2.4
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 7.55
+                y_mm: 10.0
+                z_mm: 1.27
+                project_x_mm: 1.0
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 2.5
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_7:
+            pins: 7
+            pitch_mm: 1.27
+            pad:
+                x_mm: 4.6
+                y_mm: 0.8
+            pin:
+                x_mm: 3.6
+                y_mm: 0.6
+                z_mm: 0.5
+                cut_x_mm: 1.1
+            centre_pin: ['cut', 'uncut']
+            custom_name: 'Infineon_PG-TO-220-7Lead_TabPin8'
+            keywords: 'Infineon PG-TO-220-7'
+            datasheet: https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
+
+Rohm_HRP7:
+    destination_dir: 'Package_TO_SOT_SMD.3dshapes'
+    base:
+        series: Rohm_HRP7
+        description: 'Rohm HRP7 SMD package, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hrp7_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd621x-e.pdf'
+        keywords: 'Rohm HRP7 SMD'
+        footprint:
+            x_mm: 11.31
+            tab:
+                x_mm: 9
+                y_mm: 10
+            split_paste: 'on'
+            paste_gutter_mm: 0.3
+        device:
+            x_mm: 10.54
+            body:
+                x_mm: 8
+                y_mm: 9.395
+                z_mm: 1.905
+                waist_z_mm: 1.27
+                marker_offset_x_mm: 0.0
+                marker_offset_y_mm: 0.0
+                colour: 'black body'
+            tab:
+                x_mm: 7.49
+                y_mm: 8.82
+                z_mm: 0.27
+                project_x_mm: 1.017
+                colour: 'metal grey pins'
+            marker:
+                x_mm: 2.5
+                z_mm: 0.1
+            pins:
+                colour: 'metal grey pins'
+    variants:
+        pins_7:
+            pins: 7
+            pitch_mm: 1.27
+            pad:
+                x_mm: 1.37
+                y_mm: 0.93
+            pin:
+                x_mm: 1.523
+                y_mm: 0.73
+                z_mm: 0.27
+                waist_z_mm: 1.27
+                cut_x_mm: 0
+            centre_pin: ['uncut']
+            keywords: 'Rohm_HRP7'
+            custom_name: 'Rohm_HRP7'
+            datasheet: http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd621x-e.pdf

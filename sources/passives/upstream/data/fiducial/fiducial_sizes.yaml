@@ -1,0 +1,62 @@
+default_parameters:
+  library: 'Fiducial'
+  description: 'Fiducial{human_variant:s}, {marking_size:.3g}mm bare copper, {mask_diameter:.3g}mm soldermask opening{comment:s}'
+  comment: ''
+  fp_name: 'Fiducial_{shape:s}_{marking_size:.3g}mm_Mask{mask_diameter:.3g}mm'
+  # outset of the pad clearance from the mask opening
+  pad_clearance_outset: 0.1
+
+Fiducial_0.5mm_Mask1mm:
+  comment: ' (Level C)'
+  mask_diameter: 1
+  marking_type: circle
+  marking_size: 0.5
+
+Fiducial_0.5mm_Mask1.5mm:
+  mask_diameter: 1.5
+  marking_type: circle
+  marking_size: 0.5
+
+Fiducial_0.5mm_Mask2mm:
+  mask_diameter: 2
+  marking_type: circle
+  marking_size: 0.5
+
+Fiducial_0.75mm_Mask1.5mm:
+  comment: ' (Level B)'
+  mask_diameter: 1.5
+  marking_type: circle
+  marking_size: 0.75
+
+Fiducial_0.75mm_Mask2.25mm:
+  mask_diameter: 2.25
+  marking_type: circle
+  marking_size: 0.75
+
+Fiducial_1mm_Mask2mm:
+  comment: ' (Level A)'
+  mask_diameter: 2
+  marking_type: circle
+  marking_size: 1
+
+Fiducial_1mm_Mask3mm:
+  comment: ' (recommended)'
+  mask_diameter: 3
+  marking_type: circle
+  marking_size: 1
+
+Fiducial_1.5mm_Mask3mm:
+  mask_diameter: 3
+  marking_type: circle
+  marking_size: 1.5
+
+Fiducial_1.5mm_Mask4.5mm:
+  mask_diameter: 4.5
+  marking_type: circle
+  marking_size: 1.5
+
+Fiducial_Cross_1.5mm_Mask2mm:
+  mask_diameter: 2
+  marking_type: cross
+  marking_size: 1.5
+  marking_width: 0.25

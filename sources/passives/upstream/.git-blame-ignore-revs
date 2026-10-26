@@ -1,0 +1,25 @@
+# The following command will enable ignoring formatting commits:
+#    git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# Normalised line endings
+218f8d4c61192addb63cd8ed1f765884e242bb25
+9db23f90842fe0a5dba0557ff9192103f459db1e
+
+# Reformated DPAK python files
+2970eadbc51ff23b5213ff6f2963989125723809
+
+# Black and isort on 3D scripts
+eed7da2ac33b57480c46f06cd1031f19d4e500a8
+ca90d1967d38f91ff81509add26cdb88059371fb
+fbab033e4f9c7757f7e367bbaec9a9b6727a9ba9
+
+# Black and isort on FP scripts
+495ab2f1334f8c8ae16c527b8e17aa226c4f4a72
+f20539a40846cb99cfe31be25dbfef805f5c6621
+38d0de1caebc6bcb5e44a52dc754558d6ea9e87f
+3b6ba326a77fdc1319667133fd9822f04f184a91
+9e243f975bd19c862959dfff31c2c5bf09630596
+
+# Manual format changes to FP scripts
+52292f59ce764165470b98cc41cb85742b7f77d1
+5290e24b140adc4d2a780ff5be4f3d64f9161726

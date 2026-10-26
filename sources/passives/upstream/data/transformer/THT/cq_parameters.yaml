@@ -1,0 +1,708 @@
+Transformer_37x44:
+  model_name: Transformer_37x44  # Model name
+  serie: cube  # series
+  A1: 0.1  # body-board separation
+  body: [-13.97, -6.35, 43.18, 38.1, 19.05]  # Body (x, y, w, l, h)
+  top: [-6.99, 1.27, 29.22, 22.86, 5.0]  # Top (x, y, w, l, h)
+  pin: [
+    [20.32, 0, 1.5, 5.0],
+    [-5.08, 25.4, 1.5, 5.0],
+    [5.08, 25.4, 1.5, 5.0],
+    [0, 0, 1.5, 5.0],
+    [-5.08, 0, 1.5, 5.0],
+    [5.08, 0, 1.5, 5.0],
+    [10.16, 0, 1.5, 5.0],
+    [15.24, 0, 1.5, 5.0],
+    [0, 25.4, 1.5, 5.0],
+    [10.16, 25.4, 1.5, 5.0],
+    [15.24, 25.4, 1.5, 5.0],
+    [20.32, 25.4, 1.5, 5.0]
+  ]
+  npth: null  # npth null or (x, y, drill)
+  body_top_color_key: black body  # Top color
+  body_color_key: black body  # Body color
+  pin_color_key: metal grey pins  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Transformer_THT.3dshapes  # Destination directory
+  source: 'N/A'
+  include_in_qa: True
+
+Transformer_Breve_TEZ-22x24:
+  model_name: Transformer_Breve_TEZ-22x24
+  serie: cube
+  A1: 0.1
+  body: [-4.5, -18.5, 24.0, 22.0, 16.0]
+  top: [-1.5, -15.5, 18.0, 16.0, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [15, 0, 0.9, 5.0],
+    [15, -15, 0.9, 5.0],
+    [10, -15, 0.9, 5.0],
+    [5, -15, 0.9, 5.0],
+    [0, -15, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.breve.pl/pdf/ANG/TEZ_ang.pdf'
+
+Transformer_Breve_TEZ-28x33:
+  model_name: Transformer_Breve_TEZ-28x33
+  serie: cube
+  A1: 0.1
+  body: [-5.5, -24.0, 31.0, 28.0, 19.0]
+  top: [-1.5, -21.0, 23.0, 22.0, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [15, 0, 0.9, 5.0],
+    [20, 0, 0.9, 5.0],
+    [20, -20, 0.9, 5.0],
+    [15, -20, 0.9, 5.0],
+    [10, -20, 0.9, 5.0],
+    [5, -20, 0.9, 5.0],
+    [0, -20, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.breve.pl/pdf/ANG/TEZ_ang.pdf'
+
+Transformer_Breve_TEZ-35x42:
+  model_name: Transformer_Breve_TEZ-35x42
+  serie: cube
+  A1: 0.1
+  body: [-11.0, -30.0, 42.0, 35.0, 26]
+  top: [-8.0, -27.0, 36.0, 29.0, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [15, 0, 0.9, 5.0],
+    [20, 0, 0.9, 5.0],
+    [20, -25, 0.9, 5.0],
+    [15, -25, 0.9, 5.0],
+    [10, -25, 0.9, 5.0],
+    [5, -25, 0.9, 5.0],
+    [0, -25, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.breve.pl/pdf/ANG/TEZ_ang.pdf'
+
+Transformer_Breve_TEZ-38x45:
+  model_name: Transformer_Breve_TEZ-38x45
+  serie: cube
+  A1: 0.1
+  body: [-10.0, -31.5, 45.0, 38.0, 29]
+  top: [-4.5, -28.0, 34.0, 31.0, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [20, 0, 0.9, 5.0],
+    [25, 0, 0.9, 5.0],
+    [25, -25, 0.9, 5.0],
+    [20, -25, 0.9, 5.0],
+    [12.5, -25, 0.9, 5.0],
+    [5, -25, 0.9, 5.0],
+    [0, -25, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_Breve_TEZ-44x52:
+  model_name: Transformer_Breve_TEZ-44x52
+  serie: cube
+  A1: 0.1
+  body: [-14.5, -35.75, 54.0, 44.0, 32.0]
+  top: [-11.5, -32.75, 48.0, 38.0, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [20, 0, 0.9, 5.0],
+    [25, 0, 0.9, 5.0],
+    [25, -27.5, 0.9, 5.0],
+    [20, -27.5, 0.9, 5.0],
+    [15, -27.5, 0.9, 5.0],
+    [10, -27.5, 0.9, 5.0],
+    [5, -27.5, 0.9, 5.0],
+    [0, -27.5, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_Breve_TEZ-47x57:
+  model_name: Transformer_Breve_TEZ-47x57
+  serie: cube
+  A1: 0.1
+  body: [-13.5, -38.5, 57.0, 47.0, 36.0]
+  top: [-6.0, -33.5, 42.0, 37.5, 3.0]
+  pin: [
+    [0, 0, 0.9, 5.0],
+    [5, 0, 0.9, 5.0],
+    [20, 0, 0.9, 5.0],
+    [25, 0, 0.9, 5.0],
+    [30, 0, 0.9, 5.0],
+    [30, -30, 0.9, 5.0],
+    [25, -30, 0.9, 5.0],
+    [20, -30, 0.9, 5.0],
+    [15, -30, 0.9, 5.0],
+    [10, -30, 0.9, 5.0],
+    [10, 0, 0.9, 5.0],
+    [0, -30, 0.9, 5.0],
+    [5, -30, 0.9, 5.0]
+  ]
+  npth: null
+  body_top_color_key: green body
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI30-2VA_1xSec:
+  model_name: Transformer_CHK_EI30-2VA_1xSec
+  serie: cube
+  A1: 0.1
+  body: [-3.5, -26.0, 27.0, 32.0, 32.0]
+  top: [-0.5, -23.0, 21.0, 26.0, 2.6]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [20, -20, 1.5, 3.5],
+    [20, -15, 1.5, 3.5],
+    [20, -10, 1.5, 3.5],
+    [20, -5, 1.5, 3.5],
+    [20, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/downloads/030-7585.0.pdf'
+
+Transformer_CHK_EI30-2VA_2xSec:
+  model_name: Transformer_CHK_EI30-2VA_2xSec
+  serie: cube
+  A1: 0.1
+  body: [-3.5, -26.0, 27.0, 32.0, 31.0]
+  top: [-0.5, -23.0, 21.0, 26.0, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [20, -20, 1.5, 3.5],
+    [20, -15, 1.5, 3.5],
+    [20, -10, 1.5, 3.5],
+    [20, -5, 1.5, 3.5],
+    [20, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/28#'
+
+Transformer_CHK_EI30-2VA_Neutral:
+  model_name: Transformer_CHK_EI30-2VA_Neutral
+  serie: cube
+  A1: 0.1
+  body: [-3.5, -26.0, 27.0, 32.0, 31.0]
+  top: [-0.5, -23.0, 21.0, 26.0, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [20, -20, 1.5, 3.5],
+    [20, -15, 1.5, 3.5],
+    [20, -10, 1.5, 3.5],
+    [20, -5, 1.5, 3.5],
+    [20, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI38-3VA_1xSec:
+  model_name: Transformer_CHK_EI38-3VA_1xSec
+  serie: cube
+  A1: 0.1
+  body: [-5.0, -30.25, 35.0, 40.5, 25.0]
+  top: [-2.0, -27.25, 29.0, 34.5, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [25, -20, 1.5, 3.5],
+    [25, -15, 1.5, 3.5],
+    [25, -10, 1.5, 3.5],
+    [25, -5, 1.5, 3.5],
+    [25, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/20'
+
+Transformer_CHK_EI38-3VA_2xSec:
+  model_name: Transformer_CHK_EI38-3VA_2xSec
+  serie: cube
+  A1: 0.1
+  body: [-5.0, -30.25, 35.0, 40.5, 25.0]
+  top: [-2.0, -27.25, 29.0, 34.5, 3.0]
+  pin: [
+    [0, 0, 1.5, 5.0],
+    [0, -5, 1.5, 5.0],
+    [0, -10, 1.5, 5.0],
+    [0, -15, 1.5, 5.0],
+    [0, -20, 1.5, 5.0],
+    [25, -20, 1.5, 5.0],
+    [25, -15, 1.5, 5.0],
+    [25, -10, 1.5, 5.0],
+    [25, -5, 1.5, 5.0],
+    [25, 0, 1.5, 5.0]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI38-3VA_Neutral:
+  model_name: Transformer_CHK_EI38-3VA_Neutral
+  serie: cube
+  A1: 0.1
+  body: [-5.0, -30.25, 35.0, 40.5, 25.0]
+  top: [-2.0, -27.25, 29.0, 34.5, 3.0]
+  pin: [
+    [0, 0, 1.5, 5.0],
+    [0, -5, 1.5, 5.0],
+    [0, -10, 1.5, 5.0],
+    [0, -15, 1.5, 5.0],
+    [0, -20, 1.5, 5.0],
+    [25, -20, 1.5, 5.0],
+    [25, -15, 1.5, 5.0],
+    [25, -10, 1.5, 5.0],
+    [25, -5, 1.5, 5.0],
+    [25, 0, 1.5, 5.0]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI42-5VA_1xSec:
+  model_name: Transformer_CHK_EI42-5VA_1xSec
+  serie: cube
+  A1: 0.1
+  body: [-6.0, -32.0, 37.0, 44.0, 32.0]
+  top: [-3.0, -29.0, 31.0, 38.0, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [25, -20, 1.5, 3.5],
+    [25, -15, 1.5, 3.5],
+    [25, -10, 1.5, 3.5],
+    [25, -5, 1.5, 3.5],
+    [25, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI42-5VA_2xSec:
+  model_name: Transformer_CHK_EI42-5VA_2xSec
+  serie: cube
+  A1: 0.1
+  body: [-6.0, -32.0, 37.0, 44.0, 32.0]
+  top: [-3.0, -29.0, 31.0, 38.0, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [25, -20, 1.5, 3.5],
+    [25, -15, 1.5, 3.5],
+    [25, -10, 1.5, 3.5],
+    [25, -5, 1.5, 3.5],
+    [25, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI42-5VA_Neutral:
+  model_name: Transformer_CHK_EI42-5VA_Neutral
+  serie: cube
+  A1: 0.1
+  body: [-6.0, -32.0, 37.0, 44.0, 32.0]
+  top: [-3.0, -29.0, 31.0, 38.0, 3.0]
+  pin: [
+    [0, 0, 1.5, 3.5],
+    [0, -5, 1.5, 3.5],
+    [0, -10, 1.5, 3.5],
+    [0, -15, 1.5, 3.5],
+    [0, -20, 1.5, 3.5],
+    [25, -20, 1.5, 3.5],
+    [25, -15, 1.5, 3.5],
+    [25, -10, 1.5, 3.5],
+    [25, -5, 1.5, 3.5],
+    [25, 0, 1.5, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/17'
+
+Transformer_CHK_EI48-10VA_Neutral:
+  model_name: Transformer_CHK_EI48-10VA_Neutral
+  serie: cubefeet
+  A1: 0.1
+  body: [-7.25, -46.5, 42.0, 68.0, 31, 5]
+  top: [-4.25, -43.5, 36.0, 62.0, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -25.05, 1.2, 3.5],
+    [27.5, -25, 1.2, 3.5],
+    [27.5, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [27.5, -5, 1.2, 3.5],
+    [27.5, -10, 1.2, 3.5],
+    [27.5, -15, 1.2, 3.5],
+    [27.5, -20, 1.2, 3.5],
+    [13.75, 17.25, 4.5, 3.5],
+    [13.75, -42.25, 4.5, 3.5]
+  ]
+  npth: [
+    [13.75, 17.25, 4.5],
+    [13.75, -42.25, 4.5]
+  ]
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/18'
+
+Transformer_CHK_EI48-8VA_1xSec:
+  model_name: Transformer_CHK_EI48-8VA_1xSec
+  serie: cube
+  A1: 0.1
+  body: [-7.3, -37.45, 42.1, 49.9, 31, 5]
+  top: [-4.3, -34.45, 36.1, 43.9, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -25.05, 1.2, 3.5],
+    [27.5, -25, 1.2, 3.5],
+    [27.5, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [27.5, -5, 1.2, 3.5],
+    [27.5, -10, 1.2, 3.5],
+    [27.5, -15, 1.2, 3.5],
+    [27.5, -20, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/18'
+
+Transformer_CHK_EI48-8VA_2xSec:
+  model_name: Transformer_CHK_EI48-8VA_2xSec
+  serie: cube
+  A1: 0.1
+  body: [-7.3, -37.45, 42.1, 49.9, 31, 5]
+  top: [-4.3, -34.45, 36.1, 43.9, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -25.05, 1.2, 3.5],
+    [27.5, -25, 1.2, 3.5],
+    [27.5, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [27.5, -5, 1.2, 3.5],
+    [27.5, -10, 1.2, 3.5],
+    [27.5, -15, 1.2, 3.5],
+    [27.5, -20, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/18'
+
+Transformer_CHK_EI48-8VA_Neutral:
+  model_name: Transformer_CHK_EI48-8VA_Neutral
+  serie: cube
+  A1: 0.1
+  body: [-7.3, -37.45, 42.1, 49.9, 31, 5]
+  top: [-4.3, -34.45, 36.1, 43.9, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -25.05, 1.2, 3.5],
+    [27.5, -25, 1.2, 3.5],
+    [27.5, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [27.5, -5, 1.2, 3.5],
+    [27.5, -10, 1.2, 3.5],
+    [27.5, -15, 1.2, 3.5],
+    [27.5, -20, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.eratransformers.com/product-detail/18'
+
+Transformer_CHK_EI54-12VA_1xSec:
+  model_name: Transformer_CHK_EI54-12VA_1xSec
+  serie: cube
+  A1: 0.1
+  body: [-8.5, -43.0, 47.0, 56.0, 36.0]
+  top: [-5.5, -40.0, 41.0, 50.0, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [0, -25, 1.2, 3.5],
+    [0, -30, 1.2, 3.5],
+    [30, -30, 1.2, 3.5],
+    [30, -25, 1.2, 3.5],
+    [30, -20, 1.2, 3.5],
+    [30, -15, 1.2, 3.5],
+    [30, -10, 1.2, 3.5],
+    [30, -5, 1.2, 3.5],
+    [30, 0, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI54-12VA_2xSec:
+  model_name: Transformer_CHK_EI54-12VA_2xSec
+  serie: cube
+  A1: 0.1
+  body: [-8.5, -43.0, 47.0, 56.0, 36.0]
+  top: [-5.5, -40.0, 41.0, 50.0, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [0, -25, 1.2, 3.5],
+    [0, -30, 1.2, 3.5],
+    [30, -30, 1.2, 3.5],
+    [30, -25, 1.2, 3.5],
+    [30, -20, 1.2, 3.5],
+    [30, -15, 1.2, 3.5],
+    [30, -10, 1.2, 3.5],
+    [30, -5, 1.2, 3.5],
+    [30, 0, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_CHK_EI54-12VA_Neutral:
+  model_name: Transformer_CHK_EI54-12VA_Neutral
+  serie: cube
+  A1: 0.1
+  body: [-8.5, -43.0, 47.0, 56.0, 36.0]
+  top: [-5.5, -40.0, 41.0, 50.0, 3.0]
+  pin: [
+    [0, 0, 1.2, 3.5],
+    [0, -5, 1.2, 3.5],
+    [0, -10, 1.2, 3.5],
+    [0, -15, 1.2, 3.5],
+    [0, -20, 1.2, 3.5],
+    [0, -25, 1.2, 3.5],
+    [0, -30, 1.2, 3.5],
+    [30, -30, 1.2, 3.5],
+    [30, -25, 1.2, 3.5],
+    [30, -20, 1.2, 3.5],
+    [30, -15, 1.2, 3.5],
+    [30, -10, 1.2, 3.5],
+    [30, -5, 1.2, 3.5],
+    [30, 0, 1.2, 3.5]
+  ]
+  npth: null
+  body_top_color_key: blue body
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_Microphone_Lundahl_LL1538:
+  model_name: Transformer_Microphone_Lundahl_LL1538
+  serie: cube
+  A1: 0.1
+  body: [-5.08, -19.68, 38.1, 24.12, 17.0]
+  top: null
+  pin: [
+    [0, 0, 1.52, 3.0],
+    [0, -5.08, 1.52, 3.0],
+    [0, -10.16, 1.52, 3.0],
+    [0, -15.24, 1.52, 3.0],
+    [27.94, 0, 1.52, 3.0],
+    [27.94, -5.08, 1.52, 3.0],
+    [27.94, -15.24, 1.52, 3.0]
+  ]
+  npth: null
+  body_top_color_key: metal grey pins
+  body_color_key: metal grey pins
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'https://www.lundahltransformers.com/wp-content/uploads/datasheets/1538_8xl.pdf'
+
+Transformer_Microphone_Lundahl_LL1587:
+  model_name: Transformer_Microphone_Lundahl_LL1587
+  serie: cube
+  A1: 0.1
+  body: [-3.81, -14.61, 27.94, 17.79, 12.0]
+  top: null
+  pin: [
+    [0, 0, 1.52, 3.0],
+    [0, -3.81, 1.52, 3.0],
+    [0, -7.62, 1.52, 3.0],
+    [0, -11.43, 1.52, 3.0],
+    [20.32, 0, 1.52, 3.0],
+    [20.32, -3.81, 1.52, 3.0],
+    [20.32, -11.43, 1.52, 3.0]
+  ]
+  npth: null
+  body_top_color_key: metal grey pins
+  body_color_key: metal grey pins
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'N/A'
+
+Transformer_NF_ETAL_1-1_P1200:
+  model_name: Transformer_NF_ETAL_1-1_P1200
+  serie: cube
+  A1: 0.1
+  body: [-15.35, -5.19, 18.0, 18.0, 12.6]
+  top: null
+  pin: [
+    [-12.7, 0, 0.81, 3.0],
+    [-12.7, 7.62, 0.81, 3.0],
+    [0, 0, 0.81, 3.0],
+    [0, 7.62, 0.81, 3.0]
+  ]
+  npth: null
+  body_top_color_key: black body
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.etalgroup.com/sites/default/files/products/P1200_April_2005.pdf'
+
+Transformer_NF_ETAL_P1165:
+  model_name: Transformer_NF_ETAL_P1165
+  serie: cube
+  A1: 0.1
+  body: [-14.75, -4.75, 19.5, 19.5, 11.0]
+  top: null
+  pin: [
+    [-10, 0, 0.81, 3.0],
+    [-10, 10, 0.81, 3.0],
+    [0, 0, 0.81, 3.0],
+    [0, 10, 0.81, 3.0]
+  ]
+  npth: null
+  body_top_color_key: black body
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Transformer_THT.3dshapes
+  source: 'http://www.etalgroup.com/sites/default/files/products/P1165_February_2006.pdf'

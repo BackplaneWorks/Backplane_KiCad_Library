@@ -1,0 +1,12 @@
+PartNumber,widthX,lengthY,height,padY,padX,padInsideX,landingInsideX,landingX,landingY,datasheet
+SL0420, 4.5, 4.1, 2.0, 2.0, 1.0, 2.5, 2.15, 1.4, 2.3, http://www.sealand-pptc.com/product_view.php?r=77
+SL0520, 5.7, 5.2, 2.0, 2.0, 1.0, 3.7, 2.0, 1.6, 2.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL0530, 5.7, 5.2, 3.0, 2.0, 1.0, 3.7, 2.0, 1.6, 2.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL0620, 7.1, 6.6, 2.0, 3.0, 1.5, 4.1, 3.6, 2.4, 3.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL0624, 7.1, 6.6, 2.4, 3.0, 1.5, 4.1, 3.6, 2.4, 3.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL0630, 7.1, 6.6, 3.0, 3.0, 1.5, 4.1, 3.6, 2.4, 3.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL0650, 7.1, 6.6, 5.0, 3.0, 1.5, 4.1, 3.6, 2.4, 3.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL1040, 11.0, 10.5, 4.0, 3.0, 2.0, 7.0, 6.0, 3.25, 4.0, http://www.sealand-pptc.com/product_view.php?r=77
+SL1050, 11.0, 10.5, 5.0, 3.0, 2.0, 7.0, 6.0, 3.25, 4.0, http://www.sealand-pptc.com/product_view.php?r=77
+SL1250, 13.5, 12.8, 5.0, 3.5, 2.5, 8.5, 8.0, 3.25, 4.5, http://www.sealand-pptc.com/product_view.php?r=77
+SL1265, 13.5, 12.8, 6.5, 3.5, 2.5, 8.5, 8.0, 3.25, 4.5, http://www.sealand-pptc.com/product_view.php?r=77

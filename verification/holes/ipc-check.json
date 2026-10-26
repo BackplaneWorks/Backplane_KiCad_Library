@@ -1,0 +1,8 @@
+{
+  "path": "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_positive.kicad_pcb",
+  "attempts": [
+    {"tool": "kicad_ipc_status", "error": "no KiCad project (.kicad_pro) found for /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_positive.kicad_pcb"},
+    {"tool": "kicad_ipc", "type": "kiapi.board.commands.GetItems", "message": {}, "error": "no KiCad project (.kicad_pro) found for /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_positive.kicad_pcb"}
+  ],
+  "fallback": "Standalone experiment board files generated directly, then re-read, zone-filled and saved with the selected kicad-cli. No canonical project created or changed."
+}

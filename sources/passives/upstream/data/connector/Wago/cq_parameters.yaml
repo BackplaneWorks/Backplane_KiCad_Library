@@ -1,0 +1,240 @@
+Wago_734-132_1x02_P3.50mm_Vertical:
+  model_name: 'Wago_734-132_1x02_P3.50mm_Vertical'
+  num_pins : 2
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+  include_in_qa: True
+Wago_734-133_1x03_P3.50mm_Vertical:
+  model_name: 'Wago_734-133_1x03_P3.50mm_Vertical'
+  num_pins : 3
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+  include_in_qa: True
+Wago_734-134_1x04_P3.50mm_Vertical:
+  model_name: 'Wago_734-134_1x04_P3.50mm_Vertical'
+  num_pins : 4
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-135_1x05_P3.50mm_Vertical:
+  model_name: 'Wago_734-135_1x05_P3.50mm_Vertical'
+  num_pins : 5
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-136_1x06_P3.50mm_Vertical:
+  model_name: 'Wago_734-136_1x06_P3.50mm_Vertical'
+  num_pins : 6
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-137_1x07_P3.50mm_Vertical:
+  model_name: 'Wago_734-137_1x07_P3.50mm_Vertical'
+  num_pins : 7
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-138_1x08_P3.50mm_Vertical:
+  model_name: 'Wago_734-138_1x08_P3.50mm_Vertical'
+  num_pins : 8
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-139_1x09_P3.50mm_Vertical:
+  model_name: 'Wago_734-139_1x09_P3.50mm_Vertical'
+  num_pins : 9
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-140_1x10_P3.50mm_Vertical:
+  model_name: 'Wago_734-140_1x10_P3.50mm_Vertical'
+  num_pins : 10
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-141_1x11_P3.50mm_Vertical:
+  model_name: 'Wago_734-141_1x11_P3.50mm_Vertical'
+  num_pins : 11
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-142_1x12_P3.50mm_Vertical:
+  model_name: 'Wago_734-142_1x12_P3.50mm_Vertical'
+  num_pins : 12
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-143_1x13_P3.50mm_Vertical:
+  model_name: 'Wago_734-143_1x13_P3.50mm_Vertical'
+  num_pins : 13
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-144_1x14_P3.50mm_Vertical:
+  model_name: 'Wago_734-144_1x14_P3.50mm_Vertical'
+  num_pins : 14
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-146_1x16_P3.50mm_Vertical:
+  model_name: 'Wago_734-146_1x16_P3.50mm_Vertical'
+  num_pins : 16
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-148_1x18_P3.50mm_Vertical:
+  model_name: 'Wago_734-148_1x18_P3.50mm_Vertical'
+  num_pins : 18
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-150_1x20_P3.50mm_Vertical:
+  model_name: 'Wago_734-150_1x20_P3.50mm_Vertical'
+  num_pins : 20
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-154_1x24_P3.50mm_Vertical:
+  model_name: 'Wago_734-154_1x24_P3.50mm_Vertical'
+  num_pins : 24
+  orientation: 'Vertical'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-162_1x02_P3.50mm_Horizontal:
+  model_name: 'Wago_734-162_1x02_P3.50mm_Horizontal'
+  num_pins : 2
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-163_1x03_P3.50mm_Horizontal:
+  model_name: 'Wago_734-163_1x03_P3.50mm_Horizontal'
+  num_pins : 3
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-164_1x04_P3.50mm_Horizontal:
+  model_name: 'Wago_734-164_1x04_P3.50mm_Horizontal'
+  num_pins : 4
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-165_1x05_P3.50mm_Horizontal:
+  model_name: 'Wago_734-165_1x05_P3.50mm_Horizontal'
+  num_pins : 5
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-166_1x06_P3.50mm_Horizontal:
+  model_name: 'Wago_734-166_1x06_P3.50mm_Horizontal'
+  num_pins : 6
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-167_1x07_P3.50mm_Horizontal:
+  model_name: 'Wago_734-167_1x07_P3.50mm_Horizontal'
+  num_pins : 7
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-168_1x08_P3.50mm_Horizontal:
+  model_name: 'Wago_734-168_1x08_P3.50mm_Horizontal'
+  num_pins : 8
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-169_1x09_P3.50mm_Horizontal:
+  model_name: 'Wago_734-169_1x09_P3.50mm_Horizontal'
+  num_pins : 9
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-170_1x10_P3.50mm_Horizontal:
+  model_name: 'Wago_734-170_1x10_P3.50mm_Horizontal'
+  num_pins : 10
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-171_1x11_P3.50mm_Horizontal:
+  model_name: 'Wago_734-171_1x11_P3.50mm_Horizontal'
+  num_pins : 11
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-172_1x12_P3.50mm_Horizontal:
+  model_name: 'Wago_734-172_1x12_P3.50mm_Horizontal'
+  num_pins : 12
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-173_1x13_P3.50mm_Horizontal:
+  model_name: 'Wago_734-173_1x13_P3.50mm_Horizontal'
+  num_pins : 13
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-174_1x14_P3.50mm_Horizontal:
+  model_name: 'Wago_734-174_1x14_P3.50mm_Horizontal'
+  num_pins : 14
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-176_1x16_P3.50mm_Horizontal:
+  model_name: 'Wago_734-176_1x16_P3.50mm_Horizontal'
+  num_pins : 16
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-178_1x18_P3.50mm_Horizontal:
+  model_name: 'Wago_734-178_1x18_P3.50mm_Horizontal'
+  num_pins : 18
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-180_1x20_P3.50mm_Horizontal:
+  model_name: 'Wago_734-180_1x20_P3.50mm_Horizontal'
+  num_pins : 20
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'
+Wago_734-184_1x24_P3.50mm_Horizontal:
+  model_name: 'Wago_734-184_1x24_P3.50mm_Horizontal'
+  num_pins : 24
+  orientation: 'Horizontal'
+  body_color_key: 'white body'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_Wago.3dshapes'

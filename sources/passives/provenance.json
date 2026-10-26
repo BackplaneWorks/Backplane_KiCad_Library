@@ -1,0 +1,11 @@
+{
+  "repository": "https://gitlab.com/kicad/libraries/kicad-library-tools.git",
+  "commit": "cb7f08bddfd922d9f2f1f476cf01962874156434",
+  "tree": "4b710d3655d15b23a72c1c7b7a2cb93296cbc111",
+  "recovered_checkout": "/home/h/Documents/i2cjak/T3CAD_Example/tools/kicad-library-tools",
+  "tracked_snapshot_files": 1579,
+  "snapshot": "upstream/",
+  "model_package": "kicad-packages3d 10.0.7~ubuntu26.04.1",
+  "model_origin": "/usr/share/kicad/3dmodels",
+  "model_hashes": "../../3dmodels/passives-provenance.json"
+}

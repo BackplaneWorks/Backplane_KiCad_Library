@@ -1,0 +1,862 @@
+##
+## REGULAR
+##
+
+# Vertical
+
+9_Vertical_P2.77x2.84mm:
+  pin: ['round', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Vertical_P2.77x2.84mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+9_Vertical_P2.77x2.84mm_MountingHoles:
+  pin: ['round', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Vertical_P2.77x2.84mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+  include_in_qa: True
+
+15_Vertical_P2.77x2.84mm:
+  pin: ['round', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Vertical_P2.77x2.84mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+15_Vertical_P2.77x2.84mm_MountingHoles:
+  pin: ['round', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Vertical_P2.77x2.84mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+
+25_Vertical_P2.77x2.84mm:
+  pin: ['round', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Vertical_P2.77x2.84mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+25_Vertical_P2.77x2.84mm_MountingHoles:
+  pin: ['round', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Vertical_P2.77x2.84mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+
+37_Vertical_P2.77x2.84mm:
+  pin: ['round', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Vertical_P2.77x2.84mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+37_Vertical_P2.77x2.84mm_MountingHoles:
+  pin: ['round', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Vertical_P2.77x2.84mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=16'
+
+# Horizontal with no housing, P2.77x2.54mm
+
+9_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm:
+  pin: ['round1', 9, 2.77, 2.54, 0.64, 3.9]
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 9.40 + 2.54 = 11.94
+  npthserie: [3, 11.94]
+  genders: ['pins', 'socket']
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  npth_pin_color_key: 'black body'
+  model_name: 'DSUB-9_{}_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm'
+  destination_dir: 'Connector_Dsub.3dshapes'
+  translate: null
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+15_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm:
+  pin: ['round1', 15, 2.77, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 11.94]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+25_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm:
+  pin: ['round1', 25, 2.77, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 11.94]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+37_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm:
+  pin: ['round1', 37, 2.77, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 11.94]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+# Horizontal with no housing, P2.77x2.84mm
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 9.40 + 2.84 = 12.24
+  npthserie: [3, 12.24]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 12.24]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 12.24]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [3, 12.24]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm
+  source: 'https://docs.rs-online.com/02d6/0900766b81585df2.pdf'
+
+# Horizontal with housing, 5.0mm footprint
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 5.34 - 0.40 + 2.84 = 7.78
+  # Body depth: 8.6
+  # Distance between the mounting hole and pin 1: 2.84
+  npthserie: [2, 7.78, 8.6, 2.84]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=4'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 7.78, 8.6, 2.84]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=4'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 7.78, 8.6, 2.84]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=4'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 7.78, 8.6, 2.84]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=4'
+
+# Horizontal with housing
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 8.1 - 0.4 + 2.84 = 10.54
+  # Body depth: 8.1 - 0.4 + 2.84 + ??[1.8] = 12.34
+  # Distance between the mounting hole and pin 1: 2.84 / 2 = 1.42
+  npthserie: [2, 10.54, 12.34, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=5'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 10.54, 12.34, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=5'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 10.54, 12.34, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=5'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 10.54, 12.34, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=5'
+
+#
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 10.3 - 0.4 + 2.84 = 12.74
+  # Body depth: 10.3 - 0.4 + 2.84 + ??[1.8] = 14.54
+  # Distance between the mounting hole and pin 1: 2.84 / 2 = 1.42
+  npthserie: [2, 12.74, 14.54, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=6'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 12.74, 14.54, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=6'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 12.74, 14.54, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=6'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 12.74, 14.54, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=6'
+
+#
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 14.96 - 0.4 + 2.84 = 17.4
+  # Body depth: 14.96 - 0.4 + 2.84 + ??[1.8] = 19.2
+  # Distance between the mounting hole and pin 1: 14.96 + 2.84 - 8.6 = 9.2
+  npthserie: [2, 17.4, 19.2, 9.2]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 9.2]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 9.2]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 9.2]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+#
+
+9_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm:
+  pin: ['round1', 9, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  # Distance between the edge of the PCB and pin 1: 14.96 - 0.4 + 2.84 = 17.4
+  # Body depth: 14.96 - 0.4 + 2.84 + ??[1.8] = 19.2
+  # Distance between the mounting hole and pin 1: 2.84 / 2 = 1.42
+  npthserie: [2, 17.4, 19.2, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-9_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+15_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm:
+  pin: ['round1', 15, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+25_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm:
+  pin: ['round1', 25, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-25_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+37_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm:
+  pin: ['round1', 37, 2.77, 2.84, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 2
+  npthserie: [2, 17.4, 19.2, 1.42]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-37_{}_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=7'
+
+##
+## HIGH DENSITY
+##
+
+# Vertical
+
+15_Vertical_P2.29x1.98mm_MountingHoles:
+  pin: ['round', 15, 2.29, 1.98, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15-HD_{}_Vertical_P2.29x1.98mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=19'
+
+26_Vertical_P2.29x1.98mm_MountingHoles:
+  pin: ['round', 26, 2.29, 1.98, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-26-HD_{}_Vertical_P2.29x1.98mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=19'
+
+44_Vertical_P2.29x1.98mm_MountingHoles:
+  pin: ['round', 44, 2.29, 1.98, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-44-HD_{}_Vertical_P2.29x1.98mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=19'
+
+62_Vertical_P2.41x1.98mm_MountingHoles:
+  pin: ['round', 62, 2.41, 1.98, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [1]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-62-HD_{}_Vertical_P2.41x1.98mm_MountingHoles
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=19'
+
+# Horizontal with housing, 5.0mm footprint
+
+15_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 15, 2.29, 1.90, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  # Distance between the edge of the PCB and pin 1: 5.34 - 0.4 + 1.9 = 6.84
+  # Body depth: 8.6
+  # Distance between the mounting hole and pin 1: 1.90
+  npthserie: [2, 6.84, 8.6, 1.90]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15-HD_{}_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=9'
+
+26_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 26, 2.29, 1.90, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 6.84, 8.6, 1.90]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-26-HD_{}_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=9'
+
+44_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 44, 2.29, 1.90, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 6.84, 8.6, 1.90]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-44-HD_{}_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=9'
+
+62_Horizontal_P2.41x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm:
+  pin: ['round1', 62, 2.41, 1.90, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 6.84, 8.6, 1.90]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-62-HD_{}_Horizontal_P2.41x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=9'
+
+# Horizontal with housing
+
+15_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm:
+  pin: ['round1', 15, 2.29, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  # Distance between the edge of the PCB and pin 1: 11.29 - 0.4 + 2.54 = 13.43
+  # Body depth: 11.29 - 0.4 + 2.54 + ??[1.8] = 15.23
+  # Distance between the mounting hole and pin 1: 2.54
+  npthserie: [2, 13.43, 15.23, 2.54]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-15-HD_{}_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=10'
+
+26_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm:
+  pin: ['round1', 26, 2.29, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 13.43, 15.23, 2.54]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-26-HD_{}_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=10'
+
+44_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm:
+  pin: ['round1', 44, 2.29, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 13.43, 15.23, 2.54]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-44-HD_{}_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=10'
+
+62_Horizontal_P2.41x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm:
+  pin: ['round1', 62, 2.41, 2.54, 0.64, 3.9]
+  genders: ['pins', 'socket']
+  serie: 3
+  npthserie: [2, 13.43, 15.23, 2.54]
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'metal grey pins'
+  pin_color_key: 'metal grey pins'
+  rotatex: null
+  rotatey: null
+  rotatez: null
+  translate: null
+  destination_dir: Connector_Dsub.3dshapes
+  model_name: DSUB-62-HD_{}_Horizontal_P2.41x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+  source: 'https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf#page=10'

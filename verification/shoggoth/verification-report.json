@@ -1,0 +1,170 @@
+{
+  "Shoggoth_Badge_25mm": {
+    "sha256": "52d580a5ee58d20c7027e14c41390453f083c9897cff6a313a449545d4eb2da9",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 3.705594900814439e-05,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Paste.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Mask.svg"
+    ]
+  },
+  "Shoggoth_Badge_35mm": {
+    "sha256": "7095c2472690ab8486ce95704a4e8e8a8bfc523e5c59b8adc26a979310633c38",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Mask.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Paste.svg"
+    ]
+  },
+  "Shoggoth_Badge_50mm": {
+    "sha256": "f92fef86f254838a0790edd48ce83777159d7389239416347df73a5f0f72ba11",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 0.00016026881458880665,
+      "F.Cu": 3.054337039581342e-06,
+      "F.Mask": 3.054337039581342e-06
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Mask.svg",
+      "verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Paste.svg"
+    ]
+  },
+  "Shoggoth_Mascot_25mm": {
+    "sha256": "d9770371b7d005a8fd54e95449b42589ddb48b9086debc9131e65c3f3f656a3f",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 1.8716380594282088e-05,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Paste.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Mask.svg"
+    ]
+  },
+  "Shoggoth_Mascot_35mm": {
+    "sha256": "93187c6d573cace871fe9c9a59d990798e9f653c64809fc71c5a4d102d1d598c",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Mask.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Paste.svg"
+    ]
+  },
+  "Shoggoth_Mascot_50mm": {
+    "sha256": "d30093d810455639428ae7290066eca9e17e8654d8aa2575727039245da98166",
+    "roundtrip_difference_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "outside_scaled_source_mm2": {
+      "F.SilkS": 0.00012151521139055117,
+      "F.Cu": 3.054337039581342e-06,
+      "F.Mask": 3.054337039581342e-06
+    },
+    "outside_source_with_2nm_grid_allowance_mm2": {
+      "F.SilkS": 0.0,
+      "F.Cu": 0.0,
+      "F.Mask": 0.0
+    },
+    "copper_mask_raster_equal": true,
+    "paste_raster_blank": true,
+    "drc_violations": 0,
+    "unconnected_items": 0,
+    "layer_plots": [
+      "verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Mask.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Cu.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Silkscreen.svg",
+      "verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Paste.svg"
+    ]
+  }
+}

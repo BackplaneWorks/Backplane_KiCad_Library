@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Backplane_MountingHole")(type "KiCad")(uri "${BACKPLANE_KICAD_LIBRARY}/libraries/Backplane_MountingHole.pretty")(options "")(descr "Backplane reusable footprint library"))
+  (lib (name "Backplane_Passives_Least")(type "KiCad")(uri "${BACKPLANE_KICAD_LIBRARY}/libraries/Backplane_Passives_Least.pretty")(options "")(descr "Backplane reusable footprint library"))
+  (lib (name "Backplane_Passives_Most")(type "KiCad")(uri "${BACKPLANE_KICAD_LIBRARY}/libraries/Backplane_Passives_Most.pretty")(options "")(descr "Backplane reusable footprint library"))
+  (lib (name "Backplane_Passives_Nominal")(type "KiCad")(uri "${BACKPLANE_KICAD_LIBRARY}/libraries/Backplane_Passives_Nominal.pretty")(options "")(descr "Backplane reusable footprint library"))
+  (lib (name "Backplane_Shoggoth")(type "KiCad")(uri "${BACKPLANE_KICAD_LIBRARY}/libraries/Backplane_Shoggoth.pretty")(options "")(descr "Backplane reusable footprint library"))
+)

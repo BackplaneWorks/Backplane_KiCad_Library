@@ -1,0 +1,176 @@
+Jack_3.5mm_CUI_SJ1-3533NG_Horizontal:
+  model_name: 'Jack_3.5mm_CUI_SJ1-3533NG_Horizontal' # modelName
+  W: 8.20                                      # Body width
+  L: 14.00                                      # Body length
+  H: 12.30                                      # Body height
+  BX: -0.10                                    # Body center X
+  BY: 5.80                                     # Body center Y
+  AX: -0.80                                    # Appendix X
+  AY: 7.00                                     # Appendix Y
+  AZ: 7.00                                     # Appendix Z
+  AW: 6.00                                     # Appendix width
+  AW1: 3.60                                    # Appendix width 1
+  AL: 4.00                                     # Appendix length
+  A1: 0.01                                      # Body-board separation
+  pin: [['rect', 0.0, 0.0, 1.5, 0.5, 3.3], ['rect', -2.0, 2.4, 1.5, 0.5, 3.3], ['rect', -2.0, 7.9, 1.5, 0.5, 3.3]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'black body'             # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'grey body'              # NPTH Pin color
+  rotation: 180                                 # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+  include_in_qa: True
+
+Jack_3.5mm_Ledino_KB3SPRS_Horizontal:
+  model_name: 'Jack_3.5mm_Ledino_KB3SPRS_Horizontal' # modelName
+  W: 14.30                                      # Body width
+  L: 11.60                                      # Body length
+  H: 6.10                                      # Body height
+  BX: 1.45                                     # Body center X
+  BY: 4.90                                     # Body center Y
+  AX: -0.30                                    # Appendix X
+  AY: -10.75                                    # Appendix Y
+  AZ: 3.10                                     # Appendix Z
+  AW: 6.00                                     # Appendix width
+  AW1: 3.60                                    # Appendix width 1
+  AL: 3.60                                     # Appendix length
+  A1: 0.01                                      # Body-board separation
+  pin: [['rect', 0.0, 0.0, 1.2, 0.2, 3.2], ['rect', -3.9, 4.6, 0.2, 1.2, 3.2], ['rect', 7.3, 0.5, 0.2, 1.2, 3.2], ['rect', 2.9, 7.1, 1.2, 0.2, 3.2], ['rect', 4.1, 9.8, 1.2, 0.2, 3.2]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'black body'             # Body color
+  pin_color_key      : 'metal silver'           # Pin color
+  npth_pin_color_key : 'grey body'              # NPTH Pin color
+  rotation: 0                                   # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+
+Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal:
+  model_name: 'Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal' # modelName
+  W: 20.61                                      # Body width
+  L: 18.20                                      # Body length
+  H: 8.14                                      # Body height
+  BX: -6.40                                    # Body center X
+  BY: 8.00                                     # Body center Y
+  AX: 6.40                                     # Appendix X
+  AY: 7.78                                     # Appendix Y
+  AZ: 8.14                                     # Appendix Z
+  AW: 23.53                                     # Appendix width
+  AL: 7.00                                     # Appendix diameter
+  AW1: 2.00                                    # Appendix width 1
+  AL1: 11.00                                    # Appendix length 1
+  AW2: 1.50                                    # Appendix width 2
+  AL2: 15.00                                    # Appendix length 2
+  A1: 0.01                                      # Body-board separation
+  pin: [['bougl', 0.0, 0.0, 1.2, 0.2, 4.0, 14.0, 30.0], ['bougl', -6.35, 0.0, 1.2, 0.2, 4.0, 14.0, 30.0], ['bougl', -12.7, 0.0, 1.2, 0.2, 4.0, 14.0, 30.0], ['bougr', 0.0, 16.23, 1.2, 0.2, 4.0, 14.0, 30.0], ['bougr', -6.35, 16.23, 1.2, 0.2, 4.0, 14.0, 30.0], ['bougr', -12.7, 16.23, 1.2, 0.2, 4.0, 14.0, 30.0]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'black body'             # Body color
+  pin_color_key      : 'metal silver'           # Pin color
+  npth_pin_color_key : 'grey body'              # NPTH Pin color
+  rotation: 180                                 # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+
+Jack_3.5mm_PJ320D_Horizontal:
+  model_name: 'Jack_3.5mm_PJ320D_Horizontal'     # modelName
+  W: 12.10                                      # Body width
+  L: 6.10                                      # Body length
+  H: 5.00                                      # Body height
+  BX: -0.50                                    # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 1                                         # Body type
+  AX: -6.05                                    # Appendix X
+  AY: 0.0                                      # Appendix Y
+  AZ: 2.50                                     # Appendix Z
+  AW: 2.00                                     # Appendix width
+  AW1: null                                    # Appendix width 1
+  AL: 5.60                                     # Appendix length
+  AL1: 3.6                                     # Appendix length
+  A1: 0.01                                      # Body-board separation
+  pin: [['smd', -3.175, -3.25, 1.2, 2.5, 0.2], ['smd', -0.175, -3.25, 1.2, 2.5, 0.2], ['smd', 3.825, -3.25, 1.2, 2.5, 0.2], ['smd', 4.925, 3.25, 1.2, 2.5, 0.2]]
+  npthpin: [['pin', -4.775, 0.0, 1.5, 2.0], ['pin', 2.225, 0.0, 1.5, 2.0]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'red body'               # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'red body'               # NPTH Pin color
+  rotation: 0                                   # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+
+Jack_3.5mm_PJ320E_Horizontal:
+  model_name: 'Jack_3.5mm_PJ320E_Horizontal'     # modelName
+  W: 7.00                                      # Body width
+  L: 11.20                                      # Body length
+  H: 5.00                                      # Body height
+  BX: 2.70                                     # Body center X
+  BY: 3.60                                     # Body center Y
+  BT: 2                                         # Body type
+  AX: -0.40                                    # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 2.50                                     # Appendix Z
+  AW: 2.80                                     # Appendix width
+  AW1: null                                    # Appendix width 1
+  AL: 5.60                                     # Appendix length
+  AL1: 3.6                                     # Appendix length
+  A1: 0.01                                      # Body-board separation
+  pin: [['rect', 0.0, 0.0, 0.2, 1.0, 3.0], ['rect', 4.5, 1.5, 0.2, 0.9, 3.0], ['rect', 0.0, -4.0, 0.2, 1.0, 3.0], ['rect', 0.0, -7.0, 0.2, 1.0, 3.0], ['rect', 5.5, -7.0, 0.2, 1.0, 3.0]]
+  npthpin: [['pin', 2.3, 1.3, 1.2, 2.0], ['pin', 2.3, -5.7, 1.2, 2.0]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'black body'             # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'black body'             # NPTH Pin color
+  rotation: 0                                   # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+
+Jack_3.5mm_PJ31060-I_Horizontal:
+  model_name: 'Jack_3.5mm_PJ31060-I_Horizontal'  # modelName
+  W: 6.20                                      # Body width
+  L: 12.00                                      # Body length
+  H: 4.10                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 1.15                                     # Body center Y
+  BT: 3                                         # Body type
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 2.00                                     # Appendix Z
+  AW: 2.00                                     # Appendix width
+  AW1: null                                    # Appendix width 1
+  AL: 5.00                                     # Appendix length
+  AL1: 3.6                                     # Appendix length
+  A1: 0.50                                      # Body-board separation
+  pin: [['smd', -3.65, 3.45, 2.2, 1.2, 0.2], ['smd', -3.65, -1.65, 2.2, 1.2, 0.2], ['smd', -3.65, -4.35, 2.2, 1.2, 0.2], ['smd', 3.2, -4.35, 3.1, 1.2, 0.2], ['smd', 3.65, 2.15, 2.2, 1.2, 0.2], ['smd', 3.0, 4.35, 3.1, 0.8, 0.2]]
+  npthpin: [['pin', 0.0, 3.35, 1.5, 2.0]]
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'red body'               # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'red body'               # NPTH Pin color
+  rotation: 0                                   # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'
+
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical:
+  model_name: 'Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical'  # modelName
+  W: 9.00                                      # Body width
+  L: 10.50                                      # Body length
+  H: 9.00                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: -7.23                                    # Body center Y
+  BT: 4                                         # Body type
+  AX: 0.00                                     # Appendix X
+  AY: 1.50                                     # Appendix Y
+  AZ: 9.00                                     # Appendix Z
+  AW: 6.00                                     # Appendix width
+  AW1: 3.60                                    # Appendix width
+  AL: 1.00                                     # Appendix length
+  AL1: 4.50                                    # Appendix length
+  A1: 0.00                                      # Body-board separation
+  pin: [['rect1', 0.0, 0.0, 0.8, 0.2, 3.5, 8.0], ['rect', 0.0, 3.1, 0.8, 0.2, 3.5], ['rect', 0.0, 11.41, 0.8, 0.2, 3.5]]
+  npthpin: []
+  body_top_color_key : 'metal aluminum'         # Top color
+  body_color_key     : 'black body'             # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'red body'               # NPTH Pin color
+  rotation: 0                                   # Rotation if required
+  destination_dir: 'Connector_Audio.3dshapes'   # destination directory
+  source: 'https://www.cui.com/product/resource/sj1-353xng.pdf'

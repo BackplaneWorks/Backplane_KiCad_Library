@@ -1,0 +1,124 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Package_LGA
+
+Texas_MicroSiP-10-1EP_3.8x3.0mm_P0.6mm_EP0.7x2.9mm_ThermalVia:
+  size_source: 'http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf'
+  include_suffix_in_3dpath: False
+  device_type: 'MicroSiP'
+  manufacturer: 'Texas'
+  part_number: 'SIL0010A'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 3.8
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 5
+  pitch: 0.6
+  lead_width:
+    nominal: 0.3
+    tolerance: 0.1
+  lead_len: # this will result in a pad 0.8x0.45 (max tolerance + placement_tolerance)
+    nominal: 0.65
+    tolerance: 0.1
+  lead_center_pos_x:
+    nominal: 1.525
+    tolerance: 0
+  EP_size_x: 0.6 .. 0.8
+  EP_size_y: 2.8 .. 3.0
+  EP_center_x:
+    nominal: -0.175
+  EP_center_y:
+    nominal: 0
+  EP_num_paste_pads: [1, 3]
+  thermal_vias:
+    count: [1, 3]
+    grid: 1.03
+    drill: 0.2
+    EP_num_paste_pads: [1, 3]
+    EP_paste_coverage: 0.86
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19'
+  include_suffix_in_3dpath: False
+  device_type: 'MicroSiP'
+  manufacturer: 'Texas'
+  part_number: 'SIL0008D'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 2.7
+    maximum: 2.9
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.38
+    maximum: 0.42
+  lead_len:
+    minimum: 0.48
+    maximum: 0.52
+  lead_to_edge:
+    nominal: 0.1
+    tolerance: 0
+  EP_size_x:
+    minimum: 1.0
+    maximum: 1.2
+  EP_size_y:
+    minimum: 1.8
+    maximum: 2.0
+  EP_num_paste_pads: [1, 3]
+  thermal_vias:
+    count: [1, 3]
+    grid: 0.75
+    drill: 0.2
+    EP_num_paste_pads: [1, 3]
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+Texas_SIL0008C_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps82085.pdf#page=20'
+  include_suffix_in_3dpath: False
+  device_type: 'MicroSiP'
+  manufacturer: 'Texas'
+  part_number: 'SIL0008C'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 2.7
+    maximum: 2.9
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.38
+    maximum: 0.42
+  lead_len:
+    minimum: 0.48
+    maximum: 0.52
+  lead_to_edge:
+    nominal: 0.05
+    tolerance: 0
+  EP_size_x:
+    minimum: 1.0
+    maximum: 1.2
+  EP_size_y:
+    minimum: 1.8
+    maximum: 2.0
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [1, 3]
+    grid: 0.75
+    drill: 0.2
+    EP_paste_coverage: 0.85

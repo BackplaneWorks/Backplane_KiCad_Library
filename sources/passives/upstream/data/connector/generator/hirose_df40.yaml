@@ -1,0 +1,177 @@
+defaults:
+  library: 'Hirose_DF40'
+  #parameters:
+    # subseries: DF40C, DF40B, DF40HC or DF40HB, etc
+    # height_code: '' or '(2.0)', etc
+    # type_code: is DS for receptacle/socket, DP for plug
+  fp_name: 'Hirose_{subseries}{height_code}-{num_pins:d}{type_code}-0.4V'
+  source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT
+  # Do not define number positions here. The number of positions depends on the stacking height, retention tabs or shielding.
+  pad_pitch: 0.4
+  parameters:
+    height_code: ""
+    num_pins: $(num_pos*2)
+
+# ==== Templates ====
+defaults_DF40C-{num_pins:d}DS-0.4V:
+  inherit: 'defaults'
+  description: '0.4mm Pitch, Stacking Height {stack_height:f}mm, Receptacle, vertical'
+  tags: 'conn hirose board-to-board mezzanine stacking receptacle'
+  parameters:
+    type_code: 'DS'
+  row_pitch: 3.08
+  pads:
+    size:
+      x: 0.2
+      y: 0.7
+  body_size:
+    x_offset: 1.5
+    y: 2.88
+  first_pin:
+    position: 'bottom'
+    marker:
+      shape: 'triangle'
+      size: 0.5
+      offset: 0.5
+
+defaults_DF40B-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  mount_pads:
+    top:
+      center:
+        x_offset: 1.2
+        y: [-1.54, 1.54]
+      size:
+        x: 0.4
+        y: 0.7
+      shape: 'rect'
+      paste: True
+      name: 'MP'
+      ends: 'both'
+
+# ==== Parts ====
+
+# Receptacles, non-shielded, 1.5mm stacking height, no retention tab
+DF40C-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [10, 12, 15, 17, 20, 25, 30, 35, 40, 45, 50, 60]
+  parameters:
+    subseries: 'DF40C'
+    stack_height: 1.5
+
+# Receptacle, non-shielded, 1.5mm stacking height, with retention tab
+DF40B-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40B-{num_pins:d}DS-0.4V'
+  positions: [5, 6, 15, 25, 30, 40]
+  parameters:
+    subseries: 'DF40B'
+    stack_height: 1.5
+
+# Receptacles, non-shielded, 2.0mm stacking height, no retention tab
+DF40C(2.0)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [10, 12, 15, 20, 25, 30, 35, 40]
+  parameters:
+    subseries: DF40C
+    height_code: (2.0)
+    stack_height: 2.0
+
+# Receptacle, non-shielded, 2.0mm stacking height, with retention tab
+DF40B(2.0)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40B-{num_pins:d}DS-0.4V'
+  positions: [6, 40]
+  parameters:
+    subseries: DF40B
+    height_code: (2.0)
+    stack_height: 2.0
+
+# Receptacles, non-shielded, 2.5mm stacking height, no retention tab
+DF40HC(2.5)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [10, 15, 20, 25, 30]
+  parameters:
+    subseries: DF40HC
+    height_code: (2.5)
+    stack_height: 2.5
+
+# Receptacle, non-shielded, 2.5mm stacking height, with retention tab
+DF40HB(2.5)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40B-{num_pins:d}DS-0.4V'
+  positions: 5
+  parameters:
+    subseries: DF40HB
+    height_code: (2.5)
+    stack_height: 2.5
+
+# Receptacles, non-shielded, 3.0mm stacking height, no retention tab
+DF40HC(3.0)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [15, 20, 22, 25, 30, 35, 40, 45, 50]
+  parameters:
+    subseries: DF40HC
+    height_code: (3.0)
+    stack_height: 3.0
+
+# Receptacles, non-shielded, 3.5mm stacking height, no retention tab
+DF40HC(3.5)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [10, 15, 20, 25, 30, 40]
+  parameters:
+    subseries: DF40HC
+    height_code: (3.5)
+    stack_height: 3.5
+
+# Receptacles, non-shielded, 4.0mm stacking height, no retention tab
+DF40HC(4.0)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40C-{num_pins:d}DS-0.4V'
+  positions: [20, 25, 30, 40, 45]
+  parameters:
+    subseries: DF40HC
+    height_code: (4.0)
+    stack_height: 4.0
+
+# Receptacle, non-shielded, 4.0mm stacking height, with retention tab
+DF40HB(4.0)-{num_pins:d}DS-0.4V:
+  inherit: 'defaults_DF40B-{num_pins:d}DS-0.4V'
+  positions: 25
+  parameters:
+    subseries: DF40HB
+    height_code: (4.0)
+    stack_height: 4.0
+
+# Plug, non-shielded
+DF40C-{num_pins:d}DP-0.4V:
+  inherit: 'defaults'
+  description: '0.4mm Pitch, Plug, vertical'
+  tags: 'conn hirose board-to-board mezzanine stacking plug'
+  parameters:
+    type_code: 'DP'
+    subseries: 'DF40C'
+  # (36 and 48 per row) do not exist on Hirose's website but the catalog claims it does exist
+  positions: [5, 6, 10, 12, 15, 17, 20, 22, 25, 30, 35, 40, 45, 50, 60]
+  row_pitch: 2.71
+  pads:
+    size:
+      x: 0.23
+      y: 0.66
+  body_size:
+    x_offset: 0.96
+    y: 1.85
+  first_pin:
+    position: 'top'
+    marker:
+      shape: 'triangle'
+      size: 0.5
+      offset: 0.75
+  mount_pads:
+    top:
+      center:
+        x_offset: 0.475
+        y: [-1.355, 1.355]
+      size:
+        x: 0.35
+        y: 0.66
+      shape: 'rect'
+      paste: True
+      name: 'MP'
+      ends: 'both'

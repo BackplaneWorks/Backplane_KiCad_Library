@@ -1,0 +1,252 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Inductor_SMD
+  device_type: 'common-mode choke'
+
+L_CommonModeChoke_TDK_ACM2520-2P:
+  size_source: 'https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2520_en.pdf'
+  # To overwrite the manually generated footprint
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM2520-2P'
+  manufacturer: 'TDK'
+  body_size_x:
+    nominal: 2.5
+    tolerance: 0.2
+  body_size_y:
+    nominal: 2.0
+    tolerance: 0.2
+  overall_height:
+    nominal: 1.2
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 1.3 # from land pattern pitch
+  lead_width: 0.35
+  lead_len: 0.45
+  lead_height: 0.85
+  lead_center_to_center_x: 2.05 # 1.6+0.45
+  # From recommended land pattern (see size_source)
+  pad_width: 0.4
+  pad_length: 0.8
+  pad_center_to_center_x: 2.3 #1.5+0.8
+
+L_CommonModeChoke_TDK_ACM2520-3P:
+  inherit: L_CommonModeChoke_TDK_ACM2520-2P
+  # To overwrite the manually generated footprint
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM2520-3P'
+  num_pins_y: 3
+  pitch: 0.65 # from land pattern pitch
+  lead_width: 0.3
+  # From recommended land pattern (see size_source)
+  pad_width: 0.35
+
+L_CommonModeChoke_TDK_ACM7060:
+  size_source: 'https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf'
+  # To overwrite the manually generated footprint
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM7060'
+  manufacturer: 'TDK'
+  body_size_x:
+    nominal: 7.0
+    tolerance: 0.2
+  body_size_y:
+    nominal: 6.0
+    tolerance: 0.2
+  overall_height:
+    maximum: 3.5
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 3.0 # (1.5+4.5)/2
+  lead_width: 1.5 +/- 0.2
+  lead_len: 1.5 +/- 0.2
+  # From recommended land pattern (see size_source)
+  pad_width: 1.5 # (4.5-1.5)/2
+  pad_length: 2.5 # (9-4)/2
+  pad_center_to_center_x: 6.5 # (9+4)/2
+
+L_CommonModeChoke_Coilank_ACM1210:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM1210'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 1.2
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 1.0
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 0.8
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 0.65 # (d+c)/2
+  lead_width: 0.36 # "D2"
+  lead_len: 0.33 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.35 # (d-c)/2
+  pad_length: 0.525 # (b-a)/2
+  pad_center_to_center_x: 1.025 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM1608:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM1608'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 1.6
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 0.8
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 1.1
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 0.55 # (d+c)/2
+  lead_width: 0.35 # "D2"
+  lead_len: 0.33 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.30 # (d-c)/2
+  pad_length: 0.58 # (b-a)/2
+  pad_center_to_center_x: 1.31 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM2012:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM2012'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 2.0
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 1.2
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 1.2
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 0.8 # (d+c)/2
+  lead_width: 0.5 # "D2"
+  lead_len: 0.5 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.40 # (d-c)/2
+  pad_length: 0.70 # (b-a)/2
+  pad_center_to_center_x: 1.90 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM2520:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM2520'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 2.5
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 2.0
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 1.2
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 1.3 # (d+c)/2
+  lead_width: 0.6 # "D2"
+  lead_len: 0.45 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.70 # (d-c)/2
+  pad_length: 1.00 # (b-a)/2
+  pad_center_to_center_x: 2.20 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM3216:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM3216'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 3.2
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 1.6
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 1.8
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 1.05 # (d+c)/2
+  lead_width: 0.5 # "D2"
+  lead_len: 0.6 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.55 # (d-c)/2
+  pad_length: 0.75 # (b-a)/2
+  pad_center_to_center_x: 2.95 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM3225:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM3225'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 3.2
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 2.5
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 2.2
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 1.55 # (d+c)/2
+  lead_width: 0.9 # "D2"
+  lead_len: 0.75 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 0.95 # (d-c)/2
+  pad_length: 0.85 # (b-a)/2
+  pad_center_to_center_x: 2.85 # (b+a)/2
+
+L_CommonModeChoke_Coilank_ACM4532:
+  size_source: 'https://www.lcsc.com/datasheet/C49073870.pdf'
+  # To match the TDK CMCs
+  custom_name_format: 'L_CommonModeChoke_{man:s}_ACM4532'
+  manufacturer: 'Coilank'
+  body_size_x: # "A"
+    nominal: 4.5
+    tolerance: 0.2
+  body_size_y: # "B"
+    nominal: 3.2
+    tolerance: 0.2
+  overall_height: # "C"
+    nominal: 2.8
+  tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 2.25 # (d+c)/2
+  lead_width: 1.2 # "D2"
+  lead_len: 1.0 # "D1"
+  # From recommended land pattern (see size_source)
+  pad_width: 1.55 # (d-c)/2
+  pad_length: 1.15 # (b-a)/2
+  pad_center_to_center_x: 3.65 # (b+a)/2
+
+L_CommonModeChoke_Bourns_SRF1260:
+  size_source: 'https://www.bourns.com/docs/Product-Datasheets/SRF1260.pdf'
+  custom_name_format: 'L_CommonModeChoke_{man:s}_SRF1260'
+  manufacturer: 'Bourns'
+  body_size_x:
+    maximum: 12.5
+  body_size_y:
+    maximum: 12.5
+  overall_height:
+    nominal: 6.0
+    tolerance: 0.2
+  num_pins_x: 0
+  num_pins_y: 2
+  pitch: 3.4 # (1.8+5.0)/2
+  lead_width: 1.6 # (5.0-1.8)/2
+  lead_len: 3.75 # (12.5-5)/2
+  pad_width: 2.15
+  pad_length: 4.50
+  pad_center_to_center_x: 8.5 # (13.0-4.5)/2

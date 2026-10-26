@@ -1,0 +1,14 @@
+default_parameters:
+  manufacturer: Walsin
+  library_name: Inductor_SMD
+
+series_WLFM:
+  default_parameters:
+    datasheet: "http://www.passivecomponent.com/wp-content/uploads/inductor/WLFM_C_series.pdf"
+    3d:
+      type: 2 # best effort, these parts are more like chip resistors
+    tags:
+      - ferrite
+      - multilayer
+      - power
+  csv: walsin_wlfm.csv

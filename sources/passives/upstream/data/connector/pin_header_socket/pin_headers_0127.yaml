@@ -1,0 +1,171 @@
+# Useful source: https://gct.co/board-to-board-connector/list?pitch=1.27mm&locatingpeg=without+locating+peg&elevated=No
+defaults_PH_THT_Vertical:
+  lib_format: 'Connector_PinHeader_{pin_pitch:03.2f}mm'
+  class_name: PinHeader
+  class_descr: pin header
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_{orientation}"
+  descr_format: '{mount_text} straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  mount_text: Through hole
+  orientation: Vertical
+  pin_pitch: 1.27
+
+defaults_PH_THT_Horizontal:
+  inherit: defaults_PH_THT_Vertical
+  descr_format: '{mount_text} angled {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch, {pins_length:03.1f}mm pin length{row_text}'
+  tags_base: '{mount_text} angled {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  orientation: Horizontal
+
+defaults_PH_SMD_1Row_Vertical:
+  lib_format: 'Connector_PinHeader_{pin_pitch:03.2f}mm'
+  class_name: PinHeader
+  class_descr: pin header
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_Vertical_SMD{pin1_text}"
+  descr_format: 'surface-mounted straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}{pin1_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}{pin1_text}'
+  mount_type: SMD
+  mount_text: Surface mounted
+  orientation: Vertical
+  pin_pitch: 1.27
+
+defaults_PH_SMD_2Row_Vertical:
+  lib_format: 'Connector_PinHeader_{pin_pitch:03.2f}mm'
+  class_name: PinHeader
+  class_descr: pin header
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_Vertical_SMD"
+  descr_format: 'surface-mounted straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: SMD
+  mount_text: Surface mounted
+  orientation: Vertical
+  pin_pitch: 1.27
+
+
+# THT Straight(Vertical) logic:
+THT-1row_Straight_Right:
+  inherit: defaults_PH_THT_Vertical
+  pin1_left: True
+  row_count: 1
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  2.1
+    height: 1.0
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    width:  0.4
+    drill:  0.65
+    offset: 0.0
+    length: 4.0
+  pads:
+    length: 1.0
+    width:  1.0
+    offset: 0
+  datasheet: https://cdn.harwin.com/pdfs/M50-353.pdf
+
+THT-2row_Straight_Right:
+  inherit: THT-1row_Straight_Right
+  row_count: 2
+  body:
+    width: 3.41
+  datasheet: https://cdn.harwin.com/pdfs/M50-350.pdf
+
+
+# THT Angled(Horizontal) logic:
+THT-1row_Angled_Right:
+  inherit: defaults_PH_THT_Horizontal
+  pin1_left: True
+  row_count: 1
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  1.0
+    height: 2.1
+    offset: 0.5
+    overlength: 0.0
+  pins:
+    width:  0.4
+    drill:  0.65
+    offset: 0.0
+    length: 4.0
+  pads:
+    length: 1.0
+    width:  1.0
+    offset: 0
+  datasheet: https://cdn.harwin.com/pdfs/M50-393.pdf
+
+THT-2row_Angled_Right:
+  inherit: THT-1row_Angled_Right
+  row_count: 2
+
+
+# SMD Straight(Vertical) logic:
+SMD-1row_Straight_Left:
+  inherit: defaults_PH_SMD_1Row_Vertical
+  pin1_left: True
+  row_count: 1
+  pos_range:
+    range: [2, 40]
+  body:
+    width:  2.1 # 2.5
+    height: 1.0
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    # pp: 5.5 # pin-pin width aka W aka E, for reference only.
+    width: 0.4
+    drill: 0.0
+    offset: 0.0
+    length: 4.0
+    smd_length: 2.5
+    # smd_length from pins_pp: (pins_pp - (rows-1)*pitch)/2 - pins_offset =
+    # (5.50 - 0)/2 - 0 = 2.75
+  pads:
+    # pp: 6.5 # pad-pad width aka W+1 aka E+1, offset is preferred.
+    length: 3.0 # 3.25
+    width: 0.65 # 0.76
+    offset: 1.5
+    # pads_offset smd from pads_pp: (pads_pp - (rows-1)*pitch - pads_length)/2 =
+    # (6.5 - 0 - 3.0)/2 = 1.75
+  datasheet: https://cdn.harwin.com/pdfs/M50-363.pdf
+  # https://gct.co/files/drawings/bd021.pdf
+
+SMD-1row_Straight_Right:
+  inherit: SMD-1row_Straight_Left
+  pin1_left: False
+
+SMD-2row_Straight_Left:
+  inherit: defaults_PH_SMD_2Row_Vertical
+  pin1_left: True
+  row_count: 2
+  pos_range:
+    range: [1, 40]
+    # 2x01 is only handsolder though because it will not stay upright during reflow/wave.
+  body:
+    width:  3.41 # 3.4
+    height: 1.0
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    # pp: 5.5 # 5.7 pin-pin width aka W aka E, for reference only.
+    width:  0.4
+    drill:  0.0
+    offset: 0.0
+    length: 4.0
+    smd_length: 2.115
+    # smd_length from pins_pp: (pins_pp - (rows-1)*pitch)/2 - pins_offset =
+    # (5.7 - 1.27)/2 - 0 = 2.215
+  pads:
+    # pp_width: 6.7 # pad-pad width aka W+1 aka E+1, offset is preferred.
+    length: 2.4   # 2.6 Harwin: 2.62
+    width:  0.74   # 0.65 / 0.8
+    offset: 1.315  # not matching with datasheet
+    # pads_offset smd from pads_pp: (pads_pp - (rows-1)*pitch - pads_length)/2 =
+    # (6.7 - 1.27 - 2.6)/2 = 1.415
+  datasheet: https://cdn.harwin.com/pdfs/M50-360.pdf
+  # https://gct.co/files/drawings/bd095.pdf
+
+# 1.27mm Header SMD-2row_Angled: https://gct.co/files/drawings/bd038.pdf -> only with locating peg?

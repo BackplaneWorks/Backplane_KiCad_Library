@@ -1,0 +1,113 @@
+# KLC Global Configuration v3.0
+#
+# These are the global configuration defintitions for the KiCad libraries,
+# encoding default parameters for things like line thicknesses, clearances and
+# text sizes. Some values are defined by the KiCad Library Conventions (KLC)
+# guidelines, some are just convenient defaults to have in a central, configurable
+# location.
+#
+# To use these values, new code should use the GlobalConfig class, which parses
+# this file, or an alternative file of the users choosing. Old code sometimes reads
+# it directly as a dictionary, but that method is deprecated.
+#
+# This file is named v3.0 because it represents the third major version of the
+# KLC definitions. Older and alternative definitions can be found in the Git
+# history of this directory. The KiCad libraries currently do not officially
+# maintain alternative configs (as then we'd have to test all generated parts
+# in all configurations). This interface is provided to allow users to adjust
+# then on their own (and also for internal technical happiness to avoid spamming
+# hardcoded values into hundreds of scripts).
+
+3d_model_prefix: '${KICAD10_3DMODEL_DIR}/'
+3d_model_suffix: '.step'
+
+# When a rotation "Level" (A or B) is defined in the name,
+# this is how to format it
+rotation_suffix_pattern: "Rot{rotation}"
+
+# The name suffix for parts with a handsoldering adjustment
+handsoldering_suffix: "HandSoldering"
+
+# Metadata fields:
+metadata:
+    # datasheet:
+    #     name: "Datasheet"
+    #     value: "{text:s}"
+    generator:
+        name: "KiLib_Generator"
+        value: "{name:s}"
+
+silk_line_width: 0.12
+silk_pad_clearance: 0.2
+silk_fab_offset: 0.11
+silk_line_length_min: 0.2
+allow_silk_below_part: 'tht' # tht | smd | all | none
+
+fab_line_width: 0.1
+fab_pin1_marker_length: 1
+fab_bevel_size_absolute: 1 # Bevel size of footprints in mm
+fab_bevel_size_relative: 0.25 # Bevel size of footprints relative to package size
+
+courtyard_line_width: 0.05
+courtyard_grid: 0.01
+courtyard_offset:
+    default: 0.25
+    connector: 0.5
+    bga: 1
+    crystal: 0.5
+
+edge_cuts_line_width: 0.12
+
+default_line_width: 0.1
+
+# IPC-7351C will most likely suggest the use of rounded rectangle pads
+# with 25% radius ratio but at a maximum of 0.25mm
+round_rect_max_radius: 0.25
+round_rect_radius_ratio: 0.25
+
+# If exposed pads have different parameters, they can be set here.
+ep_round_rect_max_radius: 0.25
+ep_round_rect_radius_ratio: 0
+
+# If paste pads have different parameters, they can be set here.
+paste_round_rect_max_radius: 0.25
+paste_round_rect_radius_ratio: 0.25
+
+# Mapping of functional layers to board layers
+layer_functions:
+    # Mechanical drawings (e.g. physical object outlines)
+    mechanical: Cmts.User
+    centroid: F.Fab
+
+pad_names:
+    mechanical: MP
+    shield: SH
+
+# Global settings for text properties on given layers
+text_properties:
+    fab:
+        size_min: 0.25
+        size_max: 1.0
+        size_nom: 1.0
+        width_ratio: 1.0
+        thickness_ratio: 0.15
+    silk:
+        size_min: 0.7
+        size_max: 1.0
+        size_nom: 1.0
+        width_ratio: 1.0
+        thickness_ratio: 0.15
+
+references:
+    -   layer: 'F.SilkS'
+        position_y: 'outside_top' # outside_top | inside | outside_bottom
+        autosize: False
+
+    -   layer: 'F.Fab'
+        position_y: 'inside' # outside_top | inside | outside_bottom
+        autosize: True
+
+values:
+    -   layer: 'F.Fab'
+        position_y: 'outside_bottom' # outside_top | inside | outside_bottom
+        autosize: False

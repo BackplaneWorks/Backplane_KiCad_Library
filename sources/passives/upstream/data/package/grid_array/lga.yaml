@@ -1,0 +1,39 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/grid_array
+
+# This originally created since a specific LGA package had a similar footprint to BGA packages,
+# so it uses the BGA generator instead of the LGA generator defined in Packages/no_lead
+
+default_parameters:
+  package_type: "LGA"
+
+ublox_LGA-53_4.5x4.5mm_Layout9x9_P0.5mm:
+# we are calling it LGA since maximum standoff height is less 0.10mm (see BGA / LGA definition in https://www.jeita.or.jp/japanese/standard/book/ED-7316/#target/page_no=5),
+# manufacturer calls it LGA and it does not have soldering balls (it needs solder paste / stencil)
+  size_source: "https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf#page=82"
+  # some more info regarding land-pattern (recommended copper land), solder mask and solder paste:
+  #   same datasheet, page 81 / 82
+  # mechanical drawing/specifications:
+  #   https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_DataSheet_UBX-22015849.pdf#page=19
+  description: "ublox MIA SoC Module"
+  compatible_mpns:
+    - 'ublox_MIA-M-LGA53'
+  device_type: "LGA"
+  manufacturer: "ublox"
+  body_size_y: 4.5
+  body_size_x: 4.5
+  pitch: 0.5
+  layout_y: 9
+  layout_x: 9
+  row_skips: [
+    [                         ],
+    [      3, 4, 5, 6, 7      ],
+    [   2,                8   ],
+    [      3, 4, 5, 6, 7, 8   ],
+    [            5, 6,    8   ],
+    [   2,       5, 6,    8   ],
+    [   2,                8   ],
+    [   2, 3, 4, 5, 6, 7      ],
+    [                         ]
+  ]
+  pad_diameter: 0.27
+  mask_margin: 0.05

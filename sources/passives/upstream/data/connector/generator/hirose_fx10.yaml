@@ -1,0 +1,142 @@
+defaults:
+  library: "Hirose"
+  positions: [48, 60, 72, 84]
+  pad_pitch: 0.5
+  first_pin:
+    marker:
+      shape: "triangle"
+      size: 1.0
+      offset: 0.1
+  parameters:
+    num_pins: $(num_pos*2)
+
+FX10B-xxxP-SV:
+  inherit: "defaults"
+  description: "0.5 mm pitch, stacking height 4 mm to 13 mm, {num_pins:d} contacts, header, vertical"
+  fp_name: "Hirose_FX10B-{num_pins:d}P-SV"
+  source: "https://www.hirose.com/de/product/document?clcode=&productname=&series=FX10&documenttype=Catalog&lang=de&documentid=D31650_en"
+  tags: "conn board to board stacking header"
+  row_pitch: 5.2
+  pads:
+    size:
+      x: 0.3
+      y: 1.1
+  body_size:
+    x_offset: 3.8
+    y: 5.9
+  first_pin:
+    position: "bottom"
+    body_chamfer: 0.7
+  mount_pads:
+    mp:
+      size:
+        x: 1.6
+        y: 3.1
+      center:
+        x_offset: 3.2
+        y: 0.0
+      name: "MP"
+      ends: "both"
+  rule_areas:
+    key1:
+      name: "keepout"
+      layers: "F.Cu"
+      shapes:
+        - type: rect
+          corners: [
+            [pl - $(pads.size.x / 2), pt + $(pads.size.y / 2)],
+            [pr + $(pads.size.x / 2), -1.0]
+          ]
+      keepouts:
+        vias: deny
+        tracks: deny
+        copperpour: deny
+    key2:
+      name: "keepout"
+      layers: "F.Cu"
+      shapes:
+        - type: rect
+          corners: [
+            [pl - $(pads.size.x / 2), pb - $(pads.size.y / 2)],
+            [pr + $(pads.size.x / 2), 1.0]
+          ]
+      keepouts:
+        vias: deny
+        tracks: deny
+        copperpour: deny
+
+FX10A-xxxP-SV:
+  inherit: "FX10B-xxxP-SV"
+  fp_name: "Hirose_FX10A-{num_pins:d}P-SV"
+  description: "0.5 mm pitch, stacking height 4 mm to 13 mm, {num_pins:d} contacts, header, vertical, with guideposts"
+  mount_pads:
+    guidepost_small:
+      center:
+        x_offset: 1.45
+        y: 0.0
+      drill: 1.1
+      size: 1.1
+      paste: false
+      copper: false
+      ends: "left"
+    guidepost_big:
+      center:
+        x_offset: 1.45
+        y: 0.0
+      drill: 1.2
+      size: 1.2
+      paste: false
+      copper: false
+      ends: "right"
+
+FX10B-xxxS-SV:
+  inherit: "defaults"
+  description: "0.5 mm pitch, stacking height 4 mm to 13 mm, {num_pins:d} contacts, receptacle, vertical"
+  fp_name: "Hirose_FX10B-{num_pins:d}S-SV"
+  source: "https://www.hirose.com/de/product/document?clcode=&productname=&series=FX10&documenttype=Catalog&lang=de&documentid=D31650_en"
+  tags: "conn board to board stacking receptacle"
+  row_pitch: 6.1
+  pads:
+    size:
+      x: 0.3
+      y: 1.6
+  body_size:
+    x_offset: 3.8
+    y: 7.3
+  first_pin:
+    position: "top"
+    body_chamfer: 0.7
+  mount_pads:
+    mp:
+      size:
+        x: 1.6
+        y: 3.1
+      center:
+        x_offset: 3.2
+        y: 0.0
+      name: "MP"
+      ends: "both"
+
+FX10A-xxxS-SV:
+  inherit: "FX10B-xxxS-SV"
+  fp_name: "Hirose_FX10A-{num_pins:d}S-SV"
+  description: "0.5 mm pitch, stacking height 4 mm to 13 mm, {num_pins:d} contacts, receptacle, vertical, with guideposts"
+  mount_pads:
+    guidepost_small:
+      center:
+        x_offset: 1.45
+        y: 0.0
+      drill: 1.1
+      size: 1.1
+      paste: false
+      copper: false
+      ends: "left"
+    guidepost_big:
+      center:
+        x_offset: 1.45
+        y: 0.0
+      drill: 1.2
+      size: 1.2
+      paste: false
+      copper: false
+      ends: "right"

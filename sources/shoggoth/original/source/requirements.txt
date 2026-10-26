@@ -1,0 +1,5 @@
+pillow==12.1.1
+shapely==2.1.2
+numpy==2.3.5
+fonttools==4.66.0
+cairosvg==2.8.2

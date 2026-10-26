@@ -1,0 +1,50 @@
+USB_C_Receptacle_Palconn_UTC16-G:
+  body_color_key: 'metal grey pins'
+  tongue_color_key: 'glass_grey'
+  peg_color_key: 'glass_grey'
+  pin_color_key: 'gold pins'
+  destination_dir: 'Connector_USB.3dshapes'
+  body:
+    width: 8.94
+    depth: 7.32
+    height: 3.25
+    radius: 1.25
+    wall_thickness: 0.345
+    cavity_depth: 4.8
+    offset: [0, -1.17, 0]
+  tounge:
+    width: 6.69
+    height: 0.7
+    depth: 4.45
+    tip_chamfer: 0.5
+  pegs:
+    diameter: 0.5
+    length: 0.76
+    tip_chamfer: 0.1
+    centers: [
+      [2.89, -1.45],
+      [-2.89, -1.45]
+    ]
+  pins:
+    width: 0.2
+    length: 0.31
+    height: 0.15
+    centers: [
+      [-3.35, 0],
+      [-3.05, 0],
+      [-2.55, 0],
+      [-2.25, 0]
+    ]
+  shield:
+    thickness: 0.3
+    length: 1
+    width: [0.8, 1.1]  # (front, back)
+    centers_front: [
+      [-4.32, 2.26],
+      [4.32, 2.26]
+    ]
+    centers_back: [
+      [4.32, -1.91],
+      [-4.32, -1.91]
+    ]
+  include_in_qa: True

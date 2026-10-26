@@ -1,0 +1,727 @@
+[
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_01005_0402Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_01005_0402Metric_L.kicad_mod",
+    "sha256": "d672d169a98052ede1f8ee941d47683d8121a8a977e7eb64b42856520420cdb9"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "sha256": "60adcb37d3935f558893b7cebd7eabbb869ecedecfecc1ad19beeb605c9151f8"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "sha256": "2972bbc634b40d22025181d9b2634e8bc072cb90548a090d40c9ee4256b83060"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0201_0603Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0201_0603Metric_L.kicad_mod",
+    "sha256": "79f9cf6037c612fc1fcb28e135ffd66969011bd052ae44fc5248e2b3cc005b51"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "sha256": "b69a9ee1d6bc8962a93887a1c610d5953d2beceddbc944e0a3db66fb283575f7"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "sha256": "0873195f7101e4b1ebb4ddb4fa0695ce7f38a15dd90b9cfbc75b1221bce86cf9"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0402_1005Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0402_1005Metric_L.kicad_mod",
+    "sha256": "f7b289830cf8f6acf43a88a06bc7e39e2b503bd568ab9f932ba2484e4919589c"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0402_1005Metric_Pad0.61x0.54mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0402_1005Metric_Pad0.61x0.54mm_HandSolder.kicad_mod",
+    "sha256": "f69d02c1c0204688152b8283438222e319efe172d75e2d62ccec02b556cd2be2"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0402_1005Metric_Pad0.81x0.74mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0402_1005Metric_Pad0.81x0.74mm_HandSolder.kicad_mod",
+    "sha256": "28f671e2bcef38b030d923115a99c138480a659fc896306623367c4df4a2fe65"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0508_1220Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0508_1220Metric_L.kicad_mod",
+    "sha256": "21d860f7c9e2767b927e9e63a9689c64be54edce9be85260b3769402247470ab"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0508_1220Metric_Pad0.93x2.05mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0508_1220Metric_Pad0.93x2.05mm_HandSolder.kicad_mod",
+    "sha256": "7b14128400581d2eed2cc43007af09c107539f102b1be15434ea38927e14ff93"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0508_1220Metric_Pad1.32x2.25mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0508_1220Metric_Pad1.32x2.25mm_HandSolder.kicad_mod",
+    "sha256": "e9d9eaecb30d13bedb93914b00b9bdee5fc05561f7edfc8f282cd02e5f194a46"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0603_1608Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0603_1608Metric_L.kicad_mod",
+    "sha256": "b93058ddea57ecc75c9feb1fda3b33d508a86e37890d5d156cf1999eefa9a3ea"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0603_1608Metric_Pad0.78x0.85mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0603_1608Metric_Pad0.78x0.85mm_HandSolder.kicad_mod",
+    "sha256": "081347caa52e01e31d9b603b31c1a4c840c4754fbe4da994c8979da6bac5e3c7"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0603_1608Metric_Pad1.18x1.05mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0603_1608Metric_Pad1.18x1.05mm_HandSolder.kicad_mod",
+    "sha256": "3f41efc4ecfade093c12805b64b2156a145090d1d3abd8f906485bc67146775a"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0612_1632Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0612_1632Metric_L.kicad_mod",
+    "sha256": "325063e63d89a6272b2cce2aad8957e3d477a6f07e93accf24e4163460d8f24a"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0612_1632Metric_Pad0.98x3.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0612_1632Metric_Pad0.98x3.30mm_HandSolder.kicad_mod",
+    "sha256": "3d13df016f07f0d8a0c7d4fda46a7fdd547a47e8ae04b6092db1a86177ecd240"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0612_1632Metric_Pad1.38x3.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0612_1632Metric_Pad1.38x3.50mm_HandSolder.kicad_mod",
+    "sha256": "4b88da9912b1acb1aa4b3b906124fb9caabf5acd60a0ea651ad0d0a77a4d34ea"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0805_2012Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0805_2012Metric_L.kicad_mod",
+    "sha256": "7fd283116db72a76a12077a3c37c1b90abfd48f874a3bd0d9a0ed3174b4ebdbd"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0805_2012Metric_Pad1.00x1.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0805_2012Metric_Pad1.00x1.30mm_HandSolder.kicad_mod",
+    "sha256": "f2926115173a749df172fb091ba1d55a4ec22f47d69778e992c27cb241d4c596"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0805_2012Metric_Pad1.40x1.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0805_2012Metric_Pad1.40x1.50mm_HandSolder.kicad_mod",
+    "sha256": "c651bd6ba7654f94f38dd001185faac919413ab654c043a9269dd436fb45429b"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0815_2038Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0815_2038Metric_L.kicad_mod",
+    "sha256": "3c6e2af1784de50f63177e923d4cc8ad7f71f1efb1632b42ed9e877ebe4a53ff"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0815_2038Metric_Pad1.00x3.95mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0815_2038Metric_Pad1.00x3.95mm_HandSolder.kicad_mod",
+    "sha256": "04c730156f12046a84b1770a9ff3744ac070f6ba5f5cf8eec961ab0161ae9f25"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_0815_2038Metric_Pad1.40x4.15mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_0815_2038Metric_Pad1.40x4.15mm_HandSolder.kicad_mod",
+    "sha256": "ab9a7a7ebfa4ebb3d0c666ac934a47dc9d1398769067ae240eb046a5d78d24cd"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1020_2550Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1020_2550Metric_L.kicad_mod",
+    "sha256": "c1662f0bcdf9312bbc1ded07715dab2fc64ea540923fafcc5f5936d5b7547f09"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1020_2550Metric_Pad1.12x5.10mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1020_2550Metric_Pad1.12x5.10mm_HandSolder.kicad_mod",
+    "sha256": "409fdfd4ea647882965561dabae7bd4ffda9abea1c120c32bcd176aa6c866d56"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1020_2550Metric_Pad1.53x5.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1020_2550Metric_Pad1.53x5.30mm_HandSolder.kicad_mod",
+    "sha256": "33d6c7831e9b9270ae60c32aff03723a229d469d5a3d47ecd3cf7933a627a496"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1206_3216Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1206_3216Metric_L.kicad_mod",
+    "sha256": "ecfc040d4a22c16a4933feaced8b8bcc0118d110bb398d2be07d2161dd8c6c2d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1206_3216Metric_Pad1.10x1.65mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1206_3216Metric_Pad1.10x1.65mm_HandSolder.kicad_mod",
+    "sha256": "2c87b260366f75d697425fcab42af15e2f293f14c6119c8d7f4237604d4612dd"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1206_3216Metric_Pad1.50x1.85mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1206_3216Metric_Pad1.50x1.85mm_HandSolder.kicad_mod",
+    "sha256": "d7c5036fdafe1ec2102d837c9733c6052976869fecdb1aabaecbad65a6ef4cfd"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1210_3225Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1210_3225Metric_L.kicad_mod",
+    "sha256": "e593d63a576c11c7b06c12eeae537fd18d5f427783000d0ea4099484f7668d52"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1210_3225Metric_Pad1.10x2.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1210_3225Metric_Pad1.10x2.55mm_HandSolder.kicad_mod",
+    "sha256": "b91fe8051cb43e7b836b655a5f3e5fd077e67c30e08ad95be39b1e912563eed3"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1210_3225Metric_Pad1.50x2.75mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1210_3225Metric_Pad1.50x2.75mm_HandSolder.kicad_mod",
+    "sha256": "669b405d9d414c90e729c1144df0301c97ff87144dc9cbc6002889faf3352964"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1218_3246Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1218_3246Metric_L.kicad_mod",
+    "sha256": "aead92bc5f45cb26b6a78732cf8919c939cfb40cbef3c6b5e9bf767a6fdf9161"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1218_3246Metric_Pad1.02x4.65mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1218_3246Metric_Pad1.02x4.65mm_HandSolder.kicad_mod",
+    "sha256": "a7ff0613c860802e2fff6e2b5f849dbbc79337a43be8f143d00ec8528ff9d74c"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1218_3246Metric_Pad1.42x4.85mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1218_3246Metric_Pad1.42x4.85mm_HandSolder.kicad_mod",
+    "sha256": "7622148c0d4a7b4bf5e1360707e2ca79e34f155c5b67c77d1def5b9d64914864"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1225_3264Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1225_3264Metric_L.kicad_mod",
+    "sha256": "90f338b5cce3e6b9edbfbf6edd8caffe7026815b24691aa7d8d52d27a3624097"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1225_3264Metric_Pad1.28x6.35mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1225_3264Metric_Pad1.28x6.35mm_HandSolder.kicad_mod",
+    "sha256": "50a4d1f8bdffdc669f27529b047e7f7701e5dd6e60a7b28ae97a45cdfd5ce969"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1225_3264Metric_Pad1.68x6.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1225_3264Metric_Pad1.68x6.55mm_HandSolder.kicad_mod",
+    "sha256": "fbaa147574edb59c8610a68fa6152632b2914b2942e388d83ed31bd598aa3d6a"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1812_4532Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1812_4532Metric_L.kicad_mod",
+    "sha256": "2b1dd357689f8159aa2d950dd9b5cc671b8b2a1424ef6d49470c552386a3c033"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1812_4532Metric_Pad1.10x3.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1812_4532Metric_Pad1.10x3.30mm_HandSolder.kicad_mod",
+    "sha256": "6aaa599e1271407f4b463620649ef6b0c782714e60df7d1875978c6661369b5c"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_1812_4532Metric_Pad1.50x3.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_1812_4532Metric_Pad1.50x3.50mm_HandSolder.kicad_mod",
+    "sha256": "7584f3993bb7c9e25271f9aea68a1068de919fbcfdb34cd970b8b55634490931"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2010_5025Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2010_5025Metric_L.kicad_mod",
+    "sha256": "0747fd3ebabb94e2cf6655846423ad28144348849de7ca734396f416314d7886"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2010_5025Metric_Pad1.20x2.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2010_5025Metric_Pad1.20x2.55mm_HandSolder.kicad_mod",
+    "sha256": "df2dafdf5cd9142e292d425b02a73cb62ad04028c03eee67979eb6fc85cbedf3"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2010_5025Metric_Pad1.60x2.75mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2010_5025Metric_Pad1.60x2.75mm_HandSolder.kicad_mod",
+    "sha256": "4581e292f1b850ea34b83fae3abdd0d208b0e406647ddc2fc298452c48ce9a15"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2512_6332Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2512_6332Metric_L.kicad_mod",
+    "sha256": "fa5f401d78e8c96c622192b3104367fac529119c34594447fbac4876751bd1c7"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2512_6332Metric_Pad1.20x3.25mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2512_6332Metric_Pad1.20x3.25mm_HandSolder.kicad_mod",
+    "sha256": "a37e0db59009a0add9a005b70d952175054c66ea455b795b6f076a01acd09967"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2512_6332Metric_Pad1.60x3.45mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2512_6332Metric_Pad1.60x3.45mm_HandSolder.kicad_mod",
+    "sha256": "6abb95ed4c4e708dc26b4d290d77bc07e62760c3cdc14f0e7676a3e5f1cb4cae"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2816_7142Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2816_7142Metric_L.kicad_mod",
+    "sha256": "f4854076c0974429da0b1f39303adbf88afb537bc866aee3d8d6c1dedb5d1b85"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2816_7142Metric_Pad3.00x4.35mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2816_7142Metric_Pad3.00x4.35mm_HandSolder.kicad_mod",
+    "sha256": "59f41bf7e392fc1cd442e3578a199b7b779692ccbb25b6073da4ddad0b02c4d3"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_2816_7142Metric_Pad3.40x4.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_2816_7142Metric_Pad3.40x4.55mm_HandSolder.kicad_mod",
+    "sha256": "100d9ffa62c199295441b6b68302e9d87324069f0ad76abeb314093bcb11644e"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_4020_10251Metric_L.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_4020_10251Metric_L.kicad_mod",
+    "sha256": "9771b4ff94f52d173f1a6575e0d3b583c5151a32929dca9e95be0100ad3ed3ef"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_4020_10251Metric_Pad1.45x5.20mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_4020_10251Metric_Pad1.45x5.20mm_HandSolder.kicad_mod",
+    "sha256": "660b3c7c9d51f78d5f98fbca73eff13a7be9fe634ab315562152ce4b47157849"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Resistor_SMD.pretty/R_4020_10251Metric_Pad1.85x5.40mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Resistor_SMD.pretty/R_4020_10251Metric_Pad1.85x5.40mm_HandSolder.kicad_mod",
+    "sha256": "be3aa40e7db30bb6732917d4e4dfa0e992aea24c7d3ec3e1d9f309fcb6f3d2ee"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_01005_0402Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_01005_0402Metric_L.kicad_mod",
+    "sha256": "32f66d88f57d961ca842ec78edf4b0a36c7ca7b3af4c8b72f09e1ac47e300961"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "sha256": "1967d3bd487ab93e786ec211a2fec900c63c048caa13cf5a809a331f4eaec3a0"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "sha256": "6b5b8e22f5b8cfe275e5d224e24dac858fb91b12ca31f639a2b64343fc0b2029"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0201_0603Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0201_0603Metric_L.kicad_mod",
+    "sha256": "df8525c12404eb4473cf5e535a207c8df343a26670fcd649d6ee899ea4e60ab3"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "sha256": "fa844e2d75b70227f608200c64403fbae59402c06df256a0127da91903dd61ba"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "sha256": "e5a5368b0d168bada5f47bcd2f98ade00f3e600f07e2b99117e63e74b5391082"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0402_1005Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0402_1005Metric_L.kicad_mod",
+    "sha256": "8408896742085eb4064fc40b633837a62ca3734dccd791996d8139fa7615cfca"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0402_1005Metric_Pad0.64x0.52mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0402_1005Metric_Pad0.64x0.52mm_HandSolder.kicad_mod",
+    "sha256": "f14ec022432c47a31005653a16be2ccc7bfe4e171e9781e932b25ffef677a64d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0402_1005Metric_Pad0.83x0.72mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0402_1005Metric_Pad0.83x0.72mm_HandSolder.kicad_mod",
+    "sha256": "5c483a6cde10331beb34bc8d5cf0e940314e86a5ca6238f393f5a1c6d1370ec0"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0504_1310Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0504_1310Metric_L.kicad_mod",
+    "sha256": "16802dfbb16f18ab225d4ed47c433de9de8292dd92f6d4b2c52211e78c1a2084"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0504_1310Metric_Pad0.74x1.18mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0504_1310Metric_Pad0.74x1.18mm_HandSolder.kicad_mod",
+    "sha256": "935559f169716ebfd22320b83f782d7cf23527b33a445cf4c56b7d5d6e11c780"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0504_1310Metric_Pad0.94x1.38mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0504_1310Metric_Pad0.94x1.38mm_HandSolder.kicad_mod",
+    "sha256": "870aa6b54f4e8185093ad70664695018b1695fe3a164a7ae6ef391fe245f8d12"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0603_1608Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0603_1608Metric_L.kicad_mod",
+    "sha256": "176ddf6e78aa482579831c15582ea3177b609f94d81b4e15e99a2127f659c2be"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0603_1608Metric_Pad0.88x0.85mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0603_1608Metric_Pad0.88x0.85mm_HandSolder.kicad_mod",
+    "sha256": "8dc0486e6ae6aa9b99d3ee7d91c257d276c89dbb36f9da9da39e88d9779607be"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0603_1608Metric_Pad1.28x1.05mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0603_1608Metric_Pad1.28x1.05mm_HandSolder.kicad_mod",
+    "sha256": "078adb2350e8796ed21c374bed5e055eb775fca54bee2059c9c06bb3af3cc1b7"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0805_2012Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0805_2012Metric_L.kicad_mod",
+    "sha256": "3440b60994a09418c3bec1ca2aa38dd8002b58451e94ea7c51e5ef47eed89b82"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0805_2012Metric_Pad0.98x1.35mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0805_2012Metric_Pad0.98x1.35mm_HandSolder.kicad_mod",
+    "sha256": "1c6d47699170e3c3b19ecc2a79e2d4aad1bdbdbcb720c37955c0d8717d92bf1b"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_0805_2012Metric_Pad1.38x1.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_0805_2012Metric_Pad1.38x1.55mm_HandSolder.kicad_mod",
+    "sha256": "c55a105cf8e34f3af6c1b1d99461886fc9fe6083c28b28cdf8e3eac733ee7fa4"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1206_3216Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1206_3216Metric_L.kicad_mod",
+    "sha256": "e8e5fb83bae7e95913d81928344d50ccc07e942d07c1f600fcccd183284988bf"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.12x1.70mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.12x1.70mm_HandSolder.kicad_mod",
+    "sha256": "bcea7f45be28c670433e3ef14db1b5fbc3417f51f70ff9d3c09418a4ad40faaf"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.52x1.90mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1206_3216Metric_Pad1.52x1.90mm_HandSolder.kicad_mod",
+    "sha256": "1e1ebf66152eb41410f53d3b28549f726875c1776f67db16d31e33a7a35380c5"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1210_3225Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1210_3225Metric_L.kicad_mod",
+    "sha256": "eb7bc6331caacc92cf731346b0b20855fe5fef414afc58fff6db2a6d3a703a97"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1210_3225Metric_Pad1.12x2.60mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1210_3225Metric_Pad1.12x2.60mm_HandSolder.kicad_mod",
+    "sha256": "fb91e000a0cb4f9ca5ddbb6fc9ebf2a4a9edb0ac0041ada93acdc63d38c89c01"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1210_3225Metric_Pad1.52x2.80mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1210_3225Metric_Pad1.52x2.80mm_HandSolder.kicad_mod",
+    "sha256": "3c8dc0a215d62422a9a6c58f6de87f191329ecdb3f9e7356f512a856031a4af2"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1808_4520Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1808_4520Metric_L.kicad_mod",
+    "sha256": "d036cd8c3412918c50f168aac9e12f11a1a025c81aa9bdc2ec3a78e39433e107"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1808_4520Metric_Pad1.53x2.20mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1808_4520Metric_Pad1.53x2.20mm_HandSolder.kicad_mod",
+    "sha256": "52af0fad240e31d5c396370a867d74a9c80e2baac0846bcd54100867b9f9f596"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1808_4520Metric_Pad1.93x2.40mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1808_4520Metric_Pad1.93x2.40mm_HandSolder.kicad_mod",
+    "sha256": "499bf71a81ba0e5dd07068912fe4bd620750e640f4fb283cd5d0d81db5f0e077"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1812_4532Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1812_4532Metric_L.kicad_mod",
+    "sha256": "e2fc1fe8ea8615071bece2d569786ea71a9c19024ef68e1569b466aeee491965"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1812_4532Metric_Pad1.38x3.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1812_4532Metric_Pad1.38x3.30mm_HandSolder.kicad_mod",
+    "sha256": "ebb6dfe2800d68c119aa07fca77af1327d0653457a926ca783607cfbf5be0b84"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1812_4532Metric_Pad1.77x3.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1812_4532Metric_Pad1.77x3.50mm_HandSolder.kicad_mod",
+    "sha256": "f3a6d54d60328920371386136248104b76925b809c65f743ccc79d47b78e1a77"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1825_4564Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1825_4564Metric_L.kicad_mod",
+    "sha256": "1a3d3bceb45d9639dc29aa8373091e6e7cf0b1c3ff541901d2bc4ef4bb7cd99b"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1825_4564Metric_Pad1.38x6.70mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1825_4564Metric_Pad1.38x6.70mm_HandSolder.kicad_mod",
+    "sha256": "a3d91d5c0eacc9535f479cc0000f9b9b0aee2f8b6a2722454df6e53c80723006"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_1825_4564Metric_Pad1.77x6.90mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_1825_4564Metric_Pad1.77x6.90mm_HandSolder.kicad_mod",
+    "sha256": "3b885cbdd9e6cfa9d65cfae58f16c4b787a65e54575750e784009ad506c82979"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2220_5750Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2220_5750Metric_L.kicad_mod",
+    "sha256": "d0baec0a794ce73cf7015c3a746d5239db17eee6f7662675ab4684994116c833"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2220_5750Metric_Pad1.77x5.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2220_5750Metric_Pad1.77x5.30mm_HandSolder.kicad_mod",
+    "sha256": "b0c4abd1283b1fea8d9819b52a21b12be2fb4fafe03504282b2262fb4396388e"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2220_5750Metric_Pad2.17x5.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2220_5750Metric_Pad2.17x5.50mm_HandSolder.kicad_mod",
+    "sha256": "8c0d58257479426203c4ebabc1333c284791c8182cad5af0d765346e0b2bcf5f"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2225_5664Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2225_5664Metric_L.kicad_mod",
+    "sha256": "91ef464a15f60ead00805c5eb0d9310b8d38704bfb47122d523db72f08400d4c"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2225_5664Metric_Pad1.60x6.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2225_5664Metric_Pad1.60x6.50mm_HandSolder.kicad_mod",
+    "sha256": "a6c9d0d3e7c240784579772b61701b1d207ae1afe998c1e67c9f325b8cb460da"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_2225_5664Metric_Pad2.00x6.70mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_2225_5664Metric_Pad2.00x6.70mm_HandSolder.kicad_mod",
+    "sha256": "e8ea2e6d0c6a6d3522ffd41a82536795fda9bed1f19f20e95ef0a194f4bc78cc"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_3640_9110Metric_L.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_3640_9110Metric_L.kicad_mod",
+    "sha256": "7fe635227c41c6a5a9b2c1f60eacdf078c343a274175eaa721dbad41a22a37c6"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_3640_9110Metric_Pad1.90x10.35mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_3640_9110Metric_Pad1.90x10.35mm_HandSolder.kicad_mod",
+    "sha256": "1fefdc54d621e7c53f501e27a155a6cbee65f59141e5aed31fd05682024bd4c5"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Capacitor_SMD.pretty/C_3640_9110Metric_Pad2.30x10.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Capacitor_SMD.pretty/C_3640_9110Metric_Pad2.30x10.55mm_HandSolder.kicad_mod",
+    "sha256": "0c41391da20dee9105416f4c5cef2f6b24912c9fc7580addca68077b442ba9a4"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_01005_0402Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_01005_0402Metric_L.kicad_mod",
+    "sha256": "8ce6873151c3883bf26e96db94f2d7bfdacb49b2e9e5039f691e41af98977b01"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_01005_0402Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_01005_0402Metric_M.kicad_mod",
+    "sha256": "2b3049853fc50e6b062aa5908d9e827afaa530f3c51f2d4b776818f27904616c"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_01005_0402Metric_Pad0.48x0.20mm_HandSolder.kicad_mod",
+    "sha256": "8f43cb80dfe67feabe71aad80a3119105286137b383675ac8ea27559d38c6e45"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_01005_0402Metric_Pad0.68x0.40mm_HandSolder.kicad_mod",
+    "sha256": "4e78ab88c6ff190f9701908c97ee0a5be990c742ba1b1dc9411696ce17c9dd1e"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0201_0603Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0201_0603Metric_L.kicad_mod",
+    "sha256": "2e8b5470c4f3bf7f0eeefe126a69e9a67d047a3106df34bdba3529e994649946"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0201_0603Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0201_0603Metric_M.kicad_mod",
+    "sha256": "b600416a083858dd65031e3900769eeda364db4f534b63275e641ec9631d24fc"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0201_0603Metric_Pad0.54x0.30mm_HandSolder.kicad_mod",
+    "sha256": "cc7f2e01706b732da0774cf2783e0290001cc4c6b410b424aa612ceb7199b837"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0201_0603Metric_Pad0.73x0.50mm_HandSolder.kicad_mod",
+    "sha256": "3f5df704e6589d1cd0357715650e0c026de5ccddc365708f20af2cd539f0c8d2"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0402_1005Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0402_1005Metric_L.kicad_mod",
+    "sha256": "01797220b386df70f21005f291211e89c43952f04c40878bf058e78e395fbf85"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0402_1005Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0402_1005Metric_M.kicad_mod",
+    "sha256": "535eacf6b083d92f9b1d40ea9c9100896765d8666d45f7e1aa7b1374e2de1483"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0402_1005Metric_Pad0.67x0.54mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0402_1005Metric_Pad0.67x0.54mm_HandSolder.kicad_mod",
+    "sha256": "7e6483ec609e87cfbcc7eb4f114fbef2a31e1205c4c07e60f666a520f29f41c2"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0402_1005Metric_Pad0.86x0.74mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0402_1005Metric_Pad0.86x0.74mm_HandSolder.kicad_mod",
+    "sha256": "f0ea028446ce837012c5de3c62776493fc6489d819e3092ffe58c8a8387bf271"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0603_1608Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0603_1608Metric_L.kicad_mod",
+    "sha256": "c5022bfd91896d28f166ef33f483e41a85dac261b956cec3831200c6cc2bf5bc"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0603_1608Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0603_1608Metric_M.kicad_mod",
+    "sha256": "01bf30b8ae1042de2585ff360f25b2a68c116543d376f394820d9e3b66e43299"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0603_1608Metric_Pad0.85x0.85mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0603_1608Metric_Pad0.85x0.85mm_HandSolder.kicad_mod",
+    "sha256": "a57811d247061896b925a345f3f5b99ed2dd41367a5ca5c96977f0300f1167d9"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0603_1608Metric_Pad1.25x1.05mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0603_1608Metric_Pad1.25x1.05mm_HandSolder.kicad_mod",
+    "sha256": "8c1c442fa506909d101d2f7f695dd37858da367f2be6a53577473e50ae9d74b9"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0805_2012Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0805_2012Metric_L.kicad_mod",
+    "sha256": "d9138043bbf3d0c7a74b1564745e076957e83afd8087a8ace13ab2100b991801"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0805_2012Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0805_2012Metric_M.kicad_mod",
+    "sha256": "858f1dbc79c49912cc87c2bc36798362607fb510d290ebffb1efd74cba9df6c1"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0805_2012Metric_Pad0.85x1.10mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0805_2012Metric_Pad0.85x1.10mm_HandSolder.kicad_mod",
+    "sha256": "acf1fb5034df090fe709051ccad1f3e035af6ae98b6d62a90404d585f2a3b61e"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0805_2012Metric_Pad1.25x1.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0805_2012Metric_Pad1.25x1.30mm_HandSolder.kicad_mod",
+    "sha256": "0a940234adad0faaecbadf135662ded4cf84f28182a82e089918cfe3e934ff1d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_0806_2016Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_0806_2016Metric_L.kicad_mod",
+    "sha256": "3da2bc9011d01fe2676725dd5fe11369f0e981ca3ef90f56ce42d560721dc521"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1008_2520Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1008_2520Metric_L.kicad_mod",
+    "sha256": "159ce97e87ce153eb5e455c86f9aef6bae232ddfbb443ca69d301213fa9e0d3a"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1008_2520Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1008_2520Metric_M.kicad_mod",
+    "sha256": "1080635a117c3f3572784991743df2a4ca80d31f9be4151168e8120a179f8f4d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1008_2520Metric_Pad1.23x2.10mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1008_2520Metric_Pad1.23x2.10mm_HandSolder.kicad_mod",
+    "sha256": "685c4878ba8f4a68ddfb8a030a195071c0b4e1e108a8b0b4941b492e164d0b89"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1008_2520Metric_Pad1.63x2.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1008_2520Metric_Pad1.63x2.30mm_HandSolder.kicad_mod",
+    "sha256": "18b3c68f0a3f567b39d5b0b335b24cd15edd16338f01523fe6e390ce13ce5c66"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1206_3216Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1206_3216Metric_L.kicad_mod",
+    "sha256": "bb8978903eb049f28e80d4c95ae4ffe875a67e404f686eddf57e23e0ec761a70"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1206_3216Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1206_3216Metric_M.kicad_mod",
+    "sha256": "71a176edae2dcbdae3f67072a03bd035c0ebddb8741dfc6c9ed25d4ed603910d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1206_3216Metric_Pad1.03x1.80mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1206_3216Metric_Pad1.03x1.80mm_HandSolder.kicad_mod",
+    "sha256": "9ad356ab4d0a012325b51703734c8031bfd852d2213295c3bf5d016705ebe773"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1206_3216Metric_Pad1.43x2.00mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1206_3216Metric_Pad1.43x2.00mm_HandSolder.kicad_mod",
+    "sha256": "d1e4f7ac85ac1559dc933aed982576f59eb5ba7f0d9a4f6887711417bc34d746"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1210_3225Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1210_3225Metric_L.kicad_mod",
+    "sha256": "3dae856d7ac6f342e63875d13a59f4d75e91b6e4594514cd6c33ab07805ff241"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1210_3225Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1210_3225Metric_M.kicad_mod",
+    "sha256": "55f689f87d1ebb6f2e26f98b653bf1ab2de79245d948b6da184db0caf0976c49"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1210_3225Metric_Pad1.23x2.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1210_3225Metric_Pad1.23x2.55mm_HandSolder.kicad_mod",
+    "sha256": "753198ef90f9989a40fbfa55aca5549516201d771ccdc4d0214dc87341718281"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1210_3225Metric_Pad1.62x2.75mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1210_3225Metric_Pad1.62x2.75mm_HandSolder.kicad_mod",
+    "sha256": "982e23398d89545afd76618115477d1f729e9fce6c1efdfa418f790551f154a1"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1806_4516Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1806_4516Metric_L.kicad_mod",
+    "sha256": "8f9b67a16de2be54064a30d52e1033f38c6d71701d8c3536af250bfa2cf7837e"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1806_4516Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1806_4516Metric_M.kicad_mod",
+    "sha256": "e693a253d5b40abec46aa5d7304292d25045e2e84790efaaba35562144278726"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1806_4516Metric_Pad1.25x1.80mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1806_4516Metric_Pad1.25x1.80mm_HandSolder.kicad_mod",
+    "sha256": "4fd16c354d90505f64498669632f4e480d69a2bd6a9f84cf00338b4c48f2c271"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1806_4516Metric_Pad1.65x2.00mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1806_4516Metric_Pad1.65x2.00mm_HandSolder.kicad_mod",
+    "sha256": "f693f6fd4520954d987af177967e543bc027d72b9d2839d197fec8a171738ed2"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1812_4532Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1812_4532Metric_L.kicad_mod",
+    "sha256": "812852e1a0bc55aef266d5620169b0ff19a6e923621f8af4b1e6509049c6d624"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1812_4532Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1812_4532Metric_M.kicad_mod",
+    "sha256": "176fbff62fab3edb60da20a657488efc4a3be001569086f19387e2f4de93e6e0"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1812_4532Metric_Pad1.10x3.30mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1812_4532Metric_Pad1.10x3.30mm_HandSolder.kicad_mod",
+    "sha256": "418165d71f47a0cee722ba0266b07cf8f8c3e59610a335f0ccea44edb197eed5"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_1812_4532Metric_Pad1.50x3.50mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_1812_4532Metric_Pad1.50x3.50mm_HandSolder.kicad_mod",
+    "sha256": "11adffd6392a1da68a590c42ecf7a5cac1aaa6ff44e4a83e0c1b08bb5404d2c9"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2010_5025Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2010_5025Metric_L.kicad_mod",
+    "sha256": "f5bad4d47ddf7a08e2fe9440e7082c7e45cc49feb85f36db2873f0e66f14c435"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2010_5025Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2010_5025Metric_M.kicad_mod",
+    "sha256": "5ab992f33e16af37a6ba46cb7f130debc6324439be3bdb82ab18bcfa6dd39978"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2010_5025Metric_Pad1.32x2.55mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2010_5025Metric_Pad1.32x2.55mm_HandSolder.kicad_mod",
+    "sha256": "945c02649c237b76c080c4bab6a4a92e98c89523609ac53a1ad0597ee552c69d"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2010_5025Metric_Pad1.72x2.75mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2010_5025Metric_Pad1.72x2.75mm_HandSolder.kicad_mod",
+    "sha256": "34028156b4484a10a805c2909ca40698630016e1eb5ecc25b05239c9b3f41572"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2512_6332Metric_L.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2512_6332Metric_L.kicad_mod",
+    "sha256": "5c6ff2d1749d7c5fa2ed7220fba62c13fa6f21faccb80b4ae2970f509546ec0a"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2512_6332Metric_M.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2512_6332Metric_M.kicad_mod",
+    "sha256": "7c6d8e7e44ace60665d35680bfbdfb6c56009fa4f20c6cbe1dffd9d0602d7455"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2512_6332Metric_Pad1.32x3.25mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2512_6332Metric_Pad1.32x3.25mm_HandSolder.kicad_mod",
+    "sha256": "7da6810a2b90973450b8e43b8071446a085e678078b09aa7daad18439531acf0"
+  },
+  {
+    "source": "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library/footprints/amemb-Inductor_SMD.pretty/L_2512_6332Metric_Pad1.73x3.45mm_HandSolder.kicad_mod",
+    "snapshot": "amemb-Inductor_SMD.pretty/L_2512_6332Metric_Pad1.73x3.45mm_HandSolder.kicad_mod",
+    "sha256": "3f595be70da98848b5dc314cd476d5ac36db2039b1d7d3fbc294899b06885205"
+  }
+]

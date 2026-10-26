@@ -1,0 +1,883 @@
+TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 2
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+  include_in_qa: True
+
+TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 3
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+  include_in_qa: True
+
+TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 4
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 5
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 6
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-7-5.0-H_1x07_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 7
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-8-5.0-H_1x08_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 8
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 9
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-10-5.0-H_1x10_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 10
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-11-5.0-H_1x11_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 11
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-12-5.0-H_1x12_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 12
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-13-5.0-H_1x13_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 13
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-14-5.0-H_1x14_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 14
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-15-5.0-H_1x15_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 15
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-16-5.0-H_1x16_P5.00mm_Horizontal:
+  source: 'https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf'
+  n: 16
+  bodystyle: 'phoenix_pt_5'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 2
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 3
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 4
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 5
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 6
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-7-3.5-H_1x07_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 7
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 8
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-9-3.5-H_1x09_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 9
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-10-3.5-H_1x10_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 10
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-11-3.5-H_1x11_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 11
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-12-3.5-H_1x12_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 12
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-13-3.5-H_1x13_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 13
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-14-3.5-H_1x14_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 14
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-15-3.5-H_1x15_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 15
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_PT-1,5-16-3.5-H_1x16_P3.50mm_Horizontal:
+  source: 'https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1984617'
+  n: 16
+  bodystyle: 'phoenix_pt_35'
+  lib: 'TerminalBlock_Phoenix'
+  body_color_key: 'green body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727010'
+    n: 2
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-3-3.81_1x03_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727023'
+    n: 3
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-4-3.81_1x04_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727036'
+    n: 4
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727049'
+    n: 5
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-6-3.81_1x06_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727052'
+    n: 6
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-7-3.81_1x07_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727065'
+    n: 7
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-8-3.81_1x08_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727078'
+    n: 8
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-9-3.81_1x09_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727081'
+    n: 9
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-10-3.81_1x10_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727094'
+    n: 10
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-11-3.81_1x11_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727104'
+    n: 11
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-12-3.81_1x12_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1727117'
+    n: 12
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1-13-3.81_1x13_P3.81mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1931754'
+    n: 13
+    bodystyle: 'phoenix_mkds_1_381'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 2
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 3
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 4
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-5-5.08_1x05_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 5
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 6
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 7
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 8
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-9-5.08_1x09_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 9
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-10-5.08_1x10_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 10
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-11-5.08_1x11_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 11
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 12
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-13-5.08_1x13_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 13
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-14-5.08_1x14_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 14
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-15-5.08_1x15_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 15
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-16-5.08_1x16_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715721'
+    n: 16
+    bodystyle: 'phoenix_mkds_15_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 2
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 3
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 4
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-5_1x05_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 5
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 6
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-7_1x07_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 7
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 8
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-9_1x09_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 9
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-10_1x10_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 10
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-11_1x11_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 11
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-12_1x12_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 12
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-13_1x13_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 13
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-14_1x14_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 14
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-15_1x15_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 15
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-1,5-16_1x16_P5.00mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1715022'
+    n: 16
+    bodystyle: 'phoenix_mkds_15_5'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 2
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 3
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 4
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-5-5.08_1x05_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 5
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 6
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-7-5.08_1x07_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 7
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-8-5.08_1x08_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 8
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-9-5.08_1x09_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 9
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-10-5.08_1x10_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 10
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-11-5.08_1x11_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 11
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-12-5.08_1x12_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 12
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-13-5.08_1x13_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 13
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-14-5.08_1x14_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 14
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-15-5.08_1x15_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 15
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MKDS-3-16-5.08_1x16_P5.08mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1711725'
+    n: 16
+    bodystyle: 'phoenix_mkds_3_508'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 2
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 3
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 4
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 5
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 6
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 7
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 8
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 9
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 10
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-11-2.54_1x11_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 11
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'
+
+TerminalBlock_Phoenix_MPT-0,5-12-2.54_1x12_P2.54mm_Horizontal:
+    source: 'https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656'
+    n: 12
+    bodystyle: 'phoenix_mpt_05_254'
+    lib: 'TerminalBlock_Phoenix'
+    body_color_key: 'green body'
+    pin_color_key: 'metal grey pins'
+    destination_dir: 'TerminalBlock_Phoenix.3dshapes'

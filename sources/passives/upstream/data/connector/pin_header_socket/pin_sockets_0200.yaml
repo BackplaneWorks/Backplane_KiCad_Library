@@ -1,0 +1,192 @@
+# Useful source: https://gct.co/board-to-board-connector/list?pitch=2.00mm&locatingpeg=without+locating+peg&elevated=No
+defaults_PS_THT_Vertical:
+  lib_format: 'Connector_PinSocket_{pin_pitch:03.2f}mm'
+  class_name: PinSocket
+  class_descr: socket strip
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_{orientation}"
+  descr_format: '{mount_text} straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  mount_text: Through hole
+  orientation: Vertical
+  pin_pitch: 2.00
+
+defaults_PS_THT_Horizontal:
+  inherit: defaults_PS_THT_Vertical
+  descr_format: '{mount_text} angled {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch, {body_width:g}mm socket length{row_text}'
+  tags_base: '{mount_text} angled {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  orientation: Horizontal
+
+defaults_PS_SMD_1Row_Vertical:
+  lib_format: 'Connector_PinSocket_{pin_pitch:03.2f}mm'
+  class_name: PinSocket
+  class_descr: socket strip
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_Vertical_SMD{pin1_text}"
+  descr_format: 'surface-mounted straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}{pin1_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}{pin1_text}'
+  mount_type: SMD
+  mount_text: Surface mounted
+  orientation: Vertical
+  pin_pitch: 2.00
+
+defaults_PS_SMD_2Row_Vertical:
+  lib_format: 'Connector_PinSocket_{pin_pitch:03.2f}mm'
+  class_name: PinSocket
+  class_descr: socket strip
+  footpr_format: "{class_name}_{row_count}x{pos_count:02}_P{pin_pitch:03.2f}mm_Vertical_SMD"
+  descr_format: 'surface-mounted straight {class_descr}, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  tags_base: '{mount_text} {class_descr} {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: SMD
+  mount_text: Surface mounted
+  orientation: Vertical
+  pin_pitch: 2.00
+
+
+# THT Straight(Vertical) logic:
+THT-1row_Straight_Right:
+  inherit: defaults_PS_THT_Vertical
+  pin1_left: False
+  row_count: 1
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  2.00
+    height: 5.6
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    width:  0.6
+    #thick:  0.2
+    drill:  0.8
+    offset: 0.0
+    #length: 2.5 # under the socket
+  pads:
+    length: 1.35
+    width:  1.35
+    offset: 0
+  datasheet: from Kicad 4.0.7
+
+THT-2row_Straight_Right:
+  inherit: THT-1row_Straight_Right
+  row_count: 2
+  body:
+    width:  4.00
+
+
+# THT Angled(Horizontal) logic:
+THT-1row_Angled_Right:
+  inherit: defaults_PS_THT_Horizontal
+  pin1_left: False
+  row_count: 1
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  6.35
+    height: 2.00
+    offset: 1.27
+    overlength: 0.0
+  pins:
+    width:  0.6
+    #thick:  0.2
+    drill:  0.8
+    offset: 0.2
+    length: 2.5
+  pads:
+    length: 1.35
+    width:  1.35
+    offset: 0
+  datasheet: from Kicad 4.0.7
+
+THT-2row_Angled_Right:
+  inherit: defaults_PS_THT_Horizontal
+  pin1_left: False
+  row_count: 2
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  6.35
+    height: 4.0
+    offset: 1.27
+    overlength: 0
+  pins:
+    width:  0.6
+    #thick:  0.2
+    drill:  0.8
+    length: 2.5
+    offset: 0.2
+  pads:
+    length: 1.35
+    width:  1.35
+    offset: 0
+  datasheet: from Kicad 4.0.7
+
+
+# SMD Straight(Vertical) logic:
+SMD-1row_Straight_Right:
+  inherit: defaults_PS_SMD_1Row_Vertical
+  pin1_left: False
+  row_count: 1
+  pos_range:
+    range: [2, 40]
+  body:
+    width:  2.5 # 2.4
+    height: 4.3 # 4.0
+    offset: 0.0
+    overlength: 0.6
+  pins:
+    # pp: 4.2 # pin-pin width aka W aka E, for reference only.
+    width:  0.5
+    #thick:  0.2
+    drill:  0
+    offset: 0.0 # not specified, minimum pins_width/2 = 0.5/2, 0.3?
+    smd_length: 2.1
+    # smd_length from pins_pp: (pins_pp - (rows-1)*pitch)/2 - pins_offset =
+    # (4.2 - 0)/2 - 0 = 2.1
+  pads:
+    # pp: 5.2 # pad-pad width aka W+1 aka E+1, offset is preferred.
+    length: 2.0 # 2.1
+    width:  0.9 # 0.85
+    offset: 1.6
+    # pads_offset smd from pads_pp: (pads_pp - (rows-1)*pitch - pads_length)/2 =
+    # (5.2 - 0 - 2.1)/2 = 1.55
+  datasheet: https://www.jayconsystems.com/fileuploader/download/download/?d=1&file=custom%2Fupload%2FFile-1375728122.pdf
+  # https://gct.co/files/drawings/bf090.pdf
+
+SMD-1row_Straight_Left:
+  inherit: SMD-1row_Straight_Right
+  pin1_left: True
+
+SMD-2row_Straight_Right:
+  inherit: defaults_PS_SMD_2Row_Vertical
+  pin1_left: False
+  row_count: 2
+  pos_range:
+    range: [1, 40]
+  body:
+    width:  4.0
+    height: 4.5 # 4.0
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    # pp: 6.26 # pin-pin width aka W aka E, for reference only.
+    width:  0.5
+    #thick:  0.2
+    drill:  0
+    offset: 0.0 # not specified, minimum (pins_width*2 + pitch)/2 = 3.0/2
+    smd_length: 2.0
+    # smd_length from pins_pp: (pins_pp - (rows-1)*pitch)/2 - pins_offset =
+    # (6.26 - 2.00)/2 - 0 = 2.13
+  pads:
+    # pp_width: 7.26 # pad-pad width aka W+1 aka E+1, offset is preferred.
+    length: 2.75 # 2.1
+    width:  1.0 # 0.85
+    offset: 2.125
+    # pads_offset smd from pads_pp: (pads_pp - (rows-1)*pitch - pads_length)/2 =
+    # (9.0 - 2.00 - 2.75)/2 = 2.125, (7.26 - 2.00 - 2.1)/2 = 1.58
+  datasheet: from Kicad 4.0.7
+  # https://gct.co/files/drawings/bf100.pdf
+
+# 2.00mm Socket SMD-1row_Angled: https://gct.co/files/drawings/bf088.pdf
+# 2.00mm Socket SMD-2row_Angled: https://gct.co/files/drawings/bf112.pdf
+# 2.00mm Socket SMD-2row_Angled: https://gct.co/files/drawings/bf115.pdf

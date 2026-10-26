@@ -1,0 +1,479 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L_Toroid
+  deco: chokewire
+  func: makeResistorRadial
+  has3d: 1
+  lib_name: Inductor_THT
+  seriesname: 'Horizontal'
+  rm2: 0
+  s_3d:
+    - 1
+    - 1
+    - 1
+  specialfpname: ''
+  type: concentric
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+Horizontal_D40.0mm_P48.26mm:
+  inherit: base
+  add_description: ''
+  ddrill: 1.5
+  h: 40
+  height3d: 4
+  name_additions: []
+  rm: 48.26
+  specialtags: []
+  w: 40
+  w2: 13.333333333333334
+
+
+Horizontal_D3.2mm_P6.40mm_Diameter3-5mm_Amidon-T12:
+  inherit: base
+  add_description: ''
+  ddrill: 1
+  h: 3.175
+  height3d: 4
+  name_additions:
+    - Diameter3-5mm
+    - Amidon-T12
+  rm: 6.4
+  specialtags:
+    - Diameter3-5mm
+    - Amidon-T12
+  w: 3.175
+  w2: 1.5748
+
+
+Horizontal_D4.1mm_P8.00mm_Diameter4-5mm_Amidon-T16:
+  inherit: base
+  add_description: ''
+  ddrill: 1
+  h: 4.064
+  height3d: 4
+  name_additions:
+    - Diameter4-5mm
+    - Amidon-T16
+  rm: 8
+  specialtags:
+    - Diameter4-5mm
+    - Amidon-T16
+  w: 4.064
+  w2: 1.9812
+
+
+Horizontal_D5.1mm_P9.00mm_Diameter6-5mm_Amidon-T20:
+  inherit: base
+  add_description: ''
+  ddrill: 1
+  h: 5.08
+  height3d: 4.5
+  name_additions:
+    - Diameter6-5mm
+    - Amidon-T20
+  rm: 9
+  specialtags:
+    - Diameter6-5mm
+    - Amidon-T20
+  w: 5.08
+  w2: 2.2352
+
+
+Horizontal_D6.5mm_P10.00mm_Diameter7-5mm_Amidon-T25:
+  inherit: base
+  add_description: ''
+  ddrill: 1
+  h: 6.477
+  height3d: 5
+  name_additions:
+    - Diameter7-5mm
+    - Amidon-T25
+  rm: 10
+  specialtags:
+    - Diameter7-5mm
+    - Amidon-T25
+  w: 6.477
+  w2: 3.048
+
+
+Horizontal_D7.8mm_P13.00mm_Diameter9-5mm_Amidon-T30:
+  inherit: base
+  add_description: ''
+  ddrill: 1.2
+  h: 7.7978
+  height3d: 5.5
+  name_additions:
+    - Diameter9-5mm
+    - Amidon-T30
+  rm: 13
+  specialtags:
+    - Diameter9-5mm
+    - Amidon-T30
+  w: 7.7978
+  w2: 3.8354
+
+
+Horizontal_D9.5mm_P15.00mm_Diameter10-5mm_Amidon-T37:
+  inherit: base
+  add_description: ''
+  ddrill: 1.2
+  h: 9.525
+  height3d: 6
+  name_additions:
+    - Diameter10-5mm
+    - Amidon-T37
+  rm: 15
+  specialtags:
+    - Diameter10-5mm
+    - Amidon-T37
+  w: 9.525
+  w2: 5.207
+
+
+Horizontal_D11.2mm_P17.00mm_Diameter12-5mm_Amidon-T44:
+  inherit: base
+  add_description: ''
+  ddrill: 1.2
+  h: 11.176
+  height3d: 6.5
+  name_additions:
+    - Diameter12-5mm
+    - Amidon-T44
+  rm: 17
+  specialtags:
+    - Diameter12-5mm
+    - Amidon-T44
+  w: 11.176
+  w2: 5.8166
+
+
+Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50:
+  inherit: base
+  add_description: ''
+  ddrill: 1.2
+  h: 12.7
+  height3d: 7
+  name_additions:
+    - Diameter14-5mm
+    - Amidon-T50
+  rm: 20
+  specialtags:
+    - Diameter14-5mm
+    - Amidon-T50
+  w: 12.7
+  w2: 7.6962
+
+
+Horizontal_D16.8mm_P14.70mm_Vishay-TJ3_BigPads:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 16.8
+  height3d: 8.2
+  name_additions:
+    - Vishay
+    - TJ3
+  name_additions_non3d:
+    - BigPads
+  rm: 14.7
+  specialtags:
+    - Vishay
+    - TJ3
+  w: 16.8
+  w2: 5.6
+
+
+Horizontal_D16.8mm_P14.70mm_Vishay-TJ3:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.2
+  h: 16.8
+  height3d: 8.2
+  name_additions:
+    - Vishay
+    - TJ3
+  rm: 14.7
+  specialtags:
+    - Vishay
+    - TJ3
+  w: 16.8
+  w2: 5.6
+
+
+Horizontal_D17.3mm_P15.24mm_Bourns-2000:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2000_series.pdf?sfvrsn=5
+  ddrill: 1.8
+  h: 17.3
+  height3d: 10.4
+  name_additions:
+    - Bourns
+    - '2000'
+  rm: 15.24
+  specialtags:
+    - Bourns
+    - '2000'
+  w: 17.3
+  w2: 5.766666666666667
+
+
+Horizontal_D21.8mm_P19.60mm_Bourns-2100:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.8
+  h: 21.8
+  height3d: 10.4
+  name_additions:
+    - Bourns
+    - '2100'
+  rm: 19.6
+  specialtags:
+    - Bourns
+    - '2100'
+  w: 21.8
+  w2: 7.266666666666667
+
+
+Horizontal_D21.8mm_P19.10mm_Bourns-2100:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.8
+  h: 21.8
+  height3d: 11.4
+  name_additions:
+    - Bourns
+    - '2100'
+  rm: 19.1
+  specialtags:
+    - Bourns
+    - '2100'
+  w: 21.8
+  w2: 7.266666666666667
+
+
+Horizontal_D22.4mm_P19.80mm_Vishay-TJ4:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 22.4
+  height3d: 10.2
+  name_additions:
+    - Vishay
+    - TJ4
+  rm: 19.8
+  specialtags:
+    - Vishay
+    - TJ4
+  w: 22.4
+  w2: 7.466666666666666
+
+
+Horizontal_D24.1mm_P21.80mm_Bourns-2200:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.8
+  h: 24.1
+  height3d: 14
+  name_additions:
+    - Bourns
+    - '2200'
+  rm: 21.8
+  specialtags:
+    - Bourns
+    - '2200'
+  w: 24.1
+  w2: 8.033333333333333
+
+
+Horizontal_D24.1mm_P23.10mm_Bourns-2200_b:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.8
+  h: 24.1
+  height3d: 14
+  name_additions:
+    - Bourns
+    - '2200'
+  rm: 23.1
+  specialtags:
+    - Bourns
+    - '2200'
+  w: 24.1
+  w2: 8.033333333333333
+
+
+Horizontal_D25.4mm_P22.90mm_Vishay-TJ5_BigPads:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 25.4
+  height3d: 11.4
+  name_additions:
+    - Vishay
+    - TJ5
+  name_additions_non3d:
+    - BigPads
+  rm: 22.9
+  specialtags:
+    - Vishay
+    - TJ5
+  w: 25.4
+  w2: 8.466666666666667
+
+
+Horizontal_D25.4mm_P22.90mm_Vishay-TJ5:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.2
+  h: 25.4
+  height3d: 11.4
+  name_additions:
+    - Vishay
+    - TJ5
+  rm: 22.9
+  specialtags:
+    - Vishay
+    - TJ5
+  w: 25.4
+  w2: 8.466666666666667
+
+
+Horizontal_D28.0mm_P26.67mm_Bourns-2200:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.5
+  h: 28
+  height3d: 14
+  name_additions:
+    - Bourns
+    - '2200'
+  rm: 26.67
+  specialtags:
+    - Bourns
+    - '2200'
+  w: 28
+  w2: 9.333333333333334
+
+
+Horizontal_D28.0mm_P25.10mm_Bourns-2200:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3
+  ddrill: 1.3
+  h: 28
+  height3d: 14
+  name_additions:
+    - Bourns
+    - '2200'
+  rm: 25.1
+  specialtags:
+    - Bourns
+    - '2200'
+  w: 28
+  w2: 9.333333333333334
+
+
+Horizontal_D32.5mm_P30.00mm_Bourns-2300:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2300_series.pdf?sfvrsn=3
+  ddrill: 2
+  h: 32.5
+  height3d: 16.5
+  name_additions:
+    - Bourns
+    - '2300'
+  rm: 30
+  specialtags:
+    - Bourns
+    - '2300'
+  w: 32.5
+  w2: 10.833333333333334
+
+
+Horizontal_D32.5mm_P28.90mm_Bourns-2300:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/2300_series.pdf?sfvrsn=3
+  ddrill: 1.5
+  h: 32.5
+  height3d: 16.5
+  name_additions:
+    - Bourns
+    - '2300'
+  rm: 28.9
+  specialtags:
+    - Bourns
+    - '2300'
+  w: 32.5
+  w2: 10.833333333333334
+
+
+Horizontal_D35.1mm_P31.00mm_Vishay-TJ6:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 35.1
+  height3d: 21.1
+  name_additions:
+    - Vishay
+    - TJ6
+  rm: 31.0
+  specialtags:
+    - Vishay
+    - TJ6
+  w: 35.1
+  w2: 11.7
+
+
+Horizontal_D41.9mm_P37.60mm_Vishay-TJ7:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 41.9
+  height3d: 19.1
+  name_additions:
+    - Vishay
+    - TJ7
+  rm: 37.6
+  specialtags:
+    - Vishay
+    - TJ7
+  w: 41.9
+  w2: 13.966666666666667
+
+
+Horizontal_D49.3mm_P44.60mm_Vishay-TJ8:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.7
+  h: 49.3
+  height3d: 25.4
+  name_additions:
+    - Vishay
+    - TJ8
+  rm: 44.6
+  specialtags:
+    - Vishay
+    - TJ8
+  w: 49.3
+  w2: 16.433333333333334
+
+
+Horizontal_D69.1mm_P63.20mm_Vishay-TJ9:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 2
+  h: 69.1
+  height3d: 36.1
+  name_additions:
+    - Vishay
+    - TJ9
+  rm: 63.2
+  specialtags:
+    - Vishay
+    - TJ9
+  w: 69.1
+  w2: 23.03333333333333

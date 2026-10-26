@@ -1,0 +1,2014 @@
+{
+  "name": "Backplane_KiCad_Library",
+  "version": "2026.10.26",
+  "footprint_count": 199,
+  "libraries": {
+    "Backplane_MountingHole": 60,
+    "Backplane_Passives_Least": 45,
+    "Backplane_Passives_Most": 44,
+    "Backplane_Passives_Nominal": 44,
+    "Backplane_Shoggoth": 6
+  },
+  "step_models": 42,
+  "tested_runtime": "10.99.0-bp.4",
+  "runtime_source_commit": "5dbc22d292704d02b609d5b7a0edc971f1b7f08b",
+  "canonical_project": "boards/library_catalogue/library_catalogue.kicad_pro",
+  "canonical_board_sha256": "4e5650222ffd4db0ebc109ee9257cf6cd1f587143b1623140698ba5104a65bc4",
+  "provenance": [
+    "sources/holes/manifest.json",
+    "sources/passives/provenance.json",
+    "docs/shoggoth.md"
+  ],
+  "entries": [
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.1mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.1mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.1mm_ExposedSubstrate.kicad_mod",
+      "sha256": "c8b721da9cd06ca6f873da0eaae2c5602171dd89db058589b9dacd997e4d8f9e"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.1mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.1mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.1mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "136027e5ca33dde12d147fe3bd058b0b74e1e884b8a42070dd9a32a74fcb0e08"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.1mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.1mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.1mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "a5dfcd178f3d31e51f3c86af9e8b00e4c93f3f216fa2e9e0765b16ec57c7e4a3"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.2mm_M2_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.2mm_M2_ExposedSubstrate.kicad_mod",
+      "sha256": "fc04a0615b8bfbfd557d8616f019feea26babca466cd1781ca49b6d6363c3fd9"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.2mm_M2_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "c916c8040df27d6ca96382595a0795ed8cff79fee7d8d1a7a62f95a5b1810949"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "3662dab20290722d58c3612a1130c2dc95056c4efca99373740e655915342b41"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "05a7efebfec0db174563e6fec7ca3d324ca2707cd93d86c721bd075f1f05a436"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "6163b06da1321e880a22180096910d4d5fbcc12cf892f1c5106dadccebebd851"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_ExposedSubstrate.kicad_mod",
+      "sha256": "7a9b8aba8cb6b2e92c268b5e9a7ff158a86277253f503132d83773c955b96b65"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "85d903b1f6e2d5c56d35724ce6acea9350c294ecc4514111216302b939039862"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "e2ca8c6f1201d44ed068561a5cedefc36a47927e484eafcd0f7f29c9491fc718"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_M2.5_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_M2.5_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_M2.5_ExposedSubstrate.kicad_mod",
+      "sha256": "aa4fb4e33f44c4a44b1ebaddc754687ad0aa3134c53c3ca1aa73220cd50c6874"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_M2.5_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_M2.5_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_M2.5_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "04a4cdb07e20f657e52c2355e50ec0fa0ee017c9a7fb19cf8bfa7ab42c579fef"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2.7mm_M2.5_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2.7mm_M2.5_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2.7mm_M2.5_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "d65c3888dca4cf30843787dc66051221c58dcb6b99e3620e70f3ed569816331a"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2mm_ExposedSubstrate.kicad_mod",
+      "sha256": "f105f0d4d44401d6de6df4a7254428baa158d61bb771ef49c356ed0ed4049bea"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "1e7a67822491beca63918cd8522d3e454dc7947b7dea841a80338320fd68ce62"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_2mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_2mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_2mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "6d0c6b3edfcb541dec0ddea6dcf29569597f262ef84048b33add8d5e74654952"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.2mm_M3_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.2mm_M3_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.2mm_M3_ExposedSubstrate.kicad_mod",
+      "sha256": "677853183765141109c898cecaf03bcb7e2d4ab9996e01d1f9cd32d523157b48"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.2mm_M3_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.2mm_M3_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.2mm_M3_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "81e6597c4605abd21e5c650be1d051cb5fffb7551b172dd6594406947d23fc53"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.2mm_M3_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.2mm_M3_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.2mm_M3_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "378b5298a64167830b75332eac31a32bc4b5845e983a1c1087b1d04c545a8320"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "a484bad4046198317166e2b364c2f2ad17347a3accbda08e033d8f3baf9e7417"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "53e5f3a34d0576ff4053f8d3a574be71ddcc9ad40c22b23408b4aeee898eda23"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "8ad72f222aa91eccb83b1f0e4231a9719979fb149f0d50471950e1b425ea0fde"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.7mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.7mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.7mm_ExposedSubstrate.kicad_mod",
+      "sha256": "59689606a252e8fdf4403f4e9dcd0fcd08ba340d675805e67d225e61d4b1690f"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.7mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.7mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.7mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "18e960292615a7be9655a9565605ff552892e23bf402edd544c318f2c0608dda"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3.7mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3.7mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3.7mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "29e6910baa346208f75dd4ae8558f1cd5182a9aaf852a470d51f8e4cc5bf1c7e"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3mm_ExposedSubstrate.kicad_mod",
+      "sha256": "2420a5a632ec3ab6ae4f38c29ce99a6d4d2d63feaaf1c005c6993f7c30d60883"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "b15bb13bed1c0d08621be2da919708fba557f042236ce1c9567cd760e390a462"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_3mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_3mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_3mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "ad4f7c1e7f8dcce271d75631fbf6339e4734c2dd2f67b4abeec0cb957fa8d993"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.3mm_M4_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.3mm_M4_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.3mm_M4_ExposedSubstrate.kicad_mod",
+      "sha256": "613ad0a0cfbae3039f24988550371bf0af1f9109080f460a2e0469e414ea0d48"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.3mm_M4_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.3mm_M4_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.3mm_M4_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "8a81c98c8d19877cd7668a9a0d0c804531f9a3bcf1843fb73c332fdd159ffe87"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.3mm_M4_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.3mm_M4_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.3mm_M4_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "1a468f23c84d22d4303e9c1e5e1dd8ebae72db8973b65958aabece46c25477dd"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "6db152d592b28b0fa6423de11f0650482c47647e0e8949d3c33bb2b01d0073c8"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "b33c0033c848c58a9dc102ea4399cacedbd9ba627238af6b5901bcdce103d97a"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4.5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4.5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4.5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "ccafce961c54df23a463dac3facedd152e1785fd406654e8edba84b724e822e1"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4mm_ExposedSubstrate.kicad_mod",
+      "sha256": "454991b6c85883c2909ec17807e82b0ed0bb6f3c03a0d6c9b847231206ae56a3"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "3fce4df367cd1e96a208499f378308924b1428fc81cdc1053a8dbc54f7b88718"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_4mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_4mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_4mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "ab314a524b1f164d5e8204a7b29fdd1ddb7ff32c4565b47df12dace9950d4aa7"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.3mm_M5_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.3mm_M5_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.3mm_M5_ExposedSubstrate.kicad_mod",
+      "sha256": "69cd8acfffeba424a43c7e3c1dbbba910700751eba50ee18ee7cf2d3103ab619"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.3mm_M5_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.3mm_M5_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.3mm_M5_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "3de47f126b609767f6c5a9c386d1979d164b50460e22c6b549f02befe0e048b8"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.3mm_M5_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.3mm_M5_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.3mm_M5_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "57a78338c5022040661ff42035b94e8efa13fe1ad0987bd3e42768778f6fd4fa"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "bc8f2cf3b9fcf87206b1db3cc9f649363fcbc7ca9b81c89ad11298086e92747c"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "4fa99c85796961c0b39aeafe4b08b42957b3f091b751923775cc73937d041701"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5.5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5.5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5.5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "2c1bd6bfe9affb942ee294fb9edaff6606adc8731ed89b0fa4f92cdf81eb24dc"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "67d5f35e11aa3de3335b60db74d2beb6770b01765a5210cc39ec7350f227b282"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "04a4173b2b83ddbe15e0e24b99d117d15ca6b51ba79f937b003d4e819b3e81b3"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "7c6acb7643a952679e2ffa24b1667f7b4304d6d0684af247186f02d4186afe1a"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.4mm_M6_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.4mm_M6_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.4mm_M6_ExposedSubstrate.kicad_mod",
+      "sha256": "6226d77ce35d8d5adee2d38579e50600b89f6583857a000447c55c5fa30a727a"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.4mm_M6_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.4mm_M6_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.4mm_M6_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "fb02519950067f72f34360fa4177b9a668207d1658a8ad4e5840c76469f992a5"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.4mm_M6_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.4mm_M6_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.4mm_M6_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "0c42945ac2ce8dc12f04240e7f546045c2516b7333535949afed532cc629a62d"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.5mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.5mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.5mm_ExposedSubstrate.kicad_mod",
+      "sha256": "2eb2fc9b70b52dd7e746939216916585aa1069124b06add13a290457edbda9ec"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.5mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.5mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.5mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "da156186dbc680871570dd41d247dd1cfb9f74b8db251aef673d8f359f1cb263"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6.5mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6.5mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6.5mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "221394ed2d0b3131cc6b2f542c79c359d77281bb034932966437f62e5dffa413"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6mm_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6mm_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6mm_ExposedSubstrate.kicad_mod",
+      "sha256": "d200d46aa23c4bee53c4aea4a4facdd71705916d4984767102d7378cb2964ac6"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6mm_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6mm_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6mm_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "3d6536361ba9a3eca30a6e005f687b2fef50ef549fa7883da2edaab4f9a501fd"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_6mm_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_6mm_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_6mm_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "a26106e778a60888c88b92486b0483a2cbd5c97a4707f922379232f0cb2cad5d"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_8.4mm_M8_ExposedSubstrate",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_8.4mm_M8_ExposedSubstrate",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_8.4mm_M8_ExposedSubstrate.kicad_mod",
+      "sha256": "35f824ee0a2841922c1ea952e98f3991e87baed19d1a15911b08a1f44d6dd523"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_8.4mm_M8_ExposedSubstrate_Corner",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_8.4mm_M8_ExposedSubstrate_Corner",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_8.4mm_M8_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "67574da5241dc092a651f1e3658f050f31ebd283ff57ccbcf0a54ccb8bb43ebb"
+    },
+    {
+      "id": "Backplane_MountingHole:MountingHole_8.4mm_M8_ExposedSubstrate_Edge",
+      "library": "Backplane_MountingHole",
+      "name": "MountingHole_8.4mm_M8_ExposedSubstrate_Edge",
+      "family": "mounting_hole",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_MountingHole.pretty/MountingHole_8.4mm_M8_ExposedSubstrate_Edge.kicad_mod",
+      "sha256": "e961f92ec026e7871f3cbeb39aa2efc393c7009ac6ed7e80db435414dbab9021"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_01005_0402Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_01005_0402Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_01005_0402Metric.kicad_mod",
+      "sha256": "fd641ee6cae0ae93a5b9e06804a03958c9e5132616ccd899373146994593415b"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_0201_0603Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_0201_0603Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_0201_0603Metric.kicad_mod",
+      "sha256": "0f5886983f0100369dc2d58ba45e4d6d3f9b2c3c61a0a9f7c362e8a0c1a6bc0b"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_0402_1005Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_0402_1005Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "da598663732d6ea14ef94286cca45feccf5ce164f196f75d785716956110211d"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_0504_1310Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_0504_1310Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_0504_1310Metric.kicad_mod",
+      "sha256": "ac88933e243fdbdda0a2331351fc55280ca0519ecdd2b67b997a9ace3044c9fe"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_0603_1608Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_0603_1608Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "00fd10a7bb248beede66c9a3f540d46a8a362717e4a4290719d86e26d57c12a1"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_0805_2012Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_0805_2012Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_0805_2012Metric.kicad_mod",
+      "sha256": "e45a1528aafab273c6f148be4e506466033a6425cf57d4caab88db9f9c03e407"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_1206_3216Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_1206_3216Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_1206_3216Metric.kicad_mod",
+      "sha256": "ee129a774f6d24304238fa7efd10490e48d377aca8a70b5326cffc9680501003"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_1210_3225Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_1210_3225Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "8853293e799cd827c3d5422a84fb901cf6a0bc003edc4920f49d0a338a166c3f"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_1808_4520Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_1808_4520Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_1808_4520Metric.kicad_mod",
+      "sha256": "d7c1944607821ddbe56eed732855e719b7cd064b970c1269fc9b809a54c1b0f6"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_1812_4532Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_1812_4532Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_1812_4532Metric.kicad_mod",
+      "sha256": "f74e80c9e450492bbdc0921511e54bae6dbbb69934147f92111b4e41f201c807"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_1825_4564Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_1825_4564Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_1825_4564Metric.kicad_mod",
+      "sha256": "0f3402e64e2f6b7fb952bb5302256b88864214c4b89f87cc0ec09e47979d0f5a"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_2220_5750Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_2220_5750Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_2220_5750Metric.kicad_mod",
+      "sha256": "15c3cd5605ce53ffcae1c65936a76b3be5bbd6f1d75fbd2b3b3e46961ade211e"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_2225_5664Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_2225_5664Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_2225_5664Metric.kicad_mod",
+      "sha256": "4777ad6637cf8a6c9b54fccf9df690575b9b18812e59ee606786e16a83ec5415"
+    },
+    {
+      "id": "Backplane_Passives_Least:C_3640_9110Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "C_3640_9110Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/C_3640_9110Metric.kicad_mod",
+      "sha256": "d1e7bce77492589dccac8556beedd8939358581a86d8e51dd3f2f766af060d9e"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_01005_0402Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_01005_0402Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_01005_0402Metric.kicad_mod",
+      "sha256": "bf83d8734a2d34eeabf3199ac24280e9639729fbe7c69408467e47f35a16ad6f"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_0201_0603Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_0201_0603Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_0201_0603Metric.kicad_mod",
+      "sha256": "2db06f28e6d40f95bac6a46816ae9ca42c7a4880bbd99caf64254982cb50b7da"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_0402_1005Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_0402_1005Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_0402_1005Metric.kicad_mod",
+      "sha256": "c87a000145fd4067f7f8402b9a523b65ea75523a5ef87da95b9352b3fc5d914d"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_0603_1608Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_0603_1608Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_0603_1608Metric.kicad_mod",
+      "sha256": "333f9c63495e2b51f539c0c47a5af71a4ef2fb7e0d5db11d12daed68e199ebcf"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_0805_2012Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_0805_2012Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_0805_2012Metric.kicad_mod",
+      "sha256": "8405d8b688779c4a3ba1c055aa5060553177aba597d970bf234b53a9960d8d4f"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_0806_2016Metric_LegacyLocal",
+      "library": "Backplane_Passives_Least",
+      "name": "L_0806_2016Metric_LegacyLocal",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "original_local_least_only",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_0806_2016Metric_LegacyLocal.kicad_mod",
+      "sha256": "b15ad9ba1db1b3d39f19b916a0f817ae24795842fda68d4fb2bdd7a8d5ef010e"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_1008_2520Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_1008_2520Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_1008_2520Metric.kicad_mod",
+      "sha256": "bea1b123f54ca5b58510d2f3fc8c95483f362d33f80acbc0298e38e7e93f2624"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_1206_3216Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_1206_3216Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_1206_3216Metric.kicad_mod",
+      "sha256": "05a8745b3ca0bd24ce93f040611e0c21d1d790991738e52cea26428804ddb637"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_1210_3225Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_1210_3225Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_1210_3225Metric.kicad_mod",
+      "sha256": "8a17ecb24084adf73452b1553fddbff4b872e976ee71e7b3b084c612dde8a373"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_1806_4516Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_1806_4516Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_1806_4516Metric.kicad_mod",
+      "sha256": "0ab13ff09804c88abd3e182957fa4aee4b95e9e353f863fc2ebccec6c7a47591"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_1812_4532Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_1812_4532Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_1812_4532Metric.kicad_mod",
+      "sha256": "e5917ffb9ba867f68b2192ce30ea5b9089014e2fd3343dba77a54204f38c5467"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_2010_5025Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_2010_5025Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_2010_5025Metric.kicad_mod",
+      "sha256": "b230fb7c591d0d28ab55a0525bac5cb1142fc4c6cc7d30a94bea03c3f4d97fd2"
+    },
+    {
+      "id": "Backplane_Passives_Least:L_2512_6332Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "L_2512_6332Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/L_2512_6332Metric.kicad_mod",
+      "sha256": "7e6ebf28b34ff0890da3a7558b5d512d0952124d0a97b47b1c0b8e081e836790"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_01005_0402Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_01005_0402Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_01005_0402Metric.kicad_mod",
+      "sha256": "56db22125696914929f4cabd1f9b8b51870eaf602c9e99c29f529de40288beae"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0201_0603Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0201_0603Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0201_0603Metric.kicad_mod",
+      "sha256": "7cba26184b20224a29647e66959350c3bef8bb6458aa46aa17f36116c9a94912"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0402_1005Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0402_1005Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0402_1005Metric.kicad_mod",
+      "sha256": "11305e2e842864ac2ecdd9a585b7b48dc8278a533321b6773955e1773fa00c27"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0508_1220Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0508_1220Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0508_1220Metric.kicad_mod",
+      "sha256": "5ed3954749a840db2f5004fc5b05f711e852e6e0f0b8ccde0cc617edbf14fe80"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0603_1608Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0603_1608Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "1a9012d9a77858e12dd3b425d78014123900af145aa8f0254d98d20c5e1a9d36"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0612_1632Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0612_1632Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0612_1632Metric.kicad_mod",
+      "sha256": "0ad1cf5f0bed5b712bc9069c5f4e980007d9d87cbd8dee1497e5fff234b5b4a2"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0805_2012Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0805_2012Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "a5da3eac7923e4d7838c33aeb293b168d6be68276b776a2d09eaa7f2fd134eca"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_0815_2038Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_0815_2038Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_0815_2038Metric.kicad_mod",
+      "sha256": "f626eb5b99143a3ee7d304730353ca9c0ee356797f2074e4eb080ce550e8fb20"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1020_2550Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1020_2550Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1020_2550Metric.kicad_mod",
+      "sha256": "90db04b30e59a9834724dc77928ba57b432e5d2637a18f8e8d0253ab0e480f9f"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1206_3216Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1206_3216Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1206_3216Metric.kicad_mod",
+      "sha256": "cf3576c9c0bc832e1db1903850f17b9a522a52b1f60bf1db078ec1ae9b381b26"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1210_3225Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1210_3225Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1210_3225Metric.kicad_mod",
+      "sha256": "ce0720e92f4b42b98e36e301e63c6afdbf9205d2e9689e35a9876286f56e9e36"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1218_3246Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1218_3246Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1218_3246Metric.kicad_mod",
+      "sha256": "1369c264efc21e7daf5ac75598c4d87076856267c087f2413d211e34224d7790"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1225_3264Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1225_3264Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1225_3264Metric.kicad_mod",
+      "sha256": "8a0b2e259e8343d60c801e05a2c2def509b1cb2d3cd74776abd91beba0b04eb7"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_1812_4532Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_1812_4532Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_1812_4532Metric.kicad_mod",
+      "sha256": "30c66859c1ba67f2e746114e2369d4e95ebe52ed2ae18e79cd8ad5dc44effbf7"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_2010_5025Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_2010_5025Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_2010_5025Metric.kicad_mod",
+      "sha256": "abf4c95430236150a53b5ac6f0f52e012af17d6eec0fd8e0191ff1df74c5c93b"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_2512_6332Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_2512_6332Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_2512_6332Metric.kicad_mod",
+      "sha256": "46c21d3fc54991b9eef40f330956e6e888954d78cf2ec67d32e37e9c4f42b2a0"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_2816_7142Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_2816_7142Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_2816_7142Metric.kicad_mod",
+      "sha256": "fd3168aab82469c04621502a7f0d775177fdd439fd0a39e30c060261ea470173"
+    },
+    {
+      "id": "Backplane_Passives_Least:R_4020_10251Metric",
+      "library": "Backplane_Passives_Least",
+      "name": "R_4020_10251Metric",
+      "family": "passive",
+      "density": "least",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Least.pretty/R_4020_10251Metric.kicad_mod",
+      "sha256": "ff8f2811cf9814642bdce3feee1fb9c8b26559571bf66cf68e806e2d19c96da6"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_01005_0402Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_01005_0402Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_01005_0402Metric.kicad_mod",
+      "sha256": "2a1b625c66750c658779ade607ea2a2540f1280d8363b37a87f93b33b25c80e8"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_0201_0603Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_0201_0603Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_0201_0603Metric.kicad_mod",
+      "sha256": "d2e7028058c2b4cad3376a9ebccb131191a530444815379a7fd25b20b6334a53"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_0402_1005Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_0402_1005Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "e0fdef4883bdaeecd4943b74f715c70f2199de96450e907a5ef1908118a67fbe"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_0504_1310Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_0504_1310Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_0504_1310Metric.kicad_mod",
+      "sha256": "8aeef6d96aa5499edb3219efa6c4d35db61da4ce235f112f000d3e5d28e78b8c"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_0603_1608Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_0603_1608Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "ef63e9c81c1dde86d3e5874cab691a36ee63067366200406dfad9855d77222c6"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_0805_2012Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_0805_2012Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_0805_2012Metric.kicad_mod",
+      "sha256": "0b1629ecd50552b105f934aeff27b859f8b81aaa0d0fce1ee0fbfb176946e668"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_1206_3216Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_1206_3216Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_1206_3216Metric.kicad_mod",
+      "sha256": "1652c9e5182e4e96e7dad748b9d43adf37d4c0d7fcec8f41a043ba405fc65d3b"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_1210_3225Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_1210_3225Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "b9df9d62b7da2982bf2f45a95804e989ce4e5a7cb71c820e90615199e73fcf30"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_1808_4520Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_1808_4520Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_1808_4520Metric.kicad_mod",
+      "sha256": "84c5f20689c54c83395f7b6a11dba5384fb4ac1576752a8fb68e8a0fa2ea2b20"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_1812_4532Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_1812_4532Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_1812_4532Metric.kicad_mod",
+      "sha256": "80090787880731ab6e000179d8ea8fd95c6d4236eec0744d758998b79bf50ad6"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_1825_4564Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_1825_4564Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_1825_4564Metric.kicad_mod",
+      "sha256": "17cc07471bcdae6c50c08f2e37733a60a940a1e7317183d8f2102ef3196ae277"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_2220_5750Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_2220_5750Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_2220_5750Metric.kicad_mod",
+      "sha256": "15d1cbd0e3c6d898a74a27f2fc2d6ad4d80e47bb1dae6d75a6cf4a2cb57c1703"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_2225_5664Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_2225_5664Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_2225_5664Metric.kicad_mod",
+      "sha256": "646ba7e977b7062d29677c76de6003026ba38a01d28a19efa343524efe9e1f56"
+    },
+    {
+      "id": "Backplane_Passives_Most:C_3640_9110Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "C_3640_9110Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/C_3640_9110Metric.kicad_mod",
+      "sha256": "9989b2829a296c2fb04e2088b94686da9d766aefa4f15b4dea14268bcb6b4b50"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_01005_0402Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_01005_0402Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_01005_0402Metric.kicad_mod",
+      "sha256": "681c65169c6c1f6d499427143644f72182a7a2f2e6ceebf5986ed61774c5d60e"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_0201_0603Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_0201_0603Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_0201_0603Metric.kicad_mod",
+      "sha256": "7fbf6babe726113b03eb02c3f8f716a59c8f357647f61544efdb4177703363d0"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_0402_1005Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_0402_1005Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_0402_1005Metric.kicad_mod",
+      "sha256": "31db402fd47c687052924dd55775efb7ea75b6613bccd4b819c9b221edc4edf1"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_0603_1608Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_0603_1608Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_0603_1608Metric.kicad_mod",
+      "sha256": "1e92c0a6db82404331c1c2629bf17503443f1294c69224a5e2630032f70ce3d1"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_0805_2012Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_0805_2012Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_0805_2012Metric.kicad_mod",
+      "sha256": "8bf0a514bb3597f935e21e5c8d577fcf472ef8a0636b40c0b269de6db6d8785d"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_1008_2520Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_1008_2520Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_1008_2520Metric.kicad_mod",
+      "sha256": "434829967527b77eeb412c9d67a8d97030aa5209f2acbce79095dc4b90b33677"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_1206_3216Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_1206_3216Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_1206_3216Metric.kicad_mod",
+      "sha256": "bf13abbd55a4387b7a1ecbe64ca2c8195e45b1a89da4043df8ed0ba92ef40294"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_1210_3225Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_1210_3225Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_1210_3225Metric.kicad_mod",
+      "sha256": "1cbff14dbb9d505a5af92cf268eca7d33fadaa9426ce0a91e222f26747be1ca9"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_1806_4516Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_1806_4516Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_1806_4516Metric.kicad_mod",
+      "sha256": "c6e4143ce054d1df709c0cb32a9718709670c1555758d3b6f7c2d62f8c510e37"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_1812_4532Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_1812_4532Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_1812_4532Metric.kicad_mod",
+      "sha256": "2fba655a0836fe52c14ef7b21cbe7eb3a4ed03a75831c01eb1a1481a155ba2e4"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_2010_5025Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_2010_5025Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_2010_5025Metric.kicad_mod",
+      "sha256": "a4dd08408707731703889c807253774fe7a87127f5d31aa2d5f9f3045b80a7b0"
+    },
+    {
+      "id": "Backplane_Passives_Most:L_2512_6332Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "L_2512_6332Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/L_2512_6332Metric.kicad_mod",
+      "sha256": "4329223a5f110a653c4de79565196bae9111ab2dc885c451245b0327c8acc345"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_01005_0402Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_01005_0402Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_01005_0402Metric.kicad_mod",
+      "sha256": "92e59bbada92bc6a07208362dd1714292442f9a52799d5062b262c5c49f79704"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0201_0603Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0201_0603Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0201_0603Metric.kicad_mod",
+      "sha256": "3176e17121656b4751117e0db2d50a115621916e9fb8235cf74cb4bdfcfcbecb"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0402_1005Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0402_1005Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0402_1005Metric.kicad_mod",
+      "sha256": "5e4d101dde7544f94ec7ec007c22c348a65b5a251e810d5278b5cc9bcc9ebff0"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0508_1220Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0508_1220Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0508_1220Metric.kicad_mod",
+      "sha256": "4a7b365988b397a62cc35fee2c6ce91f0a25fd59bb855d2d8cdb896431367216"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0603_1608Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0603_1608Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "123207645eb00747a830d651de901dcacde1477ee358e2a74784308b2da24f3d"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0612_1632Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0612_1632Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0612_1632Metric.kicad_mod",
+      "sha256": "b29d6fe1829c816e15cc9750063fc1b8a681631064249f5ddcd108523dbe5668"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0805_2012Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0805_2012Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "6f875b1c6cf4ebcfbd7e9ece359bc5f37cb0063f7c664382bcc0c552f5be8897"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_0815_2038Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_0815_2038Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_0815_2038Metric.kicad_mod",
+      "sha256": "4550534b72e52563fe7ca9c1c91b08dbbbdee653af06ec9a757104a9191b832f"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1020_2550Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1020_2550Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1020_2550Metric.kicad_mod",
+      "sha256": "751226a476e4cddcfae5b171308d609691c9ea7fe990b31908affe31275d4181"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1206_3216Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1206_3216Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1206_3216Metric.kicad_mod",
+      "sha256": "7c955c55392955615438bc2eb8868fc6b32791659a56990f46d0ba8221fe92bd"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1210_3225Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1210_3225Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1210_3225Metric.kicad_mod",
+      "sha256": "bc8997fd030a3a94996171b72ecb7f6e27c8d98060c21bd9b577e01878fe5361"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1218_3246Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1218_3246Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1218_3246Metric.kicad_mod",
+      "sha256": "2cf9a3745a14841144fe6cea222aca65b36159ef8f8565ad3c1fc154710f1c10"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1225_3264Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1225_3264Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1225_3264Metric.kicad_mod",
+      "sha256": "e05d42f9748edc30661fc92a7da296cd661bde93c91ebc7fbf1e8c0056e8d952"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_1812_4532Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_1812_4532Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_1812_4532Metric.kicad_mod",
+      "sha256": "39b4dcaa643348846a718fc1e0dcedded7d386edc756a726f9b70b9903b772f3"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_2010_5025Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_2010_5025Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_2010_5025Metric.kicad_mod",
+      "sha256": "5d819c3836ce8d50369bf8088182a8183de3127c52701973e322fc4e42eda44b"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_2512_6332Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_2512_6332Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_2512_6332Metric.kicad_mod",
+      "sha256": "449c291cb43902f934bf7a59681c82702fa7ab1c462aca1349ca85c64475a354"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_2816_7142Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_2816_7142Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_2816_7142Metric.kicad_mod",
+      "sha256": "b1dec2e2d193acd61abbb7924705ac8bcdf4a49c7fa9ab0c2284065f4f639dfe"
+    },
+    {
+      "id": "Backplane_Passives_Most:R_4020_10251Metric",
+      "library": "Backplane_Passives_Most",
+      "name": "R_4020_10251Metric",
+      "family": "passive",
+      "density": "most",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Most.pretty/R_4020_10251Metric.kicad_mod",
+      "sha256": "9f583619caa0d140b61232730a3cb76b4368f0c585f97b53d23c38572d108be5"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_01005_0402Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_01005_0402Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_01005_0402Metric.kicad_mod",
+      "sha256": "f78fa04da4e12b884ac3b347ac8c81d66dc87f7f9a029cf1234cc83ec82fe54e"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_0201_0603Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_0201_0603Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_0201_0603Metric.kicad_mod",
+      "sha256": "63badfad3ee8b199951620ba0438b9e5cb40c72514f26d1d70414eca2ce23323"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_0402_1005Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_0402_1005Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "f301196126fe9089f6773c4a3c31c3cbfd81f532f67015541b1eb6a8d00327d8"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_0504_1310Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_0504_1310Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_0504_1310Metric.kicad_mod",
+      "sha256": "f9897a3c6a69dfffc17ca665b4579fb71de9f236e8eb571bf2851d0cbf4d2560"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_0603_1608Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_0603_1608Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "9c532225891419b7640e131a1a0549e556e2cd54915cb7fed9c28c9969c60a7b"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_0805_2012Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_0805_2012Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_0805_2012Metric.kicad_mod",
+      "sha256": "1d0ba74fe581604112e251879f0051eb4a54633f13b397c1c9fe94b6c4193fae"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_1206_3216Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_1206_3216Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_1206_3216Metric.kicad_mod",
+      "sha256": "11a17753f9b8785bea5e4f3ab28a5d1c40a86c9b3072aed31782851808a09ac0"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_1210_3225Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_1210_3225Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "7c0ac5980700ca953a472b994a1402fb3165a44f0925f0f280c5b446f9734391"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_1808_4520Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_1808_4520Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_1808_4520Metric.kicad_mod",
+      "sha256": "5efcf08244693a7b8855cac6ae5a36bdd5990535dca8d882a5a01f7c93ca2479"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_1812_4532Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_1812_4532Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_1812_4532Metric.kicad_mod",
+      "sha256": "13144cd2029b5bc4270bdae5181d8f5f01fb90d0317f50f88b02a1fb9bb523fb"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_1825_4564Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_1825_4564Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_1825_4564Metric.kicad_mod",
+      "sha256": "1540c42587004fd7fba23f893d490146fab8e12dcfc366499582a0cceb806fd7"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_2220_5750Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_2220_5750Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_2220_5750Metric.kicad_mod",
+      "sha256": "b845ddebe7166f37293a4d316f3a2312f1e0bb59cb1911dc72556822b91ba119"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_2225_5664Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_2225_5664Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_2225_5664Metric.kicad_mod",
+      "sha256": "5e7d2efa241260fb7e67a20b09be5447871dcfff22c284cb0effec15d5d41b12"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:C_3640_9110Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "C_3640_9110Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/C_3640_9110Metric.kicad_mod",
+      "sha256": "55cc9ce8a2920eb01a299dab85febe994584b5ac4ae9edfa1e765ea2f700cf13"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_01005_0402Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_01005_0402Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_01005_0402Metric.kicad_mod",
+      "sha256": "6a5d67ab8c98fa206b7d6332b777539f6dee6d030cf04a2a8bd69ac93cf6f19a"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_0201_0603Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_0201_0603Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_0201_0603Metric.kicad_mod",
+      "sha256": "e728df1af4dda62e05ebb84ab60337a4f1aab22fcabaf8aecd99b27992f1c058"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_0402_1005Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_0402_1005Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_0402_1005Metric.kicad_mod",
+      "sha256": "7078577ba307c2bb9b3e84c70b53aecefd1b97420e97788b02491a193b13abde"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_0603_1608Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_0603_1608Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_0603_1608Metric.kicad_mod",
+      "sha256": "c9b0b460e0991be479e8c4cc729cf49f570a31c80853ae2976481eb325cf09dd"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_0805_2012Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_0805_2012Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_0805_2012Metric.kicad_mod",
+      "sha256": "be1316d42fcda63ab78418d7e0e23aced1dfed9e89166557de51859be133cf2a"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_1008_2520Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_1008_2520Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_1008_2520Metric.kicad_mod",
+      "sha256": "f5d24bcaa00de787fcd9b5ab181e3f06d6f4fe833dfa8f39c9784b6aa6679ea6"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_1206_3216Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_1206_3216Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_1206_3216Metric.kicad_mod",
+      "sha256": "cf13115c7b2d4b2073aaf585b3b336a8db04eac3c52d87e87650a93877198b4f"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_1210_3225Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_1210_3225Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_1210_3225Metric.kicad_mod",
+      "sha256": "bd2302ad6b255234acb42929cecadfaf1c4fc5c3d5e5d8d88bd8d0562687b8e1"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_1806_4516Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_1806_4516Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_1806_4516Metric.kicad_mod",
+      "sha256": "ea53090514b5eb361b6ad69a8c0d3511aa797d205490c130c9aad9b87c6d99e7"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_1812_4532Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_1812_4532Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_1812_4532Metric.kicad_mod",
+      "sha256": "28f7d892e871d9ad073c78d098696c6eee410376a7479999eb97ede535a3ac07"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_2010_5025Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_2010_5025Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_2010_5025Metric.kicad_mod",
+      "sha256": "631085ab13f12ab7f05d611eaae3b75e7d0cb9980f0c6fafb2b8f6d275eb6de1"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:L_2512_6332Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "L_2512_6332Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/L_2512_6332Metric.kicad_mod",
+      "sha256": "a0956ec318471630b342a56107afdcebc74397945645fa4b3e016fb55cfe4773"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_01005_0402Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_01005_0402Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_01005_0402Metric.kicad_mod",
+      "sha256": "ba5604246a8f5cb9d39d84181ee7d1a58c4c39c4b56f6c563dbe671d027783bd"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0201_0603Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0201_0603Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0201_0603Metric.kicad_mod",
+      "sha256": "efff55a0c20affd542d602c2ed75aa583390476e6d3404801589243c0e79bf2a"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0402_1005Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0402_1005Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0402_1005Metric.kicad_mod",
+      "sha256": "13209929221df318aa4312a931cd61b090de7a0567d5425eb9794fde7bc00b84"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0508_1220Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0508_1220Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0508_1220Metric.kicad_mod",
+      "sha256": "c4fe0b4f1fa21b5cb6e65921e1a32390f4932eb62fc6212c31c6c479533e26ee"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0603_1608Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0603_1608Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "b1879d59b1339d3eb42720c86ba274ef3f220922e78a22e12a3e38e7d50235f5"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0612_1632Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0612_1632Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0612_1632Metric.kicad_mod",
+      "sha256": "97104495733972c184d48f7c0705060225216cc8e4bf002facf6a1655b80d7e8"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0805_2012Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0805_2012Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "52cf3b830742a5f1746e737366716369d66dfdc79f86394ec549ca768d4eef2f"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_0815_2038Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_0815_2038Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_0815_2038Metric.kicad_mod",
+      "sha256": "5bb19edd5c224e4fa813884730be1b739987b1dbf4956a51aeb4ebd1686b3527"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1020_2550Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1020_2550Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1020_2550Metric.kicad_mod",
+      "sha256": "7bcaaa2759cbfec5391cd799064cfd438cb7b9378ebaccec6e0063f22352fce9"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1206_3216Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1206_3216Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1206_3216Metric.kicad_mod",
+      "sha256": "409e72584eb491f93e5db7322963a7ccce487de7d6e85aea2e26a613be6af50e"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1210_3225Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1210_3225Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1210_3225Metric.kicad_mod",
+      "sha256": "5670c2135576040b81177857ec5209780d5a48260a494e69e901a9c3fc2448c4"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1218_3246Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1218_3246Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1218_3246Metric.kicad_mod",
+      "sha256": "4d318d44d7712fc1eac812d321f638ec8fce6de5506a972fdc6d24af405457c2"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1225_3264Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1225_3264Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1225_3264Metric.kicad_mod",
+      "sha256": "dbe3bd6e2bb5e43fe0ead06952b16c24f8814f5100f55370b39647997c92b35f"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_1812_4532Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_1812_4532Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_1812_4532Metric.kicad_mod",
+      "sha256": "e84ebd461ad2272bb5c8a52b2950f6d27b7eaa5476e187e021b97fdee2e3c7fa"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_2010_5025Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_2010_5025Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_2010_5025Metric.kicad_mod",
+      "sha256": "8ec2e085ff1a5ce9664081fae2e9fd1b16cf620c9030f6fb258d1dc12ab11657"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_2512_6332Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_2512_6332Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_2512_6332Metric.kicad_mod",
+      "sha256": "851ec5857e54cb256ae605fb172418769b6c9df711bdcf7c04067e7e4da754ed"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_2816_7142Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_2816_7142Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_2816_7142Metric.kicad_mod",
+      "sha256": "05aa12bc3d74ae7ebdb241abb059c9d95da4f66137365d69c0f6aa53c7b1c023"
+    },
+    {
+      "id": "Backplane_Passives_Nominal:R_4020_10251Metric",
+      "library": "Backplane_Passives_Nominal",
+      "name": "R_4020_10251Metric",
+      "family": "passive",
+      "density": "nominal",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Passives_Nominal.pretty/R_4020_10251Metric.kicad_mod",
+      "sha256": "7c137308b71da3fed9942a3c776cd98911bbb5d8f62fcfc8b3fce9c82cd5126c"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Badge_25mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Badge_25mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Badge_25mm.kicad_mod",
+      "sha256": "52d580a5ee58d20c7027e14c41390453f083c9897cff6a313a449545d4eb2da9"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Badge_35mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Badge_35mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Badge_35mm.kicad_mod",
+      "sha256": "7095c2472690ab8486ce95704a4e8e8a8bfc523e5c59b8adc26a979310633c38"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Badge_50mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Badge_50mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Badge_50mm.kicad_mod",
+      "sha256": "f92fef86f254838a0790edd48ce83777159d7389239416347df73a5f0f72ba11"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Mascot_25mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Mascot_25mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Mascot_25mm.kicad_mod",
+      "sha256": "d9770371b7d005a8fd54e95449b42589ddb48b9086debc9131e65c3f3f656a3f"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Mascot_35mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Mascot_35mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Mascot_35mm.kicad_mod",
+      "sha256": "93187c6d573cace871fe9c9a59d990798e9f653c64809fc71c5a4d102d1d598c"
+    },
+    {
+      "id": "Backplane_Shoggoth:Shoggoth_Mascot_50mm",
+      "library": "Backplane_Shoggoth",
+      "name": "Shoggoth_Mascot_50mm",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Shoggoth.pretty/Shoggoth_Mascot_50mm.kicad_mod",
+      "sha256": "d30093d810455639428ae7290066eca9e17e8654d8aa2575727039245da98166"
+    }
+  ]
+}

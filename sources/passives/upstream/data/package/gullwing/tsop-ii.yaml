@@ -1,0 +1,57 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+# TSOP-II / TSOP Type 2 - thin small outline package type 2
+#
+# Packages with height A = 1.20 mm maximum, pitch can be 1.27 / 1.25 / 0.80 / 0.65 / 0.55 / 0.50 / 0.40 mm (some of them overlaps with TSSOP packages)
+#
+# JEDEC / JEITA standards:
+# - MS-024, MS-025, MO-135, MO-182, MO-249, EDR-7311-2, EDR-7313
+
+default_parameters:
+  device_type: 'TSOP-II'
+  library_Suffix: 'SO'
+
+TSOP-II-44_10.16x18.41mm_P0.80mm:
+  size_source: 'http://www.issi.com/WW/pdf/61-64C5128AL.pdf'
+  body_size_x:
+    minimum: 10.03
+    maximum: 10.29
+  body_size_y:
+    minimum: 18.28
+    maximum: 18.54
+  overall_size_x:
+    minimum: 11.56
+    maximum: 11.96
+  lead_width:
+    minimum: 0.30
+    maximum: 0.45
+  lead_len:
+    minimum: 0.40
+    maximum: 0.69
+  pitch: 0.80
+  num_pins_x: 0
+  num_pins_y: 22
+
+TSOP-II-40-44_10.16x18.37mm_P0.80mm:
+  size_source: 'https://www.renesas.com/us/en/document/psc/package-drawing-tsop2-44pin-ptsb0044ge-e'
+  body_size_x:
+    nominal: 10.16
+    tolerance: 0.1
+  body_size_y:
+    nominal: 18.37
+    tolerance: [-0.05, 0.26]
+  overall_height:
+    maximum: 1.2
+  overall_size_x:
+    nominal: 11.76
+    tolerance: 0.2
+  lead_width:
+    nominal: 0.32
+    tolerance: [-0.07, 0.08]
+  lead_len:
+    nominal: 0.5
+    tolerance: 0.1
+  pitch: 0.80
+  num_pins_x: 0
+  num_pins_y: 22
+  hidden_pins: [11, 12, 33, 34]

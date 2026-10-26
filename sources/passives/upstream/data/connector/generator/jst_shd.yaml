@@ -1,0 +1,105 @@
+defaults:
+  library: "JST"
+  fp_name: "JST_SHD_{subseries}{num_pins:02d}B-SRDS{boss_code}-G-TF"
+  source: "https://www.jst.com/wp-content/uploads/2021/01/eSHD-new.pdf"
+  positions: [10, 15, 20, 25]
+  pad_pitch: 1.0
+  parameters:
+    num_pins: $(num_pos * 2)
+    boss_code: "" # or "-A" for with boss
+
+defaults-top-entry:
+  inherit: "defaults"
+  fp_suffix: "_Vertical"
+  tags: "connector JST SHD vertical"
+  parameters:
+    subseries: "BM"
+    inner_distance_between_rows: 4
+    outer_distance_between_rows: 7.2
+    mount_pad_edge_x_distance_from_pad_center: 0.9
+    mount_pad_edge_y_distance_from_origin: 0.5
+  row_pitch: $((inner_distance_between_rows + outer_distance_between_rows) / 2)
+  pads:
+    size:
+      x: 0.6
+      y: $((outer_distance_between_rows - inner_distance_between_rows) / 2)
+  body_size:
+    x_offset: $(3.3 / 2)
+    y: 5
+  first_pin:
+    position: "bottom"
+    body_chamfer: 0.75
+    marker:
+      shape: "triangle"
+      size: 1.0
+      offset: 1.0
+  mount_pads:
+    mp:
+      size:
+        x: 0.85
+        y: 1.8
+      center:
+        x_offset: $(mount_pad_edge_x_distance_from_pad_center + (mount_pads.mp.size.x / 2))
+        y: $(mount_pad_edge_y_distance_from_origin - (mount_pads.mp.size.y / 2))
+      name: "MP"
+      ends: "both"
+
+BMxxB-SRDS-G-TF:
+  inherit: "defaults-top-entry"
+  description: "JST SHD series connector, 1.0 mm Pitch, {num_pins:d} Circuits, Header, Vertical"
+
+BMxxB-SRDS-A-G-TF:
+  inherit: "defaults-top-entry"
+  description: "JST SHD series connector, 1.0 mm Pitch, {num_pins:d} Circuits, Header, Vertical, With a Boss"
+  parameters:
+    boss_code: "-A"
+    boss_diameter: 0.55
+  mount_pads:
+    boss:
+      center:
+        x_offset: 0.85
+        y: 1.9
+      drill: $(boss_diameter)
+      size: $(boss_diameter)
+      paste: False
+      copper: False
+      ends: "both"
+
+defaults-side-entry:
+  inherit: "defaults"
+  fp_suffix: "_Horizontal"
+  tags: "connector JST SHD horizontal"
+  parameters:
+    subseries: "SM"
+    inner_distance_between_rows: 4.1
+    mount_pad_edge_x_distance_from_pad_center: 1.25
+    mount_pad_edge_y_distance_from_pad_edge: 0.9
+  row_pitch: $(inner_distance_between_rows + pads.size.y)
+  pads:
+    size:
+      x: 0.6
+      y: 1.6
+  body_size:
+    x_offset: $(4.1 / 2)
+    y: 5.1
+  first_pin:
+    position: "bottom"
+    marker:
+      shape: "triangle"
+      size: 1.0
+      offset: 1.0
+  mount_pads:
+    mp:
+      size:
+        x: 0.85
+        y: 1.8
+      center:
+        x_offset: $(mount_pad_edge_x_distance_from_pad_center + (mount_pads.mp.size.x / 2))
+        # Note: `y` is evaluated by first top-aligning the MP with the top row of pads, then offsetting the MP towards the origin by `mount_pad_edge_y_distance_from_pad_edge`
+        y: $((-(row_pitch / 2) + ((mount_pads.mp.size.y - pads.size.y) / 2)) + mount_pad_edge_y_distance_from_pad_edge)
+      name: "MP"
+      ends: "both"
+
+SMxxB-SRDS-G-TF:
+  inherit: "defaults-side-entry"
+  description: "JST SHD series connector, 1.0 mm Pitch, {num_pins:d} Circuits, Header, Horizontal"

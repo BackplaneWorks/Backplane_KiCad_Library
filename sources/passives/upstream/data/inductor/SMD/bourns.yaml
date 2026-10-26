@@ -1,0 +1,64 @@
+default_parameters:
+  manufacturer: Bourns
+  library_name: Inductor_SMD
+
+SRP1050WA:
+  datasheet: "https://www.bourns.com/docs/product-datasheets/SRP1050WA.pdf"
+  PartNumber: SRP1050WA
+  widthX: 11.0
+  lengthY: 10.0
+  height: 5.1
+  padX: 2.3
+  padY: 4.5
+  landingInsideX: 5.5
+  landingOutsideX: 12.3
+  landingY: 5.0
+  3d:
+    type: 2
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded
+
+SRP5030T:
+  datasheet: "https://www.bourns.com/data/global/pdfs/SRP5030T.pdf"
+  PartNumber: SRP5030T
+  widthX: 5.7
+  lengthY: 5.2
+  height: 2.8
+  padX: 1.1
+  padY: 1.5
+  landingInsideX: 2.5
+  landingOutsideX: 6.5
+  landingY: 1.8
+  3d:
+    type: 2
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded
+
+SRP6060FA:
+  datasheet: "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf"
+  PartNumber: SRP6060FA
+  widthX: 6.4
+  lengthY: 6.6
+  height: 5.8
+  padX: 1.4
+  padY: 5.3
+  padInsideX: 2.6
+  landingInsideX: 2.5
+  landingOutsideX: 5.6
+  landingY: 5.6
+  3d:
+    type: 1
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded

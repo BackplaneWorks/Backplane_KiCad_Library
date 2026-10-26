@@ -1,0 +1,5 @@
+requests
+click
+tqdm
+beautifulsoup4
+lxml

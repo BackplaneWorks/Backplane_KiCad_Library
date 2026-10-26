@@ -1,0 +1,11 @@
+{
+  "canonical_path": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_pcb",
+  "staging_source": "/home/h/Documents/Backplane/Backplane_KiCad_Library/build/catalogue-staging.kicad_pcb",
+  "saved_bytes": 7462139,
+  "item_count": 56,
+  "import_status": "all ISC_OK",
+  "backup": "/home/h/Documents/Backplane/Backplane_KiCad_Library/build/backups/20261026-171028",
+  "initial_import_sha256": "69836c00a8cadafd623066ca1082cd6868b9a99c6bbd4d4a39d864aa7deb103b",
+  "saved_sha256": "4e5650222ffd4db0ebc109ee9257cf6cd1f587143b1623140698ba5104a65bc4",
+  "subsequent_model_path_update": "verification/catalogue-model-paths.json"
+}

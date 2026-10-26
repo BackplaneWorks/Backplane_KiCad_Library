@@ -1,0 +1,92 @@
+resistor:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - resistor_chip.yaml
+  - resistor_chip_smaller_0603.yaml
+  - resistor_chip_wide_body.yaml
+  ipc_reference: ipc_spec_larger_or_equal_0603
+  prefix: R
+  description: Resistor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: resistor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+resistor_smaller_0402:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - default_chip_smaller_0402.yaml
+  ipc_reference: ipc_spec_smaller_0603
+  prefix: R
+  description: Resistor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: resistor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+  paste_pad:
+    all_sides_rel: 0.9
+    heel_abs: -0.05
+capacitor:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - capacitor_chip.yaml
+  - capacitor_chip_smaller_0603.yaml
+  ipc_reference: ipc_spec_larger_or_equal_0603
+  prefix: C
+  description: Capacitor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: capacitor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+capacitor_smaller_0402:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - default_chip_smaller_0402.yaml
+  ipc_reference: ipc_spec_smaller_0603
+  prefix: C
+  description: Capacitor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: capacitor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+  paste_pad:
+    all_sides_rel: 0.9
+    heel_abs: -0.05
+inductor:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - default_chip.yaml
+  - default_chip_smaller_0603.yaml
+  - inductor.yaml
+  ipc_reference: ipc_spec_larger_or_equal_0603
+  prefix: L
+  description: Inductor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: inductor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+inductor_smaller_0402:
+  fp_lib_name: Backplane_Passives_Nominal
+  size_definitions:
+  - default_chip_smaller_0402.yaml
+  ipc_reference: ipc_spec_smaller_0603
+  prefix: L
+  description: Inductor SMD {code_imperial:s} ({code_metric:s} Metric), square (rectangular)
+    end terminal, nominal material; generated from pinned upstream IPC-7351B rule
+    table, {size_info:s}
+  keywords: inductor
+  ipc_density: nominal
+  pad_length_addition: 0
+  suffix: ''
+  paste_pad:
+    all_sides_rel: 0.9
+    heel_abs: -0.05

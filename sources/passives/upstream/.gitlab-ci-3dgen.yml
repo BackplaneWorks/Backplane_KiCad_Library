@@ -1,0 +1,485 @@
+variables:
+  PYTHONUNBUFFERED: "1"
+
+.model:
+  stage: 3D Generate
+  needs: []
+  rules:
+    - when: manual
+  before_script:
+    - apt-get update -q -y
+    - apt-get install -y libglx-mesa0 libgl1 libxrender1 git fontconfig
+  # We use the line below when running the validator but don't need it
+  # or the time required to d/l and setup unless we run the validator
+  #  - apt-get install -y build-essential libgl1-mesa-glx kicad
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install -e .[3d]
+  script:
+    - cd src/generators
+    - echo "./generate.py --output-dir-models ../../3dmodels --generator $library"
+    - ./generate.py --output-dir-models ../../3dmodels --generator $library
+    # - sudo find / -iname 3dmodels > models_location.txt
+    # - ./validator.py --unvalidated_dir /tmp/3dmodels --validated_dir /usr/share/kicad/3dmodels/ > audit_log.txt
+    # - cat ./audit_log.txt
+  artifacts:
+    paths:
+      - 3dmodels
+      # - models_location.txt
+      # - audit_log.txt
+  # Avoid hanging the status of the pipeline on the success of this job
+  allow_failure: true
+
+.model_with_packages:
+  extends:
+    - .model
+  script:
+    - |
+      cd src/generators
+      package_args=""
+      for package in $packages
+        do
+          package_args="$package_args -p $package"
+        done
+    - echo "./generate.py --output-dir-models ../../3dmodels --generator $library $package_args"
+    - ./generate.py --output-dir-models ../../3dmodels --generator $library $package_args
+
+battery:
+  variables:
+    library: battery
+  extends:
+    - .model
+
+button_switch/rotary:
+  variables:
+    library: button_switch/rotary
+  extends:
+    - .model
+
+button_switch/SMD:
+  variables:
+    library: button_switch/SMD
+  extends:
+    - .model
+
+button_switch/tactile:
+  variables:
+    library: button_switch/tactile
+  extends:
+    - .model
+
+buzzer_beeper:
+  variables:
+    library: buzzer_beeper
+  extends:
+    - .model
+
+capacitor/SMD:
+  variables:
+    library: capacitor/SMD
+  extends:
+    - .model
+
+capacitor/SMD/elec_round_polarized:
+  variables:
+    library: capacitor/SMD/elec_round_polarized
+  extends:
+    - .model
+
+capacitor/SMD/tantalum:
+  variables:
+    library: capacitor/SMD/tantalum
+  extends:
+    - .model
+
+capacitor/SMD/trimmer:
+  variables:
+    library: capacitor/SMD/trimmer
+  extends:
+    - .model
+
+capacitor/THT/other:
+  variables:
+    library: capacitor/THT/other
+  extends:
+    - .model
+
+capacitor/THT/radial_polarized:
+  variables:
+    library: capacitor/THT/radial_polarized
+  extends:
+    - .model
+
+capacitor/THT/tantalum:
+  variables:
+    library: capacitor/THT/tantalum
+  extends:
+    - .model
+
+connector/audio:
+  variables:
+    library: connector/audio
+  extends:
+    - .model
+
+connector/coaxial:
+  variables:
+    library: connector/coaxial
+  extends:
+    - .model
+
+connector/D_sub:
+  variables:
+    library: connector/D_sub
+  extends:
+    - .model
+
+connector/FFC-FPC:
+  variables:
+    library: connector/FFC-FPC
+  extends:
+    - .model
+
+connector/JST:
+  variables:
+    library: connector/JST
+  extends:
+    - .model
+
+connector/Molex:
+  variables:
+    library: connector/Molex
+  extends:
+    - .model
+
+connector/Molex/Molex_5569:
+  variables:
+    library: connector/Molex/Molex_5569
+  extends:
+    - .model
+
+connector/Phoenix_SPT:
+  variables:
+    library: connector/Phoenix_SPT
+  extends:
+    - .model
+
+connector/PhoenixContact:
+  variables:
+    library: connector/PhoenixContact
+  extends:
+    - .model
+
+connector/pin_header/IDC:
+  variables:
+    library: connector/pin_header/IDC
+  extends:
+    - .model
+
+connector/pin_header/other:
+  variables:
+    library: connector/pin_header/other
+  extends:
+    - .model
+  timeout: 3 hours
+
+connector/pin_socket/THT_1.00:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      THT-1x1.00mm_Vertical
+  extends:
+    - .model_with_packages
+connector/pin_socket/SMD_1.00:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      SMD-1x1.00mm_Vertical_Right
+      SMD-1x1.00mm_Vertical_Left
+      SMD-2x1.00mm_Vertical
+  extends:
+    - .model_with_packages
+connector/pin_socket/THT_1.27:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      THT-1x1.27mm_Vertical
+      THT-2x1.27mm_Vertical
+      THT-2x1.27mm_Horizontal
+  extends:
+    - .model_with_packages
+connector/pin_socket/SMD_1.27:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      SMD-1x1.27mm_Vertical_Right
+      SMD-1x1.27mm_Vertical_Left
+      SMD-2x1.27mm_Vertical
+  extends:
+    - .model_with_packages
+connector/pin_socket/THT_2.00:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      THT-1x2.00mm_Vertical
+      THT-2x2.00mm_Vertical
+      THT-1x2.00mm_Horizontal
+      THT-2x2.00mm_Horizontal
+  extends:
+    - .model_with_packages
+connector/pin_socket/SMD_2.00:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      SMD-1x2.00mm_Vertical_Right
+      SMD-1x2.00mm_Vertical_Left
+      SMD-2x2.00mm_Vertical
+  extends:
+    - .model_with_packages
+connector/pin_socket/THT_2.54:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      THT-1x2.54mm_Vertical
+      THT-2x2.54mm_Vertical
+      THT-1x2.54mm_Horizontal
+      THT-2x2.54mm_Horizontal
+  extends:
+    - .model_with_packages
+connector/pin_socket/SMD_2.54:
+  variables:
+    library: connector/pin_socket
+    packages: >
+      SMD-1x2.54mm_Vertical_Right
+      SMD-1x2.54mm_Vertical_Left
+      SMD-2x2.54mm_Vertical
+  extends:
+    - .model_with_packages
+
+connector/Stocko:
+  variables:
+    library: connector/Stocko
+  extends:
+    - .model
+
+connector/USB:
+  variables:
+    library: connector/USB
+  extends:
+    - .model
+
+connector/Wago:
+  variables:
+    library: connector/Wago
+  extends:
+    - .model
+
+connector/Wuerth:
+  variables:
+    library: connector/Wuerth
+  extends:
+    - .model
+
+converter_ACDC:
+  variables:
+    library: converter_ACDC
+  extends:
+    - .model
+
+converter_DCDC:
+  variables:
+    library: converter_DCDC
+  extends:
+    - .model
+
+crystal_resonator_oscillator:
+  variables:
+    library: crystal_resonator_oscillator
+  extends:
+    - .model
+
+diode/SMD:
+  variables:
+    library: diode/SMD
+  extends:
+    - .model
+
+DIP_parts:
+  variables:
+    library: DIP_parts
+  extends:
+    - .model
+
+direct_FET:
+  variables:
+    library: direct_FET
+  extends:
+    - .model
+
+filter:
+  variables:
+    library: filter
+  extends:
+    - .model
+
+fuse:
+  variables:
+    library: fuse
+  extends:
+    - .model
+
+inductor/SMD:
+  variables:
+    library: inductor/SMD
+  extends:
+    - .model
+
+LED/SMD:
+  variables:
+    library: LED/SMD
+  extends:
+    - .model
+
+mounting_hardware/standoff_FF_MF:
+  variables:
+    library: mounting_hardware/standoff_FF_MF
+  extends:
+    - .model
+
+mounting_hardware/Wuerth_SMT_spacer:
+  variables:
+    library: mounting_hardware/Wuerth_SMT_spacer
+  extends:
+    - .model
+
+opto_devices:
+  variables:
+    library: opto_devices
+  extends:
+    - .model
+
+package/DIP:
+  variables:
+    library: package/DIP
+  extends:
+    - .model
+
+package/flat_pin:
+  variables:
+    library: package/flat_pin
+  extends:
+    - .model
+
+package/grid_array:
+  variables:
+    library: package/grid_array
+  extends:
+    - .model
+
+package/gullwing:
+  variables:
+    library: package/gullwing
+  extends:
+    - .model
+
+package/no_lead:
+  variables:
+    library: package/no_lead
+  extends:
+    - .model
+
+package/SIP:
+  variables:
+    library: package/SIP
+  extends:
+    - .model
+
+package/TO_SOT/SMD:
+  variables:
+    library: package/TO_SOT/SMD
+  extends:
+    - .model
+
+potentiometer/THT:
+  variables:
+    library: potentiometer/THT
+  extends:
+    - .model
+
+relay/SMD:
+  variables:
+    library: relay/SMD
+  extends:
+    - .model
+
+relay/THT:
+  variables:
+    library: relay/THT
+  extends:
+    - .model
+
+resistor/array_SMD:
+  variables:
+    library: resistor/array_SMD
+  extends:
+    - .model
+
+resistor/SMD:
+  variables:
+    library: resistor/SMD
+  extends:
+    - .model
+
+resistor/THT:
+  variables:
+    library: resistor/THT
+  extends:
+    - .model
+
+resistor/varistor:
+  variables:
+    library: resistor/varistor
+  extends:
+    - .model
+
+RF_chip_antenna:
+  variables:
+    library: RF_chip_antenna
+  extends:
+    - .model
+
+terminal_block/4Ucon:
+  variables:
+    library: terminal_block/4Ucon
+  extends:
+    - .model
+
+terminal_block/Altech:
+  variables:
+    library: terminal_block/Altech
+  extends:
+    - .model
+
+terminal_block/Barrier:
+  variables:
+    library: terminal_block/Barrier
+  extends:
+    - .model
+
+terminal_block/Phoenix:
+  variables:
+    library: terminal_block/Phoenix
+  extends:
+    - .model
+
+transformer/THT:
+  variables:
+    library: transformer/THT
+  extends:
+    - .model
+
+valve:
+  variables:
+    library: valve
+  extends:
+    - .model

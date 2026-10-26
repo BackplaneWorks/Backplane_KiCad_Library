@@ -1,0 +1,20 @@
+LED_Cree-PLCC4_2x2mm_CW:
+  datasheet: https://assets.cree-led.com/a/ds/h/HB-CLMVC-FKA.pdf
+  tags: "2020 CLMVB-FKA CLMVC-FKA"
+  pkg_width: 2.0
+  pkg_height: 2.0
+  pad_x_spacing: 1.5
+  pad_y_spacing: 1.1
+  pad_width: 1.0
+  pad_height: 0.8
+  pads_clockwise: true
+LED_Cree-PLCC4_3.2x2.8mm_CCW:
+  datasheet: https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf
+  tags: "3528 CLV1A-FKB"
+  pkg_width: 3.2
+  pkg_height: 2.8
+  pad_x_spacing: 2.5
+  pad_y_spacing: 1.4
+  pad_width: 1.0
+  pad_height: 0.8
+  pads_clockwise: false

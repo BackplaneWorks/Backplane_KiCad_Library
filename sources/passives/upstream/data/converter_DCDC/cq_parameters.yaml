@@ -1,0 +1,3644 @@
+Converter_DCDC_Cincon_EC5BExx_Single_THT:
+  modelName: Converter_DCDC_Cincon_EC5BExx_Single_THT  # modelName
+  roundbelly: 0  # If belly of caseing should be round (or flat)
+  L: 25.4  # package length
+  W: 50.8  # package width
+  H: 10.2  # package height
+  rim: None  # If a rim should be added to the belly
+  pinpadsize: None  # pin diameter or pad size
+  pinpadh: None  # pin length, pad height
+  pintype: tht  # Casing type
+  rotation: 0  # Rotation if required
+  pin1corner: [-10.16, -15.24]  # Left upp corner relationsship to pin 1
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 3.5],
+    ['round', 5.08, 0.0, 1.0, 3.5],
+    ['round', -7.62, 20.32, 1.0, 3.5],
+    ['round', 12.7, 20.32, 1.0, 3.5]
+  ]  # pin pitch
+  A1: 0.1  # package board separation
+  corner: none  # If top should be cut
+  show_top: False  # If top should be visible or not
+  body_color_key: black body  # Body colour
+  body_top_color_key: black body  # Body top colour
+  pin_color_key: metal grey pins  # Pin colour
+  destination_dir: Converter_DCDC.3dshapes # Destination directory
+  model_name: Converter_DCDC_Cincon_EC5BExx_Single_THT
+  include_in_qa: True
+
+Converter_DCDC_Cincon_EC5BExx_Dual_THT:
+  modelName: Converter_DCDC_Cincon_EC5BExx_Dual_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -15.24]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 3.5],
+    ['round', 5.08, 0.0, 1.0, 3.5],
+    ['round', -7.62, 20.32, 1.0, 3.5],
+    ['round', 12.7, 20.32, 1.0, 3.5],
+    ['round', 2.54, 20.32, 1.0, 3.5],
+    ['round', 12.7, 0.0, 1.0, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Cincon_EC5BExx_Dual_THT
+
+Converter_DCDC_Cincon_EC6Cxx_Single_THT:
+  modelName: Converter_DCDC_Cincon_EC6Cxx_Single_THT
+  roundbelly: 0
+  L: 50.8
+  W: 50.8
+  H: 24.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.54, -5.08]
+  pin: [
+    ['round', 0.0, 0.0, 1.02, 5.6],
+    ['round', 0.0, 15.24, 1.02, 5.6],
+    ['round', 0.0, 22.86, 1.02, 5.6],
+    ['round', 45.72, 5.08, 1.02, 5.6],
+    ['round', 45.72, 15.24, 1.02, 5.6],
+    ['round', 45.72, 25.4, 1.02, 5.6]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Cincon_EC6Cxx_Single_THT
+
+Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT:
+  modelName: Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT
+  roundbelly: 0
+  L: 50.8
+  W: 50.8
+  H: 24.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.54, -5.08]
+  pin: [
+    ['round', 0.0, 0.0, 1.02, 5.6],
+    ['round', 0.0, 15.24, 1.02, 5.6],
+    ['round', 0.0, 22.86, 1.02, 5.6],
+    ['round', 45.72, 5.08, 1.02, 5.6],
+    ['round', 45.72, 15.24, 1.02, 5.6],
+    ['round', 45.72, 25.4, 1.02, 5.6],
+    ['round', 45.72, 35.56, 1.02, 5.6]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT
+
+Converter_DCDC_Bothhand_CFUSxxxx_THT:
+  modelName: Converter_DCDC_Bothhand_CFUSxxxx_THT
+  roundbelly: 0
+  L: 16.8
+  W: 32.6
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-0.78, -2.65]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.5],
+    ['round', 0.0, 22.86, 0.5, 3.5],
+    ['round', 0.0, 25.4, 0.5, 3.5],
+    ['round', 0.0, 27.94, 0.5, 3.5],
+    ['round', 15.24, 27.94, 0.5, 3.5],
+    ['round', 15.24, 25.4, 0.5, 3.5],
+    ['round', 15.24, 22.86, 0.5, 3.5],
+    ['round', 15.24, 0.0, 0.5, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Bothhand_CFUSxxxx_THT
+
+Converter_DCDC_Bothhand_CFUSxxxxEH_THT:
+  modelName: Converter_DCDC_Bothhand_CFUSxxxxEH_THT
+  roundbelly: 0
+  L: 16.8
+  W: 32.6
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-0.78, -2.65]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.5],
+    ['round', 0.0, 22.86, 0.5, 3.5],
+    ['round', 0.0, 25.4, 0.5, 3.5],
+    ['round', 0.0, 27.94, 0.5, 3.5],
+    ['round', 15.24, 27.94, 0.5, 3.5],
+    ['round', 15.24, 25.4, 0.5, 3.5],
+    ['round', 15.24, 22.86, 0.5, 3.5],
+    ['round', 15.24, 5.08, 0.5, 3.5],
+    ['round', 15.24, 0.0, 0.5, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Bothhand_CFUSxxxxEH_THT
+
+Converter_DCDC_Bothhand_CFUDxxxx_THT:
+  modelName: Converter_DCDC_Bothhand_CFUDxxxx_THT
+  roundbelly: 0
+  L: 16.8
+  W: 32.6
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-0.78, -2.65]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.5],
+    ['round', 0.0, 22.86, 0.5, 3.5],
+    ['round', 0.0, 25.4, 0.5, 3.5],
+    ['round', 0.0, 27.94, 0.5, 3.5],
+    ['round', 15.24, 27.94, 0.5, 3.5],
+    ['round', 15.24, 25.4, 0.5, 3.5],
+    ['round', 15.24, 22.86, 0.5, 3.5],
+    ['round', 15.24, 17.78, 0.5, 3.5],
+    ['round', 15.24, 12.7, 0.5, 3.5],
+    ['round', 15.24, 0.0, 0.5, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Bothhand_CFUDxxxx_THT
+
+Converter_DCDC_MeanWell_NID30_THT:
+  modelName: Converter_DCDC_MeanWell_NID30_THT
+  roundbelly: 0
+  L: 10.7
+  W: 50.8
+  H: 13.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.0, -0.92]
+  pin: [
+    ['round', 0.0, 0.0, 0.64, 4.5],
+    ['round', 0.0, 2.54, 0.64, 4.5],
+    ['round', 0.0, 5.08, 0.64, 4.5],
+    ['round', 0.0, 7.62, 0.64, 4.5],
+    ['round', 0.0, 10.16, 0.64, 4.5],
+    ['round', 0.0, 35.56, 0.64, 4.5],
+    ['round', 0.0, 38.1, 0.64, 4.5],
+    ['round', 0.0, 40.64, 0.64, 4.5],
+    ['round', 0.0, 43.18, 0.64, 4.5],
+    ['round', 0.0, 45.72, 0.64, 4.5],
+    ['round', 0.0, 48.26, 0.64, 4.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_MeanWell_NID30_THT
+
+Converter_DCDC_MeanWell_NID60_THT:
+  modelName: Converter_DCDC_MeanWell_NID60_THT
+  roundbelly: 0
+  L: 10.7
+  W: 50.8
+  H: 26.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.0, -1.2]
+  pin: [
+    ['round', 0.0, 0.0, 0.64, 4.5],
+    ['round', 0.0, 2.54, 0.64, 4.5],
+    ['round', 0.0, 5.08, 0.64, 4.5],
+    ['round', 0.0, 7.62, 0.64, 4.5],
+    ['round', 0.0, 10.16, 0.64, 4.5],
+    ['round', 0.0, 35.56, 0.64, 4.5],
+    ['round', 0.0, 38.1, 0.64, 4.5],
+    ['round', 0.0, 40.64, 0.64, 4.5],
+    ['round', 0.0, 43.18, 0.64, 4.5],
+    ['round', 0.0, 45.72, 0.64, 4.5],
+    ['round', 0.0, 48.26, 0.64, 4.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_MeanWell_NID60_THT
+
+Converter_DCDC_Murata_MEE1SxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_MEE1SxxxxSC_THT
+  roundbelly: 0
+  L: 11.53
+  W: 6.1
+  H: 10.0
+  rim: [0.4, 0.4, 0.4]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: -90
+  pin1corner: [-2.08, -4.97]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.02
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_MEE1SxxxxSC_THT
+
+Converter_DCDC_Murata_MEE3SxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_MEE3SxxxxSC_THT
+  roundbelly: 0
+  L: 14.15
+  W: 8.15
+  H: 10.15
+  rim: [0.4, 0.4, 0.4]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: -90
+  pin1corner: [-3.265, -6.925]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.02
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_MEE3SxxxxSC_THT
+
+Converter_DCDC_Murata_NCS1SxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_NCS1SxxxxSC_THT
+  roundbelly: 0
+  L: 21.87
+  W: 8.2
+  H: 11.3
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.27, -3.195]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 2.54, 0.0, 0.5, 4.1],
+    ['round', 5.08, 0.0, 0.5, 4.1],
+    ['round', 12.7, 0.0, 0.5, 4.1],
+    ['round', 15.24, 0.0, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_NCS1SxxxxSC_THT
+
+Converter_DCDC_Murata_CRE1xxxxxx3C_THT:
+  modelName: Converter_DCDC_Murata_CRE1xxxxxx3C_THT
+  roundbelly: 0
+  L: 6.1
+  W: 11.53
+  H: 7.62
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.25, -2.07]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 0.0, 2.54, 0.5, 4.1],
+    ['round', 0.0, 5.08, 0.5, 4.1],
+    ['round', 0.0, 7.62, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_CRE1xxxxxx3C_THT
+
+Converter_DCDC_Murata_CRE1xxxxxxDC_THT:
+  modelName: Converter_DCDC_Murata_CRE1xxxxxxDC_THT
+  roundbelly: 0
+  L: 9.9
+  W: 11.6
+  H: 6.9
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.3, -2.1]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 0.0, 7.62, 0.5, 4.1],
+    ['round', 7.62, 7.62, 0.5, 4.1],
+    ['round', 7.62, 2.54, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_CRE1xxxxxxDC_THT
+
+Converter_DCDC_Murata_CRE1xxxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_CRE1xxxxxxSC_THT
+  roundbelly: 0
+  L: 6.1
+  W: 11.53
+  H: 10.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.25, -2.07]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 0.0, 2.54, 0.5, 4.1],
+    ['round', 0.0, 5.08, 0.5, 4.1],
+    ['round', 0.0, 7.62, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_CRE1xxxxxxSC_THT
+
+Converter_DCDC_Murata_NMAxxxxDC_THT:
+  modelName: Converter_DCDC_Murata_NMAxxxxDC_THT
+  roundbelly: 0
+  L: 9.8
+  W: 19.5
+  H: 6.8
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.22, -2.23]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 0.0, 15.24, 0.5, 4.1],
+    ['round', 7.62, 15.24, 0.5, 4.1],
+    ['round', 7.62, 12.7, 0.5, 4.1],
+    ['round', 7.62, 7.62, 0.5, 4.1],
+    ['round', 7.62, 0.0, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_NMAxxxxDC_THT
+
+Converter_DCDC_Murata_NMAxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_NMAxxxxSC_THT
+  roundbelly: 0
+  L: 6.0
+  W: 19.5
+  H: 10.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.77, -2.03]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 0.0, 2.54, 0.5, 4.1],
+    ['round', 0.0, 7.62, 0.5, 4.1],
+    ['round', 0.0, 10.16, 0.5, 4.1],
+    ['round', 0.0, 12.7, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_NMAxxxxSC_THT
+
+Converter_DCDC_Murata_NXExSxxxxMC_SMD:
+  modelName: Converter_DCDC_Murata_NXExSxxxxMC_SMD
+  roundbelly: 1
+  L: 10.41
+  W: 12.7
+  H: 4.41
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: smd
+  translation: [0, 1.27, 0]
+  rotation: 0.0
+  pin1corner: [0.0, 0.0]
+  pin: [
+    ['smd', -4.7, -3.81, 0.61, 0.2],
+    ['smd', -4.7, -1.27, 0.61, 0.2],
+    ['smd', -4.7, 3.81, 0.61, 0.2],
+    ['smd', 4.7, 3.81, 0.61, 0.2],
+    ['smd', 4.7, -3.81, 0.61, 0.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_NXExSxxxxMC_SMD
+
+Converter_DCDC_RECOM_R-78B-2.0_THT:
+  modelName: Converter_DCDC_RECOM_R-78B-2.0_THT
+  roundbelly: 0
+  L: 11.5
+  W: 8.5
+  H: 17.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.21, -2.0]
+  pin: [
+    ['round', 0.0, 0.0, 0.64, 4.1],
+    ['round', 2.54, 0.0, 0.64, 4.1],
+    ['round', 5.08, 0.0, 0.64, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R-78B-2.0_THT
+
+Converter_DCDC_RECOM_R-78E-0.5_THT:
+  modelName: Converter_DCDC_RECOM_R-78E-0.5_THT
+  roundbelly: 0
+  L: 11.6
+  W: 8.5
+  H: 10.4
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.31, -6.5]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.1],
+    ['round', 2.54, 0.0, 0.5, 4.1],
+    ['round', 5.08, 0.0, 0.5, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R-78E-0.5_THT
+
+Converter_DCDC_RECOM_R-78HB-0.5_THT:
+  modelName: Converter_DCDC_RECOM_R-78HB-0.5_THT
+  roundbelly: 0
+  L: 11.5
+  W: 8.5
+  H: 17.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.21, -2.0]
+  pin: [
+    ['round', 0.0, 0.0, 0.7, 4.1],
+    ['round', 2.54, 0.0, 0.7, 4.1],
+    ['round', 5.08, 0.0, 0.7, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R-78HB-0.5_THT
+
+Converter_DCDC_RECOM_R-78S-0.1_THT:
+  modelName: Converter_DCDC_RECOM_R-78S-0.1_THT
+  roundbelly: 0
+  L: 11.6
+  W: 8.5
+  H: 10.4
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -6.5]
+  pin: [
+    ['round', 0.0, 0.0, 0.7, 4.1],
+    ['round', 2.54, 0.0, 0.7, 4.1],
+    ['round', 5.08, 0.0, 0.7, 4.1],
+    ['round', 7.62, 0.0, 0.7, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R-78S-0.1_THT
+
+Converter_DCDC_RECOM_R-78HB-0.5L_THT:
+  modelName: Converter_DCDC_RECOM_R-78HB-0.5L_THT
+  roundbelly: 1
+  L: 11.5
+  W: 17.5
+  H: 8.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht_n
+  rotation: 0.0
+  pin1corner: [-3.21, -19.0]
+  pin: [
+    ['round', 0.0, 0.0, 0.7, 4.1],
+    ['round', 2.54, 0.0, 0.7, 4.1],
+    ['round', 5.08, 0.0, 0.7, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R-78HB-0.5L_THT
+
+Converter_DCDC_RECOM_R5xxxDA_THT:
+  modelName: Converter_DCDC_RECOM_R5xxxDA_THT
+  roundbelly: 1
+  L: 32.2
+  W: 15.0
+  H: 9.1
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht_n
+  rotation: 0.0
+  pin1corner: [-2.1, -17.0]
+  pin: [
+    ['round', 0.0, 0.0, 0.7, 4.1],
+    ['round', 2.54, 0.0, 0.7, 4.1],
+    ['round', 5.08, 0.0, 0.7, 4.1],
+    ['round', 7.62, 0.0, 0.7, 4.1],
+    ['round', 10.16, 0.0, 0.7, 4.1],
+    ['round', 12.7, 0.0, 0.7, 4.1],
+    ['round', 15.24, 0.0, 0.7, 4.1],
+    ['round', 17.78, 0.0, 0.7, 4.1],
+    ['round', 20.32, 0.0, 0.7, 4.1],
+    ['round', 22.86, 0.0, 0.7, 4.1],
+    ['round', 25.4, 0.0, 0.7, 4.1],
+    ['round', 27.94, 0.0, 0.7, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R5xxxDA_THT
+
+Converter_DCDC_RECOM_R5xxxPA_THT:
+  modelName: Converter_DCDC_RECOM_R5xxxPA_THT
+  roundbelly: 0
+  L: 32.2
+  W: 9.1
+  H: 15.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -0.8]
+  pin: [
+    ['round', 0.0, 0.0, 0.7, 4.0],
+    ['round', 2.54, 0.0, 0.7, 4.0],
+    ['round', 5.08, 0.0, 0.7, 4.0],
+    ['round', 7.62, 0.0, 0.7, 4.0],
+    ['round', 10.16, 0.0, 0.7, 4.0],
+    ['round', 12.7, 0.0, 0.7, 4.0],
+    ['round', 15.24, 0.0, 0.7, 4.0],
+    ['round', 17.78, 0.0, 0.7, 4.0],
+    ['round', 20.32, 0.0, 0.7, 4.0],
+    ['round', 22.86, 0.0, 0.7, 4.0],
+    ['round', 25.4, 0.0, 0.7, 4.0],
+    ['round', 27.94, 0.0, 0.7, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_R5xxxPA_THT
+
+Converter_DCDC_TRACO_TMR-1SM_SMD:
+  modelName: Converter_DCDC_TRACO_TMR-1SM_SMD
+  roundbelly: 1
+  L: 13.7
+  W: 18.9
+  H: 8.45
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: smd
+  rotation: 0.0
+  pin1corner: [0.0, 0.0]
+  pin: [
+    ['smd', -8.075, -7.62, 1.0, 0.4],
+    ['smd', -8.075, -5.08, 1.0, 0.4],
+    ['smd', -8.075, 5.08, 1.0, 0.4],
+    ['smd', -8.075, 7.62, 1.0, 0.4],
+    ['smd', 8.075, -7.62, 1.0, 0.4],
+    ['smd', 8.075, 5.08, 1.0, 0.4],
+    ['smd', 8.075, 7.62, 1.0, 0.4]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR-1SM_SMD
+
+Converter_DCDC_TRACO_TMR1-xx1x_THT:
+  modelName: Converter_DCDC_TRACO_TMR1-xx1x_THT
+  roundbelly: 0
+  L: 17.0
+  W: 7.62
+  H: 11.0
+  rim: [1, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.15, -2.375]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR1-xx1x_THT
+
+Converter_DCDC_TRACO_TMR1-xx2x_THT:
+  modelName: Converter_DCDC_TRACO_TMR1-xx2x_THT
+  roundbelly: 0
+  L: 17.0
+  W: 7.62
+  H: 11.0
+  rim: [1, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -2.625]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR1-xx2x_THT
+
+Converter_DCDC_TRACO_TMR-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TMR-xxxx_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.2
+  H: 11.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR-xxxx_THT
+
+Converter_DCDC_TRACO_TSR-1_THT:
+  modelName: Converter_DCDC_TRACO_TSR-1_THT
+  roundbelly: 0
+  L: 11.7
+  W: 7.6
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.3, -5.6]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 4.0],
+    ['round', 2.54, 0.0, 0.5, 4.0],
+    ['round', 5.08, 0.0, 0.5, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: red body
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR-1_THT
+
+Converter_DCDC_TRACO_TEN10-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TEN10-xxxx_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.12, -15.2]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN10-xxxx_THT
+
+Converter_DCDC_TRACO_TEN10-xxxx_Single_THT:
+  modelName: Converter_DCDC_TRACO_TEN10-xxxx_Single_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.12, -15.2]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN10-xxxx_Single_THT
+
+Converter_DCDC_TRACO_TEN10-xxxx_Dual_THT:
+  modelName: Converter_DCDC_TRACO_TEN10-xxxx_Dual_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.12, -15.2]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 2.54, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN10-xxxx_Dual_THT
+
+Converter_DCDC_TRACO_TEN20-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TEN20-xxxx_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -15.24]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 2.54, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0],
+    ['round', 12.7, 0.0, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN20-xxxx_THT
+
+Converter_DCDC_TRACO_TEN20-xxxx-N4_THT:
+  modelName: Converter_DCDC_TRACO_TEN20-xxxx-N4_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -15.24]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0],
+    ['round', 12.7, 0.0, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN20-xxxx-N4_THT
+
+Converter_DCDC_TRACO_TEN20-xxxx_Single_THT:
+  modelName: Converter_DCDC_TRACO_TEN20-xxxx_Single_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -15.24]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0],
+    ['round', 12.7, 0.0, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN20-xxxx_Single_THT
+
+Converter_DCDC_TRACO_TEN20-xxxx_Dual_THT:
+  modelName: Converter_DCDC_TRACO_TEN20-xxxx_Dual_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -15.24]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 2.54, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0],
+    ['round', 12.7, 0.0, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: True
+  body_color_key: metal grey pins
+  body_top_color_key: red body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEN20-xxxx_Dual_THT
+
+Converter_DCDC_XP_POWER_JTExxxxDxx_THT:
+  modelName: Converter_DCDC_XP_POWER_JTExxxxDxx_THT
+  roundbelly: 0
+  L: 20.32
+  W: 31.75
+  H: 10.4
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.54, -4.445]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.05],
+    ['round', 0.0, 17.78, 0.5, 3.05],
+    ['round', 0.0, 22.86, 0.5, 3.05],
+    ['round', 15.24, 22.86, 0.5, 3.05],
+    ['round', 15.24, 17.78, 0.5, 3.05],
+    ['round', 15.24, 0.0, 0.5, 3.05],
+    ['round', 0.0, 2.54, 0.5, 3.05],
+    ['round', 15.24, 2.54, 0.5, 3.05]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER_JTExxxxDxx_THT
+
+Converter_DCDC_XP_POWER_ISU02-Series_SMD:
+  modelName: Converter_DCDC_XP_POWER_ISU02-Series_SMD
+  roundbelly: 1
+  L: 14.9
+  W: 19.0
+  H: 8.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: smd
+  rotation: 0.0
+  pin1corner: [0.0, 0.0]
+  pin: [
+    ['smd', -8.075, -7.62, 1.2, 0.2],
+    ['smd', -8.075, -5.08, 1.2, 0.2],
+    ['smd', -8.075, 5.08, 1.2, 0.2],
+    ['smd', -8.075, 7.62, 1.2, 0.2],
+    ['smd', 8.075, -7.62, 1.2, 0.2],
+    ['smd', 8.075, 5.08, 1.2, 0.2],
+    ['smd', 8.075, 7.62, 1.2, 0.2]
+  ]
+  A1: 0.2
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER_ISU02-Series_SMD
+
+Converter_DCDC_Artesyn_ATA-Series_SMD:
+  modelName: Converter_DCDC_Artesyn_ATA-Series_SMD
+  roundbelly: 1
+  L: 13.7
+  W: 24.0
+  H: 8.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: smd
+  rotation: 0.0
+  pin1corner: [0.0, 0.0]
+  pin: [
+    ['smd', -8.25, -8.89, 1.2, 0.25],
+    ['smd', -8.25, -6.35, 1.2, 0.25],
+    ['smd', -8.25, 6.35, 1.2, 0.25],
+    ['smd', -8.25, 8.89, 1.2, 0.25],
+    ['smd', 8.25, 8.89, 1.2, 0.25],
+    ['smd', 8.25, 6.35, 1.2, 0.25],
+    ['smd', 8.25, -8.89, 1.2, 0.25]
+  ]
+  A1: 0.25
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Artesyn_ATA-Series_SMD
+
+Converter_DCDC_XP_POWER-IA48xxS_THT:
+  modelName: Converter_DCDC_XP_POWER-IA48xxS_THT
+  roundbelly: 0
+  L: 6.7
+  W: 18.8
+  H: 10.16
+  rim: [0.0, 0.5, 0.5]
+  pinpadsize: 0.51
+  pinpadh: 3.05
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-5.3, -1.53]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 3.05],
+    ['round', 0.0, 2.54, 0.51, 3.05],
+    ['round', 0.0, 7.62, 0.51, 3.05],
+    ['round', 0.0, 10.16, 0.51, 3.05],
+    ['round', 0.0, 12.7, 0.51, 3.05]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IA48xxS_THT
+
+Converter_DCDC_XP_POWER-IAxxxxS_THT:
+  modelName: Converter_DCDC_XP_POWER-IAxxxxS_THT
+  roundbelly: 0
+  L: 5.59
+  W: 18.8
+  H: 10.16
+  rim: [0.0, 0.5, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-4.19, -1.53]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 3.05],
+    ['round', 0.0, 2.54, 0.51, 3.05],
+    ['round', 0.0, 7.62, 0.51, 3.05],
+    ['round', 0.0, 10.16, 0.51, 3.05],
+    ['round', 0.0, 12.7, 0.51, 3.05]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IAxxxxS_THT
+
+Converter_DCDC_XP_POWER-IAxxxxD_THT:
+  modelName: Converter_DCDC_XP_POWER-IAxxxxD_THT
+  roundbelly: 0
+  L: 9.66
+  W: 19.82
+  H: 5.85
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-1.02, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 2.79],
+    ['round', 0.0, 15.24, 0.51, 2.79],
+    ['round', 7.62, 0.0, 0.51, 2.79],
+    ['round', 7.62, 7.62, 0.51, 2.79],
+    ['round', 7.62, 12.7, 0.51, 2.79],
+    ['round', 7.62, 15.24, 0.51, 2.79]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IAxxxxD_THT
+
+Converter_DCDC_XP_POWER-IA48xxD_THT:
+  modelName: Converter_DCDC_XP_POWER-IA48xxD_THT
+  roundbelly: 0
+  L: 9.66
+  W: 19.82
+  H: 6.38
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-1.02, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 2.79],
+    ['round', 0.0, 15.24, 0.51, 2.79],
+    ['round', 7.62, 0.0, 0.51, 2.79],
+    ['round', 7.62, 7.62, 0.51, 2.79],
+    ['round', 7.62, 12.7, 0.51, 2.79],
+    ['round', 7.62, 15.24, 0.51, 2.79]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IA48xxD_THT
+
+Converter_DCDC_XP_POWER-IHxxxxS_THT:
+  modelName: Converter_DCDC_XP_POWER-IHxxxxS_THT
+  roundbelly: 0
+  L: 6.7
+  W: 19.0
+  H: 10.16
+  rim: [0.0, 0.38, 0.38]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-5.45, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.0],
+    ['round', 0.0, 2.54, 0.5, 3.0],
+    ['round', 0.0, 7.62, 0.5, 3.0],
+    ['round', 0.0, 10.16, 0.5, 3.0],
+    ['round', 0.0, 12.7, 0.5, 3.0]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IHxxxxS_THT
+
+Converter_DCDC_XP_POWER-IHxxxxSH_THT:
+  modelName: Converter_DCDC_XP_POWER-IHxxxxSH_THT
+  roundbelly: 0
+  L: 7.12
+  W: 19.0
+  H: 9.66
+  rim: [0.0, 0.38, 0.38]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-5.87, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.0],
+    ['round', 0.0, 2.54, 0.5, 3.0],
+    ['round', 0.0, 10.16, 0.5, 3.0],
+    ['round', 0.0, 12.7, 0.5, 3.0],
+    ['round', 0.0, 15.24, 0.5, 3.0]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IHxxxxSH_THT
+
+Converter_DCDC_XP_POWER-IHxxxxD_THT:
+  modelName: Converter_DCDC_XP_POWER-IHxxxxD_THT
+  roundbelly: 0
+  L: 9.66
+  W: 19.82
+  H: 6.88
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-1.02, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 2.79],
+    ['round', 0.0, 15.24, 0.51, 2.79],
+    ['round', 7.62, 0.0, 0.51, 2.79],
+    ['round', 7.62, 7.62, 0.51, 2.79],
+    ['round', 7.62, 12.7, 0.51, 2.79],
+    ['round', 7.62, 15.24, 0.51, 2.79]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IHxxxxD_THT
+
+Converter_DCDC_XP_POWER-IHxxxxDH_THT:
+  modelName: Converter_DCDC_XP_POWER-IHxxxxDH_THT
+  roundbelly: 0
+  L: 9.66
+  W: 19.82
+  H: 6.88
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-1.02, -2.29]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 2.79],
+    ['round', 0.0, 15.24, 0.51, 2.79],
+    ['round', 7.62, 0.0, 0.51, 2.79],
+    ['round', 7.62, 10.16, 0.51, 2.79],
+    ['round', 7.62, 12.7, 0.51, 2.79],
+    ['round', 7.62, 15.24, 0.51, 2.79]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-IHxxxxDH_THT
+
+Converter_DCDC_XP_POWER-ITQxxxxS-H_THT:
+  modelName: Converter_DCDC_XP_POWER-ITQxxxxS-H_THT
+  roundbelly: 0
+  L: 9.2
+  W: 21.85
+  H: 10.65
+  rim: [0.0, 0.38, 0.38]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-6.0, -2.035]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.0],
+    ['round', 0.0, 2.54, 0.5, 3.0],
+    ['round', 0.0, 5.08, 0.5, 3.0],
+    ['round', 0.0, 12.7, 0.5, 3.0],
+    ['round', 0.0, 15.24, 0.5, 3.0],
+    ['round', 0.0, 17.78, 0.5, 3.0]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-ITQxxxxS-H_THT
+
+Converter_DCDC_XP_POWER-ITxxxxxS_THT:
+  modelName: Converter_DCDC_XP_POWER-ITxxxxxS_THT
+  roundbelly: 0
+  L: 9.2
+  W: 21.85
+  H: 10.65
+  rim: [0.0, 0.38, 0.38]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-6.0, -2.035]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.0],
+    ['round', 0.0, 2.54, 0.5, 3.0],
+    ['round', 0.0, 5.08, 0.5, 3.0],
+    ['round', 0.0, 10.16, 0.5, 3.0],
+    ['round', 0.0, 12.7, 0.5, 3.0],
+    ['round', 0.0, 15.24, 0.5, 3.0],
+    ['round', 0.0, 17.78, 0.5, 3.0]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-ITxxxxxS_THT
+
+Converter_DCDC_XP_POWER-ITXxxxxSA_THT:
+  modelName: Converter_DCDC_XP_POWER-ITXxxxxSA_THT
+  roundbelly: 0
+  L: 9.2
+  W: 21.85
+  H: 10.65
+  rim: [0.0, 0.38, 0.38]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-6.0, -2.035]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.0],
+    ['round', 0.0, 2.54, 0.5, 3.0],
+    ['round', 0.0, 12.7, 0.5, 3.0],
+    ['round', 0.0, 15.24, 0.5, 3.0],
+    ['round', 0.0, 17.78, 0.5, 3.0]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER-ITXxxxxSA_THT
+
+Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT:
+  modelName: Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT
+  roundbelly: 0
+  L: 19.5
+  W: 9.8
+  H: 12.5
+  rim: [0.0, 0.4, 0.4]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-2.13, -2.67]
+  pin: [
+    ['rect', 0.0, 0.0, 0.25, 0.5, 4.1],
+    ['rect', 2.54, 0.0, 0.25, 0.5, 4.1],
+    ['rect', 10.16, 0.0, 0.25, 0.5, 4.1],
+    ['rect', 12.7, 0.0, 0.25, 0.5, 4.1],
+    ['rect', 15.24, 0.0, 0.25, 0.5, 4.1]
+  ]
+  A1: 0.01
+  corner: fillet
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT
+
+Converter_DCDC_TRACO_THD_15-xxxxWIN_THT:
+  modelName: Converter_DCDC_TRACO_THD_15-xxxxWIN_THT
+  roundbelly: 1
+  L: 20.3
+  W: 31.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0.0
+  pin1corner: [-2.5, -2]
+  pin: [
+    ['round', 0.0, 0.0, 0.5, 3.8],
+    ['round', 0.0, 2.54, 0.5, 3.8],
+    ['round', 0.0, 5.08, 0.5, 3.8],
+    ['round', 0.0, 20.32, 0.5, 3.8],
+    ['round', 0.0, 25.4, 0.5, 3.8],
+    ['round', 15.24, 2.54, 0.5, 3.8],
+    ['round', 15.24, 5.08, 0.5, 3.8],
+    ['round', 15.24, 20.32, 0.5, 3.8],
+    ['round', 15.24, 25.4, 0.5, 3.8]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: white body
+  body_top_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_THD_15-xxxxWIN_THT
+
+Converter_ACDC_MeanWell_IRM-05-xx_THT:
+  modelName: Converter_ACDC_MeanWell_IRM-05-xx_THT
+  roundbelly: 1
+  L: 45.7
+  W: 25.4
+  H: 21.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.6, -11.2]
+  pin: [
+    ['round', 0.0, 0.0, 1.04, 3.5],
+    ['round', 0.0, 10.75, 1.04, 3.5],
+    ['round', 38.5, 2.75, 1.04, 3.5],
+    ['round', 38.5, 10.75, 1.04, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 0
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_MeanWell_IRM-05-xx_THT
+
+Converter_ACDC_MeanWell-IRM-10-xx_THT:
+  modelName: Converter_ACDC_MeanWell-IRM-10-xx_THT
+  roundbelly: 1
+  L: 45.7
+  W: 25.4
+  H: 21.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.6, -11.2]
+  pin: [
+    ['round', 0.0, 0.0, 1.04, 3.5],
+    ['round', 0.0, 10.75, 1.04, 3.5],
+    ['round', 38.5, 2.75, 1.04, 3.5],
+    ['round', 38.5, 10.75, 1.04, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 0
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_MeanWell-IRM-10-xx_THT
+
+Converter_ACDC_MeanWell_IRM-60-xx_THT:
+  modelName: Converter_ACDC_MeanWell_IRM-60-xx_THT
+  roundbelly: 1
+  L: 87.0
+  W: 52.0
+  H: 29.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-5.7, -5.0]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 3.5],
+    ['round', 0.0, 6.75, 1.0, 3.5],
+    ['round', 76.0, 35.75, 2.0, 3.5],
+    ['round', 76.0, 41.25, 2.0, 3.5]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 0
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_MeanWell_IRM-60-xx_THT
+
+Converter_ACDC_RECOM_RAC05-xxSK_THT:
+  modelName: Converter_ACDC_RECOM_RAC05-xxSK_THT
+  roundbelly: 1
+  L: 25.4
+  W: 25.4
+  H: 16.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-22.7, -18.37]
+  pin: [
+    ['round', 0.0, 0.0, 0.51, 5.0],
+    ['round', 0, 3.9, 0.51, 5.0],
+    ['round', -20.76, 5.19, 0.51, 5.0],
+    ['round', -20.76, -4.97, 0.51, 5.0],
+    ['round', -20.76, -16.4, 0.51, 5.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 0
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_RECOM_RAC05-xxSK_THT
+
+Converter_ACDC_TRACO_TMG-15xxx_THT:
+  modelName: Converter_ACDC_TRACO_TMG-15xxx_THT
+  roundbelly: 0
+  L: 41.2
+  W: 27.2
+  H: 19.1
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.1, -3.4]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 8.0],
+    ['round', 0.0, 19.0, 1.0, 8.0],
+    ['round', 33.0, 0.0, 1.0, 8.0],
+    ['round', 33.0, 12.7, 1.0, 8.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 1
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_TRACO_TMG-15xxx_THT
+
+Converter_ACDC_TRACO_TMG-7xxx_THT:
+  modelName: Converter_ACDC_TRACO_TMG-7xxx_THT
+  roundbelly: 0
+  L: 27.4
+  W: 27.4
+  H: 18.7
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.1, -3.4]
+  pin: [
+    ['round', 0.0, 0.0, 0.6, 4.0],
+    ['round', 0.0, 5.0, 0.6, 4.0],
+    ['round', 20.8, 0.0, 0.6, 4.0],
+    ['round', 20.8, 10.2, 0.6, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 1
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_TRACO_TMG-7xxx_THT
+
+Converter_ACDC_TRACO_TMG-30xxx_THT:
+  modelName: Converter_ACDC_TRACO_TMG-30xxx_THT
+  roundbelly: 0
+  L: 64.0
+  W: 45.0
+  H: 23.5
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.0, -22.5]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 8.0],
+    ['round', 0.0, 17.5, 1.0, 8.0],
+    ['round', 54.0, -10.0, 1.0, 8.0],
+    ['round', 54.0, 10.0, 1.0, 8.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 1
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_TRACO_TMG-30xxx_THT
+
+Converter_ACDC_TRACO_TMG-50xxx_THT:
+  modelName: Converter_ACDC_TRACO_TMG-50xxx_THT
+  roundbelly: 0
+  L: 74.1
+  W: 54.1
+  H: 21.8
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-6.05, -27.5]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 8.0],
+    ['round', 0.0, 20.0, 1.0, 8.0],
+    ['round', 62.0, -11.5, 1.0, 8.0],
+    ['round', 62.0, 11.5, 1.0, 8.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: 1
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_TRACO_TMG-50xxx_THT
+
+Converter_DCDC_RECOM_RPA60-xxxxSFW_THT:
+  modelName: Converter_DCDC_RECOM_RPA60-xxxxSFW_THT
+  roundbelly: 0
+  L: 25.4
+  W: 50.8
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-5.08, -2.54]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 5.6],
+    ['round', 5.08, 0.0, 1.0, 5.6],
+    ['round', 15.24, 0.0, 1.0, 5.6],
+    ['round', 17.78, 45.72, 1.0, 5.6],
+    ['round', 7.62, 45.72, 1.0, 5.6],
+    ['round', -2.54, 45.72, 1.0, 5.6]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_RECOM_RPA60-xxxxSFW_THT
+
+Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD:
+  modelName: Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD
+  roundbelly: 1
+  L: 9.1
+  W: 13.2
+  H: 10.2
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: smd
+  rotation: 0.0
+  pin1corner: [0.0, 0.0]
+  pin: [
+    ['smd', 3.3, -7.1, 0.6, 0.25],
+    ['smd', -0.7, -7.1, 0.6, 0.25],
+    ['smd', -2.7, -7.1, 0.6, 0.25],
+    ['smd', 1.3, 7.1, 0.6, 0.25],
+    ['smd', -0.7, 7.1, 0.6, 0.25],
+    ['smd', -2.7, 7.1, 0.6, 0.25]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD
+
+Converter_DCDC_TRACO_TMR-2xxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TMR-2xxxxWI_THT
+  roundbelly: 0
+  L: 25.95
+  W: 9.25
+  H: 12.45
+  rim: [0.5, 4.624, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -2.875]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 20.32, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR-2xxxxWI_THT
+
+Converter_DCDC_XP_POWER_JTDxxxxxxx_THT:
+  modelName: Converter_DCDC_XP_POWER_JTDxxxxxxx_THT
+  roundbelly: 0
+  L: 25.4
+  W: 40.64
+  H: 10.4
+  rim: [0.4, 0.4, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-10.16, -10.16]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 5.08, 0.0, 1.0, 6.0],
+    ['round', 12.7, 0.0, 1.0, 6.0],
+    ['round', -7.62, 20.32, 1.0, 6.0],
+    ['round', 2.54, 20.32, 1.0, 6.0],
+    ['round', 12.7, 20.32, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_XP_POWER_JTDxxxxxxx_THT
+
+Converter_ACDC_RECOM_RAC20-xxDK_THT:
+  modelName: Converter_ACDC_RECOM_RAC20-xxDK_THT
+  roundbelly: 0
+  L: 52.5
+  W: 27.4
+  H: 23.0
+  rim: None
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.39, -3.5]
+  pin: [
+    ['round', 0.0, 0.0, 1.0, 6.0],
+    ['round', 0.0, 20.32, 1.0, 6.0],
+    ['round', 45.72, 0.0, 1.0, 6.0],
+    ['round', 45.72, 10.16, 1.0, 6.0],
+    ['round', 45.72, 20.32, 1.0, 6.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_ACDC.3dshapes
+  model_name: Converter_ACDC_RECOM_RAC20-xxDK_THT
+
+Converter_DCDC_TRACO_TBA1-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TBA1-xxxx_THT
+  roundbelly: 0
+  L: 11.68
+  W: 6.0
+  H: 10.15
+  rim: [0.5, 2.999, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.03, -4.65]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.05],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.05],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.05],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.05]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA1-xxxx_THT
+
+Converter_DCDC_TRACO_TBA1-xx1xE_THT:
+  modelName: Converter_DCDC_TRACO_TBA1-xx1xE_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 10.0
+  rim: [0.5, 2.999, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA1-xx1xE_THT
+
+Converter_DCDC_TRACO_TBA1-xx2xE_THT:
+  modelName: Converter_DCDC_TRACO_TBA1-xx2xE_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 10.0
+  rim: [0.5, 2.999, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA1-xx2xE_THT
+
+Converter_DCDC_TRACO_TBA1-xx1xHI_THT:
+  modelName: Converter_DCDC_TRACO_TBA1-xx1xHI_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 10.0
+  rim: [0.5, 2.999, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA1-xx1xHI_THT
+
+Converter_DCDC_TRACO_TBA1-xx2xHI_THT:
+  modelName: Converter_DCDC_TRACO_TBA1-xx2xHI_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 10.0
+  rim: [0.5, 2.999, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA1-xx2xHI_THT
+
+Converter_DCDC_TRACO_TBA2-xx1x_THT:
+  modelName: Converter_DCDC_TRACO_TBA2-xx1x_THT
+  roundbelly: 0
+  L: 19.55
+  W: 7.6
+  H: 10.2
+  rim: [0.45, 3.78, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA2-xx1x_THT
+
+Converter_DCDC_TRACO_TBA2-xx2x_THT:
+  modelName: Converter_DCDC_TRACO_TBA2-xx2x_THT
+  roundbelly: 0
+  L: 19.55
+  W: 7.6
+  H: 10.2
+  rim: [0.45, 3.78, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -1.35]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TBA2-xx2x_THT
+
+Converter_DCDC_TRACO_TMA05xxS_THT:
+  modelName: Converter_DCDC_TRACO_TMA05xxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 3.049, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA05xxS_THT
+
+Converter_DCDC_TRACO_TMA05xxD_THT:
+  modelName: Converter_DCDC_TRACO_TMA05xxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 3.049, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA05xxD_THT
+
+Converter_DCDC_TRACO_TMA12xxS_THT:
+  modelName: Converter_DCDC_TRACO_TMA12xxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 3.049, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA12xxS_THT
+
+Converter_DCDC_TRACO_TMA12xxD_THT:
+  modelName: Converter_DCDC_TRACO_TMA12xxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 3.049, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA12xxD_THT
+
+Converter_DCDC_TRACO_TMA15xxS_THT:
+  modelName: Converter_DCDC_TRACO_TMA15xxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA15xxS_THT
+
+Converter_DCDC_TRACO_TMA15xxD_THT:
+  modelName: Converter_DCDC_TRACO_TMA15xxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA15xxD_THT
+
+Converter_DCDC_TRACO_TMA24xxS_THT:
+  modelName: Converter_DCDC_TRACO_TMA24xxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA24xxS_THT
+
+Converter_DCDC_TRACO_TMA24xxD_THT:
+  modelName: Converter_DCDC_TRACO_TMA24xxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMA24xxD_THT
+
+Converter_DCDC_TRACO_TMAPxxxxS_THT:
+  modelName: Converter_DCDC_TRACO_TMAPxxxxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.925]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMAPxxxxS_THT
+
+Converter_DCDC_TRACO_TMAPxxxxD_THT:
+  modelName: Converter_DCDC_TRACO_TMAPxxxxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 3.549, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.1, -1.925]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMAPxxxxD_THT
+
+Converter_DCDC_TRACO_TMExxxxS_THT:
+  modelName: Converter_DCDC_TRACO_TMExxxxS_THT
+  roundbelly: 0
+  L: 11.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 3.0399, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.03, -4.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMExxxxS_THT
+
+Converter_DCDC_TRACO_TME24xxS_THT:
+  modelName: Converter_DCDC_TRACO_TME24xxS_THT
+  roundbelly: 0
+  L: 11.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.03, -5.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TME24xxS_THT
+
+Converter_DCDC_TRACO_TMHxxxxS_THT:
+  modelName: Converter_DCDC_TRACO_TMHxxxxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.5
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.375]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMHxxxxS_THT
+
+Converter_DCDC_TRACO_TMHxxxxD_THT:
+  modelName: Converter_DCDC_TRACO_TMHxxxxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.5
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.375]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMHxxxxD_THT
+
+Converter_DCDC_TRACO_TMR2-xxxxE_THT:
+  modelName: Converter_DCDC_TRACO_TMR2-xxxxE_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.3
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -2.575]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR2-xxxxE_THT
+
+Converter_DCDC_TRACO_TMR2-xxxxWIN_THT:
+  modelName: Converter_DCDC_TRACO_TMR2-xxxxWIN_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.3
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -2.575]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR2-xxxxWIN_THT
+
+Converter_DCDC_TRACO_TMR3-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TMR3-xxxx_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.2
+  H: 11.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR3-xxxx_THT
+
+Converter_DCDC_TRACO_TMR3-xxxxE_THT:
+  modelName: Converter_DCDC_TRACO_TMR3-xxxxE_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.3
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -2.575]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR3-xxxxE_THT
+
+Converter_DCDC_TRACO_TMR3-xxxxHI_THT:
+  modelName: Converter_DCDC_TRACO_TMR3-xxxxHI_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.2
+  H: 11.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR3-xxxxHI_THT
+
+Converter_DCDC_TRACO_TMR3-xxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TMR3-xxxxWI_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.2
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.0],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.0]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR3-xxxxWI_THT
+
+Converter_DCDC_TRACO_TMR3-xxxxWIE_THT:
+  modelName: Converter_DCDC_TRACO_TMR3-xxxxWIE_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.3
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -2.575]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR3-xxxxWIE_THT
+
+Converter_DCDC_TRACO_TMR6-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TMR6-xxxx_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR6-xxxx_THT
+
+Converter_DCDC_TRACO_TMR6-xxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TMR6-xxxxWI_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.0, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMR6-xxxxWI_THT
+
+Converter_DCDC_TRACO_TMV-xxxxS_THT:
+  modelName: Converter_DCDC_TRACO_TMV-xxxxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.475]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-xxxxS_THT
+
+Converter_DCDC_TRACO_TMV-xxxxD_THT:
+  modelName: Converter_DCDC_TRACO_TMV-xxxxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.475]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-xxxxD_THT
+
+Converter_DCDC_TRACO_TMV-24xxS_THT:
+  modelName: Converter_DCDC_TRACO_TMV-24xxS_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -2.475]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-24xxS_THT
+
+Converter_DCDC_TRACO_TMV-24xxD_THT:
+  modelName: Converter_DCDC_TRACO_TMV-24xxD_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -2.475]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-24xxD_THT
+
+Converter_DCDC_TRACO_TMV2-xxxxSHI_THT:
+  modelName: Converter_DCDC_TRACO_TMV2-xxxxSHI_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.675]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV2-xxxxSHI_THT
+
+Converter_DCDC_TRACO_TMV2-xxxxDHI_THT:
+  modelName: Converter_DCDC_TRACO_TMV2-xxxxDHI_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.675]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV2-xxxxDHI_THT
+
+Converter_DCDC_TRACO_TMV-xxxxEN_THT:
+  modelName: Converter_DCDC_TRACO_TMV-xxxxEN_THT
+  roundbelly: 0
+  L: 22.0
+  W: 7.5
+  H: 12.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.5, -1.875]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-xxxxEN_THT
+
+Converter_DCDC_TRACO_TMV-xxxxDEN_THT:
+  modelName: Converter_DCDC_TRACO_TMV-xxxxDEN_THT
+  roundbelly: 0
+  L: 22.0
+  W: 7.5
+  H: 12.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.5, -1.875]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TMV-xxxxDEN_THT
+
+Converter_DCDC_TRACO_TRV1-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TRV1-xxxx_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.35, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRV1-xxxx_THT
+
+Converter_DCDC_TRACO_TRV1-24xx_THT:
+  modelName: Converter_DCDC_TRACO_TRV1-24xx_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.35, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRV1-24xx_THT
+
+Converter_DCDC_TRACO_TRV1-xx1xM_THT:
+  modelName: Converter_DCDC_TRACO_TRV1-xx1xM_THT
+  roundbelly: 0
+  L: 19.6
+  W: 9.9
+  H: 12.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.8, -2.3]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 16, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRV1-xx1xM_THT
+
+Converter_DCDC_TRACO_TRV1-xx2xM_THT:
+  modelName: Converter_DCDC_TRACO_TRV1-xx2xM_THT
+  roundbelly: 0
+  L: 19.6
+  W: 9.9
+  H: 12.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.8, -2.3]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 14, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 16, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRV1-xx2xM_THT
+
+Converter_DCDC_TRACO_TEC2-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TEC2-xxxx_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.02, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEC2-xxxx_THT
+
+Converter_DCDC_TRACO_TEC2-xxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TEC2-xxxxWI_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.02, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEC2-xxxxWI_THT
+
+Converter_DCDC_TRACO_TEC3-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TEC3-xxxx_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.02, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEC3-xxxx_THT
+
+Converter_DCDC_TRACO_TEC3-xxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TEC3-xxxxWI_THT
+  roundbelly: 0
+  L: 21.8
+  W: 9.1
+  H: 11.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.02, -3.325]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 17.78, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEC3-xxxxWI_THT
+
+Converter_DCDC_TRACO_TRA1-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TRA1-xxxx_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRA1-xxxx_THT
+
+Converter_DCDC_TRACO_TRA1-24xx_THT:
+  modelName: Converter_DCDC_TRACO_TRA1-24xx_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.1
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.3, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRA1-24xx_THT
+
+Converter_DCDC_TRACO_TRA3-xxxx_THT:
+  modelName: Converter_DCDC_TRACO_TRA3-xxxx_THT
+  roundbelly: 0
+  L: 19.5
+  W: 7.6
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.55, -1.175]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 3.2],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 3.2]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRA3-xxxx_THT
+
+Converter_DCDC_TRACO_TRN1-xx1x_THT:
+  modelName: Converter_DCDC_TRACO_TRN1-xx1x_THT
+  roundbelly: 0
+  L: 11.9
+  W: 7.7
+  H: 11.0
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.5, -4.0]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 4.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 8.8, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRN1-xx1x_THT
+
+Converter_DCDC_TRACO_TRN1-xx2x_THT:
+  modelName: Converter_DCDC_TRACO_TRN1-xx2x_THT
+  roundbelly: 0
+  L: 11.9
+  W: 7.7
+  H: 11.0
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.5, -4.0]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 4.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 6.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 8.8, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRN1-xx2x_THT
+
+Converter_DCDC_TRACO_TRN3-xx1x_THT:
+  modelName: Converter_DCDC_TRACO_TRN3-xx1x_THT
+  roundbelly: 0
+  L: 11.9
+  W: 7.7
+  H: 11.0
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.5, -4.0]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 4.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 8.8, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRN3-xx1x_THT
+
+Converter_DCDC_TRACO_TRN3-xx2x_THT:
+  modelName: Converter_DCDC_TRACO_TRN3-xx2x_THT
+  roundbelly: 0
+  L: 11.9
+  W: 7.7
+  H: 11.0
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-1.5, -4.0]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 4.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 6.8, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 8.8, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TRN3-xx2x_THT
+
+Converter_DCDC_TRACO_TSN1-xxxxx_THT:
+  modelName: Converter_DCDC_TRACO_TSN1-xxxxx_THT
+  roundbelly: 0
+  L: 11.7
+  W: 7.5
+  H: 16.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.3, -4.4]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.3, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.3, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.3, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSN1-xxxxx_THT
+
+Converter_DCDC_TRACO_TSR05-xxxxx_THT:
+  modelName: Converter_DCDC_TRACO_TSR05-xxxxx_THT
+  roundbelly: 0
+  L: 11.5
+  W: 7.55
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.3, -5.425]
+  pin: [
+    ['rect', 0.0, 0.0, 0.7, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.7, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.7, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR05-xxxxx_THT
+
+Converter_DCDC_TRACO_TSR06-xxxxxWI_THT:
+  modelName: Converter_DCDC_TRACO_TSR06-xxxxxWI_THT
+  roundbelly: 0
+  L: 12.0
+  W: 8.6
+  H: 13.4
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.42, -5.425]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR06-xxxxxWI_THT
+
+Converter_DCDC_TRACO_TSR1-xxxxx_THT:
+  modelName: Converter_DCDC_TRACO_TSR1-xxxxx_THT
+  roundbelly: 0
+  L: 11.7
+  W: 7.5
+  H: 10.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.32, -5.5]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR1-xxxxx_THT
+
+Converter_DCDC_TRACO_TSR1-xxxxE_THT:
+  modelName: Converter_DCDC_TRACO_TSR1-xxxxE_THT
+  roundbelly: 0
+  L: 11.6
+  W: 7.5
+  H: 10.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.26, -5.45]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.3, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.3, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.3, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR1-xxxxE_THT
+
+Converter_DCDC_TRACO_TSR2-xxxxx_THT:
+  modelName: Converter_DCDC_TRACO_TSR2-xxxxx_THT
+  roundbelly: 0
+  L: 14.0
+  W: 7.5
+  H: 10.1
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-4.42, -3.61]
+  pin: [
+    ['rect', 0.0, 0.0, 0.46, 0.46, 4.1],
+    ['rect', 2.54, 0.0, 0.46, 0.46, 4.1],
+    ['rect', 5.08, 0.0, 0.46, 0.46, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSR2-xxxxx_THT
+
+Converter_DCDC_TRACO_TSRN1-xxxxxx_THT:
+  modelName: Converter_DCDC_TRACO_TSRN1-xxxxxx_THT
+  roundbelly: 0
+  L: 11.7
+  W: 7.5
+  H: 10.2
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-3.3, -5.1]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TSRN1-xxxxxx_THT
+
+Converter_DCDC_TRACO_TEA1-0505_THT:
+  modelName: Converter_DCDC_TRACO_TEA1-0505_THT
+  roundbelly: 0
+  L: 11.68
+  W: 6.0
+  H: 9.65
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.03, -5.1]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 5.08, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEA1-0505_THT
+
+Converter_DCDC_TRACO_TEA1-0505E_THT:
+  modelName: Converter_DCDC_TRACO_TEA1-0505E_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 9.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -0.9]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 7.62, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 12.7, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEA1-0505E_THT
+
+Converter_DCDC_TRACO_TEA1-0505HI_THT:
+  modelName: Converter_DCDC_TRACO_TEA1-0505HI_THT
+  roundbelly: 0
+  L: 19.5
+  W: 6.0
+  H: 9.5
+  rim: [0.5, 0, 0.5]
+  pinpadsize: None
+  pinpadh: None
+  pintype: tht
+  rotation: 0
+  pin1corner: [-2.4, -0.9]
+  pin: [
+    ['rect', 0.0, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 2.54, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 10.16, 0.0, 0.5, 0.25, 4.1],
+    ['rect', 15.24, 0.0, 0.5, 0.25, 4.1]
+  ]
+  A1: 0.1
+  corner: none
+  show_top: False
+  body_color_key: black body
+  body_top_color_key: black body
+  pin_color_key: metal grey pins
+  destination_dir: Converter_DCDC.3dshapes
+  model_name: Converter_DCDC_TRACO_TEA1-0505HI_THT

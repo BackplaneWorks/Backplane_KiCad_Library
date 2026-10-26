@@ -1,0 +1,67 @@
+
+# 0.300 inch side-brazed JEDEC standard
+defaults_CERDIP_JEDEC_MS-015:
+  package_type: 'CERDIP'
+  pitch_y: 2.54
+  pin_size: [0.3048, 0.508]  # [0.012" x 0.020"]
+  drill: 0.8
+  pad_size: [1.6, 1.6]
+  package_tags: ["THT", "DIP", "DIL", "CERDIP", "ceramic"]
+  description: 'through-hole mounted CERDIP'
+  datasheet: 'https://www.jedec.org/system/files/docs/Ms-015a.pdf'
+  additional_tags:
+    - 'SideBrazed'
+
+# 0.300-inch side-brazed JEDEC standard
+defaults_CERDIP_JEDEC_MS-015-Ax:
+  inherit: defaults_CERDIP_JEDEC_MS-015
+  pitch_x: 7.62  # 0.300"
+  body_size_x: 7.49  # 0.295"
+
+CERDIP-8_JEDEC_MS-015-AA:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 8
+  body_size_y: 13.21  # 0.520"
+  standard: 'JEDEC MS-015-AA'
+
+CERDIP-14_JEDEC_MS-015-AB:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 14
+  body_size_y: 19.05  # 0.750"
+  standard: 'JEDEC MS-015-AB'
+
+CERDIP-16_JEDEC_MS-015-AC:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 16
+  body_size_y: 20.32  # 0.800"
+  standard: 'JEDEC MS-015-AC'
+
+CERDIP-18_JEDEC_MS-015-AD:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 18
+  body_size_y: 22.86  # 0.900"
+  standard: 'JEDEC MS-015-AD'
+
+CERDIP-20_JEDEC_MS-015-AE:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 20
+  body_size_y: 25.40  # 1.000"
+  standard: 'JEDEC MS-015-AE'
+
+CERDIP-22_JEDEC_MS-015-AF:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 22
+  body_size_y: 27.94  # 1.100"
+  standard: 'JEDEC MS-015-AF'
+
+CERDIP-24_JEDEC_MS-015-AG:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 24
+  body_size_y: 30.48  # 1.200"
+  standard: 'JEDEC MS-015-AG'
+
+CERDIP-28_JEDEC_MS-015-AH:
+  inherit: defaults_CERDIP_JEDEC_MS-015-Ax
+  pins: 28
+  body_size_y: 35.56  # 1.400"
+  standard: 'JEDEC MS-015-AH'

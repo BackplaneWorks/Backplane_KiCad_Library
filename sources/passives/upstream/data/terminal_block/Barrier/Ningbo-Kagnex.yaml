@@ -1,0 +1,55 @@
+TerminalBlock_Barrier_HB9500_*:
+  name_template: "{lib_name}_HB9500_1x{n_pin}_P{pitch}mm"
+  pins: 2-12
+  pitch: 9.5
+  separator: 1.5
+  back_border: 3.05
+  width: 17.8
+  height: 14.2
+  fillet: 5.0
+  down_space: 1.5
+  # screw_offset: -1.03
+  pad_size: [3.3, 6.6]
+  pad_to_back: 5.1
+  drill: 2.0
+  pin:
+    width: 1.5
+    thickness: 0.7
+    length: 6.3
+  clearance:
+    bottom: 1.5
+    back: 1.5
+  ref_y_position: "above"
+  manufacturer: "Ningbo-Kagnex"
+  part_number: "HB9500"
+  datasheet: https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf
+  include_in_qa:
+    pins: 2-3
+
+TerminalBlock_Barrier_HB9500M_*:
+  name_template: "{lib_name}_HB9500M_1x{n_pin}_P{pitch}mm"
+  pins: 2-12
+  pitch: 9.5
+  separator: 1.5
+  back_border: 3.05
+  width: 16
+  height: 13
+  # screw_offset: -1.03
+  pad_size: [3.3, 6.6]
+  pad_to_back: 3.95
+  drill: 2.0
+  pin:
+    width: 1.5
+    thickness: 0.7
+    length: 5.3
+  cover:
+    width: 14
+    thickness: 3.8
+  cover_color_key: "glass orange"
+  clearance:
+    bottom: 1.5
+    back: 1.5
+  ref_y_position: "above"
+  manufacturer: "Ningbo-Kagnex"
+  part_number: "HB9500M"
+  datasheet: https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf

@@ -1,0 +1,17 @@
+{
+  "component_references": [
+    "C1",
+    "C2",
+    "C3",
+    "L1",
+    "L2",
+    "L3",
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "resolved_component_instances": 9,
+  "exported_step_sha256": "0fed20f4f973426e4203c929e4a09f2c8acc5e25017feed78f5fe2b27c434213",
+  "model_paths": "${KIPRJMOD}/../../3dmodels",
+  "missing_model_errors": 0
+}

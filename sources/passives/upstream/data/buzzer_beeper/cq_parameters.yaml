@@ -1,0 +1,350 @@
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is Buzzer_12x9.5RM7.6.kicad_mod
+#
+Buzzer_12x9.5RM7.6:
+  modelName: 'Buzzer_12x9.5RM7.6'                 # model name
+  model_class: 'cq_parameters_tht_generic_round'
+  D: 12.00                                        # Body width/diameter
+  H: 09.50                                        # Body height
+  A1: 0.03                                        # Body-board separation
+  b: 0.90                                         # Pin diameter
+  E: null                                         # Body overall width
+  center: [3.80, 0.00]                            # Body center
+  npthhole: null                                  # NPTH hole [(x y length)]
+  ph: 3.0                                         # Pin length
+  pin: [[0.0, 0.0], [7.60, 0.00]]                 # Pins
+  case_top_color_key: 'orange body'               # Case top color
+  body_color_key: 'black body'                    # Body color
+  pins_color_key: 'metal grey pins'                # Pin color
+  npth_pin_color_key: 'grey body'                 # NPTH Pin color
+  rotation: 0                                     # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'       # destination directory
+  include_in_qa: True
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is Buzzer_15x7.5RM7.6.kicad_mod
+#
+Buzzer_15x7.5RM7.6:
+  modelName: 'Buzzer_15x7.5RM7.6'                # modelName
+  model_class: 'cq_parameters_tht_generic_round'
+  D: 15.00                                       # Body width/diameter
+  H: 07.50                                       # Body height
+  A1: 0.03                                       # Body-board separation
+  b: 0.90                                        # Pin diameter
+  E: null                                        # Body overall width
+  center: [3.80, 0.00]                           # Body center
+  npthhole: null                                 # NPTH hole [(x y length)]
+  ph: 3.0                                        # Pin length
+  pin: [[0.0, 0.0], [7.60, 0.00]]                # Pins
+  case_top_color_key: 'orange body'              # Top color
+  body_color_key: 'black body'                   # Body color
+  pins_color_key: 'metal grey pins'              # Pin color
+  npth_pin_color_key: 'grey body'                # NPTH Pin color
+  rotation: 0                                    # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'      # destination directory
+
+Buzzer_Mallory_AST1109MLTRQ:
+  modelName: Buzzer_Mallory_AST1109MLTRQ
+  model_class: cq_parameters_smd_generic_rectangular
+  D: 11
+  E: 9
+  H: 1.7
+  pin_thickness: 0.2
+  pin: [
+    [-6.5, 0, 2, 2, hole, 0.8],  # x, y, w, h, extra params...
+    [ 6.5, 0, 2, 2, hole, 0.8],
+  ]
+  top_sound_holes: [
+    [-2.65, -2.65, 0.7, 0.5],  # x, y, diameter, depth
+    [-2.65,  2.65, 0.7, 0.5],
+    [ 2.65, -2.65, 0.7, 0.5],
+    [ 2.65,  2.65, 0.7, 0.5],
+  ]
+  body_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Buzzer_Beeper.3dshapes
+  source: https://mspindy.com/spec-sheets/AST1109MLTRQ.pdf
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is Buzzer_Murata_PKMCS0909E4000-R1.kicad_mod
+#
+Buzzer_Murata_PKMCS0909E:
+  modelName: 'Buzzer_Murata_PKMCS0909E4000-R1'   # modelName
+  model_class: 'cq_parameters_murata_PKMCS0909E4000'
+  D: 9.00                                       # Body width/diameter
+  E: 9.00                                       # Body length
+  H: 1.90                                       # Body height
+  A1: 0.03                                       # Body-board separation
+  b: 0.90                                        # Pin diameter
+  center: [0.00, 0.00]                           # Body center
+  pin: [[-4.35, 0.0], [4.35, 0.00]]          # Pins
+  case_top_color_key: 'black body'        # Body color
+  pins_color_key: 'gold pins'  # Pin color
+  rotation: 0                       # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'      # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_CUI_CST-931RP-A.kicad_mod
+#
+MagneticBuzzer_CUI_CST-931RP-A:
+  modelName: 'MagneticBuzzer_CUI_CST-931RP-A'    # modelName
+  model_class: 'cq_parameters_CUI_CST_931RP_A'
+  D: 9.00                                        # Body width/diameter
+  H: 4.50                                        # Body height
+  A1: 0.03                                       # Body-board separation
+  b: 0.60                                        # Pin diameter
+  ph: 4.50                                       # Pin diameter
+  E: null                                         # Body overall width
+  center: [0.00, 2.00]                           # Body center
+  pin: [[0.0, 0.0], [0.00, 4.00]]                # Pins
+  case_top_color_key: 'black body'               # Body color
+  pins_color_key: 'metal grey pins'              # Pin color
+  rotation: 0                                    # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'      # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_Kingstate_KCG0601.kicad_mod
+#
+MagneticBuzzer_Kingstate_KCG0601:
+  modelName: 'MagneticBuzzer_Kingstate_KCG0601'   # modelName
+  model_class: 'cq_parameters_kingstate_KCG0601'
+  D: 6.60                                        # Body width/diameter
+  H: 3.50                                        # Body height
+  A1: 0.03                                       # Body-board separation
+  b: 0.50                                        # Pin diameter
+  E: null                                        # Body overall width
+  center: [1.60, 0.00]                           # Body center
+  ph: 3.30                                       # Pin length
+  pin: [[0.0, 0.0], [3.20, 0.00]]                # Pins
+  case_top_color_key: 'orange body'              # Top color
+  body_color_key: 'black body'                   # Body color
+  pins_color_key: 'metal grey pins'              # Pin color
+  rotation: 0                                    # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'      # destination directory
+
+#
+#
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_Kobitone_254-EMB84Q-RO.kicad_mod
+#
+MagneticBuzzer_Kobitone_254-EMB84Q-RO:
+  modelName: 'MagneticBuzzer_Kobitone_254-EMB84Q-RO'          # modelName
+  model_class: 'cq_parameters_EMB84Q_RO_SMT_0825_S_4_R'
+  D: 8.50                                                     # Body width/diameter
+  E: 8.50                                                     # Body length
+  H: 3.00                                                     # Body height
+  A1: 0.03                                                    # Body-board separation
+  soundhole: [2.5, 1.0]                                       # Sound hole
+  center: [0.00, 0.00]                                        # Body center
+  pin: [[-3.7, -3.7], [-3.7, 3.7], [-3.7, 3.7], [3.7, 3.7]]   # Pins
+  case_top_color_key: 'black body'                                # Body color
+  pins_color_key: 'metal grey pins'                           # Pin color
+  rotation: 0                                                 # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'                   # destination directory
+
+#
+# http://www.puiaudio.com/product-detail.aspx?partnumber=SMT-0825-S-4-R
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is PUIAudio_SMT_0825_S_4_R.kicad_mod
+#
+PUIAudio_SMT_0825_S_4_R:
+  modelName: 'PUIAudio_SMT_0825_S_4_R'   # modelName
+  model_class: 'cq_parameters_EMB84Q_RO_SMT_0825_S_4_R'
+  D: 8.50                  # Body width/diameter
+  E: 8.50                  # Body length
+  H: 3.00                  # Body height
+  A1: 0.03                  # Body-board separation
+  soundhole: [3.0, 0.7]     # Sound hole
+  center: [0.00, 0.00]      # Body center
+  pin: [[-3.7, -3.7], [-3.7, 3.7], [-3.7, 3.7], [3.7, 3.7]]          # Pins
+  case_top_color_key: 'black body'        # Body color
+  pins_color_key: 'metal grey pins'  # Pin color
+  rotation: 0                       # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'      # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R.kicad_mod
+#
+MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R:
+  modelName: 'MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R'   # modelName
+  model_class: 'cq_parameters_ProjectsUnlimited_AI_4228_TWT_R'
+  D: 42.00                                                      # Body width/diameter
+  H: 14.00                                                      # Body height
+  A1: 0.03                                                      # Body-board separation
+  b: 1.30                                                       # Pin diameter
+  E: null                                                       # Body overall width
+  center: [12.70, 0.00]                                         # Body center
+  ph: 6.5                                                       # Pin length
+  pin: [[0.0, 0.0], [25.40, 0.00]]                              # Pins
+  case_top_color_key: 'orange body'                             # Top color
+  body_color_key: 'black body'                                  # Body color
+  pins_color_key: 'metal grey pins'                             # Pin color
+  rotation: 0                                                   # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'                     # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_ProSignal_ABI-009-RC.kicad_mod
+#
+MagneticBuzzer_ProSignal_ABI-009-RC:
+  modelName: 'MagneticBuzzer_ProSignal_ABI-009-RC'  # modelName
+  model_class: 'cq_parameters_ProSignal_ABI_XXX_RC'
+  D: 12.00                                          # Body width/diameter
+  H: 9.50                                           # Body height
+  A1: 0.03                                          # Body-board separation
+  b: 0.90                                           # Pin diameter
+  E: null                                           # Body overall width
+  center: [3.80, 0.00]                              # Body center
+  npthhole: 2.6                                     # NPTH hole diameter
+  ph: 3.0                                           # Pin length
+  pin: [[0.0, 0.0], [7.60, 0.00]]                   # Pins
+  case_top_color_key: 'black body'                      # Body color
+  pins_color_key: 'metal grey pins'                 # Pin color
+  rotation: 0                                       # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'         # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_ProSignal_ABI-010-RC.kicad_mod
+#
+MagneticBuzzer_ProSignal_ABI-010-RC:
+  modelName: 'MagneticBuzzer_ProSignal_ABI-010-RC'   # modelName
+  model_class: 'cq_parameters_ProSignal_ABI_XXX_RC'
+  D: 12.00                                           # Body width/diameter
+  H: 9.50                                            # Body height
+  A1: 0.03                                           # Body-board separation
+  b: 0.90                                            # Pin diameter
+  E: null                                            # Body overall width
+  center: [3.80, 0.00]                               # Body center
+  npthhole: 2.8                                      # NPTH hole diameter
+  ph: 3.0                                            # Pin length
+  pin: [[0.0, 0.0], [7.60, 0.00]]                    # Pins
+  case_top_color_key: 'black body'                       # Body color
+  pins_color_key: 'metal grey pins'                  # Pin color
+  rotation: 0                                        # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'          # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_ProSignal_ABT-410-RC.kicad_mod
+#
+MagneticBuzzer_ProSignal_ABT-410-RC:
+  modelName: 'MagneticBuzzer_ProSignal_ABT-410-RC'   # modelName
+  model_class: 'cq_parameters_ProSignal_ABI_XXX_RC'
+  D: 12.00                                           # Body width/diameter
+  H: 8.50                                            # Body height
+  A1: 0.03                                           # Body-board separation
+  b: 0.50                                            # Pin diameter
+  E: null                                            # Body overall width
+  center: [3.25, 0.00]                               # Body center
+  npthhole: 2.3                                      # NPTH hole diameter
+  ph: 3.0                                            # Pin length
+  pin: [[0.0, 0.0], [6.50, 0.00]]                    # Pins
+  case_top_color_key: 'black body'                   # Body color
+  pins_color_key: 'metal grey pins'                  # Pin color
+  rotation: 0                                        # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'          # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is MagneticBuzzer_StarMicronics_HMB-06_HMB-12.kicad_mod
+#
+MagneticBuzzer_StarMicronics_HMB-06_HMB-12:
+  modelName: 'MagneticBuzzer_StarMicronics_HMB-06_HMB-12'   # modelName
+  model_class: 'cq_parameters_StarMicronics_HMB_06_HMB_12'
+  D: 16.00                                                  # Body width/diameter
+  H: 14.00                                                  # Body height
+  A1: 0.03                                                  # Body-board separation
+  b: 0.70                                                   # Pin diameter
+  E: null                                                   # Body overall width
+  center: [3.81, 0.00]                                      # Body center
+  npthhole: 3.2                                             # NPTH hole diameter
+  ph: 6.0                                                   # Pin length
+  pin: [[0.0, 0.0], [7.61, 0.00]]                           # Pins
+  case_top_color_key: 'black body'                              # Body color
+  pins_color_key: 'metal grey pins'                         # Pin color
+  rotation: 0                                               # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'                 # destination directory
+
+#
+# Valve
+# This model have been auto generated based on the foot print file
+# A number of parameters have been fixed or guessed, such as A2
+#
+# The foot print that uses this 3D model is Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm.kicad_mod
+#
+Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm:
+  modelName: 'Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm'  # modelName
+  model_class: 'cq_parameters_TDK_PS1240P02BT'
+  D: 12.00                                            # Body width/diameter
+  H: 6.50                                             # Body height
+  A1: 0.03                                            # Body-board separation
+  b: 0.65                                             # Pin diameter
+  E: null                                             # Body overall width
+  center: [2.50, 0.00]                                # Body center
+  tophole: 1.0                                        # Top hole
+  ph: 15.0                                            # Pin length
+  pin: [[0.0, 0.0], [5.00, 0.00]]                     # Pins
+  case_top_color_key: 'orange body'                   # Top color
+  body_color_key: 'black body'                        # Body color
+  pins_color_key: 'metal grey pins'                   # Pin color
+  rotation: 0                                         # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'           # destination directory
+
+Indicator_PUI_AI-1440-TWT-24V-2-R:
+  modelName: 'Indicator_PUI_AI-1440-TWT-24V-2-R'        # modelName
+  model_class: 'cq_parameters_PUI_AI_1440_TWT_24V_2_R'
+  D: 13.80                                              # Body width/diameter
+  H: 7.50                                               # Body height
+  A1: 0.03                                              # Body-board separation
+  b: 0.70                                               # Pin diameter
+  E: null                                               # Body overall width
+  center: [3.80, 0.00]                                  # Body center
+  p1h: 5.50                                             # Pin 1 length
+  ph: 4.00                                              # Pin length
+  pin: [[0.00, 0.00], [7.60, 0.00]]                     # Pins
+  case_top_color_key: 'orange body'                     # Top color
+  body_color_key: 'black body'                          # Body color
+  pins_color_key: 'metal grey pins'                     # Pin color
+  rotation: 0                                           # Rotation if required
+  destination_dir: 'Buzzer_Beeper.3dshapes'             # destination directory

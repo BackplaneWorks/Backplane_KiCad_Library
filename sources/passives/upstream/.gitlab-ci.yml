@@ -1,0 +1,319 @@
+image: python:3.14-slim
+
+stages:
+  - Static Analysis
+  - Test
+  # Separate FP and model generate stages, so the FP job isn't
+  # overwhelmed by the 3D model (manual) jobs.
+  - Footprint Generate
+  - 3D Generate
+
+variables:
+  KICAD_FOOTPRINTS_REPO: https://gitlab.com/kicad/libraries/kicad-footprints.git
+  KICAD_MODELS_REPO: https://gitlab.com/kicad/libraries/kicad-packages3d.git
+
+default:
+  before_script:
+    - cd ./library_utils
+    - apt-get update -q -y
+    - apt-get install -y make
+    - python3 -V
+    - pip install -r requirements.txt
+    - pip install pytest
+    - pip install pyyaml
+
+symbol_rulechecker:
+  stage: Test
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - changes:
+      - "library_utils/common/*"
+      - "library_utils/klc-check/*"
+      - "library_utils/klc-check/*symbol/*"
+  script:
+    - make test-klc-symbols
+    - make test-comparelibs-symbols
+  artifacts:
+    reports:
+      metrics: metrics.txt
+
+footprint_rulechecker:
+  stage: Test
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - changes:
+      - "library_utils/common/*"
+      - "library_utils/klc-check/*"
+      - "library_utils/klc-check/*footprint.pretty/*"
+  script:
+    - make test-klc-footprints
+  artifacts:
+    reports:
+      metrics: metrics.txt
+
+check_libutils_code:
+  stage: Static Analysis
+  rules:
+    - changes:
+      - "library_utils/**/*"
+  script:
+    - pip install flake8
+    - make lint
+
+check_libutils_spelling:
+  stage: Static Analysis
+  rules:
+    - changes:
+      - "library_utils/**/*"
+  script:
+    - apt-get -qq update && apt-get install --yes codespell
+    - make spelling
+
+check-code-formatting:
+  stage: Static Analysis
+  needs: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - gitlabci/**/*
+        - .gitlab-ci.yml
+        - src/**/*
+        - tests/**/*
+        - KicadModTree/**/*
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install .[dev]
+  script:
+    - ./manage.sh format_check
+
+check-static-typing:
+  stage: Static Analysis
+  needs: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - gitlabci/**/*
+        - .gitlab-ci.yml
+        - src/**/*
+        - tests/**/*
+        - KicadModTree/**/*
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install .[dev]
+  script:
+    - ./manage.sh static_type_check
+
+pytest:
+  stage: Test
+  needs: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - gitlabci/**/*
+        - .gitlab-ci.yml
+        - src/**/*
+        - tests/**/*
+        - KicadModTree/**/*
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install .[dev]
+  script:
+    - python -m pytest --junitxml=report.xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+
+fp-generate:
+  stage: Footprint Generate
+  needs: []
+  tags:
+    - saas-linux-medium-amd64
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  image: python:3.13
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install -e .
+  script:
+    # Generate footprints
+    - cd src/generators
+    - ls -lah
+    - time ./generate.py --separate-outputs --output-dir-footprints "$CI_PROJECT_DIR/footprints" -j0
+    # Collect generated footprints into artifact archive
+    - cd "$CI_PROJECT_DIR"
+    - tar -cJf footprints.tar.xz footprints/
+
+    # Write out the generation results for metric reporting
+    - ./library_utils/tools/library_metrics.sh "footprints" "metrics.txt"
+  artifacts:
+    paths:
+      - footprints.tar.xz
+    reports:
+      metrics: metrics.txt
+    when: always
+
+fp-generate-and-compare:
+  stage: Test
+  needs: []
+  tags:
+    - saas-linux-medium-amd64
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - library_utils/**/*
+        - gitlabci/**/*
+        - .gitlab-ci.yml
+        - src/**/*
+        - KicadModTree/**/*
+        - data/**/*
+  allow_failure: true
+  image: kicad/kicad:10.0
+  before_script:
+    # Required when using kicad Docker image (kicad-cli needed for visu diff):
+    - sudo apt update -qq
+    - sudo apt install curl python3 python3-pip xz-utils -qqy --no-install-recommends
+    - sudo ln -s /usr/bin/python3 /usr/bin/python
+    - python --version
+    - python -m pip install --break-system-packages --upgrade pip
+    - pip install --break-system-packages -e .
+
+    - echo "CI_PROJECT_DIR = $CI_PROJECT_DIR"
+    - git config --global --add safe.directory $(realpath .)
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+    - pip install --break-system-packages --no-warn-script-location
+        pygments
+        wsdiff
+        jinja2
+        gitpython
+    - kicad-cli version --format=about
+    # Get the MR SHA values
+    - source ./library_utils/tools/gitlabci/common.sh
+  script:
+    # Download and extract base footprints generated by base branch (artifact)
+    - BASE_FP_URL="$CI_API_V4_URL/projects/$CI_MERGE_REQUEST_PROJECT_ID/jobs/artifacts/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME/raw/footprints.tar.xz?job=fp-generate"
+
+    # Required due to bug (?) or thing I don't understand in html_diff.py
+    # (TODO: Try to fix there?)
+    - unset CI_MERGE_REQUEST_ID
+
+    - ./library_utils/tools/generate_and_compare.sh -u "$BASE_FP_URL" -o "./diffs" -t "./output"
+
+    # Write out the generation results for metric reporting
+    - ./library_utils/tools/library_metrics.sh "./output/generated_footprints" "metrics.txt"
+  artifacts:
+    expose_as: "Visual Diff"
+    paths:
+      - "diffs/"
+    reports:
+      dotenv: deploy.env
+      metrics: metrics.txt
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: $DYNAMIC_ENVIRONMENT_URL
+
+make-fp-mr:
+  stage: Footprint Generate
+  needs: []
+  rules:
+    - when: manual
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  tags:
+    - saas-linux-medium-amd64
+  allow_failure: true
+  image: python:3.13
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install -e .[dev]
+    - pip install python-gitlab
+  script:
+    # Clone fps
+    - export FP_TARGET_DIR="$HOME/fps"
+    - git clone "${KICAD_FOOTPRINTS_REPO}" "$FP_TARGET_DIR" --branch master
+
+    - cd "$FP_TARGET_DIR"
+    # Clear all existing generated footprints (this allows auto-MRs to handle moves and deletions)
+    - git grep --name-only -E "\(generator\s+\"kicad-footprint-generator\"\)" -- "*.kicad_mod" | xargs -d"\n" rm
+    # Generate fps in a shell without CI environment variables
+    - env -i HOME="$HOME" bash -l -c "time ${CI_PROJECT_DIR}/src/generators/generate.py -j0 --output-dir-footprints $FP_TARGET_DIR"
+
+    - export branchname="gen-mr-${CI_MERGE_REQUEST_IID}"
+    - git switch -c "$branchname"
+    - git config --global user.email "kicad-mr-bot@example.com"
+    - git config --global user.name "KiCad MR bot"
+    - git add \*.kicad_mod
+    - git commit --all
+        --message "${CI_MERGE_REQUEST_TITLE}"
+        --message "Output of merge request ${CI_MERGE_REQUEST_PROJECT_URL}/-/merge_requests/${CI_MERGE_REQUEST_IID}"
+    - git push -uf "https://gitlab-ci-token:${MR_TOKEN}@gitlab.com/kicad/libraries/librarian-internal/kicad-footprints-fork.git" "$branchname"
+    - export MR_DESCRIPTION="Output of merge request ${CI_MERGE_REQUEST_PROJECT_URL}/-/merge_requests/${CI_MERGE_REQUEST_IID} ${CI_MERGE_REQUEST_TITLE}"
+    - export MR_TITLE="Generator MR ${CI_MERGE_REQUEST_IID} ${CI_MERGE_REQUEST_TITLE}"
+    - |
+      echo "Creating the FP MR..."
+      set +e
+      MR_CREATION_OUTPUT=$(
+        gitlab --private-token "${MR_TOKEN}" \
+        project-merge-request create \
+        --project-id 68268360 \
+        --source-branch "$branchname" \
+        --target-branch master \
+        --allow-collaboration true \
+        --squash true \
+        --remove-source-branch true \
+        --target-project-id 21601606 \
+        --title "$MR_TITLE" \
+        --description "$MR_DESCRIPTION" \
+        2>&1
+      )
+      EXIT_CODE=$?
+      set -e
+      echo "$MR_CREATION_OUTPUT"
+      if [ $EXIT_CODE -ne 0 ]; then
+        # Check if the failure is due to the MR already existing.
+        if echo "$MR_CREATION_OUTPUT" | grep -q "409"; then
+          # MR_CREATION_OUTPUT is something like "Impossible to create object (409: ['Another open merge request already exists for this source branch: !4472'])"
+          IID=$(echo "$MR_CREATION_OUTPUT" | grep -o '!.*' | awk -F'!' '{ print $2 }' | awk -F']' '{ print $1 }')
+        else
+          # Unknown error - we return an error code:
+          echo "Unknown error code!"
+          exit 1
+        fi
+      else
+        IID=$(echo "$MR_CREATION_OUTPUT" | grep "^iid: " | awk '{print $2}')
+      fi
+      echo "Merge request URL https://gitlab.com/kicad/libraries/kicad-footprints/-/merge_requests/${IID}"
+
+
+
+make-3d-mr:
+  stage: Footprint Generate
+  needs: []
+  rules:
+    - when: manual
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  tags:
+    - saas-linux-medium-amd64
+  allow_failure: true
+  image: python:3.13
+  before_script:
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip install -e .[3d]
+    - pip install dictdiffer python-gitlab
+    - apt-get update -q -y
+    - apt-get install -y libglx-mesa0 libgl1 libxrender1 git fontconfig
+  script:
+    - git config --global --add safe.directory $(realpath .)
+    - source ./library_utils/tools/gitlabci/common.sh
+    - echo "Attempting to create output MR"
+    - ./library_utils/tools/create_3d_mr.sh
+
+
+# Include the 3d-model-generators pipelines
+include:
+  - local: '.gitlab-ci-3dgen.yml'

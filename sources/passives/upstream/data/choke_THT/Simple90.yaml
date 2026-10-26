@@ -1,0 +1,606 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L_Toroid
+  deco: chokewire
+  func: makeResistorRadial
+  has3d: 1
+  lib_name: Inductor_THT
+  seriesname: "Vertical"
+  rm2: 0
+  s_3d:
+    - 1
+    - 1
+    - 1
+  specialfpname: ''
+  type: simple90
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+L8.0mm_W5.0mm_Px5.08mm_Py0.00mm:
+  inherit: base
+  add_description: ''
+  ddrill: 1.0
+  h: 5
+  height3d: 10
+  innerh: 5.08
+  innerw: 8.0
+  name_additions: []
+  rm: 5.08
+  specialtags: []
+  w: 10
+  w2: 3.3333333333333335
+
+
+L10.4mm_W6.5mm_Px5.60mm_Py0.00mm:
+  inherit: base
+  add_description: ''
+  ddrill: 1.3
+  h: 6.5
+  height3d: 13
+  innerh: 5.6
+  innerw: 10.4
+  name_additions: []
+  rm: 5.6
+  specialtags: []
+  w: 13
+  w2: 4.333333333333333
+
+
+L12.8mm_W8.0mm_Px7.62mm_Py0.00mm:
+  inherit: base
+  add_description: ''
+  ddrill: 1.5
+  h: 8
+  height3d: 16
+  innerh: 7.62
+  innerw: 12.8
+  name_additions: []
+  rm: 7.62
+  specialtags: []
+  w: 16
+  w2: 5.333333333333333
+
+
+L11.8mm_W8.6mm_Px5.58mm_Py0.00mm_Pulse_KM-1:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 8.64
+  height3d: 14.73
+  innerh: 5.58
+  innerw: 11.784
+  name_additions:
+    - Pulse
+    - KM-1
+  rm: 5.58
+  specialtags:
+    - Pulse
+    - KM-1
+  w: 14.73
+  w2: 4.91
+
+
+L13.2mm_W11.4mm_Px7.62mm_Py0.00mm_Pulse_KM-2:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 11.43
+  height3d: 16.51
+  innerh: 7.62
+  innerw: 13.208000000000002
+  name_additions:
+    - Pulse
+    - KM-2
+  rm: 7.62
+  specialtags:
+    - Pulse
+    - KM-2
+  w: 16.51
+  w2: 5.503333333333334
+
+
+L17.3mm_W11.4mm_Px7.62mm_Py0.00mm_Pulse_KM-3:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 11.43
+  height3d: 21.59
+  innerh: 7.62
+  innerw: 17.272000000000002
+  name_additions:
+    - Pulse
+    - KM-3
+  rm: 7.62
+  specialtags:
+    - Pulse
+    - KM-3
+  w: 21.59
+  w2: 7.196666666666666
+
+
+L19.7mm_W15.5mm_Px11.44mm_Py0.00mm_Pulse_KM-4:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 15.5
+  height3d: 24.64
+  innerh: 11.44
+  innerw: 19.712000000000003
+  name_additions:
+    - Pulse
+    - KM-4
+  rm: 11.44
+  specialtags:
+    - Pulse
+    - KM-4
+  w: 24.64
+  w2: 8.213333333333333
+
+
+L26.4mm_W17.8mm_Px12.70mm_Py0.00mm_Pulse_KM-5:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 17.78
+  height3d: 33.02
+  innerh: 12.7
+  innerw: 26.416000000000004
+  name_additions:
+    - Pulse
+    - KM-5
+  rm: 12.7
+  specialtags:
+    - Pulse
+    - KM-5
+  w: 33.02
+  w2: 11.006666666666668
+
+
+L14.0mm_W6.4mm_Px4.57mm_Py0.00mm_Pulse_A:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.5
+  h: 6.35
+  height3d: 13.97
+  name_additions:
+    - Pulse
+    - A
+  rm: 4.57
+  specialtags:
+    - Pulse
+    - A
+  w: 13.97
+  w2: 4.656666666666667
+
+
+L17.8mm_W9.7mm_Px7.11mm_Py0.00mm_Pulse_B:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.5
+  h: 9.65
+  height3d: 17.78
+  name_additions:
+    - Pulse
+    - B
+  rm: 7.11
+  specialtags:
+    - Pulse
+    - B
+  w: 17.78
+  w2: 5.926666666666667
+
+
+L21.6mm_W9.5mm_Px7.11mm_Py0.00mm_Pulse_C:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 9.53
+  height3d: 21.59
+  name_additions:
+    - Pulse
+    - C
+  rm: 7.11
+  specialtags:
+    - Pulse
+    - C
+  w: 21.59
+  w2: 7.196666666666666
+
+
+L26.7mm_W14.0mm_Px10.16mm_Py0.00mm_Pulse_D:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 13.97
+  height3d: 26.67
+  name_additions:
+    - Pulse
+    - D
+  rm: 10.16
+  specialtags:
+    - Pulse
+    - D
+  w: 26.67
+  w2: 8.89
+
+
+L35.6mm_W17.8mm_Px12.70mm_Py0.00mm_Pulse_E:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 17.78
+  height3d: 35.56
+  name_additions:
+    - Pulse
+    - E
+  rm: 12.7
+  specialtags:
+    - Pulse
+    - E
+  w: 35.56
+  w2: 11.853333333333333
+
+
+L41.9mm_W17.8mm_Px12.70mm_Py0.00mm_Pulse_F:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.8
+  h: 17.78
+  height3d: 41.91
+  name_additions:
+    - Pulse
+    - F
+  rm: 12.7
+  specialtags:
+    - Pulse
+    - F
+  w: 41.91
+  w2: 13.969999999999999
+
+
+L21.6mm_W8.4mm_Px8.38mm_Py0.00mm_Pulse_G:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.5
+  h: 8.38
+  height3d: 21.59
+  name_additions:
+    - Pulse
+    - G
+  rm: 8.38
+  specialtags:
+    - Pulse
+    - G
+  w: 21.59
+  w2: 7.196666666666666
+
+
+L16.3mm_W7.1mm_Px7.11mm_Py0.00mm_Pulse_H:
+  inherit: base
+  add_description: http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
+  ddrill: 1.5
+  h: 7.11
+  height3d: 16.26
+  name_additions:
+    - Pulse
+    - H
+  rm: 7.11
+  specialtags:
+    - Pulse
+    - H
+  w: 16.26
+  w2: 5.420000000000001
+
+
+L16.4mm_W7.6mm_Px6.60mm_Py0.00mm_Vishay_TJ3:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.2
+  h: 7.6
+  height3d: 16.4
+  name_additions:
+    - Vishay
+    - TJ3
+  rm: 6.6
+  specialtags:
+    - Vishay
+    - TJ3
+  w: 16.4
+  w2: 5.466666666666666
+
+
+L16.8mm_W9.2mm_Px7.10mm_Py0.00mm_Vishay_TJ3:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 9.2
+  height3d: 16.8
+  name_additions:
+    - Vishay
+    - TJ3
+  name_additions_non3d:
+    - BigPads
+  rm: 7.1
+  specialtags:
+    - Vishay
+    - TJ3
+  w: 16.8
+  w2: 5.6000000000000005
+
+
+L16.8mm_W9.2mm_Px7.10mm_Py0.00mm_Vishay_TJ3__1:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.2
+  h: 9.2
+  height3d: 16.8
+  name_additions:
+    - Vishay
+    - TJ3
+  rm: 7.1
+  specialtags:
+    - Vishay
+    - TJ3
+  w: 16.8
+  w2: 5.6000000000000005
+
+
+L22.4mm_W10.2mm_Px7.90mm_Py0.00mm_Vishay_TJ4:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 10.2
+  height3d: 22.4
+  name_additions:
+    - Vishay
+    - TJ4
+  rm: 7.9
+  specialtags:
+    - Vishay
+    - TJ4
+  w: 22.4
+  w2: 7.466666666666666
+
+
+L25.4mm_W14.7mm_Px12.20mm_Py0.00mm_Vishay_TJ5:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 14.7
+  height3d: 25.4
+  name_additions:
+    - Vishay
+    - TJ5
+  name_additions_non3d:
+    - BigPads
+  rm: 12.2
+  specialtags:
+    - Vishay
+    - TJ5
+  w: 25.4
+  w2: 8.466666666666667
+
+
+L25.4mm_W14.7mm_Px12.20mm_Py0.00mm_Vishay_TJ5__1:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.2
+  h: 14.7
+  height3d: 25.4
+  name_additions:
+    - Vishay
+    - TJ5
+  rm: 12.2
+  specialtags:
+    - Vishay
+    - TJ5
+  w: 25.4
+  w2: 8.466666666666667
+
+
+L35.1mm_W21.1mm_Px18.50mm_Py0.00mm_Vishay_TJ6:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 21.1
+  height3d: 35.1
+  name_additions:
+    - Vishay
+    - TJ6
+  rm: 18.5
+  specialtags:
+    - Vishay
+    - TJ6
+  w: 35.1
+  w2: 11.700000000000001
+
+
+L41.9mm_W19.1mm_Px15.80mm_Py0.00mm_Vishay_TJ7:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.5
+  h: 19.1
+  height3d: 41.9
+  name_additions:
+    - Vishay
+    - TJ7
+  rm: 15.8
+  specialtags:
+    - Vishay
+    - TJ7
+  w: 41.9
+  w2: 13.966666666666667
+
+
+L48.8mm_W25.4mm_Px20.80mm_Py0.00mm_Vishay_TJ8:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 1.7
+  h: 25.4
+  height3d: 48.8
+  name_additions:
+    - Vishay
+    - TJ8
+  rm: 20.8
+  specialtags:
+    - Vishay
+    - TJ8
+  w: 48.8
+  w2: 16.266666666666666
+
+
+L67.6mm_W36.1mm_Px31.80mm_Py0.00mm_Vishay_TJ9:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34079/tj.pdf
+  ddrill: 2
+  h: 36.1
+  height3d: 67.6
+  name_additions:
+    - Vishay
+    - TJ9
+  rm: 31.8
+  specialtags:
+    - Vishay
+    - TJ9
+  w: 67.6
+  w2: 22.53333333333333
+
+
+L28.6mm_W14.3mm_Px11.43mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 1.8
+  h: 14.3
+  height3d: 28.6
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 11.43
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 28.6
+  w2: 9.533333333333333
+
+
+L31.8mm_W15.9mm_Px13.50mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 1.8
+  h: 15.9
+  height3d: 31.8
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 13.5
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 31.8
+  w2: 10.6
+
+
+L46.0mm_W19.1mm_Px21.80mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 1.9
+  h: 19.1
+  height3d: 46
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 21.8
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 46
+  w2: 15.333333333333334
+
+
+L54.0mm_W23.8mm_Px20.10mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 1.8
+  h: 23.8
+  height3d: 54
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 20.1
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 54
+  w2: 18.0
+
+
+L14.0mm_W5.6mm_Px5.30mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 0.8
+  h: 5.6
+  height3d: 14
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 5.3
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 14
+  w2: 4.666666666666667
+
+
+L17.8mm_W8.1mm_Px7.62mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 0.9
+  h: 8.1
+  height3d: 17.8
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 7.62
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 17.8
+  w2: 5.933333333333334
+
+
+L19.1mm_W8.1mm_Px7.10mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 0.8
+  h: 8.1
+  height3d: 19.1
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 7.1
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 19.1
+  w2: 6.366666666666667
+
+
+L21.6mm_W9.1mm_Px8.40mm_Py0.00mm_Bourns_5700:
+  inherit: base
+  add_description: http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+  ddrill: 1.1
+  h: 9.1
+  height3d: 21.6
+  name_additions:
+    - Bourns
+    - '5700'
+  rm: 8.4
+  specialtags:
+    - Bourns
+    - '5700'
+  w: 21.6
+  w2: 7.2

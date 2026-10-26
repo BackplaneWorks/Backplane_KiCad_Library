@@ -1,0 +1,21 @@
+{
+  "canonical_project": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_pro",
+  "canonical_board": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_pcb",
+  "viewer_board_path": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_pcb",
+  "viewer_3d_path": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_pcb",
+  "history_ref": "refs/backplane/checkpoints/dDE3OTMwNDg1NTctNjIxOTQz/steps",
+  "saved_sha256": "4e5650222ffd4db0ebc109ee9257cf6cd1f587143b1623140698ba5104a65bc4",
+  "history_board_sha256": "4e5650222ffd4db0ebc109ee9257cf6cd1f587143b1623140698ba5104a65bc4",
+  "history_matches_saved_board": true,
+  "enabled_copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "canonical_schematic": "/home/h/Documents/Backplane/Backplane_KiCad_Library/boards/library_catalogue/library_catalogue.kicad_sch",
+  "schematic_history_matches_saved": false,
+  "schematic_sha256": "e3038200b2dddeb88cc2e929c2d1a7e98bf77293dea0c2f606018e607112c7c9",
+  "schematic_history_sha256": "e0834b0b57847f67baad926ba360d0047d101767ea708b0a81bf47f222807484",
+  "history_note": "Board bytes match. Documentation-only schematic has a stale Backplane history snapshot despite explicit IPC commit/save and viewer_show; saved sheet and current CLI export are current. Existing history preserved."
+}

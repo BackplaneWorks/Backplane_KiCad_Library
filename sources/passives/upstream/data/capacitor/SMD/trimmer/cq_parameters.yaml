@@ -1,0 +1,247 @@
+C_Trimmer_Murata_TZC3:
+  modelName: 'C_Trimmer_Murata_TZC3'        # modelName
+  model_class: 'murata'
+  W: 4.50                                  # Width
+  W1: 0.50                                 # Width 1
+  L: 3.20                                  # Length
+  L1: 1.00                                 # Length 1
+  H: 1.60                                  # Height
+  BH: 0.80                                 # Body height
+  D: 3.20                                  # Dome diameter
+  SD: 2.50                                 # Screw size
+  A1: 0.01                                  # Body-board separation
+  body_top_color_key : 'white body'         # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+  include_in_qa: True
+
+C_Trimmer_Murata_TZB4-A:
+  modelName: 'C_Trimmer_Murata_TZB4-A'      # modelName
+  model_class: 'murata'
+  W: 5.00                                  # Width
+  W1: 4.50                                 # Width 1
+  L: 4.00                                  # Length
+  L1: null
+  H: 3.00                                  # Height
+  D: 3.00                                  # Dome diameter
+  SD: 1.40                                 # Screw size
+  A1: 0.01                                  # Body-board separation
+  body_top_color_key : 'metal aluminum'     # Top color
+  body_color_key     : 'brown body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+
+C_Trimmer_Murata_TZB4-B:
+  modelName: 'C_Trimmer_Murata_TZB4-B'      # modelName
+  model_class: 'murata'
+  W: 7.00                                  # Width
+  W1: 4.50                                 # Width 1
+  L: 4.00                                  # Length
+  L1: null
+  H: 3.00                                  # Height
+  D: 3.00                                  # Dome diameter
+  SD: 1.40                                 # Screw size
+  A1: 0.01                                  # Body-board separation
+  body_top_color_key : 'metal aluminum'     # Top color
+  body_color_key     : 'brown body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+
+C_Trimmer_Murata_TZR1:
+  modelName: 'C_Trimmer_Murata_TZR1'        # modelName
+  model_class: 'murata'
+  W: 1.70                                  # Width
+  L: 1.50                                  # Length
+  L1: 0.70                                 # Length 1
+  H: 0.90                                  # Height
+  BH: 0.60                                 # Body height
+  D: 1.40                                  # Dome diameter
+  SD: 0.45                                 # Screw size
+  A1: 0.01                                  # Body-board separation
+  body_top_color_key : 'gold pins'          # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+
+C_Trimmer_Murata_TZW4:
+  modelName: 'C_Trimmer_Murata_TZW4'        # modelName
+  model_class: 'murata'
+  W: 5.20                                  # Width
+  L: 4.20                                  # Length
+  L1: 1.00                                 # Length 1
+  H: 2.60                                  # Height
+  BH: 1.60                                 # Body height
+  D: 4.10                                  # Dome diameter
+  SD: 1.60                                 # Screw size
+  A1: 0.01                                  # Body-board separation
+  body_top_color_key : 'metal aluminum'     # Top color
+  body_color_key     : 'white body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+
+C_Trimmer_Murata_TZY2:
+  modelName: 'C_Trimmer_Murata_TZY2'        # modelName
+  model_class: 'murata'
+  W: 3.20                                  # Width
+  L: 2.50                                  # Length
+  L1: 1.00                                 # Length 1
+  H: 1.25                                  # Height
+  BH: 0.75                                 # Body height
+  D: 2.40                                  # Dome diameter
+  SD: 0.45                                 # Screw size
+  A1: 0.01                                 # Body-board separation
+  PW: null                                 # Pad width
+  PL: null                                 # Pad length
+  body_top_color_key : 'gold pins'     # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb'
+
+C_Trimmer_Sprague-Goodman_SGC3:
+  modelName: 'C_Trimmer_Sprague-Goodman_SGC3'   # modelName
+  model_class: 'sprague_goodman'
+  W: 4.75                  # Width
+  BW: 4.50                 # Body width
+  L: 3.20                  # Length
+  L1: 2.20                 # Length 1
+  H: 1.50                  # Height
+  BH: 0.87                 # Body height
+  D: 3.00                  # Dome diameter
+  SD: 1.40                 # Screw diameter
+  PW: 0.80                 # Pad width
+  PL: 0.90                 # Pad length
+  A1: 0.01                  # Body-board separation
+  body_top_color_key : 'metal aluminum'     # Top color
+  body_color_key     : 'blue body'          # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 180                             # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: 'http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf'
+
+C_Trimmer_Voltronics_JN:
+  modelName: 'C_Trimmer_Voltronics_JN'   # modelName
+  model_class: 'voltronics'
+  W: 1.70                  # Width
+  L: 1.50                  # Length
+  L1: 1.00                 # Length 1
+  H: 0.90                  # Height
+  BH: 0.80                 # Body height
+  D: 1.50                  # Dome diameter
+  SD: 0.80                 # Screw size
+  A1: 0.01                  # Body-board separation
+  PW: null
+  PL: null
+  body_top_color_key : 'gold pins'          # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: http://www.knowlescapacitors.com/getmedia/76b68d57-f62f-4666-a976-d23a42593c78/9341_Voltronics-2014_Final-Proof.aspx
+
+C_Trimmer_Voltronics_JQ:
+  modelName: 'C_Trimmer_Voltronics_JQ'   # modelName
+  model_class: 'voltronics'
+  W: 2.70                  # Width
+  L: 2.20                  # Length
+  L1: 1.00                 # Length 1
+  H: 1.00                  # Height
+  BH: 0.80                 # Body height
+  D: 2.20                  # Dome diameter
+  SD: 0.20                 # Screw size
+  A1: 0.01                  # Body-board separation
+  PW: null
+  PL: null
+  body_top_color_key : 'metal aluminum'     # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: http://www.knowlescapacitors.com/getmedia/76b68d57-f62f-4666-a976-d23a42593c78/9341_Voltronics-2014_Final-Proof.aspx
+
+C_Trimmer_Voltronics_JR:
+  modelName: 'C_Trimmer_Voltronics_JR'   # modelName
+  model_class: 'voltronics'
+  W: 3.50                  # Width
+  W1: 0.70                 # Width 1
+  W2: 0.40                 # Width 2
+  L: 3.10                  # Length
+  L1: 1.60                 # Length 1
+  H: 1.15                  # Height
+  BH: 0.50                 # Body height
+  D: 3.10                  # Dome diameter
+  SD: 1.50                 # Screw size
+  A1: 0.01                  # Body-board separation
+  PW: null
+  PL: null
+  body_top_color_key : 'gold pins'          # Top color
+  body_color_key     : 'white body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: http://www.knowlescapacitors.com/getmedia/76b68d57-f62f-4666-a976-d23a42593c78/9341_Voltronics-2014_Final-Proof.aspx
+
+C_Trimmer_Voltronics_JV:
+  modelName: 'C_Trimmer_Voltronics_JV'   # modelName
+  model_class: 'voltronics'
+  W: 3.20                  # Width
+  L: 2.50                  # Length
+  L1: 1.00                 # Length 1
+  H: 1.25                  # Height
+  BH: 0.80                 # Body height
+  D: 2.40                  # Dome diameter
+  SD: 0.45                 # Screw size
+  A1: 0.01                  # Body-board separation
+  PW: null
+  PL: null
+  body_top_color_key : 'gold pins'          # Top color
+  body_color_key     : 'black body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: http://www.knowlescapacitors.com/getmedia/76b68d57-f62f-4666-a976-d23a42593c78/9341_Voltronics-2014_Final-Proof.aspx
+
+C_Trimmer_Voltronics_JZ:
+  modelName: 'C_Trimmer_Voltronics_JZ'   # modelName
+  model_class: 'voltronics'
+  W: 4.50                  # Width
+  W1: 0.50                 # Width 1
+  L: 3.20                  # Length
+  L1: 1.00                 # Length 1
+  H: 1.50                  # Height
+  BH: 0.80                 # Body height
+  D: 3.10                  # Dome diameter
+  SD: 1.80                 # Screw size
+  A1: 0.01                  # Body-board separation
+  PW: null
+  PL: null
+  body_top_color_key : 'gold pins'          # Top color
+  body_color_key     : 'white body'         # Body color
+  pins_color_key      : 'metal grey pins'    # Pin color
+  npth_pin_color_key : 'grey body'          # NPTH Pin color
+  rotation: 0                               # Rotation if required
+  destination_dir: 'Capacitor_SMD.3dshapes' # destination directory
+  source: http://www.knowlescapacitors.com/getmedia/76b68d57-f62f-4666-a976-d23a42593c78/9341_Voltronics-2014_Final-Proof.aspx

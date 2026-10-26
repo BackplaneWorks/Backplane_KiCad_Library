@@ -1,0 +1,174 @@
+Relay_DPDT_Kemet_EE2_NU:
+  model_name: Relay_DPDT_Kemet_EE2_NU
+  L: 7.5
+  W: 15.0
+  H: 10.0
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.00
+  pin_length: 2.21
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],  # x, y, rotation, width, thickness
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'
+  include_in_qa: True
+
+Relay_DPDT_Kemet_EE2_NU_DoubleCoil:
+  model_name: Relay_DPDT_Kemet_EE2_NU_DoubleCoil
+  L: 7.5
+  W: 15.0
+  H: 10.0
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.00
+  pin_length: 2.21
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [ -2.54,  6.35, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+      [  2.54,  6.35,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'
+
+Relay_DPDT_Kemet_EE2_NUH:
+  model_name: Relay_DPDT_Kemet_EE2_NUH
+  L: 7.5
+  W: 15.0
+  H: 10.0
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.00
+  pin_length: 1.21
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'
+
+Relay_DPDT_Kemet_EE2_NUH_DoubleCoil:
+  model_name: Relay_DPDT_Kemet_EE2_NUH_DoubleCoil
+  L: 7.5
+  W: 15.0
+  H: 10.0
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.00
+  pin_length: 1.21
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [ -2.54,  6.35, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+      [  2.54,  6.35,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'
+
+Relay_DPDT_Kemet_EE2_NUX_NKX:
+  model_name: Relay_DPDT_Kemet_EE2_NUX_NKX
+  L: 7.5
+  W: 15.0
+  H: 10.35
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.35
+  pin_length: 1.96
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'
+
+Relay_DPDT_Kemet_EE2_NUX_DoubleCoil:
+  model_name: Relay_DPDT_Kemet_EE2_NUX_DoubleCoil
+  L: 7.5
+  W: 15.0
+  H: 10.35
+  rotation: 0
+  translation: [ 0, 0, 0 ]
+  marker_pos: [ 0.0, -5 ]
+  marker_dim: [ 5.0, 0.50 ]
+  pin_height: 1.35
+  pin_length: 1.96
+  pin_corner_radius: 0.45
+  pin: [
+      [ -2.54, -6.35, 180, 0.5, 0.25 ],
+      [ -2.54, -1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  1.27, 180, 0.5, 0.25 ],
+      [ -2.54,  3.81, 180, 0.5, 0.25 ],
+      [ -2.54,  6.35, 180, 0.5, 0.25 ],
+      [  2.54, -6.35,   0, 0.5, 0.25 ],
+      [  2.54, -1.27,   0, 0.5, 0.25 ],
+      [  2.54,  1.27,   0, 0.5, 0.25 ],
+      [  2.54,  3.81,   0, 0.5, 0.25 ],
+      [  2.54,  6.35,   0, 0.5, 0.25 ],
+  ]
+  body_color_key: white body
+  marker_color_key: dark grey body
+  pin_color_key: metal grey pins
+  destination_dir: Relay_SMD.3dshapes
+  source: 'https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf'

@@ -1,0 +1,3 @@
+PartNumber,widthX,lengthY,height,padY,padX,padInsideX,landingInsideX,landingX,landingY,datasheet
+MDA7030, 7.1, 6.6, 2.8, 3.0, 1.6, 3.9, 3.4, 2.3, 3.4,http://www.kohergroup.com/template/default/pdf/MDA7030.pdf
+MDA5030, 5.2, 5.2, 2.8, 2.0, 1.0, 3.7, 2.8, 1.6, 2.5,http://www.kohergroup.com/template/default/pdf/MDA5030.pdf

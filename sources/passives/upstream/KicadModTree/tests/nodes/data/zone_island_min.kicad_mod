@@ -1,0 +1,33 @@
+(footprint "island_min"
+	(version 20260206)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(duplicate_pad_numbers_are_jumpers no)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers)
+		(name "")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 2)
+			(island_area_min 0.1)
+		)
+		(polygon
+			(pts
+				(xy 0 0)
+				(xy 0 1)
+				(xy 1 1)
+				(xy 1 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

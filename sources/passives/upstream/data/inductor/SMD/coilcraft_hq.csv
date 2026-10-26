@@ -1,0 +1,6 @@
+PartNumber,widthX,lengthY,height,padY,padX,padInsideX,landingY,landingX,landingInsideX,datasheet
+0403HQ_1008Metric,1.19,0.86,0.71,0.76,0.23,0.56,1.02,0.36,0.46,"https://www.coilcraft.com/getmedia/69c5aa91-3ca0-4922-874d-581cd4e27e62/0403hq.pdf"
+0604HQ_1610Metric,1.85,1.37,1.19,1.02,0.33,0.86,1.35,0.63,0.63,"https://www.coilcraft.com/getmedia/0719743d-cfb7-4d4d-9e58-bb01a615ada6/0604hq.pdf"
+0805HQ_2012Metric,2.29,1.73,1.52,1.27,0.51,1.02,1.78,1.02,0.76,"https://www.coilcraft.com/getmedia/d1c77d59-e9b0-44a7-81e0-f46e468b0410/0805hq.pdf"
+1008HQ_2520Metric,2.92,2.79,2.03,2.03,0.51,1.52,2.54,1.02,1.27,"https://www.coilcraft.com/getmedia/d309e334-bba7-474c-baad-e9acd748f87a/1008hq.pdf"
+1008HQ_2520Metric_LowProfile,2.92,2.79,1.27,2.03,0.51,1.52,2.54,1.02,1.27,"https://www.coilcraft.com/getmedia/d309e334-bba7-474c-baad-e9acd748f87a/1008hq.pdf"

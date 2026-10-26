@@ -1,0 +1,145 @@
+5569-2A2:
+  N: 2
+  model_name: 'Molex_5569-2A2'  # Model Name
+  fp_name_format_string: 'Molex_Mini-Fit_Jr_5569-{pincount}A2_{num_rows}x{halfpadpincount}_P{pitch}0mm_Horizontal'
+  body_height: 9.6
+  body_width: 12.8
+  body_length: [5.4, 9.6, 13.8, 18.0, 22.2, 26.4, 30.6, 34.8, 39.0]
+  body_thickness: 0.2  # .faces("<X").shell(body_thickness)
+  peg_to_front: 6.6
+  peg_to_back: 6.2  # body_width - peg_to_front
+  standoff: 0.4
+  # Lock
+  # 4.20 for 2-pin connector, 3.40 for 6+ pins
+  # Peg
+  peg_dia: 3.00
+  peg_height: 2.9
+  peg_to_pin: 7.30
+  # Cavity
+  cavity_width: 3.8
+  cavity_pattern: [0, 1, 1, 0]
+  cavity_index: 0
+  # Pin
+  dia: 1.07  # pin diameter
+  pitch: 4.2
+  step: 5.5  # distance between rows
+  ch: 0.3
+  pin_length: 16.7  # body_width/2 + 7.30 + 3  # FIXME
+  pin_height: 13.6  # body_height + standoff + 3.6  # FIXME
+  bx: -6.935  # -dia/2 - body_width/2  # TODO
+  rotation: -90
+  translation: [-0.5, 0.5, 2]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'N/A'
+  include_in_qa:
+    body_length: [5.4]
+
+5569-4A2:
+  N: 4
+  model_name: 'Molex_5569-4A2'  # Model Name
+  fp_name_format_string: 'Molex_Mini-Fit_Jr_5569-{pincount}A2_{num_rows}x{halfpadpincount}_P{pitch}0mm_Horizontal'
+  body_height: 9.6
+  body_width: 12.8
+  body_length: [5.4, 9.6, 13.8, 18.0, 22.2, 26.4, 30.6, 34.8, 39.0]
+  body_thickness: 0.2  # .faces("<X").shell(body_thickness)
+  peg_to_front: 6.6
+  peg_to_back: 6.2  # body_width - peg_to_front
+  standoff: 0.4
+  # Lock
+  # 4.20 for 2-pin connector, 3.40 for 6+ pins
+  # Peg
+  peg_dia: 3.00
+  peg_height: 2.9
+  peg_to_pin: 7.30
+  # Cavity
+  cavity_width: 3.8
+  cavity_pattern: [0, 1, 1, 0]
+  cavity_index: 0
+  # Pin
+  dia: 1.07  # pin diameter
+  pitch: 4.2
+  step: 5.5  # distance between rows
+  ch: 0.3
+  pin_length: 16.7  # body_width/2 + 7.30 + 3  # FIXME
+  pin_height: 13.6  # body_height + standoff + 3.6  # FIXME
+  bx: -6.935  # -dia/2 - body_width/2  # TODO
+  rotation: -90
+  translation: [-0.5, 0.5, 2]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'N/A'
+
+5569-6A2:
+  N: 6
+  model_name: 'Molex_5569-6A2'  # Model Name
+  fp_name_format_string: 'Molex_Mini-Fit_Jr_5569-{pincount}A2_{num_rows}x{halfpadpincount}_P{pitch}0mm_Horizontal'
+  body_height: 9.6
+  body_width: 12.8
+  body_length: [5.4, 9.6, 13.8, 18.0, 22.2, 26.4, 30.6, 34.8, 39.0]
+  body_thickness: 0.2  # .faces("<X").shell(body_thickness)
+  peg_to_front: 6.6
+  peg_to_back: 6.2  # body_width - peg_to_front
+  standoff: 0.4
+  # Lock
+  # 4.20 for 2-pin connector, 3.40 for 6+ pins
+  # Peg
+  peg_dia: 3.00
+  peg_height: 2.9
+  peg_to_pin: 7.30
+  # Cavity
+  cavity_width: 3.8
+  cavity_pattern: [0, 1, 1, 0]
+  cavity_index: 0
+  # Pin
+  dia: 1.07  # pin diameter
+  pitch: 4.2
+  step: 5.5  # distance between rows
+  ch: 0.3
+  pin_length: 16.7  # body_width/2 + 7.30 + 3  # FIXME
+  pin_height: 13.6  # body_height + standoff + 3.6  # FIXME
+  bx: -6.935  # -dia/2 - body_width/2  # TODO
+  rotation: -90
+  translation: [-0.5, 0.5, 2]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'N/A'
+
+5569-8A2:
+  N: 8
+  model_name: 'Molex_5569-8A2'  # Model Name
+  fp_name_format_string: 'Molex_Mini-Fit_Jr_5569-{pincount}A2_{num_rows}x{halfpadpincount}_P{pitch}0mm_Horizontal'
+  body_height: 9.6
+  body_width: 12.8
+  body_length: [5.4, 9.6, 13.8, 18.0, 22.2, 26.4, 30.6, 34.8, 39.0]
+  body_thickness: 0.2  # .faces("<X").shell(body_thickness)
+  peg_to_front: 6.6
+  peg_to_back: 6.2  # body_width - peg_to_front
+  standoff: 0.4
+  # Lock
+  # 4.20 for 2-pin connector, 3.40 for 6+ pins
+  # Peg
+  peg_dia: 3.00
+  peg_height: 2.9
+  peg_to_pin: 7.30
+  # Cavity
+  cavity_width: 3.8
+  cavity_pattern: [0, 1, 1, 0]
+  cavity_index: 0
+  # Pin
+  dia: 1.07  # pin diameter
+  pitch: 4.2
+  step: 5.5  # distance between rows
+  ch: 0.3
+  pin_length: 16.7  # body_width/2 + 7.30 + 3  # FIXME
+  pin_height: 13.6  # body_height + standoff + 3.6  # FIXME
+  bx: -6.935  # -dia/2 - body_width/2  # TODO
+  rotation: -90
+  translation: [-0.5, 0.5, 2]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'N/A'

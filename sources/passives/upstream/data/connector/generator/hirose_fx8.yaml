@@ -1,0 +1,85 @@
+defaults:
+  library: 'Hirose_FX8'
+  positions: [30, 40, 45, 50, 60, 70]
+  pad_pitch: 0.6
+  first_pin:
+    marker:
+      shape: 'triangle'
+      size: 1.0
+      offset: 0.0
+  parameters:
+    num_pins: $(num_pos*2)
+
+FX8-xxP-SV:
+  inherit: 'defaults'
+  description: '0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical'
+  fp_name: 'Hirose_FX8-{num_pins:d}P-SV'
+  source: 'https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en'
+  tags: 'conn hirose board to board stacking header'
+  row_pitch: 5.4
+  pads:
+    size:
+      x: 0.35
+      y: 1.5
+  body_size:
+    x_offset: 3.6
+    y: 5.1
+  first_pin:
+    position: 'bottom'
+    body_chamfer: 0.7
+  mount_pads:
+    mp_small:
+      center:
+        x_offset: 2.4
+        y: 1.5
+      drill: 0.7
+      size: 0.7
+      paste: False
+      copper: False
+      ends: 'right'
+    mp_big:
+      center:
+        x_offset: 2.4
+        y: 1.5
+      drill: 1.1
+      size: 1.1
+      paste: False
+      copper: False
+      ends: 'left'
+
+FX8-xxS-SV:
+  inherit: 'defaults'
+  description: '0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical'
+  fp_name: 'Hirose_FX8-{num_pins:d}S-SV'
+  source: 'https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en'
+  tags: 'conn hirose board to board stacking receptacle'
+  row_pitch: 5.7
+  pads:
+    size:
+      x: 0.35
+      y: 1.7
+  body_size:
+    x_offset: 3.6
+    y: 5.6
+  first_pin:
+    position: 'top'
+    body_chamfer: 0.7
+  mount_pads:
+    mp_small:
+      center:
+        x_offset: 2.4
+        y: -1.8
+      drill: 0.7
+      size: 0.7
+      paste: False
+      copper: False
+      ends: 'right'
+    mp_big:
+      center:
+        x_offset: 2.4
+        y: -1.8
+      drill: 1.1
+      size: 1.1
+      paste: False
+      copper: False
+      ends: 'left'

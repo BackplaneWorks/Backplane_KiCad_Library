@@ -1,0 +1,3 @@
+# Footprint in here are golden files that
+# should be checked in
+!*.kicad_mod

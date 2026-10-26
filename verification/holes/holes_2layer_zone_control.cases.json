@@ -1,0 +1,68 @@
+[
+  {
+    "id": "center-F.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "F.Cu",
+    "center": [
+      20,
+      20
+    ],
+    "zone_uuid": "3f11207d-5f12-5e01-b9b7-0428f5ec4aab"
+  },
+  {
+    "id": "center-B.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "B.Cu",
+    "center": [
+      46,
+      20
+    ],
+    "zone_uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+  },
+  {
+    "id": "edge-F.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "F.Cu",
+    "center": [
+      72,
+      20
+    ],
+    "zone_uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+  },
+  {
+    "id": "edge-B.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "B.Cu",
+    "center": [
+      98,
+      20
+    ],
+    "zone_uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+  },
+  {
+    "id": "corner-F.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "F.Cu",
+    "center": [
+      124,
+      20
+    ],
+    "zone_uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+  },
+  {
+    "id": "corner-B.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "B.Cu",
+    "center": [
+      150,
+      20
+    ],
+    "zone_uuid": "ac3281c7-f881-5385-bff0-ae6d01dd847d"
+  }
+]

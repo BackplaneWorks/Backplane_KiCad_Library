@@ -1,0 +1,151 @@
+PowerIntegrations_eSIP-7C:
+  model_name: PowerIntegrations_eSIP-7C  # model name
+  A1: 3.2  # Body PCB seperation
+  body_top_color_key: metal grey pins  # Top color
+  body_color_key: black body  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Package_SIP.3dshapes  # Destination directory
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+  include_in_qa: True
+
+PowerIntegrations_eSIP-7F:
+  model_name: PowerIntegrations_eSIP-7F
+  A1: 0.1
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+
+Sanyo_STK4xx_59_2:
+  model_name: Sanyo_STK4xx-15_59.2x8.0mm_P2.54mm  # model name
+  L: 8.0  # Body length
+  W: 59.2  # Body width
+  H: 32.0  # Body height
+  A1: 7.5  # Body PCB seperation
+  BH: [[-26.0, 20.5, 3.6], [26.0, 20.5, 3.6]]  # Body hole
+  body_top_color_key: metal grey pins  # Top color
+  body_color_key: black body  # Body color
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Package_SIP.3dshapes  # destination directory
+  source: 'http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf'
+
+Sanyo_STK4xx_78_0:
+  model_name: Sanyo_STK4xx-15_78.0x8.0mm_P2.54mm
+  L: 8.0
+  W: 78.0
+  H: 44.0
+  A1: 7.5
+  BH: [[-35.0, 22.0, 3.6], [35.0, 22.0, 3.6]]
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf'
+
+SIP4_Sharp_Angled:
+  model_name: SIP4_Sharp-SSR_P7.62mm_Angled  # model name
+  A1: 0.1  # Body PCB seperation
+  body_top_color_key: metal grey pins  # Top color
+  body_color_key: black body  # Body color
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Package_SIP.3dshapes  # destination directory
+  source: 'N/A'
+
+SIP4_Sharp_Straight:
+  model_name: SIP4_Sharp-SSR_P7.62mm_Straight
+  A1: 7.0
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'N/A'
+
+SIP-3_P1.30mm:
+  model_name: SIP-3_4.30x1.60mm_P1.30mm
+  A1: 13.4
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'https://www.diodes.com/assets/Package-Files/SIP-3-Bulk-Pack.pdf'
+
+SIP-3_P2.90mm:
+  model_name: SIP-3_4.30x1.60mm_P2.90mm
+  A1: 13.3
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'https://www.diodes.com/assets/Package-Files/SIP-3-Ammo-Pack.pdf'
+
+SIP-8:
+  model_name: SIP-8_19x3mm_P2.54mm
+  A1: 1.3
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'http://www.njr.com/semicon/PDF/package/SIP8_E.pdf'
+
+SIP-9:
+  model_name: SIP-9_21.54x3mm_P2.54mm
+  A1: 1.3
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'http://www.njr.com/semicon/PDF/package/SIP8_E.pdf'
+
+SLA704XM:
+  model_name: SLA704XM
+  A1: 6.7
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF'
+
+STK672-040-E:
+  model_name: STK672-040-E
+  A1: 1.0
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'https://www.onsemi.com/pub/Collateral/EN5227-D.PDF'
+
+STK672-080-E:
+  model_name: STK672-080-E
+  A1: 1.0
+  body_top_color_key: metal grey pins
+  body_color_key: black body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Package_SIP.3dshapes
+  source: 'https://www.onsemi.com/pub/Collateral/EN5227-D.PDF'

@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20260830)
+	(generator "eeschema")
+	(generator_version "10.99")
+	(uuid "7af7221e-619a-4e4b-b69f-273b35f7ae90")
+	(paper "A4")
+	(lib_symbols)
+	(text "BACKPLANE KICAD LIBRARY\n199 footprints / 5 libraries / 42 STEP models\nFootprint catalogue only; no circuit.\nSee README.md for installation and validation."
+		(exclude_from_sim no)
+		(at 105 60 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c03cbd8f-4978-4368-8e9a-e559f4d966a4")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

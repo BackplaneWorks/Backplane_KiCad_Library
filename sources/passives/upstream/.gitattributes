@@ -1,0 +1,24 @@
+# binary files
+*.fcstd -text
+*.png -text
+*.zip -text
+# text files
+*.csv text
+*.ini text
+*.kicad_mod text
+*.md text
+*.rst text
+*.py text
+*.sh text eol=lf
+*.step text
+*.svg text
+*.txt text
+*.yaml text
+*.yml text
+# individual files
+.gitattributes text
+.gitignore text
+.git-blame-ignore-revs text
+pyproject.toml text
+**/Makefile text
+**/LICENSE text

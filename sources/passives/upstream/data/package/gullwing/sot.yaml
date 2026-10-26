@@ -1,0 +1,267 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'SOT'
+  library_Suffix: 'TO_SOT_SMD'
+
+SOT-23:
+  size_source: 'JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236'
+  custom_name_format: 'SOT-23'
+  body_size_x: 1.20 .. 1.30 .. 1.40
+  body_size_y: 2.8 .. 2.9 .. 3.04
+  body_height: 0.70 .. 0.85 .. 1.02
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 2.10 .. 2.64
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.40 .. 0.50 .. 0.6
+  lead_height: 0.08 .. 0.20
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [2, 4, 6]
+
+SOT-23-3:
+  size_source: 'JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178'
+  # this is not a JEDEC part, but that does not stop manufacturers from creating a 1.6mm body-width SOT-23
+  # so here we are, creating a part based on JEDEC, but with just 3 pins.
+  # examples for parts that use this
+  # https://www.diodes.com/assets/Datasheets/AP2127.pdf (AP2127N3-xx)
+  # https://www.richtek.com/assets/product_file/RT9058/DS9058-02.pdf
+  # https://www.torexsemi.com/file/SOT-23/SOT-23-pkg.pdf
+  custom_name_format: 'SOT-23-3'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.9 .. 1.15 .. 1.30
+  body_pcb_gap: 0 .. 0.15
+  overall_size_x: 2.8
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.22
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [2, 4, 6]
+
+SOT-23-5:
+  size_source: 'JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178'
+  custom_name_format: 'SOT-23-5'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.9 .. 1.15 .. 1.30
+  body_pcb_gap: 0 .. 0.15
+  overall_size_x: 2.8
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.22
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [5]
+
+SOT-23-6:
+  size_source: 'JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178'
+  custom_name_format: 'SOT-23-6'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.9 .. 1.15 .. 1.30
+  body_pcb_gap: 0 .. 0.15
+  overall_size_x: 2.8
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.22
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+
+SOT-23-8:
+  size_source: 'JEDEC MO-178 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178'
+  custom_name_format: 'SOT-23-8'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.9 .. 1.15 .. 1.30
+  body_pcb_gap: 0 .. 0.15
+  overall_size_x: 2.8
+  lead_width: 0.22 .. 0.38
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.22
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+
+# +-----------------+---+-------------------+--------------------+
+# | name            | N | JEITA             | JEDEC              |
+# +-----------------+---+-------------------+--------------------+
+# | SOT-323_SC-70   | 3 | ED-7500A / SC-70  | /                  | SOT-323, SC-70
+# | SOT-343_SC-70-4 | 4 | /                 | /                  | SOT-343,         SC-70-4
+# | SOT-353_SC-70-5 | 5 | ED-7500A / SC-88A | MO-203, variant AA | SOT-353, SC-88A, SC-70-5
+# | SOT-363_SC-70-6 | 6 | ED-7500A / SC-88  | MO-203, variant AB | SOT-363, SC-88,  SC-70-6, US6, UMT6, S-Mini6, TSSOP6
+# | SC-70-8         | 8 | /                 | MO-203, variant BA |                  SC-70-8, SC8
+# +-----------------+---+-------------------+--------------------+
+#
+# We will overwrite the ipc_density and for all of those SC-70 variants to 'least' to get smaller pads
+# Otherwise, with the normal density setting, the footprints for those have excessive large pads
+
+SOT-323_SC-70:
+  size_source: 'https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148'
+  # https://www.nxp.com/docs/en/package-information/SOT323.pdf
+  ipc_density: 'least'
+  custom_name_format: 'SOT-323_SC-70'
+  compatible_mpns:
+    - "SC-70" # JEITA
+    - "SOT-323"
+  body_size_x: 1.15 .. 1.25 .. 1.35
+  body_size_y: 1.8 .. 2.0 .. 2.2
+  overall_size_x: 1.8 .. 2.1 .. 2.4
+  overall_height: 0.8 .. 1.1
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width: 0.25 .. 0.40
+  lead_len: 0.10 .. 0.20 .. 0.30
+  lead_height: 0.10 .. 0.26
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [2, 4, 6]
+
+SOT-343_SC-70-4:
+  size_source: 'https://www.tme.eu/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf#page=9'
+  ipc_density: 'least'
+  # not an official JEITA or JEDEC size
+  custom_name_format: 'SOT-343_SC-70-4'
+  compatible_mpns:
+    - "SOT-343"
+    - "SC-70-4" # unofficial modifier to JEITA SC-70
+  body_size_x: 1.15 .. 1.25 .. 1.35
+  body_size_y: 1.8 .. 2.0 .. 2.2
+  overall_size_x: 1.8 .. 2.1 .. 2.4
+  overall_height: 0.8 .. 1.1
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width: 0.25 .. 0.30 .. 0.40
+  lead_len: 0.15 .. 0.30 .. 0.45
+  lead_height: 0.10 .. 0.26
+  pitch: 1.30
+  num_pins_x: 0
+  num_pins_y: 2
+
+SOT-353_SC-70-5:
+  size_source: 'https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=171, JEDEC MO-203, variant AA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203'
+  ipc_density: 'least'
+  # https://www.nxp.com/docs/en/package-information/SOT353.pdf
+  custom_name_format: 'SOT-353_SC-70-5'
+  compatible_mpns:
+    - "SC-88A" # JEITA
+    - "SOT-353"
+    - "SC-70-5" # unofficial modifier to JEITA SC-70
+  body_size_x: 1.10 .. 1.25 .. 1.40 # JEDEC: 1.25 +/- 0.15, JEITA: 1.15 .. 1.25 .. 1.35
+  body_size_y: 1.8 .. 2.0 .. 2.2    # JEDEC: 2.0  +/- 0.15, JEITA: 1.8  .. 2.0  .. 2.2
+  overall_size_x: 1.8 .. 2.1 .. 2.4 # JEDEC: 2.1  +/- 0.3,  JEITA: 1.8  .. 2.1  .. 2.4
+  overall_height: 0.8 .. 1.1        # JEDEC:      max 1.1,  JEITA: 0.8     ..      1.1
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width: 0.15 .. 0.30
+  lead_len: 0.10 .. 0.46            # JEDEC: 0.36 +/ 0.1,   JEITA: 0.10 ..  0.45
+  lead_height: 0.08 .. 0.25         # JEDEC: 0.08 .. 0.22,  JEITA: 0.10 ..  0.25
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [5]
+
+SOT-363_SC-70-6:
+  size_source: 'https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=170, JEDEC MO-203, variant AB, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203'
+  ipc_density: 'least'
+  # https://www.nxp.com/docs/en/package-information/SOT363.pdf (TSSOP, SC-88 from JEITA)
+  # https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sc-70/SOT_6_05-08-1638.pdf (SC6, SC70)
+  custom_name_format: 'SOT-363_SC-70-6'
+  compatible_mpns:
+    - "SC-88" # JEITA
+    - "SOT-363"
+    - "SC-70-6" # unofficial modifier to JEITA SC-70
+    - "US6"
+    - "UMT6"
+    - "S-Mini6"
+    - "TSSOP6"
+  body_size_x: 1.10 .. 1.25 .. 1.40 # JEDEC: 1.25 +/- 0.15, JEITA: 1.15 .. 1.25 .. 1.35
+  body_size_y: 1.8 .. 2.0 .. 2.2    # JEDEC: 2.0  +/- 0.15, JEITA: 1.8  .. 2.0  .. 2.2
+  overall_size_x: 1.8 .. 2.1 .. 2.4 # JEDEC: 2.1  +/- 0.3,  JEITA: 1.8  .. 2.1  .. 2.4
+  overall_height: 0.8 .. 1.1        # JEDEC:      max 1.1,  JEITA: 0.8     ..      1.1
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width: 0.15 .. 0.30
+  lead_len: 0.10 .. 0.46            # JEDEC: 0.36 +/ 0.1,   JEITA: 0.10 ..  0.45
+  lead_height: 0.08 .. 0.25         # JEDEC: 0.08 .. 0.22,  JEITA: 0.10 ..  0.25
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 3
+
+SC-70-8:
+  size_source: 'JEDEC MO-203, variant BA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sc-70/sot_8_05-08-1639.pdf'
+  ipc_density: 'least'
+  custom_name_format: 'SC-70-8'
+  compatible_mpns:
+    - 'SC8'
+  body_size_x: 1.10 .. 1.25 .. 1.40
+  body_size_y: 1.85 .. 2.00 .. 2.15
+  overall_size_x: 1.8 .. 2.1 .. 2.4
+  overall_height: 0.8 .. 1.1 # JEDEC says 1.1 MAX; the minimum could be A1 (0.0-0.1) + A2 (0.7-1.0) = 0.7, but let's keep it 0.8 for consistency with the rest of the family
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width: 0.15 .. 0.27
+  lead_len: 0.26 .. 0.36 .. 0.46
+  lead_height: 0.08 .. 0.22
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 4
+
+SOT-457T:
+  size_source: https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qs6k21-e.pdf
+  # similar to JEITA SC-95 https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=88'
+  # and (slightly less so) to JEITA SC-74 https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=38
+  # Nexperia has also a similar package SOT457 (without T at the end): https://www.nexperia.com/packages/SOT457.html
+  custom_name_format: 'SOT-457T'
+  compatible_mpns:
+    - 'SC-95'
+    - 'TSMT6'
+  body_size_x:     #  SC-95  |   SC-74 |  Nexperia SOT457
+    minimum: 1.5   #  1.35   |   1.30  |  1.3
+    maximum: 1.8   #  1.75   |   1.80  |  1.7
+  body_size_y:
+    minimum: 2.8   #  2.7    |   2.7   |  2.7
+    maximum: 3.0   #  3.1    |   3.1   |  3.1
+  overall_size_x:
+    minimum: 2.6   #  2.6    |   2.2   |  2.5
+    maximum: 3.0   #  3.0    |   3.2   |  3.0
+  overall_height:
+    maximum: 1.0
+  body_pcb_gap: 0.0 .. 0.1
+  lead_width:
+    minimum: 0.35  #  0.25   |   0.2   |  0.25
+    maximum: 0.50  #  0.50   |   0.5   |  0.40
+  lead_len:
+    minimum: 0.4   #  0.2    |   0.1   |  0.2
+    maximum: 0.7   #  0.6    |   0.6   |  0.6
+  lead_height: 0.1 .. 0.26
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+
+Texas_DDF0008A_SOT-23-8_1.6x2.9mm_P0.65mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf'
+  manufacturer: 'Texas'
+  part_number: 'DDF0008A'
+  body_size_x:
+    minimum: 1.55
+    maximum: 1.65
+  body_size_y:
+    minimum: 2.85
+    maximum: 2.95
+  overall_size_x:
+    minimum: 2.65
+    maximum: 2.95
+  lead_width:
+    minimum: 0.20
+    maximum: 0.40
+  lead_len:
+    minimum: 0.30
+    maximum: 0.60
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  pad_to_pad_min_x_overwrite: 1.55
+  pad_to_pad_max_x_overwrite: 3.65
+  pad_size_y_overwrite: 0.45

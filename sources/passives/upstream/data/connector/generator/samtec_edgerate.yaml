@@ -1,0 +1,108 @@
+defaults:
+  library: 'Samtec_EdgeRate'
+
+ERM8-XXX-DV:
+  inherit: 'defaults'
+  description: '0.80 mm Edge Rate Rugged High Speed Terminal'
+  fp_name: 'Samtec_ERM8-{num_pos:03d}-XX.X-DV'
+  fp_suffix: '_Terminal'     # optional: defaults to ''
+  source: 'https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf'
+  tags: 'conn samtec edge-rate socket'
+  positions: [5, 10, 11, 13, 20, 25, 30, 35, 40, 49, 50, 60, 70, 75, 100]
+  pad_pitch: 0.8
+  pads:
+    size:
+      x: 0.5
+      y: 1.1
+  row_pitch: 3.8
+  mount_pads:
+    NPTH: # NPTH alignment pins:
+      center:
+        x_offset: 1.8   # offset from edge-pad center
+        y: 1.5
+      drill: 1.45    # null (default) or diameter
+      size: null    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: False    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]
+  body_size:
+    x_offset: 3.4      # offset from edge-pad center
+    y: 5.6
+  first_pin:
+    position: 'top'     # top (default) or bottom
+    body_chamfer: 1.6   # chamfer on pin 1 edge (default: 0)
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      # size: 0.25        # size of the pin 1 marker (default: pad_size.y)
+      #offset: 0.0       # offset from the body edge (default: size)
+
+ERM8-XXX-DV-L:
+  inherit: 'ERM8-XXX-DV'
+  fp_name: 'Samtec_ERM8-{num_pos:03d}-XX.X-DV-L'
+  fp_suffix: '_Terminal_Latch'     # optional: defaults to ''
+  mount_pads:
+    PTH: # PTH latch pins:
+      center:
+        x_offset: 3.4   # offset from edge-pad center
+        y: 0.0
+      drill: 0.83    # null (default) or diameter
+      size: 2.24    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: True    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]
+  body_size:
+    x_offset: 4.9      # offset from edge-pad center
+
+ERF8-XXX-DV:
+  inherit: 'defaults'
+  description: '0.80 mm Edge Rate Rugged High Speed Socket'
+  fp_name: 'Samtec_ERF8-{num_pos:03d}-XX.X-DV'
+  fp_suffix: '_Socket'     # optional: defaults to ''
+  source: 'https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf'
+  tags: 'conn samtec edge-rate socket'
+  positions: [5, 10, 11, 13, 20, 25, 30, 35, 40, 49, 50, 60, 70, 75, 100]
+  pad_pitch: 0.8
+  pads:
+    size:
+      x: 0.5
+      y: 1.1
+  row_pitch: 3.8
+  mount_pads:
+    NPTH: # NPTH alignment pins
+      center:
+        x_offset: 1.8   # offset from edge-pad center
+        y: -1.5
+      drill: 1.45    # null (default) or diameter
+      size: null    # copper pad size: null (default) or diameter; if null then the hole is NPTH
+      shape: 'circ'   # circ or rect (default is circ for through-holes, rect for SMD pads)
+      paste: False    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]
+  body_size:
+    x_offset: 3.4      # offset from edge-pad center
+    y: 5.6
+  first_pin:
+    position: 'bottom'  # top (default) or bottom
+    body_chamfer: 1.6   # chamfer on pin 1 edge (default: 0)
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      # size: 0.25        # size of the pin 1 marker (default: pad_size.y)
+      #offset: 0.0       # offset from the body edge (default: size)
+
+ERF8-XXX-DV-L:
+  inherit: 'ERF8-XXX-DV'
+  description: '0.80 mm Edge Rate Rugged High Speed Socket'
+  fp_name: 'Samtec_ERF8-{num_pos:03d}-XX.X-DV-L'
+  fp_suffix: '_Socket_Latch'     # optional: defaults to ''
+  mount_pads:
+    PTH: # PTH latch pins:
+      center:
+        x_offset: 3.3   # offset from edge-pad center
+        y: 0.0
+      drill: 0.83    # null (default) or diameter
+      size: 2.24    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: True    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]
+  body_size:
+    x_offset: 4.15      # offset from edge-pad center
+  clean_silk: True

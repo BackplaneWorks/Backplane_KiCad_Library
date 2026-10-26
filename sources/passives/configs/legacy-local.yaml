@@ -1,0 +1,6 @@
+# Original user-local footprint, retained without deriving unsupported densities.
+name: L_0806_2016Metric_LegacyLocal
+original_name: L_0806_2016Metric_L
+source: recovered/amemb-Inductor_SMD.pretty/L_0806_2016Metric_L.kicad_mod
+model: '${BACKPLANE_KICAD_LIBRARY}/3dmodels/Inductor_SMD.3dshapes/L_Changjiang_FTC201612S.step'
+# No nominal or most variant: body/termination tolerance inputs were not recovered.

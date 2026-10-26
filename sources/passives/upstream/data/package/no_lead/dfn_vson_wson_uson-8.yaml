@@ -1,0 +1,1747 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Package_SON
+
+##############################################################################
+# Pitch 0.4 mm
+##############################################################################
+
+Nexperia_HUSON-8_USON-8-1EP_1.35x1.7mm_P0.4mm_EP0.4x1.2mm:
+  size_source: 'https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf'
+  device_type: 'USON'
+  manufacturer: 'Nexperia'
+  part_number: 'HUSON-8'
+  ipc_class: 'qfn'
+  body_size_x: 1.25 .. 1.35  .. 1.45
+  body_size_y: 1.6 .. 1.7 .. 1.8
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    maximum: 0.55
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.4
+  lead_shape: square
+  lead_width: 0.15 .. 0.20 .. 0.25
+  lead_len: 0.2 .. 0.25 .. 0.3
+  lead_height:
+    nominal: 0.127
+  EP_size_x: 0.35 .. 0.40 .. 0.45
+  EP_size_y: 1.1 .. 1.2 .. 1.3
+  EP_chamfer: 0.25
+
+TDFN-8_1.4x1.6mm_P0.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.silabs.com/documents/public/data-sheets/si7210-datasheet.pdf'
+  device_type: 'TDFN'
+  suffix: ''
+  body_size_x: 1.4 +/-0.1
+  body_size_y: 1.6 +/-0.1
+  overall_height: 0.75
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.40
+  lead_width: 0.2 +/-0.05
+  lead_len: 0.35 +/-0.05
+
+DFN-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.kinet-ic.com/uploads/KTD2026-7-04h.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 1.5
+    tolerance: 0.05
+  body_size_y:
+    nominal: 1.5
+    tolerance: 0.05
+  overall_height: 0.45 .. 0.5 .. 0.55
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.4
+  lead_width:
+    nominal: 0.2
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.175
+    tolerance: 0.05
+  EP_size_x: 0.65 .. 0.7 .. 0.75
+  EP_size_y: 1.15 .. 1.2 .. 1.25
+  EP_num_paste_pads: [2, 2]
+
+##############################################################################
+# Pitch 0.45 mm
+##############################################################################
+
+DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm:
+  library: Package_DFN_QFN # TEMPORARY
+# DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.37mm
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/dfn_8_05-08-1719.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    tolerance: 0.10
+  body_size_y:
+    nominal: 2
+    tolerance: 0.1
+  overall_height:
+    nominal: 0.75
+    tolerance: 0.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.45
+  lead_width:
+    nominal: 0.23
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.40
+    tolerance: 0.10
+  EP_size_x: 0.64 +/- 0.10
+  EP_size_y: 1.37 +/- 0.10
+  EP_num_paste_pads: [1, 2]
+
+##############################################################################
+# Pitch 0.5 mm
+##############################################################################
+
+VSON-8_1.5x2.0mm_P0.5mm:
+# VSON-8_1.5x2mm_P0.5mm
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps62840.pdf#page=37'
+  device_type: 'VSON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 1.4
+    maximum: 1.6
+  body_size_y:
+    minimum: 1.9
+    maximum: 2.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width:
+    minimum: 0.20
+    maximum: 0.30
+  lead_len:
+    minimum: 0.30
+    maximum: 0.50
+
+Texas_VSON-HR_1.5x2mm_P0.5mm:
+# Texas_VSON-HR-8_1.5x2mm_P0.5mm
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29'
+  library: 'Package_SON'
+  device_type: 'VSON-HR'
+  manufacturer: 'Texas'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.4
+    maximum: 1.6
+  body_size_y:
+    minimum: 1.9
+    maximum: 2.1
+  overall_height:
+    maximum: 1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    maximum: 0.4
+
+Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm:
+  size_source: 'https://www.ti.com/lit/gpn/tpd3f303#page=15'
+  custom_name_format: 'Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm'
+  device_type: 'USON'
+  ipc_class: 'qfn'
+  body_size_x: 1.5 .. 1.7
+  body_size_y: 2.0 .. 2.2
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.2 .. 0.3
+  lead_len: 0.28 .. 0.38
+  EP_size_x: 0.4 +/-0.1
+  EP_size_y: 1.7 +/-0.1
+
+Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/mic23050.pdf'
+  device_type: 'MLF'
+  manufacturer: 'Micrel'
+  body_size_x: 2
+  body_size_y: 2
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.85 +/- 0.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_shape: rounded
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.35
+    tolerance: 0.05
+  lead_height: 0.203 +/- 0.025
+  EP_size_x:
+    nominal: 0.6
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 1.2
+    tolerance: 0.1
+  EP_chamfer: 0.25
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [1, 2]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.onsemi.com/pub/Collateral/506AQ.PDF' # also https://www.qorvo.com/products/d/da001879
+  compatible_mpns:
+    - '506AQ'
+  device_type: 'DFN'
+  body_size_x: 2.0
+  body_size_y: 2.0
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.8 .. 1.0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_shape: rounded
+  lead_width: 0.20 .. 0.25 .. 0.30
+  lead_len: 0.25 .. 0.35 .. 0.45
+  lead_height: 0.2
+  EP_size_x: 0.5 .. 0.6 .. 0.7
+  EP_size_y: 1.1 .. 1.2 .. 1.3
+  EP_chamfer: 0.2
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF#page=7'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    tolerance: 0
+  body_size_y:
+    nominal: 2
+    tolerance: 0
+  overall_height:
+    minimum: 0.8
+    maximum: 1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.25
+    maximum: 0.35
+  EP_size_x:
+    minimum: 0.7
+    maximum: 0.9
+  EP_size_y:
+    minimum: 1.1
+    maximum: 1.3
+  EP_size_x_overwrite: 0.9
+  EP_size_y_overwrite: 1.3
+  EP_num_paste_pads: [2, 2]
+
+WDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf#page=25'
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x: 2.0
+  body_size_y: 2.0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.25 +/- 0.05
+  lead_len: 0.3 +/- 0.05
+  EP_size_x:
+    minimum: 0.7
+    nominal: 0.8
+    maximum: 0.9
+  EP_size_y:
+    minimum: 1.1
+    nominal: 1.2
+    maximum: 1.3
+  EP_num_paste_pads: [2, 2]
+
+TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.30mm:
+  library: Package_DFN_QFN # TEMPORARY
+# TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm
+  size_source: 'https://pdfserv.maximintegrated.com/package_dwgs/21-0168.PDF'
+  device_type: 'TDFN'
+  suffix: ''
+  body_size_x: 2.0 +/-0.1
+  body_size_y: 2.0 +/-0.1
+  overall_height: 0.75
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width: 0.25 +/-0.05
+  lead_len: 0.3 +/-0.1
+  EP_size_x: 0.8 +/-0.1
+  EP_size_y: 1.20 +/-0.1
+  EP_size_y_overwrite: 1.30 +/-0.1
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.qorvo.com/products/d/da007268'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    tolerance: 0.05
+  body_size_y:
+    nominal: 2
+    tolerance: 0.05
+  overall_height:
+    minimum: 0.85
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.25 +/-0.05
+  lead_len: 0.30 +/-0.05
+  EP_size_x: 0.8 +/-0.05
+  EP_size_y: 1.6 +/-0.05
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.86x1.55mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.diodes.com/assets/Datasheets/PAM2841.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    minimum: 1.95
+    nominal: 2.0
+    maximum: 2.075
+  body_size_y:
+    minimum: 1.95
+    nominal: 2.0
+    maximum: 2.075
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.25
+    nominal: 0.3
+    maximum: 0.35
+  EP_size_x:
+    minimum: 0.76
+    nominal: 0.86
+    maximum: 0.96
+  EP_size_y:
+    minimum: 1.45
+    nominal: 1.55
+    maximum: 1.65
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.5mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    tolerance: 0.05
+  body_size_y:
+    nominal: 2
+    tolerance: 0.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    nominal: 0.3
+    tolerance: 0.1
+  heel_reduction: 0.025 #for relatively large EP pads (increase clearance)
+  EP_size_x: 0.9
+  EP_size_y: 1.5
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.st.com/resource/en/datasheet/lm2903.pdf#page=16'
+  device_type: 'DFN'
+  body_size_x: 1.85 .. 2.00 .. 2.15
+  body_size_y: 1.85 .. 2.00 .. 2.15
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.18 .. 0.25 .. 0.30
+  lead_len: 0.20 .. 0.30 .. 0.50 # only max given in DS. Min and nominal from JEDEC MO-229 V2020D-3
+  EP_size_x: 0.75 .. 0.9 .. 1.00
+  EP_size_y: 1.45 .. 1.6 .. 1.70
+
+Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias:
+  size_source: 'https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf'
+  device_type: 'WSON'
+  manufacturer: 'Texas'
+  part_number: 'DSG0008A'
+  body_size_x:
+    minimum: 1.90
+    maximum: 2.10
+  body_size_y:
+    minimum: 1.90
+    maximum: 2.10
+  overall_height: 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width:
+    minimum: 0.20
+    maximum: 0.30
+  lead_len:
+    minimum: 0.20
+    maximum: 0.40
+  lead_center_to_center_x: 1.45 # pad lenght overwrited to 1.60mm for keep space center to center X to 1.90mm
+  EP_size_x:
+    nominal: 0.90
+    tolerance: 0.10
+  EP_size_y:
+    nominal: 1.60
+    tolerance: 0.10
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [1, 2]
+    grid: [1.1, 1.1]
+    drill: 0.2
+    min_annular_ring: 0.15
+    EP_paste_coverage: 0.85
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.diodes.com/assets/Package-Files/U-DFN2020-8-Type-E.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    minimum: 1.95
+    maximum: 2.075
+  body_size_y:
+    nominal: 2
+    minimum: 1.95
+    maximum: 2.075
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width_min: 0.2
+  lead_width_max: 0.3
+  lead_len_min: 0.25
+  lead_len_max: 0.35
+  EP_size_x: 0.9
+  EP_size_y: 1.7
+  EP_num_paste_pads: [1, 2]
+
+DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/05081702_c_ddb8.pdf'
+  compatible_mpns:
+    - 'Linear-DDB'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 2
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  overall_height:
+    nominal: 0.75
+    tolerance: 0.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.1
+  EP_size_x:
+    nominal: 0.56
+    tolerance: 0.05
+  EP_size_y:
+    nominal: 2.15
+    tolerance: 0.05
+  EP_size_x_overwrite: 0.61
+  EP_size_y_overwrite: 2.20
+  EP_num_paste_pads: [1, 2]
+
+USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm:
+  size_source: 'https://www.lcsc.com/datasheet/lcsc_datasheet_2205122030_Winbond-Elec-W25Q16JVUXIQ_C2843335.pdf#page=66f'
+  device_type: 'USON'
+  manufacturer: 'Winbond'
+  ipc_class: 'qfn'
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 1.9 .. 2.0 .. 2.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.20 .. 0.25 .. 0.30
+  lead_len: 0.4 .. 0.45 .. 0.5
+  EP_size_x: 0.15 .. 0.2 .. 0.25
+  EP_size_y: 1.55 .. 1.6 .. 1.65
+
+WFDFPN-8-1EP_3x2mm_P0.5mm_EP1.2x1.3mm:
+  library: Package_DFN_QFN # TEMPORARY
+# WFDFPN-8-1EP_3x2mm_P0.5mm_EP1.25x1.35mm
+  size_source: 'https://www.st.com/resource/en/datasheet/m95512-r.pdf#page=34'
+  device_type: 'WFDFPN'
+  ipc_class: 'qfn'
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 1.9 .. 2.0 .. 2.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.2 .. 0.25 .. 0.3
+  lead_len: 0.3 .. 0.5
+  EP_size_x: 1.050 .. 1.450
+  EP_size_y: 1.050 .. 1.650
+
+WDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/8L_TDFN_2x3_MNY_C04-0129E-MNY.pdf'
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 3.0
+    tolerance: 0
+  body_size_y:
+    nominal: 2.0
+    tolerance: 0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width_min: 0.2
+  lead_width_max: 0.3
+  lead_len_min: 0.25
+  lead_len_max: 0.45
+  EP_size_x: 1.3
+  EP_size_y: 1.4
+  EP_num_paste_pads: [2, 2]
+
+TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf#page=35'
+  device_type: 'TDFN'
+  suffix: ''
+  body_size_x: 3.0
+  body_size_y: 2.0
+  overall_height: 0.75
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width: 0.25 +/-0.05
+  lead_len: 0.3 +0.15 -0.05
+  EP_size_x: 1.3 +/-0.05
+  EP_size_y: 1.4 +/-0.05
+  EP_num_paste_pads: [2, 2]
+
+TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/devicedoc/20005514a.pdf#page=35'
+  device_type: 'TDFN'
+  body_size_x: 3.00
+  body_size_y: 2.00
+  overall_height:
+    minimum: 0.70
+    nominal: 0.75
+    maximum: 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width:
+    minimum: 0.20
+    nominal: 0.25
+    maximum: 0.30
+  lead_len:
+    minimum: 0.25
+    nominal: 0.30
+    maximum: 0.45
+  EP_size_x: 1.20 .. 1.60
+  EP_size_y: 1.20 .. 1.60
+  EP_num_paste_pads: [2, 2]
+
+SON-8-1EP_3.0x2.0mm_P0.5mm_EP1.4x1.6mm:
+# SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm
+  size_source: 'http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf'
+  device_type: 'SON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 3.0
+    tolerance: 0.07
+  body_size_y:
+    nominal: 2.0
+    tolerance: 0.07
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width_min: 0.20
+  lead_width_max: 0.30
+  lead_len_min: 0.33
+  lead_len_max: 0.47
+  EP_size_x: 1.4
+  EP_size_y: 1.6
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/8L_DFN_2x3x0_9_MC_C04-123C.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 3
+    tolerance: 0
+  body_size_y:
+    nominal: 2
+    tolerance: 0
+  overall_height:
+    minimum: 0.8
+    maximum: 1
+    nominal: 0.9
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+    nominal: 0.25
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+    nominal: 0.4
+  EP_size_x:
+    minimum: 1.5
+    maximum: 1.75
+  EP_size_y:
+    minimum: 1.3
+    maximum: 1.55
+  EP_size_x_overwrite: 1.7
+  EP_size_y_overwrite: 1.4
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.6mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8904DD/document_id/1244/'
+  device_type: 'DFN'
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 1.9 .. 2.0 .. 2.1
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.80 .. 1.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_shape: rounded
+  lead_width: 0.18 .. 0.30
+  lead_len: 0.3 .. 0.5
+  lead_height: 0.2
+  EP_size_x: 1.65 .. 1.85
+  EP_size_y: 1.50 .. 1.70
+  EP_size_x_overwrite: 1.7
+  EP_size_y_overwrite: 1.6
+  EP_chamfer: 0.3
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm:
+  library: Package_DFN_QFN
+  size_source: 'https://ww1.microchip.com/downloads/en/DeviceDoc/AT24C64D-I%C2%B2C-Compatible-(2-Wire)-Serial-EEPROM-64-Kbit-(8,192x8)-20005937C.pdf'
+  device_type: 'DFN'
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 1.9 .. 2.0 .. 2.1
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.5 .. 0.55 .. 0.6
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.18 .. 0.25 .. 0.30
+  lead_len: 0.25 .. 0.35 .. 0.45
+  lead_height: 0.152
+  EP_size_x: 1.2 .. 1.3 .. 1.4
+  EP_size_y: 1.4 .. 1.5 .. 1.6
+  EP_num_paste_pads: [2, 2]
+
+Maxim_WSON-8-1EP_3x2mm_P0.5mm_EP1.75x1.63mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tdfn-ep/21-0174.pdf, https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn-ep/90-0091.pdf'
+  compatible_mpns:
+    - 'WDFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.63mm'
+    - 'Maxim_TDFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.63mm' # Analog / Maxim out-of-standard 'TDFN'
+    - 'Maxim_T823+1' # Analog / Maxim package code
+    - 'JEDEC_WCED-2'
+    - 'JEDEC_W2030D-2'
+  device_type: 'WSON'
+  manufacturer: 'Maxim'
+  #part_number: 'DS2484Q'
+  # Package/footprint variant: T823-1
+  ipc_class: 'qfn'
+  body_size_x: 2.95 .. 3.00 .. 3.05
+  body_size_y: 1.95 .. 2.00 .. 2.05
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height: 0.70 .. 0.75 .. 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_shape: square
+  lead_width: 0.18 .. 0.25 .. 0.30 # b  # package outline, from 21-0174.pdf
+  lead_len: 0.30 .. 0.40 .. 0.50 # L  # package outline, from 21-0174.pdf
+  lead_height:
+    nominal: 0.2
+  pad_center_to_center_x: 2.9  # from 90-0091.pdf (Recommended Land Pattern)
+  pad_width: 0.30  # from 90-0091.pdf (Recommended Land Pattern)
+  pad_length: 0.70  # from 90-0091.pdf (Recommended Land Pattern)
+  EP_size_x: 1.6 .. 1.75 .. 1.9
+  EP_size_y: 1.5 .. 1.63 .. 1.75
+  EP_chamfer: 0.1
+  EP_num_paste_pads: [1, 1]
+
+WSON-8-1EP_3.0x2.5mm_P0.5mm_EP1.2x1.5mm:
+# WSON-8-1EP_3x2.5mm_P0.5mm_EP1.2x1.5mm_PullBack
+  size_source: 'http://www.ti.com/lit/ml/mpds400/mpds400.pdf'
+  device_type: 'WSON'
+  suffix: '_PullBack'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 3.0
+    tolerance: 0.1
+  body_size_y:
+    nominal: 2.5
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.50
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.5
+    tolerance: 0.1
+  lead_to_edge: 0.1
+  EP_size_x:
+    nominal: 1.2
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 1.5
+    tolerance: 0.1
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+Texas_S-PWSON-N8_EP1.2x2mm:
+# body size of 3x3, pitch 0.5
+# Texas DRG0008A, this is a DUPLICATE of WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm, they are using the same datashet
+  size_source: 'http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27'
+  custom_name_format: 'Texas_S-PWSON-N{pincount}_EP{ep_size_x:g}x{ep_size_y:g}mm{vias:s}'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    minimum: 0.7
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    minimum: 0.4
+    maximum: 0.6
+  EP_size_x:
+    nominal: 1.2
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 2
+    tolerance: 0.1
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm:
+# Texas DRG0008A
+  size_source: 'http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    minimum: 0.7
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    minimum: 0.4
+    maximum: 0.6
+  EP_size_x:
+    nominal: 1.2
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 2
+    tolerance: 0.1
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+WSON-8-1EP_3x3mm_P0.5mm_EP1.45x2.4mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/ina333.pdf#page=30'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    minimum: 0.7
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    minimum: 0.4
+    maximum: 0.6
+  EP_size_x:
+    nominal: 1.45
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 2.4
+    tolerance: 0.1
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf#page=10'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.1
+  EP_size_x: 1.65
+  EP_size_y: 2.38
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+DFN-8-1EP_3x3mm_P0.5mm_EP1.7x2.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://stcmicro.com/datasheet/STC8G-en.pdf#page=81'
+  compatible_mpns:
+    - 'STC8G1K08A-36I-DFN8'
+  device_type: 'DFN'
+  body_size_x: 2.89..3.0..3.11
+  body_size_y: 2.89..3.0..3.11
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width: 0.175..0.2..0.225
+  lead_len: 0.381..0.40..0.419
+  EP_size_x: 1.65..1.70..1.75
+  EP_size_y: 2.35..2.40..2.45
+
+##############################################################################
+# Pitch 0.65 mm
+##############################################################################
+
+DFN-8-1EP_3x3mm_P0.5mm_EP1.2x2.15mm:
+  library: Package_DFN_QFN # TEMPORARY
+# typo in name, should be --> DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm
+  size_source: 'https://www.lcsc.com/datasheet/C5382538.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  overall_height:
+    minimum: 0.70
+    nominal: 0.75
+    maximum: 0.80
+  lead_width:
+    minimum: 0.25
+    nominal: 0.30
+    maximum: 0.35
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 1.10
+    nominal: 1.20
+    maximum: 1.30
+  EP_size_y:
+    minimum: 2.05
+    nominal: 2.15
+    maximum: 2.25
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+  compatible_mpns:
+    - 'SIT1057TK3'
+  additional_tags:
+    - SIT-HVSON8
+
+AO_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.7mm:
+  library: Package_DFN_QFN # TEMPORARY
+# AO_AOZ666xDI_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.7mm
+  size_source: 'https://aosmd.com/res/data_sheets/AOZ6663DI-01.pdf#page=15'
+  device_type: 'DFN'
+  manufacturer: 'AO'
+  part_number: 'AOZ666xDI'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  num_pins_x: 0 # DFN only has pins on two sides
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width: 0.3 -0.06 +0.05
+  lead_len: 0.4 +/-0.1
+  EP_size_x: 1.15
+  EP_size_y: 2.35
+  EP_size_x_overwrite: 1.25  # Override the size of the footprint's EP (according to datasheet recommendations)
+  EP_size_y_overwrite: 2.7  # Override the size of the footprint's EP (according to datasheet recommendations)
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.diodes.com/assets/Package-Files/U-DFN3030-8-Type-E.pdf'
+  device_type: 'DFN'
+  body_size_x: 2.95 .. 3.00 .. 3.05
+  body_size_y: 2.95 .. 3.00 .. 3.05
+  body_pcb_gap: 0.00 .. 0.02 .. 0.05
+  overall_height: 0.57 .. 0.60 .. 0.63
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_shape: square
+  lead_width: 0.20 .. 0.25 .. 0.30
+  lead_len: 0.30 .. 0.45 .. 0.60
+  lead_height: 0.15 +/- 0.0
+  EP_size_x: 1.40 .. 1.50 .. 1.60
+  EP_size_y: 2.15 .. 2.25 .. 2.35
+  EP_chamfer: 0.2 # it should have been rounded
+  EP_num_paste_pads: [2, 2]
+
+HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm:
+  size_source: 'https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16'
+  device_type: 'HVSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    nominal: 3.0
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3.0
+    maximum: 3.1
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 1.0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.25
+    nominal: 0.3
+    maximum: 0.35
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  EP_size_x:
+    minimum: 1.55
+    nominal: 1.6
+    maximum: 1.65
+  EP_size_y:
+    minimum: 2.35
+    nominal: 2.4
+    maximum: 2.45
+  EP_num_paste_pads: [2, 2]
+
+VSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/thvd1450.pdf#page=37'
+  device_type: 'VSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height: 1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.25
+    maximum: 0.35
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  EP_size_x:
+    minimum: 1.55
+    maximum: 1.65
+  EP_size_y:
+    minimum: 2.35
+    maximum: 2.45
+  EP_num_paste_pads: [1, 2]
+
+DFN-8-1EP_3x3mm_P0.5mm_EP1.6x2.56mm:
+  library: Package_DFN_QFN # TEMPORARY
+# typo in name, should be --> DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm
+  size_source: 'https://e.chipanalog.com/Public/Uploads/uploadfile/files/20250106/CS485xxdatasheetVersion1.03en20240429.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.30
+    nominal: 0.35
+    maximum: 0.40
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 1.55
+    nominal: 1.60
+    maximum: 1.65
+  EP_size_y:
+    minimum: 2.51
+    nominal: 2.56
+    maximum: 2.61
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+  additional_tags:
+    - Chipanalog-DFN8-D
+
+VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/tlv767-q1.pdf#page=31'
+  device_type: 'VSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height: 1
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    minimum: 0.26
+    maximum: 0.36
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  EP_size_x:
+    minimum: 1.55
+    maximum: 1.75
+  EP_size_y:
+    minimum: 2.3
+    maximum: 2.5
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count:
+      x: 2
+      y: 3
+    drill: 0.2
+
+DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 3
+    tolerance: 0
+  body_size_y:
+    nominal: 3
+    tolerance: 0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    nominal: 0.3
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.05
+  EP_size_x: 1.7
+  EP_size_y: 2.05
+  EP_num_paste_pads: [2, 2]
+
+WDFN-8-1EP_4x3mm_P0.65mm_EP2.4x1.8mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.onsemi.com/pub/Collateral/509AF.PDF'
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 4.0
+    tolerance: 0
+  body_size_y:
+    nominal: 3.0
+    tolerance: 0
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_shape: square
+  lead_width_min: 0.2
+  lead_width_max: 0.3
+  lead_len_min: 0.45
+  lead_len_max: 0.55
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    minimum: 2.3
+    maximum: 2.5
+  EP_size_y:
+    minimum: 1.7
+    maximum: 1.9
+  EP_chamfer: 0.2
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+##############################################################################
+# Pitch 0.8 mm
+##############################################################################
+
+# USON-8_3x4mm_P0.8mm:
+#   device_type: 'USON'
+#   manufacturer: 'Winbond'
+#   size_source: 'https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1#page=69'
+#   ipc_class: 'qfn'
+#   body_size_x: 2.9 .. 3.0 .. 3.1
+#   body_size_y: 3.9 .. 4.0 .. 4.1
+#   lead_width: 0.25 .. 0.30 .. 0.35
+#   lead_len: 0.55 .. 0.60 .. 0.65
+#   pitch: 0.8
+#   num_pins_x: 0
+#   num_pins_y: 4
+
+WSON-8-1EP_4x4mm_P0.8mm_EP1.98x3mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/lm5017.pdf#page=34'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 4.0
+    tolerance: 0.1
+  body_size_y:
+    nominal: 4.0
+    tolerance: 0.1
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.8
+  lead_width: 0.3 +/- 0.05
+  lead_len: 0.4 +/- 0.1
+  EP_size_x:
+    nominal: 1.98
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 3
+    tolerance: 0.1
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [1, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+    paste_avoid_via: True
+
+WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26' # NGN0008A
+  device_type: 'WSON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 3.9
+    maximum: 4.1
+  body_size_y:
+    minimum: 3.9
+    maximum: 4.1
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.8
+  lead_width:
+    maximum: 0.35
+    minimum: 0.25
+  lead_len:
+    minimum: 0.4
+    maximum: 0.6
+  lead_center_to_center_x: 3.3
+  # This value is tricky. The recommended footprint has pad-center-to-center as 3.3mm
+  # But Adding EP + EP-Pad-Distance + Pad (2.2 + (0.2+0.15)*2 + 0.5 gives 3.4mm.
+  # The above addition works on reference-dimensions. So is not to be trusted.
+  EP_size_x:
+    nominal: 2.2
+    tolerance: 0.05
+  EP_size_y:
+    nominal: 3
+    tolerance: 0.05
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [1, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+    paste_avoid_via: True
+
+HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm:
+  size_source: 'https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf (page 57)'
+  device_type: 'HVSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 3.9
+    maximum: 4.1
+  body_size_y:
+    minimum: 3.9
+    maximum: 4.1
+  overall_height:
+    minimum: 1.00
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.8
+  lead_width:
+    minimum: 0.30
+    maximum: 0.40
+  lead_len:
+    minimum: 0.4
+    maximum: 0.65
+  EP_size_x:
+    minimum: 2.05
+    maximum: 2.35
+  EP_size_y:
+    minimum: 2.95
+    maximum: 3.25
+  EP_num_paste_pads: [2, 2]
+
+DFN-8-1EP_4x4mm_P0.8mm_EP2.3x3.24mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.st.com/resource/en/datasheet/ld1086.pdf#page=35'
+  device_type: 'DFN'
+  body_size_x:
+    minimum: 3.90
+    nominal: 4
+    maximum: 4.10
+  body_size_y:
+    minimum: 3.90
+    nominal: 4
+    maximum: 4.10
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.80
+  lead_width:
+    minimum: 0.23
+    nominal: 0.30
+    maximum: 0.38
+  lead_len:
+    minimum: 0.4
+    nominal: 0.5
+    maximum: 0.6
+  EP_size_x:
+    minimum: 2.05
+    nominal: 2.20
+    maximum: 2.30
+  EP_size_y:
+    minimum: 2.82
+    nominal: 3
+    maximum: 3.23
+  EP_size_x_overwrite: 2.30
+  EP_size_y_overwrite: 3.24
+  EP_num_paste_pads: [2, 2]
+
+WSON-8-1EP_4x4mm_P0.8mm_EP2.6x3mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/lp2951-n.pdf#page=43'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 3.9
+    maximum: 4.1
+  body_size_y:
+    minimum: 3.9
+    maximum: 4.1
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.8
+  lead_width:
+    maximum: 0.35
+    minimum: 0.25
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  EP_size_x:
+    nominal: 2.6
+    tolerance: 0.05
+  EP_size_y:
+    nominal: 3
+    tolerance: 0.05
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [1, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+    paste_avoid_via: True
+
+##############################################################################
+# Pitch 0.9 mm
+##############################################################################
+
+MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm:
+  size_source: 'https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf#page=107'
+  compatible_mpns:
+    - MicroCrystal-RV3028-C7
+  device_type: 'SON'
+  manufacturer: 'MicroCrystal'
+  part_number: 'C7'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 1.5
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3.2
+    tolerance: 0.1
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.9
+  lead_width:
+  # Widened pad for solderability: 0.4 (package lead width) + 0.2
+  # Resultant pad width = 0.65 mm (> 0.5 mm in recommended footprint)
+    nominal: 0.6
+  lead_len:
+  # Resultant pad length = 0.925 mm (> 0.8 mm in recommended footprint)
+    nominal: 0.5
+
+##############################################################################
+# Pitch 1.27 mm
+##############################################################################
+
+W-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.mouser.com/datasheet/2/671/mt25q_qljs_u_256_aba_0-3178731.pdf#page=22'
+  device_type: 'W-PDFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 6.0
+    tolerance: 0.1
+  body_size_y:
+    nominal: 5.0
+    tolerance: 0.1
+  body_pcb_gap:
+    minimum: 0.0
+  overall_height: 0.75 +/- 0.05
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_shape: rounded
+  lead_width_min: 0.35
+  lead_width_max: 0.45
+  lead_len_min: 0.55
+  lead_len_max: 0.65
+  EP_size_x: 3
+  EP_size_y: 3
+  EP_chamfer: 0.5
+  EP_num_paste_pads: [2, 2]
+
+WDFN-8-1EP_6x5mm_P1.27mm_EP3.4x4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/8L_WDFN_5x6mm_MF_C04210B.pdf'
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 6.0
+    tolerance: 0
+  body_size_y:
+    nominal: 5.0
+    tolerance: 0
+  body_pcb_gap: 0.00 .. 0.05
+  overall_height: 0.70 .. 0.75 .. 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width_min: 0.35
+  lead_width_max: 0.48
+  lead_len_min: 0.50
+  lead_len_max: 0.70
+  EP_size_x: 3.4
+  EP_size_y: 4
+  EP_num_paste_pads: [2, 2]
+
+WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.0mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf'
+  device_type: 'WSON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 6
+    tolerance: 0
+  body_size_y:
+    nominal: 5
+    tolerance: 0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width_min: 0.35
+  lead_width_max: 0.48
+  lead_len_min: 0.5
+  lead_len_max: 0.75
+  EP_size_x: 3.4
+  EP_size_y: 4.0
+  EP_num_paste_pads: [2, 2]
+
+QFN-8-1EP_6x5mm_P1.27mm_EP3.30x3.9mm:
+  library: Package_DFN_QFN # TEMPORARY, needs fix
+#
+# Generating instead: QFN-8-1EP_6x5mm_P1.27mm_EP3.4x4.2mm
+#
+# This is a DFN / SON actually
+  size_source: 'https://help.1nce.com/dev-hub/docs/sim-chips-iot-industrial'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 6
+    tolerance: 0.15
+  body_size_y:
+    nominal: 5
+    tolerance: 0.15
+  overall_height:
+    nominal: 0.9
+    tolerance: 0.0
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_len:
+    nominal: 0.6
+    tolerance: 0.15
+  EP_size_x:
+    nominal: 3.4
+    tolerance: 0.0
+  EP_size_y:
+    nominal: 4.2
+    tolerance: 0.0
+  EP_num_paste_pads: [2, 2]
+
+WSON-8-1EP_6x5mm_P1.27mm_E3.4x4.3mm:
+  size_source: 'http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf (page 68)'
+  device_type: 'WSON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 5.9
+    nominal: 6
+    maximum: 6.1
+  body_size_y:
+    minimum: 4.9
+    nominal: 5
+    maximum: 5.1
+  overall_height:
+    minimum: 0.70
+    nominal: 0.75
+    maximum: 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.48
+  lead_len:
+    minimum: 0.55
+    nominal: 0.6
+    maximum: 0.65
+  EP_size_x:
+    minimum: 3.35
+    nominal: 3.4
+    maximum: 3.45
+  EP_size_y:
+    minimum: 4.25
+    nominal: 4.3
+    maximum: 4.35
+  EP_num_paste_pads: [2, 2]
+
+WSON-8-1EP_8x6mm_P1.27mm_E3.4x4.3mm:
+  size_source: 'https://datasheet.lcsc.com/lcsc/2204011730_GigaDevice-Semicon-Beijing-GD5F1GQ4UFYIGR_C2986324.pdf (page 44)'
+  device_type: 'WSON'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    minimum: 7.9
+    nominal: 8
+    maximum: 8.1
+  body_size_y:
+    minimum: 5.9
+    nominal: 6
+    maximum: 6.1
+  overall_height:
+    minimum: 0.70
+    nominal: 0.75
+    maximum: 0.80
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  lead_len:
+    minimum: 0.45
+    nominal: 0.5
+    maximum: 0.55
+  EP_size_x:
+    minimum: 3.3
+    nominal: 3.4
+    maximum: 3.5
+  EP_size_y:
+    minimum: 4.2
+    nominal: 4.3
+    maximum: 4.4
+  EP_num_paste_pads: [2, 2]
+
+WDFN-8-1EP_8x6mm_P1.27mm_EP6x4.8mm_ThermalVias:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://ww1.microchip.com/downloads/en/DeviceDoc/8L_WDFN_6x8mm_MN_C04172A.pdf'
+  compatible_mpns:
+    - Microchip-8L-WDFN-6x8mm-MN-C04172A
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x: 8.0
+  body_size_y: 6.0
+  overall_height: 0.7 .. 0.75 .. 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 1.27
+  lead_width: 0.35 .. 0.40 ..0.45
+  lead_len: 0.45 .. 0.50 .. 0.55
+  EP_size_x: 6
+  EP_size_y: 4.8
+  EP_num_paste_pads: [4, 3]
+  thermal_vias:
+    count: [5, 4]  # Thermal vias based on datasheet (see size_source above)
+    drill: 0.33
+    EP_num_paste_pads: [4, 3]
+    paste_via_clearance: 0.1  # paste so it fits the thermal vias with avoidance
+    paste_avoid_via: True
+
+
+##############################################################################
+# 'CSP' / 'LFCSP' packages, these packages are actually SON/DFN under
+# manufacturers own names, this section is temporary
+##############################################################################
+
+LFCSP-8-1EP_3x3mm_P0.5mm_EP1.74x1.45mm:
+  library: Package_CSP # TEMPORARY
+# LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
+# JEDEC MO-229, variation WEED-4, this is a DFN / SON package (WSON), generates LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf'
+  device_type: 'LFCSP'
+  body_size_x:
+    nominal: 3.0
+    tolerance: 0.1  # should be 0.15
+  body_size_y:
+    nominal: 3.0
+    tolerance: 0.1  # should be 0.15
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width_min: 0.2
+  lead_width_max: 0.3
+  lead_len_min: 0.3
+  lead_len_max: 0.5
+  EP_size_x: 1.35 .. 1.55
+  EP_size_y: 1.64 .. 1.84
+  EP_num_paste_pads: [2, 2]
+
+LFCSP-8-1EP_3x3mm_P0.5mm_EP1.60x2.34mm:
+  library: Package_CSP # TEMPORARY
+# LFCSP-8-1EP_3x3mm_P0.5mm_EP1.6x2.34mm
+# JEDEC MO-229, variation W3030D-4, it's DFN / SON package (WSON)
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/CP_8_11.pdf'
+  # link above is broken, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/cp_8_11.pdf
+  device_type: 'LFCSP'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_height:
+    minimum: 0.7
+    nominal: 0.75
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    maximum: 0.30
+    nominal: 0.25
+    minimum: 0.20
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x:
+    maximum: 1.70
+    nominal: 1.60
+    minimum: 1.50
+  EP_size_y:
+    maximum: 2.44
+    nominal: 2.34
+    minimum: 2.24
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.3
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+LFCSP-WD-8-1EP_3x3mm_P0.65mm_EP1.6x2.44mm:
+  library: Package_CSP # TEMPORARY
+# Similar to DFN / SON packages (WSON)
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/CP_8_19.pdf'
+  # link above is broken, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/cp_8_19.pdf
+  device_type: 'LFCSP-WD'
+  ipc_class: 'qfn' # 'qfn_pull_back'
+  body_size_x:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_height:
+    minimum: 0.7
+    nominal: 0.75
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 4
+  pitch: 0.65
+  lead_width:
+    maximum: 0.35
+    nominal: 0.30
+    minimum: 0.20
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  EP_size_x:
+    maximum: 1.70
+    nominal: 1.60
+    minimum: 1.50
+  EP_size_y:
+    maximum: 2.54
+    nominal: 2.44
+    minimum: 2.34
+  EP_num_paste_pads: [2, 3]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.3
+    EP_num_paste_pads: [2, 3]
+    paste_avoid_via: False
+
+##############################################################################
+# Please do not place other SON/DFN packages below here, temporary section
+##############################################################################

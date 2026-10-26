@@ -1,0 +1,84 @@
+image: python:latest
+stages:
+  - tests
+  - diffs
+
+variables:
+  # By default, use the main branch of the main KiLT repository
+  # You can override this in your projects GitLab UI
+  # Even though the utils are now in the kfg repo, we still need to clone them
+  KICAD_LIBRARY_TOOLS_REPO: https://gitlab.com/kicad/libraries/kicad-library-tools.git
+  KICAD_LIBRARY_TOOLS_BRANCH: main
+  KICAD_LIBRARY_TOOLS_DIR: ~/kfg
+
+default:
+  before_script:
+    # ugly hack, 'resolve' the ~, because the other usage of this variable is in quotes, so ~ stays ~ which is bad
+    - KICAD_LIBRARY_TOOLS_DIR="${KICAD_LIBRARY_TOOLS_DIR/#\~/$HOME}"
+    - echo "Cloning ${KICAD_LIBRARY_TOOLS_REPO} branch ${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git clone --depth 1 "${KICAD_LIBRARY_TOOLS_REPO}" "$KICAD_LIBRARY_TOOLS_DIR" --branch "${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git config --global --add safe.directory $(realpath .)
+
+klc-check:
+  stage: tests
+  needs: []
+  allow_failure:
+    exit_codes:
+     - 2  # KLC checks have warnings
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "library_utils/**/*"
+        - "**/*.kicad_sym"
+        - "sym-lib-table"
+  script:
+    - python3 -V
+    - pip install pytest
+    # Don't let Gitlab force return code 1 on error
+    - set +e
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/check_symbols.sh
+
+  artifacts:
+    reports:
+      junit: junit.xml
+
+visual_diff:
+  stage: diffs
+  needs: []
+  tags:
+    - saas-linux-medium-amd64
+  image: kicad/kicad:nightly
+  allow_failure: true
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "**/*.kicad_sym"
+  script:
+    - kicad-cli version --format=about
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+    - sudo apt update -qq
+    - sudo apt install curl python3 python3-pip -qqy --no-install-recommends
+    - python3 -V
+    - pip install --break-system-packages --no-warn-script-location
+        pygments
+        wsdiff
+        jinja2
+        gitpython
+    # Get the MR SHA values
+    - source $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/common.sh
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/html-diff/src/html_diff.py
+        -j0
+        --repo "${CI_PROJECT_DIR}"
+        --output "diffs"
+        "${BASE_SHA}"
+        "${TARGET_SHA}"
+  artifacts:
+    expose_as: "Visual Diff"
+    paths:
+      - "diffs/"
+    reports:
+      dotenv: deploy.env
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: $DYNAMIC_ENVIRONMENT_URL

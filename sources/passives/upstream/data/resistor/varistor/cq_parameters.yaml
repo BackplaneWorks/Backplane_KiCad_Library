@@ -1,0 +1,1568 @@
+RV_Disc_D12mm_W3.9mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W3.9mm_P7.5mm  # model name
+  D: 12.0  # package length
+  E: 3.9  # body overall width
+  A1: 0.03  # package height
+  b: 0.72  # pin width
+  ph: 3.0  # Pin length
+  pin: [[0.0, 0.0], [7.5, 1.4]]  # Pins
+  pintype: tht  # Pin type, 'tht', 'smd'
+  serie: RV_Disc  # The component series
+  body_color_key: blue body  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Varistor.3dshapes  # Destination directory
+  source: 'N/A'
+  include_in_qa: True
+
+RV_Disc_D12mm_W4.2mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.2mm_P7.5mm
+  D: 12.0
+  E: 4.2
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.63333]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.3mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.3mm_P7.5mm
+  D: 12.0
+  E: 4.3
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.4mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.4mm_P7.5mm
+  D: 12.0
+  E: 4.4
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.775]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.5mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.5mm_P7.5mm
+  D: 12.0
+  E: 4.5
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.6mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.6mm_P7.5mm
+  D: 12.0
+  E: 4.6
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.7mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.7mm_P7.5mm
+  D: 12.0
+  E: 4.7
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4.8mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4.8mm_P7.5mm
+  D: 12.0
+  E: 4.8
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.05]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W4mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W4mm_P7.5mm
+  D: 12.0
+  E: 4.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.45]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W5.1mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W5.1mm_P7.5mm
+  D: 12.0
+  E: 5.1
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W5.4mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W5.4mm_P7.5mm
+  D: 12.0
+  E: 5.4
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W5.8mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W5.8mm_P7.5mm
+  D: 12.0
+  E: 5.8
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W5mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W5mm_P7.5mm
+  D: 12.0
+  E: 5.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W6.1mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W6.1mm_P7.5mm
+  D: 12.0
+  E: 6.1
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W6.2mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W6.2mm_P7.5mm
+  D: 12.0
+  E: 6.2
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W6.3mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W6.3mm_P7.5mm
+  D: 12.0
+  E: 6.3
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W6.7mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W6.7mm_P7.5mm
+  D: 12.0
+  E: 6.7
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W7.1mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W7.1mm_P7.5mm
+  D: 12.0
+  E: 7.1
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W7.5mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W7.5mm_P7.5mm
+  D: 12.0
+  E: 7.5
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 4.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D12mm_W7.9mm_P7.5mm:
+  model_name: RV_Disc_D12mm_W7.9mm_P7.5mm
+  D: 12.0
+  E: 7.9
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 4.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W11mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W11mm_P7.5mm
+  D: 15.5
+  E: 11.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 6.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W3.9mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W3.9mm_P7.5mm
+  D: 15.5
+  E: 3.9
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.2mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.2mm_P7.5mm
+  D: 15.5
+  E: 4.2
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.3mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.3mm_P7.5mm
+  D: 15.5
+  E: 4.3
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.4mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.4mm_P7.5mm
+  D: 15.5
+  E: 4.4
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.86667]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.5mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.5mm_P7.5mm
+  D: 15.5
+  E: 4.5
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.6mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.6mm_P7.5mm
+  D: 15.5
+  E: 4.6
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.05]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.7mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.7mm_P7.5mm
+  D: 15.5
+  E: 4.7
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.8mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.8mm_P7.5mm
+  D: 15.5
+  E: 4.8
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4.9mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4.9mm_P7.5mm
+  D: 15.5
+  E: 4.9
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W4mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W4mm_P7.5mm
+  D: 15.5
+  E: 4.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.45]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W5.2mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W5.2mm_P7.5mm
+  D: 15.5
+  E: 5.2
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W5.4mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W5.4mm_P7.5mm
+  D: 15.5
+  E: 5.4
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W5.9mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W5.9mm_P7.5mm
+  D: 15.5
+  E: 5.9
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W5mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W5mm_P7.5mm
+  D: 15.5
+  E: 5.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W6.1mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W6.1mm_P7.5mm
+  D: 15.5
+  E: 6.1
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 2.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W6.3mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W6.3mm_P7.5mm
+  D: 15.5
+  E: 6.3
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W6.4mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W6.4mm_P7.5mm
+  D: 15.5
+  E: 6.4
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W6.8mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W6.8mm_P7.5mm
+  D: 15.5
+  E: 6.8
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W7.2mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W7.2mm_P7.5mm
+  D: 15.5
+  E: 7.2
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 3.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W7.5mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W7.5mm_P7.5mm
+  D: 15.5
+  E: 7.5
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 4.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D15.5mm_W8mm_P7.5mm:
+  model_name: RV_Disc_D15.5mm_W8mm_P7.5mm
+  D: 15.5
+  E: 8.0
+  A1: 0.03
+  b: 0.72
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 4.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D16.5mm_W6.7mm_P7.5mm:
+  model_name: RV_Disc_D16.5mm_W6.7mm_P7.5mm
+  D: 16.5
+  E: 6.7
+  A1: 0.03
+  b: 0.81
+  ph: 3.0
+  pin: [[0.0, 0.0], [7.5, 1.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W11.4mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W11.4mm_P10mm
+  D: 21.5
+  E: 11.4
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 6.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.3mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.3mm_P10mm
+  D: 21.5
+  E: 4.3
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.4mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.4mm_P10mm
+  D: 21.5
+  E: 4.4
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.6]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.5mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.5mm_P10mm
+  D: 21.5
+  E: 4.5
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.55]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.6mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.6mm_P10mm
+  D: 21.5
+  E: 4.6
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.7]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.7mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.7mm_P10mm
+  D: 21.5
+  E: 4.7
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.8mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.8mm_P10mm
+  D: 21.5
+  E: 4.8
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 1.95]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W4.9mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W4.9mm_P10mm
+  D: 21.5
+  E: 4.9
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5.1mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5.1mm_P10mm
+  D: 21.5
+  E: 5.1
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.15]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5.3mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5.3mm_P10mm
+  D: 21.5
+  E: 5.3
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5.4mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5.4mm_P10mm
+  D: 21.5
+  E: 5.4
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.35]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5.6mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5.6mm_P10mm
+  D: 21.5
+  E: 5.6
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5.8mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5.8mm_P10mm
+  D: 21.5
+  E: 5.8
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.6]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W5mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W5mm_P10mm
+  D: 21.5
+  E: 5.0
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W6.3mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W6.3mm_P10mm
+  D: 21.5
+  E: 6.3
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 2.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W6.5mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W6.5mm_P10mm
+  D: 21.5
+  E: 6.5
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 3.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W6.7mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W6.7mm_P10mm
+  D: 21.5
+  E: 6.7
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 3.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W6.8mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W6.8mm_P10mm
+  D: 21.5
+  E: 6.8
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 3.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W7.1mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W7.1mm_P10mm
+  D: 21.5
+  E: 7.1
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 3.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W7.5mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W7.5mm_P10mm
+  D: 21.5
+  E: 7.5
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 3.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W7.9mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W7.9mm_P10mm
+  D: 21.5
+  E: 7.9
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 4.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D21.5mm_W8.4mm_P10mm:
+  model_name: RV_Disc_D21.5mm_W8.4mm_P10mm
+  D: 21.5
+  E: 8.4
+  A1: 0.03
+  b: 0.9
+  ph: 3.0
+  pin: [[0.0, 0.0], [10.0, 4.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.4mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.4mm_P5mm
+  D: 7.0
+  E: 3.4
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.5mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.5mm_P5mm
+  D: 7.0
+  E: 3.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.6mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.6mm_P5mm
+  D: 7.0
+  E: 3.6
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.46667]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.7mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.7mm_P5mm
+  D: 7.0
+  E: 3.7
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.65]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.8mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.8mm_P5mm
+  D: 7.0
+  E: 3.8
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W3.9mm_P5mm:
+  model_name: RV_Disc_D7mm_W3.9mm_P5mm
+  D: 7.0
+  E: 3.9
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W4.2mm_P5mm:
+  model_name: RV_Disc_D7mm_W4.2mm_P5mm
+  D: 7.0
+  E: 4.2
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W4.3mm_P5mm:
+  model_name: RV_Disc_D7mm_W4.3mm_P5mm
+  D: 7.0
+  E: 4.3
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W4.5mm_P5mm:
+  model_name: RV_Disc_D7mm_W4.5mm_P5mm
+  D: 7.0
+  E: 4.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W4.8mm_P5mm:
+  model_name: RV_Disc_D7mm_W4.8mm_P5mm
+  D: 7.0
+  E: 4.8
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W4mm_P5mm:
+  model_name: RV_Disc_D7mm_W4mm_P5mm
+  D: 7.0
+  E: 4.0
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W5.1mm_P5mm:
+  model_name: RV_Disc_D7mm_W5.1mm_P5mm
+  D: 7.0
+  E: 5.1
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W5.4mm_P5mm:
+  model_name: RV_Disc_D7mm_W5.4mm_P5mm
+  D: 7.0
+  E: 5.4
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W5.5mm_P5mm:
+  model_name: RV_Disc_D7mm_W5.5mm_P5mm
+  D: 7.0
+  E: 5.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D7mm_W5.7mm_P5mm:
+  model_name: RV_Disc_D7mm_W5.7mm_P5mm
+  D: 7.0
+  E: 5.7
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 3.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.3mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.3mm_P5mm
+  D: 9.0
+  E: 3.3
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.2]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.4mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.4mm_P5mm
+  D: 9.0
+  E: 3.4
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.25]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.5mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.5mm_P5mm
+  D: 9.0
+  E: 3.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.6mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.6mm_P5mm
+  D: 9.0
+  E: 3.6
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.4]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.7mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.7mm_P5mm
+  D: 9.0
+  E: 3.7
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.8mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.8mm_P5mm
+  D: 9.0
+  E: 3.8
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W3.9mm_P5mm:
+  model_name: RV_Disc_D9mm_W3.9mm_P5mm
+  D: 9.0
+  E: 3.9
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.6]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4.1mm_P5mm:
+  model_name: RV_Disc_D9mm_W4.1mm_P5mm
+  D: 9.0
+  E: 4.1
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4.2mm_P5mm:
+  model_name: RV_Disc_D9mm_W4.2mm_P5mm
+  D: 9.0
+  E: 4.2
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4.4mm_P5mm:
+  model_name: RV_Disc_D9mm_W4.4mm_P5mm
+  D: 9.0
+  E: 4.4
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4.5mm_P5mm:
+  model_name: RV_Disc_D9mm_W4.5mm_P5mm
+  D: 9.0
+  E: 4.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.1]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4.8mm_P5mm:
+  model_name: RV_Disc_D9mm_W4.8mm_P5mm
+  D: 9.0
+  E: 4.8
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.3]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W4mm_P5mm:
+  model_name: RV_Disc_D9mm_W4mm_P5mm
+  D: 9.0
+  E: 4.0
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.9]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W5.2mm_P5mm:
+  model_name: RV_Disc_D9mm_W5.2mm_P5mm
+  D: 9.0
+  E: 5.2
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W5.4mm_P5mm:
+  model_name: RV_Disc_D9mm_W5.4mm_P5mm
+  D: 9.0
+  E: 5.4
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W5.5mm_P5mm:
+  model_name: RV_Disc_D9mm_W5.5mm_P5mm
+  D: 9.0
+  E: 5.5
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 2.8]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W5.7mm_P5mm:
+  model_name: RV_Disc_D9mm_W5.7mm_P5mm
+  D: 9.0
+  E: 5.7
+  A1: 0.03
+  b: 0.54
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 3.0]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'
+
+RV_Disc_D9mm_W6.1mm_P5mm:
+  model_name: RV_Disc_D9mm_W6.1mm_P5mm
+  D: 9.0
+  E: 6.1
+  A1: 0.03
+  b: 0.63
+  ph: 3.0
+  pin: [[0.0, 0.0], [5.0, 1.5]]
+  pintype: tht
+  serie: RV_Disc
+  body_color_key: blue body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: Varistor.3dshapes
+  source: 'N/A'

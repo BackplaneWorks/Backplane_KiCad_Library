@@ -1,0 +1,11 @@
+build/
+sources/passives/build/
+__pycache__/
+*.pyc
+.venv/
+*.kicad_prl
+*.lck
+*-backups/
+.backplane/history.git/
+release/*.zip
+release/*.sha256

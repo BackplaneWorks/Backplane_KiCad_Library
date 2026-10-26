@@ -1,0 +1,65 @@
+group_definitions:
+    manufacturer: 'Zhaoxing'
+
+device_definition:
+    VH_top_entry:
+        series: 'VH'
+        mpn_format_string: 'ZX-VH3.96-{pincount:d}PLT'
+        orientation: 'V'
+        datasheet: 'https://www.lcsc.com/datasheet/lcsc_datasheet_2306191414_Megastar-ZX-VH3-96-4PLT_C7429652.pdf'
+        pinrange: ['range', [2, 11]]
+        text_inside_pos: 3
+        pitch: 3.96
+        pad1_position: 'top-left' # 'top-left' | 'bottom-left' -> pin 2 always to the right of pin 1
+        mounting_pad_size: [1.5, 3] # From datasheet
+        # x position mounting inner mounting pad edge relative to nearest pad center
+        center_pad_to_mounting_pad_edge: 2.7 # tuned
+        # y dimensions for pad given relative to mounting pad edge
+        rel_pad_y_outside_edge: 10
+        rel_pad_y_inside_edge: 4 # 1+mounting_pad_size_y, from datasheet
+        pad_size_x: 2.5 # from datasheet
+        # y position for body edge relative to mounting pad edge (positive -> body extends outside bounding box)
+        rel_body_edge_y: 0.75
+        body_size_y: 8.65 # 9.3 - 0.65 edge modifier
+        # x body edge relative to nearest pin
+        rel_body_edge_x: 3.96
+
+        # Inside the cavity on the top (pin) side
+        pin1_fab_marker_y: $(body_top_y + 1.8)
+
+        edge_modifier_pin_side:
+            length: 0.65
+            width: 3.96
+
+        additional_drawings:
+            pins:
+                type: rect
+                center: [0, $(body_bottom_y - 5)] # scaled from drawing
+                size: [1.12, 1.12]
+                layer: 'F.Fab'
+                repeat:
+                    type: grid
+                    spacing: ['$(pitch_x)', 0]
+                    reference_is: 'center'
+                    count: ['$(pin_count)', 1]
+            cavity:
+                type: poly
+                layer: 'F.Fab'
+                points:
+                    - [0,                       $(body_top_y + 1.8)]
+                    - [$(body_left_x + 3.4),    $(body_top_y + 1.8)]
+                    - [$(body_left_x + 3.4),    $(body_top_y + 0.2)]
+                    - [$(body_left_x + 1.64),   $(body_top_y + 0.2)]
+                    - [$(body_left_x + 1.64),   $(body_top_y + 1.8 + 6.2)]
+                    - [0,                       $(body_top_y + 1.8 + 6.2)]
+                mirror:
+                    x: 0
+            front_hook_lip:
+                type: poly
+                layer: 'F.Fab'
+                points:
+                    - [0,                       $(body_top_y + 1)]
+                    - [$(body_left_x + 3.96),   $(body_top_y + 1)]
+                    - [$(body_left_x + 3.96),   $(body_top_y)]
+                mirror:
+                    x: 0

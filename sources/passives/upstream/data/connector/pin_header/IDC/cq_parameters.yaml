@@ -1,0 +1,182 @@
+IDC-Header_2x03_P2.54mm_Horizontal:
+  pins: 3
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+  include_in_qa: True
+IDC-Header_2x03_P2.54mm_Vertical:
+  pins: 3
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x04_P2.54mm_Horizontal:
+  pins: 4
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+  include_in_qa: True
+IDC-Header_2x04_P2.54mm_Vertical:
+  pins: 4
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x05_P2.54mm_Horizontal:
+  pins: 5
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x05_P2.54mm_Vertical:
+  pins: 5
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x06_P2.54mm_Horizontal:
+  pins: 6
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x06_P2.54mm_Vertical:
+  pins: 6
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x07_P2.54mm_Horizontal:
+  pins: 7
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x07_P2.54mm_Vertical:
+  pins: 7
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x08_P2.54mm_Horizontal:
+  pins: 8
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x08_P2.54mm_Vertical:
+  pins: 8
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x09_P2.54mm_Horizontal:
+  pins: 9
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x09_P2.54mm_Vertical:
+  pins: 9
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x10_P2.54mm_Horizontal:
+  pins: 10
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x10_P2.54mm_Vertical:
+  pins: 10
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x11_P2.54mm_Horizontal:
+  pins: 11
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x11_P2.54mm_Vertical:
+  pins: 11
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x12_P2.54mm_Horizontal:
+  pins: 12
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x12_P2.54mm_Vertical:
+  pins: 12
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x13_P2.54mm_Horizontal:
+  pins: 13
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x13_P2.54mm_Vertical:
+  pins: 13
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x15_P2.54mm_Horizontal:
+  pins: 15
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x15_P2.54mm_Vertical:
+  pins: 15
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x17_P2.54mm_Horizontal:
+  pins: 17
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x17_P2.54mm_Vertical:
+  pins: 17
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x20_P2.54mm_Horizontal:
+  pins: 20
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x20_P2.54mm_Vertical:
+  pins: 20
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x22_P2.54mm_Horizontal:
+  pins: 22
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x22_P2.54mm_Vertical:
+  pins: 22
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x25_P2.54mm_Horizontal:
+  pins: 25
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x25_P2.54mm_Vertical:
+  pins: 25
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x30_P2.54mm_Horizontal:
+  pins: 30
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x30_P2.54mm_Vertical:
+  pins: 30
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x32_P2.54mm_Horizontal:
+  pins: 32
+  is_angled: true
+  body_color_key: "black body"
+  pins_color_key: "gold pins"
+IDC-Header_2x32_P2.54mm_Vertical:
+  pins: 32
+  is_angled: false
+  body_color_key: "black body"
+  pins_color_key: "gold pins"

@@ -1,0 +1,3 @@
+        GND = ["^[ad]*g(rou)*nd(a)*$", "^[ad]*v(ss)$"]
+    POWER_INPUTS = ["^[ad]*g(rou)*nd(a)*$", "^[ad]*v_?{?(aa|cc|dd|ss|bat|in)}?$"]
+                self.warningExtra("Both THT and SMD pads were found")

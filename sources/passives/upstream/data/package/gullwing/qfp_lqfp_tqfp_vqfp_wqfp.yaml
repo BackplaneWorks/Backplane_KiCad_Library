@@ -1,0 +1,1949 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+# QFP - Quad Flat Package (Gullwing leads)
+#
+# This file cointains JEDEC QFP and JEITA/EIAJ P-QFP packages
+#
+# JEDEC standards: MS-022, MS-026, MS-029, MO-069, MO-071, MO-082, MO-084, MO-086, MO-089, MO-108, MO-112, MO-188, MO-189, MO-204, and others
+# JEITA standards: ED-7311A, ED-7311-12, EDR-7311A
+
+default_parameters:
+  device_type: 'PQFP'
+  library_Suffix: 'QFP'
+
+##############################################################################
+# PQFP, height > 1.70 mm
+##############################################################################
+
+PQFP-44_10x10mm_P0.8mm:
+# replaces handmade PQFP-44_10x10mm_P0.8mm
+  size_source: 'JEDEC MS-022 variation AB, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022, https://ww1.microchip.com/downloads/aemDocuments/documents/package-outline-drawings/c04-21291a.pdf'
+  # handmade footprint was using http://www.onsemi.com/pub/Collateral/122BK.PDF, but it has height = 2.8 mm max (out of standard)
+  # one more source: https://datasheet.octopart.com/AT86RF233-ZU-Atmel-datasheet-22122754.pdf#page=22
+  compatible_mpns:
+    - 'P-QFP'
+    - 'QQZ' # Microchip
+    - 'M44-2 44L-MQFP-10x10x2mm' # Maxim / Analog Devices, # https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/mqfp/21-0826.pdf
+  device_type: 'PQFP'
+  body_size_x: 10.00
+  body_size_y: 10.00
+  body_height: 1.80 .. 2.00 .. 2.20
+  overall_height:
+    maximum: 2.45
+  body_pcb_gap: 0.00 .. 0.25
+  overall_size_x: 13.20
+  overall_size_y: 13.20
+  lead_width: 0.29 .. 0.45
+  lead_len: 0.73 .. 0.88 .. 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.80
+  num_pins_x: 11
+  num_pins_y: 11
+
+Microchip_PQFP-44_10x10mm_P0.8mm:
+# Similar to JEDEC MO-112, variation AA-2, it's actually QFP / PQFP
+# It's replacing MQFP-44_10x10mm_P0.8mm, used only by symbol AD7722
+  size_source: 'JEDEC MO-112 variation AA-2, Microchip and Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005418B.pdf#page=10, https://www.analog.com/media/en/technical-documentation/data-sheets/ad7722.pdf#page=23'
+  # one more source: https://www.analog.com/media/en/technical-documentation/data-sheets/ad7864.pdf#page=27
+  # similar sizes: https://ww1.microchip.com/downloads/aemDocuments/documents/package-outline-drawings/c04-00119a.pdf
+  compatible_mpns:
+    - 'P-QFP'
+    - '44-Lead-MQFP S-44-2' # Analog Devices
+  device_type: 'PQFP'
+  manufacturer: 'Microchip'
+  body_size_x: 9.80 .. 10.00 .. 10.20 # minimum and maximum from Microchip / Analog Devices
+  body_size_y: 9.80 .. 10.00 .. 10.20
+  body_height: 1.95 .. 2.00 .. 2.20  # maximum height from Analog Devices, Microchip and JEDEC is 2.1 mm
+  body_pcb_gap: 0.00 .. 0.25
+  overall_size_x: 13.65 .. 13.90 .. 14.15 # minimum and maximum from Microchip / Analog Devices
+  overall_size_y: 13.65 .. 13.90 .. 14.15
+  lead_width: 0.30 .. 0.45
+  lead_len: 0.73 .. 0.88 .. 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.80
+  num_pins_x: 11
+  num_pins_y: 11
+
+PQFP-64_14x14mm_P0.8mm:
+# Similar to JEITA 64-001-EB, as well JEDEC MS-022 variation BE
+  size_source: 'https://www.renesas.com/us/en/document/psc/package-drawing-qfp-64pin-prqp0064gb'
+  device_type: 'PQFP'
+  body_size_x:
+    nominal: 14
+  body_size_y:
+    nominal: 14
+  overall_height:
+    maximum: 3.05 # JEITA has A = 3.15 mm max
+  overall_size_x:
+    minimum: 16.9
+    nominal: 17.2
+    maximum: 17.5
+  overall_size_y:
+    minimum: 16.9
+    nominal: 17.2
+    maximum: 17.5
+  lead_width:
+    minimum: 0.29
+    nominal: 0.37
+    maximum: 0.45
+  lead_len: # JEITA has Lp = 0.73 .. 1.03 mm
+    minimum: 0.5
+    nominal: 0.8
+    maximum: 1.1
+  pitch: 0.8
+  num_pins_x: 16
+  num_pins_y: 16
+
+PQFP-80_14x20mm_P0.8mm:
+# replacing hand-made footprint, it was using suggested land-patten from Onsemi
+  size_source: 'JEITA/EIAJ ED-7311A (variation 80-001-PB) / JEDEC MS-022 (variation GB-2), 2.70mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=91, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022'
+  compatible_mpns:
+    - 'P-QFP080-14.00x20.00-0.80' # JEITA external type
+    - 'P-QFP080-1420-0.80' # EIAJ old description
+    - 'MQFP-80' # JEDEC 'metric'
+    - 'Onsemi_PQFP80-14x20-/-QIP80E Onsemi_CASE-122BS' # it differs a little in some sizes, overall_height for example is 3.0mm max, but generated footprint is compatible, https://www.onsemi.com/pub/Collateral/122BS.PDF
+  device_type: 'PQFP'
+  body_size_x: 14.00 # JEITA D / JEDEC D1
+  body_size_y: 20.00 # JEITA E / JEDEC E1
+  body_height: 2.50 .. 2.70 .. 2.90
+  overall_height: 2.50 .. 2.80 .. 3.15 # minimum: JEITA A1_min + A2_min; nominal: JEITA A1_nom + A2_nom; maximum: JEITA A_max
+  body_pcb_gap: 0.00 .. 0.25
+  overall_size_x: 17.20 # JEITA HD / JEDEC D, JEITA document swap these sizes but it's probably a typo
+  overall_size_y: 23.20 # JEITA HE / JEDEC E
+  lead_width: 0.29 .. 0.45 # JEITA bp / JEDEC b
+  lead_len: 0.73 .. 0.88 .. 1.03 # JEITA Lp; nominal value from JEDEC L
+  lead_height: 0.11 .. 0.23
+  pitch: 0.80 # e
+  num_pins_x: 16
+  num_pins_y: 24
+
+Hitachi_FP80B_PQFP-80_14x20mm_P0.8mm:
+  inherit: PQFP-80_14x20mm_P0.8mm
+  size_source: 'Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28'
+  compatible_mpns:
+    - 'Hitachi_FP-80B'
+  manufacturer: 'Hitachi'
+  part_number: 'FP80B' # there's a 'FP-80' (older package) which has even bigger overall_size_x/y and lead_len
+  overall_size_x: 18.8 +/- 0.4
+  overall_size_y: 24.8 +/- 0.4
+  lead_len: 1.2 +/- 0.2
+
+PQFP-128_28x28mm_P0.8mm:
+  size_source: 'JEITA/EIAJ ED-7311A (variation 128-001-KD) / JEDEC MS-022 (variation DB-2), 3.40mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=78, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022'
+  compatible_mpns:
+    - 'P-QFP128-28.00x28.00-0.80' # JEITA external type
+    - 'P-QFP128-2828-0.80' # EIAJ old description
+    - 'MQFP-128' # JEDEC 'metric'
+  device_type: 'PQFP'
+  body_size_x: 28.00 # JEITA D / JEDEC D1
+  body_size_y: 28.00 # JEITA E / JEDEC E1
+  overall_height: 3.20 .. 3.50 .. 3.85 # minimum: JEITA A1_min + A2_min; nominal: JEITA A1_nom + A2_nom; maximum: JEITA A_max
+  body_pcb_gap:
+    nominal: 0.25
+  overall_size_x: 31.20 # JEITA HD / JEDEC D
+  overall_size_y: 31.20 # JEITA HE / JEDEC E
+  lead_width: 0.29 .. 0.45 # JEITA bp / JEDEC b
+  lead_len: 0.73 .. 0.88 .. 1.03 # JEITA Lp; nominal value from JEDEC L
+  lead_height: 0.11 .. 0.23
+  pitch: 0.80 # e
+  num_pins_x: 32
+  num_pins_y: 32
+
+MO112AC1_PQFP-52_10x10mm_P0.65mm:
+  size_source: 'JEDEC MO-112 variation AC-1, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://www.analog.com/media/en/package-pcb-resources/package/32717196300961s_52_2.pdf'
+  # other source (it's just for reference, there are errors regarding height and JEDEC variant!): https://www.analog.com/media/en/technical-documentation/data-sheets/aduc816.pdf#page=68
+  additional_tags:
+    - 'high-standoff' # see A1
+  compatible_mpns:
+    - 'MQFP S-52-2' # Analog Devices
+  device_type: 'PQFP'
+  part_number: 'MO112AC1' # using this because JEDEC MS-022 variation AC has the same body_size_x/y and the generated name will be the same!
+  force_small_pitch_ipc_definition: True # if not using it, distance between pads is just 0.15mm
+  body_size_x: 10.00
+  body_size_y: 10.00
+  body_height: 1.95 .. 2.00 .. 2.10
+  overall_height:
+    maximum: 2.45
+  body_pcb_gap: 0.25 .. 0.35
+  overall_size_x: 13.90
+  overall_size_y: 13.90
+  lead_width: 0.22 .. 0.38
+  lead_len: 0.73 .. 0.88 .. 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.65
+  num_pins_x: 13
+  num_pins_y: 13
+
+PQFP-80_14x14mm_P0.65mm:
+  size_source: 'JEDEC MS-022 variation BC, 2.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022'
+  compatible_mpns:
+    - 'MQFP-80' # JEDEC
+    - 'Infineon_P-MQFP-80-7' # Infineon, https://www.mouser.com/datasheet/2/196/Infineon_C164CI-DS-v02_00--1168535.pdf#page=78
+  device_type: 'PQFP'
+  force_small_pitch_ipc_definition: True # if not using it, distance between pads is just 0.15mm
+  body_size_x: 14.00 # JEDEC
+  body_size_y: 14.00
+  body_height: 1.80 .. 2.00 .. 2.20
+  overall_height: 1.80 .. 2.45 # JEDEC values, minimum is A1_min + A2_min, maximum is A
+  body_pcb_gap: 0.00 .. 0.25
+  overall_size_x: 17.20 # JEDEC
+  overall_size_y: 17.20
+  lead_width: 0.22 .. 0.40
+  lead_len: 0.73 .. 0.88 .. 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.65
+  num_pins_x: 20
+  num_pins_y: 20
+
+PQFP-100_14x20mm_P0.65mm:
+# Microsemi calls it 'PQ100', height = 3.40 mm max, similar to JEDEC MS-022 variation GC-1
+# body_size_x and body_size_y are swapped so pin 1 and numbering get right
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'PQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 14
+    tolerance: 0
+    # minimum:
+    # maximum:
+  body_size_y:
+    nominal: 20
+    tolerance: 0
+  body_height: 2.50 .. 2.70 .. 2.90
+  body_pcb_gap: 0.25 .. 0.50
+  overall_size_x:
+    nominal: 17.2
+    tolerance: 0
+  overall_size_y:
+    nominal: 23.2
+    tolerance: 0
+  lead_width:
+    minimum: 0.22
+    maximum: 0.4
+  lead_len:
+    minimum: 0.73
+    maximum: 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.65
+  num_pins_x: 20
+  num_pins_y: 30
+
+PQFP-144_28x28mm_P0.65mm:
+# JEDEC MS-022, variation DC-1, height A = 4.10 mm max
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'PQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 28
+  body_size_y:
+    nominal: 28
+  body_height: 3.20 .. 3.40 .. 3.60
+  body_pcb_gap: 0.25 .. 0.50
+  overall_size_x:
+    nominal: 31.2
+  overall_size_y:
+    nominal: 31.2
+  lead_width:
+    minimum: 0.22
+    maximum: 0.4
+  lead_len:
+    minimum: 0.73
+    maximum: 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.65
+  num_pins_x: 36
+  num_pins_y: 36
+
+PQFP-160_28x28mm_P0.65mm:
+# JEDEC MS-022, variation DD-1, height A = 4.10 mm max
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'PQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 28
+  body_size_y:
+    nominal: 28
+  body_height: 3.20 .. 3.40 .. 3.60
+  body_pcb_gap: 0.25 .. 0.50
+  overall_size_x:
+    nominal: 31.2
+  overall_size_y:
+    nominal: 31.2
+  lead_width:
+    minimum: 0.22
+    maximum: 0.4
+  lead_len:
+    minimum: 0.73
+    maximum: 1.03
+  lead_height: 0.11 .. 0.23
+  pitch: 0.65
+  num_pins_x: 40
+  num_pins_y: 40
+
+PQFP-168_28x28mm_P0.65mm:
+# Renesas says it's JEITA, but there's no such variation there (closest one is 160-001-LKA, but it's LQFP, N = 160 and lead_len = 0.45 .. 0.75 mm);
+# JEDEC MS-022 has lead_len = 0.73 .. 0.88 .. 1.03 mm which is close to this footprint (but there's no variation there)
+  size_source: 'https://www.renesas.cn/cn/zh/document/psc/package-drawing-qfp-168pin-prqp0168jb'
+  device_type: 'PQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 28
+  body_size_y:
+    nominal: 28
+  overall_height:
+    maximum: 3.56
+  overall_size_x:
+    minimum: 31
+    nominal: 31.2
+    maximum: 31.4
+  overall_size_y:
+    minimum: 31
+    nominal: 31.2
+    maximum: 31.4
+  lead_width:
+    minimum: 0.24
+    nominal: 0.32
+    maximum: 0.4
+  lead_len:
+    minimum: 0.6
+    nominal: 0.8
+    maximum: 1
+  pitch: 0.65
+  num_pins_x: 42
+  num_pins_y: 42
+
+PQFP-208_28x28mm_P0.5mm:
+# Microsemi calls it 'PQ208', height 4.10 mm max, it's similar to JEDEC MS-029 variation FA-1
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'PQFP'
+  body_size_x:
+    nominal: 28
+  body_size_y:
+    nominal: 28
+  overall_height: 3.2 .. 3.4 .. 3.6
+  body_pcb_gap: 0.25 .. 0.50
+  overall_size_x:
+    nominal: 30.6
+  overall_size_y:
+    nominal: 30.6
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 52
+  num_pins_y: 52
+
+PQFP-240_32.1x32.1mm_P0.5mm:
+# Similar to MS-029, variation GA, height A = 4.10 mm max
+# 3D model height has 1.60 mm
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'PQFP'
+  body_size_x:
+    nominal: 32.1
+  body_size_y:
+    nominal: 32.1
+  overall_height: 3.2 .. 3.4 .. 3.6
+  body_pcb_gap: 0.25 .. 0.50
+  overall_size_x:
+    nominal: 34.6
+  overall_size_y:
+    nominal: 34.6
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 60
+  num_pins_y: 60
+
+##############################################################################
+# TQFP, height A = 1.00 .. 1.20 mm
+# LQFP, height A = 1.20 .. 1.70 mm
+##############################################################################
+
+LQFP-32_5x5mm_P0.5mm:
+# JEDEC MS-026 variation BAA, height A = 1.60 mm max
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT401-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 4.9
+    maximum: 5.1
+  body_size_y:
+    minimum: 4.9
+    maximum: 5.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 6.85
+    maximum: 7.15
+  overall_size_y:
+    minimum: 6.85
+    maximum: 7.15
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 8
+  num_pins_y: 8
+
+LQFP-32_7x7mm_P0.8mm:
+# Similar to JEDEC MS-026 variation BBA, height A = 1.60 mm max
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT358-1.pdf'
+  device_type: 'LQFP'
+  body_size_x: 6.9 .. 7.1
+  body_size_y: 6.9 .. 7.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.85 .. 9.15
+  overall_size_y: 8.85 .. 9.15
+  lead_width: 0.3 .. 0.4
+  lead_len: 0.45 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.8
+  num_pins_x: 8
+  num_pins_y: 8
+
+LQFP-36_7x7mm_P0.65mm:
+  size_source: 'https://www.onsemi.com/pub/Collateral/561AV.PDF'
+  device_type: 'LQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 7
+    tolerance: 0.1
+  body_size_y:
+    nominal: 7
+    tolerance: 0.1
+  body_height:
+    nominal: 1.5
+  overall_height:
+    maximum: 1.7
+  body_pcb_gap: 0.1 +/- 0.10
+  overall_size_x:
+    nominal: 9
+    tolerance: 0.2
+  overall_size_y:
+    nominal: 9
+    tolerance: 0.2
+  lead_width:
+    nominal: 0.3
+    tolerance: 0.1
+  lead_len:
+    nominal: 0.5
+    tolerance: 0.2
+  lead_height: 0.15 +/- 0.05
+  pitch: 0.65
+  num_pins_x: 9
+  num_pins_y: 9
+
+LQFP-52_10x10mm_P0.65mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/98ARL10526D.pdf'
+  device_type: 'LQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 10
+  body_size_y:
+    nominal: 10
+  body_height: 1.3 .. 1.5
+  overall_height: 1.65 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 12
+  overall_size_y:
+    nominal: 12
+  lead_width:
+    nominal: 0.325
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.15  # Guess
+  pitch: 0.65
+  num_pins_x: 13
+  num_pins_y: 13
+
+LQFP-52-1EP_10x10mm_P0.65mm_EP4.8x4.8mm:
+  size_source: 'https://www.onsemi.com/pub/Collateral/848H-01.PDF'
+  device_type: 'LQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 10
+    tolerance: 0
+  body_size_y:
+    nominal: 10
+    tolerance: 0
+  body_height: 1.3 .. 1.5
+  overall_height: 1.70 # max
+  body_pcb_gap: 0.05 .. 0.20
+  overall_size_x:
+    nominal: 12
+    tolerance: 0
+  overall_size_y:
+    nominal: 12
+    tolerance: 0
+  lead_width:
+    minimum: 0.22
+    maximum: 0.4
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 13
+  num_pins_y: 13
+  EP_size_x: 4.8
+  EP_size_y: 4.8
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    grid: [1, 1]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+LQFP-52_14x14mm_P1mm:
+  size_source: 'http://www.holtek.com/documents/10179/116711/HT1632Cv170.pdf'
+  # https://web.archive.org/web/20180404050010/http://www.holtek.com/documents/10179/116711/HT1632Cv170.pdf
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 14
+    minimum: 13.9
+    maximum: 14.1
+  body_size_y:
+    nominal: 14
+    minimum: 13.9
+    maximum: 14.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  body_pcb_gap: 0.05 .. 0.20
+  overall_size_x:
+    nominal: 16
+    minimum: 15.8
+    maximum: 16.2
+  overall_size_y:
+    nominal: 16
+    minimum: 15.8
+    maximum: 16.2
+  lead_width:
+    minimum: 0.39
+    maximum: 0.48
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.1  # Not verified
+  pitch: 1
+  num_pins_x: 13
+  num_pins_y: 13
+
+LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 10
+  body_size_y:
+    nominal: 10
+  body_height: 1.35 .. 1.45
+  overall_height: 1.60 # max
+  # https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 12
+  overall_size_y:
+    nominal: 12
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 16
+  num_pins_y: 16
+  EP_size_x: 6.5
+  EP_size_y: 6.5
+  EP_num_paste_pads: [5, 5]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+LQFP-64-1EP_10x10mm_P0.5mm_EP5.0x5.0mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 10
+    minimum: 9.8
+    maximum: 10.2
+  body_size_y:
+    nominal: 10
+    minimum: 9.8
+    maximum: 10.2
+  overall_height: 1.60 # max
+  overall_size_x:
+    nominal: 12
+    minimum: 11.8
+    maximum: 12.2
+  overall_size_y:
+    nominal: 12
+    minimum: 11.8
+    maximum: 12.2
+  lead_width:
+    nominal: 0.22
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    nominal: 0.6
+    minimum: 0.45
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 16
+  num_pins_y: 16
+  EP_size_x:
+    nominal: 5.0
+    minimum: 4.9
+    maximum: 5.1
+  EP_size_y:
+    nominal: 5.0
+    minimum: 4.9
+    maximum: 5.1
+  EP_num_paste_pads: [5, 5]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+LQFP-64_7x7mm_P0.4mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT414-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 6.9
+    maximum: 7.1
+  body_size_y:
+    minimum: 6.9
+    maximum: 7.1
+  body_height: 1.35 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 8.85
+    maximum: 9.15
+  overall_size_y:
+    minimum: 8.85
+    maximum: 9.15
+  lead_width:
+    minimum: 0.13
+    maximum: 0.23
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 16
+  num_pins_y: 16
+
+LQFP-64_10x10mm_P0.5mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 9.8
+    nominal: 10
+    maximum: 10.2
+  body_size_y:
+    minimum: 9.8
+    nominal: 10
+    maximum: 10.2
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 11.8
+    nominal: 12
+    maximum: 12.2
+  overall_size_y:
+    minimum: 11.8
+    nominal: 12
+    maximum: 12.2
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 16
+  num_pins_y: 16
+
+LQFP-64_14x14mm_P0.8mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT791-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 13.9
+    maximum: 14.1
+  body_size_y:
+    minimum: 13.9
+    maximum: 14.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 15.85
+    maximum: 16.15
+  overall_size_y:
+    minimum: 15.85
+    maximum: 16.15
+  lead_width:
+    minimum: 0.3
+    maximum: 0.45
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.8
+  num_pins_x: 16
+  num_pins_y: 16
+
+LQFP-80_10x10mm_P0.4mm:
+  size_source: 'https://www.renesas.com/eu/en/package-image/pdf/outdrawing/q80.10x10.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 10
+  body_size_y:
+    nominal: 10
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 12
+  overall_size_y:
+    nominal: 12
+  lead_width:
+    minimum: 0.13
+    nominal: 0.16
+    maximum: 0.23
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 20
+  num_pins_y: 20
+
+LQFP-80_12x12mm_P0.5mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT315-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 11.9
+    maximum: 12.1
+  body_size_y:
+    minimum: 11.9
+    maximum: 12.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 13.85
+    maximum: 14.15
+  overall_size_y:
+    minimum: 13.85
+    maximum: 14.15
+  lead_width:
+    minimum: 0.13
+    maximum: 0.27
+  lead_len:
+    minimum: 0.3
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 20
+  num_pins_y: 20
+
+LQFP-80_14x14mm_P0.65mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf'
+  device_type: 'LQFP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    minimum: 13.8
+    nominal: 14
+    maximum: 14.2
+  body_size_y:
+    minimum: 13.8
+    nominal: 14
+    maximum: 14.2
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  # PZA0080A is compatible, see https://www.ti.com/lit/ml/mpqf099b/mpqf099b.pdf
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 15.8
+    nominal: 16
+    maximum: 16.2
+  overall_size_y:
+    minimum: 15.8
+    nominal: 16
+    maximum: 16.2
+  lead_width:
+    minimum: 0.22
+    nominal: 0.32
+    maximum: 0.38
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 20
+  num_pins_y: 20
+
+LQFP-100_14x14mm_P0.5mm:
+# we should inherit it from TQFP-100_14x14mm_P0.5mm
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT407-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 13.9
+    maximum: 14.1
+  body_size_y:
+    minimum: 13.9
+    maximum: 14.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # nominal
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 15.75
+    maximum: 16.25
+  overall_size_y:
+    minimum: 15.75
+    maximum: 16.25
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 25
+  num_pins_y: 25
+
+TQFP-128_14x14mm_P0.4mm:
+  size_source: 'JEDEC MS-026 variation AEE, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  compatible_mpns:
+    - 'Microsemi_VQ128' # https://web.archive.org/web/20220119120813/https://www.microsemi.com/document-portal/doc_download/131095-pd3068-package-mechanical-drawings#page=64
+    - 'Onsemi_CASE-932BB' # Onsemi version has tolerances in body_size_x / others, lead_width / lead_len have small differences, https://www.onsemi.cn/pub/Collateral/932BB.PDF
+  device_type: 'TQFP'
+  body_size_x: 14.00
+  body_size_y: 14.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC A, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 16.00
+  overall_size_y: 16.00
+  lead_width: 0.13 .. 0.18 .. 0.23
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.40
+  num_pins_x: 32
+  num_pins_y: 32
+
+LQFP-128_14x14mm_P0.4mm:
+  inherit: TQFP-128_14x14mm_P0.4mm
+  size_source: 'JEDEC MS-026 variation BEE, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=423' # https://ww1.microchip.com/downloads/aemDocuments/documents/corporate-responsibilty/environmental/material-compliance-documents/128L_LQFP_14x14x1_4mm_C04-00058b.pdf
+  compatible_mpns:
+    - 'Microchip_128-Lead-Low-Profile-Plastic-Quad-Flat-Pack-(PT)'
+    - 'Renesas_Q128.14x14' # small difference in lead_width / 'b' nominal value which is 0.16mm, https://www.renesas.com/eu/en/package-image/pdf/outdrawing/q128.14x14.pdf
+  device_type: 'LQFP'
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.40 .. 1.60 # JEDEC A, minimum calculated from A1_min + A2_min
+
+LQFP-128_14x20mm_P0.5mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT425-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 13.9
+    maximum: 14.1
+  body_size_y:
+    minimum: 19.9
+    maximum: 20.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 15.85
+    maximum: 16.15
+  overall_size_y:
+    minimum: 21.85
+    maximum: 22.15
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 26
+  num_pins_y: 38
+
+TQFP-144_20x20mm_P0.5mm:
+  size_source: 'JEDEC MS-026 variation AFB, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  device_type: 'TQFP'
+  body_size_x: 20.00
+  body_size_y: 20.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC A, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 22.00
+  overall_size_y: 22.00
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50
+  num_pins_x: 36
+  num_pins_y: 36
+
+LQFP-144_20x20mm_P0.5mm:
+  inherit: TQFP-144_20x20mm_P0.5mm
+  size_source: 'JEDEC MS-026 variation BFB, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=425'
+  compatible_mpns:
+    - 'Microchip_144-Lead-Plastic-Low-Profile-Quad-Flatpack-(PL)'
+    - 'Microsemi_TQ144' # https://web.archive.org/web/20220119120813/https://www.microsemi.com/document-portal/doc_download/131095-pd3068-package-mechanical-drawings#page=64
+  device_type: 'LQFP'
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.40 .. 1.60 # JEDEC A, minimum calculated from A1_min + A2_min
+
+EQFP-144-1EP_20x20mm_P0.5mm_EP4x4mm:
+# Based on JEDEC MS-026, variation BFB-HD, it's LQFP (height 1.65mm max)
+  size_source: 'https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/packaging/04r00482-02.pdf'
+  device_type: 'EQFP' # temporary
+  body_size_x:
+    nominal: 20
+  body_size_y:
+    nominal: 20
+  overall_size_x:
+    nominal: 22
+  overall_size_y:
+    nominal: 22
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 36
+  num_pins_y: 36
+  EP_size_x: 4
+  EP_size_y: 4
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm:
+# Based on JEDEC MS-026, variation BFB-HD, it's LQFP (height 1.65mm max)
+  size_source: 'https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/packaging/04r00476-02.pdf'
+  device_type: 'EQFP' # temporary
+  body_size_x:
+    nominal: 20
+  body_size_y:
+    nominal: 20
+  overall_size_x:
+    nominal: 22
+  overall_size_y:
+    nominal: 22
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 36
+  num_pins_y: 36
+  EP_size_x: 5
+  EP_size_y: 5
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+LQFP-144-1EP_20x20mm_P0.5mm_EP6.5x6.5mm:
+  inherit: LQFP-144_20x20mm_P0.5mm
+  size_source: 'JEDEC MS-026 variation BFB, 1.40mm body thickness, custom Exposed Pad from Infineon, https://www.infineon.com/dgdl/Infineon-XMC4500-DS-v01_05-EN.pdf#page=107, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  compatible_mpns:
+  # Has 'U-groove'/anti-flash groove, overall EP size for soldering purposes is 6.5x6.5
+  # See also https://www.infineon.com/dgdl/Infineon-Board_Assembly_Recommendations-QFP-Package-v06_00-EN.pdf#page=7
+    - 'Infineon_PG-LQFP-144-24'
+  # No U-groove
+    - 'Infineon_PG-LQFP-144-26'
+  lead_width: 0.2 + 0.07 - 0.03
+  EP_size_x: 6.5 +/- 0.2
+  EP_size_y: 6.5 +/- 0.2
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [6, 6]
+    grid: [1, 1]
+    drill: 0.2
+
+EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm:
+# Based on JEDEC MS-026, variation BFB-HD, it's LQFP (height 1.65mm max)
+  size_source: 'https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/packaging/04r00485-02.pdf'
+  device_type: 'EQFP' # temporary
+  body_size_x:
+    nominal: 20
+  body_size_y:
+    nominal: 20
+  overall_size_x:
+    nominal: 22
+  overall_size_y:
+    nominal: 22
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 36
+  num_pins_y: 36
+  EP_size_x: 6.61
+  EP_size_y: 5.615
+  EP_num_paste_pads: [5, 4]
+  thermal_vias:
+    count: [5, 4]
+    drill: 0.2
+    grid: [1.3, 1.4]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+EQFP-144-1EP_20x20mm_P0.5mm_EP7.2x6.35mm:
+# Based on JEDEC MS-026, variation BFB-HD, it's LQFP (height 1.65mm max)
+  size_source: 'https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/packaging/04r00487-01.pdf'
+  device_type: 'EQFP' # temporary
+  body_size_x:
+    nominal: 20
+  body_size_y:
+    nominal: 20
+  overall_size_x:
+    nominal: 22
+  overall_size_y:
+    nominal: 22
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 36
+  num_pins_y: 36
+  EP_size_x: 7.2
+  EP_size_y: 6.35
+  EP_num_paste_pads: [6, 5]
+  thermal_vias:
+    count: [6, 5]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+EQFP-144-1EP_20x20mm_P0.5mm_EP8.93x8.7mm:
+# Based on JEDEC MS-026, variation BFB-HD, it's LQFP (height 1.65mm max)
+  size_source: 'https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/packaging/04r00479-02.pdf'
+  device_type: 'EQFP' # temporary
+  body_size_x:
+    nominal: 20
+  body_size_y:
+    nominal: 20
+  overall_size_x:
+    nominal: 22
+  overall_size_y:
+    nominal: 22
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 36
+  num_pins_y: 36
+  EP_size_x: 8.93
+  EP_size_y: 8.7
+  EP_num_paste_pads: [7, 7]
+  thermal_vias:
+    count: [7, 7]
+    drill: 0.2
+    grid: [1.2, 1.2]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+LQFP-160_24x24mm_P0.5mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT435-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 23.9
+    maximum: 24.1
+  body_size_y:
+    minimum: 23.9
+    maximum: 24.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 25.85
+    maximum: 26.15
+  overall_size_y:
+    minimum: 25.85
+    maximum: 26.15
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 40
+  num_pins_y: 40
+
+TQFP-176_20x20mm_P0.4mm:
+  size_source: 'JEDEC MS-026 variation AFC, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  compatible_mpns:
+    - 'Microsemi_VQ176' # https://web.archive.org/web/20220119120813/https://www.microsemi.com/document-portal/doc_download/131095-pd3068-package-mechanical-drawings#page=64
+  device_type: 'TQFP'
+  body_size_x: 20.00
+  body_size_y: 20.00
+  body_height: 0.95 .. 1.00 .. 1.05 # JEDEC A2
+  overall_height: 1.00 .. 1.20 # JEDEC A, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15 # JEDEC A1
+  overall_size_x: 22.00
+  overall_size_y: 22.00
+  lead_width: 0.13 .. 0.18 .. 0.23 # JEDEC b
+  lead_len: 0.45 .. 0.60 .. 0.75 # JEDEC L
+  lead_height: 0.09 .. 0.20 # JEDEC c
+  pitch: 0.40
+  num_pins_x: 44
+  num_pins_y: 44
+
+LQFP-176_20x20mm_P0.4mm:
+  inherit: TQFP-176_20x20mm_P0.4mm
+  size_source: 'JEDEC MS-026 variation BFC, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  compatible_mpns:
+    - 'Onsemi_CASE-566DB' # Onsemi version has tolerances in body_size_x / others, lead_width / lead_len have small differences, https://www.onsemi.com/pub/Collateral/566DB.PDF
+    - 'Texas_PBL-(S-PQFP-G176)' # https://www.ti.com/lit/ml/mtqf018c/mtqf018c.pdf
+  device_type: 'LQFP'
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.40 .. 1.60 # JEDEC A, minimum calculated from A1_min + A2_min
+
+LQFP-176_24x24mm_P0.5mm:
+  size_source: 'https://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=163' # actually page 160
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 23.9
+    maximum: 24.1
+  body_size_y:
+    minimum: 23.9
+    maximum: 24.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 25.9
+    maximum: 26.1
+  overall_size_y:
+    minimum: 25.9
+    maximum: 26.1
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 44
+  num_pins_y: 44
+
+LQFP-176-1EP_24x24mm_P0.5mm_EP6.6x6.6mm:
+# Most similar JEDEC MS-026 variation BGA https://www.jedec.org/document_search?search_api_views_fulltext=MS-026
+# Manufacturer doesn't declare a JEDEC variant.
+# Tolerances / height / custom Exposed Pad from Infineon https://www.infineon.com/cms/en/product/packages/PG-TQFP/PG-TQFP-176-801/
+# Height = 1.70 mm max, so LQFP, but manufacturer calls it TQFP
+  size_source: 'https://www.infineon.com/cms/en/product/packages/PG-TQFP/PG-TQFP-176-801/'
+  compatible_mpns:
+    - Infineon-PG-TQFP-176-801
+  # Footprint drawing: https://www.infineon.com/dgdl/Infineon-PG-TQFP-176-801_FPD_PDF-Footprint-v00_00-EN.pdf?fileId=8ac78c8c8b6555fe018c34a477e2186a
+  # Package drawing: https://www.infineon.com/dgdl/Infineon-PG-TQFP-176-801_SPO_PDF-Package-v00_00-EN.pdf?fileId=8ac78c8c8b6555fe018c34a4bb1e1870
+  device_type: 'LQFP'
+  body_size_x: 24 +/- 0.2  # ISO 2768-1mK
+  body_size_y: 24 +/- 0.2
+  overall_height:
+    maximum: 1.70
+  overall_size_x: 26 +/- 0.2
+  overall_size_y: 26 +/- 0.2
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.6 .. 0.75
+  pitch: 0.5
+  num_pins_x: 44
+  num_pins_y: 44
+  EP_size_x: 6.6 +/- 0.2
+  EP_size_y: 6.6 +/- 0.2
+  EP_num_paste_pads: [5, 5]
+  EP_paste_coverage: 0.65
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+
+LQFP-208_28x28mm_P0.5mm:
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT459-1.pdf'
+  device_type: 'LQFP'
+  body_size_x:
+    minimum: 27.9
+    maximum: 28.1
+  body_size_y:
+    minimum: 27.9
+    maximum: 28.1
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 29.85
+    maximum: 30.15
+  overall_size_y:
+    minimum: 29.85
+    maximum: 30.15
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 52
+  num_pins_y: 52
+
+LQFP-216_24x24mm_P0.4mm:
+  size_source: 'https://www.onsemi.com/pub/Collateral/561BE.PDF'
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 24
+    tolerance: 0
+  body_size_y:
+    nominal: 24
+    tolerance: 0
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 26
+    tolerance: 0
+  overall_size_y:
+    nominal: 26
+    tolerance: 0
+  lead_width:
+    minimum: 0.13
+    maximum: 0.23
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 54
+  num_pins_y: 54
+
+TQFP-32_7x7mm_P0.8mm:
+  size_source: 'JEDEC MS-026 variation ABA, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=656'
+  device_type: 'TQFP'
+  body_size_x: 7.0
+  body_size_y: 7.0
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 9.0
+  overall_size_y: 9.0
+  lead_width: 0.30 .. 0.37 .. 0.45
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.80
+  num_pins_x: 8
+  num_pins_y: 8
+
+TQFP-44_10x10mm_P0.8mm:
+  size_source: 'JEDEC MS-026 variation ACB, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=658'
+  compatible_mpns:
+    - 'Microchip_44-Lead-Plastic-Thin-Quad-Flatpack-(PT)'
+  device_type: 'TQFP'
+  body_size_x: 10.00
+  body_size_y: 10.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 12.00
+  overall_size_y: 12.00
+  lead_width: 0.30 .. 0.37 .. 0.45
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.80
+  num_pins_x: 11
+  num_pins_y: 11
+
+TQFP-44-1EP_10x10mm_P0.8mm_EP4.5x4.5mm:
+  inherit: TQFP-44_10x10mm_P0.8mm
+  size_source: 'JEDEC MS-026 variation ACB, 1.00mm body thickness, custom Exposed Pad from Microchip, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=662' # https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=444
+  compatible_mpns:
+    - 'Microchip_44-Lead-Plastic-Thin-Quad-Flatpack-(MW)'
+  EP_size_x: 4.40 .. 4.50 .. 4.60
+  EP_size_y: 4.40 .. 4.50 .. 4.60
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    grid: [1, 1]
+    drill: 0.2
+
+LQFP-44_10x10mm_P0.8mm:
+  inherit: TQFP-44_10x10mm_P0.8mm
+  size_source: 'JEDEC MS-026 variation BCB, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.nxp.com.cn/docs/en/package-information/98ASS23225W.pdf'
+  compatible_mpns:
+    - 'NXP_SOT389-2'
+    - 'Onsemi_CASE-561AA' # https://www.mouser.com/datasheet/2/308/1/AMIS_492X0_D-1801898.pdf#page=17'
+    - 'Renesas_44-TQFP Renesas_PPG44D1' # https://www.renesas.com/en/document/psc/44-tqfp-package-outline-drawing-100-x100-x-14-mm-body-080mm-pitch-ppg44d1
+    - 'Infineon_PG-TQFP-44-801' # https://www.infineon.com/package/PG-TQFP-44-801
+    - 'Analog_ST-44-1' # https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lqfpst/st_44_1.pdf
+  device_type: 'LQFP'
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.40 .. 1.60 # JEDEC, minimum calculated from A1_min + A2_min
+
+TQFP-64_14x14mm_P0.8mm:
+  size_source: 'JEDEC MS-026 variation AEB, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=672'
+  # one more source: https://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2490-8-bit-avr-microcontroller-atmega64-l_datasheet.pdf#page=399
+  device_type: 'TQFP'
+  body_size_x: 14.00
+  body_size_y: 14.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 16.00
+  overall_size_y: 16.00
+  lead_width: 0.30 .. 0.37 .. 0.45
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.80
+  num_pins_x: 16
+  num_pins_y: 16
+
+TQFP-52-1EP_10x10mm_P0.65mm_EP6.5x6.5mm:
+  size_source: 'http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_52_1.pdf'
+  device_type: 'TQFP'
+  body_size_x:
+    nominal: 10
+    tolerance: 0
+  body_size_y:
+    nominal: 10
+    tolerance: 0
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.20 # max, similar to JEDEC MS-026 variation ACC
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 12
+    tolerance: 0
+  overall_size_y:
+    nominal: 12
+    tolerance: 0
+  lead_width: 0.22 .. 0.38
+  lead_len: 0.45 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 13
+  num_pins_y: 13
+  EP_size_x:
+    minimum: 6.4
+    nominal: 6.5
+    maximum: 6.6
+  EP_size_y:
+    minimum: 6.4
+    nominal: 6.5
+    maximum: 6.6
+  EP_num_paste_pads: [5, 5]
+  EP_paste_coverage: 0.65
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+TQFP-80_14x14mm_P0.65mm:
+# previously it was VQFP-80_14x14mm_P0.65mm, renamed properly
+  size_source: 'JEDEC MS-026 variation AEC, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=679'
+  compatible_mpns:
+    - 'Microsemi_VQ80' # Microsemi, https://web.archive.org/web/20220119120813/https://www.microsemi.com/document-portal/doc_download/131095-pd3068-package-mechanical-drawings#page=64
+    - 'NXP_TQFP80 NXP_SOT1093-1' # NXP (compatible, D / E sizes have tolerances), https://www.nxp.com/docs/en/package-information/SOT1093-1.pdf
+  device_type: 'TQFP'
+  force_small_pitch_ipc_definition: True # True: generates 0.40mm pad with 0.25mm clearance; False: generates 0.50mm pad with just 0.15mm clearance
+  body_size_x: 14.00
+  body_size_y: 14.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 16.00
+  overall_size_y: 16.00
+  lead_width: 0.22 .. 0.32 .. 0.38
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 20
+  num_pins_y: 20
+
+TQFP-80-1EP_14x14mm_P0.65mm_EP9.5x9.5mm:
+  inherit: TQFP-80_14x14mm_P0.65mm
+  size_source: 'Based on JEDEC MS-026 variation AEC, 1.00mm body thickness, lead width / tolerances / custom Exposed Pad from Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_80_4.pdf'
+  compatible_mpns:
+    - 'Analog-Devices_SV-80-4' # https://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf#page=41
+  force_small_pitch_ipc_definition: False # generates 0.40mm pad with 0.25mm clearance
+  body_size_x: 13.80 .. 14.00 .. 14.20 # nominal size matches JEDEC, minimum / maximum from Analog Devices
+  body_size_y: 13.80 .. 14.00 .. 14.20
+  body_height: 0.95 .. 1.00 .. 1.05
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 15.80 .. 16.00 .. 16.20
+  overall_size_y: 15.80 .. 16.00 .. 16.20
+  lead_width: 0.17 .. 0.22 .. 0.27 # from Analog Devices
+  lead_height: 0.09 .. 0.20
+  EP_size_x: 9.50
+  EP_size_y: 9.50
+  EP_num_paste_pads: [6, 6]
+  thermal_vias:
+    count: [9, 9]
+    drill: 0.2
+    grid: [1.05, 1.05] # some vias will be completely out of paste pad this way
+    EP_num_paste_pads: [6, 6]
+
+TQFP-32_5x5mm_P0.5mm:
+# this is compatible with Texas_TQFP-32_5x5mm_P0.5mm (below), replacing 'PQFP-32_5x5mm_P0.5mm' (it was actually a TQFP!)
+  size_source: 'JEDEC MS-026 variation AAA, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  # other sources: https://www.renesas.com/en/document/psc/package-drawing-tqfp-32pin-q325x5
+  device_type: 'TQFP'
+  body_size_x: 5.00
+  body_size_y: 5.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 7.00
+  overall_size_y: 7.00
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50
+  num_pins_x: 8
+  num_pins_y: 8
+
+TQFP-48_7x7mm_P0.5mm:
+# compatible with JEITA 48-001-TBA
+  size_source: 'JEDEC MS-026 variation ABC, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=666'
+  # other sources: http://ww1.microchip.com/downloads/en/DeviceDoc/48L_TQFP_7x7x1_0mm_PT_C04-00300d.pdf, https://ww1.microchip.com/downloads/aemDocuments/documents/package-outline-drawings/c04-21016b.pdf
+  compatible_mpns:
+    - 'P48GA-50-HAA-2 pkg_3304 PTQP0048KC-A' # Intersil / Renesas, https://www.renesas.com/en/document/psc/package-drawing-tfqfp-48pin-ptqp0048kc
+    - 'C48-11' # Maxim / Analog https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp/21-0561.pdf
+    - 'PFB0048A' # Texas Instruments, https://www.ti.com/lit/ml/mtqf019b/mtqf019b.pdf
+  device_type: 'TQFP'
+  body_size_x: 7.00 # basic / BSC
+  body_size_y: 7.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 9.00 # basic / BSC
+  overall_size_y: 9.00
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50
+  num_pins_x: 12
+  num_pins_y: 12
+
+TQFP-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm:
+  inherit: TQFP-48_7x7mm_P0.5mm
+  size_source: 'JEDEC MS-026 variation ABC, 1.00mm body thickness, custom Exposed Pad from Microchip and Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=664, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_48_4.pdf'
+  compatible_mpns:
+    - 'SV-48-4' # Analog Devices
+  device_type: 'TQFP'
+  body_height: 0.95 .. 1.00 .. 1.05
+  body_pcb_gap: 0.05 .. 0.15
+  lead_height: 0.09 .. 0.20
+  EP_size_x: 3.50
+  EP_size_y: 3.50
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    grid: [1, 1]
+    EP_num_paste_pads: [2, 2]
+
+LQFP-48_7x7mm_P0.5mm:
+  inherit: TQFP-48_7x7mm_P0.5mm
+  size_source: 'JEDEC MS-026 variation BBC, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-lqfp/05081760_a_lx48.pdf'
+  compatible_mpns:
+    - 'CASE-932AA'  # https://www.onsemi.com/pub/collateral/932aa.pdf, https://www.mouser.com/datasheet/2/308/ADM1026_D-2310009.pdf#page=55
+    - 'CASE-932-03' # NXP, https://www.nxp.com/docs/en/data-sheet/MC9S08LG32.pdf#page=48
+    - 'C48-1 C48-2 C48-3 C48-5 C48-6 C48-6C' # Maxim / Analog Devices, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lqfp/21-0054.pdf
+    - 'PT0048A'     # Texas Instruments, https://www.ti.com/lit/ml/mtqf003c/mtqf003c.pdf
+  device_type: 'LQFP'
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.40 .. 1.60 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  lead_height: 0.09 .. 0.20
+
+LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm:
+  size_source: 'http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf'
+  device_type: 'LQFP'
+  body_size_x: 7
+  body_size_y: 7
+  body_height: 1.35 .. 1.40 .. 1.45
+  overall_height: 1.60 # max, it should be inherited from LQFP-48_7x7mm_P0.5mm
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 9
+  overall_size_y: 9
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.45 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 12
+  num_pins_y: 12
+  EP_size_x: 3.6 +/- 0.1
+  EP_size_y: 3.6 +/- 0.1
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    grid: [1, 1]
+    paste_via_clearance: 0.1
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+Texas_PHP0048E_HTQFP-48_7x7mm_P0.5mm:
+# Generates Texas_PHP0048E_HTQFP-48-1EP_7x7mm_P0.5mm_EP6.5x6.5mm_Mask3.62x3.62mm
+  size_source: 'https://www.ti.com/lit/ds/symlink/tusb4020bi.pdf#page=42'
+  device_type: 'HTQFP'
+  manufacturer: "Texas"
+  part_number: "PHP0048E"
+  body_size_x: 6.8 .. 7.2
+  body_size_y: 6.8 .. 7.2
+  overall_height: 1.2 # max, similar to JEDEC MS-026 variation ABC (but custom exposed pad from TI)
+  overall_size_x: 8.8 .. 9.2
+  overall_size_y: 8.8 .. 9.2
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.45 .. 0.75
+  pitch: 0.5
+  num_pins_x: 12
+  num_pins_y: 12
+  EP_size_x: 3.15 .. 3.62
+  EP_size_y: 3.15 .. 3.62
+  EP_num_paste_pads: 1
+  EP_mask_x: 3.62
+  EP_mask_y: 3.62
+  EP_paste_coverage: 1
+  EP_size_x_overwrite: 6.5
+  EP_size_y_overwrite: 6.5
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+    paste_avoid_via: False
+    EP_num_paste_pads: 1
+    EP_paste_coverage: 1
+
+TQFP-48-1EP_7x7mm_P0.5mm_EP4.11x4.11mm:
+  size_source: 'https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf'
+  device_type: 'TQFP'
+  body_size_x: 7.0
+  body_size_y: 7.0
+  overall_height: 1.2 # max, it should be inherited from TQFP-48_7x7mm_P0.5mm
+  overall_size_x: 9.0
+  overall_size_y: 9.0
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  pitch: 0.5
+  num_pins_x: 12
+  num_pins_y: 12
+  EP_size_x: 4.0 .. 4.21
+  EP_size_y: 4.0 .. 4.21
+  EP_num_paste_pads: [4, 4]
+  EP_size_x_overwrite: 4.11
+  EP_size_y_overwrite: 4.11
+
+TQFP-48-1EP_7x7mm_P0.5mm_EP5.0x5.0mm:
+# height A = 1.20 mm max, it should be inherited from TQFP-48_7x7mm_P0.5mm
+# https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2100_datasheet_rev1.13.pdf#page=45
+  size_source: 'https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf (page 45)'
+  device_type: 'TQFP'
+  body_size_x:
+    nominal: 7
+    tolerance: 0
+  body_size_y:
+    nominal: 7
+    tolerance: 0
+  overall_size_x:
+    nominal: 9
+    tolerance: 0
+  overall_size_y:
+    nominal: 9
+    tolerance: 0
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 12
+  num_pins_y: 12
+  EP_size_x:
+    minimum: 4.9
+    nominal: 5.0
+    maximum: 5.1
+  EP_size_y:
+    minimum: 4.9
+    nominal: 5.0
+    maximum: 5.1
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+TQFP-64_10x10mm_P0.5mm:
+# some symbols like EX64-TQ64 and CY8C4245AZI-M445 which asks for a LQFP-64 (height A = 1.60 mm) are using this footprint, pending fix these bugs
+  size_source: 'JEITA/EIAJ ED-7311A (variation 64-001-TCA) / JEDEC MS-026 (variation ACD), 1.00mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=30, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026'
+  compatible_mpns:
+    - 'P-TQFP064-10.00x10.00-0.50' # JEITA external type
+    - 'P-TQFP064-1010-0.50' # EIAJ old description
+  device_type: 'TQFP'
+  body_size_x: 10.00 # JEITA D / JEDEC D1
+  body_size_y: 10.00 # JEITA E / JEDEC E1
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.10 .. 1.20 # minimum: JEITA A1_min + A2_min; nominal: JEITA A1_nom + A2_nom; maximum: JEITA A_max
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 12.00 # JEITA HD / JEDEC D
+  overall_size_y: 12.00 # JEITA HE / JEDEC E
+  lead_width: 0.17 .. 0.22 .. 0.27 # JEITA bp; nominal value from JEDEC b
+  lead_len: 0.45 .. 0.60 .. 0.75 # JEITA Lp; nominal value from JEDEC L
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50 # e
+  num_pins_x: 16
+  num_pins_y: 16
+
+Texas_TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.44x4.44mm:
+  inherit: TQFP-64_10x10mm_P0.5mm
+  size_source: 'Texas PAP0064M, based on JEDEC MS-026 variation ACD, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd078j/pptd078j.pdf, https://www.ti.com/lit/ds/symlink/tusb4041i.pdf#page=40'
+  compatible_mpns:
+    - 'Texas_PAP0064M Texas_PowerPAD-64-pin-HTQFP'
+  manufacturer: 'Texas'
+  # part_number: 'PAP0064M'
+  body_size_x: 9.8 .. 10.2
+  body_size_y: 9.8 .. 10.2
+  overall_size_x: 11.8 .. 12.2
+  overall_size_y: 11.8 .. 12.2
+  EP_size_x: 3.64 .. 4.44 # Exposed Pad from Texas package
+  EP_size_y: 3.64 .. 4.44
+  EP_num_paste_pads: [2, 2] # https://www.ti.com/lit/an/sloa122/sloa122.pdf#page=5
+  EP_mask_x: 4.44 # sizes based on Texas Board Layout example
+  EP_mask_y: 4.44 # sizes based on Texas Board Layout example
+  EP_size_x_overwrite: 8 # sizes based on Texas Board Layout example
+  EP_size_y_overwrite: 8 # sizes based on Texas Board Layout example
+  thermal_vias:
+    count: [8, 8]
+    drill: 0.2
+    grid: [1, 1]
+    EP_num_paste_pads: [2, 2]
+
+Texas_TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask5x5mm:
+  inherit: Texas_TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.44x4.44mm
+  size_source: 'Texas PAP (S-PQFP-G64), based on JEDEC MS-026 variation ACD, 1.00mm body thickness, https://www.ti.com/lit/ds/symlink/tfp410.pdf#page=41'
+  compatible_mpns:
+    - 'Texas_PAP-(S-PQFP-G64) Texas_PowerPAD-64-pin-HTQFP'
+  manufacturer: 'Texas'
+  EP_size_x: 4.30 .. 5.00 # Exposed Pad from Texas package
+  EP_size_y: 4.30 .. 5.00
+  EP_num_paste_pads: [3, 3] # https://www.ti.com/lit/an/sloa122/sloa122.pdf#page=5
+  EP_mask_x: 5.0 # sizes based on Texas Board Layout example, some values are inherited from parent footprint
+  EP_mask_y: 5.0 # sizes based on Texas Board Layout example, some values are inherited from parent footprint
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+    grid: [1.3, 1.3]
+    EP_num_paste_pads: [3, 3]
+
+TQFP-64-1EP_10x10mm_P0.5mm_EP5.305x5.305mm:
+# similar to JEDEC MS-026 variation ACD (but custom Exposed Pad)
+  size_source: 'https://www.esstech.com/wp-content/uploads/2022/09/ES9028PRO-Datasheet-v3.7.pdf#page=54'
+  compatible_mpns:
+    - ESS-eTQFP-64
+  device_type: 'TQFP'
+  body_size_x: 9.9 .. 10 .. 10.10
+  body_size_y: 9.9 .. 10 .. 10.10
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 11.75 .. 12.00 .. 12.25
+  overall_size_y: 11.75 .. 12.00 .. 12.25
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 16
+  num_pins_y: 16
+  EP_size_x: 5.13 .. 5.48
+  EP_size_y: 5.13 .. 5.48
+  EP_num_paste_pads: [ 4, 4 ]
+  thermal_vias:
+    count: [ 5, 5 ]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+TQFP-80_12x12mm_P0.5mm:
+  size_source: 'JEDEC MS-026 variation ADD, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/aemDocuments/documents/package-outline-drawings/c04-00092c.pdf'
+  # other sources: https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=681
+  compatible_mpns:
+    - 'Microchip_X2X'
+  device_type: 'TQFP'
+  body_size_x: 12.00 # basic / BSC
+  body_size_y: 12.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # JEDEC, minimum calculated from A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 14.00 # basic / BSC
+  overall_size_y: 14.00
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50
+  num_pins_x: 20
+  num_pins_y: 20
+
+TQFP-100_14x14mm_P0.5mm:
+  size_source: 'JEDEC MS-026 variation AED, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=683'
+  compatible_mpns:
+    - 'VQ100'      # Microsemi, https://web.archive.org/web/20220119120813/https://www.microsemi.com/document-portal/doc_download/131095-pd3068-package-mechanical-drawings#page=64
+    - 'CASE-932AN' # Onsemi, https://www.onsemi.jp/download/package-drawing/pdf/932an.pdf, https://www.onsemi.com/download/data-sheet/pdf/lc88fc2f0b-d.pdf#page=7
+    - '983B-01'    # Freescale / NXP, https://www.nxp.com/docs/en/package-information/98ASS23821W.pdf
+    - 'SOT386-1'   # NXP, https://www.nxp.com/docs/en/package-information/SOT386-1.pdf
+    - 'C100-1'     # Maxim / Analog Devices, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp/21-0085.pdf
+  device_type: 'TQFP'
+  body_size_x: 14.00
+  body_size_y: 14.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 16.00
+  overall_size_y: 16.00
+  lead_width: 0.17 .. 0.22 .. 0.27
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.50
+  num_pins_x: 25
+  num_pins_y: 25
+
+TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm:
+# similar to JEDEC MS-026 variation AED (but custom Exposed Pad), we should inherit from TQFP-100_14x14mm_P0.5mm
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_100_4.pdf'
+  device_type: 'TQFP'
+  body_size_x:
+    nominal: 14
+  body_size_y:
+    nominal: 14
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height:
+    minimum: 1
+    maximum: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 16
+  overall_size_y:
+    nominal: 16
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.60
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 25
+  num_pins_y: 25
+  EP_size_x:
+    nominal: 5.0
+  EP_size_y:
+    nominal: 5.0
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x.96mm:
+  size_source: 'JEDEC MS-026 variation BED with exposed pad, 1.60mm max body thickness, https://www.jedec.org/system/files/docs/MS-026D.pdf, https://www.nxp.com/docs/en/package-information/SOT2229-1.pdf'
+  compatible_mpns:
+    - '98ASA02131D'  # NXP: https://www.nxp.com/docs/en/package-information/SOT2229-1.pdf
+    - 'SOT2229-1'  # NXP: https://www.nxp.com/docs/en/package-information/SOT2229-1.pdf
+  device_type: 'LQFP'
+  body_size_x:
+    nominal: 14
+  body_size_y:
+    nominal: 14
+  overall_height:
+    minimum: 1.5
+    maximum: 1.6
+  overall_size_x:
+    nominal: 16
+  overall_size_y:
+    nominal: 16
+  lead_width:
+    minimum: 0.17
+    nominal: 0.22
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    nominal: 0.60
+    maximum: 0.75
+  pitch: 0.5
+  num_pins_x: 25
+  num_pins_y: 25
+  EP_size_x:
+    nominal: 6.9
+  EP_size_y:
+    nominal: 6.9
+  EP_num_paste_pads: [3, 3] # Per NXP reccomended footprint
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+TQFP-176_24x24mm_P0.5mm:
+# Manufacturer calls it 'TQ176' and says it's based on MS-026 VAR BCA ('C' here is probably a typo),
+# but take a look at JEDEC MS-026 variation BGA (E1 and D1 sizes), this is actually LQFP (height A = 1.60 mm max)
+# 3D model has height = 1.60mm, and there's already a LQFP with these sizes,
+# we should change 'size_source' to match MS-026 variation AGA (TQFP, height A = 1.20mm) and fix the 3D model
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  device_type: 'TQFP'
+  body_size_x:
+    nominal: 24
+  body_size_y:
+    nominal: 24
+  body_height: 0.95 .. 1.00 .. 1.05
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 26
+  overall_size_y:
+    nominal: 26
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.45
+    maximum: 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 44
+  num_pins_y: 44
+
+TQFP-64_7x7mm_P0.4mm:
+  size_source: 'JEDEC MS-026 variation ABD, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfpsu/su_64_1.pdf'
+  compatible_mpns:
+    - 'SU-64-1' # Analog Devices
+    - 'CASE-932BH' # Onsemi, https://www.onsemi.com/pub/Collateral/932BH.PDF
+  device_type: 'TQFP'
+  body_size_x: 7.00
+  body_size_y: 7.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 9.00
+  overall_size_y: 9.00
+  lead_width: 0.13 .. 0.18 .. 0.23
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.40
+  num_pins_x: 16
+  num_pins_y: 16
+
+TQFP-100_12x12mm_P0.4mm:
+# inherit JEDEC MS-026 BDE (LQFP) from here
+  size_source: 'JEDEC MS-026 variation ADE, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=685'
+  compatible_mpns:
+    - 'S100GK-40-9EV-1 pkg_8212 PTQP0100LD-A' # Intersil / Renesas, https://www.renesas.com/en/package/pkg8212, https://www.renesas.com/ja/document/psc/package-drawing-tfqfp-100pin-ptqp0100ld
+  device_type: 'TQFP'
+  body_size_x: 12.00
+  body_size_y: 12.00
+  body_height: 0.95 .. 1.00 .. 1.05
+  overall_height: 1.00 .. 1.20 # minimum = A1_min + A2_min
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 14.00
+  overall_size_y: 14.00
+  lead_width: 0.13 .. 0.18 .. 0.23
+  lead_len: 0.45 .. 0.60 .. 0.75 # Intersil / Renesas is L = 0.50 +/- 0.20 mm
+  lead_height: 0.09 .. 0.20
+  pitch: 0.40
+  num_pins_x: 25
+  num_pins_y: 25
+  pad_size_y_overwrite: 0.20 # keep same pad width from old handmade and Microchip land pattern, this way it generates with gap between pads of 0.20 mm
+
+##############################################################################
+# VQFP, height A = 0.80 .. 1.00 mm
+##############################################################################
+
+
+##############################################################################
+# WQFP, height A = 0.65 .. 0.80 mm
+##############################################################################

@@ -1,0 +1,1553 @@
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal:
+  ddrill: 0.5
+  part_number: AT310
+  description: Crystal, with length tolerance
+  datasheet: https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+  footprint_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 3
+  pack_offset: 3
+  pack_rm: 1.2
+  pack_width: 10.5
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3.5
+  package_pad_size:
+  - 10.5
+  - 3.2
+  pad_size: 1
+  pad_style: tht
+  rm: 2.54
+  style: flat
+
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: AT310
+  description: Crystal, with length tolerance
+  datasheet: https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+  footprint_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 3
+  pack_offset: 3
+  pack_rm: 1.2
+  pack_width: 10.5
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3.5
+  package_pad_size:
+  - 10.5
+  - 3.2
+  pad_size: 1
+  pad_style: tht
+  rm: 2.54
+  style: flat
+
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: AT310
+  description: Crystal, with length tolerance
+  datasheet: https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+  footprint_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 3
+  pack_offset: 3
+  pack_rm: 1.2
+  pack_width: 10.5
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3.5
+  package_pad_size:
+  - 10.5
+  - 3.2
+  pad_size: 1
+  pad_style: tht
+  rm: 2.54
+  style: flat
+
+Crystal_AT310_D3.0mm_L10.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: AT310
+  description: Crystal, with length tolerance
+  datasheet: https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+  footprint_name: Crystal_AT310_D3.0mm_L10.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 3
+  pack_length: 10.5
+  pad_size: 1
+  rm: 2.54
+
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal:
+  ddrill: 0.5
+  part_number: C26-LF
+  description: Crystal
+  footprint_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 2.06
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6.5
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6.5
+  - 2.2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: C26-LF
+  description: Crystal
+  footprint_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 2.06
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6.5
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6.5
+  - 2.2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: C26-LF
+  description: Crystal
+  footprint_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 2.06
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6.5
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6.5
+  - 2.2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C26-LF_D2.1mm_L6.5mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: C26-LF
+  description: Crystal
+  footprint_name: Crystal_C26-LF_D2.1mm_L6.5mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 2.06
+  pack_length: 6.5
+  pad_size: 1
+  rm: 1.9
+
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal:
+  ddrill: 0.5
+  part_number: C38-LF
+  description: Crystal
+  footprint_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 3
+  pack_offset: 2.5
+  pack_rm: 1.09
+  pack_width: 8
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3
+  package_pad_size:
+  - 8
+  - 3
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: C38-LF
+  description: Crystal
+  footprint_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 3
+  pack_offset: 2.5
+  pack_rm: 1.09
+  pack_width: 8
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3
+  package_pad_size:
+  - 8
+  - 3
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: C38-LF
+  description: Crystal
+  footprint_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 3
+  pack_offset: 2.5
+  pack_rm: 1.09
+  pack_width: 8
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 3
+  package_pad_size:
+  - 8
+  - 3
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_C38-LF_D3.0mm_L8.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: C38-LF
+  description: Crystal
+  footprint_name: Crystal_C38-LF_D3.0mm_L8.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 3
+  pack_length: 8.0
+  pad_size: 1
+  rm: 1.9
+
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal:
+  ddrill: 0.5
+  part_number: DS10
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS10_D1.0mm_L4.3mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 1
+  pack_offset: 1.5
+  pack_rm: 0.3
+  pack_width: 4.3
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 4.3
+  - 1.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.5
+  style: flat
+
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: DS10
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS10_D1.0mm_L4.3mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 1
+  pack_offset: 1.5
+  pack_rm: 0.3
+  pack_width: 4.3
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 4.3
+  - 1.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.5
+  style: flat
+
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: DS10
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS10_D1.0mm_L4.3mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 1
+  pack_offset: 1.5
+  pack_rm: 0.3
+  pack_width: 4.3
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 4.3
+  - 1.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.5
+  style: flat
+
+Crystal_DS10_D1.0mm_L4.3mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: DS10
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS10_D1.0mm_L4.3mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 1
+  pack_length: 4.3
+  pad_size: 1
+  rm: 1.5
+
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal:
+  ddrill: 0.5
+  part_number: DS15
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS15_D1.5mm_L5.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 1.5
+  pack_offset: 1.5
+  pack_rm: 0.5
+  pack_width: 5
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 5
+  - 2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.7
+  style: flat
+
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: DS15
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS15_D1.5mm_L5.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 1.5
+  pack_offset: 1.5
+  pack_rm: 0.5
+  pack_width: 5
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 5
+  - 2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.7
+  style: flat
+
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: DS15
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS15_D1.5mm_L5.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 1.5
+  pack_offset: 1.5
+  pack_rm: 0.5
+  pack_width: 5
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2
+  package_pad_size:
+  - 5
+  - 2
+  pad_size: 1
+  pad_style: tht
+  rm: 1.7
+  style: flat
+
+Crystal_DS15_D1.5mm_L5.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: DS15
+  description: Crystal DS15
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS15_D1.5mm_L5.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 1.5
+  pack_length: 5.0
+  pad_size: 1
+  rm: 1.7
+
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal:
+  ddrill: 0.5
+  part_number: DS26
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS26_D2.0mm_L6.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 2
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6
+  - 2.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1:
+  ddrill: 0.5
+  part_number: DS26
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS26_D2.0mm_L6.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 2
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6
+  - 2.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style2:
+  ddrill: 0.5
+  part_number: DS26
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS26_D2.0mm_L6.0mm_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 2
+  pack_offset: 2
+  pack_rm: 0.7
+  pack_width: 6
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.5
+  package_pad_drill_size:
+  - 1
+  - 1
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 6
+  - 2.5
+  pad_size: 1
+  pad_style: tht
+  rm: 1.9
+  style: flat
+
+Crystal_DS26_D2.0mm_L6.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: DS26
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_DS26_D2.0mm_L6.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 2
+  pack_length: 6.0
+  pad_size: 1
+  rm: 1.9
+
+Crystal_HC18-U_Horizontal:
+  ddrill: 0.8
+  part_number: HC18/U
+  description: Crystal
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC18-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC18-U_Horizontal_1EP_style1:
+  ddrill: 0.8
+  part_number: HC18/U
+  description: Crystal HC-18/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC18-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC18-U_Horizontal_1EP_style2:
+  ddrill: 0.8
+  part_number: HC18/U
+  description: Crystal
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC18-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC18-U_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-18/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC18-U_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 13
+  innerpack_height: 4
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 4.65
+  pack_width: 10.9
+  pad_size: 1.5
+  pins: 2
+  rm: 4.9
+
+Crystal_HC33-U_Horizontal:
+  ddrill: 1.7
+  description: Crystal
+  part_number: HC-33/U
+  datasheet: http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+  footprint_name: Crystal_HC33-U_Horizontal
+  func: makeCrystal
+  height3d: 8.94
+  iheight3d: 8.05
+  lib_name: Crystal
+  pack_height: 19.23
+  pack_offset: 2.5
+  pack_rm: 12.34
+  pack_width: 19.7
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.7
+  pad_style: tht
+  rm: 12.34
+  style: hc49
+
+Crystal_HC33-U_Horizontal_1EP_style1:
+  ddrill: 1.7
+  description: Crystal
+  part_number: HC-33/U
+  datasheet: http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+  footprint_name: Crystal_HC33-U_Horizontal
+  func: makeCrystal
+  height3d: 8.94
+  iheight3d: 8.05
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 19.23
+  pack_offset: 2.5
+  pack_rm: 12.34
+  pack_width: 19.7
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.7
+  pad_style: tht
+  rm: 12.34
+  style: hc49
+
+Crystal_HC33-U_Horizontal_1EP_style2:
+  ddrill: 1.7
+  description: Crystal
+  part_number: HC-33/U
+  datasheet: http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+  footprint_name: Crystal_HC33-U_Horizontal
+  func: makeCrystal
+  height3d: 8.94
+  iheight3d: 8.05
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 19.23
+  pack_offset: 2.5
+  pack_rm: 12.34
+  pack_width: 19.7
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.7
+  pad_style: tht
+  rm: 12.34
+  style: hc49
+
+Crystal_HC33-U_Vertical:
+  ddrill: 1.7
+  description: Crystal
+  part_number: HC-33/U,
+  datasheet: http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+  footprint_name: Crystal_HC33-U_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 19.7
+  innerpack_height: 8.05
+  innerpack_width: 18.42
+  lib_name: Crystal
+  pack_height: 8.94
+  pack_width: 19.23
+  pad_size: 2.7
+  pins: 2
+  rm: 12.34
+
+Crystal_HC49-4H_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-49-4H
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC49-4H_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 4
+  innerpack_height: 4
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 4.65
+  pack_width: 11.05
+  pad_size: 1.5
+  pins: 2
+  rm: 4.88
+
+Crystal_HC49-U-3Pin_Vertical:
+  ddrill: 0.8
+  description: Crystal, 3-pinversion
+  part_number: HC-49/U
+  datasheet: http://www.raltron.com/products/pdfspecs/crystal_hc_49_45_51.pdf
+  footprint_name: Crystal_HC49-U-3Pin_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 13
+  innerpack_height: 4
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 4.65
+  pack_width: 10.9
+  pad_size: 1.5
+  pins: 3
+  rm: 2.44
+
+Crystal_HC49-U_Horizontal:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-49/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC49-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC49-U_Horizontal_1EP_style1:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-49/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC49-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC49-U_Horizontal_1EP_style2:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-49/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC49-U_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 4
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 10.9
+  pack_offset: 2
+  pack_rm: 4.9
+  pack_width: 13.0
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 13.5
+  - 11
+  pad_size: 1.5
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC49-U_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-49/U
+  datasheet: http://5hertz.com/pdfs/04404_D.pdf
+  footprint_name: Crystal_HC49-U_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 13
+  innerpack_height: 4
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 4.65
+  pack_width: 10.9
+  pad_size: 1.5
+  pins: 2
+  rm: 4.88
+
+Crystal_HC50_Horizontal:
+  ddrill: 1.5
+  description: Crystal
+  part_number: HC-50
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC50_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 3.8
+  lib_name: Crystal
+  pack_height: 11.05
+  pack_offset: 2.5
+  pack_rm: 4.9
+  pack_width: 13.36
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 14
+  - 11.5
+  pad_size: 2.3
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC50_Horizontal_1EP_style1:
+  ddrill: 1.5
+  description: Crystal
+  part_number: HC-50
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC50_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 3.8
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 11.05
+  pack_offset: 2.5
+  pack_rm: 4.9
+  pack_width: 13.36
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 14
+  - 11.5
+  pad_size: 2.3
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC50_Horizontal_1EP_style2:
+  ddrill: 1.5
+  description: Crystal
+  part_number: HC-50
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC50_Horizontal
+  func: makeCrystal
+  height3d: 4.65
+  iheight3d: 3.8
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 11.05
+  pack_offset: 2.5
+  pack_rm: 4.9
+  pack_width: 13.36
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 14
+  - 11.5
+  pad_size: 2.3
+  pad_style: tht
+  rm: 4.9
+  style: hc49
+
+Crystal_HC50_Vertical:
+  ddrill: 1.5
+  description: Crystal
+  part_number: HC-50
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC50_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 13.36
+  innerpack_height: 3.8
+  innerpack_width: 10.2
+  lib_name: Crystal
+  pack_height: 4.65
+  pack_width: 11.05
+  pad_size: 2.3
+  pins: 2
+  rm: 4.9
+
+Crystal_HC51-U_Vertical:
+  ddrill: 1.2
+  description: Crystal
+  part_number: HC-51/U
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC51-U_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 19.7
+  innerpack_height: 7.6
+  innerpack_width: 18
+  lib_name: Crystal
+  pack_height: 8.9
+  pack_width: 19.3
+  pad_size: 2.3
+  pins: 2
+  rm: 12.35
+
+Crystal_HC51_Horizontal:
+  ddrill: 1.2
+  description: Crystal
+  part_number: HC-51
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC51_Horizontal
+  func: makeCrystal
+  height3d: 8.9
+  iheight3d: 7.6
+  lib_name: Crystal
+  pack_height: 19.3
+  pack_offset: 2.5
+  pack_rm: 12.35
+  pack_width: 19.7
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.3
+  pad_style: tht
+  rm: 12.35
+  style: hc49
+  tags: ''
+Crystal_HC51_Horizontal_1EP_style1:
+  ddrill: 1.2
+  description: Crystal
+  part_number: HC-51
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC51_Horizontal
+  func: makeCrystal
+  height3d: 8.9
+  iheight3d: 7.6
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 19.3
+  pack_offset: 2.5
+  pack_rm: 12.35
+  pack_width: 19.7
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.3
+  pad_style: tht
+  rm: 12.35
+  style: hc49
+  tags: ''
+Crystal_HC51_Horizontal_1EP_style2:
+  ddrill: 1.2
+  description: Crystal
+  part_number: HC-51
+  datasheet: http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+  footprint_name: Crystal_HC51_Horizontal
+  func: makeCrystal
+  height3d: 8.9
+  iheight3d: 7.6
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 19.3
+  pack_offset: 2.5
+  pack_rm: 12.35
+  pack_width: 19.7
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 2.5
+  package_pad_size:
+  - 20.5
+  - 20
+  pad_size: 2.3
+  pad_style: tht
+  rm: 12.35
+  style: hc49
+
+Crystal_HC52-6mm_Horizontal:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/6mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-6mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 6
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 6.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-6mm_Horizontal_1EP_style1:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/6mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-6mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 6
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 6.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-6mm_Horizontal_1EP_style2:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/6mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-6mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 6
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 6.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+  tags: ''
+Crystal_HC52-6mm_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-52/6mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-6mm_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 6
+  innerpack_height: 2.3
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 3.3
+  pack_width: 8
+  pad_size: 1.5
+  pins: 2
+  rm: 3.8
+
+Crystal_HC52-8mm_Horizontal:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/8mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-8mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 8.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-8mm_Horizontal_1EP_style1:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/8mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-8mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 8.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-8mm_Horizontal_1EP_style2:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/8mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-8mm_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 8.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-8mm_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-52/8mm
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-8mm_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 8
+  innerpack_height: 2.3
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 3.3
+  pack_width: 8
+  pad_size: 1.5
+  pins: 2
+  rm: 3.8
+
+Crystal_HC52-U-3Pin_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-52/U
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-U-3Pin_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 8.8
+  innerpack_height: 2.3
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 3.3
+  pack_width: 8
+  pad_size: 1.5
+  pins: 3
+  rm: 1.9
+
+Crystal_HC52-U_Horizontal:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/U
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-U_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8.8
+  package_pad: false
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 9.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-U_Horizontal_1EP_style1:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/U
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-U_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style1
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8.8
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 9.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-U_Horizontal_1EP_style2:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-51/U
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-U_Horizontal
+  func: makeCrystal
+  height3d: 3.3
+  iheight3d: 2.3
+  lib_name: Crystal
+  name_addition: _1EP_style2
+  pack_height: 8
+  pack_offset: 1.5
+  pack_rm: 3.8
+  pack_width: 8.8
+  package_pad: true
+  package_pad_add_holes: true
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 1.5
+  package_pad_size:
+  - 9.5
+  - 8.5
+  pad_size: 1.5
+  pad_style: tht
+  rm: 3.8
+  style: hc49
+
+Crystal_HC52-U_Vertical:
+  ddrill: 0.8
+  description: Crystal
+  part_number: HC-52/U
+  datasheet: http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+  footprint_name: Crystal_HC52-U_Vertical
+  func: makeCrystalHC49Vert
+  height3d: 8.8
+  innerpack_height: 2.3
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 3.3
+  pack_width: 8
+  pad_size: 1.5
+  pins: 2
+  rm: 3.8
+
+Crystal_Round_D1.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: DS10
+  description: Crystal
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_Round_D1.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 1
+  pack_length: 4.45
+  pad_size: 1
+  rm: 1.5
+
+Crystal_Round_D1.5mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  description: Crystal
+  part_number: DS15
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_Round_D1.5mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 1.5
+  pack_length: 5
+  pad_size: 1
+  rm: 1.7
+
+Crystal_Round_D2.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  description: Crystal
+  part_number: DS26
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf
+  footprint_name: Crystal_Round_D2.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 2
+  pack_length: 6
+  pad_size: 1
+  rm: 1.9
+
+Crystal_Round_D3.0mm_Vertical:
+  func: makeCrystalRoundVert
+  ddrill: 0.5
+  part_number: C38-LF
+  description: Crystal
+  footprint_name: Crystal_Round_D3.0mm_Vertical
+  lib_name: Crystal
+  pack_diameter: 3
+  pack_length: 8
+  pad_size: 1
+  rm: 1.9

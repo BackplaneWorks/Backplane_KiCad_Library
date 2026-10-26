@@ -1,0 +1,2125 @@
+{
+  "roots": [
+    "/home/h/Documents/Backplane",
+    "/home/h/Documents/i2cjak",
+    "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library"
+  ],
+  "method": "rg --files --hidden --no-ignore -g *[Hh]ole*.kicad_mod; all returned files hashed; no source boards modified",
+  "candidates": [
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui/fx/.backplane/worktrees/backplane-3dc6614b/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/fixture/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui5w/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship2/fx/.backplane/worktrees/backplane-cc73e8f7/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship2/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship3/fx/.backplane/worktrees/backplane-6cc32595/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship3/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-phone/fixture/.backplane/worktrees/backplane-57c818f0/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-phone/fixture/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui5p/board/.backplane/worktrees/backplane-768660b0/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui5p/board/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui2w/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship1/fx/.backplane/worktrees/backplane-c9f1ae9f/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship1/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui2p/fixture/.backplane/worktrees/backplane-876ac9cc/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/scratch-ui2p/fixture/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship4/fx/.backplane/worktrees/backplane-ad542e14/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-review/ship4/fx/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/phone_pcb/libraries/Local.pretty/MountingHole_2.2mm_M2.kicad_mod",
+      "sha256": "62c28789f21e5d40779e2b9d1eb75059655fd395cf51166601381d60cd636adc",
+      "name": "MountingHole_2.2mm_M2",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/T3CAD_Example/hardware/lib/GateLatch.pretty/MountingHole_2.7mm_M2.5_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "04a4cdb07e20f657e52c2355e50ec0fa0ee017c9a7fb19cf8bfa7ab42c579fef",
+      "name": "MountingHole_2.7mm_M2.5_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-assembly/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/SD_Card_Jawn/eMMC-SD-Card/lib/ToolingHole.pretty/ToolingHole_JLCSMT.kicad_mod",
+      "sha256": "0bb9aefb28acd80a734f4a6a1495ab6c5f7e61580c872ca3fb3ffc5209b75410",
+      "name": "ToolingHole_JLCSMT",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-master/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Framework_Shilling/Day_04_Frameoscope/framework_oscilloscope.pretty/MountingHole_2.2mm_M2.kicad_mod",
+      "sha256": "1d4843ad2e179ae968ef325984b6a078ea5344ee19ce6721f78ae229f1904efc",
+      "name": "MountingHole_2.2mm_M2",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-fp-partial/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-lifecycle/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/public_libraries/kicad_official_footprints/input/MountingHole__MountingHole_3.2mm_M3.kicad_mod",
+      "sha256": "b83ec84428449465df3b459f1bc24b285045c812102a2052b1b7ce0f67e018f2",
+      "name": "MountingHole_3.2mm_M3",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-structure/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/projects/cm5_minima_rev2/input/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "72d6fc6bed92535ad798581a9b3c99eeff801bb8222aa1b6a338427a46a238c4",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/test_xil_95108/input/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "5bd0c00fe7826e8e000199f17216dc5eb6b463fbd5cd57da47449336787d2585",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/test_xil_95108/input/footprints.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "d512eb6f0e92a14604c66d7fbb0ed62e214811bb2f837d3c346b26859c117fbe",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/tiny_tapeout/input/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "d57c5a0c2a210338a7cf283a98dc1d25049abc34408540e187f2839d60aa8cc8",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/ecc83/input/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "83018a4d58b23ed1c6dbff33f3132a3fe009ec3c334cf284eaa514de50fdb586",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/pic_programmer/input/libs/pic_programmer_fp.pretty/MountingHole_4.3mm_M4.kicad_mod",
+      "sha256": "5ea15886a2620c2e0d9f0ec8804928600b4769f8a9772afbc4256b98588586f9",
+      "name": "MountingHole_4.3mm_M4",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/pic_programmer/input/libs/pic_programmer_fp.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "1b4a63701cafde69e2fd4d4dd00f147226beb892ef9740472fab4eb14d17cba3",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/interf_u/input/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "2c6ac7b465ee1af1acb172f23de655003cc9448569a30abb283299200f5e06b1",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/video/input/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "35f27fd31c673b93159ed357692962c46695ae8e502066e4a51463d9e2ff476d",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/flat_hierarchy/input/libs/pic_programmer_fp.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "85724593ad0cb1a913264fe479ea1d7707b93cc5a99e79dba8215a37c60a439b",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/flat_hierarchy/input/libs/pic_programmer_fp.pretty/MountingHole_4.3mm_M4_DIN965.kicad_mod",
+      "sha256": "fba121d7ffec0bb6138f892075cc07559d3c384294c3753e467fc2ced90695ea",
+      "name": "MountingHole_4.3mm_M4_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/royalblue54L_feather/input/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "af07e0e114ec9c19b02cde514915aa846f280e815ff52e9159e15acf632dcc89",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/KiCad_Cruncher_Setup/kicad_monkey/tests/corpus/.unpacked/kicad/common/stickhub/input/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "f42a4ad30d9152a38704fc714be50f55210fe2bd916066ddfe031e8463810734",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Oculus_Reverse_Engineering/hardware/Quest3.pretty/MountingHole_2.2mm_M2.kicad_mod",
+      "sha256": "cbfaf9032cf70bafa544c9140ce5502fa381eeaedbfc6cd4e73ceedc744622e1",
+      "name": "MountingHole_2.2mm_M2",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Oculus_Reverse_Engineering/build/backups/A0-before-dogbone/hardware/Quest3.pretty/MountingHole_2.2mm_M2.kicad_mod",
+      "sha256": "cbfaf9032cf70bafa544c9140ce5502fa381eeaedbfc6cd4e73ceedc744622e1",
+      "name": "MountingHole_2.2mm_M2",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-phase2/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Reil_ESP32-C6_DevBoard/lib/Reil_ESP32-C6.pretty/MountingHole_2.2mm_M2_Pad_3.6mm.kicad_mod",
+      "sha256": "e35060df1245ed078f641d83c0a3092d8a71cd414988edfdb03dbc8da3769aba",
+      "name": "MountingHole_2.2mm_M2_Pad_3.6mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/nRF54L15Feather/hardware/lib/footprints/nRF54L15Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/MyoVoxINA851ADS131M02/Arduino_MountingHole.pretty/MountingHole_3.2mm.kicad_mod",
+      "sha256": "e7afa10a362f526f003dea1e18dc5674098a3e008fff1093d1f70b57dc6670b0",
+      "name": "MountingHole_3.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/MyoVoxINA851ADS131M02/Arduino_MountingHole.pretty/MountingHole_1.2mm.kicad_mod",
+      "sha256": "81ff8b7b3fa0303ed5b5710524160c1b5e5ebd6eeaed6d88dbdc966d4d8d1ef9",
+      "name": "MountingHole_1.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-sym-libid/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/ADS131M08-Arduino/Arduino_MountingHole.pretty/MountingHole_3.2mm.kicad_mod",
+      "sha256": "e7afa10a362f526f003dea1e18dc5674098a3e008fff1093d1f70b57dc6670b0",
+      "name": "MountingHole_3.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/ADS131M08-Arduino/Arduino_MountingHole.pretty/MountingHole_1.2mm.kicad_mod",
+      "sha256": "81ff8b7b3fa0303ed5b5710524160c1b5e5ebd6eeaed6d88dbdc966d4d8d1ef9",
+      "name": "MountingHole_1.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/MyoVoxShield/Arduino_MountingHole.pretty/MountingHole_3.2mm.kicad_mod",
+      "sha256": "e7afa10a362f526f003dea1e18dc5674098a3e008fff1093d1f70b57dc6670b0",
+      "name": "MountingHole_3.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/MyoVoxShield/Arduino_MountingHole.pretty/MountingHole_1.2mm.kicad_mod",
+      "sha256": "81ff8b7b3fa0303ed5b5710524160c1b5e5ebd6eeaed6d88dbdc966d4d8d1ef9",
+      "name": "MountingHole_1.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/DN60/lib/60_Percent_Holes.kicad_mod",
+      "sha256": "ea8c1d5aa3760cf5aff61c0e218cc2865b23b88c20fabdef1b8d5f6b54da7946",
+      "name": "60_Percent_Holes",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/AmericanEmbedded/FlybyAircraft/altimeter/lib/footprints/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles.kicad_mod",
+      "sha256": "0cba291d8cae959ab164b32ec4b4e26786a088e8d022dbc3ad778dd9d9aaf063",
+      "name": "RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/AmericanEmbedded/FazePro/SC7A20HTR/Arduino_MountingHole.pretty/MountingHole_3.2mm.kicad_mod",
+      "sha256": "3ef615d7676f8e331acd7fa679bd4bf9c2a35cdab6a652b2efbcf29a600a2ede",
+      "name": "MountingHole_3.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/AmericanEmbedded/FazePro/SC7A20HTR/Arduino_MountingHole.pretty/MountingHole_1.2mm.kicad_mod",
+      "sha256": "41a73d4b02cdf8d82a6baaa5132e74d157d173cb73ae57dbb389dd3b9fe4ca7d",
+      "name": "MountingHole_1.2mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/Board_Review/repos/AmericanEmbedded/Lee_Higgins/CheatSlate/lib/footprints/CheatSlate.pretty/MountingHole_3.2mm_M3.kicad_mod",
+      "sha256": "ec7e714530c77be4615883f6e018f058dc12c0a309d9784565a642cdfab111f4",
+      "name": "MountingHole_3.2mm_M3",
+      "exposed_substrate": false,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "<local>/personal-kicad-libraries/footprints/personal-MountingHole.pretty/MountingHole-GH60-Pad.kicad_mod",
+      "sha256": "e7c420c2323d19576fec6ca9d855449d5d5749c87d0d6f9fb097129cf2ecdf6b",
+      "name": "MountingHole-GH60-Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "<local>/personal-kicad-libraries/footprints/personal-MountingHole.pretty/MountingHole-GH60.kicad_mod",
+      "sha256": "052fbc3fc97d13ba31b4c8db9d7b44ff10ab11a050869cf62405302716a8ff01",
+      "name": "MountingHole-GH60",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-runtime/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-lifecycle/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_Demos/phaser_1248.backups/outline-20260909-222802/libraries/Phaser.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/i2cjak/bp-coord/windows-kicad/worktree/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_Demos/phaser_1248.backups/20260909-221935/libraries/Phaser.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-bp4/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_Demos/phaser_1248.backups/outline-20260909-222819/libraries/Phaser.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_Demos/phaser_1248/libraries/Phaser.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/bp-sketch/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_Demos/phaser_1248/build/silk_polish/libraries/Phaser.pretty/MountingHole_2.2mm_M2_ExposedSubstrate_Corner.kicad_mod",
+      "sha256": "5cade72f7cdad5b863d64826030721251e042baa26abc00a9325a5063878ae7c",
+      "name": "MountingHole_2.2mm_M2_ExposedSubstrate_Corner",
+      "exposed_substrate": true,
+      "has_keepout": true,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "authored source-family copy"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-field-crud/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/impl-root-props/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/tiny_tapeout/tinytapeout-kicad-libs/footprints/TinyTapeout.pretty/SolderJumper-2_Bridged_Throughole1.kicad_mod",
+      "sha256": "af37d7dad24812e81c8a8bfd5efdead3f767b570f378da366ff1e5de0f90317f",
+      "name": "SolderJumper-2_Bridged_Throughole1",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod",
+      "sha256": "b5a025cc72ce2695227dd27860edcf8d62809e650310c45fbc5d7988e924a086",
+      "name": "MountingHole_3.2mm_M3_DIN965_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod",
+      "sha256": "3fe54880026e5b13bdab2843316fa78204161ee1e4a498b328ebb8d4268c63e1",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod",
+      "sha256": "aa891ab1b3d9479397c498c7b129ee522e00dea88082955499ccc50d91bde451",
+      "name": "DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/royalblue54L_feather/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+      "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0",
+      "name": "MountingHole_2.5mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod",
+      "sha256": "55bdce691f696b0a02616220d6a3e26404ea1f61c262c98f144f432c0dcccc86",
+      "name": "Plain_Hole_3mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod",
+      "sha256": "d32728d69de247bdc240657690b5cb86c5e600699680196473aee3f57bbf54de",
+      "name": "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_Pad.kicad_mod",
+      "sha256": "1d275e07dd1fea378a27f543c6a4c65ef336a905f789cd0f828153e38e2a5a78",
+      "name": "MountingHole_2.7mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/cm5_minima/CM5IO.pretty/MountingHole_3mm_Pad.kicad_mod",
+      "sha256": "00ef80b4ca87f538d93f6b5a25b45dbbaf036efb0f6edbfbd31d9002c8f0f050",
+      "name": "MountingHole_3mm_Pad",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/cm5_minima/CM5IO.pretty/MountingHole_2.2mm_M2_DIN965_Pad_TopBottom.kicad_mod",
+      "sha256": "d12c7919599c413cd1d24f15e14717db1f658ecd655234ca51e03556fa2234c4",
+      "name": "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": true,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    },
+    {
+      "path": "/home/h/Documents/Backplane/Backplane_KiCad/.backplane/worktrees/backplane-1dcc948e/demos/cm5_minima/CM5IO.pretty/MountingHole_2.7mm_M2.5_DIN965.kicad_mod",
+      "sha256": "e39aca821d1c209b17dd4451592c1f1be16f4cd0b97ca47808094755f38f01d6",
+      "name": "MountingHole_2.7mm_M2.5_DIN965",
+      "exposed_substrate": false,
+      "has_keepout": false,
+      "has_inner_or_wildcard_copper": false,
+      "classification": "not selected: different mounting geometry or generic/third-party footprint"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+image: python:latest
+
+stages:
+  - test
+  - diffs
+  - screenshot
+  - model
+
+variables:
+  # By default, use the main branch of the main KiLT repository
+  # You can override this in your projects GitLab UI
+  # Even though the utils are now in the kfg repo, we still need to clone them
+  KICAD_LIBRARY_TOOLS_REPO: https://gitlab.com/kicad/libraries/kicad-library-tools.git
+  KICAD_LIBRARY_TOOLS_BRANCH: main
+  KICAD_LIBRARY_TOOLS_DIR: ~/kfg
+
+default:
+  before_script:
+    # ugly hack, 'resolve' the ~, because the other usage of this variable is in quotes, so ~ stays ~ which is bad
+    - KICAD_LIBRARY_TOOLS_DIR="${KICAD_LIBRARY_TOOLS_DIR/#\~/$HOME}"
+    - echo "Cloning ${KICAD_LIBRARY_TOOLS_REPO} branch ${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git clone --depth 1 "${KICAD_LIBRARY_TOOLS_REPO}" "$KICAD_LIBRARY_TOOLS_DIR" --branch "${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git config --global --add safe.directory $(realpath .)
+
+klc-check:
+  stage: test
+  needs: []
+  when: always
+  allow_failure:
+    exit_codes:
+     - 2  # KLC checks have warnings
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "library_utils/**/*"
+        - "**/*.kicad_mod"
+        - "fp-lib-table"
+  script:
+      # Don't let Gitlab force return code 1 on error
+    - set +e
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/check_footprints.sh
+  artifacts:
+    reports:
+      junit: junit.xml
+
+screenshot:
+  image: kicad/kicad:nightly
+  stage: screenshot
+  allow_failure: true
+  when: manual
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "**/*.kicad_mod"
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - sudo apt update -qq
+    - sudo apt install curl inkscape python3 git -qqy --no-install-recommends
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+    - KICAD_LIBRARY_TOOLS_DIR="${KICAD_LIBRARY_TOOLS_DIR/#\~/$HOME}"
+    - git clone --depth 1 "${KICAD_LIBRARY_TOOLS_REPO}" "$KICAD_LIBRARY_TOOLS_DIR" --branch "${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git config --global --add safe.directory $(realpath .)
+    - kicad-cli version --format=about
+  script:
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/screenshot_footprints.sh
+  artifacts:
+    expose_as: 'Screenshots'
+    paths:
+      - screenshots/
+
+model:
+  image: kicad/kicad:nightly
+  stage: model
+  allow_failure: true
+  when: manual
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "**/*.kicad_mod"
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - sudo apt update -qq
+    - sudo apt install curl python3 git -qqy --no-install-recommends
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+    - KICAD_LIBRARY_TOOLS_DIR="${KICAD_LIBRARY_TOOLS_DIR/#\~/$HOME}"
+    - git clone --depth 1 "${KICAD_LIBRARY_TOOLS_REPO}" "$KICAD_LIBRARY_TOOLS_DIR" --branch "${KICAD_LIBRARY_TOOLS_BRANCH}"
+    - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-packages3D $CI_BUILDS_DIR/kicad-packages3D
+    - git config --global --add safe.directory $(realpath .)
+    - kicad-cli version --format=about
+  script:
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/screenshot_model.sh
+  artifacts:
+    expose_as: 'Model'
+    paths:
+      - screenshots/
+
+visual_diff:
+  stage: diffs
+  needs: []
+  tags:
+    - saas-linux-medium-amd64
+  image: kicad/kicad:nightly
+  allow_failure: true
+  when: always
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "**/*.kicad_mod"
+  script:
+    - kicad-cli version --format=about
+    - echo -e "\e[0Ksection_start:`date +%s`:environment[collapsed=true]\r\e[0KEnvironment"
+    - printenv
+    - echo -e "\e[0Ksection_end:`date +%s`:environment\r\e[0K"
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+    - sudo apt update -qq
+    - sudo apt install curl python3 python3-pip -qqy --no-install-recommends
+    - python3 -V
+    - pip install --break-system-packages --no-warn-script-location
+        pygments
+        wsdiff
+        jinja2
+        gitpython
+    # Get the MR SHA values
+    - source $KICAD_LIBRARY_TOOLS_DIR/library_utils/tools/gitlabci/common.sh
+    - $KICAD_LIBRARY_TOOLS_DIR/library_utils/html-diff/src/html_diff.py
+        -j0
+        --repo "${CI_PROJECT_DIR}"
+        --output "diffs"
+        "${BASE_SHA}"
+        "${TARGET_SHA}"
+  artifacts:
+    expose_as: "Visual Diff"
+    paths:
+      - "diffs/"
+    reports:
+      dotenv: deploy.env
+  #dependencies:
+  #  - screenshot
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: $DYNAMIC_ENVIRONMENT_URL

@@ -1,0 +1,55 @@
+defaults:
+  library: 'Samtec'
+  clean_silk: True
+
+SS4-xx-3.00:
+  inherit: 'defaults'
+  parameters:
+    lead_style: '3.00'
+  description: 'Micro Blade & Beam Ultra Fine Pitch Socket, 0.40 mm pitch, 02x{num_pos:02d} ways, {lead_style} lead style'
+  fp_name: 'Samtec_SS4-{num_pos:02d}-{lead_style}-x-D-K-xR'
+  fp_suffix: '_Socket'     # optional: defaults to ''
+  source: 'https://suddendocs.samtec.com/prints/ss4-xx-x.xx-x-d-x-xx-tr-footprint.pdf'
+  tags: 'conn samtec board-to-board socket high-speed'
+  positions: [10, 15, 20, 30, 40, 50]
+  pad_pitch: 0.4
+  pads:
+    size:
+      x: 0.23
+      y: 0.93
+  row_pitch: 4.67
+  body_size:
+    x_offset: 0
+    y: 4.35
+  body_shape:
+    right:
+      polyline: [[r+1.76, t], [r+1.76, b]]
+    left:
+      polyline: [[l-0.88, t], [l-0.88, t+1.25], [l-0.88-0.55, t+1.25], [l-0.88-0.55, -0.5], [l-0.88-0.55-0.75, -0.5], [l-0.88-0.55-0.75, +0.5], [l-0.88-0.55, +0.5], [l-0.88-0.55, b-1.25], [l-0.88, b-1.25], [l-0.88, b]]
+  first_pin:
+    body_chamfer: 0
+    position: 'bottom'
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      size: 0.5       # size of the pin 1 marker (default: pad_size.y)
+      offset: 0.55    # offset from the body edge (default: 0 corresponds to silk line width)
+  rule_areas:
+    top:
+      name: "Via keepout"
+      layers: F.Cu
+      shapes:
+        - type: rect
+          corners: [
+            [pl - 0.23/2, pt + 0.93/2],
+            [pr + 0.23/2, pb - 0.93/2]
+          ]
+      keepouts:
+        vias: deny
+        tracks: deny
+        copperpour: deny
+
+SS4-xx-3.50:
+  inherit: 'SS4-xx-3.00'
+  parameters:
+    lead_style: '3.50'
+  rule_areas:

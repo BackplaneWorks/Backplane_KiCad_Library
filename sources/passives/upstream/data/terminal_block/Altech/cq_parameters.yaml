@@ -1,0 +1,323 @@
+Altech_AK300_1x02_P5.00mm_45-Degree:
+  W: 12.5  # package width
+  H: 12.5  # package height
+  WD: 6.5  # > Y distance form pin center to package edge
+  A1: 0.1  # package board seperation
+  pin_number: 2  # Pin number serie
+  PE: 2.5  # Distance from edge to pin
+  PS: 5.0  # Pin distance
+  PD: [1.0, 0.8]  # Pin diameter
+  PL: 4.5  # Pin length
+  PF: "rect"  # Pin form
+  SW: 2.7  # Blender width
+  rotation: 0  # Rotation
+  include_in_qa: True
+
+Altech_AK300_1x03_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 3
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+  include_in_qa: True
+
+Altech_AK300_1x04_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 4
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x05_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 5
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x06_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 6
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x07_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 7
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x08_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 8
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x09_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 9
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x10_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 10
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x11_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 11
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x12_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 12
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x13_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 13
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x14_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 14
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x15_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 15
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x16_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 16
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x17_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 17
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x18_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 18
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x19_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 19
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x20_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 20
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x21_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 21
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x22_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 22
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x23_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 23
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0
+
+Altech_AK300_1x24_P5.00mm_45-Degree:
+  W: 12.5
+  H: 12.5
+  WD: 6.5
+  A1: 0.1
+  pin_number: 24
+  PE: 2.5
+  PS: 5.0
+  PD: [1.0, 0.8]
+  PL: 4.5
+  PF: "rect"
+  SW: 2.7
+  rotation: 0

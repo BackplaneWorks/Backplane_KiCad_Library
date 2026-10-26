@@ -1,0 +1,2907 @@
+DIP-8_W7.62mm:
+  D: 9.27  # package length
+  E1: 6.35  # package width
+  E: 7.87  # package shoulder-to-shoulder width
+  A1: 0.38  # package board separation
+  A2: 3.3  # package height
+  b1: 1.52  # pin width
+  b: 0.46  # pin tip width
+  e: 2.54  # pin center to center distance (pitch)
+  npins: 8  # number of pins
+  model_name: DIP-8_W7.62mm  #model name
+  rotation: 90  # rotation if required
+  type: tht  # THT and/or SMD
+  corner: fillet  # Chamfer or corner
+  excludepins: [0]  # Which pins should be excluded
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+  include_in_qa: True
+
+DIP-4_W7.62mm:
+  D: 4.93
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: DIP-4_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-4_W10.16mm:
+  D: 4.93
+  E1: 6.35
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: DIP-4_W10.16mm
+  rotation: 90
+  type: tht
+  corner: chamfer
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-5-6_W7.62mm:
+  D: 7.05
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-5-6_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-5-6_W10.16mm:
+  D: 7.05
+  E1: 6.35
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-5-6_W10.16mm
+  rotation: 90
+  type: tht
+  corner: chamfer
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-6_W7.62mm:
+  D: 7.05
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-6_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-6_W10.16mm:
+  D: 7.05
+  E1: 6.35
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-6_W10.16mm
+  rotation: 90
+  type: tht
+  corner: chamfer
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-8_W10.16mm:
+  D: 9.27
+  E1: 6.35
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: DIP-8_W10.16mm
+  rotation: 90
+  type: tht
+  corner: chamfer
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-14_W7.62mm:
+  D: 19.05
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: DIP-14_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-16_W7.62mm:
+  D: 19.18
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: DIP-16_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-18_W7.62mm:
+  D: 22.86
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: DIP-18_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-20_W7.62mm:
+  D: 26.16
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: DIP-20_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W7.62mm:
+  D: 27.94
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W7.62mm:
+  D: 31.75
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W10.16mm:
+  D: 27.94
+  E1: 9.17
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W10.16mm:
+  D: 31.75
+  E1: 9.17
+  E: 10.41
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W7.62mm:
+  D: 35.56
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W15.24mm:
+  D: 30.48
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W15.24mm:
+  D: 35.56
+  E1: 13.46
+  E: 15.49
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-32_W7.62mm:
+  D: 41.4
+  E1: 6.35
+  E: 7.87
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: DIP-32_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-32_W15.24mm:
+  D: 41.4
+  E1: 13.46
+  E: 15.49
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: DIP-32_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W15.24mm:
+  D: 50.8
+  E1: 13.46
+  E: 15.49
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-48_W15.24mm:
+  D: 61.47
+  E1: 13.46
+  E: 15.49
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 48
+  model_name: DIP-48_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W15.24mm:
+  D: 82.8
+  E1: 13.46
+  E: 15.49
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W22.86mm:
+  D: 81.28
+  E1: 21.36
+  E: 22.86
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W22.86mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-4_W7.62mm:
+  D: 4.93
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: SMDIP-4_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-4_W9.53mm:
+  D: 4.93
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: SMDIP-4_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-4_W9.53mm_Clearance8mm:
+  D: 4.93
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: SMDIP-4_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-4_W11.48mm:
+  D: 4.93
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: SMDIP-4_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-6_W7.62mm:
+  D: 7.05
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: SMDIP-6_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-6_W9.53mm:
+  D: 7.05
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: SMDIP-6_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-6_W9.53mm_Clearance8mm:
+  D: 7.05
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: SMDIP-6_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-6_W11.48mm:
+  D: 7.05
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: SMDIP-6_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-8_W7.62mm:
+  D: 9.27
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: SMDIP-8_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-8_W9.53mm:
+  D: 9.27
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: SMDIP-8_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-8_W9.53mm_Clearance8mm:
+  D: 9.27
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: SMDIP-8_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+IXYS_SMD-8_6.3x9.7mm_P2.54mm:
+  D: 9.652
+  E1: 6.35
+  E: 8.9
+  A1: 1.145
+  A2: 3.3
+  b1: 0.46  # Not used in smd model
+  b: 0.2285
+  e: 2.54
+  npins: 8
+  model_name: IXYS_SMD-8_6.3x9.7mm_P2.54mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-8_W11.48mm:
+  D: 9.27
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: SMDIP-8_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-10_W7.62mm:
+  D: 12.25
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: SMDIP-10_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-10_W9.53mm:
+  D: 12.25
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: SMDIP-10_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-10_W9.53mm_Clearance8mm:
+  D: 12.25
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: SMDIP-10_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-10_W11.48mm:
+  D: 12.25
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: SMDIP-10_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-12_W7.62mm:
+  D: 15.24
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: SMDIP-12_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-12_W9.53mm:
+  D: 15.24
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: SMDIP-12_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-12_W9.53mm_Clearance8mm:
+  D: 15.24
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: SMDIP-12_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-12_W11.48mm:
+  D: 15.24
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: SMDIP-12_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-14_W7.62mm:
+  D: 19.05
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: SMDIP-14_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-14_W9.53mm:
+  D: 19.05
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: SMDIP-14_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-14_W9.53mm_Clearance8mm:
+  D: 19.05
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: SMDIP-14_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-14_W11.48mm:
+  D: 19.05
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: SMDIP-14_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-16_W7.62mm:
+  D: 19.18
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: SMDIP-16_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-16_W9.53mm:
+  D: 19.18
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: SMDIP-16_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-16_W9.53mm_Clearance8mm:
+  D: 19.18
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: SMDIP-16_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-16_W11.48mm:
+  D: 19.18
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: SMDIP-16_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-18_W7.62mm:
+  D: 22.86
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: SMDIP-18_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-18_W9.53mm:
+  D: 22.86
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: SMDIP-18_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-18_W9.53mm_Clearance8mm:
+  D: 22.86
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: SMDIP-18_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-18_W11.48mm:
+  D: 22.86
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: SMDIP-18_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-20_W7.62mm:
+  D: 26.16
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: SMDIP-20_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-20_W9.53mm:
+  D: 26.16
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: SMDIP-20_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-20_W9.53mm_Clearance8mm:
+  D: 26.16
+  E1: 8.4
+  E: 9.25
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: SMDIP-20_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-20_W11.48mm:
+  D: 26.16
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: SMDIP-20_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-22_W7.62mm:
+  D: 27.94
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: SMDIP-22_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-22_W9.53mm:
+  D: 27.94
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: SMDIP-22_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-22_W9.53mm_Clearance8mm:
+  D: 27.94
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: SMDIP-22_W9.53mm_Clearance8mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-22_W11.48mm:
+  D: 27.94
+  E1: 7.0
+  E: 10.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: SMDIP-22_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-24_W7.62mm:
+  D: 31.75
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: SMDIP-24_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-24_W9.53mm:
+  D: 31.75
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: SMDIP-24_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-24_W11.48mm:
+  D: 31.75
+  E1: 8.8
+  E: 10.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: SMDIP-24_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-24_W15.24mm:
+  D: 31.75
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: SMDIP-24_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-28_W15.24mm:
+  D: 35.56
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: SMDIP-28_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-32_W7.62mm:
+  D: 41.4
+  E1: 5.5
+  E: 7.5
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: SMDIP-32_W7.62mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-32_W9.53mm:
+  D: 41.4
+  E1: 7.0
+  E: 8.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: SMDIP-32_W9.53mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-32_W11.48mm:
+  D: 41.4
+  E1: 8.8
+  E: 10.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: SMDIP-32_W11.48mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-32_W15.24mm:
+  D: 41.4
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: SMDIP-32_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-40_W15.24mm:
+  D: 50.8
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: SMDIP-40_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-40_W25.24mm:
+  D: 50.8
+  E1: 23.0
+  E: 24.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: SMDIP-40_W25.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-42_W15.24mm:
+  D: 53.34
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 42
+  model_name: SMDIP-42_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-48_W15.24mm:
+  D: 61.47
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 48
+  model_name: SMDIP-48_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+SMDIP-64_W15.24mm:
+  D: 82.8
+  E1: 13.0
+  E: 14.0
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: SMDIP-64_W15.24mm
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-10_W10.16mm:
+  D: 12.7
+  E1: 8.26
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: DIP-10_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-10_W7.62mm:
+  D: 12.7
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: DIP-10_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-10_W7.62mm_SMDSocket:
+  D: 12.82
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: DIP-10_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-10_W8.89mm_SMDSocket:
+  D: 12.82
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: DIP-10_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-12_W10.16mm:
+  D: 15.24
+  E1: 8.26
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: DIP-12_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-12_W7.62mm:
+  D: 15.24
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: DIP-12_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-12_W7.62mm_SMDSocket:
+  D: 15.36
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: DIP-12_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-12_W8.89mm_SMDSocket:
+  D: 15.36
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 12
+  model_name: DIP-12_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-14_W10.16mm:
+  D: 17.78
+  E1: 8.26
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: DIP-14_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-14_W7.62mm_SMDSocket:
+  D: 17.9
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: DIP-14_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-14_W8.89mm_SMDSocket:
+  D: 17.9
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 14
+  model_name: DIP-14_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-16_W10.16mm:
+  D: 20.32
+  E1: 8.26
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: DIP-16_W10.16mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-16_W7.62mm_SMDSocket:
+  D: 20.44
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: DIP-16_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-16_W8.89mm_SMDSocket:
+  D: 20.44
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 16
+  model_name: DIP-16_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-18_W7.62mm_SMDSocket:
+  D: 22.98
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: DIP-18_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-18_W8.89mm_SMDSocket:
+  D: 22.98
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 18
+  model_name: DIP-18_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-20_W7.62mm_SMDSocket:
+  D: 25.52
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: DIP-20_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-20_W8.89mm_SMDSocket:
+  D: 25.52
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 20
+  model_name: DIP-20_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W10.16mm_SMDSocket:
+  D: 28.06
+  E1: 8.66
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W10.16mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W11.43mm_SMDSocket:
+  D: 28.06
+  E1: 9.93
+  E: 11.43
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W11.43mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W7.62mm_SMDSocket:
+  D: 28.06
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-22_W8.89mm_SMDSocket:
+  D: 28.06
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 22
+  model_name: DIP-22_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W10.16mm_SMDSocket:
+  D: 30.6
+  E1: 8.66
+  E: 10.16
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W10.16mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W11.43mm_SMDSocket:
+  D: 30.6
+  E1: 9.93
+  E: 11.43
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W11.43mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W15.24mm_SMDSocket:
+  D: 30.6
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W16.51mm_SMDSocket:
+  D: 30.6
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W7.62mm_SMDSocket:
+  D: 30.6
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-24_W8.89mm_SMDSocket:
+  D: 30.6
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 24
+  model_name: DIP-24_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W15.24mm_SMDSocket:
+  D: 35.68
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W16.51mm_SMDSocket:
+  D: 35.68
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W7.62mm_SMDSocket:
+  D: 35.68
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-28_W8.89mm_SMDSocket:
+  D: 35.68
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 28
+  model_name: DIP-28_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-32_W15.24mm_SMDSocket:
+  D: 40.76
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: DIP-32_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-32_W16.51mm_SMDSocket:
+  D: 40.76
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 32
+  model_name: DIP-32_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W15.24mm_SMDSocket:
+  D: 50.92
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W16.51mm_SMDSocket:
+  D: 50.92
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W25.4mm:
+  D: 50.8
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W25.4mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W25.4mm_SMDSocket:
+  D: 50.92
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W25.4mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W25.4mm_Socket:
+  D: 50.92
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W25.4mm_Socket
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-40_W26.67mm_SMDSocket:
+  D: 50.92
+  E1: 25.17
+  E: 26.67
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 40
+  model_name: DIP-40_W26.67mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-42_W15.24mm:
+  D: 53.34
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 42
+  model_name: DIP-42_W15.24mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-42_W15.24mm_SMDSocket:
+  D: 53.46
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 42
+  model_name: DIP-42_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-42_W15.24mm_Socket:
+  D: 53.46
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 42
+  model_name: DIP-42_W15.24mm_Socket
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-42_W16.51mm_SMDSocket:
+  D: 53.46
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 42
+  model_name: DIP-42_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-48_W15.24mm_SMDSocket:
+  D: 61.08
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 48
+  model_name: DIP-48_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-48_W16.51mm_SMDSocket:
+  D: 61.08
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 48
+  model_name: DIP-48_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-4_W7.62mm_SMDSocket:
+  D: 5.2
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: DIP-4_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-4_W8.89mm_SMDSocket:
+  D: 5.2
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 4
+  model_name: DIP-4_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-5-6_W7.62mm_SMDSocket:
+  D: 7.74
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-5-6_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-5-6_W7.62mm_Socket:
+  D: 7.74
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-5-6_W7.62mm_Socket
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-5-6_W8.89mm_SMDSocket:
+  D: 7.74
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-5-6_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W15.24mm_SMDSocket:
+  D: 81.4
+  E1: 13.74
+  E: 15.24
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W15.24mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W16.51mm_SMDSocket:
+  D: 81.4
+  E1: 15.01
+  E: 16.51
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W16.51mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W22.86mm_SMDSocket:
+  D: 81.4
+  E1: 21.36
+  E: 22.86
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W22.86mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W22.86mm_Socket:
+  D: 81.4
+  E1: 21.36
+  E: 22.86
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W22.86mm_Socket
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W24.13mm_SMDSocket:
+  D: 81.4
+  E1: 22.63
+  E: 24.13
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W24.13mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W25.4mm:
+  D: 81.28
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W25.4mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W25.4mm_SMDSocket:
+  D: 81.4
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W25.4mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W25.4mm_Socket:
+  D: 81.4
+  E1: 23.9
+  E: 25.4
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W25.4mm_Socket
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-64_W26.67mm_SMDSocket:
+  D: 81.4
+  E1: 25.17
+  E: 26.67
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 64
+  model_name: DIP-64_W26.67mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-6_W7.62mm_SMDSocket:
+  D: 7.74
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-6_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-6_W8.89mm_SMDSocket:
+  D: 7.74
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: DIP-6_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-8-N6_W7.62mm:
+  D: 10.16
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: DIP-8-N6_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [6]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-8-N7_W7.62mm:
+  D: 10.16
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: DIP-8-N7_W7.62mm
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [7]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-8_W7.62mm_SMDSocket:
+  D: 10.28
+  E1: 6.12
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: DIP-8_W7.62mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+DIP-8_W8.89mm_SMDSocket:
+  D: 10.28
+  E1: 7.39
+  E: 8.89
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: DIP-8_W8.89mm_SMDSocket
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_PDIP-8B:
+  D: 10.28
+  E1: 4.5
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: PowerIntegrations_PDIP-8B
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [6]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_PDIP-8C:
+  D: 10.28
+  E1: 4.5
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: PowerIntegrations_PDIP-8C
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [3]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_SDIP-10C:
+  D: 12.82
+  E1: 4.5
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 10
+  model_name: PowerIntegrations_SDIP-10C
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [4]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_SMD-8:
+  D: 10.24
+  E1: 4.9
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: PowerIntegrations_SMD-8
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [0]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_SMD-8B:
+  D: 10.24
+  E1: 4.9
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: PowerIntegrations_SMD-8B
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [6]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+PowerIntegrations_SMD-8C:
+  D: 10.24
+  E1: 4.9
+  E: 7.62
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 8
+  model_name: PowerIntegrations_SMD-8C
+  rotation: 90
+  type: smd
+  corner: fillet
+  excludepins: [3]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'
+
+Toshiba_11-7A9:
+  D: 7.86
+  E1: 5.54
+  E: 7.86
+  A1: 0.38
+  A2: 3.3
+  b1: 1.52
+  b: 0.46
+  e: 2.54
+  npins: 6
+  model_name: Toshiba_11-7A9
+  rotation: 90
+  type: tht
+  corner: fillet
+  excludepins: [5]
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Package_DIP.3dshapes'

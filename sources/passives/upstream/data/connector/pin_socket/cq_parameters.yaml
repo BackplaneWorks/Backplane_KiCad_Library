@@ -1,0 +1,764 @@
+THT-1x1.00mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P1.00mm_Vertical'
+  model_class: 'THT-1x1.00mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.00
+  body_width: 1.5
+  body_height: 2.1
+  body_overlength: 0.5
+  body_offset: 0.29
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.3
+  pin_thickness: 0.1
+  pin_drill: 0.5
+  pin_length: 1.8
+  pins_offset: 0.29
+  pads_length: 0.85
+  pads_width: 0.85
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bc065.pdf'
+  include_in_qa:
+    pins_max: 5
+
+THT-1x1.27mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Vertical'
+  model_class: 'THT-1x1.27mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.27
+  body_width: 2.54
+  body_height: 4.4
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.5
+  pin_thickness: 0.2
+  pins_drill: 0.7
+  pin_length: 2.4
+  pins_offset: 0.0
+  pads_length: 1.0
+  pads_width: 1.0
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+THT-1x2.00mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Vertical'
+  model_class: 'THT-1x2.00mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.00
+  body_width: 2.0
+  body_height: 5.6
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 0.8
+  pin_length: 2.5
+  pins_offset: 0.0
+  pads_length: 1.35
+  pads_width: 1.35
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+THT-1x2.54mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Vertical'
+  model_class: 'THT-1x2.54mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.54
+  body_width: 2.54
+  # Height from https://www.we-online.com/components/products/datasheet/61300411821.pdf
+  body_height: 8.5
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 1.0
+  pin_length: 2.9
+  pins_offset: 0.0
+  pads_length: 1.7
+  pads_width: 1.7
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+THT-2x1.27mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Vertical'
+  model_class: 'THT-2x1.27mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 1.27
+  body_width: 3.05
+  body_height: 4.4
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.5
+  pin_thickness: 0.2
+  pins_drill: 0.7
+  pin_length: 2.4
+  pins_offset: 0.0
+  pads_length: 1.0
+  pads_width: 1.0
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+
+THT-2x2.00mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Vertical'
+  model_class: 'THT-2x2.00mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 2.00
+  body_width: 4.0
+  body_height: 5.6
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 0.8
+  pin_length: 2.5
+  pins_offset: 0.0
+  pads_length: 1.35
+  pads_width: 1.35
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+
+THT-2x2.54mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Vertical'
+  model_class: 'THT-2x2.54mm_Vertical'
+  type: 'THT'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 2.54
+  body_width: 5.08
+  # Height from https://www.we-online.com/components/products/datasheet/61300421821.pdf
+  body_height: 8.5
+  body_overlength: 0.0
+  body_offset: 0.0
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 1.0
+  pin_length: 2.9
+  pins_offset: 0.0
+  pads_length: 1.7
+  pads_width: 1.7
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+# THT-1x1.27mm_Horizontal:
+#   model_name: 'PinSocket_{0}x{1}_P1.27mm_Horizontal'
+#   model_class: 'THT-1x1.27mm_Horizontal'
+#   type: 'THT'
+#   pin_style: 'Angled'
+#   num_pin_rows: 1
+#   pin_pitch: 1.27
+#   body_width: 4.3
+#   body_height: 1.8
+#   body_overlength: 0.35
+#   body_offset: 0.15
+#   pins_min: 3
+#   pins_max: 40
+#   pin_width: 0.42
+#   pin_thickness: 0.15
+#   pins_drill: 0.65
+#   pin_length: 2.0
+#   pins_offset: 0.0
+#   pads_length: 1.0
+#   pads_width: 1.0
+#   pads_lp_width: 0
+#   rotation: 90
+#   body_color_key: 'black body'
+#   pins_color_key: 'gold pins'
+#   destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+#   source: 'https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD090.pdf&t=1511593690632'
+
+THT-1x2.00mm_Horizontal:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Horizontal'
+  model_class: 'THT-1x2.00mm_Horizontal'
+  type: 'THT'
+  pin_style: 'Angled'
+  num_pin_rows: 1
+  pin_pitch: 2.00
+  body_width: 6.35
+  body_height: 2.0
+  body_overlength: 0.0
+  body_offset: 1.27
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 0.8
+  pin_length: 2.5
+  pins_offset: 0.0
+  pads_length: 1.35
+  pads_width: 1.35
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+THT-1x2.54mm_Horizontal:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Horizontal'
+  model_class: 'THT-1x2.54mm_Horizontal'
+  type: 'THT'
+  pin_style: 'Angled'
+  num_pin_rows: 1
+  pin_pitch: 2.54
+  body_width: 8.51
+  body_height: 2.54
+  body_overlength: 0.0
+  body_offset: 1.52
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 1.0
+  pin_length: 2.9
+  pins_offset: 0.0
+  pads_length: 1.7
+  pads_width: 1.7
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+# THT-2x1.00mm_Horizontal:
+#   model_name: 'PinSocket_{0}x{1}_P1.00mm_Horizontal'
+#   model_class: 'THT-2x1.00mm_Horizontal N/A'
+#   type: 'THT'
+#   pin_style: 'Angled'
+#   num_pin_rows: 2
+#   pin_pitch: 1.00
+#   body_width: 1.5
+#   body_height: 2.1
+#   body_overlength: 0.75
+#   body_offset: 0.0
+#   pins_min: 1
+#   pins_max: 40
+#   pins_width: 0.3
+#   pins_thickness: 0.1
+#   pins_drill: 0.5
+#   pins_length: 1.8
+#   pins_offset: 0.0
+#   pads_length: 0
+#   pads_width: 0
+#   pads_lp_width: 0
+#   rotation: 90
+#   body_color_key: 'black body'
+#   pins_color_key: 'gold pins'
+#   destination_dir : 'Connector_PinSocket_1.00mm.3dshapes'
+#   source: ''
+
+THT-2x1.27mm_Horizontal:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Horizontal'
+  model_class: 'THT-2x1.27mm_Horizontal'
+  type: 'THT'
+  pin_style: 'Angled'
+  num_pin_rows: 2
+  pin_pitch: 1.27
+  body_width: 4.4
+  body_height: 3.10
+  body_overlength: 0.35
+  body_offset: 0.15
+  pins_min: 3
+  pins_max: 50
+  pin_width: 0.5
+  pin_thickness: 0.15
+  pins_drill: 0.65
+  pin_length: 2.0
+  pins_offset: 0.0
+  pads_length: 1.0
+  pads_width: 1.0
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD091.pdf&t=1511594177220'
+  include_in_qa:
+    pins_max: 3
+
+THT-2x2.00mm_Horizontal:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Horizontal'
+  model_class: 'THT-2x2.00mm_Horizontal'
+  type: 'THT'
+  pin_style: 'Angled'
+  num_pin_rows: 2
+  pin_pitch: 2.00
+  body_width: 6.35
+  body_height: 4.0
+  body_overlength: 0.0
+  body_offset: 1.27
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 0.8
+  pin_length: 2.5
+  pins_offset: 0.0
+  pads_length: 1.35
+  pads_width: 1.35
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+
+THT-2x2.54mm_Horizontal:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Horizontal'
+  model_class: 'THT-2x2.54mm_Horizontal'
+  type: 'THT'
+  pin_style: 'Angled'
+  num_pin_rows: 2
+  pin_pitch: 2.54
+  body_width: 8.51
+  body_height: 5.08
+  body_overlength: 0.0
+  body_offset: 1.52
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: 1.0
+  pin_length: 2.5
+  pins_offset: 0.0
+  pads_length: 1.7
+  pads_width: 1.7
+  pads_lp_width: 0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'from Kicad 4.0.7'
+  include_in_qa:
+    pins_max: 3
+
+#
+# SMD parts
+#
+
+
+SMD-1x1.00mm_Vertical_Right:
+  model_name: 'PinSocket_{0}x{1}_P1.00mm_Vertical_SMD_Pin1Right'
+  model_class: 'SMD-1x1.00mm_Vertical_Right'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.00
+  body_width: 1.5
+  body_height: 2.10
+  body_board_distance: 0.15
+  body_overlength: 0.5
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.3
+  pin_thickness: 0.1
+  pins_drill: null
+  pin_length: 2.9
+  pins_offset: 0.0
+  pads_length: 1.95
+  pads_width: 0.50
+  pads_lp_width: 3.9
+  rotation: -90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bc070.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-1x1.00mm_Vertical_Left:
+  model_name: 'PinSocket_{0}x{1}_P1.00mm_Vertical_SMD_Pin1Left'
+  model_class: 'SMD-1x1.00mm_Vertical_Left'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.00
+  body_width: 1.5
+  body_height: 2.10
+  body_board_distance: 0.15
+  body_overlength: 0.5
+  body_offset: 0.0
+  pin1start_right: false
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.3
+  pin_thickness: 0.1
+  pins_drill: None
+  pin_length: 2.9
+  pins_offset: 0.0
+  pads_length: 1.95
+  pads_width: 0.50
+  pads_lp_width: 3.9
+  rotation: -90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bc070.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-1x1.27mm_Vertical_Right:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Vertical_SMD_Pin1Right'
+  model_class: 'SMD-1x1.27mm_Vertical_Right'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.27
+  body_width: 1.8
+  body_height: 4.3
+  body_board_distance: 0.3
+  body_overlength: 0.35
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.42
+  pin_thickness: 0.15
+  pins_drill: None
+  pin_length: 3.5
+  pins_offset: 0.0
+  pads_length: 1.8
+  pads_width: 0.65
+  pads_lp_width: 4.5
+  rotation: -90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925'
+
+SMD-1x1.27mm_Vertical_Left:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Vertical_SMD_Pin1Left'
+  model_class: 'SMD-1x1.27mm_Vertical_Left'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 1.27
+  body_width: 1.8
+  body_height: 4.3
+  body_board_distance: 0.3
+  body_overlength: 0.35
+  body_offset: 0.0
+  pin1start_right: false
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.42
+  pin_thickness: 0.15
+  pins_drill: None
+  pin_length: 3.5
+  pins_offset: 0.0
+  pads_length: 1.8
+  pads_width: 0.65
+  pads_lp_width: 4.5
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925'
+
+SMD-1x2.00mm_Vertical_Right:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Vertical_SMD_Pin1Right'
+  model_class: 'SMD-1x2.00mm_Vertical_Right'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.00
+  body_width: 2.5
+  body_height: 4.0
+  body_board_distance: 0.3
+  body_overlength: 0.6
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.5
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 4.2
+  pins_offset: 0.0
+  pads_length: 2.0
+  pads_width: 0.9
+  pads_lp_width: 5.2
+  rotation: -90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bf090.pdf'
+
+SMD-1x2.00mm_Vertical_Left:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Vertical_SMD_Pin1Left'
+  model_class: 'SMD-1x2.00mm_Vertical_Left'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.00
+  body_width: 2.5
+  body_height: 4.0
+  body_board_distance: 0.3
+  body_overlength: 0.6
+  body_offset: 0.0
+  pin1start_right: false
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.5
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 4.2
+  pins_offset: 0.0
+  pads_length: 2.0
+  pads_width: 0.9
+  pads_lp_width: 5.2
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bf090.pdf'
+
+SMD-1x2.54mm_Vertical_Right:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Vertical_SMD_Pin1Right'
+  model_class: 'SMD-1x2.54mm_Vertical_Right'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.54
+  body_width: 2.54
+  body_height: 7.1
+  body_board_distance: 0.4
+  body_overlength: 0.2
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 4.54
+  pins_offset: 0.0
+  pads_length: 1.9
+  pads_width: 1.0
+  pads_lp_width: 5.2
+  rotation: -90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'https://cdn.harwin.com/pdfs/M20-786.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-1x2.54mm_Vertical_Left:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Vertical_SMD_Pin1Left'
+  model_class: 'SMD-1x2.54mm_Vertical_Left'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 1
+  pin_pitch: 2.54
+  body_width: 2.54
+  body_height: 7.1
+  body_board_distance: 0.4
+  body_overlength: 0.2
+  body_offset: 0.0
+  pin1start_right: false
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 4.54
+  pins_offset: 0.0
+  pads_length: 1.9
+  pads_width: 1.0
+  pads_lp_width: 5.2
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'https://cdn.harwin.com/pdfs/M20-786.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-2x1.00mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P1.00mm_Vertical_SMD'
+  model_class: 'SMD-2x1.00mm_Vertical'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 1.00
+  body_width: 2.5
+  body_height: 2.10
+  body_board_distance: 0.15
+  body_overlength: 0.5
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 2
+  pins_max: 40
+  pin_width: 0.3
+  pin_thickness: 0.1
+  pins_drill: None
+  pin_length: 3.9
+  pins_offset: 0.0
+  pads_length: 1.85
+  pads_width: 0.50
+  pads_lp_width: 4.9
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bc085.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-2x1.27mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P1.27mm_Vertical_SMD'
+  model_class: 'SMD-2x1.27mm_Vertical'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 1.27
+  body_width: 2.54
+  body_height: 4.4
+  body_board_distance: 0.2
+  body_overlength: 0.0
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.4
+  pin_thickness: 0.15
+  pins_drill: None
+  pin_length: 5.11
+  pins_offset: 0.0
+  pads_length: 2.1
+  pads_width: 0.75
+  pads_lp_width: 5.7
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_1.27mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bd064.pdf'
+  include_in_qa:
+    pins_max: 3
+
+SMD-2x2.00mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.00mm_Vertical_SMD'
+  model_class: 'SMD-2x2.00mm_Vertical'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 2.00
+  body_width: 4.0
+  body_height: 4.3
+  body_board_distance: 0.3
+  body_overlength: 0.0
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.5
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 6.0
+  pins_offset: 0.0
+  pads_length: 2.75
+  pads_width: 1.0
+  pads_lp_width: 9.0
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.00mm.3dshapes'
+  source: 'https://gct.co/files/drawings/bf100.pdf'
+
+SMD-2x2.54mm_Vertical:
+  model_name: 'PinSocket_{0}x{1}_P2.54mm_Vertical_SMD'
+  model_class: 'SMD-2x2.54mm_Vertical'
+  type: 'SMD'
+  pin_style: 'Straight'
+  num_pin_rows: 2
+  pin_pitch: 2.54
+  body_width: 5.08
+  body_height: 7.15 # body_height + body_board_distance = 7.45; body_height cannot be deducted from the datasheet
+  body_board_distance: 0.3
+  body_overlength: 0.0
+  body_offset: 0.0
+  pin1start_right: true
+  pins_min: 1
+  pins_max: 40
+  pin_width: 0.64
+  pin_thickness: 0.2
+  pins_drill: None
+  pin_length: 6.70
+  pins_offset: 0.0
+  pads_length: 3.0
+  pads_width: 1.0
+  pads_lp_width: 8.04
+  rotation: 90
+  body_color_key: 'black body'
+  pins_color_key: 'gold pins'
+  destination_dir : 'Connector_PinSocket_2.54mm.3dshapes'
+  source: 'https://www.we-online.com/components/products/datasheet/61000421821.pdf'
+  include_in_qa:
+    pins_max: 3

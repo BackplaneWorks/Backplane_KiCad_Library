@@ -1,0 +1,214 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T17:08:52",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "holes_2layer_zone_control.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 12.0
+                    },
+                    "uuid": "3f11207d-5f12-5e01-b9b7-0428f5ec4aab"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 12.0
+                    },
+                    "uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 12.0
+                    },
+                    "uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 12.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 12.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 12.0
+                    },
+                    "uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 12.0
+                    },
+                    "uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 12.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 12.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 12.0
+                    },
+                    "uuid": "ac3281c7-f881-5385-bff0-ae6d01dd847d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Footprint 'MountingHole_2.2mm_M2_ExposedSubstrate_Edge' does not match copy in library 'Backplane_MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint edge-F.Cu-zone",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 20.0
+                    },
+                    "uuid": "e8cd00ca-7519-5bcd-aa86-55b95cfbcef2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MountingHole_2.2mm_M2_ExposedSubstrate_Edge' does not match copy in library 'Backplane_MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint edge-B.Cu-zone",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 20.0
+                    },
+                    "uuid": "01b0c11d-b7bf-5f88-b26f-acb16b04525d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MountingHole_2.2mm_M2_ExposedSubstrate_Corner' does not match copy in library 'Backplane_MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint corner-F.Cu-zone",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 20.0
+                    },
+                    "uuid": "1445bf7a-524c-53f4-b609-a3958f94e23c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MountingHole_2.2mm_M2_ExposedSubstrate_Corner' does not match copy in library 'Backplane_MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint corner-B.Cu-zone",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "851cc170-469e-5d32-af5c-212eb62a56cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

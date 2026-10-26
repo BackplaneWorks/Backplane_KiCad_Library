@@ -1,0 +1,254 @@
+
+# ---------------------------------------------------------
+# IA series
+#
+# Case sizes all given as max, so use those and add 0.5mm
+# case-to-pin tolerance, which is not stated, but similar to
+# other similarly-sized XP series like IH.
+#
+# All leads 0.51 x max 0.254 -> IPC-2222B level B hole size min 0.77
+#
+# 48V models are discontinued, the datasheet has removed them,
+# so use archived datasheet URLs.
+
+Converter_DCDC_XP_POWER-IAxxxxS_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IA series, 3.3-24V inputs, 1000V isolation, SIP-7"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IA.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [6.09, 19.3]
+  at: [-4.69, 2.03]
+  body_height: 10.16
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "4", 0, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 0, -10.16, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85]
+  ]
+
+Converter_DCDC_XP_POWER-IA48xxS_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IA series, 48V input, 1000V isolation, SIP-7"
+  datasheet: "https://web.archive.org/web/20190130132700/https://www.xppower.com/portals/0/pdfs/SF_IA.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [7.20, 19.3]
+  at: [-5.80, 2.03]
+  body_height: 10.16
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "4", 0, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 0, -10.16, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85]
+  ]
+
+Converter_DCDC_XP_POWER-IAxxxxD_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IA series, 3.3-24V inputs, 1000V isolation, SIP-7"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IA.pdf"
+  tags: "THT"
+  size: [10.16, 20.32]
+  at: [-1.52, 2.84]
+  body_height: 6.35
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "3", 7.62, 0, 1.85, 1.85, 0.85],
+    ["tht", "4", 7.62, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 7.62, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "6", 7.62, -15.24, 1.85, 1.85, 0.85],
+  ]
+
+Converter_DCDC_XP_POWER-IA48xxD_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IA series, 48V input, 1000V isolation, SIP-7"
+  datasheet: "https://web.archive.org/web/20190130132700/https://www.xppower.com/portals/0/pdfs/SF_IA.pdf"
+  tags: "THT"
+  size: [10.16, 20.32]
+  at: [-1.52, 2.84]
+  body_height: 6.88
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "3", 7.62, 0, 1.85, 1.85, 0.85],
+    ["tht", "4", 7.62, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 7.62, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "6", 7.62, -15.24, 1.85, 1.85, 0.85],
+  ]
+
+# ---------------------------------------------------------
+# IH series
+#
+# Case sizes inconsistently given - treat all as max, and
+# include the 0.5mm 'case tolerance' as pin-to-case variability
+#
+# All leads 0.5 x max 0.25 -> IPC-2222B level B hole size min 0.76
+
+Converter_DCDC_XP_POWER-IHxxxxS_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IH series, 2W, 1000V isolation, SIP-7"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IH.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [7.2, 19.5]
+  at: [-5.95, 2.29]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "4", 0, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 0, -10.16, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85]
+  ]
+
+Converter_DCDC_XP_POWER-IHxxxxSH_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IH series, 2W, ≥3000V isolation, SIP-7"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IH.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [7.62, 19.5]
+  at: [-6.37, 2.29]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "4", 0, -10.16, 1.85, 1.85, 0.85],
+    ["tht", "5", 0, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -15.24, 1.85, 1.85, 0.85],
+  ]
+
+Converter_DCDC_XP_POWER-IHxxxxD_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IH series, 2W, 1000V isolation, DIP-14"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IH.pdf"
+  tags: "THT"
+  size: [10.16, 20.32]
+  # The datasheet doesn't give the body--pin offset, but the 3D model from XP
+  # shows this value (which means the pins are centred in the body)
+  at: [-1.27, 2.54]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "3", 7.62, 0, 1.85, 1.85, 0.85],
+    ["tht", "4", 7.62, -7.62, 1.85, 1.85, 0.85],
+    ["tht", "5", 7.62, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "6", 7.62, -15.24, 1.85, 1.85, 0.85],
+  ]
+
+Converter_DCDC_XP_POWER-IHxxxxDH_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IH series, 2W, ≥3000V isolation, DIP-14"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IH.pdf"
+  tags: "THT"
+  size: [10.16, 20.32]
+  at: [-1.27, 2.54]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "3", 7.62, 0, 1.85, 1.85, 0.85],
+    ["tht", "4", 7.62, -10.16, 1.85, 1.85, 0.85],
+    # These are reversed (symbol compatibility?)
+    ["tht", "6", 7.62, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "5", 7.62, -15.24, 1.85, 1.85, 0.85],
+  ]
+
+
+# ---------------------------------------------------------
+# IT series
+#
+# Case sizes given as nominal, so include body_size_tolerance
+#
+# All leads 0.5 x 0.3  IPC-2222B level B hole size min 0.79
+
+Converter_DCDC_XP_POWER-ITxxxxxS_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, IT series, 3W, 1500V isolation, SIP-9"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_IT.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [9.2, 26.0]
+  at: [-6.30, 1.8]
+  body_height: 12.5
+  body_size_tolerance: [0.5, 0.5]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "3", 0, -5.08, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "7", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "8", 0, -17.78, 1.85, 1.85, 0.85],
+    ["tht", "9", 0, -20.32, 1.85, 1.85, 0.85],
+  ]
+
+# ---------------------------------------------------------
+# ITQ series
+#
+# Case sizes given as nominal, so include body_size_tolerance
+#
+# All leads 0.5 +/- 0.05 -> IPC-2222B level B hole size
+# min 0.705, max 1.195
+#
+#  single and dual -H (remote on/off) have no pin 5
+
+Converter_DCDC_XP_POWER-ITQxxxxS-H_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, ITQ series, 6W, 1500V isolation, SIP-8"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_ITQ.pdf"
+  tags: "THT"
+  arrow_points: East
+  # The datasheet lists both 9.2 and 9.3mm here; 9.2 is closer to the nominal 0.36"
+  size: [9.2, 21.85]
+  # The datasheet doesn't give the body-pin offset, but the 3D model from XP
+  # shows this value (which means the pins are centred in the body)
+  at: [-6.00, 2.035]
+  body_height: 10.6
+  body_size_tolerance: [0.5, 0.5]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "3", 0, -5.08, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "7", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "8", 0, -17.78, 1.85, 1.85, 0.85]
+  ]
+
+
+# ---------------------------------------------------------
+# ITX series
+#
+# Case size identical to ITQ
+#
+#  -SA is single output (no pins 3, 5)
+
+Converter_DCDC_XP_POWER-ITXxxxxSA_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, XP Power, ITX series, single-output, 6W, 1500V isolation, SIP-8"
+  datasheet: "https://www.xppower.com/portals/0/pdfs/SF_ITX.pdf"
+  tags: "THT"
+  arrow_points: East
+  size: [9.2, 21.85]
+  # The datasheet doesn't give the body-pin offset, but the 3D model from XP
+  # shows this value (which means the pins are centred in the body)
+  at: [-6.00, 2.035]
+  body_height: 10.6
+  body_size_tolerance: [0.5, 0.5]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.85, 1.85, 0.85],
+    ["tht", "2", 0, -2.54, 1.85, 1.85, 0.85],
+    ["tht", "6", 0, -12.70, 1.85, 1.85, 0.85],
+    ["tht", "7", 0, -15.24, 1.85, 1.85, 0.85],
+    ["tht", "8", 0, -17.78, 1.85, 1.85, 0.85]
+  ]

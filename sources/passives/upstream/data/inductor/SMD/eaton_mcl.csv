@@ -1,0 +1,2 @@
+PartNumber,widthX,lengthY,height,padX,landingY,landingX,landingInsideX,include_in_qa
+MCL2012V1, 2, 1.2, 0.9, 0.5, 1.6, 1.2, 0.4, True

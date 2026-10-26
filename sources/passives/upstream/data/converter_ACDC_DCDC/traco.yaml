@@ -1,0 +1,1304 @@
+Converter_DCDC_TRACO_TBA1-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TBA1-xxxx, 1W, Rev. May 21. 2025"
+  datasheet: "https://www.tracopower.com/products/tba1.pdf"
+  tags: "DCDC-Converter TRACO TBA1 THT SIP-4 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-1.35, 2.03]
+  size: [6, 11.68]
+  body_size_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.15
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1],
+    ["tht", "3", 0, -5.08, 1.8, 1.8, 1],
+    ["tht", "4", 0, -7.62, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TBA1-xxxxE_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TBA1-xxxxE, Dual, 1W, Rev. October 31. 2023"
+  datasheet: "https://www.tracopower.com/products/tba1e.pdf"
+  tags: "DCDC-Converter TRACO TBA1E THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-4.65, 2.4]
+  size: [6, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TBA1-xxxxE, Single, 1W, Rev. October 31. 2023"
+  datasheet: "https://www.tracopower.com/products/tba1e.pdf"
+  tags: "DCDC-Converter TRACO TBA1E THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-4.65, 2.4]
+  size: [6, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TBA2-xxxx, Dual, 2W, Rev. October 18. 2023"
+  datasheet: "https://www.tracopower.com/products/tba2.pdf"
+  tags: "DCDC-Converter TRACO TBA2 THT SIP-7 2W"
+  extratexts: []
+  arrow_points: East
+  at: [-6.25, 2.4]
+  size: [7.6, 19.55]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TBA2-xxxx_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TBA2-xxxx, Single, 2W, Rev. October 18. 2023"
+  datasheet: "https://www.tracopower.com/products/tba2.pdf"
+  tags: "DCDC-Converter TRACO TBA2 THT SIP-7 2W"
+  extratexts: []
+  arrow_points: East
+  at: [-6.25, 2.4]
+  size: [7.6, 19.55]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TDU1-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TDU1-xxxx, 1W, Rev. October 24. 2023"
+  datasheet: "https://www.tracopower.com/products/tdu1.pdf"
+  tags: "DCDC-Converter TRACO TDU1 THT DIP-8 1W"
+  extratexts: []
+  at: [-1.28, 2.48]
+  size: [10.2, 12.7]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "5", 7.62, -7.62, 1.5, 1.5, 1],
+    ["tht", "7", 7.62, -2.54, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TEA1-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEA1-xxxx, 1W, Rev. October 19. 2023"
+  datasheet: "https://www.tracopower.com/products/tea1.pdf"
+  tags: "DCDC-Converter TRACO TEA1 THT SIP-4 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-0.9, 2.03]
+  size: [6, 11.68]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "3", 0, -5.08, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TEA1-xxxxE_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEA1-xxxxE, 1W, Rev. October 31. 2023"
+  datasheet: "https://www.tracopower.com/products/tea1e.pdf"
+  tags: "DCDC-Converter TRACO TEA1E THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.1, 2.4]
+  size: [6, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TEA1-xxxxHI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEA1-xxxxHI, 1W, Rev. October 31. 2023"
+  datasheet: "https://www.tracopower.com/products/tea1hi.pdf"
+  tags: "DCDC-Converter TRACO TEA1HI THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.1, 2.4]
+  size: [6, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "7", 0, -15.24, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TEC2-12xxWI_24xxWI_48xxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEC 2-12xxWI, TEC 2-24xxWI, TEC 2-48xxWI, 2W, Rev. May 7. 2025"
+  datasheet: "https://www.tracopower.com/products/tec2wi.pdf"
+  tags: "DCDC-Converter TRACO TEC2WI THT SIP-8 2W"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tmr2.pdf
+    - TMR2
+  arrow_points: East
+  extratexts: []
+  # TEC2 specifies 2.0 pin 8 to edge (i.e. y here would be 2.02)
+  # TMR2 has 2.0 pin 1 to edge (so y here would be 2.00)
+  # Using 2.0 for both is well within tolerances.
+  at: [-5.6, 2.0]
+  size: [9.1, 21.8]
+  body_size_tolerance: [0.5, 0.5]
+  # For future use
+  height: 11.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1],
+    ["tht", "2", 0, -2.54, 1.9, 1.9, 1],
+    ["tht", "3", 0, -5.08, 1.9, 1.9, 1],
+    ["tht", "5", 0, -10.16, 1.9, 1.9, 1],
+    ["tht", "6", 0, -12.7, 1.9, 1.9, 1],
+    ["tht", "7", 0, -15.24, 1.9, 1.9, 1],
+    ["tht", "8", 0, -17.78, 1.9, 1.9, 1]
+  ]
+
+Converter_DCDC_TRACO_TEC3-24xxUI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEC3-24xxUI, 3W, Rev. September 17. 2025"
+  datasheet: "https://www.tracopower.com/products/tec3ui.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-8 3W TEC3UI"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tec1ui.pdf
+    - TEC1UI
+    # https://www.tracopower.com/products/tec6.pdf
+    - TEC6
+    # https://www.tracopower.com/products/tec6ui.pdf
+    - TEC6UI
+  extratexts: []
+  arrow_points: East
+  at: [-6.6, 2.26]
+  size: [10, 22.3]
+  body_size_tolerance: [0.5, 0.5]
+  # For future use
+  height: 11.3
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "3", 0, -5.08, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1],
+    ["tht", "7", 0, -15.24, 1.5, 1.5, 1],
+    ["tht", "8", 0, -17.78, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TEN10-110xxWIRH_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEN 10-110xxWIRH, 10W, Rev. December 16. 2024"
+  datasheet: "https://www.tracopower.com/products/ten10wirh.pdf"
+  tags: "DCDC-Converter TRACO TEN10WIRH THT DIP-24"
+  compatible_mpns:
+    # https://www.tracopower.com/products/ten3wirh.pdf
+    - TEN3WIRH
+    # https://www.tracopower.com/products/ten6wirh.pdf
+    - TEN6WIRH
+  extratexts: []
+  at: [-2.53, 2]
+  size: [20.3, 31.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.5
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1.1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1.1],
+    ["tht", "3", 0, -5.08, 1.8, 1.8, 1.1],
+    ["tht", "9", 0, -20.32, 1.8, 1.8, 1.1],
+    ["tht", "11", 0, -25.4, 1.8, 1.8, 1.1],
+    ["tht", "14", 15.24, -25.4, 1.8, 1.8, 1.1],
+    ["tht", "16", 15.24, -20.32, 1.8, 1.8, 1.1],
+    ["tht", "22", 15.24, -5.08, 1.8, 1.8, 1.1],
+    ["tht", "23", 15.24, -2.54, 1.8, 1.8, 1.1],
+  ]
+
+Converter_DCDC_TRACO_TEN20-110xxWIRH_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEN 20-110xxWIRH, 20W, Rev. August 22. 2024"
+  datasheet: "https://www.tracopower.com/products/ten20wirh.pdf"
+  tags: "DCDC-Converter TRACO TEN20WIRH THT 1\"x1.6\" 20W"
+  extratexts: []
+  at: [-5.1, 2.52]
+  size: [25.4, 40.6]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 5.08, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 15.24, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", -2.54, -35.56, 2.5, 2.5, 1.5],
+    ["tht", "5", 7.62, -35.56, 2.5, 2.5, 1.5],
+    ["tht", "6", 17.78, -35.56, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TEN30-xxxxUIR_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEN 30-xxxxUIR, 30W, Rev. August 6. 2025"
+  datasheet: "https://www.tracopower.com/products/ten30uir.pdf"
+  tags: "DCDC-Converter TRACO TEN30UIR THT 2\"x1\" 30W"
+  extratexts: []
+  at: [-5.1, 2.5]
+  size: [25.4, 50.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 5.08, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 10.16, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", 15.24, 0, 2.5, 2.5, 1.5],
+    ["tht", "5", -2.54, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "6", 7.62, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "7", 17.78, -45.72, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TEN40-110xxWIRH_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEN 40-110xxWIRH, 40W, Rev. October 2. 2024"
+  datasheet: "https://www.tracopower.com/products/ten40wirh.pdf"
+  tags: "DCDC-Converter TRACO TEN40WIRH THT 2\"x1\" 40W"
+  extratexts: []
+  at: [-5.1, 2.54]
+  size: [25.4, 50.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 5.08, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 15.24, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", -2.54, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "5", 7.62, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "6", 17.78, -45.72, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TEP150-721xUIR_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TEP150-721xUIR, 150W, Rev. September 4. 2025"
+  datasheet: "https://www.tracopower.com/products/tep150uir.pdf"
+  tags: "DCDC-Converter TRACO TEP150UIR THT Half-Brick 61x57.9 150W"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tep200uir.pdf
+    - TEP200UIR
+  extratexts: []
+  at: [-12.72, 4.82]
+  size: [61, 57.9]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 13
+  pins: [
+    ["thtr", "1", 0, 0, 3, 3, 1.5],
+    ["tht", "2", 10.16, 0, 3, 3, 1.5],
+    ["tht", "3", 25.4, 0, 3, 3, 1.5],
+    ["tht", "4", 35.56, 0, 3, 3, 1.5],
+    ["tht", "5", 0, -48.26, 5, 5, 2.5],
+    ["tht", "6", 10.16, -48.26, 3, 3, 1.5],
+    ["tht", "7", 17.78, -48.26, 3, 3, 1.5],
+    ["tht", "8", 25.4, -48.26, 3, 3, 1.5],
+    ["tht", "9", 35.56, -48.26, 5, 5, 2.5],
+    ["tht", "10", 17.78, 0, 3, 3, 1.5],
+    ["tht", "11", 21.59, 0, 3, 3, 1.5],
+    ["tht", "12", -7.62, 0, 8, 8, 3.2], # Mounting hole
+    ["tht", "12", 43.18, 0, 8, 8, 3.2], # Mounting hole
+    ["tht", "12", -7.62, -48.26, 8, 8, 3.2], # Mounting hole
+    ["tht", "12", 43.18, -48.26, 8, 8, 3.2] # Mounting hole
+  ]
+
+Converter_DCDC_TRACO_TES1-052x_122x_242x_Dual_SMD:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TES1-052x, TES1-122x, TES1-242x, Dual, 1W, Rev. July 1. 2025"
+  datasheet: "https://www.tracopower.com/products/tes1.pdf"
+  tags: "DCDC-Converter TRACO TES1 SMD SMD10 1W"
+  smd_tht: smd
+  extratexts: []
+  at: [-4.2, 8.12]
+  size: [8.4, 16.24]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 6.9
+  pins: [
+    ["smd", "1", -5.2, 5.08, 2.0, 1.2, 0],
+    ["smd", "2", -5.2, 2.54, 2.0, 1.2, 0],
+    ["smd", "4", -5.2, -2.54, 2.0, 1.2, 0],
+    ["smd", "5", -5.2, -5.08, 2.0, 1.2, 0],
+    ["smd", "7", 5.2, -2.54, 2.0, 1.2, 0],
+    ["smd", "10", 5.2, 5.08, 2.0, 1.2, 0]
+  ]
+
+Converter_DCDC_TRACO_TES1-051x_121x_241x_Single_SMD:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TES1-051x, TES1-121x, TES1-241x, Single, 1W, Rev. July 1. 2025"
+  datasheet: "https://www.tracopower.com/products/tes1.pdf"
+  tags: "DCDC-Converter TRACO TES1 SMD SMD8 1W"
+  smd_tht: smd
+  extratexts: []
+  at: [-4.2, 6.85]
+  size: [8.4, 13.7]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 6.7
+  pins: [
+    ["smd", "1", -5.2, 3.81, 2.0, 1.2, 0],
+    ["smd", "2", -5.2, 1.27, 2.0, 1.2, 0],
+    ["smd", "4", -5.2, -3.81, 2.0, 1.2, 0],
+    ["smd", "5", 5.2, -3.81, 2.0, 1.2, 0],
+    ["smd", "8", 5.2, 3.81, 2.0, 1.2, 0]
+  ]
+
+Converter_DCDC_TRACO_THB10-xxxx_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THB10-xxxx, Dual, 10W, Rev. March 12. 2025"
+  datasheet: "https://www.tracopower.com/products/thb10.pdf"
+  tags: "DCDC-Converter TRACO THB10 THT 2\"x1\" 10W"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tri15.pdf
+    - TRI15
+    # https://www.tracopower.com/products/tri20.pdf
+    - TRI20
+  extratexts: []
+  at: [-5.08, 2.54]
+  size: [25.4, 50.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12.1
+  pins: [
+    ["thtr", "1", 0, 0, 2.3, 2.3, 1.3],
+    ["tht", "2", 5.08, 0, 2.3, 2.3, 1.3],
+    ["tht", "3", -2.54, -45.72, 2.3, 2.3, 1.3],
+    ["tht", "4", 7.62, -45.72, 2.3, 2.3, 1.3],
+    ["tht", "5", 17.78, -45.72, 2.3, 2.3, 1.3]
+  ]
+
+Converter_DCDC_TRACO_THB10-xxxx_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THB10-xxxx, Single, 10W, Rev. March 12. 2025"
+  datasheet: "https://www.tracopower.com/products/thb10.pdf"
+  tags: "DCDC-Converter TRACO THB10 THT 2\"x1\" 10W"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tri15.pdf
+    - TRI15
+    # https://www.tracopower.com/products/tri20.pdf
+    - TRI20
+  extratexts: []
+  at: [-5.08, 2.54]
+  size: [25.4, 50.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12.1
+  pins: [
+    ["thtr", "1", 0, 0, 2.3, 2.3, 1.3],
+    ["tht", "2", 5.08, 0, 2.3, 2.3, 1.3],
+    ["tht", "3", -2.54, -45.72, 2.3, 2.3, 1.3],
+    ["tht", "5", 17.78, -45.72, 2.3, 2.3, 1.3]
+  ]
+
+Converter_DCDC_TRACO_THL30-xxxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THL 30-xxxxWI, 30W, Rev. September 17. 2025"
+  datasheet: "https://www.tracopower.com/products/thl30wi.pdf"
+  tags: "DCDC-Converter TRACO THT 1\"x1\" 30W THL30WI"
+  compatible_mpns:
+    # https://www.tracopower.com/products/thl25wi.pdf
+    - THL25WI
+    # https://www.tracopower.com/products/thl25.pdf
+    - THL25
+    # https://www.tracopower.com/products/thl15wi.pdf
+    - THL15WI
+  extratexts: []
+  at: [-10.2, 2.5]
+  size: [25.4, 25.4]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 2.4, 2.4, 1.4],
+    ["tht", "2", 5.08, 0, 2.4, 2.4, 1.4],
+    ["tht", "3", -7.62, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "4", 2.54, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "5", 12.7, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "6", 12.7, 0, 2.4, 2.4, 1.4]
+  ]
+
+Converter_DCDC_TRACO_THL40-xxxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THL 40-xxxxWI, 40W, Rev. July 31. 2025"
+  datasheet: "https://www.tracopower.com/products/thl40wi.pdf"
+  tags: "DCDC-Converter TRACO THL40WI THT 1\"x1\" 40W"
+  extratexts: []
+  at: [-10.2, 2.5]
+  size: [25.4, 25.4]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 11.5
+  pins: [
+    ["thtr", "1", 0, 0, 2.4, 2.4, 1.4],
+    ["tht", "2", 5.08, 0, 2.4, 2.4, 1.4],
+    ["tht", "3", -7.62, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "4", 2.54, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "5", 12.7, -20.32, 2.4, 2.4, 1.4],
+    ["tht", "6", 12.7, 0, 2.4, 2.4, 1.4]
+  ]
+
+Converter_DCDC_TRACO_THN10-xxxxUIR_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THN 10-xxxxUIR, 10W, Rev. August 28. 2025"
+  datasheet: "https://www.tracopower.com/products/thn10uir.pdf"
+  tags: "DCDC-Converter TRACO THT 1\"x1\" 10W THN10UIR"
+  compatible_mpns:
+    # https://www.tracopower.com/products/thn15uir.pdf
+    - THN15UIR
+  extratexts: []
+  at: [-2.5, 2.5]
+  size: [25.4, 25.4]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 9.9
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 7.62, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 12.7, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", 20.32, 0, 2.5, 2.5, 1.5],
+    ["tht", "5", 0, -20.32, 2.5, 2.5, 1.5],
+    ["tht", "6", 10.16, -20.32, 2.5, 2.5, 1.5],
+    ["tht", "7", 20.32, -20.32, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_THN20-xxxxUIR_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THN 20-xxxxUIR, with pre-mounted 7.62mm heatsink, 20W, Rev. August 31. 2026"
+  datasheet: "https://www.tracopower.com/products/thn20uir.pdf"
+  tags: "DCDC-Converter TRACO THT 1\"x1\" 20W THN20UIR"
+  extratexts: []
+  at: [-2.5, 2.5]
+  size: [25.4, 25.4]
+  # Body nominal 25.4 x 25.4 mm; heatsink variant up to 26.1 x 26.5 mm max.
+  # Heatsink protrudes on one side only, so overhang is halved
+  # (tolerance is applied symmetrically on both sides by the generator).
+  # Position tolerance: datasheet fab tolerance (2.5 mm edge distance, x.x ±0.5).
+  # Size tolerance: half of one-sided heatsink overhang.
+  body_position_tolerance: [0.5, 0.5]
+  body_size_tolerance:     [0.35, 0.55]   # (26.1-25.4)/2 and (26.5-25.4)/2
+  # For future use
+  height: 18.7
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 7.62, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 12.7, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", 20.32, 0, 2.5, 2.5, 1.5],
+    ["tht", "5", 0, -20.32, 2.5, 2.5, 1.5],
+    ["tht", "6", 10.16, -20.32, 2.5, 2.5, 1.5],
+    ["tht", "7", 20.32, -20.32, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_THR40-72xxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, THR40-72xxWI, THR40-72xxxWI, 40W, Rev. August 3. 2026"
+  datasheet: "https://www.tracopower.com/products/thr40wi.pdf"
+  tags: "DCDC-Converter TRACO THT 2\"x1\" 40W THR40WI"
+  compatible_mpns:
+    # https://www.tracopower.com/products/ten80wi.pdf
+    - TEN80WI
+  extratexts: []
+  at: [-5.1, 2.54]
+  size: [25.4, 50.8]
+  body_position_tolerance: [0.75, 0.75]
+  # For future use
+  height: 11
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 5.08, 0, 2.5, 2.5, 1.5],
+    ["tht", "3", 15.24, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", -2.6, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "5", 7.56, -45.72, 2.5, 2.5, 1.5],
+    ["tht", "6", 17.72, -45.72, 2.5, 2.5, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TMA-05xxD_12xxD_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMA-05xxD, TMA-12xxD, Dual, 1W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tma.pdf"
+  tags: "DCDC-Converter TRACO TMA THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-4.925, 2.1]
+  size: [6.1, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMA-05xxS, TMA-12xxS, Single, 1W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tma.pdf"
+  tags: "DCDC-Converter TRACO TMA THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-4.925, 2.1]
+  size: [6.1, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TMA-15xxD_24xxD_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMA-15xxD, TMA-25xxD, Dual, 1W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tma.pdf"
+  tags: "DCDC-Converter TRACO TMA THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.925, 2.1]
+  size: [7.1, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "5", 0, -10.16, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TMA-15xxS_24xxS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMA-15xxS, TMA-24xxS, Single, 1W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tma.pdf"
+  tags: "DCDC-Converter TRACO TMA THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.925, 2.1]
+  size: [7.1, 19.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "4", 0, -7.62, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TME_03xxS_05xxS_12xxS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TME-03xxS, TME-05xxS, TME-12xxS, 1W, Rev. September 26. 2023"
+  datasheet: "https://www.tracopower.com/products/tme.pdf"
+  tags: "DCDC-Converter TRACO TME THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-1.675, 1.9]
+  size: [6.1, 11.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1],
+    ["tht", "2", 0, -2.54, 1.6, 1.6, 1],
+    ["tht", "3", 0, -5.08, 1.6, 1.6, 1],
+    ["tht", "4", 0, -7.62, 1.6, 1.6, 1]
+  ]
+
+Converter_DCDC_TRACO_TME_24xxS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TME-24xxS, 1W, Rev. September 26. 2023"
+  datasheet: "https://www.tracopower.com/products/tme.pdf"
+  tags: "DCDC-Converter TRACO TME THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-1.675, 1.9]
+  size: [7.1, 11.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1],
+    ["tht", "2", 0, -2.54, 1.6, 1.6, 1],
+    ["tht", "3", 0, -5.08, 1.6, 1.6, 1],
+    ["tht", "4", 0, -7.62, 1.6, 1.6, 1]
+  ]
+
+Converter_ACDC_TRACO_TMF_051xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMF 051xx, 5W, Rev. August 26. 2024"
+  datasheet: "https://www.tracopower.com/products/tmf05.pdf"
+  tags: "ACDC-Converter TRACO TMF05 THT 5W"
+  extratexts: []
+  at: [-4.1, 3.4]
+  size: [41.2, 27.2]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 0, -19, 2.5, 2.5, 1.5],
+    ["tht", "3", 33, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", 33, -12.7, 2.5, 2.5, 1.5]
+  ]
+
+Converter_ACDC_TRACO_TMF_101xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMF 101xx, 10W, Rev. August 27. 2024"
+  datasheet: "https://www.tracopower.com/products/tmf10.pdf"
+  tags: "ACDC-Converter TRACO TMF10 THT 10W"
+  extratexts: []
+  at: [-3.24, 3.24]
+  size: [52.2, 26.8]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 0, -20.32, 2.5, 2.5, 1.5],
+    ["tht", "3", 45.72, 0, 2.5, 2.5, 1.5],
+    ["tht", "4", 45.72, -10.16, 2.5, 2.5, 1.5]
+  ]
+
+Converter_ACDC_TRACO_TMF_201xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMF 201xx, 20W, Rev. August 28. 2024"
+  datasheet: "https://www.tracopower.com/products/tmf20.pdf"
+  tags: "ACDC-Converter TRACO TMF20 THT 20W"
+  extratexts: []
+  at: [-3.85, 22.5]
+  size: [54.7, 44.9]
+  body_position_tolerance: [0.5, 0.5]
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 0, -17.5, 2.5, 2.5, 1.5],
+    ["tht", "3", 47, 10.05, 2.5, 2.5, 1.5],
+    ["tht", "4", 47, -9.95, 2.5, 2.5, 1.5]
+  ]
+
+Converter_ACDC_TRACO_TMF_301xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMF 301xx, 30W, Rev. October 10. 2024"
+  datasheet: "https://www.tracopower.com/products/tmf30.pdf"
+  tags: "ACDC-Converter TRACO TMF30 THT 30W"
+  extratexts: []
+  at: [-4, 22.8]
+  size: [64.1, 45.6]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 23.5
+  pins: [
+    ["thtr", "1", 0, 0, 2.5, 2.5, 1.5],
+    ["tht", "2", 0, -17.5, 2.5, 2.5, 1.5],
+    ["tht", "3", 54, 10.0, 2.5, 2.5, 1.5],
+    ["tht", "5", 54, -10, 2.5, 2.5, 1.5]
+  ]
+
+Converter_ACDC_TRACO_TMG_071xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMG 071xx, 7W, Rev. March 24. 2025"
+  datasheet: "https://www.tracopower.com/products/tmg07.pdf"
+  tags: "ACDC-Converter TRACO TMG07 THT 1.08\"x1.08\" 7W"
+  extratexts: []
+  at: [-3.3, 3]
+  size: [27.4, 27.4]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 18.7
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 0, -5, 1.9, 1.9, 1.1],
+    ["tht", "3", 20.8, 0.3, 1.9, 1.9, 1.1],
+    ["tht", "4", 20.8, -9.9, 1.9, 1.9, 1.1]
+  ]
+
+Converter_ACDC_TRACO_TMG_151xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMG 151xx, 15W, Rev. March 26. 2025"
+  datasheet: "https://www.tracopower.com/products/tmg15.pdf"
+  tags: "ACDC-Converter TRACO TMG15 THT 1.62\"x1.07\" 15W"
+  extratexts: []
+  at: [-4.1, 3.4]
+  size: [41.2, 27.2]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 19.1
+  pins: [
+    ["thtr", "1", 0, 0, 2.3, 2.3, 1.5],
+    ["tht", "2", 0, -19, 2.3, 2.3, 1.5],
+    ["tht", "3", 33, 0, 2.3, 2.3, 1.5],
+    ["tht", "4", 33, -12.7, 2.3, 2.3, 1.5]
+  ]
+
+Converter_ACDC_TRACO_TMPS03-1xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMPS03-1xx, 3W, Rev. July 29. 2026"
+  datasheet: "https://www.tracopower.com/products/tmps03.pdf"
+  tags: "ACDC-Converter TRACO THT 1\"x1\" TMPS03"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tmps05.pdf
+    - TMPS05
+  extratexts: []
+  at: [-2.54, 2.54]
+  size: [25.4, 25.4]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 16.3
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 0, -5.08, 1.9, 1.9, 1.1],
+    ["tht", "3", 20.32, -20.32, 1.9, 1.9, 1.1],
+    ["tht", "4", 20.32, -10.16, 1.9, 1.9, 1.1],
+    ["tht", "5", 20.32, 0, 1.9, 1.9, 1.1]
+  ]
+
+Converter_ACDC_TRACO_TMPW5-1xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMPW5-xxx, 5W, Rev. March 19. 2025"
+  datasheet: "https://www.tracopower.com/products/tmpw5.pdf"
+  tags: "ACDC-Converter TRACO TMPW5 THT 1.46\"x1.08\""
+  extratexts: []
+  at: [-4, 3.25]
+  size: [37, 27.5]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 17.5
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 21.5, 0, 1.9, 1.9, 1.1],
+    ["tht", "3", 29, 0, 1.9, 1.9, 1.1],
+    ["tht", "4", 29, -21, 1.9, 1.9, 1.1],
+    ["tht", "5", 21.5, -21, 1.9, 1.9, 1.1]
+  ]
+
+Converter_ACDC_TRACO_TMPW10_1xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMPW 10, 10W, Rev. March 17. 2025"
+  datasheet: "https://www.tracopower.com/products/tmpw10.pdf"
+  tags: "ACDC-Converter TRACO TMPW10 THT 1.46\"x1.08\""
+  extratexts: []
+  at: [-25.5, 3.25]
+  size: [37, 27.5]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 20
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 7.5, 0, 1.9, 1.9, 1.1],
+    ["tht", "3", 7.5, -21, 1.9, 1.9, 1.1],
+    ["tht", "4", 0, -21, 1.9, 1.9, 1.1],
+    ["tht", "5", -21.5, -21, 1.9, 1.9, 1.1]
+  ]
+
+Converter_ACDC_TRACO_TMPW25_1xx_THT:
+  library_name: 'Converter_ACDC'
+  description: "ACDC-Converter, TRACO, TMPW 25, 25W, Rev. June 16. 2025"
+  datasheet: "https://www.tracopower.com/products/tmpw25.pdf"
+  tags: "ACDC-Converter TRACO TMPW25 THT 2.07\"x1.08\" 25W"
+  extratexts: []
+  at: [-3.4, 3.6]
+  size: [52.5, 27.5]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 23.5
+  pins: [
+    ["thtr", "1", 0, 0, 2.3, 2.3, 1.5],
+    ["tht", "2", 0, -20.3, 2.3, 2.3, 1.5],
+    ["tht", "3", 45.7, 0, 2.3, 2.3, 1.5],
+    ["tht", "4", 45.7, -21.5, 2.3, 2.3, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TMR2-xxxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMR2-xxxxWI, 2W, Rev. October 7. 2025"
+  datasheet: "https://www.tracopower.com/products/tmr2wi.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-9 2W TMR2WI"
+  extratexts: []
+  at: [-2, 2.875]
+  size: [25.95, 9.25]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12.45
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 2.54, 0, 1.8, 1.8, 1],
+    ["tht", "3", 5.08, 0, 1.8, 1.8, 1],
+    ["tht", "6", 12.7, 0, 1.8, 1.8, 1],
+    ["tht", "7", 15.24, 0, 1.8, 1.8, 1],
+    ["tht", "8", 17.78, 0, 1.8, 1.8, 1],
+    ["tht", "9", 20.32, 0, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TMR4-xxxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMR4-xxxxWI, 4W, Rev. December 06. 2023"
+  datasheet: "https://www.tracopower.com/products/tmr4wi.pdf"
+  tags: "DCDC-Converter TRACO TMR4WI THT SIP-8 4W"
+  extratexts: []
+  arrow_points: East
+  at: [-2, 2.575]
+  size: [21.8, 9.3]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 2.54, 0, 1.5, 1.5, 1],
+    ["tht", "3", 5.08, 0, 1.5, 1.5, 1],
+    ["tht", "5", 10.16, 0, 1.5, 1.5, 1],
+    ["tht", "6", 12.7, 0, 1.5, 1.5, 1],
+    ["tht", "7", 15.24, 0, 1.5, 1.5, 1],
+    ["tht", "8", 17.78, 0, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TMR8-xxxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMR8-xxxxWI, 8W, Rev. September 30. 2025"
+  datasheet: "https://www.tracopower.com/products/tmr8wi.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-8 8W TMR8WI"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tmr10wi.pdf
+    - TMR10WI
+  extratexts: []
+  at: [-2, 2.7]
+  size: [21.8, 9.6]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 2.54, 0, 1.9, 1.9, 1.1],
+    ["tht", "3", 5.08, 0, 1.9, 1.9, 1.1],
+    ["tht", "5", 10.16, 0, 1.9, 1.9, 1.1],
+    ["tht", "6", 12.7, 0, 1.9, 1.9, 1.1],
+    ["tht", "7", 15.24, 0, 1.9, 1.9, 1.1],
+    ["tht", "8", 17.78, 0, 1.9, 1.9, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TMR10-24xxWIR_48xxWIR_72xxWIR_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMR 10-24xxWIR, TMR 10-48xxWIR, TMR 10-72xxWIR, 10W, Rev. April 29. 2025"
+  datasheet: "https://www.tracopower.com/products/tmr10wir.pdf"
+  tags: "DCDC-Converter TRACO TMR10WIR THT SIP-8 10W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.9, 2.1]
+  size: [9.6, 22]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "2", 0, -2.54, 1.9, 1.9, 1.1],
+    ["tht", "3", 0, -5.08, 1.9, 1.9, 1.1],
+    ["tht", "6", 0, -12.7, 1.9, 1.9, 1.1],
+    ["tht", "7", 0, -15.24, 1.9, 1.9, 1.1],
+    ["tht", "8", 0, -17.78, 1.9, 1.9, 1.1],
+    ["tht", "9", -5.8, -3.6, 2.7, 2.7, 1.5],
+    ["tht", "10", 3.6, -14.2, 2.7, 2.7, 1.5]
+  ]
+
+Converter_DCDC_TRACO_TMU3-05xx_12xx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMU3-05xx, TMU3-12xx, 3W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tmu3.pdf"
+  tags: "DCDC-Converter TRACO TMU3 THT SIP-4 3W"
+  extratexts: []
+  arrow_points: East
+  at: [-2.475, 1.9]
+  size: [8.6, 11.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1.1],
+    ["tht", "2", 0, -2.54, 1.6, 1.6, 1.1],
+    ["tht", "3", 0, -5.08, 1.6, 1.6, 1.1],
+    ["tht", "4", 0, -7.62, 1.6, 1.6, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TMU3-24xx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMU3-24xx, 3W, Rev. November 10. 2023"
+  datasheet: "https://www.tracopower.com/products/tmu3.pdf"
+  tags: "DCDC-Converter TRACO TMU3 THT SIP-4 3W"
+  extratexts: []
+  arrow_points: East
+  at: [-2.475, 1.9]
+  size: [9.6, 11.5]
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1.1],
+    ["tht", "2", 0, -2.54, 1.6, 1.6, 1.1],
+    ["tht", "3", 0, -5.08, 1.6, 1.6, 1.1],
+    ["tht", "4", 0, -7.62, 1.6, 1.6, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TMV-051xD_121xD_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMV-051xD, TMV-121xD, Dual, 1W, Rev. October 28. 2025"
+  datasheet: "https://www.tracopower.com/products/tmv.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-7 1W TMV"
+  extratexts: []
+  at: [-4.925, 2.1]
+  size: [6.1, 19.5]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1],
+    ["tht", "5", 0, -10.16, 1.8, 1.8, 1],
+    ["tht", "6", 0, -12.7, 1.8, 1.8, 1],
+    ["tht", "7", 0, -15.24, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TMV-051xS_121xS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMV-051xS, TMV-121xS, Single, 1W, Rev. October 28. 2025"
+  datasheet: "https://www.tracopower.com/products/tmv.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-7 1W TMV"
+  extratexts: []
+  at: [-4.925, 2.1]
+  size: [6.1, 19.5]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1],
+    ["tht", "5", 0, -10.16, 1.8, 1.8, 1],
+    ["tht", "7", 0, -15.24, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TMV-241xD_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMV-251xD, Dual, 1W, Rev. October 28. 2025"
+  datasheet: "https://www.tracopower.com/products/tmv.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-7 1W TMV"
+  extratexts: []
+  at: [-5.925, 2.1]
+  size: [7.1, 19.5]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1],
+    ["tht", "5", 0, -10.16, 1.8, 1.8, 1],
+    ["tht", "6", 0, -12.7, 1.8, 1.8, 1],
+    ["tht", "7", 0, -15.24, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TMV-241xS_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TMV-241xS, Single, 1W, Rev. October 28. 2025"
+  datasheet: "https://www.tracopower.com/products/tmv.pdf"
+  tags: "DCDC-Converter TRACO THT SIP-7 1W TMV"
+  extratexts: []
+  at: [-5.925, 2.1]
+  size: [7.1, 19.5]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1],
+    ["tht", "5", 0, -10.16, 1.8, 1.8, 1],
+    ["tht", "7", 0, -15.24, 1.8, 1.8, 1]
+  ]
+
+Converter_DCDC_TRACO_TOS06-05SIL_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TOS06-05SIL, 6A, Rev. March 20. 2024"
+  datasheet: "https://www.tracopower.com/products/tos06sil.pdf"
+  tags: "DCDC-Converter POL TRACO TOS06SIL 2.54MM THT SIP-9 6A"
+  extratexts: []
+  at: [-4.3, 1.28]
+  size: [5, 22.9]
+  pins: [
+    ["thtr", "1", 0, 0, 2.1, 2.1, 1.3],
+    ["tht", "2", 0, -2.54, 2.1, 2.1, 1.3],
+    ["tht", "3", 0, -5.08, 2.1, 2.1, 1.3],
+    ["tht", "4", 0, -17.78, 2.1, 2.1, 1.3],
+    ["tht", "5", 0, -20.32, 2.1, 2.1, 1.3]
+  ]
+
+Converter_DCDC_TRACO_TOS06-12SIL_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TOS06-12SIL, 6A, Rev. March 20. 2024"
+  datasheet: "https://www.tracopower.com/products/tos06sil.pdf"
+  tags: "DCDC-Converter POL TRACO TOS06SIL 2.54MM THT SIP-9 6A"
+  extratexts: []
+  at: [-5.3, 1.28]
+  size: [6, 22.9]
+  pins: [
+    ["thtr", "1", 0, 0, 2.1, 2.1, 1.3],
+    ["tht", "2", 0, -2.54, 2.1, 2.1, 1.3],
+    ["tht", "3", 0, -5.08, 2.1, 2.1, 1.3],
+    ["tht", "4", 0, -17.78, 2.1, 2.1, 1.3],
+    ["tht", "5", 0, -20.32, 2.1, 2.1, 1.3]
+  ]
+
+Converter_DCDC_TRACO_TRA3-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRA3-xxxx, 3W, Rev. February 4. 2025"
+  datasheet: "https://www.tracopower.com/products/tra3.pdf"
+  tags: "DCDC-Converter TRACO TRA3 THT SIP-7 3W"
+  extratexts: []
+  arrow_points: East
+  at: [-6.42, 2.1]
+  size: [7.6, 19.5]
+  body_position_tolerance: [0.25, 0.25]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1],
+    ["tht", "2", 0, -2.54, 1.6, 1.6, 1],
+    ["tht", "4", 0, -7.62, 1.6, 1.6, 1],
+    ["tht", "6", 0, -12.7, 1.6, 1.6, 1]
+  ]
+
+Converter_DCDC_TRACO_TRI1-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRI1-xxxx, 1W, Rev. November 13. 2023"
+  datasheet: "https://www.tracopower.com/products/tri1.pdf"
+  tags: "DCDC-Converter TRACO TRI1 THT SIP-7 1W"
+  extratexts: []
+  arrow_points: East
+  at: [-5.625, 3.5]
+  size: [7.5, 22]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "6", 0, -12.7, 1.5, 1.5, 1],
+    ["tht", "7", 0, -15.24, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TRI1-xxxxSM_SMD:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRI1-xxxxSM, 1W, Rev. August 27. 2025"
+  datasheet: "https://www.tracopower.com/products/tri1sm.pdf"
+  tags: "DCDC-Converter TRACO TRI1SM SMD SMD14 1W"
+  smd_tht: smd
+  extratexts: []
+  at: [-6.85, 9.45]
+  size: [13.7, 18.9]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["smd", "1", -8.075, 7.62, 2.45, 1.6, 0],
+    ["smd", "6", -8.075, -5.08, 2.45, 1.6, 0],
+    ["smd", "7", -8.075, -7.62, 2.45, 1.6, 0],
+    ["smd", "8", 8.075, -7.62, 2.45, 1.6, 0],
+    ["smd", "9", 8.075,  -5.08, 2.45, 1.6, 0],
+    ["smd", "14", 8.075, 7.62, 2.45, 1.6, 0]
+  ]
+
+Converter_DCDC_TRACO_TRI10_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRI 10, Dual, 10W, Rev. March 11. 2025"
+  datasheet: "https://www.tracopower.com/products/tri10.pdf"
+  tags: "DCDC-Converter TRACO TRI10 THT DIP-24"
+  extratexts: []
+  at: [-2.54, 1.86]
+  size: [20.3, 31.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "11", 0, -25.4, 1.9, 1.9, 1.1],
+    ["tht", "13", 15.22, -27.94, 1.9, 1.9, 1.1],
+    ["tht", "15", 15.22, -22.86, 1.9, 1.9, 1.1],
+    ["tht", "23", 15.22, -2.54, 1.9, 1.9, 1.1],
+    ["tht", "24", 15.22, 0, 1.9, 1.9, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TRI10_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRI 10, Single, 10W, Rev. March 11. 2025"
+  datasheet: "https://www.tracopower.com/products/tri10.pdf"
+  tags: "DCDC-Converter TRACO TRI10 THT DIP-24"
+  extratexts: []
+  at: [-2.54, 1.86]
+  size: [20.3, 31.8]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 12
+  pins: [
+    ["thtr", "1", 0, 0, 1.9, 1.9, 1.1],
+    ["tht", "12", 0, -27.94, 1.9, 1.9, 1.1],
+    ["tht", "13", 15.22, -27.94, 1.9, 1.9, 1.1],
+    ["tht", "23", 15.22, -2.54, 1.9, 1.9, 1.1],
+    ["tht", "24", 15.22, 0, 1.9, 1.9, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TRN3-xx2x_Dual_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRN3-xx2x, 3W, Rev. February 3. 2025"
+  datasheet: "https://www.tracopower.com/products/trn3.pdf"
+  tags: "DCDC-Converter TRACO TRN3 THT SIP-5 3W"
+  extratexts: []
+  arrow_points: East
+  at: [-3.7, 1.5]
+  size: [7.7, 11.9]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 11
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1],
+    ["tht", "2", 0, -2, 1.6, 1.6, 1],
+    ["tht", "3", 0, -4.8, 1.6, 1.6, 1],
+    ["tht", "4", 0, -6.8, 1.6, 1.6, 1],
+    ["tht", "5", 0, -8.8, 1.6, 1.6, 1]
+  ]
+
+Converter_DCDC_TRACO_TRN3-xx1x_Single_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TRN3-xx1x, 3W, Rev. February 3. 2025"
+  datasheet: "https://www.tracopower.com/products/trn3.pdf"
+  tags: "DCDC-Converter TRACO TRN3 THT SIP-5 3W"
+  extratexts: []
+  arrow_points: East
+  at: [-3.7, 1.5]
+  size: [7.7, 11.9]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 11
+  pins: [
+    ["thtr", "1", 0, 0, 1.6, 1.6, 1],
+    ["tht", "2", 0, -2, 1.6, 1.6, 1],
+    ["tht", "3", 0, -4.8, 1.6, 1.6, 1],
+    ["tht", "5", 0, -8.8, 1.6, 1.6, 1]
+  ]
+
+Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR0.5-24xx, TSR0.5-24xxx, 0.5A, Rev. February 11. 2025"
+  datasheet: "https://www.tracopower.com/products/tsr0.5.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR0.5 2.54MM THT SIP-3 0.5A"
+  extratexts: []
+  arrow_points: East
+  at: [-2.125, 3.2]
+  size: [7.55, 11.5]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 1.8, 1.8, 1.2],
+    ["tht", "2", 0, -2.54, 1.8, 1.8, 1.2],
+    ["tht", "3", 0, -5.08, 1.8, 1.8, 1.2]
+  ]
+
+Converter_DCDC_TRACO_TSR0.5-24xxSM_241xxSM_SMD:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR0.5-24xxSM, TSR0.5-241xxSM, 0.5A, Rev. November 12. 2025"
+  datasheet: "https://www.tracopower.com/products/tsr0.5sm.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR0.5SM SMD SMD10 0.5A"
+  smd_tht: smd
+  extratexts: []
+  arrow_points: East
+  at: [-4.8, 7.65]
+  size: [9.6, 15.3]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 9.24
+  pins: [
+    ["smd", "1", -5.85, 5.08, 2.1, 1.2, 0],
+    ["smd", "2", -5.85, 2.54, 2.1, 1.2, 0],
+    ["smd", "3", -5.85, 0, 2.1, 1.2, 0],
+    ["smd", "4", -5.85, -2.54, 2.1, 1.2, 0],
+    ["smd", "5", -5.85, -5.08, 2.1, 1.2, 0],
+    ["smd", "6", 5.85, -5.08, 2.1, 1.2, 0],
+    ["smd", "7", 5.85, -2.54, 2.1, 1.2, 0],
+    ["smd", "8", 5.85, 0, 2.1, 1.2, 0],
+    ["smd", "9", 5.85, 2.54, 2.1, 1.2, 0],
+    ["smd", "10", 5.85, 5.08, 2.1, 1.2, 0],
+  ]
+
+Converter_DCDC_TRACO_TSR0.6-48xxWI_TSR0.6-48xxxWI_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR0.6-48xxWI, TSR0.6-48xxxWI, 0.6A, Rev. October 29. 2024"
+  datasheet: "https://www.tracopower.com/products/tsr0.6wi.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR0.6WI 2.54MM THT SIP-3 0.6A"
+  extratexts: []
+  arrow_points: East
+  at: [-5.6, 3.42]
+  size: [8.6, 12]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 13.4
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "3", 0, -5.08, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TSR1-xxxxE_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR1-xxxxE, 1A, Rev. October 31. 2023"
+  datasheet: "https://www.tracopower.com/products/tsr1e.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR1E 2.54MM THT SIP-3 1A"
+  extratexts: []
+  arrow_points: East
+  at: [-2.05, 3.26]
+  size: [7.5, 11.6]
+  pins: [
+    ["thtr", "1", 0, 0, 1.5, 1.5, 1],
+    ["tht", "2", 0, -2.54, 1.5, 1.5, 1],
+    ["tht", "3", 0, -5.08, 1.5, 1.5, 1]
+  ]
+
+Converter_DCDC_TRACO_TSR1.5-24xxE_24120E_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR1.5-24xxE, TSR1.5-24120E, 1.5A, Rev. April 2. 2025"
+  datasheet: "https://www.tracopower.com/products/tsr1.5e.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR1.5E 2.54MM THT SIP-3 1.5A"
+  extratexts: []
+  at: [-0.93, 2.46]
+  size: [6.45, 10]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 14.87
+  pins: [
+    ["thtr", "1", 0, 0, 2.2, 2.2, 1.4],
+    ["tht", "2", 0, -2.54, 2.2, 2.2, 1.4],
+    ["tht", "3", 0, -5.08, 2.2, 2.2, 1.4]
+  ]
+
+Converter_DCDC_TRACO_TSR2-xxxx_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR2-xxxx, 2A, Rev. January 20. 2025"
+  datasheet: "https://www.tracopower.com/products/tsr2.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2 2.54MM THT SIP-3 2A"
+  extratexts: []
+  arrow_points: East
+  at: [-3.89, 4.42]
+  size: [7.5, 14]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.1
+  pins: [
+    ["thtr", "1", 0, 0, 1.7, 1.7, 1.1],
+    ["tht", "2", 0, -2.54, 1.7, 1.7, 1.1],
+    ["tht", "3", 0, -5.08, 1.7, 1.7, 1.1]
+  ]
+
+Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT:
+  library_name: 'Converter_DCDC'
+  description: "DCDC-Converter, TRACO, TSR2-24xxN, TSR2-24xxxN, 2A, Rev. December 19. 2024"
+  datasheet: "https://www.tracopower.com/products/tsr2n.pdf"
+  tags: "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2N 2.54MM THT SIP-3 2A"
+  compatible_mpns:
+    # https://www.tracopower.com/products/tsr3n.pdf
+    - TSR3N
+  extratexts: []
+  arrow_points: East
+  at: [-6.16, 4.46]
+  size: [7.6, 14]
+  body_position_tolerance: [0.5, 0.5]
+  # For future use
+  height: 10.2
+  pins: [
+    ["thtr", "1", 0, 0, 2, 2, 1.4],
+    ["tht", "2", 0, -2.54, 2, 2, 1.4],
+    ["tht", "3", 0, -5.08, 2, 2, 1.4]
+  ]

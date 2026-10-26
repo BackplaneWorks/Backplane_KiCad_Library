@@ -1,0 +1,1502 @@
+Crystal_SMD_0603-2Pin_6.0x3.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD0603/2
+  datasheet: http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf
+  footprint_name: Crystal_SMD_0603
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 3.5
+  pack_width: 6
+  pad:
+  - 1.9
+  - 2.5
+  pad_sep_x: 4.4
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering:
+  inherit: Crystal_SMD_0603-2Pin_6.0x3.5mm
+  handsoldering: true
+  pad:
+  - 3.325
+  - 2.5
+  pad_sep_x: 5.825
+  pad_sep_y: 0.0
+
+Crystal_SMD_0603-4Pin_6.0x3.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD0603/4
+  datasheet: http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf
+  footprint_name: Crystal_SMD_0603
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 3.5
+  pack_width: 6
+  pad:
+  - 1.8
+  - 1.4
+  pad_sep_x: 4.4
+  pad_sep_y: 2.4
+  pins: 4
+  style: rect
+
+Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering:
+  inherit: Crystal_SMD_0603-4Pin_6.0x3.5mm
+  handsoldering: true
+  pad:
+  - 2.7
+  - 2.1
+  pad_sep_x: 5.3
+  pad_sep_y: 3.1
+
+Crystal_SMD_1210-4Pin_1.2x1.0mm:
+  addSizeFootprintName: true
+  description: Crystal
+  part_number: SMD1210/4
+  datasheet: https://ecsxtal.com/store/pdf/ECX-1048.pdf
+  footprint_name: Crystal_SMD_1210
+  # This mas manually rotated in the library, to avoid breaking designs
+  # we now apply a suffix to make it clear(er) to designers and PnP operators.
+  rotation_in_name: true
+  func: makeSMDCrystal
+  pack_bevel: 0.1
+  pack_height: 1.0
+  pack_width: 1.2
+  pad:
+  - 0.52
+  - 0.47
+  pad_sep_x: 0.82
+  pad_sep_y: 0.67
+  pins: 4
+
+Crystal_SMD_2012-2Pin_2.0x1.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.4
+  description: Crystal
+  part_number: 2012/2
+  datasheet: http://txccrystal.com/images/pdf/9ht11.pdf
+  footprint_name: Crystal_SMD_2012
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.2
+  pack_width: 2
+  pad:
+  - 0.6
+  - 1.1
+  pad_sep_x: 1.4
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering:
+  inherit: Crystal_SMD_2012-2Pin_2.0x1.2mm
+  handsoldering: true
+  pad:
+  - 1.05
+  - 1.1
+  pad_sep_x: 1.85
+  pad_sep_y: 0.0
+
+Crystal_SMD_2016-4Pin_2.0x1.6mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD2016/4
+  datasheet: http://www.q-crystal.com/upload/5/2015552223166229.pdf
+  footprint_name: Crystal_SMD_2016
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 1.6
+  pack_width: 2
+  pad:
+  - 0.9
+  - 0.8
+  pad_sep_x: 1.4
+  pad_sep_y: 1.1
+  pins: 4
+
+Crystal_SMD_2520-4Pin_2.5x2.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD2520/4
+  datasheet: http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf
+  footprint_name: Crystal_SMD_2520
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2
+  pack_width: 2.5
+  pad:
+  - 1.15
+  - 1
+  pad_sep_x: 1.75
+  pad_sep_y: 1.4
+  pins: 4
+
+Crystal_SMD_3225-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.4
+  description: Crystal
+  part_number: SMD3225/4
+  datasheet: http://www.txccrystal.com/images/pdf/7m-accuracy.pdf
+  footprint_name: Crystal_SMD_3225
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.2
+  pad_sep_x: 2.2
+  pad_sep_y: 1.7
+  pins: 4
+  style: rect
+
+Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_3225-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 1.8
+  pad_sep_x: 2.9
+  pad_sep_y: 2.3
+
+Crystal_SMD_5032-2Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD2520/2
+  datasheet: http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf
+  footprint_name: Crystal_SMD_5032
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 2
+  - 2.4
+  pad_sep_x: 3.7
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering:
+  inherit: Crystal_SMD_5032-2Pin_5.0x3.2mm
+  handsoldering: true
+  pad:
+  - 3.5
+  - 2.4
+  pad_sep_x: 5.2
+  pad_sep_y: 0.0
+
+Crystal_SMD_5032-4Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD2520/4
+  datasheet: http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf
+  footprint_name: Crystal_SMD_5032
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 1.6
+  - 1.3
+  pad_sep_x: 3.3
+  pad_sep_y: 2.0
+  pins: 4
+
+Crystal_SMD_7050-2Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD7050/4
+  datasheet: https://www.foxonline.com/pdfs/FQ7050.pdf
+  footprint_name: Crystal_SMD_7050
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.8
+  - 3
+  pad_sep_x: 5.2
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_7050-2Pin_7.0x5.0mm_HandSoldering:
+  inherit: Crystal_SMD_7050-2Pin_7.0x5.0mm
+  handsoldering: true
+  pad:
+  - 4.9
+  - 3
+  pad_sep_x: 7.3
+  pad_sep_y: 0
+
+Crystal_SMD_7050-4Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  description: Crystal
+  part_number: SMD7050/4
+  datasheet: https://www.foxonline.com/pdfs/FQ7050.pdf
+  footprint_name: Crystal_SMD_7050
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.1
+  - 1.7
+  pad_sep_x: 5.9
+  pad_sep_y: 2.7
+  pins: 4
+
+Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Abracon
+  part_number: ABM3
+  description: Miniature Ceramic Crystal
+  datasheet: http://www.abracon.com/Resonators/abm3.pdf
+  footprint_name: Crystal_SMD_Abracon_ABM3
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 1.9
+  - 2.4
+  pad_sep_x: 4.1
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering:
+  inherit: Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm
+  handsoldering: true
+  pad:
+  - 3.325
+  - 2.4
+  pad_sep_x: 5.525
+  pad_sep_y: 0.0
+
+Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Abracon
+  part_number: ABM3B
+  description: Miniature Ceramic Crystal
+  datasheet: http://www.abracon.com/Resonators/abm3b.pdf
+  footprint_name: Crystal_SMD_Abracon_ABM3B
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 1.8
+  - 1.2
+  pad_sep_x: 4
+  pad_sep_y: 2.4
+  pins: 4
+
+Crystal_SMD_Abracon_ABM3C-4Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Abracon
+  part_number: ABM3C
+  description: Miniature Ceramic Crystal
+  datasheet: http://www.abracon.com/Resonators/abm3c.pdf
+  footprint_name: Crystal_SMD_Abracon_ABM3C
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 1.6
+  - 1.3
+  pad_sep_x: 3.8
+  pad_sep_y: 2.3
+  pins: 4
+
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Abracon
+  part_number: ABM8G
+  description: Miniature Ceramic Crystal
+  datasheet: http://www.abracon.com/Resonators/ABM8G.pdf
+  footprint_name: Crystal_SMD_Abracon_ABM8G
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.2
+  pad_sep_x: 2.2
+  pad_sep_y: 1.7
+  pins: 4
+
+Crystal_SMD_Citizen_CS325S-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Citizen
+  part_number: CS325S
+  description: Ultra-lightweight microminiature AT Crystal units
+  datasheet: https://cfd.citizen.co.jp/cms/cfd/pdf/english/CS325S_E.pdf
+  footprint_name: Crystal_SMD_Citizen_CS325S
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.3
+  - 1.1
+  pad_sep_x: 2.3
+  pad_sep_y: 1.9
+  pins: 4
+
+Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: EQ161
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/PG32768C.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_EQ161
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 1.5
+  pack_width: 3.2
+  pad:
+  - 1
+  - 1.8
+  pad_sep_x: 2.5
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm
+  handsoldering: true
+  pad:
+  - 1.75
+  - 1.8
+  pad_sep_x: 3.25
+  pad_sep_y: 0.0
+
+Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: MJ
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/MJ.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_MJ
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 3.2
+  pack_width: 5
+  pad:
+  - 1.9
+  - 1.1
+  pad_sep_x: 3.7
+  pad_sep_y: 2.3
+  pins: 4
+  style: rect
+
+Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm
+  handsoldering: true
+  pad:
+  - 2.85
+  - 1.65
+  pad_sep_x: 4.65
+  pad_sep_y: 2.85
+
+Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: MQ
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_MQ
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.2
+  - 1.4
+  pad_sep_x: 6.3
+  pad_sep_y: 2.5
+  pins: 4
+  style: rect
+
+Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm
+  handsoldering: true
+  pad:
+  - 3.3
+  - 1.54
+  pad_sep_x: 7.4
+  pad_sep_y: 2.64
+
+Crystal_SMD_EuroQuartz_MQ2-2Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: MQ2
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_MQ2
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.2
+  - 2.4
+  pad_sep_x: 6.3
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_EuroQuartz_MQ2-2Pin_7.0x5.0mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_MQ2-2Pin_7.0x5.0mm
+  handsoldering: true
+  pad:
+  - 3.85
+  - 2.4
+  pad_sep_x: 7.95
+  pad_sep_y: 0.0
+
+Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: MT
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/MT.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_MT
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.3
+  - 1
+  pad_sep_x: 2.2
+  pad_sep_y: 1.8
+  pins: 4
+  style: rect
+
+Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 1.95
+  - 1.5
+  pad_sep_x: 2.85
+  pad_sep_y: 2.3
+
+Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: EuroQuartz
+  part_number: X22
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/DS_X22.pdf
+  footprint_name: Crystal_SMD_EuroQuartz_X22
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2
+  pack_width: 2.5
+  pad:
+  - 1.2
+  - 1
+  pad_sep_x: 1.6
+  pad_sep_y: 1.2
+  pins: 4
+  style: rect
+
+Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering:
+  inherit: Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm
+  handsoldering: true
+  pad:
+  - 1.8
+  - 1.5
+  pad_sep_x: 2.2
+  pad_sep_y: 1.7
+
+Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  manufacturer: Fox
+  part_number: FE
+  description: crystal Ceramic Resin Sealed
+  datasheet: http://www.foxonline.com/pdfs/fe.pdf
+  footprint_name: Crystal_SMD_FOX_FE
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 5
+  pack_width: 7.5
+  pad:
+  - 2.2
+  - 2.4
+  pad_sep_x: 6.3
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm_HandSoldering:
+  inherit: Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm
+  handsoldering: true
+  pad:
+  - 3.85
+  - 2.4
+  pad_sep_x: 7.95
+  pad_sep_y: 0.0
+
+Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  manufacturer: Fox
+  part_number: FQ7050
+  description: Crystal SMD7050/4
+  datasheet: https://www.foxonline.com/pdfs/FQ7050.pdf
+  footprint_name: Crystal_SMD_FOX_FQ7050
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.8
+  - 3
+  pad_sep_x: 5.2
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm_HandSoldering:
+  inherit: Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm
+  handsoldering: true
+  pad:
+  - 4.9
+  - 3
+  pad_sep_x: 7.3
+  pad_sep_y: 0
+
+Crystal_SMD_FOX_FQ7050-4Pin_7.0x5.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.8
+  manufacturer: Fox
+  part_number: FQ7050
+  description: Crystal SMD7050/4
+  datasheet: https://www.foxonline.com/pdfs/FQ7050.pdf
+  footprint_name: Crystal_SMD_FOX_FQ7050
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.2
+  pack_height: 5
+  pack_width: 7
+  pad:
+  - 2.1
+  - 1.7
+  pad_sep_x: 5.9
+  pad_sep_y: 2.7
+  pins: 4
+
+Crystal_SMD_FrontierElectronics_FM206:
+  ddrill: 1
+  manufacturer: Fronter Electronics
+  part_number: FM206
+  description: Watch Crystal 6.0mm length 1.9mm diameter,
+  datasheet: http://www.chinafronter.com/wp-content/uploads/2013/12/FM206.pdf
+  footprint_name: Crystal_SMD_FrontierElectronics_FM206
+  func: makeCrystal
+  lib_name: Crystal
+  pack_height: 1.9
+  pack_offset: 1.6
+  pack_rm: 1
+  pack_width: 6.0
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 5.3
+  package_pad_size:
+  - 2.5
+  - 3
+  pad_size:
+  - 1.6
+  - 1
+  pad_style: smd
+  rm: 2.54
+  style: flat
+
+Crystal_SMD_G8-2Pin_3.2x1.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Diodes Inc.
+  part_number: G8
+  description: Crystal
+  footprint_name: Crystal_SMD_G8
+  datasheet: https://www.diodes.com/datasheet/download/g8.pdf
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.5
+  pack_width: 3.2
+  pad:
+  - 1
+  - 1.8
+  pad_sep_x: 2.5
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_G8-2Pin_3.2x1.5mm_HandSoldering:
+  inherit: Crystal_SMD_G8-2Pin_3.2x1.5mm
+  handsoldering: true
+  pad:
+  - 1.75
+  - 1.8
+  pad_sep_x: 3.25
+  pad_sep_y: 0.0
+
+Crystal_SMD_HC49-SD:
+  addSizeFootprintName: false
+  adhesiveSize: 0.5
+  part_number: HC-49-SD
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf
+  footprint_name: Crystal_SMD_HC49-SD
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 4.7
+  pack_width: 11.4
+  pad:
+  - 4.5
+  - 2
+  pad_sep_x: 8.5
+  pad_sep_y: 0
+  pins: 2
+  style: hc49
+
+Crystal_SMD_HC49-SD_HandSoldering:
+  inherit: Crystal_SMD_HC49-SD
+  handsoldering: true
+  pad:
+  - 7.875
+  - 2
+  pad_sep_x: 11.875
+  pad_sep_y: 0
+
+Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CC1V-T1A
+  description: Crystal
+  datasheet: http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC1V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CC1V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 3.7
+  pack_width: 8
+  pad:
+  - 2.3
+  - 4.2
+  pad_sep_x: 6.3
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm
+  handsoldering: true
+  pad:
+  - 4.025
+  - 4.2
+  pad_sep_x: 8.025
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CC4V-T1A
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/CC4V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CC4V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.9
+  pack_width: 5
+  pad:
+  - 1.3
+  - 2.2
+  pad_sep_x: 4.2
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm
+  handsoldering: true
+  pad:
+  - 2.275
+  - 2.2
+  pad_sep_x: 5.175
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CC5V-T1A
+  description: Crystal
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/CC5V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CC5V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.5
+  pack_width: 4.1
+  pad:
+  - 1.1
+  - 1.9
+  pad_sep_x: 3.4
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm
+  handsoldering: true
+  pad:
+  - 1.925
+  - 1.9
+  pad_sep_x: 4.225
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CC7V-T1A/CM7V-T1A
+  description: Crystal
+  datasheet: http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC1V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CC7V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.5
+  pack_width: 3.2
+  pad:
+  - 1
+  - 1.8
+  pad_sep_x: 2.5
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm
+  handsoldering: true
+  pad:
+  - 1.75
+  - 1.8
+  pad_sep_x: 3.25
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CC8V-T1A/CM8V-T1A
+  description: Crystal
+  datasheet: http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC8V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CC8V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.2
+  pack_width: 2
+  pad:
+  - 0.8
+  - 1.5
+  pad_sep_x: 1.5
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm
+  lib_name: Crystal
+  handsoldering: true
+  pad:
+  - 1.4
+  - 1.5
+  pad_sep_x: 2.1
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: MicroCrystal
+  part_number: CM9V-T1A
+  description: Crystal
+  datasheet: http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CM9V-T1A.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_CM9V-T1A
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.0
+  pack_width: 1.6
+  pad:
+  - 0.6
+  - 1.2
+  pad_sep_x: 1.2
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm_HandSoldering:
+  inherit: Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm
+  handsoldering: true
+  pad:
+  - 1.05
+  - 1.2
+  pad_sep_x: 1.65
+  pad_sep_y: 0.0
+
+Crystal_SMD_MicroCrystal_MS1V-T1K:
+  ddrill: 1
+  manufacturer: MicroCrystal
+  part_number: MS1V-T1K
+  description: Watch Crystal 6.1mm length 2.0mm diameter
+  datasheet: https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/MS1V-T1K.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_MS1V-T1K
+  func: makeCrystal
+  lib_name: Crystal
+  pack_height: 2
+  pack_offset: 1.6
+  pack_rm: 1
+  pack_width: 6.1
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 5.3
+  package_pad_size:
+  - 2.5
+  - 3
+  pad_size:
+  - 1.6
+  - 1
+  pad_style: smd
+  rm: 2.54
+  style: flat
+
+Crystal_SMD_MicroCrystal_MS3V-T1R:
+  ddrill: 1
+  manufacturer: MicroCrystal
+  part_number: MS3V-T1R
+  description: Watch Crystal 5.2mm length 1.4mm diameter
+  datasheet: http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/MS3V-T1R.pdf
+  footprint_name: Crystal_SMD_MicroCrystal_MS3V-T1R
+  func: makeCrystal
+  lib_name: Crystal
+  pack_height: 1.4
+  pack_offset: 1.2
+  pack_rm: 0.7
+  pack_width: 5.2
+  package_pad: true
+  package_pad_add_holes: false
+  package_pad_ddrill: 0.8
+  package_pad_drill_size:
+  - 1.2
+  - 1.2
+  package_pad_offset: 4.4
+  package_pad_size:
+  - 2.4
+  - 1.5
+  pad_size:
+  - 1.1
+  - 0.6
+  pad_style: smd
+  rm: 1
+  style: flat
+
+Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Epson Toyocom
+  part_number: FA-238
+  description: crystal
+  datasheet: http://www.mouser.com/ds/2/137/1721499-465440.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_FA238
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.2
+  pad_sep_x: 2.2
+  pad_sep_y: 1.6
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 1.8
+  pad_sep_x: 2.9
+  pad_sep_y: 2.2
+
+Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Epson Toyocom
+  part_number: FA-238
+  description: crystal
+  datasheet: http://www.mouser.com/ds/2/137/1721499-465440.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_FA238V
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.2
+  pad_sep_x: 2.4
+  pad_sep_y: 1.9
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 1.8
+  pad_sep_x: 3.1
+  pad_sep_y: 2.5
+
+Crystal_SMD_SeikoEpson_MA406-4Pin_11.7x4.0mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MA-406
+  description: Crystal
+  datasheet: http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MA406
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 4
+  pack_width: 11.7
+  pad:
+  - 1.8
+  - 1.9
+  pad_sep_x: 9.6
+  pad_sep_y: 3.6
+  pins: 4
+  style: dip
+
+Crystal_SMD_SeikoEpson_MA406-4Pin_11.7x4.0mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MA406-4Pin_11.7x4.0mm
+  handsoldering: true
+  pad:
+  - 1.98
+  - 2.85
+  pad_sep_x: 9.78
+  pad_sep_y: 4.55
+
+Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-505
+  description: Crystal
+  datasheet: http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MA505
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 5.08
+  pack_width: 12.7
+  pad:
+  - 4.1
+  - 5.6
+  pad_sep_x: 11.1
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm
+  handsoldering: true
+  pad:
+  - 7.175
+  - 5.6
+  pad_sep_x: 14.175
+  pad_sep_y: 0.0
+
+Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-506
+  description: Crystal
+  datasheet: http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MA506
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 5.08
+  pack_width: 12.7
+  pad:
+  - 4.1
+  - 2.05
+  pad_sep_x: 11.1
+  pad_sep_y: 3.55
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm
+  handsoldering: true
+  pad:
+  - 6.15
+  - 3.075
+  pad_sep_x: 13.15
+  pad_sep_y: 4.575
+
+Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-146
+  description: Crystal
+  datasheet: https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MC146
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.4
+  pack_height: 1.5
+  pack_width: 6.7
+  pad:
+  - 1.2
+  - 0.6
+  pad_sep_x: 6.3
+  pad_sep_y: 0.9
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 0.6
+  pad_sep_x: 7.2
+  pad_sep_y: 0.9
+
+Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-156
+  description: Crystal
+  datasheet: https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MC156
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 2.5
+  pack_width: 7.1
+  pad:
+  - 1.2
+  - 1.5
+  pad_sep_x: 5.08
+  pad_sep_y: 2.5
+  pins: 4
+  style: dip
+
+Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm
+  handsoldering: true
+  pad:
+  - 1.32
+  - 2.25
+  pad_sep_x: 5.2
+  pad_sep_y: 3.25
+
+Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-306
+  description: Crystal
+  datasheet: https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MC306
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 3.2
+  pack_width: 8
+  pad:
+  - 1.3
+  - 1.9
+  pad_sep_x: 5.5
+  pad_sep_y: 3.2
+  pins: 4
+  style: dip
+
+Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm
+  handsoldering: true
+  pad:
+  - 1.43
+  - 2.85
+  pad_sep_x: 5.63
+  pad_sep_y: 4.15
+
+Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-405
+  description: Crystal Seiko Epson MC-405
+  datasheet: https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405_en.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MC405
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 4.06
+  pack_width: 9.6
+  pad:
+  - 4.1
+  - 4.1
+  pad_sep_x: 8
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm
+  handsoldering: true
+  pad:
+  - 7.175
+  - 4.1
+  pad_sep_x: 11.075
+  pad_sep_y: 0.0
+
+Crystal_SMD_SeikoEpson_MC406-4Pin_9.6x4.1mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.5
+  manufacturer: Seiko Epson
+  part_number: MC-406
+  description: crystal
+  datasheet: https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-406_en.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_MC406
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 4.06
+  pack_width: 9.6
+  pad:
+  - 4.1
+  - 1.52
+  pad_sep_x: 8
+  pad_sep_y: 2.32
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_MC406-4Pin_9.6x4.1mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_MC406-4Pin_9.6x4.1mm
+  handsoldering: true
+  pad:
+  - 6.15
+  - 1.672
+  pad_sep_x: 10.05
+  pad_sep_y: 2.472
+
+Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 1
+  manufacturer: Epson Toyocom
+  part_number: TSX-3225
+  description: crystal
+  datasheet: http://www.mouser.com/ds/2/137/1721499-465440.pdf
+  footprint_name: Crystal_SMD_SeikoEpson_TSX3225
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0.1
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.15
+  pad_sep_x: 2.2
+  pad_sep_y: 1.6
+  pins: 4
+  style: rect
+
+Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 1.725
+  pad_sep_x: 2.9
+  pad_sep_y: 2.175
+
+Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.4
+  manufacturer: TXC
+  part_number: 7M
+  description: Crystal
+  datasheet: http://www.txccrystal.com/images/pdf/7m-accuracy.pdf
+  footprint_name: Crystal_SMD_TXC_7M
+  func: makeSMDCrystal
+  hasAdhesive: false
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 2.5
+  pack_width: 3.2
+  pad:
+  - 1.4
+  - 1.2
+  pad_sep_x: 2.2
+  pad_sep_y: 1.7
+  pins: 4
+  style: rect
+
+Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering:
+  inherit: Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm
+  handsoldering: true
+  pad:
+  - 2.1
+  - 1.8
+  pad_sep_x: 2.9
+  pad_sep_y: 2.3
+
+Crystal_SMD_TXC_9HT11-2Pin_2.0x1.2mm:
+  addSizeFootprintName: true
+  adhesiveSize: 0.4
+  manufacturer: TXC
+  part_number: 9HT11
+  description: Crystal
+  datasheet: http://txccrystal.com/images/pdf/9ht11.pdf
+  footprint_name: Crystal_SMD_TXC_9HT11
+  func: makeSMDCrystal
+  hasAdhesive: true
+  lib_name: Crystal
+  pack_bevel: 0
+  pack_height: 1.2
+  pack_width: 2
+  pad:
+  - 0.6
+  - 1.1
+  pad_sep_x: 1.4
+  pad_sep_y: 0
+  pins: 2
+  style: rect
+
+Crystal_SMD_TXC_9HT11-2Pin_2.0x1.2mm_HandSoldering:
+  inherit: Crystal_SMD_TXC_9HT11-2Pin_2.0x1.2mm
+  handsoldering: true
+  pad:
+  - 1.05
+  - 1.1
+  pad_sep_x: 1.85
+  pad_sep_y: 0.0
+
+Crystal_SMD_WurthElektronik_1210-4Pin_1.2x1.0mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_IQXC-240
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 0.8
+  pad_sep_y: 0.7
+  pad: [0.5, 0.4]
+  pack_width: 1.2
+  pack_height: 1.0
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-240"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_1612-4Pin_1.6x1.2mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_IQXC-26
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 1.05
+  pad_sep_y: 0.8
+  pad: [0.75, 0.6]
+  pack_width: 1.6
+  pack_height: 1.2
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-26"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_2016-4Pin_2.0x1.6mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_IQXC-42
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 1.28
+  pad_sep_y: 0.98
+  pad: [0.88, 0.78]
+  pack_width: 2.0
+  pack_height: 1.6
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-42"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_2520-4Pin_2.5x2.0mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_CFPX-218
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 1.65
+  pad_sep_y: 1.25
+  pad: [1.0, 0.9]
+  pack_width: 2.5
+  pack_height: 2.0
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-218"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_3225-4Pin_3.2x2.5mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_CFPX-180
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 2.2
+  pad_sep_y: 1.7
+  pad: [1.4, 1.2]
+  pack_width: 3.2
+  pack_height: 2.5
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-180"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_5032-4Pin_5.0x3.2mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_CFPX-104
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 3.8
+  pad_sep_y: 2.3
+  pad: [1.6, 1.4]
+  pack_width: 5.0
+  pack_height: 3.2
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-104"
+  manufacturer: "Wurth Elektronik"
+
+Crystal_SMD_WurthElektronik_7050-4Pin_7.0x5.0mm:
+  func: "makeSMDCrystal"
+  footprint_name: Crystal_SMD_WE_12SMX
+  addSizeFootprintName: true
+  pins: 4
+  pad_sep_x: 5.8
+  pad_sep_y: 2.54
+  pad: [1.6, 1.4]
+  pack_width: 7.0
+  pack_height: 5.0
+  pack_bevel: 0.1
+  datasheet: "https://www.we-online.com/en/components/products/WE-XTAL#/articles/WE-XTAL-12SMX"
+  manufacturer: "Wurth Elektronik"

@@ -1,0 +1,1392 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L
+  d2: 0
+  has3d: 1
+  lib_name: Inductor_THT
+  s_3d:
+    - 1
+    - 1
+    - 1
+  seriesname: Axial
+  specialfpname: ''
+  type: cyl
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_SMCC_NEU.pdf, http://cdn-reichelt.de/documents/datenblatt/B400/LEADEDINDUCTORS.pdf
+  d: 4
+  ddrill: 1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - SMCC
+  rm: 12.7
+  rmdisp: 12.7
+  specialtags: [Fastron, SMCC]
+  w: 9.5
+
+
+L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_SMCC_NEU.pdf, http://cdn-reichelt.de/documents/datenblatt/B400/LEADEDINDUCTORS.pdf
+  d: 4
+  ddrill: 1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - SMCC
+  rm: 15.24
+  rmdisp: 15.24
+  specialtags: [Fastron, SMCC]
+  w: 9.5
+
+
+L9.5mm_D4.0mm_P2.54mm_Vertical_Fastron_SMCC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_SMCC_NEU.pdf, http://cdn-reichelt.de/documents/datenblatt/B400/LEADEDINDUCTORS.pdf
+  d: 4
+  ddrill: 1
+  func: makeResistorAxialVertical
+  l: 9.5
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - SMCC
+  rm: 2.54
+  rmdisp: 2.54
+  specialtags: [Fastron, SMCC]
+
+
+L9.5mm_D4.0mm_P5.08mm_Vertical_Fastron_SMCC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_SMCC_NEU.pdf, http://cdn-reichelt.de/documents/datenblatt/B400/LEADEDINDUCTORS.pdf
+  d: 4
+  ddrill: 1
+  func: makeResistorAxialVertical
+  l: 9.5
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - SMCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags: [Fastron, SMCC]
+
+
+L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series
+  d: 3.3
+  ddrill: 0.8
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - MICC
+  rm: 10.16
+  rmdisp: 10.16
+  specialtags:
+    - Fastron
+    - MICC
+  w: 7
+
+
+L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series
+  d: 3.3
+  ddrill: 0.8
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - MICC
+  rm: 12.7
+  rmdisp: 12.7
+  specialtags:
+    - Fastron
+    - MICC
+  w: 7
+
+
+L7.0mm_D3.3mm_P2.54mm_Vertical_Fastron_MICC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series
+  d: 3.3
+  ddrill: 0.8
+  func: makeResistorAxialVertical
+  l: 7
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MICC
+  rm: 2.54
+  rmdisp: 2.54
+  specialtags:
+    - Fastron
+    - MICC
+
+
+L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series
+  d: 3.3
+  ddrill: 0.8
+  func: makeResistorAxialVertical
+  l: 7
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MICC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - MICC
+
+
+L24.0mm_D7.5mm_P27.94mm_Horizontal_Fastron_MESC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf
+  d: 7.5
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - MESC
+  rm: 27.94
+  rmdisp: 27.94
+  specialtags:
+    - Fastron
+    - MESC
+  w: 24
+
+
+L24.0mm_D7.5mm_P5.08mm_Vertical_Fastron_MESC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf
+  d: 7.5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 24
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MESC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - MESC
+
+
+L24.0mm_D7.5mm_P7.62mm_Vertical_Fastron_MESC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf
+  d: 7.5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 24
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MESC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - MESC
+
+
+L16.0mm_D7.5mm_P20.32mm_Horizontal_Fastron_XHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/26/XHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 7.5
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - XHBCC
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Fastron
+    - XHBCC
+  w: 16
+
+
+L16.0mm_D7.5mm_P25.40mm_Horizontal_Fastron_XHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/26/XHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 7.5
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - XHBCC
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags:
+    - Fastron
+    - XHBCC
+  w: 16
+
+
+L16.0mm_D7.5mm_P5.08mm_Vertical_Fastron_XHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/26/XHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 7.5
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 16
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - XHBCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - XHBCC
+
+
+L16.0mm_D7.5mm_P7.62mm_Vertical_Fastron_XHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/26/XHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 7.5
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 16
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - XHBCC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - XHBCC
+
+
+L16.0mm_D6.3mm_P20.32mm_Horizontal_Fastron_VHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 6.3
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - VHBCC
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Fastron
+    - VHBCC
+  w: 16
+
+
+L16.0mm_D6.3mm_P25.40mm_Horizontal_Fastron_VHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 6.3
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - VHBCC
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags:
+    - Fastron
+    - VHBCC
+  w: 16
+
+
+L16.0mm_D6.3mm_P5.08mm_Vertical_Fastron_VHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 6.3
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 16
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - VHBCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - VHBCC
+
+
+L16.0mm_D6.3mm_P7.62mm_Vertical_Fastron_VHBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 6.3
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 16
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - VHBCC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - VHBCC
+
+
+L14.5mm_D5.8mm_P20.32mm_Horizontal_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Fastron
+    - HBCC
+  w: 14.5
+
+
+L14.5mm_D5.8mm_P25.40mm_Horizontal_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags:
+    - Fastron
+    - HBCC
+  w: 14.5
+
+
+L14.5mm_D5.8mm_P5.08mm_Vertical_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 14.5
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - HBCC
+
+
+L14.5mm_D5.8mm_P7.62mm_Vertical_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 14.5
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - HBCC
+
+
+L12.8mm_D5.8mm_P20.32mm_Horizontal_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Fastron
+    - HBCC
+  w: 12.8
+
+
+L12.8mm_D5.8mm_P25.40mm_Horizontal_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags:
+    - Fastron
+    - HBCC
+  w: 12.8
+
+
+L12.8mm_D5.8mm_P5.08mm_Vertical_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 12.8
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - HBCC
+
+
+L12.8mm_D5.8mm_P7.62mm_Vertical_Fastron_HBCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/18/HBCC.pdf?type=Complete-DataSheet&productType=series
+  d: 5.8
+  ddrill: 1.1
+  func: makeResistorAxialVertical
+  l: 12.8
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HBCC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - HBCC
+
+
+L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MISC.pdf
+  d: 5
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - MISC
+  rm: 15.24
+  rmdisp: 15.24
+  specialtags:
+    - Fastron
+    - MISC
+  w: 12
+
+
+L12.0mm_D5.0mm_P5.08mm_Vertical_Fastron_MISC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MISC.pdf
+  d: 5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 12
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MISC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - MISC
+
+
+L12.0mm_D5.0mm_P7.62mm_Vertical_Fastron_MISC:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_MISC.pdf
+  d: 5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 12
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MISC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - MISC
+
+
+L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/21/MECC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - MECC
+  rm: 15.24
+  rmdisp: 15.24
+  specialtags:
+    - Fastron
+    - MECC
+  w: 11
+
+
+L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/21/MECC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialVertical
+  l: 11
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MECC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - MECC
+
+
+L11.0mm_D4.5mm_P7.62mm_Vertical_Fastron_MECC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/21/MECC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialVertical
+  l: 11
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - MECC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - MECC
+
+
+L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/19/HCCC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - HCCC
+  rm: 15.24
+  rmdisp: 15.24
+  specialtags:
+    - Fastron
+    - HCCC
+  w: 13
+
+
+L13.0mm_D4.5mm_P5.08mm_Vertical_Fastron_HCCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/19/HCCC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 13
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HCCC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - HCCC
+
+
+L13.0mm_D4.5mm_P7.62mm_Vertical_Fastron_HCCC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/19/HCCC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 13
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - HCCC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - HCCC
+
+
+L14.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_LACC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/20/LACC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - LACC
+  rm: 15.24
+  rmdisp: 15.24
+  specialtags:
+    - Fastron
+    - LACC
+  w: 14
+
+
+L14.0mm_D4.5mm_P5.08mm_Vertical_Fastron_LACC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/20/LACC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialVertical
+  l: 14
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - LACC
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - LACC
+
+
+L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC:
+  inherit: base
+  add_description: http://www.fastrongroup.com/image-show/20/LACC.pdf?type=Complete-DataSheet&productType=series
+  d: 4.5
+  ddrill: 1.0
+  func: makeResistorAxialVertical
+  l: 14
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - LACC
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - LACC
+
+
+L20.0mm_D8.0mm_P25.40mm_Horizontal:
+  inherit: base
+  add_description: ''
+  d: 8
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions: []
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags: []
+  w: 20
+
+
+L20.0mm_D8.0mm_P5.08mm_Vertical:
+  inherit: base
+  add_description: ''
+  d: 8
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 20
+  largepadsx: 0
+  largepadsy: 0
+  name_additions: []
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags: []
+
+
+L20.0mm_D8.0mm_P7.62mm_Vertical:
+  inherit: base
+  add_description: ''
+  d: 8
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 20
+  largepadsx: 0
+  largepadsy: 0
+  name_additions: []
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags: []
+
+
+L30.0mm_D8.0mm_P35.56mm_Horizontal_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 8
+  ddrill: 1.4
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 35.56
+  rmdisp: 35.56
+  specialtags:
+    - Fastron
+    - 77A
+  w: 30
+
+
+L30.0mm_D8.0mm_P5.08mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 8
+  ddrill: 1.4
+  func: makeResistorAxialVertical
+  l: 30
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L30.0mm_D8.0mm_P7.62mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 8
+  ddrill: 1.4
+  func: makeResistorAxialVertical
+  l: 30
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D9.0mm_P30.48mm_Horizontal_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 9
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 30.48
+  rmdisp: 30.48
+  specialtags:
+    - Fastron
+    - 77A
+  w: 26
+
+
+L26.0mm_D9.0mm_P5.08mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 9
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D9.0mm_P7.62mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 9
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D10.0mm_P30.48mm_Horizontal_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 10
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 30.48
+  rmdisp: 30.48
+  specialtags:
+    - Fastron
+    - 77A
+  w: 26
+
+
+L26.0mm_D10.0mm_P5.08mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 10
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D10.0mm_P7.62mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 10
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D11.0mm_P30.48mm_Horizontal_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 11
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 30.48
+  rmdisp: 30.48
+  specialtags:
+    - Fastron
+    - 77A
+  w: 26
+
+
+L26.0mm_D11.0mm_P5.08mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 11
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L26.0mm_D11.0mm_P7.62mm_Vertical_Fastron_77A:
+  inherit: base
+  add_description: http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf
+  d: 11
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Fastron
+    - 77A
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Fastron
+    - 77A
+
+
+L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im.pdf
+  d: 2.2
+  ddrill: 0.8
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-1
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IM-1
+  w: 5.3
+
+
+L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im.pdf
+  d: 2.2
+  ddrill: 0.8
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-1
+  rm: 10.16
+  rmdisp: 10.16
+  specialtags:
+    - Vishay
+    - IM-1
+  w: 5.3
+
+
+L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im.pdf
+  d: 2.2
+  ddrill: 0.8
+  func: makeResistorAxialVertical
+  l: 5.3
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IM-1
+  rm: 2.54
+  rmdisp: 2.54
+  specialtags:
+    - Vishay
+    - IM-1
+
+
+L6.6mm_D2.7mm_P10.16mm_Horizontal_Vishay_IM-2:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im.pdf
+  d: 2.7
+  ddrill: 0.8
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-2
+  rm: 10.16
+  rmdisp: 10.16
+  specialtags:
+    - Vishay
+    - IM-2
+  w: 6.6
+
+
+L6.6mm_D2.7mm_P2.54mm_Vertical_Vishay_IM-2:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im.pdf
+  d: 2.7
+  ddrill: 0.8
+  func: makeResistorAxialVertical
+  l: 6.6
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IM-2
+  rm: 2.54
+  rmdisp: 2.54
+  specialtags:
+    - Vishay
+    - IM-2
+
+
+L24.0mm_D7.1mm_P30.48mm_Horizontal_Vishay_IM-10-28:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34035/im10.pdf
+  d: 7.1
+  ddrill: 1.0
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-10-28
+  rm: 30.48
+  rmdisp: 30.48
+  specialtags:
+    - Vishay
+    - IM-10-28
+  w: 24
+
+
+L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34035/im10.pdf
+  d: 7.1
+  ddrill: 1.0
+  func: makeResistorAxialVertical
+  l: 24
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IM-10-28
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Vishay
+    - IM-10-28
+
+
+L16.0mm_D9.5mm_P20.32mm_Horizontal_Vishay_IM-10-37:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im10.pdf
+  d: 9.5
+  ddrill: 1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-10-37
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Vishay
+    - IM-10-37
+  w: 16
+
+
+L16.0mm_D9.5mm_P5.08mm_Vertical_Vishay_IM-10-37:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im10.pdf
+  d: 9.5
+  ddrill: 1
+  func: makeResistorAxialVertical
+  l: 16
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IM-10-37
+  rm: 5.08
+  rmdisp: 5.08
+  specialtags:
+    - Vishay
+    - IM-10-37
+
+
+L17.5mm_D12.0mm_P20.32mm_Horizontal_Vishay_IM-10-46:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im10.pdf
+  d: 12
+  ddrill: 1
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IM-10-46
+  rm: 20.32
+  rmdisp: 20.32
+  specialtags:
+    - Vishay
+    - IM-10-46
+  w: 17.5
+
+
+L17.5mm_D12.0mm_P7.62mm_Vertical_Vishay_IM-10-46:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34030/im10.pdf
+  d: 12
+  ddrill: 1
+  func: makeResistorAxialVertical
+  l: 17.5
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IM-10-46
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IM-10-46
+
+
+L20.32mm_D12.1mm_P28.50mm_Horizontal_Vishay_IHA-101:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.07
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-101
+  rm: 28.5
+  rmdisp: 28.5
+  specialtags:
+    - Vishay
+    - IHA-101
+  w: 20.32
+
+
+L20.32mm_D12.1mm_P7.62mm_Vertical_Vishay_IHA-101:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.07
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 20.32
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-101
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-101
+
+
+L26.67mm_D12.1mm_P35.00mm_Horizontal_Vishay_IHA-103:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.07
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-103
+  rm: 35
+  rmdisp: 35
+  specialtags:
+    - Vishay
+    - IHA-103
+  w: 26.67
+
+
+L26.67mm_D12.1mm_P7.62mm_Vertical_Vishay_IHA-103:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.07
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26.67
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-103
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-103
+
+
+L26.67mm_D14.0mm_P35.00mm_Horizontal_Vishay_IHA-104:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 13.97
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-104
+  rm: 35
+  rmdisp: 35
+  specialtags:
+    - Vishay
+    - IHA-104
+  w: 26.67
+
+
+L26.67mm_D14.0mm_P7.62mm_Vertical_Vishay_IHA-104:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 13.97
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 26.67
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-104
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-104
+
+
+L29.85mm_D14.0mm_P38.00mm_Horizontal_Vishay_IHA-105:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 13.97
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-105
+  rm: 38
+  rmdisp: 38
+  specialtags:
+    - Vishay
+    - IHA-105
+  w: 29.85
+
+
+L29.85mm_D14.0mm_P7.62mm_Vertical_Vishay_IHA-105:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 13.97
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 29.85
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-105
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-105
+
+
+L23.37mm_D12.7mm_P32.00mm_Horizontal_Vishay_IHA-203:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.7
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-203
+  rm: 32
+  rmdisp: 32
+  specialtags:
+    - Vishay
+    - IHA-203
+  w: 23.37
+
+
+L23.37mm_D12.7mm_P7.62mm_Vertical_Vishay_IHA-203:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.7
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 23.37
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-203
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-203
+
+
+L20.32mm_D12.7mm_P25.40mm_Horizontal_Vishay_IHA-201:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.7
+  ddrill: 1.2
+  func: makeResistorAxialHorizontal
+  name_additions:
+    - Vishay
+    - IHA-201
+  rm: 25.4
+  rmdisp: 25.4
+  specialtags:
+    - Vishay
+    - IHA-201
+  w: 20.32
+
+
+L20.32mm_D12.7mm_P7.62mm_Vertical_Vishay_IHA-201:
+  inherit: base
+  add_description: http://www.vishay.com/docs/34014/iha.pdf
+  d: 12.7
+  ddrill: 1.2
+  func: makeResistorAxialVertical
+  l: 20.32
+  largepadsx: 0
+  largepadsy: 0
+  name_additions:
+    - Vishay
+    - IHA-201
+  rm: 7.62
+  rmdisp: 7.62
+  specialtags:
+    - Vishay
+    - IHA-201

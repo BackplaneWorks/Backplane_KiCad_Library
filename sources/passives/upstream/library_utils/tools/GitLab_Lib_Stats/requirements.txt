@@ -1,0 +1,3 @@
+# requirements for tools/GitLab_Lib_Stats/lib_stats.py
+# Main dependency: python-gitlab provides the `gitlab` module used by the script
+python-gitlab

@@ -1,0 +1,92 @@
+(footprint "test_rotate_polygon"
+	(version 20260206)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1 0)
+			(xy -1.2 0.5)
+			(xy 0 0)
+			(xy -1.2 -0.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -0.575833 -3.334679)
+			(xy -1.108846 -3.257884)
+			(xy -0.075833 -2.468653)
+			(xy -0.24282 -3.757884)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy 1.675833 2.034679)
+			(xy 2.008846 2.457884)
+			(xy 2.175833 1.168653)
+			(xy 1.14282 1.957884)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy 2.524167 -4.634679)
+			(xy 2.191154 -5.057884)
+			(xy 2.024167 -3.768653)
+			(xy 3.05718 -4.557884)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy 4.775833 0.734679)
+			(xy 5.308846 0.657884)
+			(xy 4.275833 -0.131347)
+			(xy 4.44282 1.157884)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy 5.2 -2.6)
+			(xy 5.4 -3.1)
+			(xy 4.2 -2.6)
+			(xy 5.4 -2.1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(embedded_fonts no)
+)

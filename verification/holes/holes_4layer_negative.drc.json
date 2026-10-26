@@ -1,0 +1,2072 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T17:08:55",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "holes_4layer_negative.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 64.0
+                    },
+                    "uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fc684f76-0030-58e5-80ac-075001dccce9"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 155.0
+                    },
+                    "uuid": "aa3fc80f-971f-5be9-b8e2-9e2271fc9354"
+                },
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 181.0
+                    },
+                    "uuid": "24b75d5e-91db-5882-80d5-28f80d937783"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 92.0
+                    },
+                    "uuid": "1d3a1232-47ef-582d-b843-55c3852915fa"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 72.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 92.0
+                    },
+                    "uuid": "1d3a1232-47ef-582d-b843-55c3852915fa"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 116.0
+                    },
+                    "uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 118.0
+                    },
+                    "uuid": "49702cce-3185-5e50-8ec7-2fed192a2c20"
+                },
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.4,
+                        "y": 155.4
+                    },
+                    "uuid": "9782e165-4dc8-5729-9393-778c7e1196eb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 46.0
+                    },
+                    "uuid": "b005d5ad-96b3-55d5-8fb9-4c9b989e8f31"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.4,
+                        "y": 46.4
+                    },
+                    "uuid": "bafd755b-007f-503d-95e3-29b851b97582"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 14.0
+                    },
+                    "uuid": "312370f0-bea4-5e5d-b1db-151cd13e216a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 46.4
+                    },
+                    "uuid": "c5b07b64-2e95-507d-88b4-b7d913513b5b"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 72.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 72.4
+                    },
+                    "uuid": "4484bba3-6e6b-5c41-b89a-f537b7d2efa9"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 98.0
+                    },
+                    "uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 168.0
+                    },
+                    "uuid": "ac3281c7-f881-5385-bff0-ae6d01dd847d"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 144.0
+                    },
+                    "uuid": "89ec50a7-a11c-5346-ba52-8dffe432eb4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 144.0
+                    },
+                    "uuid": "89ec50a7-a11c-5346-ba52-8dffe432eb4d"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 129.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 98.0
+                    },
+                    "uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 129.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 129.4
+                    },
+                    "uuid": "2e7256f6-02e1-5c3e-9d81-507607fe24ac"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 155.0
+                    },
+                    "uuid": "f8db01cc-8572-5c7d-b2da-b0b4f5a4bd5a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ffac0ff6-b88a-5448-9096-68e773eb8007"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 64.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 66.0
+                    },
+                    "uuid": "cc7b9273-88c4-53bc-9597-39db204b98a6"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.4,
+                        "y": 98.4
+                    },
+                    "uuid": "3b50ef34-0ba1-553f-a41b-a016af9779a6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 116.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 92.0
+                    },
+                    "uuid": "daaf5cbe-f62a-5d3f-8e51-dc893c567726"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 92.0
+                    },
+                    "uuid": "daaf5cbe-f62a-5d3f-8e51-dc893c567726"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 64.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 20.0
+                    },
+                    "uuid": "1167f4f2-e7a7-5ef6-9e53-826294eb1908"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ffac0ff6-b88a-5448-9096-68e773eb8007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 144.0
+                    },
+                    "uuid": "8fae2779-c7e0-57a5-829c-fe5268dd44ed"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 116.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 98.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                },
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 72.0
+                    },
+                    "uuid": "52eb9c4a-55d8-55cc-af21-d049c36460d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 98.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 92.0
+                    },
+                    "uuid": "daaf5cbe-f62a-5d3f-8e51-dc893c567726"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.4,
+                        "y": 72.4
+                    },
+                    "uuid": "c0ff704b-a00e-5d11-9340-114aba113d02"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 72.4
+                    },
+                    "uuid": "4484bba3-6e6b-5c41-b89a-f537b7d2efa9"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.4,
+                        "y": 72.0
+                    },
+                    "uuid": "c1611103-f6f5-5d21-9e6a-5e5b712c2dca"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 72.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.4,
+                        "y": 72.4
+                    },
+                    "uuid": "d151c33c-ee16-5b77-b373-9e7e43d51d86"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 72.0
+                    },
+                    "uuid": "52eb9c4a-55d8-55cc-af21-d049c36460d9"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 72.4
+                    },
+                    "uuid": "1e766b5d-25ea-5617-aa45-3d3f7b04d16f"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.4,
+                        "y": 72.0
+                    },
+                    "uuid": "51cf83e4-e8ef-58d4-b1fc-0931f79ab25e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 98.4
+                    },
+                    "uuid": "14a0c7fc-49af-5685-b688-777082555369"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 98.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 98.4
+                    },
+                    "uuid": "062bf8ec-3618-56f6-80f2-6f149d20fe2f"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.4,
+                        "y": 98.4
+                    },
+                    "uuid": "e45fea4e-a552-5f64-af74-44b517e0de8d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.4,
+                        "y": 98.4
+                    },
+                    "uuid": "3b50ef34-0ba1-553f-a41b-a016af9779a6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 129.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.4,
+                        "y": 129.0
+                    },
+                    "uuid": "929c8578-96cc-55c4-9273-6b65a8f0bacd"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.4,
+                        "y": 129.4
+                    },
+                    "uuid": "88113486-0115-59ad-b365-2c27684cc425"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 98.0
+                    },
+                    "uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 155.0
+                    },
+                    "uuid": "aa3fc80f-971f-5be9-b8e2-9e2271fc9354"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 129.4
+                    },
+                    "uuid": "2e7256f6-02e1-5c3e-9d81-507607fe24ac"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 155.4
+                    },
+                    "uuid": "3650d9ec-9a83-5e39-bec9-64a8c8751f52"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 155.4,
+                        "y": 98.0
+                    },
+                    "uuid": "e5aa4c60-deef-56a9-81bb-7df2cef656e8"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.4,
+                        "y": 155.4
+                    },
+                    "uuid": "9782e165-4dc8-5729-9393-778c7e1196eb"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 181.0
+                    },
+                    "uuid": "24b75d5e-91db-5882-80d5-28f80d937783"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 155.0
+                    },
+                    "uuid": "9be998b1-482f-56e2-87e1-35ad238bc0f7"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of edge-F.Cu-pad)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on F.Cu",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 72.0
+                    },
+                    "uuid": "33f9e6ea-26fc-5503-8c50-0979ec5a05ad"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 155.4
+                    },
+                    "uuid": "9dcfa427-262e-59c5-9514-a85f3fc8c507"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 155.0
+                    },
+                    "uuid": "f8db01cc-8572-5c7d-b2da-b0b4f5a4bd5a"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 181.4
+                    },
+                    "uuid": "d415f600-3d01-517a-bd21-35b60ce6f86e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.4,
+                        "y": 155.0
+                    },
+                    "uuid": "3cb14112-c4bf-59c5-a0be-2d30a4253244"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.4,
+                        "y": 181.0
+                    },
+                    "uuid": "87b9f019-9cb3-55c7-be1b-bc3b880559f2"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 77.4,
+                        "y": 98.0
+                    },
+                    "uuid": "e3c5e04a-37e2-525f-8393-af39ef559df7"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 25.4,
+                        "y": 181.4
+                    },
+                    "uuid": "d209261b-54d3-554e-996c-366172e54b79"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of corner-F.Cu-via)",
+            "items": [
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 129.0
+                    },
+                    "uuid": "09c13c1d-1249-5f33-b6d1-fb20dac71e7b"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of edge-F.Cu-via)",
+            "items": [
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 72.0
+                    },
+                    "uuid": "03f1cb6e-52d0-5cf1-8eb4-1524c93dfa44"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of corner-B.Cu-pad)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on B.Cu",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 181.0
+                    },
+                    "uuid": "a979e40c-5e6e-575b-87c6-29fb2dc8acb1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of corner-In2.Cu-pad)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 155.0
+                    },
+                    "uuid": "c5b08110-b0d7-5582-822f-12b3fdf00fd1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of corner-F.Cu-pad)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on F.Cu",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 129.0
+                    },
+                    "uuid": "1075ff74-1a4d-5fb4-8b6f-f4dca1e80f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of corner-In1.Cu-pad)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 155.0
+                    },
+                    "uuid": "24f0c852-731e-5047-b787-d0636ff6db4c"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of edge-B.Cu-pad)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on B.Cu",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 124.0
+                    },
+                    "uuid": "c8211613-804d-5025-89b7-e93d488fa75d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of edge-In2.Cu-pad)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 98.0
+                    },
+                    "uuid": "d555ee5b-8427-5d87-91ce-6a47447d10bd"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area 'Copper keepout extension' of edge-In1.Cu-pad)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 98.0
+                    },
+                    "uuid": "add77473-056e-5283-83b9-5b4f14c561a6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 155.4
+                    },
+                    "uuid": "ebddd8bf-811e-59d4-81e5-b95610a63013"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 1.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.4,
+                        "y": 20.4
+                    },
+                    "uuid": "c2933776-449d-5488-b15d-8e59061bcbb7"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f37bc407-5c79-5c45-8c2a-54c502835b8d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 20.0
+                    },
+                    "uuid": "1167f4f2-e7a7-5ef6-9e53-826294eb1908"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f37bc407-5c79-5c45-8c2a-54c502835b8d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8396 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 46.4
+                    },
+                    "uuid": "5adb02fd-ae9d-544f-a2a1-050e610c0539"
+                },
+                {
+                    "description": "NPTH pad of center-B.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 46.0
+                    },
+                    "uuid": "bd68aa9f-504f-5e69-a4fc-61b5463fa785"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8396 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 20.4
+                    },
+                    "uuid": "5a11fd73-feda-5208-9d53-b3a206e3bc80"
+                },
+                {
+                    "description": "NPTH pad of center-F.Cu-track",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 20.0
+                    },
+                    "uuid": "27cca7c7-d241-51d2-81b2-7115d6996d34"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8396 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 46.4
+                    },
+                    "uuid": "c5b07b64-2e95-507d-88b4-b7d913513b5b"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-track",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 46.0
+                    },
+                    "uuid": "257175bb-135b-5127-afc9-c79277ab8cb1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8396 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 20.4
+                    },
+                    "uuid": "3bd1594a-18ae-5512-a8df-d32089a62dfa"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f37bc407-5c79-5c45-8c2a-54c502835b8d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.4,
+                        "y": 46.0
+                    },
+                    "uuid": "14012721-26f0-50f7-830a-6cd6adeccb2d"
+                },
+                {
+                    "description": "NPTH pad of center-B.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 46.0
+                    },
+                    "uuid": "bd68aa9f-504f-5e69-a4fc-61b5463fa785"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.4,
+                        "y": 46.0
+                    },
+                    "uuid": "186b8a90-a34a-5f27-8bda-7aaed1b7c7f4"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-track",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 46.0
+                    },
+                    "uuid": "257175bb-135b-5127-afc9-c79277ab8cb1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 1.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 20.4
+                    },
+                    "uuid": "ab4c4d08-39b3-59f0-9ca2-d469425e21ae"
+                },
+                {
+                    "description": "NPTH pad of center-F.Cu-track",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 20.0
+                    },
+                    "uuid": "27cca7c7-d241-51d2-81b2-7115d6996d34"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 1.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.4,
+                        "y": 46.4
+                    },
+                    "uuid": "bafd755b-007f-503d-95e3-29b851b97582"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-track",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 46.0
+                    },
+                    "uuid": "257175bb-135b-5127-afc9-c79277ab8cb1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 46.0
+                    },
+                    "uuid": "b005d5ad-96b3-55d5-8fb9-4c9b989e8f31"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-track",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 46.0
+                    },
+                    "uuid": "257175bb-135b-5127-afc9-c79277ab8cb1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 1.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.4,
+                        "y": 46.4
+                    },
+                    "uuid": "3b10e0f3-6cd3-5a99-9b9e-d3feb983087b"
+                },
+                {
+                    "description": "NPTH pad of center-B.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 46.0
+                    },
+                    "uuid": "bd68aa9f-504f-5e69-a4fc-61b5463fa785"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 20.0
+                    },
+                    "uuid": "6e880c96-2eaf-5dc8-8e08-cc58d272d651"
+                },
+                {
+                    "description": "NPTH pad of center-F.Cu-track",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 20.0
+                    },
+                    "uuid": "27cca7c7-d241-51d2-81b2-7115d6996d34"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "NPTH pad of center-B.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 46.0
+                    },
+                    "uuid": "bd68aa9f-504f-5e69-a4fc-61b5463fa785"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fc684f76-0030-58e5-80ac-075001dccce9"
+                },
+                {
+                    "description": "NPTH pad of center-F.Cu-track",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 20.0
+                    },
+                    "uuid": "27cca7c7-d241-51d2-81b2-7115d6996d34"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 126.4,
+                        "y": 20.0
+                    },
+                    "uuid": "8f3a8c4e-bf7f-50a5-a2f9-cd8afea5b512"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-track",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f37bc407-5c79-5c45-8c2a-54c502835b8d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on F.Cu",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 20.0
+                    },
+                    "uuid": "3d633d7e-981d-50e7-b666-10a5eeb8a2ff"
+                },
+                {
+                    "description": "NPTH pad of center-F.Cu-pad",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f9f3249a-eeee-5168-864a-9e25b9f119ca"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of center-F.Cu-via",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 20.0
+                    },
+                    "uuid": "e665492b-8e0f-5152-9051-54ed8b7c1de4"
+                },
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fac5fd5d-fe4c-5add-85ae-0716402a00e8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 20.0
+                    },
+                    "uuid": "c257496e-43a3-5ae6-a02b-079ccba47b24"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "7d1022d0-eb9b-5ea8-acb5-1be6e96d6d53"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of center-F.Cu-via",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 20.0
+                    },
+                    "uuid": "e665492b-8e0f-5152-9051-54ed8b7c1de4"
+                },
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fac5fd5d-fe4c-5add-85ae-0716402a00e8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 20.0
+                    },
+                    "uuid": "c257496e-43a3-5ae6-a02b-079ccba47b24"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "7d1022d0-eb9b-5ea8-acb5-1be6e96d6d53"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of center-F.Cu-via",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 20.0
+                    },
+                    "uuid": "e665492b-8e0f-5152-9051-54ed8b7c1de4"
+                },
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fac5fd5d-fe4c-5add-85ae-0716402a00e8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 20.0
+                    },
+                    "uuid": "c257496e-43a3-5ae6-a02b-079ccba47b24"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "7d1022d0-eb9b-5ea8-acb5-1be6e96d6d53"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 46.0
+                    },
+                    "uuid": "ed608f06-b0b4-5b36-a1d8-d8e1711a6daa"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-pad",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f2cacedc-d4ae-5ae3-96af-a4983b1add64"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 20.0
+                    },
+                    "uuid": "c257496e-43a3-5ae6-a02b-079ccba47b24"
+                },
+                {
+                    "description": "NPTH pad of center-In1.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "7d1022d0-eb9b-5ea8-acb5-1be6e96d6d53"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of center-F.Cu-via",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 20.0
+                    },
+                    "uuid": "e665492b-8e0f-5152-9051-54ed8b7c1de4"
+                },
+                {
+                    "description": "Via [<no net>] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fac5fd5d-fe4c-5add-85ae-0716402a00e8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 46.0
+                    },
+                    "uuid": "ed608f06-b0b4-5b36-a1d8-d8e1711a6daa"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-pad",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f2cacedc-d4ae-5ae3-96af-a4983b1add64"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 46.0
+                    },
+                    "uuid": "ed608f06-b0b4-5b36-a1d8-d8e1711a6daa"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-pad",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f2cacedc-d4ae-5ae3-96af-a4983b1add64"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 46.0
+                    },
+                    "uuid": "ed608f06-b0b4-5b36-a1d8-d8e1711a6daa"
+                },
+                {
+                    "description": "NPTH pad of center-In2.Cu-pad",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f2cacedc-d4ae-5ae3-96af-a4983b1add64"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (pad clearance 1.3000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of  on B.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 46.0
+                    },
+                    "uuid": "dd81180f-6787-5acd-8c4e-2d1fe0aa739a"
+                },
+                {
+                    "description": "NPTH pad of center-B.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 46.0
+                    },
+                    "uuid": "c4c00c4d-aad1-50cb-8e80-92a939219903"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 98.0
+                    },
+                    "uuid": "d555ee5b-8427-5d87-91ce-6a47447d10bd"
+                },
+                {
+                    "description": "Footprint edge-In2.Cu-pad",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 98.0
+                    },
+                    "uuid": "0707d3e5-b0c0-5a46-aa24-b93e1dcc1682"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 20.0
+                    },
+                    "uuid": "c257496e-43a3-5ae6-a02b-079ccba47b24"
+                },
+                {
+                    "description": "Footprint center-In1.Cu-pad",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 20.0
+                    },
+                    "uuid": "1bff3d16-8cf9-5698-9af6-a48eb2f49f37"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 155.0
+                    },
+                    "uuid": "c5b08110-b0d7-5582-822f-12b3fdf00fd1"
+                },
+                {
+                    "description": "Footprint corner-In2.Cu-pad",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 150.0
+                    },
+                    "uuid": "4844ed31-82ab-550d-a4e8-ab4faf6d1d0f"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 155.0
+                    },
+                    "uuid": "24f0c852-731e-5047-b787-d0636ff6db4c"
+                },
+                {
+                    "description": "Footprint corner-In1.Cu-pad",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 150.0
+                    },
+                    "uuid": "a99c1ef0-2177-5c9e-9291-8a9ac8bb360c"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 98.0
+                    },
+                    "uuid": "add77473-056e-5283-83b9-5b4f14c561a6"
+                },
+                {
+                    "description": "Footprint edge-In1.Cu-pad",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 98.0
+                    },
+                    "uuid": "60955460-695c-52cd-bd76-05332532a445"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [<no net>] of ",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 46.0
+                    },
+                    "uuid": "ed608f06-b0b4-5b36-a1d8-d8e1711a6daa"
+                },
+                {
+                    "description": "Footprint center-In2.Cu-pad",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 46.0
+                    },
+                    "uuid": "c353f481-1a81-5ddf-8c06-f32efa6510a7"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on f.silkscreen",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 176.0
+                    },
+                    "uuid": "e800aa16-5fa8-5eed-bfdc-b09c9e8be734"
+                },
+                {
+                    "description": "Polygon of silk-F.SilkS on F.Mask",
+                    "pos": {
+                        "x": 105.2,
+                        "y": 173.8
+                    },
+                    "uuid": "7710e62e-a03f-5edb-b4ac-fc0d71f8b020"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on b.silkscreen",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 176.0
+                    },
+                    "uuid": "f40d7364-c53d-5c71-a88e-ab93ef56c16f"
+                },
+                {
+                    "description": "Polygon of silk-B.SilkS on B.Mask",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 173.8
+                    },
+                    "uuid": "7782d4d0-0daa-5a8d-9a60-e890899601a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

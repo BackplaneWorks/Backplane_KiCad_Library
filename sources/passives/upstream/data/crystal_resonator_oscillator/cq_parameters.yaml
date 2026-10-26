@@ -1,0 +1,736 @@
+AT310_Horizontal:
+  type: 1  # model type
+  file_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal  # file name
+  L: 10.3  # Body length
+  W: 3.1  # Body diameter
+  A1: 0.0  # Body-board separation
+  PBD: 3.0  # Distance from pin hole to body
+  p_hole: 2.54  # Distance between pin hole
+  p_split: 1.1  # Distance between pins
+  p_length: 10.0  # Pin length
+  p_diam: 0.3  # Pin width
+  body_top_color_key: metal aluminum  # Top color
+  body_color_key: brown body  # Body colour
+  pin_color_key: metal silver  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # Destination directory
+  include_in_qa: True
+
+AT310_Horizontal_1EP_1:
+  type: 1
+  file_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style1
+  L: 10.3
+  W: 3.1
+  A1: 0.0
+  PBD: 3.0
+  p_hole: 2.54
+  p_split: 1.1
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+AT310_Horizontal_1EP_2:
+  type: 1
+  file_name: Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2
+  L: 10.3
+  W: 3.1
+  A1: 0.0
+  PBD: 3.0
+  p_hole: 2.54
+  p_split: 1.1
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+AT310_Vertical:
+  type: 2
+  file_name: Crystal_AT310_D3.0mm_L10.0mm_Vertical
+  L: 10.3
+  W: 3.1
+  A1: 2.0
+  PBD: 3.0
+  p_hole: 2.54
+  p_split: 1.1
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C26-LF_Horizontal:
+  type: 1  # model type
+  file_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal  # file name
+  L: 6.5  # Body length
+  W: 2.1  # Body diameter
+  A1: 0.0  # Body-board separation
+  PBD: 2.0  # Distance from pin hole to body
+  p_hole: 1.9  # Distance between pin hole
+  p_split: 0.7  # Distance between pins
+  p_length: 10.0  # Pin length
+  p_diam: 0.3  # Pin width
+  body_top_color_key: metal aluminum  # Top color
+  body_color_key: brown body  # Body colour
+  pin_color_key: metal silver  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # Destination directory
+
+C26-LF_Horizontal_1EP_1:
+  type: 1
+  file_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style1
+  L: 6.5
+  W: 2.1
+  A1: 0.0
+  PBD: 2.0
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C26-LF_Horizontal_1EP_2:
+  type: 1
+  file_name: Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style2
+  L: 6.5
+  W: 2.1
+  A1: 0.0
+  PBD: 2.0
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C26-LF_Vertical:
+  type: 2
+  file_name: Crystal_C26-LF_D2.1mm_L6.5mm_Vertical
+  L: 6.5
+  W: 2.1
+  A1: 2.0
+  PBD: 2.0
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C38-LF_Horizontal:
+  type: 1  # model type
+  file_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal  # file name
+  L: 8.0  # Body length
+  W: 3.0  # Body diameter
+  A1: 0.0  # Body-board separation
+  PBD: 2.45  # Distance from pin hole to body
+  p_hole: 1.9  # Distance between pin hole
+  p_split: 0.7  # Distance between pins
+  p_length: 10.0  # Pin length
+  p_diam: 0.3  # Pin width
+  body_top_color_key: metal aluminum  # Top color
+  body_color_key: brown body  # Body colour
+  pin_color_key: metal silver  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # Destination directory
+
+C38-LF_Horizontal_1EP_1:
+  type: 1
+  file_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1
+  L: 8.0
+  W: 3.0
+  A1: 0.0
+  PBD: 2.45
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C38-LF_Horizontal_1EP_2:
+  type: 1
+  file_name: Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style2
+  L: 8.0
+  W: 3.0
+  A1: 0.0
+  PBD: 2.45
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+C38-LF_Vertical:
+  type: 2
+  file_name: Crystal_C38-LF_D3.0mm_L8.0mm_Vertical
+  L: 8.0
+  W: 3.0
+  A1: 2.0
+  PBD: 2.0
+  p_hole: 1.9
+  p_split: 0.7
+  p_length: 10.0
+  p_diam: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: brown body
+  pin_color_key: metal silver
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+SMD_0603-2Pin:
+  type: 1  # Model type
+  file_name: Crystal_SMD_0603-2Pin_6.0x3.5mm  # File name
+  L: 6.0  # Model length
+  W: 3.5  # Model width
+  H: 1.1  # Model height
+  A1: 0.0  # Bottom-board separation
+  p_cnt: 2  # Number of pins
+  p_split_x: 4.5  # Distance between pins, along length
+  p_split_y: None  # Distance between pins, along width
+  p_length: 1.5  # Pin length
+  p_width: 2.0  # Pin width
+  body_top_color_key: metal aluminum  # Top color
+  body_color_key: gold pins  # Body color
+  bottom_color_key: black body  # Bottom color
+  pin_color_key: metal grey pins  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # Destination directory
+
+SMD_0603-4Pin:
+  type: 1
+  file_name: Crystal_SMD_0603-4Pin_6.0x3.5mm
+  L: 6.0
+  W: 3.5
+  H: 1.0
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 4.4
+  p_split_y: 2.4
+  p_length: 1.4
+  p_width: 0.9
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://ecsxtal.com/store/pdf/ECX-34Q.pdf'
+
+SMD_1210-4Pin:
+  type: 1
+  file_name: Crystal_SMD_1210-4Pin_1.2x1.0mm
+  L: 1.0
+  W: 1.2
+  H: 0.33
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 0.65
+  p_split_y: 0.80
+  p_length: 0.35
+  p_width: 0.40
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://ecsxtal.com/store/pdf/ECX-1048.pdf'
+
+SMD_2016-4Pin_2.0x1.6mm:
+  type: 1
+  file_name: Crystal_SMD_2016-4Pin_2.0x1.6mm
+  L: 2.0
+  W: 1.6
+  H: 0.9
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 1.27
+  p_split_y: 0.975
+  p_length: 0.57
+  p_width: 0.475
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://image.seapx.com/mall/yangxin/3/20240516/YXC-YSO110TR-datesheet-V2-202654.pdf'
+
+SMD_2520-4Pin:
+  type: 1
+  file_name: Crystal_SMD_2520-4Pin_2.5x2.0mm
+  L: 2.5
+  W: 2.0
+  H: 0.8
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 1.6
+  p_split_y: 1.2
+  p_length: 0.7
+  p_width: 0.6
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-210STF&lang=en'
+
+SMD_2012-2Pin_2.0x1.2mm:
+  type: 1
+  file_name: Crystal_SMD_2012-2Pin_2.0x1.2mm
+  L: 2.05
+  W: 1.2
+  H: 0.6
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 1.5
+  p_split_y: None
+  p_length: 0.425
+  p_width: 1.0
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+SMD_3215-2Pin_3.2x1.5mm:
+  type: 1
+  file_name: Crystal_SMD_3215-2Pin_3.2x1.5mm
+  L: 3.2
+  W: 1.5
+  H: 0.9
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 2.4
+  p_split_y: None
+  p_length: 0.6
+  p_width: 1.3
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+SMD_5032-2Pin_5.0x3.2mm:
+  type: 1
+  file_name: Crystal_SMD_5032-2Pin_5.0x3.2mm
+  L: 5.00
+  W: 3.2
+  H: 1.1
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 3.7
+  p_split_y: None
+  p_length: 1.3
+  p_width: 2.0
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://ecsxtal.com/store/pdf/ECX-53Q.pdf'
+
+Murata_CSTCC8M00G53:
+  file_name: Resonator_SMD-3Pin_7.2x3.0mm  # model name
+  W: 7.2  # Body length
+  E: 3.0  # Body width
+  H: 0.5  # Body height
+  TW: 6.6  # Top length
+  TE: 2.1  # Top width
+  TH: 1.05  # Top height
+  A1: 0.0  # Body PCB seperation
+  pin_cnt: 3  # Number of pins
+  pin_cut: 0.45  # If edge should cut
+  pin_split: 2.5  # Distance between pins
+  pin_width: 1.2  # Pin width
+  body_top_color_key: metal silver  # Top color
+  body_color_key: white body  # Body colour
+  pin_color_key: gold pins  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # Destination directory
+
+Murata_CDSCB:
+  file_name: Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm
+  W: 4.5
+  E: 2.0
+  H: 0.4
+  TW: 4.1
+  TE: 1.4
+  TH: 0.6
+  A1: 0.0
+  pin_cnt: 2
+  pin_cut: 0.4
+  pin_split: 3.0
+  pin_width: 0.8
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+Murata_CSTxExxV:
+  file_name: Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm
+  W: 3.2
+  E: 1.3
+  H: 0.4
+  TW: 3.0
+  TE: 1.1
+  TH: 0.5
+  A1: 0.0
+  pin_cnt: 3
+  pin_cut: 0.0
+  pin_split: 1.2
+  pin_width: 0.5
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+Murata_SFECV:
+  file_name: Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm
+  W: 6.9
+  E: 2.9
+  H: 1.5
+  TW: 0.0
+  TE: 0.0
+  TH: 0.0
+  A1: 0.0
+  pin_cnt: 3
+  pin_cut: 0.0
+  pin_split: 2.85
+  pin_width: 1.0
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+Murata_SFSKA:
+  file_name: Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm
+  W: 8.5
+  E: 3.8
+  H: 0.5
+  TW: 7.9
+  TE: 3.0
+  TH: 1.3
+  A1: 0.0
+  pin_cnt: 3
+  pin_cut: 0.6
+  pin_split: 2.5
+  pin_width: 1.0
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+Murata_TPSKA:
+  file_name: Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm
+  W: 8.5
+  E: 3.8
+  H: 0.5
+  TW: 7.9
+  TE: 3.0
+  TH: 1.3
+  A1: 0.0
+  pin_cnt: 3
+  pin_cut: 0.6
+  pin_split: 2.5
+  pin_width: 1.0
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+
+MicroCrystal_CC1V-T1A:
+  type: 1  # Model type, 1 = top is slightly larger than body, only one stair step
+  file_name: Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm  # File name
+  L: 8.0  # Model length
+  W: 3.7  # Model width
+  H: 1.75  # Model heigth
+  A1: 0.0  # Bottom-board separation
+  p_cnt: 2  # Number of pins
+  p_split_x: 6.8  # Distance between pins, along length
+  p_split_y: None
+  p_length: 1.2  # Pin length
+  p_width: 3.5  # Pin width
+  body_top_color_key: black body  # Top color
+  body_color_key: gold pins  # Body color
+  bottom_color_key: black body  # Bottom color
+  pin_color_key: gold pins  # Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: 'Crystal.3dshapes'  # destination directory
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+MicroCrystal_CC4V-T1A:
+  type: 1
+  file_name: Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm
+  L: 5.0
+  W: 1.9
+  H: 0.9
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 4.1
+  p_split_y: None
+  p_length: 0.9
+  p_width: 1.7
+  body_top_color_key: black body
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+MicroCrystal_CC5V-T1A:
+  type: 1
+  file_name: Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm
+  L: 4.1
+  W: 1.5
+  H: 0.9
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 3.0
+  p_split_y: None
+  p_length: 1.1
+  p_width: 1.3
+  body_top_color_key: black body
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+MicroCrystal_CC7V-T1A:
+  type: 1
+  file_name: Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm
+  L: 3.2
+  W: 1.5
+  H: 0.9
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 2.2
+  p_split_y: None
+  p_length: 1.0
+  p_width: 1.3
+  body_top_color_key: black body
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+MicroCrystal_CC8V-T1A:
+  type: 1
+  file_name: Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm
+  L: 2.0
+  W: 1.2
+  H: 0.67
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 1.2
+  p_split_y: None
+  p_length: 0.8
+  p_width: 1.0
+  body_top_color_key: black body
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+MicroCrystal_CM9V-T1A:
+  type: 1
+  file_name: Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm
+  L: 1.6
+  W: 1.0
+  H: 0.5
+  A1: 0.0
+  p_cnt: 2
+  p_split_x: 1.0
+  p_split_y: None
+  p_length: 0.6
+  p_width: 0.8
+  body_top_color_key: black body
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: gold pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf'
+
+SMD_WurthElektronik_IQXC-240:
+  type: 1
+  file_name: 'Crystal_SMD_WE_IQXC-240-4Pin_1.2x1.0mm'
+  L: 1.2
+  W: 1.0
+  H: 0.33
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 0.7
+  p_split_y: 0.6
+  p_length: 0.4
+  p_width: 0.3
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-240'
+
+SMD_WurthElektronik_IQXC-26:
+  type: 1
+  file_name: 'Crystal_SMD_WE_IQXC-26-4Pin_1.6x1.2mm'
+  L: 1.6
+  W: 1.2
+  H: 0.4
+  A1: 0.0
+  p_cnt: 4
+  # Pads sticking out from footprint with datasheet values.
+  p_split_x: 1.1
+  p_split_y: 0.8
+  p_length: 0.6
+  p_width: 0.5
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-26'
+
+SMD_WurthElektronik_IQXC-42:
+  type: 1
+  file_name: 'Crystal_SMD_WE_IQXC-42-4Pin_2.0x1.6mm'
+  L: 2.0
+  W: 1.6
+  H: 0.5
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 1.35
+  p_split_y: 1.05
+  p_length: 0.65
+  p_width: 0.55
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/IQXC-42'
+
+SMD_WurthElektronik_CFPX-218:
+  type: 1
+  file_name: 'Crystal_SMD_WE_CFPX-218-4Pin_2.5x2.0mm'
+  L: 2.5
+  W: 2.0
+  H: 0.65
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 1.6
+  p_split_y: 1.3 # Missing value in Datasheet, adjusted for .1mm from edge.
+  p_length: 0.7
+  p_width: 0.5 # Missing value in Datasheet, adjusted for .1mm from edge.
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-218'
+
+SMD_WurthElektronik_CFPX-180:
+  type: 1
+  file_name: 'Crystal_SMD_WE_CFPX-180-4Pin_3.2x2.5mm'
+  L: 3.2
+  W: 2.5
+  H: 0.8
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 2.1
+  p_split_y: 1.5
+  p_length: 0.9
+  p_width: 0.8
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-180'
+
+SMD_WurthElektronik_CFPX-104:
+  type: 1
+  file_name: 'Crystal_SMD_WE_CFPX-104-4Pin_5.0x3.2mm'
+  L: 5.0
+  W: 3.2
+  H: 1.0
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 3.75
+  p_split_y: 2.3
+  p_length: 1.25
+  p_width: 0.9
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/CFPX-104'
+
+SMD_WurthElektronik_12SMX:
+  type: 1
+  file_name: 'Crystal_SMD_WE_12SMX-4Pin_7.0x5.0mm'
+  L: 7.0
+  W: 5.0
+  H: 1.4
+  A1: 0.0
+  p_cnt: 4
+  p_split_x: 5.8
+  p_split_y: 2.54
+  p_length: 1.2
+  p_width: 1
+  body_top_color_key: metal aluminum
+  body_color_key: gold pins
+  bottom_color_key: black body
+  pin_color_key: metal grey pins
+  rotation: 0
+  destination_dir: 'Crystal.3dshapes'
+  source: 'https://www.we-online.com/en/components/products/WE-XTAL#/articles/WE-XTAL-12SMX'

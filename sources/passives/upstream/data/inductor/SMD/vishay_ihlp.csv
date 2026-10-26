@@ -1,0 +1,9 @@
+PartNumber,widthX,lengthY,height,landingX,landingInsideX,landingY,padX,padOutsideX,padY,datasheet
+IHLP-1212,3.0,3.0,2.0,1.5,1.2,1.2,0.8,3.65,0.5,https://www.vishay.com/docs/34289/lp12bz11.pdf
+IHLP-1616,4.06,4.06,2.0,1.8545,1.930,2.286,0.76,4.45,2.0,https://www.vishay.com/docs/34196/lp16bz11.pdf
+IHLP-2020,5.18,5.18,3.0,1.905,2.946,2.79,1.02,5.49,2.54,https://www.vishay.com/docs/34280/ihlp-2020cz-01.pdf
+IHLP-2525,6.47,6.47,3.0,2.413,3.429,3.429,1.27,6.86,3.18,https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf
+IHLP-3232,8.18,8.18,4.0,2.413,4.826,5.334,1.372,8.64,5.08,https://www.vishay.com/docs/34313/ihlp3232dz-11.pdf
+IHLP-4040,10.3,10.3,5.4,3.175,5.842,4.953,2.2,11.5,4.7,https://www.vishay.com/docs/34499/ihlp4040ed5a.pdf
+IHLP-5050,12.9,12.9,6.4,2.945,7.87,4.95,2.3,13.2,4.7,https://www.vishay.com/docs/34123/ihlp-5050fd-01.pdf
+IHLP-6767,17.15,17.15,7.0,2.875,12.41,12.45,2.108,17.15,11.938,https://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf

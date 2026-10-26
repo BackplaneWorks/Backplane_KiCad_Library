@@ -1,0 +1,5 @@
+$ /home/h/.backplane-bend/kicad/10.99.0-bp.4/bin/kicad-cli pcb drc --format json --refill-zones --save-board --severity-all -o /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_zone_control.drc.json /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_zone_control.kicad_pcb
+Found 4 violations
+Found 5 unconnected items
+Saved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/holes/holes_2layer_zone_control.drc.json
+Saved board

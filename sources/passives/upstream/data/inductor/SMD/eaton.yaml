@@ -1,0 +1,14 @@
+default_parameters:
+  manufacturer: Eaton
+  library_name: Inductor_SMD
+
+series_MCL:
+  default_parameters:
+    datasheet: "https://eu.mouser.com/datasheet/2/87/eaton-mcl2012v1-multilayer-chip-inductor-data-shee-1622891.pdf"
+    3d:
+      type: 2 # best effort, these parts are more like chip resistors
+    tags:
+      - ferrite
+      - multilayer
+      - power
+  csv: eaton_mcl.csv

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{page_title}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>{% include "diff-style.css" %}</style>
+        <style id="code-diff-style">
+            {{ code_diff_css|safe }}
+            {{ diff_syntax_css|safe }}
+        </style>
+        {% if prefetch_url %}
+        <link rel="prefetch" href="{{ prefetch_url }}">
+        {% endif %}
+    </head>
+    <body id="body">
+        <div class="header">
+            <div class="control-buttons">
+                {{prev_button|safe}}
+                {{next_button|safe}}
+            </div>
+            <div>
+                <h1>{{display_name}}</h1>
+                <div>{{source_revisions}}</div>
+            </div>
+            <div class="spacer"></div>
+            <div class="control-buttons">
+                {{pipeline_button|safe}}
+                {{old_file_button|safe}}
+                {{new_file_button|safe}}
+                {{merge_request_button|safe}}
+                <button id="datasheet-button" class="button"
+                    title="Show component datasheet, isf possible (d)">
+                    Datasheet
+                </button>
+                <button id="index-button" class="button"
+                    title="Toggle index pane (i)">
+                    Index Panel
+                </button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <a id="btn-metadata" href="#metadata"
+                title="Show the metadata of the object (m)">
+                Metadata
+            </a>
+            <a id="btn-visual-diff" href="#visual-diff"
+                title="Show the difference between the old and new versions (v)">
+                Visual diff
+            </a>
+            <a id="btn-layer-view" href="#layer-view"
+                title="Show a per-layer view of the object (l)">
+                Layer view
+            </a>
+            <a id="btn-render" href="#render"
+                title="Show a complete render of the object (r)">
+                Render
+            </a>
+            <!--a href="#datasheet-diff">Datasheet diff</a-->
+            <a id="btn-code-diff" href="#code-diff"
+                title="Show difference in the s-expression code (c)">
+                Code diff
+            </a>
+            <div id="unit-sel">
+                <span>Unit</span>
+                {% for unit in unit_names %}
+                <button class="unit-button" data-unit="{{ loop.index0 }}">{{ unit }}</button>
+                {% endfor %}
+            </div>
+            <div class="spacer"></div>
+            <button id="layers-button" class="button tool" href="">Layers</button>
+        </div>
+        <div id="layer-drawer" class="drawer">
+            <h4>Layers</h4>
+            <div id="layer-sel">
+                <div class="layer-sel-all">
+                    <input type="checkbox" id="layer-sel-all"><label for="layer-sel-all">Select All</label>
+                </div>
+                <div class="layer-sel-all">
+                    <input type="checkbox" id="layer-sel-top"><label for="layer-sel-top">Top Side</label>
+                </div>
+                <div class="layer-sel-all">
+                    <input type="checkbox" id="layer-sel-bottom"><label for="layer-sel-bottom">Bottom Side</label>
+                </div>
+                <div class="layer-sel-all">
+                    <input type="checkbox" id="layer-sel-mech"><label for="layer-sel-mech">Mechanical</label>
+                </div>
+                <div class="layer-sel-all">
+                    <input type="checkbox" id="layer-sel-graph"><label for="layer-sel-graph">Graphical</label>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="content">
+            <div class="tab" id="visual-diff">
+                <div class="canvas-container" id="fp-visual-diff"></div>
+            </div>
+            <div class="tab" id="layer-view">
+                <div class="canvas-container" id="fp-layer-view"></div>
+            </div>
+            <div class="tab" id="render">
+                <div class="canvas-container" id="fp-render"></div>
+            </div>
+            <div class="tab" class="metadata" id="metadata">
+                <div>
+                    {{properties_table|safe}}
+                </div>
+            </div>
+            <div class="tab" id="datasheet-diff">
+            </div>
+            <div class="tab code-diff" id="code-diff">
+                {{code_diff|safe}}
+            </div>
+        </div>
+        <div class="index" id="index">
+            <div class="index-wrapper">
+                {{diff_index|safe}}
+            </div>
+        </div>
+        <script>
+            /* Template variables */
+            const svg_old = {{old_svg|safe}};
+            const svg_new = {{new_svg|safe}};
+            const svg_ref = {{reference_svg|safe}};
+            const enableLayers = {{enable_layers|safe}};
+            const hideTextInDiff = {{hide_text_in_diff|safe}};
+        </script>
+        <script>
+            {% include "diff.js" %}
+        </script>
+    </body>
+</html>

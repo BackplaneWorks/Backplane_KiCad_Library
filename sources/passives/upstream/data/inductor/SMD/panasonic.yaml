@@ -1,0 +1,17 @@
+default_parameters:
+  manufacturer: Panasonic
+  library_name: Inductor_SMD
+
+series PCC:
+  default_parameters:
+    datasheet: https://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C59.pdf
+    3d:
+      type: 2 # best effort, these parts are more like tantalum caps
+      bodyColor: black body
+      pinColor: metal grey pins
+    tags:
+      - ferrite
+      - power
+      - automotive
+      - ETQPxM
+  csv: panasonic.csv

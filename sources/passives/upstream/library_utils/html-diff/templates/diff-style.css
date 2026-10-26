@@ -1,0 +1,384 @@
+
+/*
+ * Note: variables like --c-fg-primary come from the wsdiff CSS,
+ * So we define different prefixes to avoid conflicts.
+ */
+@media (prefers-color-scheme: light) {
+    html {
+        --c-vd-bg-primary: #ffffff;
+        --c-vd-fg-primary: #000000;
+        --c-vd-bg-auxiliary: #f8f8f8;
+        --c-vd-fg-auxiliary: #a0a0a0;
+        --c-vd-border-line: #e0e0e0;
+        --c-vd-fg-header-row: #000000;
+        --c-vd-bg-header-row: #a0a0a0;
+        --c-vd-unvisited-link: #0000ee;
+        --c-vd-visited-link: #800080;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --c-vd-bg-primary: #010409;
+        --c-vd-fg-primary: #a0a0a0;
+        --c-vd-bg-auxiliary: #0d1117;
+        --c-vd-fg-auxiliary: #f0f6fc;
+        --c-border-line: #3d444d;
+        --c-vd-fg-header-row: #ffffff;
+        --c-vd-bg-header-row: #303030;
+        --c-vd-unvisited-link: #98c8ff;
+        --c-vd-visited-link: #c888f8;
+    }
+}
+
+html, body {
+    height: 100%;
+    color: var(--c-vd-fg-primary);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: var(--c-vd-unvisited-link);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--c-vd-visited-link);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 0fr 0fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr;
+    grid-template-areas:
+        "header header header header"
+        "sidebar drawer content index";
+}
+
+.content {
+    grid-area: content;
+    flex-grow: 100;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5px;
+    background-color: #303030;
+    color: white;
+    font-size: 8pt;
+    font-family: monospace;
+}
+
+.header h1 {
+    font-family: sans-serif;
+    flex-grow: 100;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+}
+
+.control-buttons {
+    font-size: 12pt;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.control-buttons > a {
+    color: white;
+}
+
+.button {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 4px 0;
+    padding: 5px 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button:hover, .button:active {
+    background-color: #3d8bfd;
+}
+
+.button:disabled {
+    background-color: #505050;
+    color: #979797;
+}
+
+.index a.unchanged {
+    color: #979797;
+}
+
+.index .created {
+    color: #6daa44;
+}
+
+.index .changed {
+    color: #aa6a44;
+}
+
+.index .deleted {
+    color: #c42418;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    grid-area: index;
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    color: white;
+    height: 100%;
+    min-height: 0; /* https://css-tricks.com/preventing-a-grid-blowout/ */
+}
+
+.index-wrapper {
+    overflow-y: auto;
+}
+
+div.index-self {
+    background-color: #505050;
+}
+
+.index-bt-toggle {
+    display: none;
+}
+
+.index a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-wrapper > div {
+    border-bottom: 1px solid #505050;
+    padding: 5px 10px;
+}
+
+.index-wrapper > div:first-child {
+    border-top: 1px solid #505050;
+}
+
+.drawer {
+    grid-area: drawer;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #404040;
+    color: white;
+}
+
+#layer-drawer {
+    font-family: monospace;
+    font-size: 10pt;
+    padding-left: 5px;
+    overflow-y: auto;
+    min-width: min-content;
+}
+
+#layer-drawer > h4 {
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+#layer-sel > div {
+    display: flex;
+    white-space: nowrap;
+}
+
+#layer-sel > div:hover {
+    background-color: #505050;
+}
+
+.layer-sel-all > label {
+    font-weight: bold;
+}
+
+#layer-drawer input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    flex-grow: 0;
+}
+
+#layer-drawer.hidden {
+    display: none;
+}
+
+#layers-button {
+    display: none;
+}
+
+#unit-sel {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#unit-sel > button {
+    background-color: #303030;
+    border: none;
+    color: white;
+    color: inherit;
+    border-bottom: 1px solid #505050;
+    padding: 5px 20px 5px 10px;
+}
+
+#unit-sel > button.selected {
+    background-color: #505050;
+    font-weight: bold;
+}
+
+#unit-sel > button:first-child {
+    border-bottom: 1px solid #505050;
+}
+
+#unit-sel > button:hover {
+    background-color: #707070;
+}
+
+#unit-sel > span:first-child {
+    font-weight: bold;
+    padding: 25px 20px 5px 10px;
+    text-align: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #303030;
+    color: white;
+}
+
+.spacer {
+    flex-grow: 100;
+}
+
+.sidebar > a {
+    border-bottom: 1px solid #505050;
+    padding: 5px 20px 5px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar > a:first-child {
+    border-top: 1px solid #505050;
+}
+
+.sidebar > a:hover {
+    background-color: #707070;
+}
+
+.sidebar > a.selected {
+    background-color: #585858;
+}
+
+.content > div {
+    display: none;
+}
+
+.content > div:target {
+    display: flex;
+    align-items: stretch;
+    width: 0;
+    min-width: 100%;
+    height: 100%;
+}
+
+#leaflet-render {
+    width: 100%;
+    height: 100%;
+}
+
+.content-image {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+#metadata > div {
+    padding: 15px;
+}
+
+#metadata th, #metadata td {
+    padding: 3px .5em;
+}
+
+#metadata th, #metadata td {
+    text-align: left;
+}
+
+#metadata th:first-child, #metadata td:first-child {
+    text-align: right;
+}
+
+#metadata tr:nth-child(even) {
+    background-color: var(--c-vd-bg-auxiliary);
+}
+
+#metadata tr:first-child {
+    background-color: var(--c-vd-bg-header-row);
+    color: var(--c-vd-fg-header-row);
+}
+
+#metadata td.prop-same {
+    opacity: 0.5;
+}
+
+.canvas-container {
+    padding: 0;
+    margin: 0;
+    overflow: clip;
+    position: relative;
+    flex-grow: 1;
+    background-color: {{canvas_background}};
+}
+
+#fp-visual-diff {
+    background-color: #001023;
+}
+
+.canvas-container > canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.render-source {
+    display: none;
+}
+
+#metadata table, #metadata table pre {
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+}
+
+#metadata pre {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#metadata td {
+    min-width: 10em;
+}

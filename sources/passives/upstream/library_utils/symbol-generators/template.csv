@@ -1,0 +1,22 @@
+# Lines starting with # followed by a space are treated as comments and are ignored
+# 
+# Metadata of the symbol
+Name,Name of the symbol/component
+Reference,Component Reference Designator according to KLC S6.1
+Datasheet,URL of the datasheet of the component
+Footprint,The KiCad footprint link for fully specified symbols
+Footprint Filter,A filter matching all compatible footprints
+Description,Textual description of the component
+Keywords,Words describing the symbol to assist in part searching
+# An empty row in the CSV indicates that the metadata is over and the pinout data starts
+,,,,
+# Header row of the pinout data which indicates the order of the columns
+Pin,Name,Side,Type
+# Pin - Number of the pin
+# Name - Name of the pin
+# Side - The side of the symbol where to place the pin
+# Type - Electrical type of the pin. See KLC S4.4.
+# Example pin data:
+1,Pin 1,left,input
+2,Pin 2,right,output,
+3,Pin 3,bottom,bidirectional

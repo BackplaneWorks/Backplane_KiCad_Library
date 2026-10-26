@@ -1,0 +1,248 @@
+(footprint "chamfered_grid"
+	(version 20260206)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd custom
+		(at 0 -1.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.75)
+					(xy -0.25 -1)
+					(xy 0.5 -1)
+					(xy 0.5 1)
+					(xy -0.25 1)
+					(xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 1.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.75)
+					(xy -0.25 -1)
+					(xy 0.5 -1)
+					(xy 0.5 1)
+					(xy -0.25 1)
+					(xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 3.75)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.75)
+					(xy -0.25 -1)
+					(xy 0.5 -1)
+					(xy 0.5 1)
+					(xy -0.25 1)
+					(xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 6.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.75)
+					(xy -0.25 -1)
+					(xy 0.5 -1)
+					(xy 0.5 1)
+					(xy -0.25 1)
+					(xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 1.5 -1.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.75)
+					(xy -0.25 -1)
+					(xy 0.25 -1)
+					(xy 0.5 -0.75)
+					(xy 0.5 1)
+					(xy -0.5 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 1.25)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "1" smd rect
+		(at 1.5 3.75)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "1" smd custom
+		(at 1.5 6.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1)
+					(xy 0.5 -1)
+					(xy 0.5 0.75)
+					(xy 0.25 1)
+					(xy -0.25 1)
+					(xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 3 -1.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1)
+					(xy 0.25 -1)
+					(xy 0.5 -0.75)
+					(xy 0.5 0.75)
+					(xy 0.25 1)
+					(xy -0.5 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 3 1.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1)
+					(xy 0.25 -1)
+					(xy 0.5 -0.75)
+					(xy 0.5 0.75)
+					(xy 0.25 1)
+					(xy -0.5 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 3 3.75)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1)
+					(xy 0.25 -1)
+					(xy 0.5 -0.75)
+					(xy 0.5 0.75)
+					(xy 0.25 1)
+					(xy -0.5 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 3 6.25)
+		(size 0.823223 0.823223)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -1)
+					(xy 0.25 -1)
+					(xy 0.5 -0.75)
+					(xy 0.5 0.75)
+					(xy 0.25 1)
+					(xy -0.5 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

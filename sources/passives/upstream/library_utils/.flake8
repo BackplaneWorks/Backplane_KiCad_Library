@@ -1,0 +1,7 @@
+[flake8]
+# E1, E2, E3, E501, W1, W2, W3, W5, W6: formatting enforced by black
+# E402: top-level imports should be placed before code; TODO: remove as soon as sys.path is not manipulated anymore
+extend-ignore = E1,E2,E3,E501,W1,W2,W3,W5,W6,E402
+exclude = __pycache__
+          .direnv
+          .venv

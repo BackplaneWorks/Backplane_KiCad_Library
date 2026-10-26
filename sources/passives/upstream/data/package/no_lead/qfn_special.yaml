@@ -1,0 +1,550 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+# This file cointains QFN with special format or special lead distribution,
+# like JEDEC MO-241 which resembles a SON / DFN package
+
+default_parameters:
+  library: Package_DFN_QFN
+
+Balun_Johanson_0900FM15K0039:
+  size_source: 'https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf'
+  library: 'RF_Converter'
+  custom_name_format: 'Balun_Johanson_0900FM15K0039'
+  device_type: 'DFN'
+  manufacturer: 'Johanson'
+  part_number: '0900FM15K0039'
+  body_size_x:
+    nominal: 1.25
+    tolerance: 0.1
+  body_size_y:
+    nominal: 2
+    tolerance: 0.15
+  overall_height: 0.8 +/- 0.1
+  num_pins_x: 1
+  num_pins_y: 4
+  pitch: 0.50
+  lead_shape: square
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.1
+  lead_len:
+    minimum: 0.05
+    nominal: 0.2
+    maximum: 0.225 # should be 0.3mm by specs, but 0.8mm between pads is required.
+  lead_height: 0.9  # Needs to be faked to maximum height, is equal to overall_height
+  EP_chamfer: 0.15
+  marker_dx: 0.3
+  marker_dy: 0.45
+
+Balun_Johanson_0900PC15J0013:
+  size_source: 'https://www.johansontechnology.com/datasheets/0900PC15J0013/0900PC15J0013.pdf'
+  library: 'RF_Converter'
+  custom_name_format: 'Balun_Johanson_0900PC15J0013'
+  device_type: 'DFN'
+  manufacturer: 'Johanson'
+  part_number: '0900PC15J0013'
+  body_size_x:
+    nominal: 1.25
+    tolerance: 0.2
+  body_size_y:
+    nominal: 2
+    tolerance: 0.2
+  overall_height:
+    maximum: 1.0
+  num_pins_x: 1
+  num_pins_y: 4
+  pitch: 0.50
+  lead_shape: square
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.1
+  lead_len:
+    minimum: 0.05
+    nominal: 0.15 # should be 0.2mm by specs, but 0.8mm between pads is required.
+    maximum: 0.15 # should be 0.3mm by specs, but 0.8mm between pads is required.
+  lead_height:
+    maximum: 1.0
+  EP_chamfer: 0.15
+  marker_dx: 0.15
+  marker_dy: 0.45
+
+Texas_UQFN-8_1.5x1.5mm_P0.5mm:
+  size_source: 'https://www.ti.com/lit/ml/mpqf207e/mpqf207e.pdf'
+  device_type: 'UQFN'
+  manufacturer: 'Texas'
+  ipc_class: 'qfn'
+  body_size_x: 1.45 .. 1.55
+  body_size_y: 1.45 .. 1.55
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.5 .. 0.6
+  num_pins_x: 1
+  num_pins_y: 3
+  pitch: 0.5
+  lead_shape: custom
+  lead_shape_custom: [
+    [
+  # Pin 1 with chamfer
+    [-0.625, -0.75],
+    [-0.375, -0.75],
+    [-0.375, -0.4],
+    [-0.525, -0.4],
+    [-0.625, -0.5],
+    ],
+    [
+    [-0.1, -0.75],
+    [0.1, -0.75],
+    [0.1, -0.4],
+    [-0.1, -0.4],
+    ],
+    [
+    [0.625, -0.75],
+    [0.375, -0.75],
+    [0.375, -0.4],
+    [0.625, -0.4],
+    ],
+    [
+    [-0.75, -0.15],
+    [-0.75, 0.15],
+    [-0.35, 0.15],
+    [-0.35, -0.15],
+    ],
+    [
+    [0.625, 0.75],
+    [0.375, 0.75],
+    [0.375, 0.4],
+    [0.625, 0.4],
+    ],
+    [
+    [-0.1, 0.75],
+    [0.1, 0.75],
+    [0.1, 0.4],
+    [-0.1, 0.4],
+    ],
+    [
+    [-0.625, 0.75],
+    [-0.375, 0.75],
+    [-0.375, 0.4],
+    [-0.625, 0.4],
+    ],
+    [
+    [0.75, -0.15],
+    [0.75, 0.15],
+    [0.35, 0.15],
+    [0.35, -0.15],
+    ],
+  ]
+  lead_width: 0.15 .. 0.25  # These are the dimension of the smallest pins, 2 and 6.
+  lead_len: 0.3 .. 0.4  # These are the dimension of the smallest pins, 2 and 6.
+  lead_height:
+    nominal: 0.12
+  pad_overrides:
+    1:
+      size_increase: [null, 0.05]
+    3:
+      size_increase: [null, 0.05]
+    5:
+      size_increase: [null, 0.05]
+    7:
+      size_increase: [null, 0.05]
+    4:
+      size_increase: [0.1, 0.05]
+    8:
+      size_increase: [0.1, 0.05]
+  EP_chamfer: 0.5
+
+Texas_WQFN-10_RUN0010A:
+# Texas_RUN0010A_WQFN-10_2x2mm_P0.5mm
+# Resembles a SON / DFN package, but with 1 lead on top / bottom
+  size_source: 'https://www.ti.com/lit/ds/symlink/tmp461.pdf#page=35'
+  device_type: 'WQFN'
+  manufacturer: 'Texas'
+  part_number: 'RUN0010A'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.9
+    maximum: 2.1
+  body_size_y:
+    minimum: 1.9
+    maximum: 2.1
+  overall_height:
+    minimum: 0.7
+    maximum: 0.8
+  num_pins_x: 1
+  num_pins_y: 4
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.4
+    maximum: 0.6
+
+Texas_X2QFN-RUE-12_1.4x2mm_P0.4mm:
+# Resembles a SON / DFN package, but with 1 lead on top / bottom
+  size_source: 'https://www.ti.com/lit/ml/mpqf214b/mpqf214b.pdf'
+  device_type: 'X2QFN-RUE'
+  manufacturer: 'Texas'
+  ipc_class: 'qfn' # 'qfn_pull_back'
+  body_size_x:
+    minimum: 1.35
+    maximum: 1.45
+  body_size_y:
+    minimum: 1.95
+    maximum: 2.05
+  overall_height:
+    maximum: 0.45
+  num_pins_x: 1
+  num_pins_y: 5
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    maximum: 0.25
+  lead_len_V:
+    minimum: 0.35
+    maximum: 0.45
+  lead_len_H:
+    minimum: 0.35
+    maximum: 0.45
+
+IDT_QFN-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm:
+  size_source: 'https://www.renesas.com/en/document/psc/neg12-package-outline-20-x-20-mm-body-epad-11-x-11-mm-050-mm-pitch-qfn'
+  compatible_mpns:
+    - "IDT_NEG-12"
+  device_type: 'QFN'
+  manufacturer: 'IDT'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 2
+    tolerance: 0.05
+  body_size_y:
+    nominal: 2
+    tolerance: 0.05
+  overall_height:
+    maximum: 0.5
+    tolerance: 0.05
+  num_pins_x: 3
+  num_pins_y: 3
+  pitch: 0.5
+  lead_width:
+    nominal: 0.2
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.275
+    tolerance: 0.05
+  chamfer_edge_pins: 0.14
+  EP_size_x:
+    nominal: 1.1
+    tolerance: 0.05
+  EP_size_y:
+    nominal: 1.1
+    tolerance: 0.05
+  EP_num_paste_pads: [1, 1]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    EP_paste_coverage: 0.7
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+Texas_X2QFN-12_1.6x1.6mm_P0.4mm:
+  size_source: 'http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf'
+  device_type: 'X2QFN'
+  manufacturer: 'Texas'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.55
+    maximum: 1.65
+  body_size_y:
+    minimum: 1.55
+    maximum: 1.65
+  overall_height:
+    maximum: 0.4
+  num_pins_x: 4
+  num_pins_y: 2
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    maximum: 0.25
+  lead_len_V:
+    minimum: 0.2
+    maximum: 0.4
+  lead_len_H:
+    minimum: 0.4
+    maximum: 0.6
+  heel_reduction: 0.075
+
+Texas_S-PX2QFN-N14:
+# Generates 'Texas_S-PX2QFN-14' for now, we should rename it to 'Texas_X2QFN-14_2x2mm_P0.4mm' in future
+  size_source: 'https://www.ti.com/lit/ml/qfnd283a/qfnd283a.pdf'
+  compatible_mpns:
+    - Texas_X2QFN-14_2x2mm_P0.4mm
+  custom_name_format: 'Texas_S-PX2QFN-{pincount}' # Temporary
+  device_type: 'X2QFN' # JEDEC MO-288 and some other documents use 'X2' for package height = 0.40mm max
+  manufacturer: 'Texas'
+  part_number: 'RUC0014A'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.9
+    maximum: 2.1
+  body_size_y:
+    minimum: 1.9
+    maximum: 2.1
+  overall_height:
+    maximum: 0.4
+  num_pins_x: 2
+  num_pins_y: 5
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    maximum: 0.25
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+
+DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm:
+# Resembles a SON / DFN package, but with 2 leads on top / bottom
+  size_source: 'JEDEC MO-241/VAA, https://assets.nexperia.com/documents/package-information/SOT762-1.pdf'
+  device_type: 'DHVQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimal: 2.4
+    nominal: 2.5
+    maximal: 2.6
+  body_size_y:
+    minimal: 2.9
+    nominal: 3.0
+    maximal: 3.1
+  overall_height:
+    minimum: 0.8
+    nominal: 0.9
+    maximum: 1.0
+  num_pins_x: 2
+  num_pins_y: 5
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  pad_numbers:
+    generator: 'increment'
+    offset: 1
+    init: 1
+  EP_size_x:
+    minimum: 0.85
+    nominal: 1.00
+    maximum: 1.15
+  EP_size_y:
+    minimum: 1.35
+    nominal: 1.50
+    maximum: 1.35
+  EP_num_paste_pads: [1, 1]
+  thermal_vias:
+    count: [1, 2]
+    drill: 0.2
+    EP_num_paste_pads: [1, 1]
+    paste_avoid_via: False
+
+DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm:
+  inherit: DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm
+  size_source: 'JEDEC MO-241 variation WAA, https://www.ti.com/lit/ml/qfnd686/qfnd686.pdf, https://www.ti.com/lit/ds/symlink/txb0104.pdf#page=43'
+  device_type: 'DHWQFN'
+  compatible_mpns:
+    - Texas_BQA0014A
+  overall_height:
+    minimum: 0.70
+    nominal: 0.75
+    maximum: 0.80
+
+DHVQFN-16-1EP_2.5x3.5mm_P0.5mm:
+# Resembles a SON / DFN package, but with 2 leads on top / bottom
+  size_source: 'JEDEC MO-241/VAB, https://assets.nexperia.com/documents/package-information/SOT763-1.pdf'
+  compatible_mpns:
+    - Nexperia_SOT763-1 # https://assets.nexperia.com/documents/package-information/SOT763-1.pdf
+    - Texas_BQB0016A # https://www.ti.com/lit/ml/pptd364/pptd364.pdf
+  device_type: 'DHVQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimal: 2.4
+    nominal: 2.5
+    maximal: 2.6
+  body_size_y:
+    minimal: 3.4
+    nominal: 3.5
+    maximal: 3.6
+  overall_height:
+    minimum: 0.8
+    nominal: 0.9
+    maximum: 1.0
+  num_pins_x: 2
+  num_pins_y: 6
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  pad_numbers:
+    generator: 'increment'
+    offset: 1
+    init: 1
+  EP_size_x:
+    minimum: 0.85
+    nominal: 1.00
+    maximum: 1.15
+  EP_size_y:
+    minimum: 1.85
+    nominal: 2.00
+    maximum: 2.15
+  EP_num_paste_pads: [1, 2]
+
+DHVQFN-20-1EP_2.5x4.5mm_P0.5mm:
+# Resembles a SON / DFN package, but with 2 leads on top / bottom
+  size_source: 'JEDEC MO-241/VAC, https://assets.nexperia.com/documents/package-information/SOT764-1.pdf'
+  device_type: 'DHVQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimal: 2.4
+    nominal: 2.5
+    maximal: 2.6
+  body_size_y:
+    minimal: 4.4
+    nominal: 4.5
+    maximal: 4.6
+  overall_height:
+    minimum: 0.8
+    nominal: 0.9
+    maximum: 1.0
+  num_pins_x: 2
+  num_pins_y: 8
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  pad_numbers:
+    generator: 'increment'
+    offset: 1
+    init: 1
+  EP_size_x:
+    minimum: 0.85
+    nominal: 1.00
+    maximum: 1.15
+  EP_size_y:
+    minimum: 2.85
+    nominal: 3.00
+    maximum: 3.15
+  EP_num_paste_pads: [1, 2]
+
+##############################################################################
+# 'CSP' / 'LFCSP' packages, these packages are actually QFN under
+# manufacturers own names, this section is temporary
+##############################################################################
+
+Analog_LFCSP-UQ-10_1.3x1.6mm_P0.4mm:
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_10_10.pdf'
+  library: Package_CSP
+  device_type: 'LFCSP-UQ'
+  manufacturer: 'Analog'
+  #part_number: 'CP-10-10'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 1.3
+  body_size_y:
+    nominal: 1.6
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height:
+    minimum: 0.5
+    nominal: 0.55
+    maximum: 0.6
+  num_pins_x: 3
+  num_pins_y: 2
+  pitch: 0.4
+  lead_shape: rounded
+  lead_width:
+    nominal: 0.2
+  lead_len_V:
+    minimum: 0.25
+    nominal: 0.3
+    maximum: 0.35
+  lead_len_H:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.55
+  lead_height:
+    nominal: 0.2  # Guessed
+  pad_numbers:
+    generator: 'increment'
+    offset: 1 # non-standard numbering 2, 3, ..., 10, 1
+
+Texas_RNX0012C_VQFN-14-11-1EP_2x3mm_P0.5mm_EP0.25x1.825mm:
+  device_type: 'VQFN'
+  manufacturer: 'Texas'
+  part_number: 'RNX0012C'
+  size_source: 'https://www.ti.com/cn/lit/ml/qfnd580a/qfnd580a.pdf'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.9
+    maximum: 2.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    maximum: 0.9
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  pad_width: 0.25
+  pad_length: 0.60
+  pad_center_to_center_x: 1.80
+  pad_center_to_center_y: 2.8  # set the distance from centerline to bottom row pads to 1.4 mm
+
+  pitch: 0.5
+  num_pins_x: 3
+  num_pins_y: 4
+  deleted_pins: [12, 13, 14]
+
+  EP_size_x: 0.20 .. 0.25 .. 0.30
+  EP_size_y: 1.525 .. 1.725
+  EP_size_x_overwrite: 0.25
+  EP_size_y_overwrite: 1.825
+  EP_center_y: -0.7875
+  EP_num_paste_pads: [1, 1]
+  EP_paste_coverage: 0.88  # manufacturer specifies 88% solder paste coverage with 2 paste pads - this is as good as it gets (with 1 pad only as the 2 pads would be too close together)
+  EP_pin_number: 12
+
+  # All these pad overrides as the pins are not centered on the part
+  pad_overrides:
+    1:
+      move: [null, -0.375]
+    2:
+      move: [null, -0.225]
+    11:
+      move: [null, -0.375]
+    10:
+      move: [null, -0.225]
+    3:
+      move: [null, -0.075]
+    4:
+      move: [null, -0.075]
+    9:
+      move: [null, -0.075]
+    8:
+      move: [null, -0.075]
+
+##############################################################################
+# Please do not place other QFN packages below here, temporary section
+##############################################################################

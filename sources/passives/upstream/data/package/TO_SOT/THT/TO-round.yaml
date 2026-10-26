@@ -1,0 +1,190 @@
+TO-18-2:
+  number_of_pins: 2
+  diameter_inner: 4.8  # diameter of top can
+  diameter_outer: 5.8  # diameter of bottom can
+  mark_width: 1.16  # width of marking
+  mark_length: 1.17  # length of marking
+  pin_circle_diameter: 2.54  # pin circle diameterdistance
+  pad_dimensions_xy: [1.2, 1.2]  # width/height of pads
+  pad_hole_diameter: 0.7  # diameter of pad drills
+  window_diameter: 4  # diameter of an on-top glass window
+  generate_footprint_type: standard, window, lens
+
+TO-18-3:
+  inherit: TO-18-2
+  number_of_pins: 3
+
+TO-18-4:
+  inherit: TO-18-2
+  number_of_pins: 4
+
+
+TO-46-2:
+  inherit: TO-18-2
+  generate_footprint_type: standard, window
+
+TO-46-3:
+  inherit: TO-46-2
+  number_of_pins: 3
+
+TO-46-4:
+  inherit: TO-46-2
+  number_of_pins: 4
+
+
+TO-52-2:
+  inherit: TO-46-2
+
+TO-52-3:
+  inherit: TO-46-3
+
+
+TO-72-4:
+  inherit: TO-46-4
+
+
+TO-5-2:
+  number_of_pins: 2
+  diameter_inner: 8.5
+  diameter_outer: 9.4
+  mark_width: 0.86
+  mark_length: 1.14
+  pin_circle_diameter: 5.08
+  pad_dimensions_xy: [1.2, 1.2]
+  pad_hole_diameter: 0.7
+  window_diameter: 5.9
+  generate_footprint_type: standard, window
+
+TO-5-3:
+  inherit: TO-5-2
+  number_of_pins: 3
+
+TO-5-4:
+  inherit: TO-5-2
+  number_of_pins: 4
+
+TO-5-6:
+  inherit: TO-5-2
+  number_of_pins: 8
+  deleted_pins: [4, 8]
+
+TO-5-8:
+  inherit: TO-5-2
+  number_of_pins: 8
+  pin_circle_diameter: 5.84
+
+TO-5-10:
+  inherit: TO-5-2
+  number_of_pins: 10
+  pin_circle_diameter: 5.84
+
+
+TO-5-8_PD5.08:
+  inherit: TO-5-8
+  pin_circle_diameter: 5.08
+
+
+TO-11-2:
+  inherit: TO-5-2
+
+TO-11-3:
+  inherit: TO-5-3
+
+
+TO-12-4:
+  inherit: TO-5-4
+
+
+TO-33-4:
+  inherit: TO-5-4
+
+
+TO-39-2:
+  inherit: TO-5-2
+
+TO-39-3:
+  inherit: TO-5-3
+
+TO-39-4:
+  inherit: TO-5-4
+
+TO-39-6:
+  inherit: TO-5-6
+
+TO-39-8:
+  inherit: TO-5-8
+
+TO-39-10:
+  inherit: TO-5-10
+
+
+TO-99-6:
+  inherit: TO-5-6
+
+TO-99-8:
+  inherit: TO-5-8
+
+
+TO-78-6:
+  inherit: TO-5-6
+
+TO-78-8:
+  inherit: TO-5-8
+
+TO-78-10:
+  inherit: TO-5-10
+
+
+TO-100-10:
+  inherit: TO-5-10
+
+
+TO-75-6:
+  inherit: TO-5-6
+
+
+TO-8-2:
+  number_of_pins: 2
+  diameter_inner: 13.2
+  diameter_outer: 14.4
+  mark_width: 0
+  mark_length: 0
+  pin_circle_diameter: 7.1
+  pad_dimensions_xy: [1.6, 1.6]
+  pad_hole_diameter: 1.1
+  window_diameter: 10.922
+  generate_footprint_type: standard, window
+
+TO-8-3:
+  inherit: TO-8-2
+  number_of_pins: 3
+
+
+TO-17-4:
+  number_of_pins: 4
+  diameter_inner: 4.2
+  diameter_outer: 5.2
+  mark_width: 0.76
+  mark_length: 0.75
+  pin_circle_diameter: 1.8
+  pad_dimensions_xy: [0.9, 0.9]
+  pad_hole_diameter: 0.6
+  window_diameter: 3.5
+  generate_footprint_type: standard, window
+
+
+TO-38-2:
+  number_of_pins: 2
+  diameter_inner: 12.3
+  diameter_outer: 17.3
+  mark_width: 0
+  mark_length: 0
+  pin_circle_diameter: 5.08
+  pad_dimensions_xy: [1.3, 1.3]
+  pad_hole_diameter: 0.8
+  window_diameter: 8
+  generate_footprint_type: standard, window
+
+TO-38-3:
+  inherit: TO-38-2
+  number_of_pins: 3

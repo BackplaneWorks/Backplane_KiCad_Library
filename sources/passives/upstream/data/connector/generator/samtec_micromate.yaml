@@ -1,0 +1,140 @@
+defaults:
+  library: 'Samtec_MicroMate'
+  # parameters:
+  #  option_code: e.g. S-RA, S-V, SH-L
+  fp_name: 'Samtec_T1M-{num_pos:02d}-X-{option_code}'
+  pad_pitch: 1.0
+  row_pitch: null # only one row
+  first_pin:
+    position: 'top'
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      offset: 0.325     # offset from the body edge (default: size)
+      fab: False        # don't draw a pin1 indicator on Fab (body is asymmetric anyway)
+  text_inside_pos: 0
+  clean_silk: True
+  description: 'Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, {options}'
+  tags: 'conn samtec discrete wire terminal'
+  pads:
+    size: [0.6, 1.55]
+  source: 'https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf'
+
+T1M-XX-S-RA:
+  inherit: 'defaults'
+  parameters:
+    option_code: 'S-RA'
+  options: 'Horizontal (Right Angle)'
+  fp_suffix: '_Terminal_Horizontal'     # optional: defaults to ''
+  positions: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  offset:
+    pads: [0, -2.1]
+    body: [0, 0]
+  body_size:
+    x_offset: 0 # 1.5mm on each side is defined in the polyline of the body shape
+    y: 4.95
+  body_shape:
+    left:
+      polyline: [[l - 0.1, t], [l - 0.1, t + 0.75], [l - 1.5, t + 0.75], [l - 1.5, b]]
+    right: 'mirror'
+  mount_pads:
+    smd:
+      size: [0.8, 1.8]
+      center:
+        x_offset: 1.3
+        y: 3.875
+      name: 'MP'
+
+T1M-XX-SH-L:
+  inherit: 'T1M-XX-S-RA'
+  parameters:
+    option_code: 'SH-L'
+  options: 'Horizontal, Latch'
+  fp_suffix: '_Terminal_Horizontal_Latch'     # optional: defaults to ''
+  positions: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  offset:
+    pads: [0, -2.775]
+    body: [0, -0.475]
+  body_size:
+    x_offset: 1.7
+    y: 4.25
+  body_shape:
+    left: null
+    right: null
+    bottom:
+      polyline: [[-2.5, b], [-2.5, b + 0.95], [2.5, b + 0.95], [2.5, b]]
+  mount_pads:
+    smd:
+      center:
+        y: 3.825
+  first_pin:
+    marker:
+      offset: 0.875
+
+T1M-02-SH-L:
+  inherit: 'T1M-XX-SH-L'
+  positions: [2]
+  body_shape:
+    bottom:
+      polyline: [[-1.25, b], [-1.25, b + 0.95], [1.25, b + 0.95], [1.25, b]]
+
+T1M-XX-S-V:
+  inherit: 'defaults'
+  options: 'Vertical'
+  parameters:
+    option_code: 'S-V'
+  fp_suffix: '_Terminal_Vertical'     # optional: defaults to ''
+  positions: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  first_pin:
+    marker:
+      offset: 1.135
+    position: 'bottom'
+  offset:
+    pads: [0, 1.925]
+    body: [0, 0.075]
+  body_size:
+    x_offset: 1.5
+    y: 2.8
+  body_shape:
+    bottom:
+      polyline: [[l + 1.25, b], [l + 1.25, b + 0.1], [r - 1.25, b + 0.1], [r - 1.25, b]]
+    top:
+      polyline: [[-0.3, t], [-0.3, t - 0.25], [0.3, t - 0.25], [0.3, t]]
+  mount_pads:
+    smd:
+      size: [0.8, 1.8]
+      center:
+        x_offset: 1.3
+        y: -2.525
+      name: 'MP'
+
+T1M-XX-SV-L:
+  inherit: 'T1M-XX-S-V'
+  parameters:
+    option_code: 'SV-L'
+  options: 'Vertical, Latch'
+  fp_suffix: '_Terminal_Vertical_Latch'     # optional: defaults to ''
+  positions: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  offset:
+    pads: [0, 2.15]
+    body: [0, 0.5]
+  body_size:
+    x_offset: 1.7
+    y: 3.05
+  body_shape:
+    top:
+      polyline: [[-2.5, t], [-2.5, t - 1.2], [2.5, t - 1.2], [2.5, t]]
+  mount_pads:
+    smd:
+      center:
+        y: -2.575
+  first_pin:
+    marker:
+      offset: 0.825       # offset from the body edge (default: size)
+
+
+T1M-02-4-SV-L:
+  inherit: 'T1M-XX-SV-L'
+  positions: [2, 3, 4]
+  body_shape:
+    top:
+      polyline: [[-1.25, t], [-1.25, t - 1.2], [1.25, t - 1.2], [1.25, t]]

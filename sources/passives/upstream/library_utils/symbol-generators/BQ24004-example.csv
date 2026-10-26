@@ -1,0 +1,34 @@
+name,BQ24004,,,,
+reference,U,,,,
+footprint,Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm,,,,
+footprint_filter,HTSSOP*1EP*4.4x6.5mm*P0.65mm*,,,,
+description,"2-Cell Li-Ion Charge Management IC, HTSSOP-20",,,,
+keywords,2-Cell Li-Ion Charge,,,,
+datasheet,http://www.ti.com/lit/ds/symlink/bq24006.pdf,,,,
+,,,,,
+Pin,Name,Type,Side,Debug1,Debug2
+4,VCC,power_in,top,0 mils,-700 mils
+18,OUT,output,right,500 mils,-500 mils
+19,OUT,output,right,500 mils,-500 mils
+,,space,right,-,-
+17,VSENSE,input,right,500 mils,-300 mils
+,,space,right,-,-
+14,STAT1,output,right,500 mils,-100 mils
+"1,6,11,15,20",N/C,no_connect,right,400 mils,100 mils
+2,IN,input,left,-500 mils,-500 mils
+3,IN,input,left,-500 mils,-500 mils
+,,space,left,-,-
+5,ISNS,input,left,-500 mils,-300 mils
+,,space,left,-,-
+8,EN,input,left,-500 mils,-100 mils
+,,space,left,-,-
+7,APG/THERM,input,left,-500 mils,100 mils
+9,VSEL,input,left,-500 mils,200 mils
+12,CR,input,left,-500 mils,300 mils
+13,TMR_SEL,input,left,-500 mils,400 mils
+,,space,bottom,-,-
+,,space,bottom,-,-
+10,GND,power_in,bottom,0 mils,700 mils
+21,GND,power_in,bottom,0 mils,700 mils
+,,space,bottom,-,-
+16,AGND,power_in,bottom,200 mils,700 mils

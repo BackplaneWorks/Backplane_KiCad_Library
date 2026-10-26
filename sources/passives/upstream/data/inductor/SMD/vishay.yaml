@@ -1,0 +1,68 @@
+default_parameters:
+  manufacturer: Vishay
+  library_name: Inductor_SMD
+
+defaults_IHSM:
+  3d:
+    type: 2 # best effort, these parts are more like tantalum caps
+    bodyColor: black body
+    pinColor: metal grey pins
+  tags:
+    - wirewound
+    - ferrite
+    - power
+
+IHSM-3825:
+  inherit: defaults_IHSM
+  PartNumber: IHSM-3825
+  datasheet: http://www.vishay.com/docs/34018/ihsm3825.pdf
+  widthX: 11.18
+  lengthY: 6.35
+  height: 5.72 # max
+  landingX: 4.57 # 4.572
+  landingOutsideX: 14.22 # 14.224
+  landingY: 5.59 # 5.588
+
+IHSM-4825:
+  inherit: defaults_IHSM
+  PartNumber: IHSM-4825
+  datasheet: http://www.vishay.com/docs/34019/ihsm4825.pdf
+  widthX: 13.72
+  lengthY: 6.35
+  height: 5.72 # max
+  landingX: 4.57 # 4.572
+  landingOutsideX: 16.76 # 16.764
+  landingY: 5.59 # 5.588
+
+IHSM-5832:
+  inherit: defaults_IHSM
+  PartNumber: IHSM-5832
+  datasheet: https://www.vishay.com/docs/34020/ihsm-5832.pdf
+  widthX: 16.26
+  lengthY: 8.13
+  height: 7.24 # max
+  landingX: 6.60 # 6.604
+  landingOutsideX: 21.97 # 21.971
+  landingY: 7.37 # 7.366
+
+IHSM-7832:
+  inherit: defaults_IHSM
+  PartNumber: IHSM-7832
+  datasheet: https://www.vishay.com/docs/34021/ihsm7832.pdf
+  widthX: 21.34
+  lengthY: 8.13
+  height: 7.24 # max
+  landingX: 6.60 # 6.604
+  landingOutsideX: 26.67
+  landingY: 7.37 # 7.366
+
+series_IHLP:
+  default_parameters:
+    3d:
+      type: 2 # best effort, these parts are more like tantalum caps
+      bodyColor: black body
+      pinColor: metal grey pins
+    tags:
+      - shielded
+      - SMT
+  csv: vishay_ihlp.csv

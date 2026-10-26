@@ -1,0 +1,6 @@
+# Optional upstream model-regeneration toolchain (not needed to copy bundled STEP).
+# Python 3.11 is recommended for available CadQuery/OCP wheels.
+cadquery==2.6.1
+cadquery-ocp>=7.8.1,<7.9
+nlopt>=2.9.0,<3.0
+numpy

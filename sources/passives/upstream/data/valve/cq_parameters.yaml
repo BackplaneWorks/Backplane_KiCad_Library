@@ -1,0 +1,693 @@
+Valve_Noval-B9A_Belton-VT9-PT_Socket:
+  model_name: Valve_Noval-B9A_Belton-VT9-PT_Socket  # model name
+  D: 22.8  # Body width/diameter
+  socket_H: 8.5  # Body height
+  A1: 0.03  # Body PCB seperation
+  flange: null  # Flange paramters
+  sadle: null  # Sadle paramters
+  sadle_hole: null  # Sadle hole paramters
+  sadle_shield: null  # Sadle shield
+  sadle_pcb_hole: null  # Sadle pcb hole
+  pin_top_diameter: [11.9, 1.016]  # Diameter of the pin holes on top
+  pin_spigot: ['round', 3.5, 6.0]  # Spigot
+  npth_pin: null  # NPTH holes
+  center_pin: null  # Center pin
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 3.0, 1.5]  # Pin type, length
+  pin_number: 9  # Number of pins
+  pin: null  # Pins
+  pin_arc: 36.0  # Arch between pins
+  pin_diameter: 21.0  # Diameter of the cricle where pins are located
+  serie: VT9-PT  # The serie of the socket
+  body_top_color_key: metal silver  # Top color
+  body_color_key: green body  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Valve.3dshapes  # Destination directory
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+  include_in_qa: True
+
+Valve_Noval-B9A_Belton-VT9-PT-C_Socket:
+  model_name: Valve_Noval-B9A_Belton-VT9-PT-C_Socket
+  D: 23.8
+  socket_H: 8.5
+  A1: 0.03
+  flange: null
+  sadle: [6.6, 35.5, 26.5, 14.25, 8.0, 72.0]
+  sadle_hole: [
+    [-14.25, 3.3]
+  ]
+  sadle_shield: [23.8, 17.6]
+  sadle_pcb_hole: [
+    ['pad', 14.25, 1.3],
+    ['npth', -14.25, 3.3]
+  ]
+  pin_top_diameter: [11.9, 1.016]
+  pin_spigot: ['round', 3.5, 6.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 3.0, 1.5]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 21.0
+  serie: VT9-PT-C
+  body_top_color_key: metal silver
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+
+Valve_Octal-K8A_Belton-VT8-PT_Socket:
+  model_name: Valve_Octal-K8A_Belton-VT8-PT_Socket
+  D: 30.0
+  socket_H: 14.5
+  A1: 0.03
+  flange: null
+  sadle: [13.5, 50.0, 32.0, 20.0, 10.0, 72.0]
+  sadle_hole: [
+    [-20.0, 3.5],
+    [20.0, 3.5]
+  ]
+  sadle_shield: null
+  sadle_pcb_hole: [
+    ['npth', -20.0, 3.5],
+    ['npth', 20.0, 3.5]
+  ]
+  pin_top_diameter: [17.5, 2.36]
+  pin_spigot: ['tap', 3.5, 6.0, 2.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.6, 0.2, 3.5, 2.6, 17.0, 1.5]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.2
+  serie: VT8-PT
+  body_top_color_key: metal silver
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+
+Valve_Octal-K8A_Belton-VT8-PTS-B_Socket:
+  model_name: Valve_Octal-K8A_Belton-VT8-PTS-B_Socket
+  D: 30.0
+  socket_H: 14.5
+  A1: 0.03
+  flange: null
+  sadle: [13.5, 50.0, 32.0, 19.0, 11.0, 72.0]
+  sadle_hole: [
+    [-19.0, 2.9],
+    [19.0, 2.9]
+  ]
+  sadle_shield: null
+  sadle_pcb_hole: [
+    ['npth', -19.0, 2.9],
+    ['npth', -19.0, 2.9]
+  ]
+  pin_top_diameter: [17.5, 2.36]
+  pin_spigot: ['tap', 3.5, 6.0, 2.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.6, 0.2, 3.5, 2.6, 3.0, 1.5]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.2
+  serie: VT8-PT
+  body_top_color_key: metal silver
+  body_color_key: green body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf'
+
+Valve_Noval-B9A_Dongxin-GZC9-A_Socket:
+  model_name: Valve_Noval-B9A_Dongxin-GZC9-A_Socket
+  D: 17.8
+  socket_H: 8.7
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [11.9, 1.016]
+  pin_spigot: ['round', 3.5, 6.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 3.0, 1.5]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 17.8
+  serie: GZC9-A
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1790289-416013/GZC9-A_GZC9-A-G_9-pin_ceramic_socket.html'
+
+Valve_Noval-B9A_Dongxin-GZC9-B_Socket:
+  model_name: Valve_Noval-B9A_Dongxin-GZC9-B_Socket
+  D: 22.2
+  socket_H: 14.5
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [11.9, 1.016]
+  pin_spigot: ['round', 3.5, 6.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 2.4, 1.5]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 20.0
+  serie: GZC9-B
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1790283-416013/GZC9-B_GZC9-B-G_9-pin_ceramic_socket.html'
+
+Valve_Noval-B9A_Dongxin-GZS9-Y_Socket:
+  model_name: Valve_Noval-B9A_Dongxin-GZS9-Y_Socket
+  D: 18.0
+  socket_H: 12.0
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [11.9, 1.016]
+  pin_spigot: ['round', 3.5, 6.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 2.4, 1.2]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 18.0
+  serie: GZS9-Y
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1790186-416013/GZS9-Y_GZS9-Y-G_9-pin_plastic_socket.html'
+
+Valve_Magnoval-B9D_Dongxin-GZC9-Y-2_Socket:
+  model_name: Valve_Magnoval-B9D_Dongxin-GZC9-Y-2_Socket
+  D: 30.0
+  socket_H: 12.0
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [17.5, 1.27]
+  pin_spigot: ['round', 9.8]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.6, 3.0, 1.2]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 26.5
+  serie: GZC9-Y-2
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1790236-416013/GZC9-Y-2_GZC9-Y-2-G_9-pin_ceramic_socket.html'
+
+Valve_Miniature-B7G_Dongxin-GZC7-Y-B_Socket:
+  model_name: Valve_Miniature-B7G_Dongxin-GZC7-Y-B_Socket
+  D: 17.8
+  socket_H: 8.8
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [9.53, 1.0]
+  pin_spigot: ['round', 9.8]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.1, 2.7, 4.0, 1.2]
+  pin_number: 7
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.8
+  serie: GZC7-Y-B
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/2057808-416011/GZC7-Y-B_7-pin_ceramic_socket.html'
+
+Valve_Octal-K8A_Dongxin-GZC8-Y_Socket:
+  model_name: Valve_Octal-K8A_Dongxin-GZC8-Y_Socket
+  D: 30.0
+  socket_H: 14.5
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [17.5, 2.36]
+  pin_spigot: ['tap', 3.5, 6.0, 2.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.1, 2.7, 4.0, 1.2]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 26.0
+  serie: GZC8-Y
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1784598-416012/GZC8-Y_GZC8-Y-G_8-pin_ceramic_socket.html'
+
+Valve_Octal-K8A_Dongxin-GZC8-Y-2_Socket:
+  model_name: Valve_Octal-K8A_Dongxin-GZC8-Y-2_Socket
+  D: 30.0
+  socket_H: 14.2
+  A1: 0.03
+  flange: null
+  sadle: null
+  sadle_hole: null
+  sadle_shield: null
+  sadle_pcb_hole: null
+  pin_top_diameter: [17.5, 2.36]
+  pin_spigot: ['tap', 3.5, 6.0, 2.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.7, 3.0, 1.2]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 26.5
+  serie: GZC8-Y-2
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1784584-416012/GZC8-Y-2_GZC8-Y-2-G_8-pin_ceramic_socket.html'
+
+Valve_Octal-K8A_Dongxin-GZC8-Y-5_Socket:
+  model_name: Valve_Octal-K8A_Dongxin-GZC8-Y-5_Socket
+  D: 30.5
+  socket_H: 14.5
+  A1: 0.03
+  flange: null
+  sadle: [8.5, 47.0, 31.0, 19.0, 15.0, 72.0]
+  sadle_hole: [
+    [-19.0, 3.0],
+    [19.0, 3.0]
+  ]
+  sadle_shield: null
+  sadle_pcb_hole: [
+    ['npth', -19.0, 3.0],
+    ['npth', -19.0, 3.0]
+  ]
+  pin_top_diameter: [17.5, 2.36]
+  pin_spigot: ['tap', 3.5, 6.0, 2.0]
+  npth_pin: null
+  center_pin: null
+  pin_type: ['roundtap', 1.8, 0.2, 3.5, 2.7, 3.0, 1.2]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.5
+  serie: GZC8-Y-5
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'http://www.etubesocket.com/sdp/218870/4/pd-831172/1784484-416012/GZC8-Y-5_GZC8-Y-5-G_8-pin_ceramic_socket.html'
+
+Valve_Glimm:
+  model_name: Valve_Glimm  # model name
+  D: 5.08  # Body width/diameter
+  E: 10.16  # Body length
+  H: 10.0  # Body height
+  A1: 0.03  # Body PCB seperation
+  b: 0.6  # pin width
+  center: [2.54, 0.0]  # Body center
+  npthhole: null  # NPTH holes
+  ph: 4.0  # Pin length
+  pin: [
+    [0.0, 0.0],
+    [5.08, 0.0]
+  ]
+  body_top_color_key: red body  # Top color
+  body_color_key: glass_grey  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Valve.3dshapes  # Destination directory
+  source: 'N/A'
+
+Valve_Socket_Magnoval-B9D-D17.45mm_Pin:
+  model_name: Valve_Socket_Magnoval-B9D-D17.45mm_Pin  # model name
+  D: 30.0  # Body width/diameter
+  socket_H: 12.0  # Body height
+  A1: 0.03  # Body PCB seperation
+  pin_spigot: null  # Spigot
+  npth_pin: null  # NPTH holes
+  center_pin: null  # Center pin
+  pin_type: ['round', 1.27, 3.0]  # Pin type, length
+  pin_number: 9  # Number of pins
+  pin: null  # Pins
+  pin_arc: 36.0  # Arch between pins
+  pin_diameter: 17.45  # Diameter of the circle where pins are located
+  body_top_color_key: metal silver  # Top color
+  body_color_key: white body  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Valve.3dshapes  # Destination directory
+  source: 'N/A'
+
+Valve_Socket_Noval-B9A-D11.89mm_Pin:
+  model_name: Valve_Socket_Noval-B9A-D11.89mm_Pin
+  D: 25.5
+  socket_H: 11.0
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 11.89
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Socket_Miniature-B7G-D09.53mm_Pin:
+  model_name: Valve_Socket_Miniature-B7G-D09.53mm_Pin
+  D: 15.0
+  socket_H: 8.0
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 7
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 9.53
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Socket_Loctal-B9G-D21.00mm_Pin:
+  model_name: Valve_Socket-Loctal-B9G-D21.00mm_Pin
+  D: 27.0
+  socket_H: 12.0
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.3, 3.0]
+  pin_number: 9
+  pin: null
+  pin_arc: 40.0
+  pin_diameter: 21.0
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Socket_Loctal-B8G-D17.45mm-Pin:
+  model_name: Valve_Socket_Loctal-B8G-D17.45mm-Pin
+  D: 29.0
+  socket_H: 14.5
+  A1: 0.03
+  pin_spigot: 6.7
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.3, 3.0]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.45
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Socket_Decar-B10G-D11.89mm_Pin:
+  model_name: Valve_Socket_Decar-B10G-D11.89mm_Pin
+  D: 17.0
+  socket_H: 8.0
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 9
+  pin: null
+  pin_arc: 36.0
+  pin_diameter: 11.89
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Socket_Octal-K8A-D17.45mm_Pin:
+  model_name: Valve_Socket_Octal-K8A-D17.45mm_Pin
+  D: 29.0
+  socket_H: 14.5
+  A1: 0.03
+  pin_spigot: 7.8
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 2.36, 3.0]
+  pin_number: 8
+  pin: null
+  pin_arc: 45.0
+  pin_diameter: 17.45
+  body_top_color_key: metal silver
+  body_color_key: white body
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_CK6418:
+  model_name: Valve_Tube_CK6418  # Model name
+  W: 5.969  # Body length
+  E: 7.366  # Body width
+  H: 31.75  # Body height
+  A1: 2.0  # Body PCB separation
+  npth_pin: null  # NPTH type
+  pin_type: ['round', 0.5, 3.0]  # Pin type
+  pin_number: 5  # Number of pins
+  pin_split: 2.54  # Distance between pins
+  body_top_color_key: metal silver  # Top color
+  body_color_key: glass_grey  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Valve.3dshapes  # Destination directory
+  source: 'N/A'
+
+Valve_Tube_Magnoval-B9D:
+  model_name: Valve_Tube_Magnoval-B9D  # Model name
+  D: 30.0  # Body width/diameter
+  E: null  # Body length
+  H: 49.2  # Body height
+  A1: 0.03  # Body PCB seperation
+  pin_spigot: null  # Spigot pin
+  npth_pin: null  # NPTH holes
+  center_pin: null  # Center pin
+  pin_type: ['round', 1.016, 4.0]  # Pin type
+  pin_number: 9  # Number of pins
+  pin_arc: 36.0  # Pin arc
+  pin_diameter: 26.5  # Pin diameter
+  body_top_color_key: metal silver  # Top color
+  body_color_key: glass_grey  # Body colour
+  pin_color_key: metal grey pins  # Pin color
+  npth_pin_color_key: grey body  # NPTH Pin color
+  rotation: 0  # Rotation if required
+  destination_dir: Valve.3dshapes  # Destination directory
+  source: 'N/A'
+
+Valve_Tube_Noval-B9A:
+  model_name: Valve_Tube_Noval-B9A
+  D: 22.5
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 0.8, 3.0]
+  pin_number: 9
+  pin_arc: 36.0
+  pin_diameter: 11.89
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_Miniature-B7G:
+  model_name: Valve_Tube_Miniature-B7G
+  D: 15.0
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 7
+  pin_arc: 45.0
+  pin_diameter: 9.53
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_Loctal-B9G:
+  model_name: Valve_Tube_Loctal-B9G
+  D: 27.58
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 9
+  pin_arc: 40.0
+  pin_diameter: 21.0
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_Loctal-B8G:
+  model_name: Valve_Tube_Loctal-B8G
+  D: 29.0
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.3, 3.0]
+  pin_number: 8
+  pin_arc: 45.0
+  pin_diameter: 17.45
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_Decar-B10G:
+  model_name: Valve_Tube_Decar-B10G
+  D: 17.0
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 1.016, 3.0]
+  pin_number: 9
+  pin_arc: 36.0
+  pin_diameter: 11.89
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'
+
+Valve_Tube_Octal-K8A:
+  model_name: Valve_Tube_Octal-K8A
+  D: 29.0
+  E: null
+  H: 49.2
+  A1: 0.03
+  pin_spigot: null
+  npth_pin: null
+  center_pin: null
+  pin_type: ['round', 2.36, 3.0]
+  pin_number: 8
+  pin_arc: 45.0
+  pin_diameter: 17.45
+  body_top_color_key: metal silver
+  body_color_key: glass_grey
+  pin_color_key: metal grey pins
+  npth_pin_color_key: grey body
+  rotation: 0
+  destination_dir: Valve.3dshapes
+  source: 'N/A'

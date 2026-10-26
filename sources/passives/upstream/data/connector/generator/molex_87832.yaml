@@ -1,0 +1,111 @@
+defaults:
+  library: 'Molex_Milligrid'
+  pad_pitch: 2.0
+  pads:
+    size: [1.0, 2.75]
+  row_pitch: $(1.5 + pads.size[1])
+  first_pin:
+    position: 'bottom'
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      offset: 0.275     # offset from the body edge (default: size)
+      fab: False         # drawn separately below
+  body_size:
+    x_offset: 2.325
+    y: 6.3
+  clean_silk: True
+  description: 'Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, 2.00 mm Pitch{option}'
+  tags: 'conn molex pin header'
+  fp_name: 'Molex_87832{num_pins:02d}xx'
+  parameters:
+    dx: 0.9
+    dy: 0.9
+    dx1: 1.25
+    dy1: 0.65
+    sy: -0.125
+    ey: 1.125
+    cx: 0.0
+    num_pins: $(2 * num_pos)
+  source: $("https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/878/87832/87832%02d06_sd.pdf?inline" % num_pins)
+  mount_pegs: # the mounting pegs are defined here on top-level and will be re-used in the mount_pads definition below
+    center:
+      x_offset: $(-pad_pitch / 2)   # offset from edge-pad center
+      y: 0
+    drill: 1.0
+    ends: 'both'
+
+8783204xx:
+  inherit: 'defaults'
+  fp_suffix: '_Header_Vertical'
+  option: ""
+  positions: [2, 3, 4, 5, 6]
+  additional_drawings:
+    top_cavity:
+      type: poly
+      layer: F.Fab
+      points:
+        - [l, sy]
+        - [l + dx, sy]
+        - [l + dx, t + dy]
+        - [r - dx, t + dy]
+        - [r - dx, -ey]
+        - [r, -ey]
+    bottom_cavity_l:
+      type: poly
+      layer: F.Fab
+      points:
+        - [l, ey]
+        - [l + dx, ey]
+        - [l + dx, b - dy]
+        - [l + dx1, b - dy]
+        - [l + dx1, b - dy1]
+        - [-cx, b - dy1]
+    bottom_cavity_r:
+        type: poly
+        layer: F.Fab
+        points:
+        - [cx, b - dy1]
+        - [r - dx1, b - dy1]
+        - [r - dx1, b - dy]
+        - [r - dx, b - dy]
+        - [r - dy, -sy]
+        - [r, -sy]
+    marker:
+      type: poly
+      layer: F.Fab
+      points:
+        - [pl - 0.5 * dy1, b]
+        - [pl, b - dy1]
+        - [pl + 0.5 * dy1, b]
+
+8783206xx_MP:
+  inherit: '8783204xx'
+  fp_suffix: '_Header_Vertical_MountingPegs'
+  positions: $([n for n in range(3, 7)])
+  option: ", Mounting Pegs"
+  mount_pads:
+    pegs: $(mount_pegs) # use definition from 'default' section above
+
+8783206xx_Pol:
+  inherit: '8783204xx'
+  fp_suffix: '_Header_Vertical_Polarized'
+  positions: $([n for n in range(3, 26)])
+  option: ", Center Polarization"
+  parameters:
+    cx: 1.25
+  additional_drawings:
+    bot_slot_l:
+      type: poly
+      layer: F.Fab
+      points:
+       - [-cx, b - dy1]
+       - [-cx, b]
+      mirror:
+        x: 0
+
+8783206xx_Pol_MP:
+  inherit: '8783206xx_Pol'
+  fp_suffix: '_Header_Vertical_Polarized_MountingPegs'
+  option: ", Center Polarization, Mounting Pegs"
+  mount_pads:
+    pegs: $(mount_pegs) # use definition from 'default' section above

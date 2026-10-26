@@ -1,0 +1,57 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'TSOT'
+  library_Suffix: 'TO_SOT_SMD'
+
+TSOT-23-5:
+  size_source: 'https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB'
+  custom_name_format: 'TSOT-23-5'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.7 .. 0.9 .. 1.0
+  body_pcb_gap: 0.0 .. 0.1
+  overall_size_x: 2.8
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.20
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.175
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [5]
+
+TSOT-23-6:
+  size_source: 'https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA'
+  custom_name_format: 'TSOT-23-6'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.7 .. 0.9 .. 1.0
+  body_pcb_gap: 0.0 .. 0.1
+  overall_size_x: 2.8
+  lead_width: 0.3 .. 0.5
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.20
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.175
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+
+TSOT-23-8:
+  size_source: 'https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant BA'
+  custom_name_format: 'TSOT-23-8'
+  body_size_x: 1.6
+  body_size_y: 2.9
+  body_height: 0.7 .. 0.9 .. 1.0
+  body_pcb_gap: 0.0 .. 0.1
+  overall_size_x: 2.8
+  lead_width: 0.22 .. 0.38
+  lead_len: 0.3 .. 0.45 .. 0.6
+  lead_height: 0.08 .. 0.20
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.175
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4

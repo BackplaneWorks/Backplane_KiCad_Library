@@ -1,0 +1,117 @@
+defaults:
+  library: 'JAE_WP7B'
+  positions: [17, 20, 25, 30, 35]
+  pad_pitch: 0.4
+  first_pin:
+    marker:
+      shape: 'triangle'
+      size: 1.0
+      offset: 0.0
+  parameters:
+    num_pins: $(num_pos*2)
+
+defaults-plug:
+  inherit: 'defaults'
+  source: 'https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v='
+  tags: 'conn jae fpc board to board'
+  pads:
+    size:
+      x: 0.22
+  body_size:
+    x_offset: 0.9
+    y: 1.36
+  first_pin:
+    position: 'bottom'
+  mount_pads:
+    mp:
+      center:
+        x_offset: 0.4
+      size:
+        x: 0.22
+      paste: True
+      copper: True
+      name: 'MP'
+      ends: 'both'
+
+WP7B-PxxxVA1:
+  inherit: 'defaults-plug'
+  description: '0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical'
+  fp_name: 'JAE_WP7B-P{num_pins:03d}VA1-R8000'
+  row_pitch: 1.85
+  pads:
+    size:
+      y: 0.55
+  mount_pads:
+    mp:
+      center:
+        y: [-0.925, 0.925]
+      size:
+        y: 0.55
+
+WP7B-PxxxVA10-Longpads:
+  inherit: 'defaults-plug'
+  description: '0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical'
+  fp_name: 'JAE_WP7B-P{num_pins:03d}VA1-R8000_Longpads'
+  row_pitch: 2.15
+  pads:
+    size:
+      y: 0.85
+  mount_pads:
+    mp:
+      center:
+        y: [-1.075, 1.075]
+      size:
+        y: 0.85
+
+defaults-receptacle:
+  inherit: 'defaults'
+  source: 'https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v='
+  tags: 'conn jae fpc board to board'
+  pads:
+    size:
+      x: 0.22
+  body_size:
+    x_offset: 1.5
+    y: 2.5
+  first_pin:
+    position: 'top'
+  mount_pads:
+    mp:
+      center:
+        x_offset: 0.825
+      size:
+        x: 0.75
+      paste: True
+      copper: True
+      name: 'MP'
+      ends: 'both'
+
+WP7B-SxxxVA1:
+  inherit: 'defaults-receptacle'
+  description: '0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical'
+  fp_name: 'JAE_WP7B-S{num_pins:03d}VA1-R8000'
+  row_pitch: 2.4
+  pads:
+    size:
+      y: 0.5
+  mount_pads:
+    mp:
+      center:
+        y: [-1.175, 1.175]
+      size:
+        y: 0.55
+
+WP7B-SxxxVA1-Longpads:
+  inherit: 'defaults-receptacle'
+  description: '0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical'
+  fp_name: 'JAE_WP7B-S{num_pins:03d}VA1-R8000_Longpads'
+  row_pitch: 2.7
+  pads:
+    size:
+      y: 0.8
+  mount_pads:
+    mp:
+      center:
+        y: [-1.325, 1.325]
+      size:
+        y: 0.85

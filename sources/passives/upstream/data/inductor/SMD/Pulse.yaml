@@ -1,0 +1,55 @@
+default_parameters:
+  manufacturer: Pulse
+  library_name: Inductor_SMD
+
+series_PA4332:
+  default_parameters:
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+    tags:
+      - Pulse
+      - SMT
+  csv: pulse_pa43xx.csv
+
+PA5402:
+  datasheet: "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM5402.222NLT"
+  PartNumber: PA5402
+  lengthY: 4.06 # B
+  widthX: 4.45 # A
+  height: 1.8 # C
+  padX: 0.76 # D
+  padY: 2.0 # E
+  landingOutsideX: 5.2 # L
+  landingInsideX: 2.2 # G
+  landingY: 2.4 # H
+  3d:
+    type: 2
+    bodyColor: black body
+    pinColor: metal grey pins
+  tags:
+    - Pulse
+    - SMT
+    - PA5402
+
+PA4341:
+  datasheet: "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pa4341.102anlt"
+  PartNumber: PA4341
+  widthX: 6.4 # A'
+  lengthY: 6.6 # B
+  height: 2.8 # C
+  padY: 3.0 # E
+  padOutsideX: 7.1 # A
+  padX: 1.6 # D
+  landingY: 3.4 # H
+  landingOutsideX: 8.0 # L
+  landingInsideX: 3.7 # G
+  3d:
+    type: 2
+    bodyColor: black body
+    pinColor: metal grey pins
+  tags:
+    - Pulse
+    - SMT
+    - PA4341

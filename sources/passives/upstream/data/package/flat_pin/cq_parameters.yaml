@@ -1,0 +1,630 @@
+D_SOD-323F:
+  the: 4.0  # body angle in degrees
+  c: 0.2  # pin thickness, body center part height
+  fp_s: False  # True for circular pinmark, False for square pinmark (useful for diodes)
+  fp_r: 0.3  # first pin indicator radius
+  fp_d: 0.1  # first pin indicator distance from edge
+  fp_z: 0.01  # first pin indicator depth
+  ef: 0.0  # fillet of edges  Note: bigger bytes model with fillet
+  L: null  # length of pins, if None the pins will be the distance from the body to the overall length
+  D1: 1.7  # body length
+  E1: 1.25  # body width
+  E: 2.05  # body overall width  E=E1+2*(S+L+c)
+  A1: 0.0  # body-board separation
+  A2: 0.73  # body height
+  b: 0.35  # pin width
+  e: 1.27  # pin (center-to-center) distance
+  npx: 0  # number of pins along X axis (width)
+  npy: 1  # number of pins along y axis (length)
+  epad: null  # e all_params_sod
+  excluded_pins: null  # no pin excluded
+  model_name: D_SOD-323F  # model Name
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0  # rotation if required
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.nxp.com/documents/outline_drawing/SOD323F.pdf'
+  include_in_qa: True
+
+D_PowerDI-123:
+  the: 4.0
+  c: 0.2
+  fp_s: False
+  fp_r: 0.6
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 3.0
+  E1: 1.93
+  E: 2.83
+  A1: 0.02
+  A2: 0.98
+  b: 1.0
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: [1.35, 1.1, 0.0, '-topin', 0.0]
+  excluded_pins: null
+  model_name: D_PowerDI-123
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.diodes.com/_files/datasheets/ds30497.pdf'
+
+D_SC-80:
+  the: 4.0
+  c: 0.13
+  fp_s: False
+  fp_r: 0.25
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 1.3
+  E1: 0.8
+  E: 1.2
+  A1: 0.0
+  A2: 0.7
+  b: 0.3
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: D_SC-80
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.infineon.com/dgdl/SCD80-Package_Overview.pdf?fileId=5546d462580663ef0158069ef94f041e'
+
+D_SOD-123F:
+  the: 4.0
+  c: 0.2
+  fp_s: False
+  fp_r: 0.4
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 2.6
+  E1: 1.6
+  E: 2.5
+  A1: 0.0
+  A2: 1.1
+  b: 0.65
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: D_SOD-123F
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.nxp.com/documents/outline_drawing/SOD123F.pdf'
+
+D_SOD-128:
+  the: 4.0
+  c: 0.16
+  fp_s: False
+  fp_r: 0.6
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 3.8
+  E1: 2.5
+  E: 3.4 # should be 4.7; due to a bug it had to be set to this value in order to make pins 0.45 mm long
+  A1: 0.0
+  A2: 1.0
+  b: 1.75
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: D_SOD-128
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf'
+
+D_SOD-523:
+  the: 4.0
+  c: 0.14
+  fp_s: False
+  fp_r: 0.25
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 1.2
+  E1: 0.8
+  E: 1.2
+  A1: 0.0
+  A2: 0.63
+  b: 0.3
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: D_SOD-523
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.nxp.com/documents/outline_drawing/SOD523.pdf'
+
+D_SOD-923:
+  the: 4.0
+  c: 0.12
+  fp_s: False
+  fp_r: 0.25
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 0.8
+  E1: 0.6
+  E: 0.8
+  A1: 0.0
+  A2: 0.37
+  b: 0.2
+  e: 0.9
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: D_SOD-923
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://www.nxp.com/docs/en/package-information/SOD923.pdf'
+
+D_TUMD2:
+  the: 4.0
+  c: 0.17
+  fp_s: False
+  fp_r: 0.4
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 1.9
+  E1: 1.3
+  E: 1.9
+  A1: 0.02
+  A2: 0.6
+  b: 0.8
+  e: 1.27
+  npx: 0
+  npy: 1
+  epad: [0.4, 0.8, 0.0, '-topin', 0.0]
+  excluded_pins: null
+  model_name: D_TUMD2
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://rohmfs.rohm.com/en/products/databook/package/spec/discrete/diodepkg.pdf'
+
+DRT-3:
+  the: 4.0
+  c: 0.15
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.0
+  E1: 0.8
+  E: 1.0
+  A1: 0.03
+  A2: 0.47
+  b: 0.2
+  e: 0.35
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: [2, 4, 6]
+  model_name: DRT-3
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf'
+
+HVSOF5:
+  the: 4.0
+  c: 0.13
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.03
+  A2: 0.6
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: [0.8, 0.41]
+  excluded_pins: [5,]
+  model_name: HVSOF5
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/hall/bu52002gul-e.pdf'
+
+HVSOF6:
+  the: 4.0
+  c: 0.145
+  fp_s: True
+  fp_r: 0.3
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 2.6
+  E: 3.0
+  A1: 0.03
+  A2: 0.75
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: [1.2, 1.5]
+  excluded_pins: null
+  model_name: HVSOF6
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://rohmfs.rohm.com/en/products/databook/datasheet/ic/audio_video/video_amplifier/bh76106hfv-e.pdf'
+
+Nexperia_CFP3_SOD-123W:
+  the: 4.0
+  c: 0.16
+  fp_s: False
+  fp_r: 0.4
+  fp_d: 0.1
+  fp_z: 0.01
+  ef: 0.0
+  L: null
+  D1: 2.6
+  E1: 1.7
+  E: 2.6
+  A1: 0.02
+  A2: 1.0
+  b: 0.9
+  e: 3.05
+  npx: 0
+  npy: 1
+  epad: null
+  excluded_pins: null
+  model_name: Nexperia_CFP3_SOD-123W
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: 0
+  destination_dir: Diode_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf'
+
+SOT-543:
+  the: 4.0
+  c: 0.12
+  fp_s: True
+  fp_r: 0.3
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.0
+  A2: 0.55
+  b: 0.22
+  e: 1.0
+  npx: 2
+  npy: 0
+  epad: null
+  excluded_pins: null
+  model_name: SOT-543
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://www.centralsemi.com/PDFS/CASE/SOT-543PD.PDF'
+
+SOT-665:
+  the: 4.0
+  c: 0.13
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.0
+  A2: 0.55
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: [5,]
+  model_name: SOT-665
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.nxp.com/documents/outline_drawing/SOT665.pdf'
+
+SOT-666:
+  the: 4.0
+  c: 0.13
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.08
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.0
+  A2: 0.55
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: null
+  model_name: SOT-666
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.nxp.com/documents/outline_drawing/SOT666.pdf'
+
+SOT-963:
+  the: 4.0
+  c: 0.1
+  fp_s: True
+  fp_r: 0.2
+  fp_d: 0.01
+  fp_z: 0.02
+  ef: 0.0
+  L: null
+  D1: 1.0
+  E1: 0.8
+  E: 1.0
+  A1: 0.0
+  A2: 0.45
+  b: 0.15
+  e: 0.35
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: null
+  model_name: SOT-963
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://www.centralsemi.com/PDFS/CASE/SOT-963_PD.PDF'
+
+TDSON-8-1:
+  the: 3.0
+  c: 0.25
+  fp_s: True
+  fp_r: 0.5
+  fp_d: 0.1
+  fp_z: 0.03
+  ef: 0.0
+  L: 0.55
+  D1: 5.15
+  E1: 5.9
+  E: 6.15
+  A1: 0.03
+  A2: 1.0
+  b: 0.44
+  e: 1.27
+  npx: 4
+  npy: 0
+  epad: [4.2, 4.15, 0, 0, '-topin']
+  excluded_pins: null
+  model_name: TDSON-8-1
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.infineon.com/dgdl/PG-TDSON-8-1,-2,-3-Package_Overview.pdf?fileId=db3a30431c69a49d011cdbc468254110'
+
+VSOF5:
+  the: 3.0
+  c: 0.13
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.1
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.03
+  A2: 0.6
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: [5,]
+  model_name: VSOF5
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf'
+
+SOT-553:
+  the: 3.0
+  c: 0.11
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.1
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.03
+  A2: 0.6
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: [5,]
+  model_name: SOT-553
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.goodark.com/en/products/outline/s5779.html'
+
+SOT-563:
+  the: 3.0
+  c: 0.11
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.1
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 1.6
+  E1: 1.2
+  E: 1.6
+  A1: 0.03
+  A2: 0.6
+  b: 0.22
+  e: 0.5
+  npx: 3
+  npy: 0
+  epad: null
+  excluded_pins: []
+  model_name: SOT-563
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'http://www.goodark.com/en/products/outline/s5779.html'
+
+SOT-583-8:
+  the: 4.0
+  c: 0.13
+  fp_s: True
+  fp_r: 0.0
+  fp_d: 0.1
+  fp_z: 0.03
+  ef: 0.0
+  L: null
+  D1: 2.1
+  E1: 1.2
+  E: 1.6
+  A1: 0.025
+  A2: 0.6
+  b: 0.22
+  e: 0.5
+  npx: 4
+  npy: 0
+  epad: null
+  excluded_pins: []
+  model_name: SOT-583-8
+  color_pin_mark: true
+  place_pinMark: true
+  rotation: -90
+  destination_dir: Package_TO_SOT_SMD.3dshapes
+  body_color_key: 'black body'
+  mark_color_key: 'light brown label'
+  pin_color_key: 'metal grey pins'
+  source: 'https://www.ti.com/lit/ml/mpcs002f/mpcs002f.pdf'

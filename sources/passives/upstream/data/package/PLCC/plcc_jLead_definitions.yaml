@@ -1,0 +1,113 @@
+PLCC-20_9.0x9.0mm_P1.27mm:
+# should be PLCC-20_8.966x8.966mm_P1.27mm, 350 mil package (8.89mm minimum)
+# JEDEC MS-018 and MO-047 are close, lead center to center distance differs little in minimum and maximum value
+  device_type: 'PLCC'
+  units: 'inch'
+  size_source: 'JEDEC MS-018 (variation AA), JEDEC MO-047 (variation AA), http://www.nxp.com/docs/en/package-information/SOT380-1.pdf, https://www.jedec.org/standards-documents/'
+  compatible_mpns:
+    - 'NXP_SOT380-1'
+    - 'Renesas_N20.35' # https://www.renesas.com/en/document/psc/package-drawing-plcc-20pin-n2035
+    - 'Texas_FN0020A' # https://www.ti.com/lit/ml/mpqc018a/mpqc018a.pdf#page=2
+    - 'PLCC-20_8.966x8.966mm_P1.27mm' # for symbol filter
+  overall_size_x: 0.385 .. 0.390 .. 0.395 # NXP HD; JEDEC D
+  overall_size_y: 0.385 .. 0.390 .. 0.395 # NXP HE; JEDEC E
+  body_size_x: 0.350 .. 0.353 .. 0.356 # NXP D; JEDEC D1
+  body_size_y: 0.350 .. 0.353 .. 0.356 # NXP E; JEDEC E1
+  body_chamfer: 0.045 # NXP k
+  lead_width: 0.013 .. 0.021 # NXP bp
+  lead_length: 0.040 .. 0.057 # NXP Lp = 1.016 .. 1.448 mm; JEDEC not provided
+  # lead_center_distance_x: 0.282 .. 0.310 .. 0.338 # using bigger tolerance from JEDEC MS-018: 2 * D2; ~ NXP eD (close, equal to JEDEC MO-047: D2)
+  # lead_center_distance_y: 0.282 .. 0.310 .. 0.338 # JEDEC MS-018: 2 * E2; ~ NXP eE
+  lead_inside_x: 0.29 .. 0.31 .. 0.33 # NXP eD; lead_center_distance_x is generating small pads and their distance do not match NXP eD
+  lead_inside_y: 0.29 .. 0.31 .. 0.33 # NXP eE
+  pitch: 0.05 # NXP e
+  num_pins_x: 5
+  num_pins_y: 5
+
+PLCC_32:
+  device_type: 'PLCC'
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf'
+  overall_size_x: 12.319 .. 12.573
+  overall_size_y: 14.859 .. 15.113
+  body_size_x: 11.354 .. 11.506
+  body_size_y: 13.894 .. 14.046
+  body_chamfer: 1.14
+  lead_width: 0.330 .. 0.533
+  lead_center_distance_x: 9.906 .. 10.922
+  lead_center_distance_y: 12.471 .. 13.487
+  pitch: 1.27
+  num_pins_x: 7
+  num_pins_y: 9
+
+PLCC_44:
+  device_type: 'PLCC'
+  units: 'inch'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  overall_size_x: 0.685 .. 0.69 .. 0.695
+  overall_size_y: 0.685 .. 0.69 .. 0.695
+  body_size_x: 0.65 .. 0.653 .. 0.656
+  body_size_y: 0.65 .. 0.653 .. 0.656
+  body_chamfer: 0.045
+  lead_width: 0.013 .. 0.021
+  lead_inside_x: 0.59 .. 0.61 .. 0.63
+  lead_inside_y: 0.59 .. 0.61 .. 0.63
+  pitch: 0.05
+  num_pins_x: 11
+  num_pins_y: 11
+
+MO047AD_PLCC-52_19.1x19.1mm_P1.27mm:
+# height 4.20 .. 5.08 mm; MS-018 is similar to MO-047, maybe the first superseeded the second ?
+  device_type: 'PLCC'
+  size_source: 'JEDEC MO-047 variation AD, https://www.jedec.org/document_search?search_api_views_fulltext=MO-047, https://archive.org/details/bitsavers_signeticsdcsMicroprocessor_53987793/page/n775/mode/1up?view=theater'
+  part_number: 'MO047AD' # JEDEC MS008 variation BC also has 52 lead, as well MS-018 variation AD
+  compatible_mpns:
+    - 'case-778-01 case-778-02' # MC68008FN datasheet from Motorola / Freescale / NXP, https://archive.org/details/bitsavers_motorola68Apr85_5825575/page/n93/mode/1up?view=theater, https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf#page=176
+    - 'SOT238-3' # NXP, https://www.nxp.com/docs/en/package-information/SOT238-3.pdf#page=2
+
+  overall_size_x: 19.94 .. 20.19  # D
+  overall_size_y: 19.94 .. 20.19 # E
+
+  body_size_x: 19.050 .. 19.202 # D1
+  body_size_y: 19.050 .. 19.202 # E1
+
+  body_chamfer: 1.143 # (1.067+1.219)/2
+  lead_width: 0.331 .. 0.533
+
+  lead_center_distance_x: 17.53 .. 18.54 # maximum D2
+  lead_center_distance_y: 17.53 .. 18.54 # maximum E2
+
+  pitch: 1.27
+  num_pins_x: 13
+  num_pins_y: 13
+
+PLCC_68:
+  device_type: 'PLCC'
+  units: 'inch'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  overall_size_x: 0.985 .. 0.99 .. 0.995
+  overall_size_y: 0.985 .. 0.99 .. 0.995
+  body_size_x: 0.95 .. 0.954 .. 0.958
+  body_size_y: 0.95 .. 0.954 .. 0.958
+  body_chamfer: 0.045
+  lead_width: 0.013 .. 0.021
+  lead_inside_x: 0.89 .. 0.91 .. 0.93
+  lead_inside_y: 0.89 .. 0.91 .. 0.93
+  pitch: 0.05
+  num_pins_x: 17
+  num_pins_y: 17
+
+PLCC_84:
+  device_type: 'PLCC'
+  units: 'inch'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  overall_size_x: 1.185 .. 1.19 .. 1.195
+  overall_size_y: 1.185 .. 1.19 .. 1.195
+  body_size_x: 1.15 .. 1.154 .. 1.158
+  body_size_y: 1.15 .. 1.154 .. 1.158
+  body_chamfer: 0.045
+  lead_width: 0.013 .. 0.021
+  lead_inside_x: 1.09 .. 1.11 .. 1.13
+  lead_inside_y: 1.09 .. 1.11 .. 1.13
+  pitch: 0.05
+  num_pins_x: 21
+  num_pins_y: 21

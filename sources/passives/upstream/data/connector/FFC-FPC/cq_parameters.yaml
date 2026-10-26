@@ -1,0 +1,85 @@
+M84952:
+  series: "84952"
+  manufacturer: 'TE'
+  mpn_format_string: '{pnp:s}84952-{pns:s}'
+  orientation: 'Horizontal'
+  datasheet: 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf'
+  pin_range: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  number_of_rows: 1
+
+  fp_name_format_string: '{manufacturer}_84952-{pins}_1x{pins_padded}-1MP_P{pitch}mm_{orientation}'
+  mount_pin: ''
+
+  pin_color_key: "metal grey pins"
+  body_color_key: "white body"
+  latch_color_key: "black body"
+
+  half_pitch: 0.5
+  pitch: 1.0
+
+  pin_y: -1.94
+  pin_full_y: -1.31
+  pin_width: 0.20
+  pin_length: 1.14
+  pin_height: 0.69
+  pin_full_height: 2.05
+
+  mpad_y: 1
+  mpad_offset_x: 2.99
+  mpad_width: 2.5
+  mpad_length: 3.5
+  mpad_height: 0.18
+
+  body_width: 3.53
+  body_height: 2.56
+  body_length_padding: 6.87
+  body_y_offset: -0.8
+  body_latch_border: 3.5
+  latch_closed: 5.4
+  latch_ear_width: 1.025
+
+  destination_dir: 'Connector_FFC-FPC.3dshapes'
+  include_in_qa:
+    pin_range: [4, 5]
+
+M84953:
+  series: "84953"
+  manufacturer: 'TE'
+  mpn_format_string: '{pnp:s}84953-{pns:s}'
+  orientation: 'Horizontal'
+  datasheet: 'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf'
+  pin_range: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  number_of_rows: 1
+
+  fp_name_format_string: '{manufacturer}_84953-{pins}_1x{pins_padded}-1MP_P{pitch}mm_{orientation}'
+  mount_pin: ''
+
+  pin_color_key: "metal grey pins"
+  body_color_key: "white body"
+  latch_color_key: "black body"
+
+  half_pitch: 0.5
+  pitch: 1.0
+
+  pin_y: -1.94
+  pin_full_y: -1.31
+  pin_width: 0.20
+  pin_length: 1.14
+  pin_height: 0.69
+  pin_full_height: 2.05
+
+  mpad_y: 1
+  mpad_offset_x: 2.99
+  mpad_width: 2.5
+  mpad_length: 3.5
+  mpad_height: 0.18
+
+  body_width: 3.53
+  body_height: 2.56
+  body_length_padding: 6.87
+  body_y_offset: -0.8
+  body_latch_border: 3.5
+  latch_closed: 5.4
+  latch_ear_width: 1.025
+
+  destination_dir: 'Connector_FFC-FPC.3dshapes'

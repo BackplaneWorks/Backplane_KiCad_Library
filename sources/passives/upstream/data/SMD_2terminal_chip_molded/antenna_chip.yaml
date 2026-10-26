@@ -1,0 +1,30 @@
+
+2450AT43F0100:
+    custom_name: 'Johanson_2450AT43F0100_2400-2500Mhz'
+    body_length:
+        nominal: 6.0
+        tolerance: 0.2
+    body_width:
+        nominal: 2.0
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.3
+    ipc_reference: "ipc_spec_larger_or_equal_0603"
+    size_info: '(from: https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf)'
+    description: 'Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf'
+
+2450AT18x100:
+    custom_name: 'Johanson_2450AT18x100_2400-2500Mhz'
+    body_length:
+        nominal: 3.2
+        tolerance: 0.2
+    body_width:
+        nominal: 1.6
+        tolerance: 0.2
+    terminal_length:
+        nominal: 0.5
+        tolerance: 0.3
+    ipc_reference: "ipc_spec_larger_or_equal_0603"
+    size_info: '(from: https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf)'
+    description: 'Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf'

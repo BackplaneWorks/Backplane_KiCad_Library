@@ -1,0 +1,212 @@
+[
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+    "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_1206_3216Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_1206_3216Metric.step",
+    "sha256": "f5d1ea5c47935091292bd1c6c698e0df88d3d4bbf92bf66b4c97e49df5be9ebc"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_1210_3225Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_1210_3225Metric.step",
+    "sha256": "44b152a107ee844595f54f1205cd4e0e37cebb9635affbe45f530daada41d245"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_2010_5025Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_2010_5025Metric.step",
+    "sha256": "6f990878f55f2458c0263e55075c72360fd33db78dbf5aa5c5ba731c9bca560b"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_1812_4532Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_1812_4532Metric.step",
+    "sha256": "1efc89b1825fb585a1cc77954655b8e0db16d3de91237adf42ce79142e58826d"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_2512_6332Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_2512_6332Metric.step",
+    "sha256": "76b2052a3c120193de7cdc0af99157b6f375e9a4af7721e3e3d012968c877f27"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_2816_7142Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_2816_7142Metric.step",
+    "sha256": "e073158da0577442b3a668f61b8e737d69ee6423afee725353390afa769f50b4"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_4020_10251Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_4020_10251Metric.step",
+    "sha256": "47dcf1d7c12cdf184d683280e9f396c4a43a3a1429b351ec635ddc2ab1a993d9"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+    "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0612_1632Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0612_1632Metric.step",
+    "sha256": "b1d88e89360ba0521edda989fbeaea38f7fafe574571d2526a1df307d82c677b"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0815_2038Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0815_2038Metric.step",
+    "sha256": "72811322fcff02bce45ca21e3991322ddbf5d15b6577a941d141f630510647f2"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_1020_2550Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_1020_2550Metric.step",
+    "sha256": "950dc2c4c1c84f6165d2c38ff3708e8d4920b4ae9ce48d2e15a31d5eadb72a81"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_1218_3246Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_1218_3246Metric.step",
+    "sha256": "77d9944785b6a5deafbdc315072dc8288c21fb4655333a5cb72a9c9c03959631"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_01005_0402Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_01005_0402Metric.step",
+    "sha256": "72754c12b782df10a8384eac6a4d284f3cd36f8387591befe60dcf4d92c61500"
+  },
+  {
+    "file": "3dmodels/Resistor_SMD.3dshapes/R_0201_0603Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Resistor_SMD.3dshapes/R_0201_0603Metric.step",
+    "sha256": "33893da67f0e1d523ba6096fc78c9fb67e7770efb072fcf51f480f9365706a1d"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+    "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+    "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_1210_3225Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1210_3225Metric.step",
+    "sha256": "f8510481c5044113cf49b0fa6dd54ddab9224508bd6808e1afab8ef0cefdefc9"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_1808_4520Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1808_4520Metric.step",
+    "sha256": "229af50a03a786ab452737c600ec2c4cbdf700cd1e7530bab69a8e9fffba4a94"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_1812_4532Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1812_4532Metric.step",
+    "sha256": "be9e130425233dd580e42f23cf98ed84335b8e1671ef374a8d185999ab4c2d93"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_1825_4564Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1825_4564Metric.step",
+    "sha256": "a441ecbb284463965617683ea5770d29275677d725bcdc938645cc0e19b39c37"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_2220_5750Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_2220_5750Metric.step",
+    "sha256": "1a60085b73865333329ed5d226bf83cf3c9cc17629a75c881068a7d923308f08"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_2225_5664Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_2225_5664Metric.step",
+    "sha256": "982bc0976a738a5c9d1ed83fdedf7e71ab9d743f9d21167c580575fe1c18f704"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_3640_9110Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_3640_9110Metric.step",
+    "sha256": "51bfe9534929670e1699eb689a659ce73f8afa3e98455f78ced351b33c863976"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+    "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_01005_0402Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_01005_0402Metric.step",
+    "sha256": "cf65e3760967794dcb6e515b605630798764394baa0d97df3e7a8b017be3e729"
+  },
+  {
+    "file": "3dmodels/Capacitor_SMD.3dshapes/C_0201_0603Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_0201_0603Metric.step",
+    "sha256": "453afba1c6e8ad718c79c3b370606cdf345221d24ac8202778236e8b3bfb19c7"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_0603_1608Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_0603_1608Metric.step",
+    "sha256": "b0136ad7160588d2f5dac8c85da84a35646db656b5bc54bbb873b6b548eedbb3"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_0805_2012Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_0805_2012Metric.step",
+    "sha256": "751a8ae26d20698bfe8303aa2fc7ec986a8b9a7154699b94bf2a13d4ad401425"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_1206_3216Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_1206_3216Metric.step",
+    "sha256": "7a76ea34101f04e5f76cf96aa1ead38be0f0b388f5d21e9dafbb3047c495e5dd"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_1210_3225Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_1210_3225Metric.step",
+    "sha256": "f73399f912d5bdb736d1e834d65517d3bfe017b7e95bfaf2a526961758a8983e"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_1812_4532Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_1812_4532Metric.step",
+    "sha256": "9e8932c5668321b159527fed5f77d0a3674cbe01285447793724992eb1274799"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_2010_5025Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_2010_5025Metric.step",
+    "sha256": "7b293e992fe464c1a525b03b4368672685b145bbf151ce4eebdbe17f802658b4"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_2512_6332Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_2512_6332Metric.step",
+    "sha256": "2edef89f0160d206afbe39f8809797461ce01c600dea45628b488028fa41275b"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+    "sha256": "8bf2ae2bbd9d8b716db21d8d7fb903fac5ba2696150c3ec2e35bcea17b208ff2"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_1008_2520Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_1008_2520Metric.step",
+    "sha256": "668211b41c20173a79370d5022674ffbcde71227caefcb073f67734f4f34ba90"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_1806_4516Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_1806_4516Metric.step",
+    "sha256": "c0fa51a5999136dac429a7935e2a9cf7b34836a5e66eafc84536a5f5881c0b8d"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_01005_0402Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_01005_0402Metric.step",
+    "sha256": "9cb2b98e44455bd4b65e7d5faf34d30312fd93537ecb752375ce98d6320aa7e7"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_0201_0603Metric.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_0201_0603Metric.step",
+    "sha256": "303a886d7d6d526df33deb11f533d5e25b0f1acdadadb70657d7df635d21352e"
+  },
+  {
+    "file": "3dmodels/Inductor_SMD.3dshapes/L_Changjiang_FTC201612S.step",
+    "source": "/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_Changjiang_FTC201612S.step",
+    "sha256": "a228887d369cb228694f9485b1cfb3ef10a014be8ecaec8826133da36b229d49"
+  }
+]

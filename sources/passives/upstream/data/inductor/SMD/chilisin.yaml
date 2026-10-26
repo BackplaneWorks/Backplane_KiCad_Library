@@ -1,0 +1,31 @@
+default_parameters:
+  manufacturer: Chilisin
+  library_name: Inductor_SMD
+
+series_BMRx:
+  default_parameters:
+    datasheet: "https://www.chilisin.com/upload/media/product/power/file/BMRx_Series.pdf"
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - bmrx
+      # mchi was the old series namecode
+      - mchi
+  csv: chilisin_bmrx.csv
+
+series_BWVS:
+  default_parameters:
+    datasheet: "https://www.chilisin.com/upload/media/product/power/file/BWVS_Series.pdf"
+    3d:
+      type: 1
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - bwvs
+  # CSV note: CSV from datasheet:
+  # The CSV columns are: [A, B, C, D, B, H, I, I+J]
+  csv: chilisin_bwvs.csv

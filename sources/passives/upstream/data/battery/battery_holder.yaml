@@ -1,0 +1,154 @@
+BatteryHolder_Bulgin_BX0123_1xCR123:
+  library_name: "Battery"
+  description: "Battery holder, Bulgin BX0123, battery type 1xCR123"
+  datasheet: "https://www.bulgin.com/products/pub/media/import/attachments/Battery_holders.pdf#page=7"
+  tags: "horizontal single"
+  extratexts:
+    - [-4.0, 0.2, "+", "F.SilkS", 3.0, 3.0]
+    - [ 4.0, 0.2, "+", "F.Fab", 3.0, 3.0]
+  at: [-1.75, 10.0]
+  size: [41.3, 20.0]
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.25, 0.25]
+  pins:
+    - ["thtr", "1", 0, 0, 3.0, 3.0, 1.6]
+    - ["tht", "2", 37.8, 0, 3.0, 3.0, 1.6]
+    - ["npth", "", 10.425, 0, 3.2, 0, 3.2]
+    - ["npth", "", 27.375, 0, 3.2, 0, 3.2]
+
+BatteryHolder_Keystone_1042_1x18650:
+  library_name: "Battery"
+  description: "Battery holder, Keystone 1042, battery type 1x18650"
+  datasheet: "http://www.keyelco.com/product.cfm/product_id/918"
+  tags: "horizontal single"
+  extratexts:
+    - [-40.0, 5, "+", "F.SilkS", 2.0, 2.0]
+    - [-35.0, 0.15, "+", "F.Fab",   2.0, 2.0]
+  at: [-38.53, 10.325]
+  size: [77.06, 20.65]
+  smd_tht: "smd"
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.25, 0.25]
+  pins:
+    - ["smd",  "1", -39.69,  0,    7.5,   6.5, 0    ]  # +
+    - ["smd",  "2",  39.69,  0,    7.5,   6.5, 0    ]
+    - ["npth", "",   27.62,  8.00,  3.45, 0,   3.45 ]
+    - ["npth", "",  -27.62, -8.00,  3.45, 0,   3.45 ]
+    - ["npth", "",  -36.13,  8.00,  2.39, 0,   2.39 ]
+
+# This has had drawings added in the library
+# BatteryHolder_Keystone_2466_1xAAA:
+#   library_name: "Battery"
+#   description: "Keystone Battery Holder, 2466, Battery Type 1xAAA"
+#   datasheet: "http://www.keyelco.com/product-pdf.cfm?p=1031"
+#   tags: "Keystone Battery Holder, 2466, Battery Type 1xAAA"
+#   extratexts: [[-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]]
+#   at: [-2.645, 6.50]
+#   size: [49.99, 13.00]
+#   automatic_pin1_mark: False
+#   pins: [["tht", "1", 0, 0, 3.0, 3.0, 1.1], ["tht", "2", 44.70, 0, 3.0, 3.0, 1.1]]
+
+# This has had drawings added in the library
+# BatteryHolder_Keystone_2468_2xAAA:
+#   library_name: "Battery"
+#   description: "Keystone Battery Holder, 2468, Battery Type 2xAAA"
+#   datasheet: "http://www.keyelco.com/product-pdf.cfm?p=1033"
+#   tags: "Keystone Battery Holder, 2468, Battery Type 2xAAA"
+#   extratexts: [[-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]]
+#   at: [-2.865, 5.945]
+#   size: [52.98, 24.59]
+#   automatic_pin1_mark: False
+#   pins: [["tht", "1", 0, 0, 3.0, 3.0, 1.1], ["tht", "2", 0, -12.70, 3.0, 3.0, 1.1], ["npth", "", 8.64, -4, 3.45, 0, 3.45], ["npth", "", 38.61, -8, 3.45, 0, 3.45]]
+
+BatteryHolder_Keystone_2479_3xAAA:
+  library_name: "Battery"
+  description: "Battery holder, Keystone 2479, battery type 3xAAA"
+  datasheet: "http://www.keyelco.com/product-pdf.cfm?p=1041"
+  tags: "horizontal triple"
+  extratexts: [[-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]]
+  at: [-2.59, 6.75]
+  size: [52.50, 37.50]
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.25, 0.25]
+  pins:
+    - ["thtr", "1", 0, 0, 3.0, 3.0, 1.1]
+    - ["tht", "2", 0, -12.70, 3.0, 3.0, 1.1]
+    - ["npth", "", 23.72, 0, 3.45, 0, 3.45]
+    - ["npth", "", 23.72, -24.00, 3.45, 0, 3.45]
+
+# This has had drawings added in the library
+# BatteryHolder_MPD_BC2AAPC_2xAA:
+#   library_name: "Battery"
+#   description: "Keystone Battery Holder, BC2AAPC, Battery Type 2xAA"
+#   datasheet: "http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf"
+#   tags: "MPD Battery Holder, BC2AAPC, Battery Type 2xAA"
+#   extratexts: [[-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]]
+#   at: [-2.84, 8.445]
+#   size: [58.00, 30.50]
+#   automatic_pin1_mark: False
+#   pins: [["tht", "1", 0, 0, 3.0, 3.0, 1.1], ["tht", "2", 0, -13.59, 3.0, 3.0, 1.1], ["npth", "", 26.16, -6.63, 3.56, 0, 3.56]]
+
+# This has had drawings added in the library
+# BatteryHolder_MPD_BC12AAPC_2xAA:
+#   library_name: "Battery"
+#   description: "Keystone Battery Holder, BC12AAPC, Battery Type 2xAA"
+#   datasheet: "http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf"
+#   tags: "MPD Battery Holder, BC12AAPC, Battery Type 2xAA"
+#   extratexts: [[-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]]
+#   at: [-2.9, 8.1]
+#   size: [107.8, 16.20]
+#   automatic_pin1_mark: False
+#   pins: [["tht", "1", 0, 0, 3.0, 3.0, 1.1], ["tht", "2", 102.0, 0, 3.0, 3.0, 1.1],  ["npth", "", 26.15, 4.75, 2.5, 0, 1.1], ["npth", "", 26.15, -4.75, 2.5, 0, 1.1], ["npth", "", 75.85, 4.75, 2.5, 0, 1.1], ["npth", "", 75.85, -4.75, 2.5, 0, 1.1]]
+
+BatteryHolder_MPD_BH-18650-PC:
+  library_name: "Battery"
+  description: "Battery holder, MPD BH-18650, battery type 1x18650"
+  datasheet: "https://www.batteryholders.com/uploads/parts/BH-18650-PC/datasheets/BH-18650-PC-datasheet.pdf"
+  tags: "horizontal single"
+  extratexts:
+    - [-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]
+    - [ 4.0, 0.2, "+", "F.Fab", 3.0, 3.0]
+  at: [-2.4, 10.45]
+  size: [77.7, 20.9]
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.5, 0.5]
+  pins:
+    - ["thtr", "1", 0, 0,  3.0, 3.0, 1.57]
+    - ["tht", "2", 72.90, 0,  3.0, 3.0, 1.57]
+    - ["npth", "", 8.445, 0.0, 3.2, 0, 3.2]
+    - ["npth", "", 64.055, 0.0, 3.2, 0, 3.2]
+
+BatteryHolder_MPD_BK-18650-PC2:
+  library_name: "Battery"
+  description: "Battery holder, MPD BK-18650, battery type 1x18650"
+  datasheet: "https://www.batteryholders.com/uploads/parts/BK-18650-PC2/datasheets/BK-18650-PC2-datasheet.pdf"
+  tags: "horizontal single"
+  extratexts:
+    - [-4.5, -0.05, "+", "F.SilkS", 3.0, 3.0]
+    - [ 4.0, 0.2, "+", "F.Fab", 3.0, 3.0]
+  at: [-2.23, 10.49]
+  size: [76.96, 20.98]
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.5, 0.5]
+  pins:
+    - ["thtr", "1", 0, 0, 3.0, 3.0, 1.57]
+    - ["tht", "2", 72.90, 0, 3.0, 3.0, 1.57]
+    - ["npth", "", 8.445, 0.0, 3.2, 0, 3.2]
+    - ["npth", "", 64.055, 0.0, 3.2, 0, 3.2]
+
+BatteryHolder_TruPower_BH-331P_3xAA:
+  library_name: "Battery"
+  description: "Battery holder, TruPower BH-331P, battery type 3xAA"
+  datasheet: "https://static.rapidonline.com/pdf/18-2967_v1.pdf"
+  tags: "horizontal triple"
+  extratexts:
+    - [-4.5, 0.0, "+", "F.SilkS", 3.0, 3.0]
+  at: [-2.3, 9.15]
+  size: [58.0, 48.3]
+  automatic_pin1_mark: False
+  body_size_tolerance: [0.5, 0.5]
+  pins:
+    - ["thtr", "1", 0, 0, 3.0, 3.0, 1.2]
+    - ["tht", "2", 0, -12.8, 3.0, 3.0, 1.2]
+    - ["npth", "", 26.7, 0.0, 4.0, 0, 4.0]
+    - ["npth", "", 26.7, -30.0, 4.0, 0, 4.0]

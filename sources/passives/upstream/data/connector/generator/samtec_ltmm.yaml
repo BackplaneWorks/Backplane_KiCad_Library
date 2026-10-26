@@ -1,0 +1,67 @@
+defaults:
+  library: 'Samtec_LTMM'
+  pad_pitch: 2.0
+  first_pin:
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      offset: 0.975     # offset from the body edge (default: size)
+      fab: False         # drawn separately below
+  clean_silk: True
+  description: 'Samtec LTMM Shrouded Terminal Strip, 2.00 mm Pitch, Double Row, {options}'
+  fp_name: 'Samtec_LTMM-1{num_pos:02d}-02-X-D{fp_option}'
+
+LTMM-1XX-02-X-D-SM:
+  inherit: 'defaults'
+  first_pin:
+    position: 'bottom'
+  tags: 'conn samtec terminal strip pin header'
+  pads:
+    size: [1.02, 3.39]
+  row_pitch: 4.66
+  options: 'Surface Mount'
+  fp_option: '-SM'
+  fp_suffix: '_Header_Vertical'
+  source: 'https://suddendocs.samtec.com/prints/ltmm-1xx-xx-xx-d-xx-xx-footprint.pdf#page=3'
+  positions: [4, 5, 6, 7, 8, 10, 12, 13, 15, 17, 20, 22, 25]
+  body_size:
+    x_offset: 2.1915
+    y: 6.03
+  body_shape:
+    top:
+      polyline: [ [l, t - 0.51], [l + 0.889, t - 0.51], [l + 0.889, t], [-1.25, t], [-1.25, t - 0.51],
+                  [1.25, t - 0.51], [1.25, t], [r - 0.889, t], [r - 0.889, t - 0.51], [r, t - 0.51] ]
+  additional_drawings:
+    cavity:
+      type: poly
+      layer: F.Fab
+      points:
+        - [-1.78, b]
+        - [-1.78, b - 0.762]
+        - [l + 1.3025, b - 0.762]
+        - [l + 1.3025, t + 0.762]
+        - [r - 1.3025, t + 0.762]
+        - [r - 1.3025, b - 0.762]
+        - [1.78, b - 0.762]
+        - [1.78, b]
+    marker:
+      type: poly
+      layer: F.Fab
+      points:
+        - [pl - 0.381, b]
+        - [pl, b - 0.762]
+        - [pl + 0.381, b]
+
+
+LTMM-1XX-02-X-D-SM-LC:
+  inherit: 'LTMM-1XX-02-X-D-SM'
+  fp_option: '-SM-LC'
+  fp_suffix: '_Header_Vertical_LockingClip'
+  options: 'Surface Mount, Locking Clips'
+  mount_pads:
+    lock: # NPTH alignment pin right:
+      center:
+        x_offset: 1.76   # offset from edge-pad center
+        y: 0.0
+      drill: 1.19    # null (default) or diameter
+      paste: False    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]

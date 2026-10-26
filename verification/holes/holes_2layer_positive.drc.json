@@ -1,0 +1,291 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T17:08:49",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "holes_2layer_positive.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea9cae78-cf6b-5fcf-be60-0f2c1ff5351e"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 46.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fc684f76-0030-58e5-80ac-075001dccce9"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea9cae78-cf6b-5fcf-be60-0f2c1ff5351e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.4,
+                        "y": 98.4
+                    },
+                    "uuid": "d209261b-54d3-554e-996c-366172e54b79"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 66.0
+                    },
+                    "uuid": "49702cce-3185-5e50-8ec7-2fed192a2c20"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 66.0
+                    },
+                    "uuid": "49702cce-3185-5e50-8ec7-2fed192a2c20"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 72.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 46.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 66.0
+                    },
+                    "uuid": "49702cce-3185-5e50-8ec7-2fed192a2c20"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.4,
+                        "y": 46.4
+                    },
+                    "uuid": "c0ff704b-a00e-5d11-9340-114aba113d02"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 14.0
+                    },
+                    "uuid": "312370f0-bea4-5e5d-b1db-151cd13e216a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 92.0
+                    },
+                    "uuid": "0da22ba5-a482-53bc-9365-000d71e044a9"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 72.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 38.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 12.0
+                    },
+                    "uuid": "3f11207d-5f12-5e01-b9b7-0428f5ec4aab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 66.0
+                    },
+                    "uuid": "b7382e9b-3461-5bd3-93d5-93e2e37d0096"
+                },
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 46.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "cc7b9273-88c4-53bc-9597-39db204b98a6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 46.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                },
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 20.4
+                    },
+                    "uuid": "5adb02fd-ae9d-544f-a2a1-050e610c0539"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

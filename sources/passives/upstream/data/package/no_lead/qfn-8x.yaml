@@ -1,0 +1,92 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+# QFN - Quad Flat No-lead
+#
+# Some standards:
+# - JEDEC MO-220, MO-248
+# - JEITA ED-7311-22, ED-7324
+
+default_parameters:
+  library: Package_DFN_QFN
+
+QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm:
+  size_source: "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
+  device_type: "QFN"
+  ipc_class: "qfn"
+  body_size_x:
+    nominal: 10
+    tolerance: 0
+  body_size_y:
+    nominal: 10
+    tolerance: 0
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 0.9
+  num_pins_x: 20
+  num_pins_y: 20
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    nominal: 0.20
+    maximum: 0.25
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 3.35
+    nominal: 3.40
+    maximum: 3.45
+  EP_size_y:
+    minimum: 3.35
+    nominal: 3.40
+    maximum: 3.45
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    EP_num_paste_pads: [5, 5]
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-88-1EP_10x10mm_P0.4mm_EP6.74x6.74mm:
+  size_source: 'https://artinchip.com/upload/files/product/20240112/17050529177725663.pdf/#page=43'
+  device_type: 'QFN'
+  manufacturer: 'ArtInChip'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 10
+    tolerance: 0.1
+  body_size_y:
+    nominal: 10
+    tolerance: 0.1
+  overall_height:
+    minimum: 0.85
+    nominal: 0.9
+    maximum: 0.95
+  num_pins_x: 22
+  num_pins_y: 22
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    nominal: 0.20
+    maximum: 0.25
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 6.64
+    nominal: 6.74
+    maximum: 6.84
+  EP_size_y:
+    minimum: 6.64
+    nominal: 6.74
+    maximum: 6.84
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1

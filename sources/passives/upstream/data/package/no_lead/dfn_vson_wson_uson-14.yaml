@@ -1,0 +1,165 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Package_SON
+
+##############################################################################
+# Pitch 0.4 mm
+##############################################################################
+
+TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://pdfserv.maximintegrated.com/package_dwgs/21-0137.PDF (T1433-2C)'
+  device_type: 'TDFN'
+  suffix: ''
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 2.9 .. 3.0 .. 3.1
+  overall_height: 0.7 .. 0.75 .. 0.8
+  num_pins_x: 0
+  num_pins_y: 7
+  pitch: 0.4
+  lead_width: 0.2 +/-0.05
+  lead_len: 0.2 .. 0.3 .. 0.4
+  EP_size_x: 1.7 +/- 0.1
+  EP_size_y: 2.3 +/-0.1
+  EP_size_x_overwrite: 1.78
+  EP_size_y_overwrite: 2.35
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+##############################################################################
+# Pitch 0.5 mm
+##############################################################################
+
+Texas_R-PUSON-N14:
+# body size of 1.35x3.5, pitch 0.5
+  size_source: 'https://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf#page=28'
+  custom_name_format: 'Texas_R-PUSON-N14'
+  device_type: 'USON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 1.25
+    maximum: 1.45
+  body_size_y:
+    minimum: 3.4
+    maximum: 3.6
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height: 0.45 .. 0.55
+  num_pins_x: 0
+  num_pins_y: 7
+  pitch: 0.5
+  lead_shape: rounded
+  lead_width:
+    minimum: 0.15
+    maximum: 0.25
+  lead_len:
+    minimum: 0.25
+    maximum: 0.35
+  lead_height:
+    nominal: 0.1
+  EP_chamfer: 0.01
+
+DFN-14_1.35x3.5mm_P0.5mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://m.littelfuse.com/media?resourcetype=datasheets&itemid=9fbe09c9-efee-4022-a889-ca0005cd9b07&filename=littelfuse-tvs-diode-array-sp3012-datasheet#page=5'
+  device_type: 'DFN'
+  body_size_x:
+    minimum: 1.25
+    nominal: 1.35
+    maximum: 1.45
+  body_size_y:
+    minimum: 3.4
+    nominal: 3.5
+    maximum: 3.6
+  overall_height:
+    minimum: 0.45
+    nominal: 0.5
+    maximum: 0.55
+  num_pins_x: 0
+  num_pins_y: 7
+  pitch: 0.5
+  lead_width:
+    minimum: 0.15
+    nominal: 0.2
+    maximum: 0.25
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+
+OnSemi_DFN-14-1EP_4x4mm_P0.5mm_EP2.7x3.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+  size_source: 'https://www.onsemi.com/pub/Collateral/506CM.PDF'
+  device_type: 'DFN'
+  manufacturer: 'OnSemi'
+  body_size_x:
+    nominal: 4.0
+  body_size_y:
+    nominal: 4.0
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    minimum: 0.8
+    maximum: 1.0
+  num_pins_x: 0
+  num_pins_y: 7
+  pitch: 0.5
+  lead_shape: rounded
+  lead_width:
+    minimum: 0.18
+    maximum: 0.30
+  lead_len:
+    minimum: 0.3
+    maximum: 0.4
+  lead_height:
+    nominal: 0.2
+  EP_size_x: 2.60 .. 2.80
+  EP_size_y: 3.30 .. 3.50
+  EP_chamfer: 0.35
+  EP_num_paste_pads: [3, 3]
+
+##############################################################################
+# Pitch 0.65 mm
+##############################################################################
+
+VSON-14-1EP_3x4.5mm_P0.65mm_EP1.6x4.2mm:
+# VSON-14-1EP_3x4.45mm_P0.65mm_EP1.6x4.2mm
+  size_source: 'https://www.ti.com/lit/ds/symlink/lp8868x-q1.pdf#page=45'
+  device_type: 'VSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 4.4
+    maximum: 4.5
+  overall_height:
+    minimum: 0.8
+    maximum: 1.0
+  num_pins_x: 0
+  num_pins_y: 7
+  pitch: 0.65
+  lead_width:
+    minimum: 0.25
+    maximum: 0.35
+  lead_len:
+    minimum: 0.35
+    maximum: 0.45
+  EP_size_x:
+    minimum: 1.5
+    maximum: 1.7
+  EP_size_y:
+    minimum: 4.1
+    maximum: 4.3
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [2, 3]
+    grid: [0.75, 1.5]
+    drill: 0.2
+    paste_between_vias: [1, 1]
+    paste_rings_outside: [1, 1]

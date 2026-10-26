@@ -1,0 +1,255 @@
+[
+  {
+    "argv": [
+      "fp",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/libraries/Backplane_Shoggoth.pretty"
+    ],
+    "code": 0,
+    "stdout": "Plotting footprint 'Shoggoth_Badge_25mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_25mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_25mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Badge_35mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_35mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_35mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Badge_50mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_50mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Badge_50mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_25mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_25mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_25mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_35mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_35mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_35mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_50mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_50mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/footprint-load/Shoggoth_Mascot_50mm.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "fp",
+      "upgrade",
+      "--force",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip.pretty",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/libraries/Backplane_Shoggoth.pretty"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "fp",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip.pretty"
+    ],
+    "code": 0,
+    "stdout": "Plotting footprint 'Shoggoth_Badge_25mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_25mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_25mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Badge_35mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_35mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_35mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Badge_50mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_50mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Badge_50mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_25mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_25mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_25mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_35mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_35mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_35mm.svg'.\nDone.\nPlotting footprint 'Shoggoth_Mascot_50mm' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_50mm.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/roundtrip-load/Shoggoth_Mascot_50mm.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_25mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_25mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_25mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_25mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_25mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_35mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_35mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_35mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_35mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_35mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_50mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_50mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_50mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Badge_50mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Badge_50mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_25mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_25mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_25mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_25mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_25mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_35mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_35mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_35mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_35mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_35mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_50mm-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_50mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_50mm-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,F.Paste",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/Shoggoth_Mascot_50mm.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/shoggoth/layers/Shoggoth_Mascot_50mm-F_Paste.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]

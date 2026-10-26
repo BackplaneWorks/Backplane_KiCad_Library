@@ -1,0 +1,470 @@
+[
+  {
+    "id": "center-F.Cu-track",
+    "kind": "track",
+    "variant": "center",
+    "layer": "F.Cu",
+    "center": [
+      20,
+      20
+    ],
+    "probe_uuid": "fc684f76-0030-58e5-80ac-075001dccce9",
+    "expected": null
+  },
+  {
+    "id": "center-F.Cu-pad",
+    "kind": "pad",
+    "variant": "center",
+    "layer": "F.Cu",
+    "center": [
+      46,
+      20
+    ],
+    "probe_uuid": "9bd78c0c-de4c-5611-9415-c0ac20825a6f",
+    "expected": null
+  },
+  {
+    "id": "center-F.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "F.Cu",
+    "center": [
+      72,
+      20
+    ],
+    "zone_uuid": "3f11207d-5f12-5e01-b9b7-0428f5ec4aab"
+  },
+  {
+    "id": "center-F.Cu-via",
+    "kind": "via",
+    "variant": "center",
+    "layer": "F.Cu",
+    "center": [
+      98,
+      20
+    ],
+    "probe_uuid": "fac5fd5d-fe4c-5add-85ae-0716402a00e8",
+    "expected": null
+  },
+  {
+    "id": "center-In1.Cu-track",
+    "kind": "track",
+    "variant": "center",
+    "layer": "In1.Cu",
+    "center": [
+      124,
+      20
+    ],
+    "probe_uuid": "1167f4f2-e7a7-5ef6-9e53-826294eb1908",
+    "expected": null
+  },
+  {
+    "id": "center-In1.Cu-pad",
+    "kind": "pad",
+    "variant": "center",
+    "layer": "In1.Cu",
+    "center": [
+      150,
+      20
+    ],
+    "probe_uuid": "723ee8bb-b798-5a3f-aebf-efd020f58272",
+    "expected": null
+  },
+  {
+    "id": "center-In1.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "In1.Cu",
+    "center": [
+      20,
+      46
+    ],
+    "zone_uuid": "afebaaf0-6928-5f03-9902-76a074a3b00c"
+  },
+  {
+    "id": "center-In2.Cu-track",
+    "kind": "track",
+    "variant": "center",
+    "layer": "In2.Cu",
+    "center": [
+      46,
+      46
+    ],
+    "probe_uuid": "b005d5ad-96b3-55d5-8fb9-4c9b989e8f31",
+    "expected": null
+  },
+  {
+    "id": "center-In2.Cu-pad",
+    "kind": "pad",
+    "variant": "center",
+    "layer": "In2.Cu",
+    "center": [
+      72,
+      46
+    ],
+    "probe_uuid": "79eb14b1-128a-59f9-b539-97d86dc1ae2b",
+    "expected": null
+  },
+  {
+    "id": "center-In2.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "In2.Cu",
+    "center": [
+      98,
+      46
+    ],
+    "zone_uuid": "2d067899-9cb4-5a8d-8e72-05b7c8fcd356"
+  },
+  {
+    "id": "center-B.Cu-track",
+    "kind": "track",
+    "variant": "center",
+    "layer": "B.Cu",
+    "center": [
+      124,
+      46
+    ],
+    "probe_uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55",
+    "expected": null
+  },
+  {
+    "id": "center-B.Cu-pad",
+    "kind": "pad",
+    "variant": "center",
+    "layer": "B.Cu",
+    "center": [
+      150,
+      46
+    ],
+    "probe_uuid": "4e6b5904-5c6e-5df0-aa73-880da5368271",
+    "expected": null
+  },
+  {
+    "id": "center-B.Cu-zone",
+    "kind": "zone",
+    "variant": "center",
+    "layer": "B.Cu",
+    "center": [
+      20,
+      72
+    ],
+    "zone_uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+  },
+  {
+    "id": "edge-F.Cu-track",
+    "kind": "track",
+    "variant": "edge",
+    "layer": "F.Cu",
+    "center": [
+      46,
+      72
+    ],
+    "probe_uuid": "333b53f8-49ee-58a9-937f-2afd913eb474",
+    "expected": null
+  },
+  {
+    "id": "edge-F.Cu-pad",
+    "kind": "pad",
+    "variant": "edge",
+    "layer": "F.Cu",
+    "center": [
+      72,
+      72
+    ],
+    "probe_uuid": "52057864-1e97-5010-a6c3-a74caeaf2c5b",
+    "expected": null
+  },
+  {
+    "id": "edge-F.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "F.Cu",
+    "center": [
+      98,
+      72
+    ],
+    "zone_uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+  },
+  {
+    "id": "edge-F.Cu-via",
+    "kind": "via",
+    "variant": "edge",
+    "layer": "F.Cu",
+    "center": [
+      124,
+      72
+    ],
+    "probe_uuid": "03f1cb6e-52d0-5cf1-8eb4-1524c93dfa44",
+    "expected": null
+  },
+  {
+    "id": "edge-In1.Cu-track",
+    "kind": "track",
+    "variant": "edge",
+    "layer": "In1.Cu",
+    "center": [
+      150,
+      72
+    ],
+    "probe_uuid": "52eb9c4a-55d8-55cc-af21-d049c36460d9",
+    "expected": null
+  },
+  {
+    "id": "edge-In1.Cu-pad",
+    "kind": "pad",
+    "variant": "edge",
+    "layer": "In1.Cu",
+    "center": [
+      20,
+      98
+    ],
+    "probe_uuid": "72857e3a-24b5-5f7b-931f-a9aaf2730697",
+    "expected": null
+  },
+  {
+    "id": "edge-In1.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "In1.Cu",
+    "center": [
+      46,
+      98
+    ],
+    "zone_uuid": "fb9d95ce-77c8-5049-b061-9fbd89912f5c"
+  },
+  {
+    "id": "edge-In2.Cu-track",
+    "kind": "track",
+    "variant": "edge",
+    "layer": "In2.Cu",
+    "center": [
+      72,
+      98
+    ],
+    "probe_uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b",
+    "expected": null
+  },
+  {
+    "id": "edge-In2.Cu-pad",
+    "kind": "pad",
+    "variant": "edge",
+    "layer": "In2.Cu",
+    "center": [
+      98,
+      98
+    ],
+    "probe_uuid": "37b9e3e0-c781-5de9-a280-2e869bb85aca",
+    "expected": null
+  },
+  {
+    "id": "edge-In2.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "In2.Cu",
+    "center": [
+      124,
+      98
+    ],
+    "zone_uuid": "27607e41-34c3-5f51-b4fa-207931fda324"
+  },
+  {
+    "id": "edge-B.Cu-track",
+    "kind": "track",
+    "variant": "edge",
+    "layer": "B.Cu",
+    "center": [
+      150,
+      98
+    ],
+    "probe_uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735",
+    "expected": null
+  },
+  {
+    "id": "edge-B.Cu-pad",
+    "kind": "pad",
+    "variant": "edge",
+    "layer": "B.Cu",
+    "center": [
+      20,
+      124
+    ],
+    "probe_uuid": "cbc53040-d29c-5926-ae6d-b30c1a5eca61",
+    "expected": null
+  },
+  {
+    "id": "edge-B.Cu-zone",
+    "kind": "zone",
+    "variant": "edge",
+    "layer": "B.Cu",
+    "center": [
+      46,
+      124
+    ],
+    "zone_uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+  },
+  {
+    "id": "corner-F.Cu-track",
+    "kind": "track",
+    "variant": "corner",
+    "layer": "F.Cu",
+    "center": [
+      72,
+      124
+    ],
+    "probe_uuid": "62aa35b4-975d-563c-b8cb-f2612e921657",
+    "expected": null
+  },
+  {
+    "id": "corner-F.Cu-pad",
+    "kind": "pad",
+    "variant": "corner",
+    "layer": "F.Cu",
+    "center": [
+      98,
+      124
+    ],
+    "probe_uuid": "4dbf4d43-f588-5e69-9467-0cb5913e517c",
+    "expected": null
+  },
+  {
+    "id": "corner-F.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "F.Cu",
+    "center": [
+      124,
+      124
+    ],
+    "zone_uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+  },
+  {
+    "id": "corner-F.Cu-via",
+    "kind": "via",
+    "variant": "corner",
+    "layer": "F.Cu",
+    "center": [
+      150,
+      124
+    ],
+    "probe_uuid": "09c13c1d-1249-5f33-b6d1-fb20dac71e7b",
+    "expected": null
+  },
+  {
+    "id": "corner-In1.Cu-track",
+    "kind": "track",
+    "variant": "corner",
+    "layer": "In1.Cu",
+    "center": [
+      20,
+      150
+    ],
+    "probe_uuid": "aa3fc80f-971f-5be9-b8e2-9e2271fc9354",
+    "expected": null
+  },
+  {
+    "id": "corner-In1.Cu-pad",
+    "kind": "pad",
+    "variant": "corner",
+    "layer": "In1.Cu",
+    "center": [
+      46,
+      150
+    ],
+    "probe_uuid": "521fab97-fbbd-50e2-a7ef-bc7592896d3b",
+    "expected": null
+  },
+  {
+    "id": "corner-In1.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "In1.Cu",
+    "center": [
+      72,
+      150
+    ],
+    "zone_uuid": "31639cdf-1014-5425-9595-8349d17b025a"
+  },
+  {
+    "id": "corner-In2.Cu-track",
+    "kind": "track",
+    "variant": "corner",
+    "layer": "In2.Cu",
+    "center": [
+      98,
+      150
+    ],
+    "probe_uuid": "f8db01cc-8572-5c7d-b2da-b0b4f5a4bd5a",
+    "expected": null
+  },
+  {
+    "id": "corner-In2.Cu-pad",
+    "kind": "pad",
+    "variant": "corner",
+    "layer": "In2.Cu",
+    "center": [
+      124,
+      150
+    ],
+    "probe_uuid": "55d21899-ff12-5f3f-93e3-18a28f86c7d6",
+    "expected": null
+  },
+  {
+    "id": "corner-In2.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "In2.Cu",
+    "center": [
+      150,
+      150
+    ],
+    "zone_uuid": "4bc15583-09b8-58fc-a9e5-c4de23777396"
+  },
+  {
+    "id": "corner-B.Cu-track",
+    "kind": "track",
+    "variant": "corner",
+    "layer": "B.Cu",
+    "center": [
+      20,
+      176
+    ],
+    "probe_uuid": "24b75d5e-91db-5882-80d5-28f80d937783",
+    "expected": null
+  },
+  {
+    "id": "corner-B.Cu-pad",
+    "kind": "pad",
+    "variant": "corner",
+    "layer": "B.Cu",
+    "center": [
+      46,
+      176
+    ],
+    "probe_uuid": "af05ebaa-c2e9-52cc-8d5f-db5e05c4df04",
+    "expected": null
+  },
+  {
+    "id": "corner-B.Cu-zone",
+    "kind": "zone",
+    "variant": "corner",
+    "layer": "B.Cu",
+    "center": [
+      72,
+      176
+    ],
+    "zone_uuid": "ac3281c7-f881-5385-bff0-ae6d01dd847d"
+  },
+  {
+    "id": "silk-F.SilkS",
+    "kind": "silk",
+    "probe_uuid": "e800aa16-5fa8-5eed-bfdc-b09c9e8be734",
+    "expected": null
+  },
+  {
+    "id": "silk-B.SilkS",
+    "kind": "silk",
+    "probe_uuid": "f40d7364-c53d-5c71-a88e-ab93ef56c16f",
+    "expected": null
+  }
+]

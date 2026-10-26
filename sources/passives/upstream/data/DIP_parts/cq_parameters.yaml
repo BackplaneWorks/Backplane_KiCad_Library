@@ -1,0 +1,495 @@
+default_parameters:
+  pin_range_min: 0
+  pin_range_max: 15
+
+DIP-4:
+  pin_rows_distance: 7.62  # distance between pin rows
+  num_pins: 4  # number of pins
+  type: THT  # THT and/or SMD
+  body_color_key: 'black body'  # body color
+  mark_color_key: 'white body'  # mark color
+  button_color_key: 'white body'  # button color
+  pin_color_key: 'metal grey pins'  # pin color
+  destination_dir: 'Button_Switch_THT.3dshapes'  # destination directory
+  include_in_qa:
+    pin_range_max: 2
+
+DIP-4_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 4
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-6:
+  pin_rows_distance: 7.62
+  num_pins: 6
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-6_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 6
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-8:
+  pin_rows_distance: 7.62
+  num_pins: 8
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-8_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 8
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-10:
+  pin_rows_distance: 7.62
+  num_pins: 10
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-12:
+  pin_rows_distance: 7.62
+  num_pins: 12
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-14:
+  pin_rows_distance: 7.62
+  num_pins: 14
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-16:
+  pin_rows_distance: 7.62
+  num_pins: 16
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-18:
+  pin_rows_distance: 7.62
+  num_pins: 18
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-20:
+  pin_rows_distance: 7.62
+  num_pins: 20
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-22_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 22
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-22:
+  pin_rows_distance: 10.16
+  num_pins: 22
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 24
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24:
+  pin_rows_distance: 10.16
+  num_pins: 24
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24_Wide:
+  pin_rows_distance: 15.24
+  num_pins: 24
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-28_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 28
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-28:
+  pin_rows_distance: 15.24
+  num_pins: 28
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-32_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 32
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-32:
+  pin_rows_distance: 15.24
+  num_pins: 32
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-40:
+  pin_rows_distance: 15.24
+  num_pins: 40
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-48:
+  pin_rows_distance: 15.24
+  num_pins: 48
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-64:
+  pin_rows_distance: 15.24
+  num_pins: 64
+  type: THT
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-2_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 2
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-4_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 4
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-4_SMD_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 4
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-6_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 6
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-6_SMD_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 6
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-8_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 8
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-8_SMD_Wide:
+  pin_rows_distance: 10.16
+  num_pins: 8
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-10_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 10
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-12_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 12
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-14_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 14
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-16_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 16
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-18_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 18
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-20_SMD:
+  pin_rows_distance: 7.62
+  num_pins: 20
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-22_SMD_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 22
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-22_SMD:
+  pin_rows_distance: 10.16
+  num_pins: 22
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24_SMD_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 24
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24_SMD:
+  pin_rows_distance: 10.16
+  num_pins: 24
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-24_SMD_Wide:
+  pin_rows_distance: 15.24
+  num_pins: 24
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-28_SMD_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 28
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-28_SMD:
+  pin_rows_distance: 15.24
+  num_pins: 28
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-32_SMD_Narrow:
+  pin_rows_distance: 7.62
+  num_pins: 32
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-32_SMD:
+  pin_rows_distance: 15.24
+  num_pins: 32
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-40_SMD:
+  pin_rows_distance: 15.24
+  num_pins: 40
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-48_SMD:
+  pin_rows_distance: 15.24
+  num_pins: 48
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'
+
+DIP-64_SMD:
+  pin_rows_distance: 15.24
+  num_pins: 64
+  type: SMD
+  body_color_key: 'black body'
+  mark_color_key: 'white body'
+  button_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Button_Switch_THT.3dshapes'

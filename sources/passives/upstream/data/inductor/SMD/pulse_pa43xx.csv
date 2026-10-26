@@ -1,0 +1,4 @@
+PartNumber,widthX,lengthY,height,padY,padX,landingY,landingX,landingInsideX,datasheet
+PA4334,3.2,3.2,1.2,2.5 ,0.75,2.7,0.8,1.5,https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pa4334.222nlt
+PA4332,4.2,4.2,2.0,3.1,0.95,3.7,1.1,1.9,https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pa4332.222nlt
+PA4340,6.0,5.4,3.0,1.5,1.1,1.8,2.0,2.5,https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PA4340.183NLT

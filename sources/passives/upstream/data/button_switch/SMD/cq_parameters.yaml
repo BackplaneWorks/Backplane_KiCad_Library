@@ -1,0 +1,770 @@
+SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin:
+  L: 5.08  # package length
+  W: 2.54  # package width
+  H: 2.5  # package height
+  pitch: 0.0  # pin pitch
+  paddist: 2.54  # paddist pitch
+  PH: 0.5  # pin height above package height
+  A1: 0.1  # package board seperation
+  npins: 2  # number of pins
+  model_name: SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin  # model name
+  rotation: 0  # rotation if required
+  type: smd  # THT and/or SMD
+  corner: chamfer  # Chamfer or corner
+  pinshape: 0  # If pin is L shape
+  padsw: 0.76  # pad height
+  padsh: 0.1  # pad width
+  body_color_key: blue body  # Body colour
+  pig_color_key: white body  # Pig colour
+  pin_color_key: metal grey pins  # Pin colour
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+  include_in_qa: True
+
+SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm:
+  L: 5.0
+  W: 2.54
+  H: 2.5
+  pitch: 0.0
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.76
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile:
+  L: 5.0
+  W: 4.1
+  H: 1.5
+  pitch: 0.0
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.12
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_EVQPE1:
+  L: 5.0
+  W: 3.5
+  H: 1.5
+  pitch: 0.0
+  paddist: 0.0
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_EVQPE1
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_REED_CT05-XXXX-G1:
+  L: 6.4
+  W: 3.5
+  H: 2.3
+  pitch: 0.0
+  paddist: 4.28
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_REED_CT05-XXXX-G1
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.5
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_REED_CT05-XXXX-J1:
+  L: 6.4
+  W: 3.5
+  H: 2.3
+  pitch: 0.0
+  paddist: 6.4
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_REED_CT05-XXXX-J1
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 1.25
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_REED_CT10-XXXX-G1:
+  L: 11.6
+  W: 2.4
+  H: 2.3
+  pitch: 0.0
+  paddist: 7.56
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_REED_CT10-XXXX-G1
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.5
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_REED_CT10-XXXX-G2:
+  L: 11.6
+  W: 2.4
+  H: 2.3
+  pitch: 0.0
+  paddist: 9.21
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_REED_CT10-XXXX-G2
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.5
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_SPST_REED_CT10-XXXX-G4:
+  L: 11.6
+  W: 2.4
+  H: 2.3
+  pitch: 0.0
+  paddist: 9.22
+  PH: 0.5
+  A1: 0.1
+  npins: 2
+  model_name: SW_SPST_REED_CT10-XXXX-G4
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.5
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin:
+  L: 5.4
+  W: 3.81
+  H: 2.5
+  pitch: 1.27
+  paddist: 5.4
+  PH: 0.5
+  A1: 0.1
+  npins: 4
+  model_name: SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 0.76
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm:
+  L: 4.5
+  W: 3.81
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.075
+  PH: 0.5
+  A1: 0.1
+  npins: 4
+  model_name: SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.76
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm:
+  L: 5.4
+  W: 3.81
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 4
+  model_name: SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 6.64
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 4
+  model_name: SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 9.18
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 6
+  model_name: SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin:
+  L: 5.4
+  W: 6.35
+  H: 2.5
+  pitch: 1.27
+  paddist: 5.4
+  PH: 0.5
+  A1: 0.1
+  npins: 8
+  model_name: SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx04_Slide_Omron_A6H-4101_W6.15mm_P1.27mm:
+  L: 4.5
+  W: 6.35
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.075
+  PH: 0.5
+  A1: 0.1
+  npins: 8
+  model_name: SW_DIP_SPSTx04_Slide_Omron_A6H-4101_W6.15mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm:
+  L: 5.4
+  W: 6.35
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 8
+  model_name: SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 11.72
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 8
+  model_name: SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx05_Slide_6.7x14.26mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 14.26
+  H: 2.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 10
+  model_name: SW_DIP_SPSTx05_Slide_6.7x14.26mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin:
+  L: 5.4
+  W: 8.89
+  H: 2.5
+  pitch: 1.27
+  paddist: 5.4
+  PH: 0.5
+  A1: 0.1
+  npins: 12
+  model_name: SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm:
+  L: 4.5
+  W: 8.89
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.075
+  PH: 0.5
+  A1: 0.1
+  npins: 12
+  model_name: SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx06_Slide_Copal_CHS-06B_W7.62mm_P1.27mm:
+  L: 5.4
+  W: 8.89
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 12
+  model_name: SW_DIP_SPSTx06_Slide_Copal_CHS-06B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx06_Slide_6.7x16.8mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 16.8
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 12
+  model_name: SW_DIP_SPSTx06_Slide_6.7x16.8mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx07_Slide_6.7x19.34mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 19.34
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 14
+  model_name: SW_DIP_SPSTx07_Slide_6.7x19.34mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx08_Slide_Copal_CHS-08A_W5.08mm_P1.27mm_JPin:
+  L: 5.3
+  W: 11.43
+  H: 2.5
+  pitch: 1.27
+  paddist: 6.68
+  PH: 0.5
+  A1: 0.1
+  npins: 16
+  model_name: SW_DIP_SPSTx08_Slide_Copal_CHS-08A_W5.08mm_P1.27mm_JPin
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx08_Slide_Omron_A6H-8101_W6.15mm_P1.27mm:
+  L: 4.5
+  W: 11.43
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.075
+  PH: 0.5
+  A1: 0.1
+  npins: 16
+  model_name: SW_DIP_SPSTx08_Slide_Omron_A6H-8101_W6.15mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx08_Slide_Copal_CHS-08B_W7.62mm_P1.27mm:
+  L: 5.4
+  W: 11.43
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 16
+  model_name: SW_DIP_SPSTx08_Slide_Copal_CHS-08B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 21.88
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 16
+  model_name: SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx09_Slide_6.7x24.42mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 24.42
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 18
+  model_name: SW_DIP_SPSTx09_Slide_6.7x24.42mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx10_Slide_Copal_CHS-10A_W5.08mm_P1.27mm_JPin:
+  L: 5.3
+  W: 13.97
+  H: 2.5
+  pitch: 1.27
+  paddist: 6.68
+  PH: 0.5
+  A1: 0.1
+  npins: 20
+  model_name: SW_DIP_SPSTx10_Slide_Copal_CHS-10A_W5.08mm_P1.27mm_JPin
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 0
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx10_Slide_Omron_A6H-10101_W6.15mm_P1.27mm:
+  L: 4.5
+  W: 13.97
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.075
+  PH: 0.5
+  A1: 0.1
+  npins: 20
+  model_name: SW_DIP_SPSTx10_Slide_Omron_A6H-10101_W6.15mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx10_Slide_Copal_CHS-10B_W7.62mm_P1.27mm:
+  L: 5.4
+  W: 13.97
+  H: 2.5
+  pitch: 1.27
+  paddist: 3.81
+  PH: 0.5
+  A1: 0.1
+  npins: 20
+  model_name: SW_DIP_SPSTx10_Slide_Copal_CHS-10B_W7.62mm_P1.27mm
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 26.99
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 20
+  model_name: SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx11_Slide_6.7x29.5mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 29.5
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 22
+  model_name: SW_DIP_SPSTx11_Slide_6.7x29.5mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 1.0
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'
+
+SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile:
+  L: 6.68
+  W: 32.04
+  H: 1.5
+  pitch: 2.54
+  paddist: 4.305
+  PH: 0.5
+  A1: 0.1
+  npins: 24
+  model_name: SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile
+  rotation: 0
+  type: smd
+  corner: chamfer
+  pinshape: 1
+  padsw: 0.75
+  padsh: 0.1
+  body_color_key: blue body
+  pig_color_key: white body
+  pin_color_key: metal grey pins
+  destination_dir: 'Button_Switch_SMD.3dshapes'
+  source: 'N/A'

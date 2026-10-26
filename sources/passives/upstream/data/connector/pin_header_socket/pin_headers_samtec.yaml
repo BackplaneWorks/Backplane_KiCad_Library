@@ -1,0 +1,61 @@
+defaults_Samtec-HPM-THT_Vertical:
+  lib_format: 'Connector_Samtec_HPM_THT'
+  class_name: PinHeader
+  class_descr: Samtec HPM power header series
+  footpr_format: "Samtec_HPM-{pos_count:02}-01-x-S_Straight_{row_count}x{pos_count:02}_Pitch{pin_pitch:03.2f}mm"
+  descr_format: '{mount_text} straight {class_descr} {pins_length:03.2f}mm post length, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  tags_base: '{mount_text} {class_descr} {pins_length:03.2f}mm post length {mount_type} {row_count}x{pos_count:02} {pin_pitch:03.2f}mm{row_text}'
+  mount_type: THT
+  mount_text: Through hole
+  orientation: Vertical
+  pin_pitch: 5.08
+
+defaults_Samtec-HPM-THT_Horizontal:
+  inherit: defaults_Samtec-HPM-THT_Vertical
+  footpr_format: "Samtec_HPM-{pos_count:02}-01-x-S-RA_Angled_{row_count}x{pos_count:02}_Pitch{pin_pitch:03.2f}mm"
+  descr_format: '{mount_text} angled {class_descr} {pins_length:03.2f}mm post length, {row_count}x{pos_count:02}, {pin_pitch:03.2f}mm pitch{row_text}'
+  orientation: Horizontal
+
+
+Samtec-HPM-01-THT_Vertical:
+  inherit: defaults_Samtec-HPM-THT_Vertical
+  pin1_left: True
+  row_count: 1
+  pos_range:
+    range: [1, 19]
+  body:
+    width:  6.35
+    height: 2.54
+    offset: 0.0
+    overlength: 0.0
+  pins:
+    width:  1.14
+    drill:  1.75
+    offset: 0.0
+    length: 11.94
+  pads:
+    length: 2.8
+    width:  2.8
+    offset: 0
+  datasheet: https://suddendocs.samtec.com/catalog_english/hpm.pdf, https://suddendocs.samtec.com/prints/hpm-xx-xx-xx-x-xx-x-footprint.pdf
+
+Samtec-HPM-05-THT_Vertical:
+  inherit: Samtec-HPM-01-THT_Vertical
+  footpr_format: "Samtec_HPM-{pos_count:02}-05-x-S_Straight_{row_count}x{pos_count:02}_Pitch{pin_pitch:03.2f}mm"
+  pins:
+    length: 3.81
+
+# not in lib right now:
+# Samtec-HPM-02-RA_Horizontal:
+  # inherit: defaults_Samtec-HPM-THT_Horizontal
+  # body:
+    # width:  6.35
+    # offset: 1.5
+  # pins:
+    # length: 8.08
+
+# Samtec-HPM-04-RA:
+  # inherit: Samtec-HPM-02-RA_Horizontal
+  # footpr_format: "Samtec_HPM-{pos_count:02}-04-x-S-RA_Angled_{row_count}x{pos_count:02}_Pitch{pin_pitch:03.2f}mm"
+  # pins:
+    # length: 13.82

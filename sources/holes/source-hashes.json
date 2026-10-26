@@ -1,0 +1,18 @@
+[
+  {
+    "path": "sources/holes/original/generate_exposed_substrate_mounting_holes.py",
+    "sha256": "534ada98a9b65d00e6153afd0579e68df9ab1128ba924136714ad90304197fcc"
+  },
+  {
+    "path": "sources/holes/original/hole_sizes.yaml",
+    "sha256": "68f1f0a2a72cb01ff2ad6d4ee7697de6a9074ebd326829801f1972951e8322ee"
+  },
+  {
+    "path": "sources/holes/original/mounting_hole_exposed_substrate.yaml",
+    "sha256": "188e5c12806e62ef87e719d5a7ef70990f93e7a0b68399a7f8e69d52e046701f"
+  },
+  {
+    "path": "sources/holes/original/upstream-generator-README.md",
+    "sha256": "de216cf5d831164316f7d28ae370752b29b41019219893b8339311f1e9b6f894"
+  }
+]

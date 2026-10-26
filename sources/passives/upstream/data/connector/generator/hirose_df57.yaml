@@ -1,0 +1,52 @@
+defaults:
+  library: 'Hirose'
+
+DF57H-xP-1.2V:
+  inherit: 'defaults'
+  fp_name: 'Hirose_DF57H-{num_pos:d}P-{pad_pitch:.1f}V'
+  fp_suffix: '_Socket'     # optional: defaults to ''
+  description: "Low Profile Swing-Lock Wire-to-Board Connector for Power"
+  source: 'https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT'
+  tags: 'conn hirose socket low-profile power'
+  positions: [2, 3, 4, 5, 6]
+  pad_pitch: 1.2
+  pads:
+    size:
+      x: 0.6
+      y: 0.85
+  body_size:
+    x_offset: 1.45
+    y: 4.35
+  offset:
+    pads: [0, -1.8875]
+  mount_pads:
+    MP:
+      center:
+        x_offset: 1.15
+        y: 3.775
+      size: [0.7, 0.8]
+  rule_areas:
+    key: # key is unique for each rule area
+      name: 'keepout' # visible name of the rule area
+      layers: 'F.Cu'  # layers of the rule area
+      shapes:
+        - type: rect
+          corners: [
+            [pl - 0.65, pt + 0.425], # corner 1
+            [pr + 0.65, pt + 1.625]  # corner 2
+          ]
+      keepouts:
+        vias: deny
+        tracks: deny
+        copperpour: deny
+  first_pin:
+    position: 'top'
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      size: 0.5       # size of the pin 1 marker (default: pad_size.y)
+      offset: 0.1    # offset from the body edge (default: 0 corresponds to silk line width)
+
+DF57H-2P-2.4V:
+  inherit: 'DF57H-xP-1.2V'
+  positions: 2
+  pad_pitch: 2.4

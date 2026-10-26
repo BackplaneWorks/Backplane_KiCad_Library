@@ -1,0 +1,197 @@
+(footprint "Pass__F5.4__Non-overlapping_graphics"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.064 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb47581b-abed-4d04-b289-6e82e2ddec9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pass__F5.4__Non-overlapping_graphics"
+		(at 0 8.152 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72f5d519-4639-4b6a-8ef8-9248b2c58761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "916ac48a-432a-4a06-916d-98beb1ee86a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb4dd434-033b-42bf-ba35-7506692bc9ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c279b143-c43c-4dbe-8468-c6c1f838c308")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.032 -2.54)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9110943f-f6fb-4106-a5ee-d72d436a9fca")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.08 -5.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a4c3407e-fc59-4d88-a6c8-0b7572a6aa3d")
+	)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.032 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da315fe6-f69d-42c5-94e5-c7ff91a85dcf")
+	)
+	(fp_line
+		(start -2.54 2.032)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b4ff4729-ec90-4b7d-8517-460bce51ba2d")
+	)
+	(fp_line
+		(start 2.032 -2.54)
+		(end 2.032 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a1912dfc-e25c-4f81-9295-00b26177c860")
+	)
+	(fp_line
+		(start 2.032 2.032)
+		(end -2.54 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d23b86d4-4a70-42de-9d70-241da6f7b58f")
+	)
+	(fp_line
+		(start 3.556 -2.54)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d55d6654-82e1-497d-8f9b-90d42b5020be")
+	)
+	(fp_line
+		(start 3.556 2.032)
+		(end 2.54 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "890380a5-2065-41ee-ba25-894d0c14d52c")
+	)
+	(fp_text user "chained lines are fine"
+		(at 3.556 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c851dcbb-9560-4413-bc64-3e693a902ffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "overlap on different layers"
+		(at 3.556 -2.032 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1496577-002c-4b2f-91df-4f53cdd230b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.652 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f83200aa-d7d1-4348-85c5-f629ee3877d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1301256c-a819-41f4-9d09-65b61d5b3b82")
+	)
+)

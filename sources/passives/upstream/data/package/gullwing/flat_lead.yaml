@@ -1,0 +1,38 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'SOT'
+  library_Suffix: 'TO_SOT_SMD'
+
+SOT-553:
+  size_source: 'https://www.jedec.org/system/files/docs/MO-293B.pdf'
+  compatible_mpns:
+    - JEDEC-MO-293-UAAD-1
+    - Texas-DRL-5
+  custom_name_format: 'SOT-553'
+  lead_type: 'flat_lead'
+  body_size_x: 1.2
+  body_size_y: 1.6
+  overall_size_x: 1.6
+  lead_width: 0.15 .. 0.22 .. 0.31
+  lead_len: 0.2 .. 0.3 .. 0.46
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 3
+  deleted_pins: [5]
+
+SOT-563:
+  size_source: 'https://www.jedec.org/system/files/docs/MO-293B.pdf'
+  compatible_mpns:
+    - JEDEC-MO-293-UAAD
+    - Texas-DRL-6
+  custom_name_format: 'SOT-563'
+  lead_type: 'flat_lead'
+  body_size_x: 1.2
+  body_size_y: 1.6
+  overall_size_x: 1.6
+  lead_width: 0.15 .. 0.22 .. 0.31
+  lead_len: 0.2 .. 0.3 .. 0.46
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 3

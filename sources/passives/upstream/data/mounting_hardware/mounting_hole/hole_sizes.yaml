@@ -1,0 +1,161 @@
+default_parameters:
+  library: 'MountingHole'
+  description: 'Mounting Hole {drill:.3g}mm, {styledesc:s}'
+  thread: ''
+  comment: ''
+  fp_name: 'MountingHole_{drill:.3g}mm{stylestring:s}'
+  via_size: 0.5
+
+MountingHole_2mm:
+  drill: 2
+  styles:
+    npth: 4
+
+MountingHole_2.1mm:
+  drill: 2.1
+  styles:
+    npth: 4.2
+
+MountingHole_2.2mm_M2:
+  thread: 'M2'
+  drill: 2.2
+  via_size: 0.4
+  styles:
+    npth: 4.4
+    pth: 4.4
+    DIN965: 3.8
+    ISO7380: 3.5
+    ISO14580: 3.8
+
+MountingHole_2.5mm:
+  drill: 2.5
+  styles:
+    npth: 5
+    pth: 5
+
+MountingHole_2.7mm:
+  drill: 2.7
+  styles:
+    npth: 5.4
+    pth: 5.4
+
+MountingHole_2.7mm_M2.5:
+  thread: 'M2.5'
+  drill: 2.7
+  styles:
+    npth: 5.4
+    pth: 5.4
+    DIN965: 4.7
+    ISO7380: 4.5
+    ISO14580: 4.5
+
+MountingHole_3mm:
+  drill: 3
+  styles:
+    npth: 6
+    pth: 6
+
+MountingHole_3.2mm_M3:
+  thread: 'M3'
+  drill: 3.2
+  styles:
+    npth: 6.4
+    pth: 6.4
+    DIN965: 5.6
+    ISO7380: 5.7
+    ISO14580: 5.5
+
+MountingHole_3.5mm:
+  drill: 3.5
+  styles:
+    npth: 7.0
+    pth: 7.0
+
+MountingHole_3.7mm:
+  drill: 3.7
+  styles:
+    npth: 7.4
+    pth: 7.4
+
+MountingHole_4mm:
+  drill: 4
+  via_size: 0.6
+  styles:
+    npth: 8
+    pth: 8
+
+MountingHole_4.3mm_M4:
+  thread: 'M4'
+  drill: 4.3
+  via_size: 0.6
+  styles:
+    npth: 8.6
+    pth: 8.6
+    DIN965: 7.5
+    ISO7380: 7.6
+    ISO14580: 7.0
+
+MountingHole_4.5mm:
+  drill: 4.5
+  via_size: 0.6
+  styles:
+    npth: 9
+    pth: 9
+
+MountingHole_5mm:
+  drill: 5
+  via_size: 0.6
+  styles:
+    npth: 10
+    pth: 10
+
+MountingHole_5.3mm_M4:
+  thread: 'M5'
+  drill: 5.3
+  via_size: 0.6
+  styles:
+    npth: 10.6
+    pth: 10.6
+    DIN965: 9.2
+    ISO7380: 9.5
+    ISO14580: 8.5
+
+MountingHole_5.5mm:
+  drill: 5.5
+  via_size: 0.6
+  styles:
+    npth: 11
+    pth: 11
+
+MountingHole_6mm:
+  drill: 6
+  via_size: 0.6
+  styles:
+    npth: 12
+    pth: 12
+
+MountingHole_6.4mm_M6:
+  thread: 'M6'
+  drill: 6.4
+  via_size: 0.6
+  styles:
+    npth: 12.8
+    pth: 12.8
+    DIN965: 11
+    ISO7380: 10.5
+    ISO14580: 10
+
+MountingHole_6.5mm:
+  drill: 6.5
+  via_size: 0.6
+  styles:
+    npth: 13
+    pth: 13
+
+MountingHole_8.4mm_M8:
+  thread: 'M8'
+  drill: 8.4
+  via_size: 0.8
+  styles:
+    npth: 16.8
+    pth: 16.8

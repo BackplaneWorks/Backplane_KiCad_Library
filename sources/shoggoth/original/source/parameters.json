@@ -1,0 +1,329 @@
+{
+  "caption": "THIS PCB WAS DESIGNED BY AN EVIL SHOGGOTH",
+  "caption_lines": [
+    "THIS PCB WAS DESIGNED",
+    "BY AN EVIL SHOGGOTH"
+  ],
+  "width_mm": 35.0,
+  "mask_to_source_yellow_edge_inset_mm": 0.1,
+  "source_pixel_to_mm": 0.029765986070176907,
+  "black_threshold_max_rgb_exclusive": 108,
+  "tracer": "system libpotrace; opttolerance=0.15px; flattened cubic tolerance=0.08px",
+  "font": "DejaVu Sans Condensed Bold (outlines, bundled with license)",
+  "source_sha256": "e5aaeef5fd9e0da4ccfe248fdb40e9ad5923e230ab9f6ce43a027e7c1ee8c30e",
+  "source_black_paths": [
+    {
+      "sign": "+",
+      "pixel_area": 533106,
+      "vertices": 1444
+    },
+    {
+      "sign": "-",
+      "pixel_area": 359394,
+      "vertices": 1382
+    },
+    {
+      "sign": "-",
+      "pixel_area": 217,
+      "vertices": 35
+    },
+    {
+      "sign": "-",
+      "pixel_area": 7276,
+      "vertices": 99
+    },
+    {
+      "sign": "-",
+      "pixel_area": 3039,
+      "vertices": 72
+    },
+    {
+      "sign": "-",
+      "pixel_area": 4830,
+      "vertices": 88
+    },
+    {
+      "sign": "-",
+      "pixel_area": 3935,
+      "vertices": 67
+    },
+    {
+      "sign": "-",
+      "pixel_area": 4358,
+      "vertices": 69
+    },
+    {
+      "sign": "-",
+      "pixel_area": 7527,
+      "vertices": 115
+    },
+    {
+      "sign": "-",
+      "pixel_area": 5685,
+      "vertices": 114
+    },
+    {
+      "sign": "-",
+      "pixel_area": 2001,
+      "vertices": 72
+    },
+    {
+      "sign": "-",
+      "pixel_area": 1072,
+      "vertices": 65
+    },
+    {
+      "sign": "-",
+      "pixel_area": 2529,
+      "vertices": 73
+    },
+    {
+      "sign": "-",
+      "pixel_area": 15442,
+      "vertices": 106
+    },
+    {
+      "sign": "-",
+      "pixel_area": 26394,
+      "vertices": 153
+    },
+    {
+      "sign": "-",
+      "pixel_area": 108,
+      "vertices": 30
+    },
+    {
+      "sign": "+",
+      "pixel_area": 800,
+      "vertices": 53
+    },
+    {
+      "sign": "-",
+      "pixel_area": 80,
+      "vertices": 31
+    },
+    {
+      "sign": "+",
+      "pixel_area": 898,
+      "vertices": 55
+    },
+    {
+      "sign": "-",
+      "pixel_area": 83,
+      "vertices": 29
+    },
+    {
+      "sign": "+",
+      "pixel_area": 1088,
+      "vertices": 53
+    },
+    {
+      "sign": "-",
+      "pixel_area": 165,
+      "vertices": 34
+    },
+    {
+      "sign": "+",
+      "pixel_area": 1059,
+      "vertices": 45
+    },
+    {
+      "sign": "-",
+      "pixel_area": 183,
+      "vertices": 36
+    },
+    {
+      "sign": "+",
+      "pixel_area": 826,
+      "vertices": 49
+    },
+    {
+      "sign": "-",
+      "pixel_area": 99,
+      "vertices": 30
+    },
+    {
+      "sign": "+",
+      "pixel_area": 6457,
+      "vertices": 80
+    },
+    {
+      "sign": "-",
+      "pixel_area": 1202,
+      "vertices": 66
+    },
+    {
+      "sign": "-",
+      "pixel_area": 1420,
+      "vertices": 64
+    },
+    {
+      "sign": "+",
+      "pixel_area": 998,
+      "vertices": 56
+    },
+    {
+      "sign": "-",
+      "pixel_area": 114,
+      "vertices": 33
+    },
+    {
+      "sign": "+",
+      "pixel_area": 3530,
+      "vertices": 66
+    },
+    {
+      "sign": "-",
+      "pixel_area": 1181,
+      "vertices": 116
+    },
+    {
+      "sign": "+",
+      "pixel_area": 4536,
+      "vertices": 81
+    },
+    {
+      "sign": "-",
+      "pixel_area": 1719,
+      "vertices": 121
+    },
+    {
+      "sign": "+",
+      "pixel_area": 1870,
+      "vertices": 64
+    },
+    {
+      "sign": "-",
+      "pixel_area": 547,
+      "vertices": 50
+    },
+    {
+      "sign": "+",
+      "pixel_area": 918,
+      "vertices": 57
+    },
+    {
+      "sign": "-",
+      "pixel_area": 133,
+      "vertices": 32
+    },
+    {
+      "sign": "+",
+      "pixel_area": 780,
+      "vertices": 52
+    },
+    {
+      "sign": "-",
+      "pixel_area": 64,
+      "vertices": 28
+    },
+    {
+      "sign": "+",
+      "pixel_area": 927,
+      "vertices": 51
+    },
+    {
+      "sign": "-",
+      "pixel_area": 152,
+      "vertices": 33
+    },
+    {
+      "sign": "+",
+      "pixel_area": 760,
+      "vertices": 47
+    },
+    {
+      "sign": "-",
+      "pixel_area": 77,
+      "vertices": 32
+    },
+    {
+      "sign": "+",
+      "pixel_area": 972,
+      "vertices": 51
+    },
+    {
+      "sign": "-",
+      "pixel_area": 105,
+      "vertices": 29
+    },
+    {
+      "sign": "+",
+      "pixel_area": 1124,
+      "vertices": 59
+    },
+    {
+      "sign": "-",
+      "pixel_area": 172,
+      "vertices": 34
+    },
+    {
+      "sign": "+",
+      "pixel_area": 640,
+      "vertices": 47
+    },
+    {
+      "sign": "-",
+      "pixel_area": 30,
+      "vertices": 21
+    },
+    {
+      "sign": "+",
+      "pixel_area": 1130,
+      "vertices": 58
+    },
+    {
+      "sign": "-",
+      "pixel_area": 186,
+      "vertices": 35
+    },
+    {
+      "sign": "+",
+      "pixel_area": 726,
+      "vertices": 49
+    },
+    {
+      "sign": "-",
+      "pixel_area": 43,
+      "vertices": 25
+    },
+    {
+      "sign": "+",
+      "pixel_area": 589,
+      "vertices": 65
+    },
+    {
+      "sign": "+",
+      "pixel_area": 238,
+      "vertices": 37
+    },
+    {
+      "sign": "+",
+      "pixel_area": 194,
+      "vertices": 37
+    }
+  ],
+  "source_yellow_paths": [
+    {
+      "sign": "+",
+      "pixel_area": 15179,
+      "vertices": 111
+    },
+    {
+      "sign": "-",
+      "pixel_area": 687,
+      "vertices": 62
+    },
+    {
+      "sign": "-",
+      "pixel_area": 280,
+      "vertices": 40
+    },
+    {
+      "sign": "-",
+      "pixel_area": 233,
+      "vertices": 35
+    }
+  ],
+  "silk_colour_safety": "Traced ink intersected with exact classified-black pixel cell union; no curve-fitting fringes outside source black cells"
+}

@@ -1,0 +1,20 @@
+Converter_DCDC_Murata_NCS1SxxxxSC_THT:
+  library_name: 'Converter_DCDC'
+  description: "Murata NCS1SxxxxSC"
+  datasheet: "https://power.murata.com/data/power/ncl/kdc_ncs1.pdf"
+  tags: "Murata NCS1SxxxxSC"
+  arrow_points: North
+  # Midpoints of (1.92, 2.62) and (2.87, 3.52)
+  at: [-2.27, 3.195]
+  # Max case size
+  size: [21.87, 8.2]
+  body_size_tolerance: [0, 0]
+  # Half the pin-to-case tolerances, as the nominal layout is the max size, at the midpoint of the tolerances
+  body_position_tolerance: [0.35, 0.325]
+  pins: [
+    ["thtr", "1", 0, 0, 1.70, 2.0, 1.0],
+    ["tht", "2", 2.54, 0, 1.70, 2.0, 1.0],
+    ["tht", "3", 5.12, 0, 1.70, 2.0, 1.0],
+    ["tht", "6", 12.7, 0, 1.70, 2.0, 1.0],
+    ["tht", "7", 15.24, 0, 1.70, 2.0, 1.0]
+  ]

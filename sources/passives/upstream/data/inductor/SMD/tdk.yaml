@@ -1,0 +1,33 @@
+default_parameters:
+  manufacturer: TDK
+  library_name: Inductor_SMD
+
+series_MLZ:
+  default_parameters:
+    3d:
+      type: 2 # best effort, these parts are more like chip resistors
+    tags:
+      - MLZ
+  csv: tdk_mlz.csv
+
+series_SLF:
+  default_parameters:
+    manufacturer: TDK
+    has_orientation: true
+    baseThickness: 0.5
+    topCapZHeight: 0.2
+    topCapRingColor: blue body
+    topCapDiameterProportion: 0.8
+    pin1CornerNotchSize: 1.0
+    pin1CornerNotchAtTopY: true
+    hasVisibleCoilEnds: true
+    orientationMark: dot
+    3d:
+      type: shielded_drum_flat_base
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.635
+    tags:
+      - power
+      - shielded
+  csv: tdk_slf.csv

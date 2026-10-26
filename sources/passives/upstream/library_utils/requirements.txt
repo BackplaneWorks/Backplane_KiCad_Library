@@ -1,0 +1,5 @@
+codespell
+isort
+black
+flake8
+argparse

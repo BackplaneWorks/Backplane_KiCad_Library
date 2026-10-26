@@ -1,0 +1,1131 @@
+[
+  {
+    "board": "holes_2layer_positive.kicad_pcb",
+    "violations": {},
+    "unconnected_count": 11,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "silk-F.SilkS",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "silk-B.SilkS",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      }
+    ],
+    "sha256": "ebf10b5ee60d14c1b90ba3612278cb523cae60f035a1ae6adbd79c098c01f090"
+  },
+  {
+    "board": "holes_2layer_negative.kicad_pcb",
+    "violations": {
+      "items_not_allowed": 22,
+      "hole_clearance": 12,
+      "silk_over_copper": 2
+    },
+    "unconnected_count": 11,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-via",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance",
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-via",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-via",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "silk-F.SilkS",
+        "expected": "silk_over_copper",
+        "actual": [
+          "silk_over_copper"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "silk-B.SilkS",
+        "expected": "silk_over_copper",
+        "actual": [
+          "silk_over_copper"
+        ],
+        "pass_": true
+      }
+    ],
+    "sha256": "f1f37430f622d1a22887c38b517bc89799081218f7d3297a46637207162fba1a"
+  },
+  {
+    "board": "holes_2layer_zone_control.kicad_pcb",
+    "violations": {
+      "lib_footprint_mismatch": 4
+    },
+    "unconnected_count": 5,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      }
+    ],
+    "sha256": "647ecfcb887bfb570b36b2f8913d653dd7dbb13963debdd5ab7ff49eb65d581e"
+  },
+  {
+    "board": "holes_4layer_positive.kicad_pcb",
+    "violations": {},
+    "unconnected_count": 23,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-via",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-track",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-pad",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "silk-F.SilkS",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "silk-B.SilkS",
+        "expected": null,
+        "actual": [],
+        "pass_": true
+      }
+    ],
+    "sha256": "c37a7315ff098ccbbf8e3fa0a41e4636c48f82c24f779cdf8dcecb6959a14cec"
+  },
+  {
+    "board": "holes_4layer_negative.kicad_pcb",
+    "violations": {
+      "items_not_allowed": 42,
+      "hole_clearance": 30,
+      "pth_inside_courtyard": 6,
+      "silk_over_copper": 2
+    },
+    "unconnected_count": 23,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-via",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance",
+          "hole_clearance",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-track",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-pad",
+        "expected": "hole_clearance",
+        "actual": [
+          "hole_clearance"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-via",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-via",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed",
+          "pth_inside_courtyard"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-track",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-pad",
+        "expected": "items_not_allowed",
+        "actual": [
+          "items_not_allowed"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": true,
+        "outside_retained": true,
+        "control_fill": false,
+        "pass_": true
+      },
+      {
+        "id": "silk-F.SilkS",
+        "expected": "silk_over_copper",
+        "actual": [
+          "silk_over_copper"
+        ],
+        "pass_": true
+      },
+      {
+        "id": "silk-B.SilkS",
+        "expected": "silk_over_copper",
+        "actual": [
+          "silk_over_copper"
+        ],
+        "pass_": true
+      }
+    ],
+    "sha256": "74169576bc0d6fa0cebe8085ff02cb3515e7bafe190f57521d238dde2e6442bc"
+  },
+  {
+    "board": "holes_4layer_zone_control.kicad_pcb",
+    "violations": {
+      "lib_footprint_mismatch": 8
+    },
+    "unconnected_count": 11,
+    "checks": [
+      {
+        "id": "no-unexpected-drc-violations",
+        "actual": [],
+        "pass_": true
+      },
+      {
+        "id": "center-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "center-In1.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "center-In2.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "center-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-In1.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-In2.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "edge-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-F.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-In1.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-In2.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      },
+      {
+        "id": "corner-B.Cu-zone",
+        "excluded": false,
+        "outside_retained": true,
+        "control_fill": true,
+        "pass_": true
+      }
+    ],
+    "sha256": "ace75435a44e3e7d6e6654b3e8d3875f723e05196ecdc4d3b9d2cd3c1b7bfa3c"
+  }
+]

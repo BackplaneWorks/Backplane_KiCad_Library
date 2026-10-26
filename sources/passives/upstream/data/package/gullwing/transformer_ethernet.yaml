@@ -1,0 +1,162 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+# Usage: python3 ipc_gullwing_generator.py size_definitions\transformer_ethernet.yaml
+
+default_parameters:
+  device_type: 'SO'
+  override_lib_name: 'Transformer_SMD'
+
+Halo_N2_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Halo
+  part_number: N2
+  body_size_x: 7.11
+  body_size_y: 12.7
+  overall_height:
+    maximum: 5.08
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Halo_N5_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Halo
+  part_number: N5
+  body_size_x: 7.11
+  body_size_y: 12.7
+  overall_height:
+    maximum: 6.35
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Halo_N6_SO-16:
+  size_source: 'https://www.haloelectronics.com/pdf/discrete-ultra-100baset.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Halo
+  part_number: N6
+  body_size_x: 7.11
+  body_size_y: 14.73
+  overall_height:
+    maximum: 6.35
+  overall_size_x: 9.53
+  lead_width: 0.46 +/-0.0508
+  lead_len:
+    minimum: 0.38
+    maximum: 0.64
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+YDS_30F-51NL_SO-24:
+  size_source: 'https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: YDS
+  part_number: 30F-51NL
+  body_size_x: 7.10 +/-0.25
+  body_size_y: 15.1 +/-0.25
+  overall_height: 4.0 +/-0.25
+  overall_size_x: 10 +/-0.25
+  lead_width: 0.38 +/-0.05
+  lead_len: 0.6 # Missing from datasheet
+  pitch: 0.99
+  num_pins_x: 0
+  num_pins_y: 12
+  pad_to_pad_min_x_overwrite: 7.4
+  pad_to_pad_max_x_overwrite: 11.4
+  pad_size_y_overwrite: 0.78
+
+Transformer_Ethernet_Bel_S558-5999-T7-F:
+  size_source: 'https://www.belfuse.com/media/drawings/products/discrete-magnetics/dr-mag-s558-5999-t7-f.pdf'
+  compatible_mpns:
+    - Bel_QBS001
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}'
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Bel
+  part_number: S558-5999-T7-F
+  # Custom name to match existing footprint
+  body_size_x:
+    nominal: 7.24 # not given in datasheet => use maximum
+    maximum: 7.24
+  body_size_y:
+    nominal: 12.32 # not given in datasheet => use maximum
+    maximum: 12.32
+  overall_height:
+    maximum: 5.72
+  overall_size_x:
+    minimum: 8.89
+    maximum: 9.52
+  lead_width: 0.46 +/-0.05
+  lead_len: 0.88
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Transformer_Ethernet_Bourns_PT61017PEL:
+  size_source: 'https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}'
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Bourns
+  part_number: PT61017PEL
+  # Custom name to match existing footprint
+  body_size_x: 6.9
+  body_size_y: 12.8 +/-0.25
+  overall_height:
+    maximum: 5.65
+  overall_size_x: 9.3
+  lead_width: 0.46
+  lead_len: 0.7 +/-0.15
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8
+
+Transformer_Ethernet_Bourns_SM13126PEL:
+  size_source: 'https://www.bourns.com/docs/Product-Datasheets/SM13126PEL.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}'
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Bourns
+  part_number: SM13126PEL
+  # Custom name to match existing footprint
+  body_size_x: 6.9 +/-0.5
+  body_size_y: 12.8 +/-0.5
+  overall_height:
+    maximum: 6.15
+  overall_size_x: 9.3 +/-0.5
+  lead_width: 0.46 +/-0.1
+  lead_len: 0.7 +/-0.15
+  pitch: 1.27 #+/-0.10
+  num_pins_x: 0
+  num_pins_y: 8
+
+Transformer_Ethernet_CNDtek_H1102N:
+  size_source: 'https://www.lcsc.com/datasheet/lcsc_datasheet_2412231915_CND-tek-H1102N_C42418465.pdf'
+  custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}'
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: CNDtek
+  part_number: H1102N
+  # Custom name to match existing footprint
+  body_size_x: 7.0 +/-0.2
+  body_size_y: 12.7 +/-0.25
+  overall_height: 5.7 +/-0.3
+  overall_size_x: 9.5 +/-0.25
+  lead_width: 0.50
+  lead_len: 0.65
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 8

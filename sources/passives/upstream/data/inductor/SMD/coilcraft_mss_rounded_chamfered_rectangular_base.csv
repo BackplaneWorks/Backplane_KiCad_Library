@@ -1,0 +1,5 @@
+PartNumber,lengthY,widthX,height,padX,padY,padInsideX,landingX,landingY,landingSpacingX,datasheet
+MSS1038-XXX,10,10.2,3.8,1.2,3.0,7.9,1.78,3.56,9.4,"https://www.coilcraft.com/getmedia/3e03a7b4-3b1d-4f31-b1f3-e7c621695ac0/mss1038.pdf"
+MSS1038T-XXX,10,10.2,3.8,1.2,3.0,7.9,1.78,3.56,9.4,"https://www.coilcraft.com/getmedia/ea4800a7-100e-49d9-9bbc-6ba8b238dc0d/mss1038t.pdf"
+MSS1048-XXX,10,10.2,4.8,1.3,3.0,7.9,1.78,3.56,9.4,"https://www.coilcraft.com/getmedia/bd5140ec-db32-4346-a029-5182269dc08e/mss1048.pdf"
+MSS1048T-XXX,10,10.2,4.8,1.3,3.0,7.9,1.78,3.56,9.4,"https://www.coilcraft.com/getmedia/bd5140ec-db32-4346-a029-5182269dc08e/mss1048t.pdf"

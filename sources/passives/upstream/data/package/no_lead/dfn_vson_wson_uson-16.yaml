@@ -1,0 +1,96 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Package_SON
+
+##############################################################################
+# Pitch 0.4 mm
+##############################################################################
+
+Nexperia_HUSON-16_USON-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm:
+  size_source: 'https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf'
+  device_type: 'USON'
+  manufacturer: 'Nexperia'
+  part_number: 'HUSON-16'
+  ipc_class: 'qfn'
+  body_size_x: 1.25 .. 1.35 .. 1.45
+  body_size_y: 3.2 .. 3.3 .. 3.4
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    maximum: 0.55
+  num_pins_x: 0
+  num_pins_y: 8
+  pitch: 0.4
+  lead_shape: square
+  lead_width: 0.15 .. 0.20 .. 0.25
+  lead_len: 0.2 .. 0.25 .. 0.3
+  lead_height:
+    nominal: 0.127
+  EP_size_x: 0.35 .. 0.40 .. 0.45
+  EP_size_y: 2.7 .. 2.8 .. 2.9
+  EP_chamfer: 0.25
+
+OnSemi_UDFN-16-1EP_3.3x1.35mm_P0.4mm_EP2.8x0.4mm:
+  library: Package_DFN_QFN # TEMPORARY
+# OnSemi_UDFN-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm
+# very similar to Nexperia_HUSON-16_USON-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm
+  size_source: 'https://www.onsemi.com/pdf/datasheet/cm1624-d.pdf#page=7'
+  device_type: 'UDFN'
+  manufacturer: 'OnSemi'
+  body_size_x:
+    nominal: 1.35
+  body_size_y:
+    nominal: 3.3
+  overall_height:
+    minimum: 0.45
+    nominal: 0.5
+    maximum: 0.55
+  num_pins_x: 0
+  num_pins_y: 8
+  pitch: 0.4
+  lead_width:
+    minimum: 0.15
+    nominal: 0.2
+    maximum: 0.25
+  lead_len:
+    minimum: 0.2
+    nominal: 0.25
+    maximum: 0.3
+  EP_size_x: 0.30 .. 0.50
+  EP_size_y: 2.70 .. 2.90
+  EP_num_paste_pads: [1, 3]
+
+NXP_LSON-16-1EP_3.5x4.5mm_P0.5mm_EP2x3.8mm:
+# NON JEDEC, size 3.5x4.5mm does not match MO-229 and others, so we are considering this 'manufacturer-specific', i.e. using 'manufacturer' parameter
+  size_source: 'NXP SOT1992-1(DD), https://www.nxp.com/docs/en/package-information/SOT1992-1_DD.pdf'
+  compatible_mpns:
+    - 'NXP_HLSON16'
+  device_type: 'LSON'
+  manufacturer: 'NXP'
+  # part_number: 'SOT1992-1(DD)'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 3.5
+  body_size_y:
+    nominal: 4.5
+  overall_height:
+    minimum: 1.4
+    maximum: 1.5
+  num_pins_x: 0
+  num_pins_y: 8
+  pitch: 0.5
+  lead_width:
+    nominal: 0.27
+  lead_len:
+    minimum: 0.4
+    maximum: 0.5
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    minimum: 1.95
+    maximum: 2.05
+  EP_size_y:
+    minimum: 3.75
+    maximum: 3.85
+  # EP_chamfer: 0.25
+  EP_num_paste_pads: [2, 3]

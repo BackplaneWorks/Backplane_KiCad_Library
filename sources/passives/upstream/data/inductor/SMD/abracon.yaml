@@ -1,0 +1,64 @@
+default_parameters:
+  manufacturer: Abracon
+  library_name: Inductor_SMD
+
+ASPI-0425:
+  datasheet: "https://abracon.com/Magnetics/new/ASPI-0425.pdf"
+  PartNumber: ASPI-0425
+  widthX: 4.0 # A
+  lengthY: 4.0 # B
+  height: 2.5 # C
+  landingX: 1.5
+  landingOutsideX: 4.55
+  landingY: 3.6
+  # pad sizes not given in datasheet
+  3d:
+    type: 1
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded
+    - low-profile
+
+ASPI-0628:
+  datasheet: "https://abracon.com/Magnetics/new/ASPI-0628.pdf"
+  PartNumber: ASPI-0628
+  widthX: 6.0 # A
+  lengthY: 6.0 # B
+  height: 2.8 # C
+  landingX: 2.0 # From catalog, datasheet says 1.6
+  landingOutsideX: 6.3
+  landingY: 5.7
+  # pad sizes not given in datasheet
+  3d:
+    type: 1
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded
+    - low-profile
+
+ASPIAIG-F4020:
+  datasheet: "https://abracon.com/Magnetics/power/ASPIAIG-F4020.pdf"
+  PartNumber: ASPIAIG-F4020
+  widthX: 4.4 # A
+  lengthY: 4.4 # B
+  height: 1.9 # C
+  landingInsideX: 1.4 # G
+  landingOutsideX: 3.4 # L
+  landingY: 3.8 # H
+  padY: 3.4 # D
+  padX: 0.88 # E
+  padInsideX: 1.6 # F
+  3d:
+    type: 1
+    bodyColor: dark grey body
+    pinColor: metal grey pins
+    padThickness: 0.05
+  tags:
+    - power
+    - shielded

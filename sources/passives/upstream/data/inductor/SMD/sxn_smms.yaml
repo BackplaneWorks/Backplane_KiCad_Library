@@ -1,0 +1,19 @@
+default_parameters:
+  manufacturer: SXN # Shun Xiang Nuo Electric
+  library_name: Inductor_SMD
+
+series_SMMS:
+  default_parameters:
+    # Alternate source for datasheet
+    datasheet: "https://www.sxndz.com/upload/202406/07/202406071030485268.pdf"
+    # Values from datasheet: (Using Outside Edge with Sepraration format)
+    # A,B,C,E,D,F,G,H
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - sxn
+      - smms
+  csv: sxn_smms.csv

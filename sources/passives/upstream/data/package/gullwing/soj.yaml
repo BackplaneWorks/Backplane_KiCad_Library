@@ -1,0 +1,108 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'SOJ'
+  library_Suffix: 'SO'
+
+SOJ-24_7.62x15.875mm_P1.27mm:
+# .300" width body, .625" lenght, .050" pitch
+  size_source: 'JEDEC MS-023-A, 300 mils width, variation AA, https://www.jedec.org/system/files/docs/Ms-023a.pdf'
+  body_size_x:
+    minimum: 7.493
+    nominal: 7.620
+    maximum: 7.747
+  body_size_y:
+    minimum: 15.748
+    nominal: 15.875
+    maximum: 16.002
+  overall_height:
+    minimum: 3.251
+    maximum: 3.759
+  overall_size_x:
+    nominal: 8.509
+  lead_width:
+    minimum: 0.406
+    maximum: 0.508
+  lead_len:
+  # manufacturers recommends pad length between 2.1 ~ 2.2 mm
+  # so with this value we get 2.1 mm
+  # https://www.renesas.com/en/document/psc/pjpjg-32-package-outline-300-body-width-soj-050-pitch
+  # https://www.infineon.com/cms/en/product/packages/PG-SOJ/PG-SOJ-32-800/
+    nominal: 1.3
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 12
+
+SOJ-28_7.62x18.415mm_P1.27mm:
+# .300" width body, .725" lenght, .050" pitch
+  inherit: SOJ-24_7.62x15.875mm_P1.27mm
+  size_source: 'JEDEC MS-023-A, 300 mils width, variation AD, https://www.jedec.org/system/files/docs/Ms-023a.pdf'
+  body_size_y:
+    minimum: 18.288
+    nominal: 18.415
+    maximum: 18.542
+  num_pins_y: 14
+
+SOJ-32_7.62x20.955mm_P1.27mm:
+# .300" width body, .825" lenght, .050" pitch
+  inherit: SOJ-24_7.62x15.875mm_P1.27mm
+  size_source: 'JEDEC MS-023-A, 300 mils width, variation AE, https://www.jedec.org/system/files/docs/Ms-023a.pdf'
+  body_size_y:
+    minimum: 20.828
+    nominal: 20.955
+    maximum: 21.082
+  num_pins_y: 16
+
+SOJ-28_10.16x18.415mm_P1.27mm:
+# .400" width body, .725" lenght, .050" pitch
+  inherit: SOJ-24_7.62x15.875mm_P1.27mm
+  size_source: 'JEDEC MS-027-A, 400 mils width, variation AA, https://www.jedec.org/system/files/docs/Ms-027a.pdf'
+  body_size_x:
+    minimum: 10.033
+    nominal: 10.160
+    maximum: 10.287
+  body_size_y:
+    minimum: 18.288
+    nominal: 18.415
+    maximum: 18.542
+  overall_size_x:
+    minimum: 11.049
+    maximum: 11.303
+  lead_width:
+    minimum: 0.381
+  num_pins_y: 14
+
+SOJ-32_10.16x20.955mm_P1.27mm:
+# .400" width body, .825" lenght, .050" pitch
+  inherit: SOJ-28_10.16x18.415mm_P1.27mm
+  size_source: 'JEDEC MS-027-A, 400 mils width, variation AC, https://www.jedec.org/system/files/docs/Ms-027a.pdf'
+  body_size_y:
+    minimum: 20.828
+    nominal: 20.955
+    maximum: 21.082
+  num_pins_y: 16
+
+SOJ-36_10.16x23.495mm_P1.27mm:
+# .400" width body, .925" lenght, .050" pitch
+  inherit: SOJ-28_10.16x18.415mm_P1.27mm
+  size_source: 'JEDEC MS-027-A, 400 mils width, variation AE, https://www.jedec.org/system/files/docs/Ms-027a.pdf'
+  # old source: 'http://www.issi.com/WW/pdf/61-64C5128AL.pdf'
+  body_size_y:
+    minimum: 23.368
+    nominal: 23.495
+    maximum: 23.622
+  body_height: 2.65 .. 2.71 .. 2.76  # Rounded to 2 digits
+  body_pcb_gap: 0.6 .. 0.8 .. 1.0  # Guess
+  # lead_height: 0.178 .. 0.330
+  # lead_radius_bottom: -1.016 .. -0.762
+  num_pins_y: 18
+
+SOJ-44_10.16x28.575mm_P1.27mm:
+# .400" width body, 1.125" lenght, .050" pitch
+  inherit: SOJ-28_10.16x18.415mm_P1.27mm
+  size_source: 'JEDEC MS-027-A, 400 mils width, variation AH, https://www.jedec.org/system/files/docs/Ms-027a.pdf'
+  body_size_y:
+    minimum: 28.448
+    nominal: 28.575
+    maximum: 28.702
+  num_pins_y: 22

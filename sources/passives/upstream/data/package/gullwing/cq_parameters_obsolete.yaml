@@ -1,0 +1,2025 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+# DO NOT ADD MODELS TO THIS FILE!
+# This file is strictly for legacy 3D models without parametric footprints. To add a new
+# 3D model, please include it directly within the corresponding footprint parameters file.
+
+D_SOD-123:
+  body_angle: 8.0
+  lead_angle: 0.0
+  body_size_top_delta: 0.05
+  lead_height: 0.2
+  lead_radius_top: 0.12
+  lead_radius_bottom: 0.12
+  lead_top_flat_part_length: 0.0
+  marker: "bar"
+  corners_chamfer: 0.12
+  body_size_y: 1.6
+  body_size_x: 2.675
+  overall_size_x: 3.6
+  body_pcb_gap: 0.1
+  body_height: 1.15
+  lead_width: 0.65
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 1
+  override_lib_name: 'Diode_SMD'
+  size_source: 'https://assets.nexperia.com/documents/package-information/SOD123.pdf#page=2'
+  include_in_qa: True
+
+D_SOD-323:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.07
+  lead_radius_bottom: 0.07
+  lead_top_flat_part_length: 0.0
+  marker: "bar"
+  corners_chamfer: 0.12
+  body_size_y: 1.25
+  body_size_x: 1.7
+  overall_size_x: 2.5
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.35
+  pitch: 1.27
+  num_pins_x: 0
+  num_pins_y: 1
+  override_lib_name: 'Diode_SMD'
+  size_source: 'https://assets.nexperia.com/documents/package-information/SOD323.pdf#page=2'
+
+Diode_Bridge_OnSemi_SDIP-4L:
+  body_angle: 0.0
+  body_size_top_delta: 0.15
+  lead_height: 0.275
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.361
+  corners_chamfer: 0.25
+  body_size_y: 8.28
+  body_size_x: 6.35
+  overall_size_x: 9.85
+  body_pcb_gap: 0.1
+  body_height: 2.4
+  lead_width: 1.045
+  pitch: 5.1
+  num_pins_y: 2
+  num_pins_x: 0
+  override_lib_name: 'Diode_SMD'
+
+PQFP-256_28x28mm_P0.4mm:
+  body_angle: 8.0
+  body_size_top_delta: 0.15
+  lead_height: 0.17
+  lead_radius_top: 0.2
+  lead_radius_bottom: 0.2
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.0
+  body_size_y: 28.0
+  body_size_x: 28.0
+  overall_size_x: 30.6
+  body_pcb_gap: 0.5
+  body_height: 3.5
+  lead_width: 0.18
+  pitch: 0.4
+  num_pins_y: 64
+  num_pins_x: 64
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+TQFP-120_14x14mm_P0.4mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 14.0
+  body_size_x: 14.0
+  overall_size_x: 16.0
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.18
+  pitch: 0.4
+  num_pins_y: 30
+  num_pins_x: 30
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+TQFP-144_16x16mm_P0.4mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 16.0
+  body_size_x: 16.0
+  overall_size_x: 18.0
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.18
+  pitch: 0.4
+  num_pins_y: 36
+  num_pins_x: 36
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+PQFP-112_20x20mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 20.0
+  body_size_x: 20.0
+  overall_size_x: 22.5
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 28
+  num_pins_x: 28
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+PQFP-132_24x24mm_P0.635mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 24.0
+  body_size_x: 24.0
+  overall_size_x: 27.8
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.25
+  pitch: 0.64
+  num_pins_y: 33
+  num_pins_x: 33
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+PQFP-132_24x24mm_P0.635mm_i386:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 24.0
+  body_size_x: 24.0
+  overall_size_x: 27.8
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.25
+  pitch: 0.64
+  num_pins_y: 33
+  num_pins_x: 33
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+
+TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 7.0
+  body_size_x: 7.0
+  overall_size_x: 9.32
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.5
+  num_pins_y: 12
+  num_pins_x: 12
+  EP_size_x: 5.0
+  EP_size_y: 5.0
+  override_lib_name: 'Package_QFP'
+  size_source: 'http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095'
+  include_in_qa: True
+
+SO-6L_10x3.84mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.25
+  body_size_y: 3.84
+  body_size_x: 7.5
+  overall_size_x: 10.0
+  body_pcb_gap: 0.1
+  body_height: 2.1
+  lead_width: 0.38
+  pitch: 1.27
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770'
+
+SO-20_12.8x7.5mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.25
+  body_size_y: 12.8
+  body_size_x: 7.5
+  overall_size_x: 10.325
+  body_pcb_gap: 0.2
+  body_height: 2.35
+  lead_width: 0.425
+  pitch: 1.27
+  num_pins_y: 10
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.nxp.com/docs/en/data-sheet/SA605.pdf'
+
+SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.0
+  lead_height: 0.21
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.05
+  body_height: 1.5
+  lead_width: 0.41
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  EP_size_x: 2.29
+  EP_size_y: 3
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_edrd/RD_8_1.pdf'
+
+SOIC-14W_7.5x9mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.28
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.43
+  body_size_y: 9.0
+  body_size_x: 7.5
+  overall_size_x: 10.3
+  body_pcb_gap: 0.2
+  body_height: 2.5
+  lead_width: 0.41
+  pitch: 1.27
+  num_pins_y: 7
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds386/mpds386.pdf'
+
+ST_MultiPowerSO-30:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 17.4
+  body_size_x: 16.0
+  overall_size_x: 18.25
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.0
+  num_pins_y: 15
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf'
+
+HSOP-36-1EP_11.0x15.9mm_P0.65mm_SlugUp:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 15.9
+  body_size_x: 11.0
+  overall_size_x: 14.7
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 18
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/vn808cm-32-e.pdf, http://www.st.com/resource/en/application_note/cd00003801.pdf'
+
+HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.3
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.42
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  EP_size_x: 2.41
+  EP_size_y: 3.1
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.st.com/resource/en/datasheet/l5973d.pdf'
+
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_len: 0.625
+  corners_chamfer: 0
+  body_size_y: 5
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.1
+  lead_width: 0.245
+  pitch: 0.65
+  num_pins_y: 8
+  num_pins_x: 0
+  EP_size_x: 2.51
+  EP_size_y: 2.41
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/tlc2660.pdf#page=48'
+
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 6.5
+  body_size_x: 4.4
+  overall_size_x: 6.72
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 10
+  num_pins_x: 0
+  EP_size_x: 3.4
+  EP_size_y: 6.0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=37&zoom=160,-90,3'
+
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x4.68mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 7.8
+  body_size_x: 4.4
+  overall_size_x: 6.72
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 12
+  num_pins_x: 0
+  EP_size_x: 3.4
+  EP_size_y: 7.3
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps703.pdf'
+
+HTSSOP-32-1EP_6.1x11mm_P0.65mm_EP5.2x11mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 11.0
+  body_size_x: 6.1
+  overall_size_x: 8.3
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 16
+  num_pins_x: 0
+  EP_size_x: 5.2
+  EP_size_y: 10.5
+  override_lib_name: 'Package_SO'
+  size_source: 'N/A'
+
+HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 12.5
+  body_size_x: 6.1
+  overall_size_x: 8.43
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 19
+  num_pins_x: 0
+  EP_size_x: 5.2
+  EP_size_y: 12.0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=47&zoom=140,-67,15'
+
+PowerIntegrations_eSOP-12B:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.16
+  body_size_x: 8.89
+  overall_size_x: 10.9
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.78
+  num_pins_y: 6
+  num_pins_x: 0
+  deleted_pins: [5]
+  override_lib_name: 'Package_SO'
+  size_source: 'https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf'
+
+PowerIntegrations_SO-8:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://ac-dc.power.com/sites/default/files/product-docs/senzero_family_datasheet.pdf'
+
+PowerIntegrations_SO-8B:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  deleted_pins: [6]
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.mouser.com/ds/2/328/linkswitch-pl_family_datasheet-12517.pdf'
+
+PowerIntegrations_SO-8C:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  deleted_pins: [3]
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.mouser.com/ds/2/328/linkswitch-pl_family_datasheet-12517.pdf'
+
+SO-4_4.4x2.3mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 2.3
+  body_size_x: 4.4
+  overall_size_x: 7.3
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 2
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://datasheet.octopart.com/OPIA403BTRE-Optek-datasheet-5328560.pdf'
+
+SO-4_4.4x3.6mm_P2.54mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 3.6
+  body_size_x: 4.4
+  overall_size_x: 7.3
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.45
+  pitch: 2.54
+  num_pins_y: 2
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339'
+
+SO-4_4.4x4.3mm_P2.54mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.3
+  body_size_x: 4.4
+  overall_size_x: 7.0
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.84
+  pitch: 2.54
+  num_pins_y: 2
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/docs/AV02-0173EN'
+
+SO-6_4.4x3.6mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 3.6
+  body_size_x: 4.4
+  overall_size_x: 7.3
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SO-8_3.9x4.9mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.19
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.905
+  body_size_x: 3.9
+  overall_size_x: 5.995
+  body_pcb_gap: 0.1
+  body_height: 1.75
+  lead_width: 0.41
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.ti.com/lit/ds/symlink/thvd1400.pdf'
+
+SOIC-16W-12_7.5x10.3mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.3
+  body_size_x: 7.5
+  overall_size_x: 9.3
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 8
+  num_pins_x: 0
+  deleted_pins: [4, 5, 12, 13]
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/docs/AV02-0169EN'
+
+SOIC-8-N7_3.9x4.9mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 5.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  deleted_pins: [7]
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.onsemi.com/pub/Collateral/NCP1207B.PDF'
+
+SSO-6_6.8x4.6mm_P1.27mm_Clearance7mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.6
+  body_size_x: 6.8
+  overall_size_x: 9.54
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-6_6.8x4.6mm_P1.27mm_Clearance8mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.6
+  body_size_x: 6.8
+  overall_size_x: 11.74
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-8_13.6x6.3mm_P1.27mm_Clearance14.2mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 6.3
+  body_size_x: 13.6
+  overall_size_x: 16.96
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 5.9
+  body_size_x: 6.8
+  overall_size_x: 9.54
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 5.9
+  body_size_x: 6.8
+  overall_size_x: 11.7
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-8_9.6x6.3mm_P1.27mm_Clearance10.5mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 6.3
+  body_size_x: 9.6
+  overall_size_x: 13.5
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.45
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true'
+
+SSO-8-7_6.4x9.7mm_P2.54mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.0
+  lead_height: 0.25
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_len: 1.3
+  corners_chamfer: 0.0
+  body_size_y: 9.7
+  body_size_x: 6.4
+  overall_size_x: 10.0
+  body_pcb_gap: 0.1
+  body_height: 3.4
+  lead_width: 0.5
+  pitch: 2.54
+  num_pins_y: 4
+  num_pins_x: 0
+  deleted_pins: [7]
+  override_lib_name: 'Package_SO'
+  size_source: 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312161855_BC-BC2213A_C596512.pdf'
+
+SSOP-10_3.9x4.9mm_P1.00mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.1
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.36
+  pitch: 1.0
+  num_pins_y: 5
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/viper01.pdf'
+
+SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.4
+  pitch: 1.0
+  num_pins_y: 5
+  num_pins_x: 0
+  EP_size_x: 2.1
+  EP_size_y: 3.3
+  override_lib_name: 'Package_SO'
+  size_source: 'http://download.py32.org/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/zh-CN/PY32F002A%20%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_Rev1.0.pdf#page=44'
+
+SSOP-20_3.9x8.7mm_P0.635mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 8.7
+  body_size_x: 3.9
+  overall_size_x: 6.2
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.25
+  pitch: 0.64
+  num_pins_y: 10
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf'
+
+SSOP-28_3.9x9.9mm_P0.635mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 9.9
+  body_size_x: 3.9
+  overall_size_x: 6.2
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.25
+  pitch: 0.64
+  num_pins_y: 14
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://cds.linear.com/docs/en/datasheet/38901fb.pdf'
+
+SSOP-44_5.3x12.8mm_P0.5mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 12.8
+  body_size_x: 5.3
+  overall_size_x: 7.75
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.17
+  pitch: 0.5
+  num_pins_y: 22
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://cds.linear.com/docs/en/datasheet/680313fa.pdf'
+
+ST_PowerSSO-24_SlugDown:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.3
+  body_size_x: 7.5
+  overall_size_x: 9.87
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.3
+  pitch: 0.8
+  num_pins_y: 12
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/vnh2sp30-e.pdf'
+
+ST_PowerSSO-24_SlugUp:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.3
+  body_size_x: 7.5
+  overall_size_x: 9.87
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.3
+  pitch: 0.8
+  num_pins_y: 12
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/tda7266p.pdf, http://freedatasheets.com/downloads/Technical%20Note%20Powersso24%20TN0054.pdf'
+
+ST_PowerSSO-36_SlugDown:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.3
+  body_size_x: 7.5
+  overall_size_x: 9.87
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.5
+  num_pins_y: 18
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/tda7266p.pdf, http://freedatasheets.com/downloads/Technical%20Note%20Powersso24%20TN0054.pdf'
+
+ST_PowerSSO-36_SlugUp:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 10.3
+  body_size_x: 7.5
+  overall_size_x: 9.87
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.5
+  num_pins_y: 18
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/tda7492p.pdf, http://freedatasheets.com/downloads/Technical%20Note%20Powersso24%20TN0054.pdf'
+
+HTSOP-8-1EP_3.9x4.9mm_P1.27mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 5.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.st.com/resource/en/datasheet/tda7492p.pdf, http://freedatasheets.com/downloads/Technical%20Note%20Powersso24%20TN0054.pdf'
+
+Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 5.75
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.4
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps5430.pdf'
+
+Texas_PWP0020A:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 6.5
+  body_size_x: 4.4
+  overall_size_x: 5.94
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.65
+  num_pins_y: 10
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/drv8870.pdf'
+
+TI_SO-PowerPAD-8:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 5.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.5
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/lm5118.pdf'
+
+TSOP-5_1.65x3.05mm_P0.95mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 3.05
+  body_size_x: 1.65
+  overall_size_x: 2.8
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.4
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [5]
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/lm3404.pdf'
+
+TSOP-6_1.65x3.05mm_P0.95mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 3.05
+  body_size_x: 1.65
+  overall_size_x: 2.8
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.4
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.vishay.com/docs/71200/71200.pdf'
+
+TSOP-I-28_11.8x8mm_P0.55mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 8.0
+  body_size_x: 11.8
+  overall_size_x: 13.2
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.55
+  num_pins_y: 14
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.vishay.com/docs/71200/71200.pdf'
+
+TSOP-I-32_11.8x8mm_P0.5mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.1
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 8.0
+  body_size_x: 11.8
+  overall_size_x: 13.2
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.2
+  pitch: 0.5
+  num_pins_y: 16
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://ww1.microchip.com/downloads/en/devicedoc/doc0807.pdf'
+
+TSOP-II-44_10.16x18.41mm_P0.8mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 18.41
+  body_size_x: 10.16
+  overall_size_x: 11.66
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.25
+  pitch: 0.8
+  num_pins_y: 22
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf'
+
+TSOP-II-54_22.2x10.16mm_P0.8mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 22.2
+  body_size_x: 10.16
+  overall_size_x: 11.66
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.25
+  pitch: 0.8
+  num_pins_y: 27
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.issi.com/WW/pdf/61-64C5128AL.pdf'
+
+TSSOP-14-1EP_4.4x5mm_P0.65mm:
+  body_angle: 9.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 4.5
+  body_size_x: 4.4
+  overall_size_x: 5.5
+  body_pcb_gap: 0.1
+  body_height: 1.5
+  lead_width: 0.25
+  pitch: 0.65
+  num_pins_y: 7
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'N/A'
+
+Analog_KS-4:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.0
+  corners_chamfer: 0.12
+  body_size_y: 2.0
+  body_size_x: 1.25
+  overall_size_x: 2.1
+  body_pcb_gap: 0.1
+  body_height: 0.9
+  lead_width: 0.1
+  pitch: 0.1
+  num_pins_y: 16
+  num_pins_x: 0
+  deleted_pins: [4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf'
+
+SC-59:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.0
+  marker: "none"
+  corners_chamfer: 0.12
+  body_size_y: 3.0
+  body_size_x: 1.6
+  overall_size_x: 2.8
+  body_pcb_gap: 0.1
+  body_height: 1.2
+  lead_width: 0.4
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [2, 4, 6]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.infineon.com/dgdl/SC59-Package_Overview.pdf?fileId=5546d462580663ef0158069ca21703c1'
+
+SC-74:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.175
+  lead_radius_top: 0.12
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0
+  lead_len: 0.35
+  corners_chamfer: 0.0 #0.12
+  body_size_y: 2.9
+  body_size_x: 1.55
+  overall_size_x: 2.7
+  body_pcb_gap: 0.075
+  body_height: 1.1
+  lead_width: 0.35
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf' # EIAJ ED-7500A, pp 152
+
+SC-74A:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.175
+  lead_radius_top: 0.12
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0
+  lead_len: 0.35
+  corners_chamfer: 0.0 #0.12
+  body_size_y: 2.9
+  body_size_x: 1.55
+  overall_size_x: 2.7
+  body_pcb_gap: 0.075
+  body_height: 1.1
+  lead_width: 0.35
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [5,]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf' # EIAJ ED-7500A, pp 153
+
+SOT-23W:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.18
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  marker: "none"
+  corners_chamfer: 0.12
+  body_size_y: 2.98
+  body_size_x: 1.91
+  overall_size_x: 2.9
+  body_pcb_gap: 0.05
+  body_height: 0.95
+  lead_width: 0.4
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [2, 4, 6]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3'
+
+SOT-143:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  marker: "none"
+  corners_chamfer: 0.12
+  body_size_y: 2.9
+  body_size_x: 1.3
+  overall_size_x: 2.3
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.43
+  pitch: 0.38
+  num_pins_y: 6
+  num_pins_x: 0
+  deleted_pins: [3, 4, 5, 8, 9, 10, 11]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://www.nxp.com/docs/en/data-sheet/BFU530.pdf'
+
+SOT-143R:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  marker: "bar"
+  corners_chamfer: 0.12
+  body_size_y: 1.3
+  body_size_x: 2.9
+  overall_size_x: 3.9
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.43
+  pitch: 0.38
+  num_pins_y: 0
+  num_pins_x: 6
+  deleted_pins: [2, 3, 4, 5, 8, 9, 10]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://www.nxp.com/docs/en/package-information/SOT143R.pdf'
+
+SOT-223:
+  body_angle: 8.0
+  body_size_top_delta: 0.03
+  lead_height: 0.27
+  lead_radius_top: 0.2
+  lead_radius_bottom: 0.2
+  lead_top_flat_part_length: 0.5
+  marker: "none"
+  corners_chamfer: 0.0
+  body_size_y: 6.5
+  body_size_x: 3.5
+  overall_size_x: 7.0
+  body_pcb_gap: 0.1
+  body_height: 1.6
+  lead_width: 0.7667
+  pitch: 0.7667
+  num_pins_y: 7
+  num_pins_x: 0
+  deleted_pins: [2, 3, 5, 6, 8, 9, 13, 14]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.nxp.com/documents/outline_drawing/SOT223.pdf'
+
+TSOT-23:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  marker: "none"
+  corners_chamfer: 0.12
+  body_size_y: 2.9
+  body_size_x: 1.6
+  overall_size_x: 2.8
+  body_pcb_gap: 0.1
+  body_height: 0.85
+  lead_width: 0.35
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [2, 4, 6]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf'
+
+SC-82AA:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.0
+  corners_chamfer: 0.12
+  body_size_y: 2.0
+  body_size_x: 1.25
+  overall_size_x: 2.1
+  body_pcb_gap: 0.1
+  body_height: 0.9
+  lead_width: 0.1
+  pitch: 0.1
+  num_pins_y: 17
+  num_pins_x: 0
+  deleted_pins: [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/da227.pdf'
+
+SC-82AB:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.0
+  corners_chamfer: 0.12
+  body_size_y: 2.0
+  body_size_x: 1.25
+  overall_size_x: 2.1
+  body_pcb_gap: 0.1
+  body_height: 0.9
+  lead_width: 0.1
+  pitch: 0.1
+  num_pins_y: 16
+  num_pins_x: 0
+  deleted_pins: [4, 5, 6, 7, 8, 9, 10, 11, 12, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.infineon.com/dgdl/SOT343-Package_Overview.pdf?fileId=5546d462580663ef015806a5338d04ef'
+
+SuperSOT-3:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  marker: "none"
+  corners_chamfer: 0.12
+  body_size_y: 2.92
+  body_size_x: 1.4
+  overall_size_x: 2.51
+  body_pcb_gap: 0.1
+  body_height: 0.94
+  lead_width: 0.45
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  deleted_pins: [2, 4, 6]
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf'
+
+SuperSOT-6:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.05
+  corners_chamfer: 0.12
+  body_size_y: 2.92
+  body_size_x: 1.58
+  overall_size_x: 2.85
+  body_pcb_gap: 0.1
+  body_height: 1.02
+  lead_width: 0.45
+  pitch: 0.95
+  num_pins_y: 3
+  num_pins_x: 0
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.mouser.com/ds/2/149/FMB5551-889214.pdf'
+
+SuperSOT-8:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.15
+  lead_radius_top: 0.15
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.12
+  body_size_y: 4.06
+  body_size_x: 3.3
+  overall_size_x: 4.7
+  body_pcb_gap: 0.1
+  body_height: 1.02
+  lead_width: 0.45
+  pitch: 0.95
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'http://www.icbank.com/icbank_data/semi_package/ssot8_dim.pdf'
+
+SOT-223-8:
+  body_angle: 8.0
+  body_size_top_delta: 0.05
+  lead_height: 0.3
+  lead_radius_top: 0.15
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.12
+  body_size_y: 6.5
+  body_size_x: 3.5
+  overall_size_x: 7.0
+  body_pcb_gap: 0.1
+  body_height: 1.7
+  lead_width: 0.7
+  pitch: 1.53
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_TO_SOT_SMD'
+  size_source: 'https://www.diodes.com/assets/Datasheets/ZXSBMR16PT8.pdf'
+
+ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.1
+  lead_radius_top: 0.09
+  lead_radius_bottom: 0.09
+  lead_top_flat_part_length: 0.3
+  corners_chamfer: 0.25
+  body_size_y: 6.5
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.25
+  pitch: 0.65
+  num_pins_y: 10
+  num_pins_x: 0
+  EP_size_x: 3.0
+  EP_size_y: 4.2
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/lm5005.pdf'
+
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.09
+  lead_radius_bottom: 0.09
+  lead_top_flat_part_length: 0.25
+  corners_chamfer: 0.25
+  body_size_y: 6.5
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.1
+  lead_width: 0.25
+  pitch: 0.65
+  num_pins_y: 10
+  num_pins_x: 0
+  EP_size_x: 3.4
+  EP_size_y: 6.6
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mhts001g/mhts001g.pdf'
+
+HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.09
+  lead_radius_bottom: 0.09
+  lead_top_flat_part_length: 0.25
+  corners_chamfer: 0.25
+  body_size_y: 9.7
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.1
+  lead_width: 0.25
+  pitch: 0.65
+  num_pins_y: 14
+  num_pins_x: 0
+  EP_size_x: 3.4
+  EP_size_y: 9.5
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds033b/mpds033b.pdf'
+
+OnSemi_Micro8:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.18
+  lead_radius_top: 0.05
+  lead_radius_bottom: 0.05
+  lead_top_flat_part_length: 0.25
+  corners_chamfer: 0.25
+  body_size_y: 3.0
+  body_size_x: 3.0
+  overall_size_x: 4.9
+  body_pcb_gap: 0.1
+  body_height: 0.85
+  lead_width: 0.33
+  pitch: 0.65
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.onsemi.com/pub/Collateral/846A-02.PDF'
+
+PSOP-44_16.9x27.17mm_P1.27mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.2
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.5
+  corners_chamfer: 0.25
+  body_size_y: 28.5
+  body_size_x: 12.6
+  overall_size_x: 16.03
+  body_pcb_gap: 0.1
+  body_height: 2.69
+  lead_width: 0.41
+  pitch: 1.27
+  num_pins_y: 22
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://pdf.datasheetcatalog.com/datasheet/macronix/MX29F800TMI-90.pdf'
+
+SSOP-8_2.95x2.8mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.1
+  corners_chamfer: 0.25
+  body_size_y: 2.95
+  body_size_x: 2.8
+  overall_size_x: 4.0
+  body_pcb_gap: 0.05
+  body_height: 1.3
+  lead_width: 0.22
+  pitch: 0.65
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds049b/mpds049b.pdf'
+
+SSOP-8_3.95x5.21x3.27mm_P1.27mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.18
+  corners_chamfer: 0.25
+  body_size_y: 5.21
+  body_size_x: 3.95
+  overall_size_x: 6.0
+  body_pcb_gap: 0.01
+  body_height: 3.27
+  lead_width: 0.4
+  pitch: 1.27
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds049b/mpds049b.pdf'
+
+SSOP-16_3.9x4.9mm_P0.635mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.2
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.05
+  body_size_y: 4.9
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.75
+  lead_width: 0.25
+  pitch: 0.635
+  num_pins_y: 8
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://docs-asia.electrocomponents.com/webdocs/0156/0900766b80156779.pdf'
+
+SSOP-16_4.4x5.2mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 5.2
+  body_size_x: 4.4
+  overall_size_x: 6.5
+  body_pcb_gap: 0.1
+  body_height: 1.3
+  lead_width: 0.22
+  pitch: 0.65
+  num_pins_y: 8
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.onsemi.com/pub/Collateral/565AM.PDF'
+
+SSOP-18_4.4x6.5mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 6.5
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.3
+  lead_width: 0.24
+  pitch: 0.65
+  num_pins_y: 9
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'https://toshiba.semicon-storage.com/us/design-support/package/detail.SSOP18-P-225-0.65.html'
+
+SSOP-24_3.9x8.7mm_P0.635mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.15
+  lead_height: 0.22
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.25
+  corners_chamfer: 0.25
+  body_size_y: 8.7
+  body_size_x: 3.9
+  overall_size_x: 6.0
+  body_pcb_gap: 0.1
+  body_height: 1.55
+  lead_width: 0.25
+  pitch: 0.635
+  num_pins_y: 12
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://cds.linear.com/docs/en/packaging/05081641_B_GN24.pdf'
+
+SSOP-48_7.5x15.9mm_P0.635mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.18
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.5
+  corners_chamfer: 0.25
+  body_size_y: 15.9
+  body_size_x: 7.5
+  overall_size_x: 10.35
+  body_pcb_gap: 0.2
+  body_height: 2.79
+  lead_width: 0.223
+  pitch: 0.635
+  num_pins_y: 24
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds490/mpds490.pdf'
+
+SSOP-56_7.5x18.5mm_P0.635mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.5
+  corners_chamfer: 0.25
+  body_size_y: 18.5
+  body_size_x: 7.5
+  overall_size_x: 10.35
+  body_pcb_gap: 0.2
+  body_height: 2.79
+  lead_width: 0.223
+  pitch: 0.635
+  num_pins_y: 28
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds491/mpds491.pdf'
+
+TSOP-II-32_21.0x10.2mm_P1.27mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 21.0
+  body_size_x: 10.16
+  overall_size_x: 11.76
+  body_pcb_gap: 0.15
+  body_height: 1.2
+  lead_width: 0.4
+  pitch: 1.27
+  num_pins_y: 16
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.topline.tv/drawings/pdf/TSOP-T2/TSOP32T50-T2.pdf'
+
+TSSOP-8_3x3mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 3.0
+  body_size_x: 3.0
+  overall_size_x: 4.9
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.35
+  pitch: 0.65
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.nxp.com/documents/outline_drawing/SOT505-1.pdf'
+
+TSSOP-16-1EP_4.4x5mm_P0.65mm:
+  body_angle: 10.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.0
+  body_size_y: 5.0
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.26
+  pitch: 0.65
+  num_pins_y: 8
+  num_pins_x: 0
+  EP_size_x: 2.74
+  EP_size_y: 2.74
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.onsemi.com/pub/Collateral/948AP.PDF'
+
+TSSOP-44_4.4x11.2mm_P0.5mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.1
+  lead_radius_bottom: 0.1
+  lead_top_flat_part_length: 0.2
+  corners_chamfer: 0.25
+  body_size_y: 11.1
+  body_size_x: 4.4
+  overall_size_x: 6.4
+  body_pcb_gap: 0.1
+  body_height: 1.0
+  lead_width: 0.22
+  pitch: 0.5
+  num_pins_y: 22
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ml/mpds350b/mpds350b.pdf'
+
+VSO-40_7.6x15.4mm_P0.762mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.18
+  lead_radius_top: 0.2
+  lead_radius_bottom: 0.2
+  lead_top_flat_part_length: 0.4
+  corners_chamfer: 0.25
+  body_size_y: 15.4
+  body_size_x: 7.6
+  overall_size_x: 11.1
+  body_pcb_gap: 0.2
+  body_height: 2.35
+  lead_width: 0.36
+  pitch: 0.762
+  num_pins_y: 20
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.nxp.com/documents/outline_drawing/SOT158-1.pdf'
+
+VSO-56_11.1x21.5mm_P0.75mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.18
+  lead_radius_top: 0.2
+  lead_radius_bottom: 0.2
+  lead_top_flat_part_length: 0.6
+  corners_chamfer: 0.25
+  body_size_y: 21.5
+  body_size_x: 11.0
+  overall_size_x: 15.5
+  body_pcb_gap: 0.2
+  body_height: 2.9
+  lead_width: 0.36
+  pitch: 0.75
+  num_pins_y: 28
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.nxp.com/documents/outline_drawing/SOT190-1.pdf'
+
+VSSOP-8_3x3mm_P0.65mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.18
+  lead_radius_top: 0.05
+  lead_radius_bottom: 0.05
+  lead_top_flat_part_length: 0.05
+  corners_chamfer: 0.25
+  body_size_y: 3.0
+  body_size_x: 3.0
+  overall_size_x: 4.9
+  body_pcb_gap: 0.25
+  body_height: 1.1
+  lead_width: 0.32
+  pitch: 0.65
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/lm75b.pdf'
+
+VSSOP-8_2.3x2mm_P0.5mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.05
+  lead_radius_bottom: 0.05
+  lead_top_flat_part_length: 0.05
+  corners_chamfer: 0.25
+  body_size_y: 2.0
+  body_size_x: 2.3
+  overall_size_x: 3.1
+  body_pcb_gap: 0.1
+  body_height: 0.75
+  lead_width: 0.22
+  pitch: 0.5
+  num_pins_y: 4
+  num_pins_x: 0
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.nxp.com/documents/outline_drawing/SOT765-1.pdf'
+
+HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.15
+  lead_radius_top: 0.15
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0.4
+  corners_chamfer: 0.25
+  body_size_y: 14.0
+  body_size_x: 6.1
+  overall_size_x: 8.1
+  body_pcb_gap: 0.1
+  body_height: 1.2
+  lead_width: 0.22
+  pitch: 0.5
+  num_pins_y: 28
+  num_pins_x: 0
+  EP_size_x: 3.61
+  EP_size_y: 6.35
+  override_lib_name: 'Package_SO'
+  size_source: 'http://www.ti.com/lit/ds/symlink/drv8301.pdf'
+
+SOIC-8_3.81x9.347mm_P2.54mm:
+  body_angle: 12.0
+  body_size_top_delta: 0.1
+  lead_height: 0.203
+  lead_radius_top: 0.15
+  lead_radius_bottom: 0.15
+  lead_top_flat_part_length: 0.25
+  lead_len: 0.432
+  marker: "bar"
+  corners_chamfer: 0.25
+  body_size_y: 9.347
+  body_size_x: 3.81
+  overall_size_x: 6.096
+  body_pcb_gap: 0.0637  # Calculated: (0.102 + 0.0254)/2
+  body_height: 2.1203  # Calculated: Max overall hight 2.184 - body-board seperation 0.0637
+  lead_width: 0.381
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 4
+  override_lib_name: 'Package_SO'
+  size_source: 'https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc2014n-datasheet?assetguid=6e3baf84-de75-4ea7-97ce-3a5e05a007c9'

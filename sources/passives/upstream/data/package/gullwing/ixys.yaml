@@ -1,0 +1,39 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'Flatpak'
+  library_Suffix: 'DIP'
+
+IXYS_Flatpak-8_6.3x9.7mm_P2.54mm:
+  size_source: 'https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet'
+  custom_name_format: '{man}_Flatpak-{pincount}_{size_x:.2g}x{size_y:.2g}mm_P{pitch:.3g}mm'
+  manufacturer: IXYS
+  body_size_x: 6.350 +/- 0.127
+  body_size_y: 9.652 +/- 0.381
+  body_height: 2.159 +/- 0.025
+  body_pcb_gap: 0.051
+  overall_size_x: 9.398 +/- 0.127
+  lead_width: 0.457 +/- 0.076
+  lead_len: 0.635 +/- 0.127
+  lead_height: 0.203 +/- 0.013
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 4
+  pad_to_pad_min_x_overwrite: 7.15
+  pad_to_pad_max_x_overwrite: 10.25
+
+IXYS_SMD-8_6.3x9.7mm_P2.54mm:
+  size_source: 'https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet'
+  custom_name_format: '{man}_SMD-{pincount}_{size_x:.2g}x{size_y:.2g}mm_P{pitch:.3g}mm'
+  manufacturer: IXYS
+  body_size_x: 6.350 +/- 0.127
+  body_size_y: 9.652 +/- 0.381
+  overall_height: 3.302 +/- 0.051
+  overall_size_x: 9.525 +/- 0.254
+  lead_width: 0.457 +/- 0.076
+  lead_len: 0.635 +/- 0.127
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 4
+  pad_to_pad_min_x_overwrite: 7.25
+  pad_to_pad_max_x_overwrite: 10.55

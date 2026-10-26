@@ -1,0 +1,11 @@
+PartNumber,widthX,lengthY,height,landingOutsideX,landingInsideX,landingY,padX,padOutsideX,padY,cornerRadius,topFilletRadius,datasheet
+HCM-7070,7.0,7.0,7.0,7.6,2.5,2.2,1.8,7.0,2.0,0,0,https://www.we-online.com/components/products/datasheet/744307012.pdf
+HCM-7050,7.0,7.0,5.0,7.3,3.3,3.05,1.52,7.15,2.5,0,0,https://www.we-online.com/components/products/datasheet/744302007.pdf
+HCM-1050,10.0,7.0,5.0,10.35,6.35,3.05,1.52,10.2,2.5,0,0,https://www.we-online.com/components/products/datasheet/744303012.pdf
+HCM-1052,10.3,10.3,5.0,10.7,5.8,2.7,2.0,10.5,2.5,0,0,https://www.we-online.com/components/products/datasheet/744306020.pdf
+HCM-1070,10.0,7.0,6.8,11.2,4.0,2.6,2.6,10.1,1.6,0,0,https://www.we-online.com/components/products/datasheet/744308015.pdf
+HCM-1078,9.4,6.2,7.8,10.4,4.0,2.54,1.8,9.4,2.0,0,0,https://www.we-online.com/components/products/datasheet/7443081010.pdf
+HCM-1190,10.5,11.0,8.9,12.1,4.2,2.7,3.2,11.3,2.2,0.5,0.5,https://www.we-online.com/components/products/datasheet/744301025.pdf
+HCM-1240,10.0,11.8,3.8,12.0,6.8,4.5,1.7,11.5,3.8,0,0,https://www.we-online.com/components/products/datasheet/744304010.pdf
+HCM-1350,13.3,13.3,5.0,13.8,8.0,5.4,2.0,13.5,5.0,0,0,https://www.we-online.com/components/products/datasheet/744305022.pdf
+HCM-1390,12.5,13.0,9.0,15.0,10.0,5.0,1.8,14.0,4.5,0.5,0.5,https://www.we-online.com/components/products/datasheet/744309012.pdf

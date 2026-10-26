@@ -1,0 +1,2525 @@
+# All 'height' parameters are always measured from the top of the PCB,
+# unless the 'translation' parameter is used.  Negative 'height' is
+# used for things which go inside or under the PCB.
+#
+# modelName:        filename of the model
+# model_class:      name of model script
+#
+# rotation:         (optional) rotates the whole model around the Z axis, before the optional 'translation'
+# translation:      (optional) moves the whole model, after the optional 'rotation'
+#
+# body_width:       plastic body width, not including any protruding parts
+# body_length:      plastic body length, not including any protruding parts
+# body_height:      plastic body height, not including the metal shell on top
+# body_board_distance: (optional) space under the plastic body
+# body_corner_chamfer: (optional) plastic body vertical corners chamfer
+# body_corner_fillet:  (optional) plastic body vertical corners fillet
+# body_features:       (optional) list of additional features
+# pegs:                (optional) list of cylindrical pegs, extruded down from the bottom body
+#
+# shell_width:      shell top width, not including any additional shell parts
+# shell_length:     shell top length, not including any additional shell parts
+# shell_height:     very top of the shell, not including any additional shell parts
+# shell_thickness:  shell thickness, including top, sides, and shell GND pins
+# shell_corner_chamfer: (optional) shell top vertical corners chamfer
+# shell_corner_fillet:  (optional) shell top vertical corners fillet
+# shell_top_features:   (optional) list of additional features
+# shell_top_lips:       (optional) list of extrusions or cuts on the top of the shell
+#
+# shell_top_cover_type:   shell cover around the actuator
+#   round             round shaped cover
+#   rectangle         rectangular shaped cover
+#
+# Parameters for 'shell_top_cover_type: round':
+#   shell_top_cover_height:        top of the cover (accepts list)
+#   shell_top_cover_diameter:      lowest diameter (accepts list)
+#   shell_top_cover_corner_radius: (optional) corner radius (accepts list)
+#
+# Parameters for 'shell_top_cover_type: rectangle':
+#   shell_top_cover_height:        top of the cover (accepts list)
+#   shell_top_cover_width:         cover width (accepts list)
+#   shell_top_cover_length:        (optional) cover length (accepts list)
+#   shell_top_cover_diameter:      (optional) intersecting circle diameter (accepts list)
+#   shell_top_cover_corner_radius: (optional) horizontal corner radius (accepts list)
+#   shell_top_cover_vertical_corner_chamfer: (optional) corners chamfer
+#   shell_top_cover_vertical_corner_fillet: (optional) corners fillet
+#   shell_top_cover_top_chamfer:   (optional) chamfer on the top
+#   shell_top_cover_top_fillet:    (optional) fillet on the top
+#
+# shell_top_clip_direction:      (optional) facing direction of the clip
+# shell_top_clip_x:              (optional) x offset of hole and clip from center
+# shell_top_clip_y:              (optional) y offset of hole and clip from center
+# shell_top_clip_width:          (optional) clip width
+# shell_top_clip_length:         (optional) clip length
+# shell_top_clip_depth:          (optional) depth from the top of the shell
+# shell_top_clip_pocket_width:   (optional) hole width
+# shell_top_clip_pocket_length:  (optional) hole height
+# shell_top_clip_pocket_depth:   (optional) depth from the top of the shell
+# shell_top_clip_corner_radius:  (optional) shell clip curves radius
+#
+# shell_sides:  (optional) list of shell sides
+#
+# Parameters for 'shell_sides' items parameters:
+#   direction:              side direction in degrees (accepts list)
+#   distance:               side distance from center
+#   width:                  side width
+#   bottom_height:          very bottom
+#   hole_width:             (optional) hole width
+#   hole_top_height:        (optional) hole top
+#   hole_bottom_height:     (optional) hole bottom
+#   hole_bottom_gap_width:  (optional) hole bottom gap
+#   side_width:             (optional) sides with
+#   side_top_height:        (optional) sides height
+#   corner_chamfer:         (optional) bottom outside corners chamfer
+#   corner_fillet:          (optional) bottom outside corners fillet
+#   holder_chamfer:         (optional) protruded plastic holders top chamfer
+#   holder_fillet:          (optional) protruded plastic holders top fillet
+#   extrusions:             (optional) list of extrusions from the shell side bottom
+#
+# actuator_type:      shape and direction of the actuator
+#   top-round             top circle shaped actuator
+#   top-obround           top obround shaped actuator
+#   top-rectangle         top rectangle shaped actuator
+#   top-rectangle-round   top overlapping ractangle and circle shaped actuator
+#   top-hex               top hex shaped actuator
+#   side-rectangle        side rectangle shaped actuator
+#
+# Parameters for 'actuator_type: top-*':
+#   actuator_height:      top of the actuator
+#   actuator_top_chamfer: (optional) chamfer on the top edges of the actuator
+#   actuator_top_fillet:  (optional) fillet on the top edges of the actuator
+#
+# Parameters for 'actuator_type: top-round':
+#   actuator_height:              top of the actuator (accepts list)
+#   actuator_diameter:            diameter (accepts list)
+#   actuator_corner_radius:       (optional) corner fillet radius (accepts lists)
+#   actuator_shell_hole_diameter: shell hole diameter around the actuator
+#
+# Parameters for 'actuator_type: top-obround':
+#   actuator_width:             total width
+#   actuator_length:            total length
+#   actuator_shell_hole_width:  shell hole width around the actuator
+#   actuator_shell_hole_length: shell hole length around the actuator
+#
+# Parameters for 'actuator_type: top-rectangle':
+#   actuator_height:                height of the rectangle (accepts list)
+#   actuator_width:                 width of the rectangle (accepts list)
+#   actuator_length:                (optional) length of the rectangle (accepts list)
+#   actuator_shell_hole_width:      (if no round bottom) shell hole width around the actuator
+#   actuator_shell_hole_length:     (if no round bottom) (optional) shell hole length around the actuator
+#   actuator_shell_hole_corner_chamfer: (if no round bottom) (optional) shell hole vertical corners fillet
+#   actuator_shell_hole_corner_fillet:  (if no round bottom) (optional) shell hole vertical corners fillet
+#   actuator_shell_hole_diameter:   (if round bottom) shell hole diameter around the actuator
+#   actuator_chamfer:               (optional) chamfer on all edges (accepts list)
+#   actuator_fillet:                (optional) fillet on all edges (accepts list)
+#   actuator_top_hole_diameter:     (optional) hole on the very top of the head
+#   actuator_top_hole_depth:        (optional) depth of the hole
+#   actuator_top_hole_chamfer:      (optional) chamfer on the hole edge
+#   actuator_top_hole_fillet:       (optional) fillet on the hole edge
+#   actuator_round_bottom_height:   (optional) top of the round bottom part
+#   actuator_round_bottom_diameter: (optional) diameter of the round bottom part
+#   actuator_round_bottom_chamfer:  (optional) top edge chamfer of round bottom part
+#   actuator_round_bottom_fillet:   (optional) top edge fillet of round bottom part
+#
+# Parameters for 'actuator_type: top-rectangle-round':
+#   actuator_width:               rectangle width
+#   actuator_length:              rectangle length
+#   actuator_diameter:            circle diameter
+#   actuator_corner_chamfer:      (optional) vertical corners chamfer
+#   actuator_corner_fillet:       (optional) vertical corners fillet
+#   actuator_shell_hole_width:    shell hole width around the actuator
+#   actuator_shell_hole_length:   shell hole length around the actuator
+#   actuator_shell_hole_diameter: shell hole diameter around the actuator
+#   actuator_shell_hole_corner_chamfer: (optional) shell hole vertical corners fillet
+#   actuator_shell_hole_corner_fillet:  (optional) shell hole vertical corners fillet
+#
+# Parameters for 'actuator_type: top-hex':
+#   actuator_width:                     total width
+#   actuator_mid_length:                length in the middle of the actuator
+#   actuator_side_length:               length on the sides of the actuator
+#   actuator_corner_chamfer:            (optional) vertical corners chamfer
+#   actuator_corner_fillet:             (optional) vertical corners fillet
+#   actuator_shell_hole_width:          shell hole width
+#   actuator_shell_hole_mid_length:     shell hole length in the middle of the actuator
+#   actuator_shell_hole_side_length:    shell hole length on the sides of the actuator
+#   actuator_shell_hole_corner_chamfer: (optional) shell hole vertical corners fillet
+#   actuator_shell_hole_corner_fillet:  (optional) shell hole vertical corners fillet
+#
+# Parameters for 'actuator_type: side-rectangle':
+#   actuator_direction:          horizontal facing direction
+#   actuator_width:              actuator head width
+#   actuator_top_height:         top of the head
+#   actuator_bottom_height:      bottom of the head
+#   actuator_distance:           distance from component center to front of head
+#   actuator_thickness:          distance from front to back of head
+#   actuator_neck_width:         neck width
+#   actuator_neck_top_height:    top of the neck
+#   actuator_neck_bottom_height: bottom of the neck
+#   actuator_neck_gaps:          (optional) list rectangular neck gaps, top to bottom
+#   actuator_corner_chamfer:     (optional) front vertical corners chamfer
+#   actuator_corner_fillet:      (optional) front vertical corners fillet
+#   actuator_bottom_chamfer:     (optional) chamfer at the front bottom of the head
+#   actuator_bottom_fillet:      (optional) fillet at the front bottom of the head
+#
+# actuator_base_height:         (optional) very top of base plate, otherwise no base plate
+# actuator_base_width:          (optional) base plate width
+# actuator_base_length:         (optional) base plate length
+# actuator_base_diameter:       (optional) base plate diameter (for round base plate)
+# actuator_base_corner_chamfer: (optional) corners chamfer
+# actuator_base_corner_fillet:  (optional) corners fillet
+# actuator_base_top_chamfer:    (optional) top edges chamfer
+# actuator_base_top_fillet:     (optional) top edges fillet
+#
+# actuator_features: (optional) list of additional features
+#
+# pin_type:       type of pins
+#   gullwing      gullwing shape
+#   top-jbend     j-shaped pin, ending under the plastic body
+#   bottom-jbend  j-shaped pin, starting under the plastic body
+#   flat          flat SMD pin
+#   through-hole  through hole pin
+#
+# Common pin parameters:
+#   pin_width:      pin width, measured front to back
+#   pin_thickness:  pin thickness, measured top to bottom
+#   pin_board_distance:  (optional) moves the whole pin in relation to the board, otherwise 0
+#   pins:           list of positions and orientation for each pin [[x, y, ori], ...]
+#
+# Parameters for 'pin_type: gullwing':
+#   pin_length:         horizontal length
+#   pin_top_height:     highest part
+#   pin_top_length:     (optional) horizontal length of the top part
+#   pin_bottom_height:  (optional) lowest part
+#   pin_bottom_length:  (optional) horizontal length of the bottom part
+#   pin_corner_radius:  (optional) radius for all curves
+#
+# Parameters for 'pin_type: top-jbend':
+#   pin_top_height:     highest part
+#   pin_top_length:     horizontal length of the top part, where the pin base is
+#   pin_top_radius:     (optional) radius of top corner
+#   pin_bottom_length:  horizontal length of the bottom part, where the pin tip is
+#   pin_corner_radius:  (optional) bottom corner radius
+#
+# Parameters for 'pin_type: bottom-jbend':
+#   pin_length:         horizontal length
+#   pin_top_height:     highest part
+#   pin_top_length:     horizontal length of the top part, where the pin tip is
+#   pin_start_radius:   (optional) corner radius at the base of the pin
+#   pin_corner_radius:  (optional) bottom corner radius, where the pin curves up (accepts list)
+#
+# Parameters for 'pin_type: flat':
+#   pin_length:         base to tip length
+#
+# Parameters for 'pin_type: through-hole':
+#   pin_base_offset:    horizontal offset of start of the pin
+#   pin_base_height:    top height (accepts list)
+#   pin_bottom_height:  very bottom of the pin
+#   pin_corners:        positions of each corner (nesting can be used for different pins)
+#   pin_corner_radius   (optional) corner radius
+#   pin_tip_chamfer:    (optional) tip chamfer
+#   pin_tip_fillet:     (optional) tip fillet
+#
+# gnd_pin:  (optional) list of GND pins, connected to the shell
+#   gullwing        pin with a gullwing shape
+#   straight        pin starts at top of shell and goes straight down
+#
+# body_color_key:           plastic body color (usually 'black body')
+# shell_color_key:          metal shell color (always 'metal silver')
+# actuator_color_key:       color of the actuator (usually 'black body', but often differs depending on operating force)
+# actuator_base_color_key:  (optional) the color of the base, if used (often same as 'actuator_color_key')
+# pins_color_key:           pins color (should always be 'metal grey pins' or 'gold pins')
+#
+# destination_dir:  packages directory name
+# source:           datasheet URL
+
+SW_TH_Tactile_Omron_B3F-100x:
+  modelName: SW_TH_Tactile_Omron_B3F-100x
+  model_class: tactile
+
+  translation: [3.25, -2.25, 0]
+
+  body_width: 6.0
+  body_length: 6.0
+  body_height: 3.1
+  body_corner_chamfer: 0.2
+  body_features: [
+    [add, cylinder, [-2.15, -2.15, 3.5], XY, 0.8, 1.2, fillet, [">Z", 0.2]], # op, type, pos, dim, extra
+    [add, cylinder, [-2.15,  2.15, 3.5], XY, 0.8, 1.2, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 2.15, -2.15, 3.5], XY, 0.8, 1.2, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 2.15,  2.15, 3.5], XY, 0.8, 1.2, fillet, [">Z", 0.2]],
+    [cut, box, [0, 0, 0.2], [6, 1.8, 0.4]],
+    [cut, box, [0, -2.15, 0.2], [3.1, 1.7, 0.4]],
+    [cut, box, [0,  2.15, 0.2], [3.1, 1.7, 0.4]],
+    [cut, box, [-2.75, -2.15, 0.325], [0.5, 1.7, 0.65]],
+    [cut, box, [-2.75,  2.15, 0.325], [0.5, 1.7, 0.65]],
+    [cut, box, [ 2.75, -2.15, 0.325], [0.5, 1.7, 0.65]],
+    [cut, box, [ 2.75,  2.15, 0.325], [0.5, 1.7, 0.65]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 6.0
+  shell_height: 3.4
+  shell_thickness: 0.3
+  shell_corner_chamfer: 0.5
+  shell_top_lips: [
+    [cut, [90, 270], 0, -0.15, 2.4, 2.1], # op, direction, offs, len, base_w, tip_w
+  ]
+
+  actuator_type: top-round
+  actuator_height: 4.3
+  actuator_diameter: 3.5
+  actuator_shell_hole_diameter: 3.6
+  actuator_top_fillet: 0.2
+
+  pin_type: through-hole
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_base_height: 1.1
+  pin_base_offset: -0.25
+  pin_bottom_height: -3.5
+  pin_corners: [
+    [0.25,  1.1],
+    [0.60, -1.8],
+    [0.15, -2.7],
+  ]
+  pin_corner_radius: 0.45
+  pin_tip_chamfer: [0.2, 0.6]
+  pins: [
+    [-3.25,  2.25, 180],
+    [-3.25, -2.25, 180],
+    [ 3.25, -2.25,   0],
+    [ 3.25,  2.25,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: white body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_THT.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
+
+SW_TH_Tactile_Omron_B3F-102x:
+  inherit: SW_TH_Tactile_Omron_B3F-100x
+  modelName: SW_TH_Tactile_Omron_B3F-102x
+
+  actuator_height: 5.0
+
+  actuator_color_key: black body
+  include_in_qa: True
+
+SW_TH_Tactile_Omron_B3F-106x:
+  inherit: SW_TH_Tactile_Omron_B3F-100x
+  modelName: SW_TH_Tactile_Omron_B3F-102x
+
+  actuator_height: 7.0
+
+  actuator_color_key: black body
+
+SW_TH_Tactile_Omron_B3F-107x:
+  inherit: SW_TH_Tactile_Omron_B3F-100x
+  modelName: SW_TH_Tactile_Omron_B3F-102x
+
+  actuator_height: [3.1, 3.4, 9.5]
+  actuator_diameter: [3.5, 3.5, 3.0]
+
+  actuator_color_key: black body
+
+SW_TH_Tactile_Omron_B3F-110x:
+  inherit: SW_TH_Tactile_Omron_B3F-100x
+  modelName: SW_TH_Tactile_Omron_B3F-110x
+
+  shell_top_lips: [
+    [cut, 90, 0, -0.15, 2.4, 2.1], # op, direction, offs, len, base_w, tip_w
+    [cut, [0, 180], 0, -0.15, 2.8, 2.5],
+    [add, [0, 180], 0, -0.15, 1.5, 1.8],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 3.4,
+      width: 1.5,
+      bottom_height: 2.0,
+      corner_fillet: 0.3,
+    }
+  ]
+
+  gnd_pin: [
+    [straight, 270, 0.0, -4.25, -3.5, 0.7, tip_chamfer, [0.2, 1.0], top_width, 1.5, mid_top_height, 0.8, mid_bottom_height, 0.1], # type, direction, x, y, bottom_height, width, extra params
+  ]
+
+SW_TH_Tactile_Omron_B3F-112x:
+  inherit: SW_TH_Tactile_Omron_B3F-110x
+  modelName: SW_TH_Tactile_Omron_B3F-112x
+
+  actuator_height: 5.0
+
+  actuator_color_key: black body
+
+SW_TH_Tactile_Omron_B3F-1110:
+  inherit: SW_TH_Tactile_Omron_B3F-112x
+  modelName: SW_TH_Tactile_Omron_B3F-1110
+
+  translation: [3.75, -2.25, 0]
+
+  pin_base_offset: -0.75
+  pin_corners: [
+    [0.20,  1.1],
+    [0.75, -2.2],
+  ]
+  pin_corner_radius: [0.80, 0.45]
+  pins: [
+    [-3.75,  2.25, 180],
+    [-3.75, -2.25, 180],
+    [ 3.75, -2.25,   0],
+    [ 3.75,  2.25,   0],
+  ]
+
+SW_SPST_Omron_B3FS-100xP:
+  modelName: SW_SPST_Omron_B3FS-100xP
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 5.8
+  body_height: 2.45
+  body_board_distance: 0.1
+  body_corner_chamfer: 0.25
+  body_features: [
+    [cut, box, [0, 0, 0.1], [6, 2, 0.2]], # op, type, pos, dim, extra
+    [cut, box, [-2.75, -2.2, 0.3], [0.5, 1.4, 0.6]],
+    [cut, box, [-2.75,  2.2, 0.3], [0.5, 1.4, 0.6]],
+    [cut, box, [ 2.75, -2.2, 0.3], [0.5, 1.4, 0.6]],
+    [cut, box, [ 2.75,  2.2, 0.3], [0.5, 1.4, 0.6]],
+  ]
+
+  shell_width: 5.8
+  shell_length: 5.5
+  shell_height: 2.6
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.25, 1.7, 1.3], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180], 0, 0.10, 2.0, 2.0],
+    [add, [0, 180], -2.08, 0.10, 0.75, 0.75],
+    [add, [0, 180],  2.08, 0.10, 0.75, 0.75],
+  ]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.15,
+      width: 5.8,
+      bottom_height: 1.2,
+      hole_width: 2.1,
+      hole_bottom_height: 1.6,
+      corner_chamfer: [0.5, 0.4],
+      holder_chamfer: [0.2, 0.425],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 3.1
+  actuator_diameter: 3.0
+  actuator_shell_hole_diameter: 3.2
+  actuator_top_fillet: 0.2
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_length: 1
+  pin_top_height: 1.0
+  pin_corner_radius: 0.4
+  pins: [
+    [-4,  2.25, 180],
+    [-4, -2.25, 180],
+    [ 4, -2.25,   0],
+    [ 4,  2.25,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf
+
+SW_SPST_Omron_B3FS-101xP:
+  inherit: SW_SPST_Omron_B3FS-100xP
+  modelName: SW_SPST_Omron_B3FS-101xP
+
+  actuator_height: 4.3
+
+SW_SPST_Omron_B3FS-105xP:
+  inherit: SW_SPST_Omron_B3FS-100xP
+  modelName: SW_SPST_Omron_B3FS-105xP
+
+  actuator_type: top-rectangle
+  actuator_height: [2.45, 5.5, 5.5, 7.3]
+  actuator_width: [1.6, 1.6, 2.4, 2.4]
+  actuator_fillet: [0.3, 0, 0.3, 0.3]
+  actuator_top_hole_diameter: 1.4
+  actuator_top_hole_depth: 1.8
+  actuator_round_bottom_height: 3.1
+  actuator_round_bottom_diameter: 3.0
+  actuator_round_bottom_fillet: 0.2
+  actuator_shell_hole_diameter: 3.2
+
+SW_SPST_B3S-1000:
+  modelName: SW_SPST_B3S-1000
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 6.0
+  body_height: 3.28
+  body_corner_chamfer: 0.25
+  body_features: [
+    [cut, box, [0, 0, 0.05], [6, 2.6, 0.1]], # op, type, pos, dim, extra
+    [cut, box, [-2.75, -2.3, 0.25], [0.5, 1.4, 0.5]],
+    [cut, box, [-2.75,  2.3, 0.25], [0.5, 1.4, 0.5]],
+    [cut, box, [ 2.75, -2.3, 0.25], [0.5, 1.4, 0.5]],
+    [cut, box, [ 2.75,  2.3, 0.25], [0.5, 1.4, 0.5]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 5.6
+  shell_height: 3.5
+  shell_thickness: 0.22
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.3,
+      width: 6.0,
+      bottom_height: 1.75,
+      hole_width: 4.4,
+      hole_bottom_height: 2.4,
+      hole_bottom_gap_width: 2.6,
+      corner_fillet: 1.0,
+      holder_chamfer: [0.30, 0.25],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 4.3
+  actuator_diameter: 3.3
+  actuator_shell_hole_diameter: 3.6
+  actuator_top_fillet: 0.15
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.1
+  pin_length: 1.5
+  pin_top_height: 0.85
+  pin_top_length: 0.2
+  pin_bottom_length: 1.3
+  pin_corner_radius: 0.2
+  pins: [
+    [-4.5,  2.25, 180],
+    [-4.5, -2.25, 180],
+    [ 4.5, -2.25,   0],
+    [ 4.5,  2.25,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: white body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3s.pdf
+
+SW_SPST_B3S-1100:
+  inherit: SW_SPST_B3S-1000
+  modelName: SW_SPST_B3S-1100
+
+  translation: [0, 0.92, 0]
+
+  gnd_pin: [
+    [gullwing, 270, 0.0, -4.7, 0.7, top_width, 1.5, mid_top_height, 1.8, mid_bottom_height, 1.1], # type, direction, tip_x, tip_y, width, extra params
+  ]
+
+SW_SPST_B3SL-1002P:
+  modelName: SW_SPST_B3SL-1002P
+  model_class: tactile
+
+  body_width: 6.2
+  body_length: 5.7
+  body_height: 1.85
+  body_features: [
+    [cut, box, [0, 0, 0.05], [6.2, 3.0, 0.1]], # op, type, pos, dim, extra
+    [cut, box, [-2.5, 0, 0.05], [1.2, 5.7, 0.1]],
+    [cut, box, [ 2.5, 0, 0.05], [1.2, 5.7, 0.1]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 5.3
+  shell_height: 2.5
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.2, 2.6, 2.2], # op, direction, offs, len, base_w, tip_w
+    [cut, [90, 270], -2.9, -0.25, 0.2, 0.2],
+    [cut, [90, 270],  2.9, -0.25, 0.2, 0.2],
+    [add, [0, 180], -2.05, 0.1, 0.7, 0.7],
+    [add, [0, 180],  2.05, 0.1, 0.7, 0.7],
+    [add, 180, 0, 0.1, 1.5, 1.36],
+  ]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.25,
+      width: 5.6,
+      bottom_height: 0.45,
+      hole_width: 3.2,
+      hole_bottom_height: 1.0,
+      corner_chamfer: [0.6, 0.9],
+      holder_chamfer: [0.4, 0.425],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 3.4
+  actuator_diameter: 2.5
+  actuator_shell_hole_diameter: 3.2
+  actuator_top_fillet: 0.2
+
+  actuator_base_height: 2.35
+  actuator_base_diameter: 6.1
+
+  pin_type: bottom-jbend
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_length: 1.3
+  pin_top_height: 1.2
+  pin_top_length: 0
+  pin_corner_radius: 0.4
+  pin_start_radius: 0.3
+  pins: [
+    [-3.5,  2.0, 180],
+    [-3.5, -2.0, 180],
+    [ 3.5, -2.0,   0],
+    [ 3.5,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: green body
+  actuator_base_color_key: green body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3sl.pdf
+
+SW_SPST_B3SL-1022P:
+  inherit: SW_SPST_B3SL-1002P
+  modelName: SW_SPST_B3SL-1022P
+
+  actuator_height: 5.1
+
+  actuator_color_key: grey body
+  actuator_base_color_key: grey body
+
+SW_SPST_B3U-1000P:
+  modelName: SW_SPST_B3U-1000P
+  model_class: tactile
+
+  body_width: 3.0
+  body_length: 2.1
+  body_height: 1.08
+  body_features: [
+    [add, box, [0, -1.15, 0.3], [1.85, 0.2, 0.6]], # op, type, pos, dim, extra
+    [add, box, [0,  1.15, 0.3], [1.85, 0.2, 0.6]],
+  ]
+
+  shell_width: 3.0
+  shell_length: 2.0
+  shell_height: 1.2
+  shell_thickness: 0.12
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 1.25,
+      width: 2.45,
+      bottom_height: 0.1,
+      hole_width: 1.85,
+      hole_top_height: 0.6,
+      side_width: 3.0,
+      side_top_height: 0.6,
+      holder_chamfer: [0.15, 0.45],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 1.6
+  actuator_diameter: 1.5
+  actuator_shell_hole_diameter: 1.6
+  actuator_features: [
+    [cut, box, [0, 0.9, 0.8], [1.5, 0.6, 1.6]], # op, type, pos, dim, extra
+    [fillet, "not <Z", 0.2],
+  ]
+
+  pin_type: flat
+  pin_width: 1.4
+  pin_thickness: 0.1
+  pin_length: 0.6
+  pins: [
+    [-2, 0, 180],
+    [ 2, 0,   0],
+  ]
+
+  body_color_key: white body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf
+
+SW_SPST_B3U-1000P-B:
+  inherit: SW_SPST_B3U-1000P
+  modelName: SW_SPST_B3U-1000P-B
+
+  pegs: [
+    [0, 0, 0.65, -0.5, chamfer, [0.15, 0.15]], # x, y, diameter, height, extra params
+  ]
+
+SW_SPST_B3U-1100P:
+  inherit: SW_SPST_B3U-1000P
+  modelName: SW_SPST_B3U-1100P
+
+  translation: [0, 0.82, 0]
+
+  gnd_pin: [
+    [gullwing, 270, 0.0, -1.9, 0.5, top_height, 0.74, bottom_length, 0.6], # type, direction, tip_x, tip_y, height, width, extra params
+  ]
+
+SW_SPST_B3U-1100P-B:
+  inherit: SW_SPST_B3U-1100P
+  modelName: SW_SPST_B3U-1100P-B
+
+  pegs: [
+    [0, 0, 0.65, -0.5, chamfer, [0.15, 0.15]], # x, y, diameter, height, extra params
+  ]
+
+SW_SPST_B3U-3000P:
+  modelName: SW_SPST_B3U-3000P
+  model_class: tactile
+
+  body_width: 3.0
+  body_length: 1.85
+  body_height: 1.08
+  body_features: [
+    [add, box, [0, -1.0875, 0.3], [1.8, 0.325, 0.6]], # op, type, pos, dim, extra
+    [add, box, [0,  1.0875, 0.3], [1.8, 0.325, 0.6]],
+  ]
+
+  shell_width: 3.0
+  shell_length: 2.0
+  shell_height: 1.2
+  shell_thickness: 0.12
+
+  shell_top_clip_direction: 270
+  shell_top_clip_x: 0
+  shell_top_clip_y: 0
+  shell_top_clip_width:  1.1
+  shell_top_clip_length: 1.0
+  shell_top_clip_depth: 0.45
+  shell_top_clip_pocket_width: 1.6
+  shell_top_clip_pocket_length: 1.3
+  shell_top_clip_pocket_depth: 0.5
+  shell_top_clip_corner_radius: 0.2
+
+  shell_sides: [
+    {
+      direction: 90,
+      distance: 1.25,
+      width: 2.45,
+      bottom_height: 0.3,
+      hole_width: 1.8,
+      side_width: 3,
+      side_top_height: 0.6,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.15, 0.26],
+    },
+    {
+      direction: 270,
+      distance: 1.25,
+      width: 2.45,
+      bottom_height: 0.3,
+      hole_width: 1.8,
+      hole_top_height: 0.6,
+      side_width: 3,
+      side_top_height: 0.6,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.15, 0.26],
+    },
+  ]
+
+  actuator_type: side-rectangle
+  actuator_direction: 90
+  actuator_width: 1.7
+  actuator_top_height: 1.1
+  actuator_bottom_height: 0.1
+  actuator_distance: 1.95
+  actuator_thickness: 0.35
+  actuator_neck_width: 1.7
+  actuator_neck_top_height: 1.04
+  actuator_neck_bottom_height: 0.64
+  actuator_neck_gaps: [[-0.35, 0.2], [0.35, 0.2]] # [[x, w], ...]
+  actuator_corner_chamfer: [0.4, 0.3]
+
+  pin_type: flat
+  pin_width: 1.4
+  pin_thickness: 0.1
+  pin_length: 0.8
+  pins: [
+    [-2, 0, 180],
+    [ 2, 0,   0],
+  ]
+
+  body_color_key: white body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf
+
+SW_SPST_B3U-3000P-B:
+  inherit: SW_SPST_B3U-3000P
+  modelName: SW_SPST_B3U-3000P-B
+
+  pegs: [
+    [0, 0, 0.65, -0.5, chamfer, [0.15, 0.15]], # x, y, diameter, height, extra params
+  ]
+
+SW_SPST_B3U-3100P:
+  inherit: SW_SPST_B3U-3000P
+  modelName: SW_SPST_B3U-3100P
+
+  translation: [0, 0.82, 0]
+
+  gnd_pin: [
+    [gullwing, 270, 0.0, -1.9, 0.5, top_height, 0.74, bottom_length, 0.6], # type, direction, tip_x, tip_y, width, extra params
+  ]
+
+SW_SPST_B3U-3100P-B:
+  inherit: SW_SPST_B3U-3100P
+  modelName: SW_SPST_B3U-3100P-B
+
+  pegs: [
+    [0, 0, 0.65, -0.5, chamfer, [0.15, 0.15]], # x, y, diameter, height, extra params
+  ]
+
+SW_SPST_EVPBF:
+  modelName: SW_SPST_EVPBF
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 5.6
+  body_height: 1.65
+
+  shell_width: 5.6
+  shell_length: 5.6
+  shell_height: 2.5
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [0, 180], -2.2, 0.3, 0.6, 0.6], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  2.2, 0.3, 0.6, 0.6],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 3.0,
+      width: 3.0,
+      bottom_height: 1.65,
+      corner_fillet: 0.1,
+    },
+    {
+      direction: [90, 270],
+      distance: 3.0,
+      width: 3.5,
+      bottom_height: 0.55,
+      hole_width: 2.8,
+      hole_top_height: 1.3,
+      side_width: 4.65,
+      side_top_height: 1.0,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.15, 0.2],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 3.5
+  actuator_diameter: 3.4
+  actuator_shell_hole_diameter: 3.7
+  actuator_top_fillet: 0.2
+
+  actuator_base_height: 2.35
+  actuator_base_width: 5.4
+  actuator_base_length: 5.4
+  actuator_base_top_fillet: 0.2
+  actuator_base_corner_fillet: 0.5
+
+  pin_type: bottom-jbend
+  pin_width: 0.8
+  pin_thickness: 0.2
+  pin_length: 1.3
+  pin_top_height: 0.8
+  pin_top_length: 0.3
+  pin_corner_radius: 0.2
+  pins: [
+    [-3.3,  2.0, 180],
+    [-3.3, -2.0, 180],
+    [ 3.3, -2.0,   0],
+    [ 3.3,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: white body
+  actuator_base_color_key: white body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C432.pdf
+
+SW_SPST_EVQP0:
+  modelName: SW_SPST_EVQP0
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 5.5
+  body_height: 1.65
+  body_features: [
+    [chamfer, "|Z and >X and >Y", 0.1],  # op, edges, chamfer/fillet amount
+    [fillet,  "|Z and >X and <Y", 0.1],
+    [fillet,  "|Z and <X and <Y", 0.1],
+    [fillet,  "|Z and <X and >Y", 0.1],
+  ]
+
+  shell_width: 6.0
+  shell_length: 5.6
+  shell_height: 1.8
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [0, 180], -2.25, 0.1, 0.7, 0.7], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  2.25, 0.1, 0.7, 0.7],
+  ]
+
+  shell_top_cover_type: round
+  shell_top_cover_height: [1.65, 1.8, 1.7, 1.7]
+  shell_top_cover_diameter: [3.0, 3.0, 2.8, 2.5]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 3.25,
+      width: 3.0,
+      bottom_height: 1.3,
+      corner_chamfer: [0.3, 0.3],
+    },
+    {
+      direction: [90, 270],
+      distance: 3,
+      width: 3.5,
+      bottom_height: 0.55,
+      hole_width: 2.8,
+      hole_top_height: 1.2,
+      side_width: 4.6,
+      side_top_height: 1.0,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.2, 0.2],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 2.5
+  actuator_diameter: 2
+  actuator_shell_hole_diameter: 2.5
+  actuator_top_fillet: 0.2
+
+  pin_type: bottom-jbend
+  pin_width: 0.8
+  pin_thickness: 0.2
+  pin_length: 1.3
+  pin_top_height: 0.8
+  pin_top_length: 0.15
+  pin_corner_radius: 0.2
+  pins: [
+    [-3.3,  2.0, 180],
+    [-3.3, -2.0, 180],
+    [ 3.3, -2.0,   0],
+    [ 3.3,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: blue body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C360.pdf
+
+SW_SPST_EVQP2_MiddlePushTravel_H2.5mm:
+  modelName: SW_SPST_EVQP2_MiddlePushTravel_H2.5mm
+  model_class: tactile
+
+  body_width: 4.7
+  body_length: 3.2
+  body_height: 1.5
+  body_features: [
+    [add, box, [0, -1.675, 0.55], [2.65, 0.15, 1.1]], # op, type, pos, dim, extra
+    [add, box, [0,  1.675, 0.55], [2.65, 0.15, 1.1]],
+    [cut, box, [0, 0, 0.015], [1.0, 3.5, 0.03]],
+  ]
+
+  shell_width: 4.3
+  shell_length: 3.1
+  shell_height: 1.65
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [0, 180], -1.15, 0.15, 0.5, 0.5], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  1.15, 0.15, 0.5, 0.5],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 2.35,
+      width: 0.8,
+      bottom_height: 0.95,
+      corner_fillet: 0.05,
+    },
+    {
+      direction: [90, 270],
+      distance: 1.75,
+      width: 3.4,
+      bottom_height: 0.45,
+      hole_width: 2.65,
+      hole_top_height: 1.1,
+      side_width: 4.7,
+      side_top_height: 0.9,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.15, 0.25]
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 2.5
+  actuator_diameter: 1.8
+  actuator_shell_hole_diameter: 2.0
+  actuator_top_fillet: 0.1
+
+  pin_type: bottom-jbend
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pin_length: 0.9
+  pin_top_height: 0.6
+  pin_top_length: 0.4
+  pin_corner_radius: 0.2
+  pins: [
+    [-2.75,  0.85, 180],
+    [-2.75, -0.85, 180],
+    [ 2.75, -0.85,   0],
+    [ 2.75,  0.85,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: grey body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://industry.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_4735s.pdf
+
+SW_SPST_EVQP2_ShortPushTravel_H2.1mm:
+  inherit: SW_SPST_EVQP2_MiddlePushTravel_H2.5mm
+  modelName: SW_SPST_EVQP2_ShortPushTravel_H2.1mm
+
+  actuator_type: top-rectangle-round
+  actuator_height: 2.1
+  actuator_width: 2.6
+  actuator_length: 1.6
+  actuator_diameter: 2.0
+  actuator_corner_fillet: 0.1
+  actuator_top_fillet: 0.1
+  actuator_shell_hole_width: 2.8
+  actuator_shell_hole_length: 1.8
+  actuator_shell_hole_diameter: 2.2
+  actuator_shell_hole_corner_fillet: 0.1
+
+  actuator_color_key: white body
+
+SW_SPST_EVQP2_ShortPushTravel_H2.5mm:
+  inherit: SW_SPST_EVQP2_ShortPushTravel_H2.1mm
+  modelName: SW_SPST_EVQP2_ShortPushTravel_H2.5mm
+
+  actuator_height: 2.5
+
+  actuator_color_key: white body
+
+SW_SPST_EVQP7A:
+  modelName: SW_SPST_EVQP7A
+  model_class: tactile
+
+  body_width: 3.5
+  body_length: 2.6
+  body_height: 1.2
+  body_features: [
+    [add, box, [0, 1.375, 0.35], [1.9, 0.15, 0.7]], # op, type, pos, dim, extra
+  ]
+
+  shell_width: 3.1
+  shell_length: 2.4
+  shell_height: 1.35
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, 90, 0, 0.05, 3.1, 3.1], # op, direction, offs, len, base_w, tip_w
+    [add, 270, 0, 0.4, 1.4, 1.1],
+    [add, [0, 180], -1.000, 0.15, 0.50, 0.50],
+    [add, [0, 180], 0.975, 0.15, 0.45, 0.45],
+  ]
+
+  shell_top_clip_direction: 90
+  shell_top_clip_x: 0
+  shell_top_clip_y: 0.08
+  shell_top_clip_width:  1.0
+  shell_top_clip_length: 1.02
+  shell_top_clip_depth: 0.45
+  shell_top_clip_pocket_width: 1.5
+  shell_top_clip_pocket_length: 1.3
+  shell_top_clip_pocket_depth: 0.5
+  shell_top_clip_corner_radius: 0.2
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 1.75,
+      width: 0.75,
+      bottom_height: 0.82,
+      corner_fillet: 0.1,
+    },
+    {
+      direction: 90,
+      distance: 1.45,
+      width: 2.6,
+      bottom_height: 0.35,
+      hole_width: 1.9,
+      hole_top_height: 0.7,
+      side_top_height: 0.7,
+      side_width: 3.4,
+      holder_chamfer: [0.15, 0.25]
+    },
+    {
+      direction: 270,
+      distance: 1.45,
+      width: 2.6,
+      bottom_height: 0.35,
+      hole_width: 1.9,
+      side_top_height: 0.7,
+      side_width: 3.4,
+      holder_chamfer: [0.15, 0.25]
+    },
+  ]
+
+  actuator_type: side-rectangle
+  actuator_direction: 270
+  actuator_width: 1.7
+  actuator_top_height: 1.2
+  actuator_bottom_height: 0.1
+  actuator_distance: 2.1
+  actuator_thickness: 0.35
+  actuator_neck_width: 1.7
+  actuator_neck_top_height: 1.2
+  actuator_neck_bottom_height: 0.69
+  actuator_neck_gaps: [[-0.32, 0.14], [0.32, 0.14]] # [[x, w], ...]
+  actuator_bottom_fillet: 0.2
+
+  pin_type: flat
+  pin_width: 0.62
+  pin_thickness: 0.15
+  pin_length: 0.95
+  pins: [
+    [-2.35,  0.74, 180],
+    [-2.35, -0.74, 180],
+    [ 2.35, -0.74,   0],
+    [ 2.35,  0.74,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C378.pdf
+
+SW_SPST_EVQP7C:
+  inherit: SW_SPST_EVQP7A
+  modelName: SW_SPST_EVQP7C
+
+  pegs: [
+    [0, -0.9, 0.65, -0.5, chamfer, [0.225, 0.3]], # x, y, diameter, height, extra params
+    [0,  0.9, 0.65, -0.5, chamfer, [0.225, 0.3]],
+  ]
+
+SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A08:
+  modelName: SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A08
+  model_class: tactile
+
+  rotation: 90
+
+  body_width: 4.6
+  body_length: 4.6
+  body_height: 0.7
+  body_corner_chamfer: [0.0, 0.2, 0.0, 0.0]
+  body_corner_fillet: [0.2, 0.0, 0.2, 0.2]
+
+  shell_width: 4.35
+  shell_length: 4.35
+  shell_height: 0.8
+  shell_thickness: 0.1
+  shell_corner_chamfer: [0.0, 0.3, 0.0, 0.0]
+  shell_corner_fillet: [0.3, 0.0, 0.3, 0.3]
+  shell_top_lips: [
+    [add, [0, 180], -1.2, 0.225, 0.4, 0.4], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  1.2, 0.225, 0.4, 0.4],
+    [cut, [0, 180], -0.8, -0.15, 0.4, 0.4],
+    [cut, [0, 180],  0.8, -0.15, 0.4, 0.4],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 2.45,
+      width: 1.20,
+      bottom_height: 0.20,
+    },
+    {
+      direction: [90, 270],
+      distance: 2.45,
+      width: 2.50,
+      bottom_height: 0.35,
+      extrusions: [
+          [0.35, 0.3, 0.3], # off, w, l
+      ],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 0.8
+  actuator_diameter: 3.2
+  actuator_shell_hole_diameter: 3.2
+  actuator_top_fillet: 0.05
+
+  pin_type: bottom-jbend
+  pin_width: 0.5
+  pin_thickness: 0.1
+  pin_length: 0.75
+  pin_top_height: 0.4
+  pin_top_length: 0.2
+  pin_corner_radius: 0.1
+  pins: [
+    [-2.5,  1.85, 180],
+    [-2.5, -1.85, 180],
+    [ 2.5, -1.85,   0],
+    [ 2.5,  1.85,   0],
+  ]
+
+  body_color_key: white body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.mouser.com/datasheet/2/315/ATK0000CE3-32226.pdf
+
+SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15:
+  inherit: SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A08
+  modelName: SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15
+
+  shell_top_cover_type: rectangle
+  shell_top_cover_width: [3.8, 3.4]
+  shell_top_cover_height: [0.8, 1.2]
+  shell_top_cover_diameter: [4.4, 4.0]
+
+  actuator_type: top-round
+  actuator_height: 1.5
+  actuator_diameter: 2.2
+  actuator_shell_hole_diameter: 2.4
+  actuator_top_fillet: 0.05
+
+  actuator_color_key: metal silver
+
+Panasonic_EVQPUJ_EVQPUA:
+  modelName: Panasonic_EVQPUJ_EVQPUA
+  model_class: tactile
+
+  body_width: 4.7
+  body_length: 3.1
+  body_height: 1.5
+  body_features: [
+    [add, box, [0, -1.65, 0.5], [2.4, 0.2, 1]], # op, type, pos, dim, extra
+    [add, box, [0,  1.65, 0.5], [2.4, 0.2, 1]],
+  ]
+
+  shell_width: 4.25
+  shell_length: 3.1
+  shell_height: 1.65
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [0, 180], -1.225, 0.17, 0.65, 0.65], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  1.225, 0.17, 0.65, 0.65],
+  ]
+
+  shell_top_clip_direction: 270
+  shell_top_clip_x: 0
+  shell_top_clip_y: -0.28
+  shell_top_clip_width:  1.0
+  shell_top_clip_length: 0.85
+  shell_top_clip_depth: 0.45
+  shell_top_clip_pocket_width: 1.5
+  shell_top_clip_pocket_length: 1.2
+  shell_top_clip_pocket_depth: 0.5
+  shell_top_clip_corner_radius: 0.2
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 2.35,
+      width: 0.8,
+      bottom_height: 0.9,
+    },
+    {
+      direction: 90,
+      distance: 1.75,
+      width: 3.4,
+      bottom_height: 0.5,
+      hole_width: 2.6,
+      side_width: 4.6,
+      side_top_height: 0.9,
+      holder_chamfer: [0.15, 0.25],
+    },
+    {
+      direction: 270,
+      distance: 1.75,
+      width: 3.4,
+      bottom_height: 0.5,
+      hole_width: 2.4,
+      hole_top_height: 1.0,
+      side_width: 4.6,
+      side_top_height: 0.9,
+      holder_chamfer: [0.15, 0.25],
+    },
+  ]
+
+  actuator_type: side-rectangle
+  actuator_direction: 90
+  actuator_width: 2.6
+  actuator_top_height: 1.65
+  actuator_bottom_height: 0.25
+  actuator_distance: 2.75
+  actuator_thickness: 0.6
+  actuator_neck_width: 2.4
+  actuator_neck_top_height: 1.5
+  actuator_neck_bottom_height: 1.0
+  actuator_neck_gaps: [[-0.45, 0.3], [0.45, 0.3]] # [[x, w], ...]
+
+  pin_type: flat
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pin_length: 1.35
+  pins: [
+    [-3.2,  0.85, 180],
+    [-3.2, -0.85, 180],
+    [ 3.2, -0.85,   0],
+    [ 3.2,  0.85,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Switches%20PDFs/EVQ-PU.pdf
+
+Panasonic_EVQPUL_EVQPUC:
+  inherit: Panasonic_EVQPUJ_EVQPUA
+  modelName: Panasonic_EVQPUL_EVQPUC
+
+  pegs: [
+    [0, -1.375, 0.65, -0.5, chamfer, [0.225, 0.3]], # x, y, diameter, height, extra params
+    [0,  1.375, 0.65, -0.5, chamfer, [0.225, 0.3]],
+  ]
+
+Panasonic_EVQPUK_EVQPUB:
+  inherit: Panasonic_EVQPUJ_EVQPUA
+  modelName: Panasonic_EVQPUK_EVQPUB
+
+  pin_type: bottom-jbend
+  pin_width: 0.6
+  pin_thickness: 0.2
+  pin_length: 0.9
+  pin_top_height: 0.55
+  pin_top_length: 0.2
+  pin_corner_radius: 0.3
+  pins: [
+    [-2.75,  0.85, 180],
+    [-2.75, -0.85, 180],
+    [ 2.75, -0.85,   0],
+    [ 2.75,  0.85,   0],
+  ]
+
+Panasonic_EVQPUM_EVQPUD:
+  inherit: Panasonic_EVQPUK_EVQPUB
+  modelName: Panasonic_EVQPUM_EVQPUD
+
+  pegs: [
+    [0, -1.375, 0.65, -0.5, chamfer, [0.225, 0.3]], # x, y, diameter, height, extra params
+    [0,  1.375, 0.65, -0.5, chamfer, [0.225, 0.3]],
+  ]
+
+SW_Push_1P1T_NO_CK_KMR2:
+  modelName: SW_Push_1P1T_NO_CK_KMR2
+  model_class: tactile
+
+  body_width: 3.8
+  body_length: 2.8
+  body_height: 1.3
+
+  shell_width: 3.7
+  shell_length: 2.425
+  shell_height: 1.4
+  shell_thickness: 0.1
+  shell_top_lips: [
+    [cut, [0, 180], 0, -0.05, 0.8, 0.5], # op, direction, offs, len, base_w, tip_w
+    [add,  90, 0, 0.1, 1.2, 1.0],
+    [add,  90, -1.4, 0.15, 0.9, 0.9],
+    [add,  90,  1.4, 0.15, 0.9, 0.9],
+    [add, 270, 0, 0.1, 1.0, 0.5],
+    [add, 270, -1.6, 0.1, 0.5, 0.5],
+    [add, 270,  1.6, 0.1, 0.5, 0.5],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 2.1,
+      width: 2.0,
+      bottom_height: 0.45,
+      hole_width: 0.8,
+      hole_bottom_height: 0.75,
+      corner_fillet: 0.25,
+      holder_chamfer: [0.20, 0.25],
+    },
+  ]
+
+  actuator_type: top-hex
+  actuator_height: 1.9
+  actuator_width: 2.11
+  actuator_mid_length: 1.61
+  actuator_side_length: 1.20
+  actuator_corner_fillet: 0.5
+  actuator_top_fillet: 0.125
+  actuator_shell_hole_width: 2.21
+  actuator_shell_hole_mid_length: 1.71
+  actuator_shell_hole_side_length: 1.30
+  actuator_shell_hole_corner_fillet: 0.5
+
+  pin_type: flat
+  pin_width: 0.6
+  pin_thickness: 0.15
+  pin_length: 0.6
+  pins: [
+    [-2.3,  0.8, 180],
+    [-2.3, -0.8, 180],
+    [ 2.3, -0.8,   0],
+    [ 2.3,  0.8,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: gold pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/2665/kmr.pdf
+
+SW_Push_1P1T-SH_NO_CK_KMR2xxG:
+  inherit: SW_Push_1P1T_NO_CK_KMR2
+  modelName: SW_Push_1P1T-SH_NO_CK_KMR2xxG
+
+  shell_length: 2.4
+  shell_top_lips: [
+    [cut, [0, 180], 0, -0.05, 0.8, 0.5], # op, direction, offs, len, base_w, tip_w
+    [add,  90, -1.4, 0.15, 0.9, 0.9],
+    [add,  90,  1.4, 0.15, 0.9, 0.9],
+    [add, 270, 0, 0.15, 1.0, 0.5],
+    [add, 270, -1.6, 0.15, 0.5, 0.5],
+    [add, 270,  1.6, 0.15, 0.5, 0.5],
+  ]
+
+  gnd_pin: [
+    [straight, 90, 0.0, 1.3, -0.04, 1.0], # type, direction, x, y, bottom_height, width, extra params
+  ]
+
+SW_Tactile_Straight_KSA0Axx1LFTR:
+  modelName: SW_Tactile_Straight_KSA0Axx1LFTR
+  model_class: tactile
+
+  translation: [3.81, -2.54, 0]
+
+  body_width: 6.65
+  body_length: 6.26
+  body_height: 1.87
+  body_features: [
+    [add, box, [0, -1.025, 1.71], [7.4, 0.95, 0.32]], # op, type, pos, dim, extra
+    [add, box, [0,  1.025, 1.71], [7.4, 0.95, 0.32]],
+    [cut, poly, [0, 0, 0], YZ, 6.65, [2.13,0.00, 2.13,0.09, 1.78,0.44, -2.13,0.44, -2.13,0.00]],
+    [cut, box, [0, 0, 0.22], [4.04, 6.26, 0.44]],
+    [cut, box, [-3.1725, 0, 0.425], [0.305, 6.26, 0.85]],
+    [cut, box, [ 3.1725, 0, 0.425], [0.305, 6.26, 0.85]],
+    [cut, cylinder, [-1.63, -2.045, 0.22], XY, 0.44, 2],
+    [cut, cylinder, [-1.63,  2.045, 0.22], XY, 0.44, 2],
+    [cut, cylinder, [ 1.63, -2.045, 0.22], XY, 0.44, 2],
+    [cut, cylinder, [ 1.63,  2.045, 0.22], XY, 0.44, 2],
+  ]
+
+  shell_width: 6.4
+  shell_length: 6.3
+  shell_height: 2.64
+  shell_thickness: 0.25
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.45, 3.6, 2.7], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180], 0, 0.40, 3.2, 2.5],
+  ]
+
+  shell_top_cover_type: round
+  shell_top_cover_diameter: [5.20, 4.80, 4.80]
+  shell_top_cover_height:   [2.64, 2.64, 3.74]
+  shell_top_cover_corner_radius: [0.0, 0.2, 0.35]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.65,
+      width: 6.4,
+      bottom_height: 0.4,
+      hole_width: 4.2,
+      hole_bottom_height: 1.0,
+      hole_bottom_gap_width: 2.2,
+      corner_fillet: 1.0,
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: [2.39, 4.7, 4.7, 4.5, 4.4, 4.3]
+  actuator_diameter: [3.0, 3.0, 2.5, 2.1, 1.2, 0.9]
+  actuator_shell_hole_diameter: 3.1
+  actuator_top_fillet: 0.1
+
+  actuator_base_height: 2.39
+  actuator_base_width: 7.0
+  actuator_base_length: 7.0
+  actuator_base_corner_fillet: 0.5
+
+  pin_type: through-hole
+  pin_width: 0.53
+  pin_thickness: 0.3
+  pin_base_height: [1.55, 1.15, 1.15, 1.55]
+  pin_base_offset: -1.295
+  pin_bottom_height: -4.24
+  pin_corners: [
+    [[-0.62, 1.55]],
+    [[-0.62, 1.15]],
+    [[-0.62, 1.15]],
+    [[-0.62, 1.55]],
+  ]
+  pin_corner_radius: 0.7
+  pin_tip_chamfer: [0.25, 0.45]
+  pins: [
+    [-4.62,  2.54, 180],
+    [-4.62, -2.54, 180],
+    [ 4.62, -2.54,   0],
+    [ 4.62,  2.54,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: blue body
+  actuator_base_color_key: white body
+  pins_color_key: gold pins
+  destination_dir: Button_Switch_THT.3dshapes
+  source: https://www.ckswitches.com/media/1457/ksa_ksl.pdf
+
+SW_Tactile_Straight_KSL0Axx1LFTR:
+  inherit: SW_Tactile_Straight_KSA0Axx1LFTR
+  modelName: SW_Tactile_Straight_KSL0Axx1LFTR
+
+  actuator_height: 9.9
+  actuator_diameter: 3.0
+
+  actuator_color_key: black body
+
+SW_Push_1P1T_NO_CK_KSC6xxG:
+  modelName: SW_Push_1P1T_NO_CK_KSC6xxG
+  model_class: tactile
+
+  body_width: 6.2
+  body_length: 5.6
+  body_height: 2.0
+  body_board_distance: 0.1
+
+  shell_width: 6.2
+  shell_length: 5.6
+  shell_height: 2.9
+  shell_thickness: 0.2
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.325, 3.22, 2.57], # op, direction, offs, len, base_w, tip_w
+  ]
+
+  shell_top_cover_type: round
+  shell_top_cover_height: [2.9, 2.9, 4.0, 4.0, 4.5]
+  shell_top_cover_diameter: [5.2, 4.7, 4.7, 3.4, 3.4]
+  shell_top_cover_corner_radius: [0.0, 0.25, 0.45, 0.15, 0.0]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.125,
+      width: 5.4,
+      bottom_height: 0.4,
+      hole_width: 4.1,
+      hole_bottom_height: 0.8,
+      corner_fillet: 0.5,
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: [2.0, 7.7, 7.7, 7.6]
+  actuator_diameter: [3.0, 2.9, 1.3, 1.2]
+  actuator_corner_radius: [0, 0.1, 0]
+  actuator_shell_hole_diameter: 3.0
+
+  actuator_base_height: 2.7
+  actuator_base_width: 6.2
+  actuator_base_length: 5.6
+  actuator_base_corner_chamfer: 0.8
+
+  pin_type: gullwing
+  pin_width: 0.75
+  pin_thickness: 0.25
+  pin_length: 1.9
+  pin_top_height: 1.3
+  pin_top_length: 0.6
+  pin_bottom_length: 1.2
+  pin_corner_radius: 0.35
+  pins: [
+    [-5.0,  2.0, 180],
+    [-5.0, -2.0, 180],
+    [ 5.0, -2.0,   0],
+    [ 5.0,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  actuator_base_color_key: blue body
+  pins_color_key: gold pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1972/ksc6.pdf
+
+SW_Push_1P1T_NO_CK_KSC6xxJ:
+  inherit: SW_Push_1P1T_NO_CK_KSC6xxG
+  modelName: SW_Push_1P1T_NO_CK_KSC6xxJ
+
+  actuator_height: [2.0, 7.68, 7.68, 7.58]
+
+  pin_type: top-jbend
+  pin_width: 0.75
+  pin_thickness: 0.25
+  pin_top_height: 1.28
+  pin_top_length: 1.75
+  pin_top_radius: 0.3
+  pin_bottom_length: 1.75
+  pin_corner_radius: 0.65
+  pins: [
+    [-3.4,  2.0, 180],
+    [-3.4, -2.0, 180],
+    [ 3.4, -2.0,   0],
+    [ 3.4,  2.0,   0],
+  ]
+
+SW_Push_1P1T_NO_CK_KSC7xxJ:
+  modelName: SW_Push_1P1T_NO_CK_KSC7xxJ
+  model_class: tactile
+
+  body_width: 6.2
+  body_length: 5.6
+  body_height: 2.0
+  body_board_distance: 0.1
+
+  shell_width: 6.2
+  shell_length: 5.6
+  shell_height: 2.9
+  shell_thickness: 0.2
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.3, 3.1, 2.5], # op, direction, offs, len, base_w, tip_w
+  ]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.1,
+      width: 5.4,
+      bottom_height: 0.4,
+      hole_width: 4.1,
+      hole_bottom_height: 0.8,
+      corner_fillet: 0.5,
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 4.4
+  actuator_diameter: 3.0
+  actuator_shell_hole_diameter: 3.3
+  actuator_top_fillet: 0.1
+
+  actuator_base_height: 2.7
+  actuator_base_width: 6.2
+  actuator_base_length: 5.6
+  actuator_base_corner_chamfer: 0.8
+
+  pin_type: top-jbend
+  pin_width: 0.7
+  pin_thickness: 0.25
+  pin_top_length: 1.7
+  pin_top_height: 1.3
+  pin_top_radius: 0.3
+  pin_bottom_length: 1.7
+  pin_corner_radius: 0.6
+  pins: [
+    [-3.4,  2.0, 180],
+    [-3.4, -2.0, 180],
+    [ 3.4, -2.0,   0],
+    [ 3.4,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: blue body
+  actuator_base_color_key: blue body
+  pins_color_key: gold pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1973/ksc7.pdf
+
+SW_Push_1P1T_NO_CK_KSC9xxG:
+  modelName: SW_Push_1P1T_NO_CK_KSC9xxG
+  model_class: tactile
+
+  body_width: 6.2
+  body_length: 5.6
+  body_height: 2.0
+  body_board_distance: 0.1
+
+  shell_width: 6.2
+  shell_length: 5.6
+  shell_height: 2.9
+  shell_thickness: 0.2
+  shell_top_lips: [
+    [add, [90, 270], 0, 0.3, 3.22, 2.57], # op, direction, offs, len, base_w, tip_w
+  ]
+
+  shell_top_cover_type: round
+  shell_top_cover_height: [2.9, 2.9, 4.0, 4.0, 4.5]
+  shell_top_cover_diameter: [5.2, 4.7, 4.7, 3.4, 3.4]
+  shell_top_cover_corner_radius: [0.0, 0.25, 0.45, 0.15, 0.0]
+
+  shell_sides: [
+    {
+      direction: [90, 270],
+      distance: 3.1,
+      width: 5.4,
+      bottom_height: 0.4,
+      hole_width: 4.1,
+      hole_bottom_height: 0.8,
+      corner_fillet: 0.5,
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height:   [2.70, 5.60, 5.60, 6.65, 6.65, 7.00, 7.70, 7.70, 7.60]
+  actuator_diameter: [2.95, 2.95, 2.70, 2.70, 2.95, 2.95, 2.50, 1.60, 1.40]
+  actuator_corner_radius: [0, 0, 0, 0, 0, 0, 0.1, 0]
+  actuator_shell_hole_diameter: 3.05
+
+  actuator_base_height: 2.7
+  actuator_base_width: 6.2
+  actuator_base_length: 5.6
+  actuator_base_corner_chamfer: 0.8
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.25
+  pin_length: 1.9
+  pin_top_height: 1.3
+  pin_top_length: 0.6
+  pin_bottom_length: 1.2
+  pin_corner_radius: 0.35
+  pins: [
+    [-5.0,  2.0, 180],
+    [-5.0, -2.0, 180],
+    [ 5.0, -2.0,   0],
+    [ 5.0,  2.0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: white body
+  actuator_base_color_key: blue body
+  pins_color_key: gold pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1975/ksc9.pdf
+
+SW_Push_1P1T_NO_CK_KSC9xxJ:
+  inherit: SW_Push_1P1T_NO_CK_KSC9xxG
+  modelName: SW_Push_1P1T_NO_CK_KSC9xxJ
+
+  pin_type: top-jbend
+  pin_width: 0.7
+  pin_thickness: 0.25
+  pin_top_height: 1.28
+  pin_top_length: 1.75
+  pin_top_radius: 0.3
+  pin_bottom_length: 1.75
+  pin_corner_radius: 0.65
+  pins: [
+    [-3.4,  2.0, 180],
+    [-3.4, -2.0, 180],
+    [ 3.4, -2.0,   0],
+    [ 3.4,  2.0,   0],
+  ]
+
+SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243:
+  modelName: SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243
+  model_class: tactile
+
+  translation: [3.25, 0, 0]
+
+  body_width: 6.0
+  body_length: 3.5
+  body_height: 3.3
+  body_features: [
+    [add, box, [-2.6, 0, 3.6], [0.8, 2.0, 0.6], fillet, ["(not <X) and (not <Z)", 0.29]], # op, type, pos, dim, extra
+    [add, box, [ 2.6, 0, 3.6], [0.8, 2.0, 0.6], fillet, ["(not >X) and (not <Z)", 0.29]],
+    [cut, box, [0, 0, 0.2], [2.8, 3.5, 0.4]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 3.5
+  shell_height: 3.6
+  shell_thickness: 0.3
+  shell_top_lips: [
+    [cut, [0, 180], 0, -0.8, 2, 2], # op, direction, offs, len, base_w, tip_w
+  ]
+
+  actuator_type: top-rectangle
+  actuator_height: 4.3
+  actuator_width: 3.5
+  actuator_length: 1.5
+  actuator_fillet: [0.2, 0.2]
+  actuator_shell_hole_width: 3.7
+  actuator_shell_hole_length: 1.7
+
+  pin_type: through-hole
+  pin_width: 1.0
+  pin_thickness: 0.3
+  pin_base_offset: -0.3
+  pin_base_height: 0.7
+  pin_bottom_height: -3.5
+  pin_corners: [
+    [0.05,  0.70],
+    [0.05, -0.70],
+    [0.70, -1.80],
+    [0.15, -2.80],
+  ]
+  pin_corner_radius: 0.3
+  pin_tip_fillet: 0.49
+  pins: [
+    [-3.25, 0, 180],
+    [ 3.25, 0,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_THT.3dshapes
+  source: https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-PHAP33-6mm-through-hole/c/MJTP_6mm_through%20hole
+
+SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250:
+  inherit: SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243
+  modelName: SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250
+
+  body_height: 3.2
+  body_features: [
+    [add, box, [-2.6, 0, 3.5], [0.8, 2.0, 0.6], fillet, ["(not <X) and (not <Z)", 0.29]], # op, type, pos, dim, extra
+    [add, box, [ 2.6, 0, 3.5], [0.8, 2.0, 0.6], fillet, ["(not >X) and (not <Z)", 0.29]],
+    [cut, box, [0, 0, 0.2], [2.8, 3.5, 0.4]],
+  ]
+
+  shell_height: 3.5
+
+  actuator_height: 5.0
+  actuator_width: 3.0
+  actuator_shell_hole_width: 3.2
+
+SW_Push_1P1T_NO_CK_PTS125Sx43SMTR:
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx43SMTR
+  model_class: tactile
+
+  body_width: 12.0
+  body_length: 12.0
+  body_height: 3.3
+  body_corner_chamfer: 1.1
+  body_features: [
+    [cut, box, [0, 0, 3.15], [10.4, 10.4, 0.3], chamfer, ["|Z", 0.65]], # op, type, pos, dim, extra
+    [cut, box, [0, 0, 3.15], [12.0, 1.6, 0.3]],
+    [add, cylinder, [-3.9, -3.9, 3.3], XY, 0.6, 1.5, fillet, [">Z", 0.2]],
+    [add, cylinder, [-3.9,  3.9, 3.3], XY, 0.6, 1.5, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 3.9, -3.9, 3.3], XY, 0.6, 1.5, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 3.9,  3.9, 3.3], XY, 0.6, 1.5, fillet, [">Z", 0.2]],
+    [cut, box, [0, 0, 0.1], [12, 7, 0.2]],
+    [cut, box, [0, 0, 0.1], [7, 12, 0.2]],
+    [cut, box, [0, -5.775, 0.1], [12.0, 0.45, 0.2]],
+    [cut, box, [0,  5.775, 0.1], [12.0, 0.45, 0.2]],
+    [cut, box, [-5.775, 0, 0.1], [0.45, 12.0, 0.2]],
+    [cut, box, [ 5.775, 0, 0.1], [0.45, 12.0, 0.2]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [-6,-6, -4,-6, -6,-4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [-6, 6, -4, 6, -6, 4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [ 6,-6,  4,-6,  6,-4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [ 6, 6,  4, 6,  6, 4]],
+  ]
+
+  shell_width: 10
+  shell_length: 10
+  shell_height: 3.3
+  shell_thickness: 0.3
+  shell_corner_chamfer: 0.5
+  shell_top_lips: [
+    [cut, [0, 90, 180, 270], -2.25, -0.25, 0.9, 0.9], # op, direction, offs, len, base_w, tip_w
+    [cut, [0, 90, 180, 270],  2.25, -0.25, 0.9, 0.9],
+  ]
+
+  actuator_type: top-round
+  actuator_height: 4.3
+  actuator_diameter: 7.2
+  actuator_shell_hole_diameter: 7.4
+  actuator_top_fillet: 0.5
+
+  pin_type: gullwing
+  pin_width: 1.0
+  pin_thickness: 0.3
+  pin_length: 1.65
+  pin_top_height: 1.3
+  pin_top_length: 0.6
+  pin_bottom_length: 0.7
+  pin_corner_radius: 0.5
+  pins: [
+    [-7.65,  2.5, 180],
+    [-7.65, -2.5, 180],
+    [ 7.65, -2.5,   0],
+    [ 7.65,  2.5,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1462/pts125.pdf
+
+SW_Push_1P1T_NO_CK_PTS125Sx85SMTR:
+  inherit: SW_Push_1P1T_NO_CK_PTS125Sx43SMTR
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx85SMTR
+
+  actuator_height: 8.5
+
+SW_Push_1P1T_NO_CK_PTS125Sx73SMTR:
+  inherit: SW_Push_1P1T_NO_CK_PTS125Sx43SMTR
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx73SMTR
+
+  actuator_type: top-rectangle
+  actuator_height: [3.3, 5.3, 5.3, 7.3]
+  actuator_width: [3.0, 3.0, 3.75, 3.75]
+  actuator_fillet: [0, 0, 0.1, 0.1]
+  actuator_top_hole_diameter: 2.0
+  actuator_top_hole_depth: 2.1
+  actuator_top_hole_chamfer: 0.2
+  actuator_round_bottom_height: 4.0
+  actuator_round_bottom_diameter: 6.9
+  actuator_round_bottom_fillet: 0.1
+  actuator_shell_hole_diameter: 7.3
+
+SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR:
+  inherit: SW_Push_1P1T_NO_CK_PTS125Sx43SMTR
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
+
+  body_corner_chamfer: 1.5
+  body_features: [
+    [cut, box, [0, 0, 3.15], [10.3, 10.3, 0.3], chamfer, ["|Z", 1]], # op, type, pos, dim, extra
+    [cut, box, [0, 0, 3.15], [1.35, 12.0, 0.3]],
+    [add, cylinder, [-3.9, -3.9, 3.3], XY, 0.6, 1.3, fillet, [">Z", 0.2]],
+    [add, cylinder, [-3.9,  3.9, 3.3], XY, 0.6, 1.3, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 3.9, -3.9, 3.3], XY, 0.6, 1.3, fillet, [">Z", 0.2]],
+    [add, cylinder, [ 3.9,  3.9, 3.3], XY, 0.6, 1.3, fillet, [">Z", 0.2]],
+    [cut, box, [0, 0, 0.1], [12, 7, 0.2]],
+    [cut, box, [0, 0, 0.1], [7, 12, 0.2]],
+    [cut, box, [0, -5.775, 0.1], [12.0, 0.45, 0.2]],
+    [cut, box, [0,  5.775, 0.1], [12.0, 0.45, 0.2]],
+    [cut, box, [-5.775, 0, 0.1], [0.45, 12.0, 0.2]],
+    [cut, box, [ 5.775, 0, 0.1], [0.45, 12.0, 0.2]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [-6,-6, -4,-6, -6,-4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [-6, 6, -4, 6, -6, 4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [ 6,-6,  4,-6,  6,-4]],
+    [cut, poly, [0, 0, 0.1], XY, 0.2, [ 6, 6,  4, 6,  6, 4]],
+  ]
+
+  shell_width: 9.7
+  shell_length: 9.7
+  shell_corner_chamfer: 0.825
+  shell_top_lips: [
+     [cut, [90, 270], -1.5, -0.45, 0.9, 0.9], # op, direction, offs, len, base_w, tip_w
+     [cut, [90, 270],  1.5, -0.45, 0.9, 0.9],
+   ]
+
+  pegs: [
+    [0, -4.5, 1.5, -1.7, z, 0.2, chamfer, [0.25, 0.25]], # x, y, diameter, height, extra params
+    [0,  4.5, 1.5, -1.7, z, 0.2, chamfer, [0.25, 0.25]],
+  ]
+
+  actuator_diameter: 7.0
+  actuator_shell_hole_diameter: 7.2
+  actuator_top_fillet: 0.1
+
+  pin_bottom_height: -0.05
+
+SW_Push_1P1T_NO_CK_PTS125Sx85PSMTR:
+  inherit: SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx85PSMTR
+
+  actuator_height: 8.5
+
+SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR:
+  inherit: SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
+  modelName: SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR
+
+  actuator_type: top-rectangle
+  actuator_height: [3.3, 5.3, 5.3, 7.3]
+  actuator_width: [3.0, 3.0, 3.8, 3.8]
+  actuator_fillet: [0, 0, 0.1, 0.1]
+  actuator_top_hole_diameter: 2.0
+  actuator_top_hole_depth: 2.1
+  actuator_top_hole_chamfer: 0.2
+  actuator_round_bottom_height: 4.0
+  actuator_round_bottom_diameter: 7
+  actuator_round_bottom_fillet: 0.1
+  actuator_shell_hole_diameter: 7.4
+
+SW_SPST_PTS645Sx43SMTR92:
+  modelName: SW_SPST_PTS645Sx43SMTR92
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 6.0
+  body_height: 3.15
+  body_corner_fillet: 0.3
+  body_features: [
+    [add, cylinder, [-1.65, -1.65, 3.45], XY, 0.6, 0.7, fillet, [">Z", 0.25]], # op, type, pos, dim, extra
+    [add, cylinder, [-1.65,  1.65, 3.45], XY, 0.6, 0.7, fillet, [">Z", 0.25]],
+    [add, cylinder, [ 1.65, -1.65, 3.45], XY, 0.6, 0.7, fillet, [">Z", 0.25]],
+    [add, cylinder, [ 1.65,  1.65, 3.45], XY, 0.6, 0.7, fillet, [">Z", 0.25]],
+    [cut, box, [0, 0, 0.15], [6.0, 2.5, 0.3]],
+    [cut, box, [0, 0, 0.15], [2.5, 6.0, 0.3]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 6.0
+  shell_height: 3.45
+  shell_thickness: 0.3
+  shell_corner_fillet: 0.3
+  shell_top_lips: [
+    [cut, [90, 270], 0, -0.2, 2, 2], # op, direction, offs, len, base_w, tip_w
+    [cut, [0, 180], 0, -0.2, 2, 2],
+  ]
+
+  actuator_type: top-round
+  actuator_height: 4.3
+  actuator_diameter: 3.5
+  actuator_shell_hole_diameter: 3.6
+  actuator_top_fillet: 0.2
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_length: 1.5
+  pin_top_height: 1.1
+  pin_top_length: 0.3
+  pin_bottom_length: 1.3
+  pin_corner_radius: 0.3
+  pins: [
+    [-4.5,  2.25, 180],
+    [-4.5, -2.25, 180],
+    [ 4.5, -2.25,   0],
+    [ 4.5,  2.25,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1471/pts645.pdf
+
+SW_SPST_PTS810:
+  modelName: SW_SPST_PTS810
+  model_class: tactile
+
+  body_width: 4.2
+  body_length: 3.2
+  body_height: 1.8
+  body_corner_fillet: 0.2
+  body_features: [
+    [ # op, type, pos, plane, depth, coords, extra
+      cut, poly, [0, 0, 1.6], XY, 0.4,
+      [
+        -2.1, -0.4,
+        -0.9, -1.6,
+         0.9, -1.6,
+         2.1, -0.4,
+         2.1,  0.4,
+         0.9,  1.6,
+        -0.9,  1.6,
+        -2.1,  0.4,
+      ]
+    ],
+  ]
+
+  shell_width: 4.1
+  shell_length: 3.1
+  shell_height: 1.6
+  shell_thickness: 0.2
+  shell_corner_chamfer: 0.7
+
+  actuator_type: top-obround
+  actuator_height: 2.5
+  actuator_width: 3.0
+  actuator_length: 2.2
+  actuator_shell_hole_width: 3.2
+  actuator_shell_hole_length: 2.4
+  actuator_top_fillet: 0.2
+
+  pin_type: bottom-jbend
+  pin_width: 0.55
+  pin_thickness: 0.1
+  pin_length: 0.8
+  pin_top_height: 0.5
+  pin_top_length: 0.125
+  pin_corner_radius: 0.1
+  pins: [
+    [-2.3,  1.075, 180],
+    [-2.3, -1.075, 180],
+    [ 2.3, -1.075,   0],
+    [ 2.3,  1.075,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.ckswitches.com/media/1476/pts810.pdf
+
+SW_SPST_SKQG_WithoutStem:
+  modelName: SW_SPST_SKQG_WithoutStem
+  model_class: tactile
+
+  body_width: 5.0
+  body_length: 5.0
+  body_height: 0.7
+  body_corner_chamfer: 1.0
+
+  shell_width: 5.0
+  shell_length: 5.0
+  shell_height: 0.8
+  shell_thickness: 0.1
+  shell_corner_chamfer: 1.0
+  shell_top_lips: [
+    [cut, [90, 270], -2.0, -0.4, 1, 1], # op, direction, offs, len, base_w, tip_w
+    [cut, [90, 270],  2.0, -0.4, 1, 1],
+    [cut, [0, 180], -2.0, -0.4, 1, 1],
+    [cut, [0, 180],  2.0, -0.4, 1, 1],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 2.6,
+      width: 3.0,
+      bottom_height: 0.1,
+      corner_fillet: 0.5,
+    },
+    {
+      direction: [90, 270],
+      distance: 2.6,
+      width: 3.0,
+      bottom_height: 0.4,
+      corner_fillet: 0.1,
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 0.8
+  actuator_diameter: 3.0
+  actuator_shell_hole_diameter: 3.0
+  actuator_top_fillet: 0.05
+
+  pin_type: gullwing
+  pin_width: 0.5
+  pin_thickness: 0.1
+  pin_length: 1.8
+  pin_top_length: 1.3
+  pin_top_height: 0.35
+  pin_bottom_length: 0.25
+  pin_corner_radius: 0.2
+  pins: [
+    [-3.2,  1.85, 180],
+    [-3.2, -1.85, 180],
+    [ 3.2, -1.85,   0],
+    [ 3.2,  1.85,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.mouser.com/datasheet/2/15/SKQG-1155865.pdf
+
+SW_SPST_SKQG_WithStem:
+  inherit: SW_SPST_SKQG_WithoutStem
+  modelName: SW_SPST_SKQG_WithStem
+
+  shell_top_cover_type: rectangle
+  shell_top_cover_height: [0.8, 1.2]
+  shell_top_cover_width: [3.7, 3.5]
+  shell_top_cover_vertical_corner_chamfer: 0.6
+  shell_top_cover_top_fillet: 0.2
+
+  actuator_type: top-round
+  actuator_height: 1.5
+  actuator_diameter: 2.0
+  actuator_shell_hole_diameter: 2.2
+  actuator_top_fillet: 0.25
+
+  actuator_color_key: metal silver
+
+SW_Push_SPST_NO_Alps_SKRK:
+  modelName: SW_Push_SPST_NO_Alps_SKRK
+  model_class: tactile
+
+  body_width: 3.9
+  body_length: 2.4
+  body_height: 1.35
+  body_features: [
+    [add, box, [0, -1.325, 0.4], [1.8, 0.25, 0.8]], # op, type, pos, dim, extra
+    [add, box, [0,  1.325, 0.4], [1.8, 0.25, 0.8]],
+    [cut, box, [0, 0, 0.025], [1, 2.9, 0.05]],
+    [cut, box, [-1.775, 0, 0.025], [0.35, 2.4, 0.05]],
+    [cut, box, [ 1.775, 0, 0.025], [0.35, 2.4, 0.05]],
+  ]
+
+  shell_width: 3.5
+  shell_length: 2.4
+  shell_height: 1.5
+  shell_thickness: 0.15
+  shell_top_lips: [
+    [add, [0, 180], -1, 0.2, 0.4, 0.4], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  1, 0.2, 0.4, 0.4],
+  ]
+
+  shell_sides: [
+    {
+      direction: [0, 180],
+      distance: 1.95,
+      width: 0.6,
+      bottom_height: 0.8,
+      corner_fillet: 0.1,
+    },
+    {
+      direction: [90, 270],
+      distance: 1.45,
+      width: 2.7,
+      bottom_height: 0.3,
+      hole_width: 1.8,
+      hole_top_height: 0.8,
+      side_width: 3.75,
+      side_top_height: 0.6,
+      corner_fillet: 0.1,
+      holder_chamfer: [0.2, 0.5],
+    },
+  ]
+
+  actuator_type: top-round
+  actuator_height: 2.0
+  actuator_diameter: 1.8
+  actuator_shell_hole_diameter: 2.2
+  actuator_top_fillet: 0.1
+
+  pin_type: flat
+  pin_width: 1.4
+  pin_thickness: 0.1
+  pin_length: 0.8
+  pin_board_distance: 0.05
+  pins: [
+    [-2.4, 0, 180],
+    [ 2.4, 0,   0],
+  ]
+
+  body_color_key: white body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.mouser.com/datasheet/2/15/SKRK-1370789.pdf
+
+SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG:
+  modelName: SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG
+  model_class: tactile
+
+  body_width: 6.0
+  body_length: 6.0
+  body_height: 3.3
+  body_corner_fillet: 0.2
+  body_features: [
+    [add, cylinder, [-2.2, -2.2, 3.65], XY, 0.7, 0.75, fillet, [">Z", 0.35]], # op, type, pos, dim, extra
+    [add, cylinder, [-2.2,  2.2, 3.65], XY, 0.7, 0.75, fillet, [">Z", 0.35]],
+    [add, cylinder, [ 2.2, -2.2, 3.65], XY, 0.7, 0.75, fillet, [">Z", 0.35]],
+    [add, cylinder, [ 2.2,  2.2, 3.65], XY, 0.7, 0.75, fillet, [">Z", 0.35]],
+    [cut, box, [0, 0, 0.2], [2.7, 6.0, 0.4]],
+    [cut, box, [-2.75, -2.25, 0.2], [0.5, 1.5, 0.4]],
+    [cut, box, [-2.75,  2.25, 0.2], [0.5, 1.5, 0.4]],
+    [cut, box, [ 2.75, -2.25, 0.2], [0.5, 1.5, 0.4]],
+    [cut, box, [ 2.75,  2.25, 0.2], [0.5, 1.5, 0.4]],
+  ]
+
+  shell_width: 6.0
+  shell_length: 6.0
+  shell_height: 3.6
+  shell_thickness: 0.3
+  shell_corner_fillet: 0.2
+
+  actuator_type: top-round
+  actuator_height: 4.3
+  actuator_diameter: 3.5
+  actuator_shell_hole_diameter: 3.7
+  actuator_top_fillet: 0.15
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_length: 2.0
+  pin_top_height: 1.2
+  pin_top_length: 0.5
+  pin_bottom_height: -0.1
+  pin_bottom_length: 0.8
+  pin_corner_radius: 0.3
+  pins: [
+    [-5,  2.25, 180],
+    [-5, -2.25, 180],
+    [ 5, -2.25,   0],
+    [ 5,  2.25,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.e-switch.com/wp-content/uploads/2024/03/TL3301.pdf
+
+SW_SPST_TL3305A:
+  modelName: SW_SPST_TL3305A
+  model_class: tactile
+
+  body_width: 4.5
+  body_length: 4.5
+  body_height: 2.7
+  body_corner_fillet: 0.4
+  body_features: [
+    [add, cylinder, [-1.55, -1.55, 3.05], XY, 0.7, 0.65, fillet, [">Z", 0.3]], # op, type, pos, dim, extra
+    [add, cylinder, [-1.55,  1.55, 3.05], XY, 0.7, 0.65, fillet, [">Z", 0.3]], # op, type, pos, dim, extra
+    [add, cylinder, [ 1.55, -1.55, 3.05], XY, 0.7, 0.65, fillet, [">Z", 0.3]], # op, type, pos, dim, extra
+    [add, cylinder, [ 1.55,  1.55, 3.05], XY, 0.7, 0.65, fillet, [">Z", 0.3]], # op, type, pos, dim, extra
+    [cut, box, [0,  0, 0.15], [4.5, 1.2, 0.3]],
+    [cut, box, [0, -2, 0.15], [2.4, 0.5, 0.3]],
+    [cut, box, [0,  2, 0.15], [2.4, 0.5, 0.3]],
+  ]
+
+  shell_width: 4.5
+  shell_length: 4.5
+  shell_height: 3.0
+  shell_thickness: 0.3
+  shell_corner_fillet: 0.4
+
+  actuator_type: top-round
+  actuator_height: 3.8
+  actuator_diameter: 2.5
+  actuator_shell_hole_diameter: 2.6
+  actuator_top_fillet: 0.15
+
+  pin_type: gullwing
+  pin_width: 0.7
+  pin_thickness: 0.3
+  pin_length: 1.5
+  pin_top_height: 1.1
+  pin_top_length: 0.7
+  pin_bottom_height: -0.05
+  pin_bottom_length: 0.8
+  pin_corner_radius: 0.4
+  pins: [
+    [-3.75,  1.5, 180],
+    [-3.75, -1.5, 180],
+    [ 3.75, -1.5,   0],
+    [ 3.75,  1.5,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://www.e-switch.com/wp-content/uploads/2024/08/TL3305.pdf
+
+SW_SPST_TL3305B:
+  inherit: SW_SPST_TL3305A
+  modelName: SW_SPST_TL3305B
+
+  actuator_height: 5.0
+
+SW_SPST_TL3305C:
+  inherit: SW_SPST_TL3305A
+  modelName: SW_SPST_TL3305C
+
+  actuator_height: 7.0
+
+SW_SPST_TS-1088-xR020:
+  modelName: SW_SPST_TS-1088-xR020
+  model_class: tactile
+
+  body_width: 3.9
+  body_length: 2.7
+  body_height: 1.4
+
+  shell_width: 3.5
+  shell_length: 2.6
+  shell_height: 1.5
+  shell_thickness: 0.1
+
+  shell_top_lips: [
+    [add, [0, 180], -1.1, 0.2, 0.4, 0.4], # op, direction, offs, len, base_w, tip_w
+    [add, [0, 180],  1.1, 0.2, 0.4, 0.4],
+  ]
+
+  shell_sides: [
+    {
+      direction: [ 0, 180 ],
+      distance: 1.95,
+      width: 0.75,
+      bottom_height: 1
+    },
+    { direction: [ 90, 270 ], distance: 1.5, width: 2.6, bottom_height: 0.2, hole_width: 1.8, hole_top_height: 1, side_width: 3.6, side_top_height: 0.6, corner_fillet: 0.1, holder_chamfer: [ 0.1, 0.8 ] }
+  ]
+
+  actuator_type: top-round
+  actuator_height: 2
+  actuator_diameter: 1.8
+  actuator_shell_hole_diameter: 1.9
+
+  pin_type: flat
+  pin_width: 1.3
+  pin_thickness: 0.1
+  pin_length: 0.65
+  pins: [ [ -2.5, 0, 180 ], [ 2.5, 0, 0 ] ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_SMD.3dshapes
+  source: https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf
+
+SW_SPST_TS-1088-xR025:
+  inherit: SW_SPST_TS-1088-xR020
+  modelName: SW_SPST_TS-1088-xR025
+
+  actuator_height: 2.5
+
+SW_PUSH-12mm_Wuerth-430476085716:
+  modelName: SW_PUSH-12mm_Wuerth-430476085716
+  model_class: tactile
+
+  translation: [6.25, -2.5, 0]
+
+  body_width: 12.0
+  body_length: 12.0
+  body_height: 3.5
+  body_corner_fillet: 1.0
+  body_features: [
+    [cut, box, [0, 0, 3.425], [11, 11, 0.15], fillet, ["|Z", 0.5]], # op, type, pos, dim, extra
+    [cut, box, [0, 0, 3.425], [1.6, 12, 0.15]],
+    [add, cylinder, [-4.25, -4.25, 3.75], XY, 0.5, 1.3, fillet, [">Z", 0.4]],
+    [add, cylinder, [-4.25,  4.25, 3.75], XY, 0.5, 1.3, fillet, [">Z", 0.4]],
+    [add, cylinder, [ 4.25, -4.25, 3.75], XY, 0.5, 1.3, fillet, [">Z", 0.4]],
+    [add, cylinder, [ 4.25,  4.25, 3.75], XY, 0.5, 1.3, fillet, [">Z", 0.4]],
+    [cut, box, [0, 0, 0.05], [12, 12, 0.1]],
+    [add, box, [-4.25, -4.25, 0.05], [3.5, 3.5, 0.1], fillet, ["|Z and ((<X and <Y) or (>X and >Y))", 1]],
+    [add, box, [-4.25,  4.25, 0.05], [3.5, 3.5, 0.1], fillet, ["|Z and ((<X and >Y) or (>X and <Y))", 1]],
+    [add, box, [ 4.25, -4.25, 0.05], [3.5, 3.5, 0.1], fillet, ["|Z and ((>X and <Y) or (<X and >Y))", 1]],
+    [add, box, [ 4.25,  4.25, 0.05], [3.5, 3.5, 0.1], fillet, ["|Z and ((>X and >Y) or (<X and <Y))", 1]],
+  ]
+
+  shell_width: 11.0
+  shell_length: 11.0
+  shell_height: 3.5
+  shell_thickness: 0.15
+  shell_corner_fillet: 0.5
+  shell_top_lips: [
+    [cut, [90, 270], 0, -0.2, 5.3, 5.0], # op, direction, offs, len, base_w, tip_w
+    [cut, [0, 180], 0, -0.2, 5.3, 5.0],
+  ]
+
+  actuator_type: top-round
+  actuator_height: 8.5
+  actuator_diameter: 7.0
+  actuator_shell_hole_diameter: 7.1
+  actuator_top_fillet: 0.2
+
+  pin_type: through-hole
+  pin_width: 1.0
+  pin_thickness: 0.3
+  pin_base_offset: -0.50
+  pin_base_height: 1.0
+  pin_bottom_height: -3.5
+  pin_corners: [
+    [0.05,  1.00],
+    [0.05, -0.70],
+    [0.75, -2.10],
+  ]
+  pin_corner_radius: 0.3
+  pin_tip_chamfer: [0.2, 1.0]
+  pins: [
+    [-6.25,  2.5, 180],
+    [-6.25, -2.5, 180],
+    [ 6.25, -2.5,   0],
+    [ 6.25,  2.5,   0],
+  ]
+
+  body_color_key: black body
+  shell_color_key: metal silver
+  actuator_color_key: black body
+  pins_color_key: metal grey pins
+  destination_dir: Button_Switch_THT.3dshapes
+  source: https://www.we-online.com/components/products/datasheet/430476085716.pdf

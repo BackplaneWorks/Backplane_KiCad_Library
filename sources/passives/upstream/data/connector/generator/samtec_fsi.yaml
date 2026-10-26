@@ -1,0 +1,280 @@
+defaults:
+  library: 'Samtec_FSI'
+  description: 'Samtec FSI One-Piece Interface, 1.00 mm Pitch, {options}'
+  tags: 'conn samtec one piece interface'
+  # parameters:
+  #   height_code: 'XX' # XX for 6mm and 10mm variants, 03 for 3mm variants
+  #   option_code: '' # optional, e.g. '-AD' for alignment pin, '-M' for threaded, '-M-AD' for both
+  fp_name: 'Samtec_FSI-1{num_pos:02d}-{height_code}-X-D{option_code}'
+  pad_pitch: 1.0
+  first_pin:
+    marker:
+      shape: 'triangle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      offset: 0.75     # offset from the body edge (default: size)
+      fab: True         # draw a pin1 indicator on Fab
+  clean_silk: True
+
+#
+# Definitions for the 3mm height variants
+#
+FSI-1XX-03-X-D:
+  inherit: 'defaults'
+  parameters:
+    height_code: '03'
+    option_code: ''
+  first_pin:
+    position: 'top'
+  pads:
+    size: [0.61, 1.26]
+  row_pitch: 9.18
+  options: 'Double Row'
+  fp_suffix: '_Socket'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf'
+  positions: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+  body_size:
+    x_offset: 0.88
+    y: 8.76
+
+FSI-1XX-03-X-D-AD:
+  inherit: 'FSI-1XX-03-X-D'
+  parameters:
+    option_code: '-AD'
+  options: 'Double Row, Alignment Pin'
+  fp_suffix: '_Socket_AlignmentPin'
+  mount_pads:
+    align: # NPTH alignment pin left:
+      center:
+        x_offset: 0   # offset from edge-pad center
+        y: 0
+      drill: 1.19    # null (default) or diameter
+
+FSI-1XX-03-X-D-M:
+  inherit: 'FSI-1XX-03-X-D'
+  parameters:
+    option_code: '-M'
+  options: 'Double Row, Threaded'
+  fp_suffix: '_Socket_Threaded'
+  positions: [10, 20, 30]
+  body_size:
+    x_offset: 0.88
+    y: 8.76
+  body_shape:
+    right:
+      polyline: [ [r, t + 0.885], [r + 6.67, t + 0.885], [r + 6.67, b - 0.885], [r, b - 0.885]]
+    left: mirror
+  mount_pads:
+    thread: # NPTH alignment pin left:
+      center:
+        x_offset: 4.12   # offset from edge-pad center
+        y: 0
+      drill: 2.54    # null (default) or diameter
+
+FSI-1XX-03-X-D-M-AD:
+  inherit: 'FSI-1XX-03-X-D-M'
+  parameters:
+    option_code: '-M-AD'
+  options: 'Double Row, Threaded, Alignment Pin'
+  fp_suffix: '_Socket_Threaded_AlignmentPin'
+  mount_pads:
+    align: # NPTH alignment pin left:
+      center:
+        x_offset: 0   # offset from edge-pad center
+        y: 0
+      drill: 1.19    # null (default) or diameter
+
+FSI-1XX-03-X-D-M-40:
+  inherit: 'FSI-1XX-03-X-D-M'
+  options: 'Double Row, Threaded'
+  fp_suffix: '_Socket_Threaded'
+  positions: [40, 50]
+  gap:
+    40: [20, 8]
+    50: [25, 8]
+  body_shape:
+    bottom:
+      polyline: [ [-4.5 + 0.88, b], [-4.5 + 0.88, b - 0.885], [4.5 - 0.88, b - 0.885], [4.5 - 0.88, b] ]
+    top: mirror
+  mount_pads:
+    ctr_thread: # NPTH alignment pin left:
+      center:
+        x: 0   # offset from edge-pad center
+        y: 0
+      drill: 2.54    # null (default) or diameter
+      ends: 'left'
+
+FSI-1XX-03-X-D-M-AD-40:
+  inherit: 'FSI-1XX-03-X-D-M-40'
+  parameters:
+    option_code: '-M-AD'
+  options: 'Double Row, Threaded, Alignment Pin'
+  fp_suffix: '_Socket_Threaded_AlignmentPin'
+  mount_pads:
+    align: # NPTH alignment pin left:
+      center:
+        x_offset: 0   # offset from edge-pad center
+        y: 0
+      drill: 1.19    # null (default) or diameter
+
+#
+# Definitions for the 6mm and 10mm height variants
+#
+FSI-1XX-XX-X-D:
+  inherit: 'FSI-1XX-03-X-D'
+  parameters:
+    height_code: 'XX'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+FSI-1XX-XX-X-D-AD:
+  inherit: 'FSI-1XX-03-X-D-AD'
+  parameters:
+    height_code: 'XX'
+  options: 'Double Row, Alignment Pin'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+FSI-1XX-XX-X-D-M:
+  inherit: 'FSI-1XX-03-X-D-M'
+  parameters:
+    height_code: 'XX'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+FSI-1XX-XX-X-D-M-AD:
+  inherit: 'FSI-1XX-03-X-D-M-AD'
+  parameters:
+    height_code: 'XX'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+FSI-1XX-XX-X-D-M-40:
+  inherit: 'FSI-1XX-03-X-D-M-40'
+  parameters:
+    height_code: 'XX'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+FSI-1XX-XX-X-D-M-AD-40:
+  inherit: 'FSI-1XX-03-X-D-M-AD-40'
+  parameters:
+    height_code: 'XX'
+  source: 'https://suddendocs.samtec.com/prints/fsi-1xx-xx-xxx-d-x-xx-xx-footprint.pdf'
+  row_pitch: 9.46
+  body_size:
+    x_offset: 0.88
+    y: 9.017
+
+#
+# Definitions for the PCB mates
+#
+
+FSI-1XX-XX-X-D-MATE:
+  inherit: 'FSI-1XX-XX-X-D'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, PCB Mate'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'
+
+FSI-1XX-XX-X-D-AD-MATE:
+  inherit: 'FSI-1XX-XX-X-D-AD'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, Alignment Pin, PCB Mate'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate_AlignmentPin'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'
+
+FSI-1XX-XX-X-D-M-MATE:
+  inherit: 'FSI-1XX-XX-X-D-M'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, PCB Mate, Threaded'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate_Threaded'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'
+
+FSI-1XX-XX-X-D-M-AD-MATE:
+  inherit: 'FSI-1XX-XX-X-D-M-AD'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, PCB Mate, Threaded, Alignment Pin'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate_Threaded_AlignmentPin'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'
+
+FSI-1XX-XX-X-D-M-MATE-40:
+  inherit: 'FSI-1XX-XX-X-D-M-40'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, PCB Mate, Threaded'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate_Threaded'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'
+
+FSI-1XX-XX-X-D-M-AD-MATE-40:
+  inherit: 'FSI-1XX-XX-X-D-M-AD-40'
+  exclude_from_bom: True
+  exclude_from_pos: True
+  first_pin:
+    position: 'bottom'
+    offset: 1.48
+  pads:
+    size: [0.61, 3.55]
+    paste: False
+  row_pitch: 7.11
+  options: 'Double Row, PCB Mate, Threaded, Alignment Pin'
+  footprint_type: 'unspecified'
+  fp_suffix: '_Mate_Threaded_AlignmentPin'
+  source: 'https://suddendocs.samtec.com/prints/fsi-mating%20board.pdf'

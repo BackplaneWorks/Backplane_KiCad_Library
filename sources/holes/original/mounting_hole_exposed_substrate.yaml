@@ -1,0 +1,169 @@
+# Exposed-substrate NPTH mounting-hole definitions.
+#
+# The drill and mask-opening diameters mirror the NPTH mechanical diameters in
+# kicad-footprint-generator's data/mounting_hardware/mounting_hole/hole_sizes.yaml.
+# Each entry expands into Center, Edge, and Corner footprints. Edge and Corner
+# point toward +X and +X/+Y respectively; rotate the footprint to face the
+# required board edge(s).
+
+schema: amemb.mounting_hole.exposed_substrate.v1
+
+source:
+  generator: mounting_hardware/mounting_hole
+  definition: data/mounting_hardware/mounting_hole/hole_sizes.yaml
+  revision: 9d5b3f76364cfd307ec06d2137f387d18b6768a0
+
+default_parameters:
+  library: amemb-MountingHole
+  footprint_name: '{name}_ExposedSubstrate{variant_suffix}'
+  description: >-
+    Exposed-substrate non-plated mounting hole, {drill:g}mm drill,
+    {mask_keepout_diameter:g}mm top and bottom solder-mask opening, with copper
+    prohibited on every copper layer to 0.2mm beyond the mask-opening boundary
+  tags:
+    - mountinghole
+    - npth
+    - exposed-substrate
+
+  hole:
+    type: np_thru_hole
+    plated: false
+    position: [0.0, 0.0]
+
+  solder_mask_keepout:
+    layers: [F.Mask, B.Mask]
+    primitive: filled_region
+
+  copper_keepout:
+    layers: all_copper
+    mechanism: npth_local_clearance_plus_extension_rule_area
+    expansion_from_mask_boundary: 0.2
+    tracks: not_allowed
+    vias: not_allowed
+    pads: not_allowed
+    copper_pours: not_allowed
+    footprints: allowed
+
+  edge_extension: 5.0
+  courtyard_offset: 0.25
+
+variants:
+  Center:
+    variant_suffix: ''
+    shape: circle
+  Edge:
+    variant_suffix: _Edge
+    shape: circle_with_outward_extension
+    outward_directions: [+X]
+  Corner:
+    variant_suffix: _Corner
+    shape: circle_with_outward_extension
+    outward_directions: [+X, +Y]
+
+footprints:
+  - name: MountingHole_2mm
+    source_id: MountingHole_2mm
+    drill: 2.0
+    mask_keepout_diameter: 4.0
+
+  - name: MountingHole_2.1mm
+    source_id: MountingHole_2.1mm
+    drill: 2.1
+    mask_keepout_diameter: 4.2
+
+  - name: MountingHole_2.2mm_M2
+    source_id: MountingHole_2.2mm_M2
+    thread: M2
+    drill: 2.2
+    mask_keepout_diameter: 4.4
+
+  - name: MountingHole_2.5mm
+    source_id: MountingHole_2.5mm
+    drill: 2.5
+    mask_keepout_diameter: 5.0
+
+  - name: MountingHole_2.7mm
+    source_id: MountingHole_2.7mm
+    drill: 2.7
+    mask_keepout_diameter: 5.4
+
+  - name: MountingHole_2.7mm_M2.5
+    source_id: MountingHole_2.7mm_M2.5
+    thread: M2.5
+    drill: 2.7
+    mask_keepout_diameter: 5.4
+
+  - name: MountingHole_3mm
+    source_id: MountingHole_3mm
+    drill: 3.0
+    mask_keepout_diameter: 6.0
+
+  - name: MountingHole_3.2mm_M3
+    source_id: MountingHole_3.2mm_M3
+    thread: M3
+    drill: 3.2
+    mask_keepout_diameter: 6.4
+
+  - name: MountingHole_3.5mm
+    source_id: MountingHole_3.5mm
+    drill: 3.5
+    mask_keepout_diameter: 7.0
+
+  - name: MountingHole_3.7mm
+    source_id: MountingHole_3.7mm
+    drill: 3.7
+    mask_keepout_diameter: 7.4
+
+  - name: MountingHole_4mm
+    source_id: MountingHole_4mm
+    drill: 4.0
+    mask_keepout_diameter: 8.0
+
+  - name: MountingHole_4.3mm_M4
+    source_id: MountingHole_4.3mm_M4
+    thread: M4
+    drill: 4.3
+    mask_keepout_diameter: 8.6
+
+  - name: MountingHole_4.5mm
+    source_id: MountingHole_4.5mm
+    drill: 4.5
+    mask_keepout_diameter: 9.0
+
+  - name: MountingHole_5mm
+    source_id: MountingHole_5mm
+    drill: 5.0
+    mask_keepout_diameter: 10.0
+
+  - name: MountingHole_5.3mm_M5
+    source_id: MountingHole_5.3mm_M4
+    thread: M5
+    drill: 5.3
+    mask_keepout_diameter: 10.6
+
+  - name: MountingHole_5.5mm
+    source_id: MountingHole_5.5mm
+    drill: 5.5
+    mask_keepout_diameter: 11.0
+
+  - name: MountingHole_6mm
+    source_id: MountingHole_6mm
+    drill: 6.0
+    mask_keepout_diameter: 12.0
+
+  - name: MountingHole_6.4mm_M6
+    source_id: MountingHole_6.4mm_M6
+    thread: M6
+    drill: 6.4
+    mask_keepout_diameter: 12.8
+
+  - name: MountingHole_6.5mm
+    source_id: MountingHole_6.5mm
+    drill: 6.5
+    mask_keepout_diameter: 13.0
+
+  - name: MountingHole_8.4mm_M8
+    source_id: MountingHole_8.4mm_M8
+    thread: M8
+    drill: 8.4
+    mask_keepout_diameter: 16.8

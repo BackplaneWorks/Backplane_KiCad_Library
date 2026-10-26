@@ -1,0 +1,111 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kicad-library-generators"
+version = "1.1.3"
+description = "Create KiCad footprints and 3D models"
+readme = "README.md"
+
+# Who created the project
+authors = [
+    {name = "The KiCad Library Team" },
+]
+
+# Project dependencies
+dependencies = [
+    "asteval",
+    "typing_extensions",
+    "pyyaml",
+    "future",
+    "tabulate",
+    "pyclipper",
+    "colorlog",
+]
+
+# Optional: development dependencies
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pycodestyle",
+    "types-PyYAML",
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+    "unittest2",
+    "nose2",
+    "nose2-cov"
+]
+
+documentation = [
+    "sphinx",
+    "sphinx_rtd_theme",
+    "aafigure",
+    "sphinx_math_dollar",
+]
+
+3d = [
+    "cadquery==2.6.1",
+    "cadquery-ocp>=7.8.1,<7.9",
+    "nlopt>=2.9.0,<3.0",
+    "numpy",
+]
+
+# Package discovery configuration
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = [
+    "generators*",
+    "kilibs*",
+    "KicadModTree*",
+    "tests*",
+]
+
+[tool.setuptools.package-data]
+"kilibs.config" = [
+    "global_configs/*.yaml",
+    "ipc_configs/*.yaml",
+]
+"generators" = [
+    "**/*.yaml",
+    ".sorted_fp_gen_list",
+    ".sorted_mod_gen_list",
+]
+
+[tool.isort]
+profile = "black"
+# COMMON is a made-up name listing a bunch of regularly used imports
+sections = ['FUTURE', 'STDLIB', 'COMMON', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
+known_common = ['cadquery', 'yaml', 'OCP']
+
+# Configure MyPy static type checker
+[tool.mypy]
+strict = true
+follow_imports = "skip"
+packages = [
+    "generators.package.grid_array",
+    "generators.package.gullwing",
+    "generators.tools.footprint.nodes",
+    "generators.tools.pad_factory",
+    "kilibs",
+    "KicadModTree",
+]
+mypy_path = ["src", "."]
+exclude = [
+    "src/kilibs/declarative_defs",
+    "src/generators",
+    "KicadModTree/nodes/specialized/PolygonLine\\.py",
+    "KicadModTree/nodes/specialized/ChamferedRect\\.py",
+    "KicadModTree/examples",
+    "KicadModTree/tests",
+]
+
+[tool.pydocstringformatter]
+write = true
+exclude = ["**/3d-model-generators/**", "**/data/**", "**/docs/**", "**/gitlabci/**", "**/KicadModTree/**", "**/scripts/**"]
+split-summary-body = false
+numpydoc-section-hyphen-length = false
+summary-quotes-same-line = true
+linewrap-full-docstring = true

@@ -1,0 +1,12 @@
+PartNumber,widthX,lengthY,height,coreDiameter,landingX,landingInsideX,landingY,padX,padInsideX,padY,datasheet
+SLF6025,6.0,6.0,2.5,5.8,1.5,4.0,2.2,0.9,4.0,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf6025_en.pdf
+SLF6028,6.0,6.0,2.8,5.8,1.5,4.0,2.2,0.9,4.0,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf6028_en.pdf
+SLF6045,6.0,6.0,4.5,5.8,1.5,4.0,2.2,0.9,4.0,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf6045_en.pdf
+SLF7032,7.0,7.0,3.2,6.8,1.5,4.8,2.2,0.9,4.9,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf7032_en.pdf
+SLF7045,7.0,7.0,4.5,6.8,1.5,4.8,2.2,0.9,4.9,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf7045_en.pdf
+SLF7055,7.0,7.0,5.5,6.8,1.5,4.8,2.2,0.9,4.9,2.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf7055_en.pdf
+SLF10145,10.1,10.1,4.5,9.9,2.5,5.6,3.2,2,6.1,3.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf10145_en.pdf
+SLF10165,10.1,10.1,6.5,9.9,2.5,5.6,3.2,2,6.1,3.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf10165_en.pdf
+SLF12555,12.5,12.5,5.5,12.3,2.6,8.5,3.2,2,8.5,3.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf12555_en.pdf
+SLF12565,12.5,12.5,6.5,12.3,2.6,8.5,3.2,2,8.5,3.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf12565_en.pdf
+SLF12575,12.5,12.5,7.5,12.3,2.6,8.5,3.2,2,8.5,3.0,https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf12575_en.pdf

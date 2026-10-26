@@ -1,0 +1,824 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+# QFN - Quad Flat No-lead
+#
+# Some standards:
+# - JEDEC MO-220, MO-248
+# - JEITA ED-7311-22, ED-7324
+
+default_parameters:
+  library: Package_DFN_QFN
+
+QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm:
+  size_source: 'https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 7
+    tolerance: 0
+  body_size_y:
+    nominal: 7
+    tolerance: 0
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 0.9
+  num_pins_x: 15
+  num_pins_y: 15
+  pitch: 0.4
+  lead_width:
+    minimum: 0.13
+    nominal: 0.18
+    maximum: 0.23
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  EP_size_x:
+    minimum: 3.35
+    nominal: 3.40
+    maximum: 3.45
+  EP_size_y:
+    minimum: 3.35
+    nominal: 3.40
+    maximum: 3.45
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_8x8mm_P0.4mm_EP6.5x6.5mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/64L_VQFN_8x8_with%206_5x6_5%20EP_JXX_C04-0437A.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 8
+    tolerance: 0
+  body_size_y:
+    nominal: 8
+    tolerance: 0
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 0.9
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.4
+  lead_shape: rounded
+  lead_width:
+    minimum: 0.15
+    nominal: 0.2
+    maximum: 0.25
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    minimum: 6.4
+    nominal: 6.5
+    maximum: 6.6
+  EP_size_y:
+    minimum: 6.4
+    nominal: 6.5
+    maximum: 6.6
+  EP_chamfer: 0.3
+  EP_num_paste_pads: [5, 5]
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm:
+  size_source: 'www.intel.com/content/www/us/en/ethernet-controllers/i210-ethernet-controller-datasheet.html'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9.0
+    tolerance: 0
+  body_size_y:
+    nominal: 9.0
+    tolerance: 0.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.23
+    maximum: 0.30
+  lead_len:
+    minimum: 0.30
+    nominal: 0.40
+    maximum: 0.50
+  EP_size_x:
+    nominal: 3.4
+    tolerance: 0.2
+  EP_size_y:
+    nominal: 3.4
+    tolerance: 0.2
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP3.8x3.8mm:
+  size_source: 'https://datasheet.lcsc.com/szlcsc/Realtek-Semicon-RTL8211EG-VB-CG_C69264.pdf#page=77'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_y: 9.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width: 0.18 .. 0.25 .. 0.30
+  lead_len: 0.30 .. 0.40 .. 0.50
+  EP_size_x: 3.55 .. 3.80 .. 4.05
+  EP_size_y: 3.55 .. 3.80 .. 4.05
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP4.1x4.1mm:
+  size_source: 'https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_y: 9.0
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height: 0.8 .. 0.85 .. 0.90
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_shape: square
+  lead_width: 0.18 .. 0.25 .. 0.30
+  lead_len: 0.30 .. 0.40 .. 0.50
+  EP_size_x: 3.95 .. 4.10 .. 4.25
+  EP_size_y: 3.95 .. 4.10 .. 4.25
+  EP_chamfer: 0.2
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+Texas_RGC0064B_VQFN-64-1EP_9x9mm_P0.5mm_EP4.25x4.25mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/msp430f5217.pdf#page=122'
+  device_type: 'VQFN'
+  manufacturer: 'Texas'
+  part_number: 'RGC0064B'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 8.9
+    maximum: 9.1
+  body_size_y:
+    minimum: 8.9
+    maximum: 9.1
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height:
+    minimum: 0.8
+    maximum: 1.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_shape: square
+  lead_width:
+    minimum: 0.18
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    nominal: 4.25
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 4.25
+    tolerance: 0.1
+  EP_chamfer: 0.25
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [5, 5]
+    grid: [0.8, 0.8]
+    drill: 0.2
+    EP_paste_coverage: 0.65
+    paste_via_clearance: 0.1
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP4.35x4.35mm:
+  size_source: 'https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf#page=57'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9
+  body_size_y:
+    nominal: 9
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 0.9
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.30
+  lead_len:
+    minimum: 0.35
+    nominal: 0.4
+    maximum: 0.45
+  EP_size_x:
+    minimum: 4.3
+    nominal: 4.35
+    maximum: 4.4
+  EP_size_y:
+    minimum: 4.3
+    nominal: 4.35
+    maximum: 4.4
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  #body_size_x_min: 8.9
+  body_size_x: 9.0
+  #body_size_x_max: 9.1
+  #body_size_y_min: 8.9
+  body_size_y: 9.0
+  #body_size_y_max: 9.1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.15
+  lead_width_max: 0.25
+  lead_len_min: 0.3
+  lead_len_max: 0.55
+  EP_size_x: 4.6 .. 4.7 .. 4.8
+  EP_size_y: 4.6 .. 4.7 .. 4.8
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP5.2x5.2mm:
+  size_source: 'https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf#page=51'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9
+    tolerance: 0
+  body_size_y:
+    nominal: 9
+    tolerance: 0
+  overall_height:
+    maximum: 0.9
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.30
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x:
+    minimum: 5.10
+    nominal: 5.20
+    maximum: 5.30
+  EP_size_y:
+    minimum: 5.10
+    nominal: 5.20
+    maximum: 5.30
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/70593d.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  #body_size_x_min: 8.9
+  body_size_x: 9.0
+  #body_size_x_max: 9.1
+  #body_size_y_min: 8.9
+  body_size_y: 9.0
+  #body_size_y_max: 9.1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.2
+  lead_width_max: 0.3
+  lead_len_min: 0.3
+  lead_len_max: 0.5
+  EP_size_x: 5.3 .. 5.4 .. 5.5
+  EP_size_y: 5.3 .. 5.4 .. 5.5
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+VQFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm:
+  size_source: 'https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718'
+  device_type: 'VQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9
+  body_size_y:
+    nominal: 9
+  overall_height:
+    minimum: 0.9
+    nominal: 0.9
+    maximum: 1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x: 5.3 .. 5.4 .. 5.5
+  EP_size_y: 5.3 .. 5.4 .. 5.5
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.33
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm:
+  size_source: 'https://www.infineon.com/dgdl/Infineon-MA12040-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b7467a3d617c#page=81'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9
+    tolerance: 0.1
+  body_size_y:
+    nominal: 9
+    tolerance: 0.1
+  overall_height:
+    maximum: 0.9
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.15
+    nominal: 0.25
+    maximum: 0.35
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x:
+    minimum: 5.35
+    nominal: 5.45
+    maximum: 5.55
+  EP_size_y:
+    minimum: 5.35
+    nominal: 5.45
+    maximum: 5.55
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP5.7x5.7mm:
+  size_source: 'https://static.klayers.net/kl_pdf/MS2130-MacroSilicon_KL-014-0010911.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_y: 9.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width: 0.2 .. 0.25 .. 0.30
+  lead_len: 0.30 .. 0.40 .. 0.50
+  EP_size_x: 5.6 .. 5.7 .. 5.8
+  EP_size_y: 5.6 .. 5.7 .. 5.8
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/tusb8041.pdf#page=42'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_x_min: 8.9
+  body_size_x_max: 9.1
+  body_size_y: 9.0
+  body_size_y_min: 8.9
+  body_size_y_max: 9.1
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    maximum: 1.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.18
+  lead_width_max: 0.3
+  lead_len_min: 0.3
+  lead_len_max: 0.5
+  lead_height:
+    nominal: 0.2
+  EP_size_x: 5.95 .. 6 .. 6.05
+  EP_size_y: 5.95 .. 6 .. 6.05
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf#page=27'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 9.0
+    tolerance: 0.1
+  body_size_y:
+    nominal: 9.0
+    tolerance: 0.1
+  overall_height:
+    nominal: 0.75
+    tolerance: 0.05
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.1
+  EP_size_x:
+    nominal: 7.15
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 7.15
+    tolerance: 0.1
+  EP_num_paste_pads: [5, 5]
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+VQFN-64-1EP_9x9mm_P0.5mm_EP7.15X7.15mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/64L_QFN_9x9_MR_C04-00149e.pdf'
+  device_type: 'VQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+  #minimum: 8.85
+    nominal: 9
+    #maximum: 9.15
+  body_size_y:
+  #minimum: 8.85
+    nominal: 9
+    #maximum: 9.15
+  overall_height:
+    minimum: 0.8
+    nominal: 0.9
+    maximum: 1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    minimum: 0.18
+    nominal: 0.25
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x:
+    nominal: 7.15
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 7.15
+    tolerance: 0.1
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf (page 43)'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_x_min: 8.9
+  body_size_x_max: 9.1
+  body_size_y: 9.0
+  body_size_y_min: 8.9
+  body_size_y_max: 9.1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.18
+  lead_width_max: 0.3
+  lead_len_min: 0.3
+  lead_len_max: 0.5
+  EP_size_x: 7.2 .. 7.3 .. 7.4
+  EP_size_y: 7.2 .. 7.3 .. 7.4
+  EP_num_paste_pads: [5, 5]
+  thermal_vias:
+    count: [6, 6]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf (page 432)'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_y: 9.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.18
+  lead_width_max: 0.3
+  lead_len_min: 0.3
+  lead_len_max: 0.55
+  chamfer_edge_pins: 0.1
+  EP_size_x: 7.4 .. 7.5 .. 7.6
+  EP_size_y: 7.4 .. 7.5 .. 7.6
+  EP_num_paste_pads: [6, 6]
+  thermal_vias:
+    count: [7, 7]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm:
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x: 9.0
+  body_size_x_min: 8.9
+  body_size_x_max: 9.1
+  body_size_y: 9.0
+  body_size_y_min: 8.9
+  body_size_y_max: 9.1
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width_min: 0.18
+  lead_width_max: 0.3
+  lead_len_min: 0.35
+  lead_len_max: 0.45
+  EP_size_x: 7.5 .. 7.65 .. 7.8
+  EP_size_y: 7.5 .. 7.65 .. 7.8
+  EP_num_paste_pads: [6, 6]
+  thermal_vias:
+    count: [7, 7]
+    drill: 0.2
+    paste_via_clearance: 0.1
+
+QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm:
+  size_source: 'https://artinchip.com/upload/files/product/20240112/17050529177725663.pdf/#page=42'
+  device_type: 'QFN'
+  manufacturer: 'ArtInChip'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 7
+    tolerance: 0.1
+  body_size_y:
+    nominal: 7
+    tolerance: 0.1
+  overall_height:
+    minimum: 0.85
+    nominal: 0.9
+    maximum: 0.95
+  num_pins_x: 17
+  num_pins_y: 17
+  pitch: 0.35
+  lead_width:
+    minimum: 0.10
+    nominal: 0.15
+    maximum: 0.20
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 5.39
+    nominal: 5.49
+    maximum: 5.59
+  EP_size_y:
+    minimum: 5.39
+    nominal: 5.49
+    maximum: 5.59
+  EP_num_paste_pads: [3, 3]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-68-1EP_8x8mm_P0.4mm_EP5.2x5.2mm:
+  size_source: 'https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 8
+    tolerance: 0
+  body_size_y:
+    nominal: 8
+    tolerance: 0
+  body_pcb_gap: 0.0 .. 0.02 .. 0.05
+  overall_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 0.9
+  num_pins_x: 17
+  num_pins_y: 17
+  pitch: 0.4
+  lead_shape: rounded
+  lead_width:
+    minimum: 0.15
+    nominal: 0.2
+    maximum: 0.25
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    minimum: 5.1
+    nominal: 5.2
+    maximum: 5.3
+  EP_size_y:
+    minimum: 5.1
+    nominal: 5.2
+    maximum: 5.3
+  EP_chamfer: 0.3
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm:
+  size_source: 'https://www.st.com/resource/en/datasheet/stm32h725ze.pdf'
+  device_type: 'QFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 8
+    tolerance: 0
+  body_size_y:
+    nominal: 8
+    tolerance: 0
+  overall_height:
+    minimum: 0.8
+    nominal: 0.9
+    maximum: 1.0
+  num_pins_x: 17
+  num_pins_y: 17
+  pitch: 0.4
+  lead_width:
+    minimum: 0.20
+    nominal: 0.25
+    maximum: 0.30
+  lead_len:
+    minimum: 0.40
+    nominal: 0.50
+    maximum: 0.60
+  EP_size_x:
+    minimum: 6.3
+    nominal: 6.4
+    maximum: 6.5
+  EP_size_y:
+    minimum: 6.3
+    nominal: 6.4
+    maximum: 6.5
+  EP_num_paste_pads: [4, 4]
+  thermal_vias:
+    count: [5, 5]
+    drill: 0.2
+    EP_paste_coverage: 0.6
+    paste_via_clearance: 0.1
+
+VQFN-68_1EP_8x8mm_P0.4mm_EP4.3x4.3mm:
+# similar to JEDEC MO-220 variation VLLE-1, but nominal height, lead_len and EP are different
+  size_source: 'https://ftdichip.com/wp-content/uploads/2025/09/DS_FT2233HP.pdf#page=49'
+  device_type: 'VQFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 8.00
+  body_size_y:
+    nominal: 8.00
+  overall_height:
+    minimum: 0.80
+    nominal: 0.85
+    maximum: 0.90
+  body_pcb_gap: 0.00 .. 0.02 .. 0.05 # A1
+  num_pins_x: 17
+  num_pins_y: 17
+  pitch: 0.40
+  lead_width:
+    minimum: 0.15
+    nominal: 0.20
+    maximum: 0.25
+  lead_len:
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
+  EP_size_x:
+    minimum: 4.25
+    nominal: 4.30
+    maximum: 4.35
+  EP_size_y:
+    minimum: 4.25
+    nominal: 4.30
+    maximum: 4.35
+  EP_num_paste_pads: [3, 3]
+
+##############################################################################
+# 'CSP' / 'LFCSP' packages, these packages are actually QFN under
+# manufacturers own names, this section is temporary
+##############################################################################
+
+LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm:
+# JEDEC MO-220, variation VMMD-4
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf'
+  # backup source, above is broken: https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-64/cp_64_7.pdf
+  library: Package_CSP
+  device_type: 'LFCSP'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 8.9
+    nominal: 9
+    minimum: 9.1
+  body_size_y:
+    minimum: 8.9
+    nominal: 9
+    minimum: 9.1
+  body_height:
+    minimum: 0.8
+    nominal: 0.85
+    maximum: 1.0
+  num_pins_x: 16
+  num_pins_y: 16
+  pitch: 0.5
+  lead_width:
+    maximum: 0.30
+    nominal: 0.25
+    minimum: 0.18
+  lead_len:
+    minimum: 0.3
+    nominal: 0.4
+    maximum: 0.5
+  EP_size_x:
+    maximum: 5.36
+    nominal: 5.21
+    minimum: 5.06
+  EP_size_y:
+    maximum: 5.36
+    nominal: 5.21
+    minimum: 5.06
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [4, 4]
+    drill: 0.3
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+##############################################################################
+# Please do not place other QFN packages below here, temporary section
+##############################################################################

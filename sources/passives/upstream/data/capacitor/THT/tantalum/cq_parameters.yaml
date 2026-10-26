@@ -1,0 +1,224 @@
+CP_Radial_Tantal_D4.5mm_P2.50mm:
+  L: 4.5  # body length
+  W: 4.5  # body Diameter
+  d: 0.5  # lead diameter
+  F: 2.5  # lead separation (center to center)
+  ll: 2.0  # lead length
+  bs: 0.1  # board separation
+  modelName: CP_Radial_Tantal_D4.5mm_P2.50mm  # modelName
+  rotation: 0  # rotation if required
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'  # destination directory prefix
+  include_in_qa: True
+
+CP_Radial_Tantal_D4.5mm_P5.00mm:
+  L: 4.5
+  W: 4.5
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D4.5mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D5.0mm_P2.50mm:
+  L: 5.0
+  W: 5.0
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D5.0mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D5.0mm_P5.00mm:
+  L: 5.0
+  W: 5.0
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D5.0mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D5.5mm_P2.50mm:
+  L: 5.5
+  W: 5.5
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D5.5mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D5.5mm_P5.00mm:
+  L: 5.5
+  W: 5.5
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D5.5mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D6.0mm_P2.50mm:
+  L: 6.0
+  W: 6.0
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D6.0mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D6.0mm_P5.00mm:
+  L: 6.0
+  W: 6.0
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D6.0mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D7.0mm_P2.50mm:
+  L: 7.0
+  W: 7.0
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D7.0mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D7.0mm_P5.00mm:
+  L: 7.0
+  W: 7.0
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D7.0mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D8.0mm_P2.50mm:
+  L: 8.0
+  W: 8.0
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D8.0mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D8.0mm_P5.00mm:
+  L: 8.0
+  W: 8.0
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D8.0mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D9.0mm_P2.50mm:
+  L: 9.0
+  W: 9.0
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D9.0mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D9.0mm_P5.00mm:
+  L: 9.0
+  W: 9.0
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D9.0mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D10.5mm_P2.50mm:
+  L: 10.5
+  W: 10.5
+  d: 0.5
+  F: 2.5
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D10.5mm_P2.50mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'
+
+CP_Radial_Tantal_D10.5mm_P5.00mm:
+  L: 10.5
+  W: 10.5
+  d: 0.5
+  F: 5.0
+  ll: 2.0
+  bs: 0.1
+  modelName: CP_Radial_Tantal_D10.5mm_P5.00mm
+  rotation: 0
+  body_color_key: 'orange body'
+  mark_color_key: 'light brown body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Capacitor_THT.3dshapes'

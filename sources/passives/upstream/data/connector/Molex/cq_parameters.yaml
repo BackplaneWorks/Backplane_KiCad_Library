@@ -1,0 +1,473 @@
+Series_502250:
+  series: '502250'
+  model_name: '502250'
+  manufacturer: 'Molex'
+  orientation: 'Horizontal'
+  pin_range: [17, 21, 23, 27, 33, 35, 39, 41, 51]
+  number_of_rows: 2
+  fp_name_format_string: '{man}_502250-{pincount}91_{num_rows}Rows-{pincount}Pins-1MP_P{pitch}0mm_{orientation}'
+  mount_pin: ''
+  half_pitch: 0.3
+  pitch: 0.6
+  pin_row_spacing: 2.875
+  body_width: 3.53
+  body_height: 0.88
+  body_length_padding: 1.8
+  body_y_offset: 1.7175
+  body_cut_width: 1.54
+  pin_color_key: 'metal grey pins'
+  body_color_key: 'white body'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_FFC-FPC.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/5022501791_sd.pdf'
+  include_in_qa:
+    pin_range: [17]
+
+KK_396_5273:
+  series: 'KK-396'
+  model_name: '5273'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_KK-396_5273-{pincount}A_{num_rows}x{pincount}_P{pitch}mm_{orientation}'
+  orientation: 'Vertical'
+  pin_range: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]  # Molex now sells only 2..8 channels
+  mount_pin: ''
+  number_of_rows: 1
+  pitch: 3.96
+  pin_width: 1.14
+  pin_chamfer_long: 0.3
+  pin_chamfer_short: 0.1
+  pin_height: 17.45
+  pin_depth: 3.6  # Depth below bottom surface of base
+  pin_inside_distance: 1.6  # Distance between centre of end pin and end of body
+  pin_xpos: 5.6  # Pin and groove not exactly body centered
+  body_width: 10.2
+  body_height: 3.2
+  body_channel_depth: 0.57
+  body_channel_width: 1.8
+  body_channel_chamfer: 0.7
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'https://www.molex.com/pdm_docs/sd/009652028_sd.pdf'
+
+KK_254_6410:
+  series: 'KK-254'
+  model_name: '6410'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_KK-254_AE-6410-{pincount}A_{num_rows}x{pincount}_P{pitch}mm_{orientation}'
+  orientation: 'Vertical'
+  pin_range: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  mount_pin: ''
+  number_of_rows: 1
+  pitch: 2.54
+  pin_width: 0.64
+  pin_chamfer_long: 0.25
+  pin_chamfer_short: 0.25
+  pin_height: 14.22  # DIMENSION C
+  pin_depth: 3.56  # DIMENSION F depth below bottom surface of base
+  pin_inside_distance: 1.27  # Distance between centre of end pin and end of body
+  body_width: 5.8
+  body_height: 3.17
+  body_channel_depth: 0.6
+  body_channel_width: 1.5
+  body_cutout_length: 1.2
+  body_cutout_width: 0.6
+  ramp_split_breakpoint: 6  # Above this number of pins, the tab is split into two parts
+  ramp_chamfer_x: 0.3
+  ramp_chamfer_y: 0.7
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/022272021_sd.pdf'
+
+# generators for 41791 and 41792 need some love to generate correct models
+
+# KK_396_41791:
+#   series: 'KK-396'
+#   model_name: '41791'
+#   manufacturer: 'Molex'
+#   fp_name_format_string: '{man}_KK-396_A-41791-{padpincount}_{num_rows}x{pincount}_P{pitch}mm_{orientation}'
+#   orientation: 'Vertical'
+#   pin_range: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] # range(2,19)
+#   mount_pin: ''
+#   number_of_rows: 1
+#   pitch: 3.96
+#   pin_width: 1.14
+#   pin_chamfer_long: 0.3
+#   pin_chamfer_short: 0.1
+#   pin_height: 18.29  # The standard pin, other length available
+#   pin_depth: 3.6  # Depth below bottom surface of base
+#   pin_inside_distance: 1.905  # Distance between centre of end pin and end of body (A-B)/2
+#   pin_xpos: 5.11  # Pin and groove not exactly body centered
+#   body_width: 6.88  # The base
+#   body_height: 3.3
+#   body_channel_depth: 0.76
+#   body_channel_width: 5.35
+#   full_width: 10.01  # base+ramp
+#   ramp_height: 11.33  # Full height
+#   ramp_notches_pos: [
+#       [],         # 0 number of pin
+#       [],         # 1
+#       [],         # 2
+#       [],         # 3
+#       [],         # 4
+#       [],         # 5
+#       [],         # 6
+#       [4],        # 7
+#       [4],        # 8
+#       [5],        # 9
+#       [5],        # 10
+#       [6],        # 11
+#       [4,8],      # 12
+#       [4,9],      # 13
+#       [5,9],      # 14
+#       [5,10],     # 15
+#       [5,11],     # 16
+#       [6,11],     # 17
+#       [6,12]      # 18
+#   ]
+#   body_color_key: 'white body'
+#   pin_color_key: 'metal grey pins'
+#   latch_color_key: 'black body'
+#   destination_dir: 'Connector_Molex.3dshapes'
+#   source: 'https://www.molex.com/pdm_docs/sd/009652028_sd.pdf'
+
+# KK_396_41792:
+#   series: 'KK-396'
+#   model_name: '41792'
+#   manufacturer: 'Molex'
+#   fp_name_format_string: '{man}_KK-396_A-41792-{padpincount}_{num_rows}x{pincount}_P{pitch}mm_{orientation}'
+#   orientation: 'Horizontal'
+#   pin_range: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]  # range(2, 19)
+#   mount_pin: ''
+#   number_of_rows: 1
+#   pitch: 3.96
+#   body_width: 6.88  # The base
+#   body_height: 3.3
+#   body_channel_depth: 0.76
+#   body_channel_width: 5.35
+#   pin_M: 11.43  # pin Mating
+#   pin_Y: 5.41
+#   pin_width: 1.14
+#   pin_chamfer_long: 0.3
+#   pin_chamfer_short: 0.1
+#   pin_height: 20.71  # body_height+pin_M+pin_Y+ pin_width/2  # The standard pin, other length available
+#   pin_depth: 5.98  # pin_Y + pin_width/2 # Depth below bottom surface of base
+#   pin_inside_distance: 1.905  # (7.77-3.96)/2 # Distance between centre of end pin and end of body (A-B)/2
+#   pin_xpos: 5.11  # Pin and groove not exactly body centered
+#   full_width: 10.01  # base+ramp
+#   ramp_height: 11.33  # Full height
+#   ramp_notches_pos: [
+#       [],         # 0 number of pin
+#       [],         # 1
+#       [],         # 2
+#       [],         # 3
+#       [],         # 4
+#       [],         # 5
+#       [],         # 6
+#       [4],        # 7
+#       [4],        # 8
+#       [5],        # 9
+#       [5],        # 10
+#       [6],        # 11
+#       [4,8],      # 12
+#       [4,9],      # 13
+#       [5,9],      # 14
+#       [5,10],     # 15
+#       [5,11],     # 16
+#       [6,11],     # 17
+#       [6,12]      # 18
+#   ]
+#   body_color_key: 'white body'
+#   pin_color_key: 'metal grey pins'
+#   latch_color_key: 'black body'
+#   destination_dir: 'Connector_Molex.3dshapes'
+#   source: 'https://www.molex.com/pdm_docs/sd/026605050_sd.pdf'
+
+PicoBlade_53261:
+  series: 'PicoBlade'
+  model_name: '53261'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_PicoBlade_53261-{pincount}71_{num_rows}x{pincount}-1MP_P{pitch}mm_{orientation}'
+  # mpn_format_string = '53261-{pins_per_row:02d}71'
+  orientation: 'Horizontal'
+  number_of_rows: 1
+  pin_range: [2,3,4,5,6,7,8,9,10,11,12,13,14,15,17]
+  mount_pin: '-1MP'
+  mounting_pad_size_y: 3.0
+  # y dimensions for pad given relative to mounting pad edge
+  rel_pad_y_outside_edge: 5.2
+  rel_pad_y_inside_edge: 3.6
+  # amount to shift y position of center for pick-and-place (positive -> shift whole footprint up)
+  center_shift_y: 0.6
+  y_origin_from_mountpad: -0.5  # -rel_pad_y_outside_edge/2 + mounting_pad_size_y/2 + center_shift_y
+  mount_pin_back_to_body_back: 1
+  mount_pin_length: 1.7
+  mount_pin_width: 2.2
+  mount_pin_thickness: 0.25
+  mount_pin_bend_radius: 0.1  # estimated
+  mount_pin_height: 1.6  # Measured
+  mount_pin_top_len: 0.8  # Measured
+  mount_pin_fillet: 0.3
+  mount_holder_len: 1.5
+  mount_holder_width: 2.8
+  mount_holder_top_z: 2.3  # Measured
+  mount_holder_chamfer: 0.5  # Measured (+/-0.1 at least)
+  mount_back: 0.6  # y_origin_from_mountpad + mount_pin_width/2
+  body_height: 3.4
+  body_cutout_h: 2.4
+  body_bottom_width: 0.6
+  body_top_width: 0.4  # body_height-body_cutout_h-body_bottom_width
+  body_side_width: 0.6
+  body_width: 4.2
+  body_main_z: 0.1  # estimated
+  #body_center_y =
+  body_support_width: 0.5
+  body_cutout_depth: 3
+  body_top_cutout1_depth: 1  # Measured (+/-0.1 at least)
+  body_top_cutout2_depth: 0.8  # Measured (+/-0.1 at least)
+  body_front_chamfer: 0.2  # estimated
+  body_back_y: 1.6  # mount_back + mount_pin_back_to_body_back
+  body_center_y: -0.5  # body_back_y - body_width/2
+  pin_width: 0.32
+  pin_pitch: 1.25
+  pin_protrusion: 1
+  pin_contact_len: 0.4
+  pin_back_height: 0.5
+  pin_back_top: 1.375
+  pin_back_pocket: 0.3  # estimated
+  pin_radius: 0.2  # estimated
+  pin_tip_y: 1.6  # body_back_y + pin_protrusion
+  pin_tip_chamfer: 0.2
+  contact_height: 0.6  # Measured (+/-0.1 at least)
+  contact_to_bottom: 1.025  # 0.725-contact_hight/2+body_bottom_width
+  contact_front_tip: 3.8  # Measured (+/-0.1 at least)
+  contact_chamfer_height: 0.1  # estimated
+  contact_chamfer_width: 0.05  # estimated
+  contact_chamfer_depth: 0.5  # estimated
+  back_cutout_center_to_side: 2  # Measured
+  back_cutout_b_height: 1.15
+  back_cutout_b_width: 1.15
+  back_cutout_t_height: 1.45
+  back_cutout_t_width: 0.3  # Measured (+/-0.1 at least)
+  top_cutout_width: 0.5
+  top_cutout_len: 0.5
+  top_cutout_depth: 0.4
+  pitch: 1.25
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/532610271_sd.pdf'
+
+PicoBlade_53398:
+  series: "PicoBlade"
+  model_name: '53398'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_PicoBlade_53398-{pincount}71_{num_rows}x{pincount}-1MP_P{pitch}mm_{orientation}'
+  # mpn_format_string = '53398-{pins_per_row:02d}71'
+  orientation: 'Vertical'
+  number_of_rows: 1
+  pin_range: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] # range(2,16)
+  mount_pin: '-1MP'
+  mounting_pad_size_y: 3.0
+  # y dimensions for pad given relative to mounting pad edge
+  rel_pad_y_outside_edge: 4.9
+  rel_pad_y_inside_edge: 3.6
+  # amount to shift y position of center for pick-and-place (positive -> shift whole footprint up)
+  center_shift_y: -0.55
+  y_origin_from_mountpad: 1.5
+  mount_pin_length: 1.7
+  mount_pin_width: 2.2
+  mount_pin_thickness: 0.25
+  mount_pin_bend_radius: 0.1  # estimated
+  mount_pin_height: 1.6  # Measured
+  mount_pin_top_len: 0.8  # Measured
+  mount_pin_fillet: 0.3
+  mount_holder_len: 1.5
+  mount_holder_width: 2.8
+  mount_holder_top_z: 2.65  # Measured
+  mount_holder_chamfer: 0.5  # Measured (+/-0.1 at least)
+  pin_width: 0.32
+  pin_pitch: 1.25
+  pin_protrusion: 0.5
+  pin_contact_len: 0.6
+  pin_front_height: 0.45
+  pin_slope_len: 0.3  # estimated
+  pin_back_z: 0.3  # Measured
+  pin_len: 3.9  # Measured
+  center_pin_pad_y: 2.75
+  pin_center_offset: 0.05  # estimated
+  pin_tip_y: 3.1  # center_pin_pad_y + pin_center_offset + pin_contact_len/2.0
+  pin_tip_chamfer: 0.1
+  contact_to_front: 2.175
+  contact_len: 0.6  # Measured (+/-0.1 at least)
+  contact_top_z: 3.9  # Measured (+/-0.1 at least)
+  contact_chamfer_len: 0.1  # estimated
+  contact_chamfer_width: 0.05  # estimated
+  contact_chamfer_depth: 0.5  # estimated
+  body_width: 3.7
+  body_back_width: 0.4
+  body_side_width: 0.6
+  body_main_z: 0.3  # Measured
+  body_pin_cutout_depth: 0.5  # Measured
+  body_pin_cutout_len: 0.9  # Measured
+  body_front_plastic_protrusion: 0.2  # estimated
+  body_center_y: -0.75
+  body_support_width: 0.5
+  body_cutout_depth: 3.0
+  body_front_cutout_depth: 1.0  # Measured (+/-0.1 at least)
+  body_top_chamfer: 0.2  # estimated
+  body_cutout_width: 2.4
+  connector_height: 4.7
+  back_cutout_center_to_side: 2.0  # Measured
+  back_cutout_b_height: 1.15
+  back_cutout_b_width: 1.15
+  back_cutout_t_height: 1.45
+  back_cutout_t_width: 0.3  # Measured (+/-0.1 at least)
+  pitch: 1.25
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/533980271_sd.pdf'
+
+Picoflex_90325:
+  series: 'Picoflex'
+  model_name: '90325'
+  series_long: 'Picoflex Ribbon-Cable Connectors'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_Picoflex_90325-{padpincount}_{num_rows}x{halfpadpincount}_P{pitch}mm_{orientation}'
+  orientation: 'Vertical'
+  number_of_rows: 2
+  mpn_format_string: '90325-00{pincount:02}'
+  mount_pin: ''
+  pin_range: [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]
+  pin_pitch: 1.27
+  pitch: 1.27
+  pin_width: 0.3
+  pin_chamfer_long: 0.25
+  pin_chamfer_short: 0.12
+  pin_height:  4.0  # Height above bottom surface of base
+  pin_depth: 3.3  # Depth below bottom surface of base
+  pin_inside_distance: 2.525  # Distance between centre of end pin and end of body
+  pig_depth: 2.8  # Depth below bottom surface of the plastic guidance pin
+  pig_height: 6.4  # Height above bottom surface of the plastic guidance pin
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/903250004_sd.pdf'
+
+Picoflex_90814:
+  series: 'Picoflex'
+  model_name: '90814'
+  series_long: 'Picoflex Ribbon-Cable Connectors'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_Picoflex_90814-{padpincount}_{num_rows}x{halfpadpincount}_P{pitch}mm_{orientation}'
+  orientation: 'Vertical'
+  number_of_rows: 2
+  mpn_format_string: "90814-00{pincount:02}"
+  mount_pin: ''
+  pin_range: [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]
+  pitch: 1.27
+  pin_width: 0.3
+  pin_chamfer_long: 0.25
+  pin_chamfer_short: 0.12
+  pin_height: 3.71  # Height above bottom surface of base
+  pin_depth: 1.05  # Depth below bottom surface of base
+  pin_inside_distance: 2.525  # Distance between centre of end pin and end of body
+  pig_depth: 2.29  # Depth below bottom surface of the plastic guidance pin
+  pig_height: 6.05  # Height above bottom surface of the plastic guidance pin
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/908140004_sd.pdf'
+
+SlimStack_54722:
+  series: 'SlimStack'
+  model_name: '54722'
+  series_long: 'SlimStack Fine-Pitch SMT Board-to-Board Connectors'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_SlimStack_54722-0{pincount}4_{num_rows}x{halfpadpincount}_P{pitch}0mm_{orientation}'
+  orientation: 'Vertical'
+  number_of_rows: 2
+  mpn_format_string: "54722-0{pincount:02}4"
+  mount_pin: ''
+  pin_range: [16,20,22,24,30,34,40,50,60,80]
+  pin_inside_distance: 1.55  # Distance between centre of end pin and end of body
+  pocket_inside_distance: 0.325  # (10.1 - (8.95 + 0.5)) / 2.0  # Distance between end of pocket and end of body
+  island_inside_distance: 1.05  # (10.1 - 8.0) / 2.0  # Distance between end of island and end of body
+  pitch: 0.5
+  body_width: 5.0
+  body_height: 1.15
+  body_fillet_radius: 0.15
+  body_chamfer: 0.1
+  pin_recess_height: 0.4
+  pocket_width: 2.8
+  pocket_base_thickness: 0.2
+  pocket_fillet_radius: 0.05
+  island_width: 1.65
+  hole_width: 0.3
+  hole_length: 0.3
+  hole_offset: 1.95  # (body_width + pocket_width) / 4.0
+  rib_width: 0.25
+  rib_depth: 0.2  # 2.0 * body_chamfer
+  slot_height: 1.1  # body_height - 0.05
+  slot_depth: 0.3
+  notch_width: 1.2
+  notch_depth: 0.1
+  pin_width: 0.15
+  pin_thickness: 0.075
+  pin_minimum_radius: 0.0425  # 0.005 + pin_thickness / 2.0
+  pin_y_offset: 0.5
+  recess_breakpoint: 29  # Above this number of pins, the body has housings on the side
+  recess_width: 2.0
+  recess_height: 0.575
+  recess_depth: 0.05
+  recess_pitch: 2.5
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  latch_color_key: 'black body'
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/547220804_sd.pdf'
+
+SlimStack_55560:
+  series: 'SlimStack'
+  model_name: '55560'
+  series_long: 'SlimStack Fine-Pitch SMT Board-to-Board Connectors'
+  manufacturer: 'Molex'
+  fp_name_format_string: '{man}_SlimStack_55560-0{pincount}1_{num_rows}x{halfpadpincount}_P{pitch}0mm_{orientation}'
+  orientation: 'Vertical'
+  number_of_rows: 2
+  mpn_format_string: '55560-0{pincount:02}1'
+  mount_pin: ''
+  pitch: 0.5
+  pin_range: [16, 20, 22, 24, 30, 34, 40, 46, 50, 60, 80]
+  pin_inside_distance: 0.975  # 0.45 + 0.525  # Distance between centre of end pin and end of body
+  pocket_inside_distance: 0.45  # Distance between end of pocket and end of body
+  body_width: 2.83
+  body_height: 1.15
+  body_fillet_radius: 0.15
+  body_chamfer: 0.1
+  pin_recess_height: 0.4
+  pocket_width: 1.65
+  pocket_base_thickness: 0.2
+  pocket_fillet_radius: 0.15
+  pin_width: 0.15
+  pin_thickness: 0.075
+  pin_minimum_radius: 0.0425  # 0.005 + pin_thickness / 2.0
+  pin_y_offset: 0.735
+  contact_width: 0.2
+  contact_thickness: 0.15
+  contact_minimum_radius: 0.08  # 0.005 + contact_thickness / 2.0
+  contact_slot_width: 0.3
+  top_slot_offset: 1.12  # (body_width + pocket_width) / 4.0
+  body_color_key: 'dark grey body'
+  pin_color_key: 'gold pins'
+  latch_color_key: "gold pins"  # contacts_color_key
+  destination_dir: 'Connector_Molex.3dshapes'
+  source: 'http://www.molex.com/pdm_docs/sd/555600207_sd.pdf'

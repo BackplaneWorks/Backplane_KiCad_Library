@@ -1,0 +1,16 @@
+(footprint "padtest"
+	(version 20260206)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "42" smd roundrect
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.25)
+		(chamfer bottom_left)
+	)
+	(embedded_fonts no)
+)

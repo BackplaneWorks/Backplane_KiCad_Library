@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/h/Documents/KiCad_Library",
+      "log",
+      "--all",
+      "--format=%H %ad %s",
+      "--date=iso",
+      "--",
+      "footprints/amemb-MountingHole.pretty",
+      "scripts/generate_exposed_substrate_mounting_holes.py",
+      "definitions/mounting_hole_exposed_substrate.yaml"
+    ],
+    "returncode": 0,
+    "stdout": "3fe9fd3b9548fdcb7e5cd6c36798ad8d632efdd1 2026-06-08 14:42:34 -0400 Added empty dirs.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/h/.local/share/kicad/10.0/3rdparty/American_Embedded_KiCad_Library",
+      "log",
+      "--all",
+      "--format=%H %ad %s",
+      "--date=iso",
+      "--",
+      "footprints/amemb-MountingHole.pretty"
+    ],
+    "returncode": 0,
+    "stdout": "3fe9fd3b9548fdcb7e5cd6c36798ad8d632efdd1 2026-06-08 14:42:34 -0400 Added empty dirs.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/h/Documents/KiCad/kicad-footprint-generator",
+      "log",
+      "-1",
+      "--format=%H %ad %s",
+      "--date=iso"
+    ],
+    "returncode": 0,
+    "stdout": "9d5b3f76364cfd307ec06d2137f387d18b6768a0 2026-04-05 15:32:07 +0000 Move marking on some miniciruits FV1206 filters\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "<local>/personal-kicad-libraries",
+      "log",
+      "-1",
+      "--format=%H %ad %s",
+      "--date=iso",
+      "--",
+      "footprints/personal-MountingHole.pretty"
+    ],
+    "returncode": 0,
+    "stdout": "7647cca8dfc41a2b3831534d8a9f33d4997bc430 2025-05-02 15:48:51 -0400 Update 5/2/25\n",
+    "stderr": ""
+  }
+]

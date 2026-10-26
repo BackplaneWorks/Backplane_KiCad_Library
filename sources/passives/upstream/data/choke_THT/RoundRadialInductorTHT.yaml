@@ -1,0 +1,144 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L
+  ddrill: 1.2
+  func: makeResistorRadial
+  has3d: 1
+  lib_name: Inductor_THT
+  rm2: 0
+  s_3d:
+    - 1
+    - 1
+    - 1
+  seriesname: Radial
+  specialfpname: ''
+  type: round
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+D12.0mm_P10.00mm_Neosid_SD12k_style1:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12k.pdf
+  h: 12.0
+  height3d: 13
+  name_additions:
+    - Neosid
+    - SD12k
+    - style1
+  rm: 10.0
+  specialtags:
+    - Neosid
+    - SD12k
+    - style1
+  w: 12.0
+  w2: 12.0
+
+
+D12.0mm_P5.00mm_Neosid_SD12k_style2:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12k.pdf
+  h: 12.0
+  height3d: 13
+  name_additions:
+    - Neosid
+    - SD12k
+    - style2
+  rm: 5.0
+  specialtags:
+    - Neosid
+    - SD12k
+    - style2
+  w: 12.0
+  w2: 12.0
+
+
+D10.0mm_P5.00mm_Neosid_SD12k_style3:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12k.pdf
+  h: 10.0
+  height3d: 12.5
+  name_additions:
+    - Neosid
+    - SD12k
+    - style3
+  rm: 5.0
+  specialtags:
+    - Neosid
+    - SD12k
+    - style3
+  w: 10.0
+  w2: 10.0
+
+
+D12.0mm_P10.00mm_Neosid_SD12_style1:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12.pdf
+  h: 12.0
+  height3d: 20
+  name_additions:
+    - Neosid
+    - SD12
+    - style1
+  rm: 10.0
+  specialtags:
+    - Neosid
+    - SD12
+    - style1
+  w: 12.0
+  w2: 12.0
+
+
+D12.0mm_P5.00mm_Neosid_SD12_style2:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12.pdf
+  h: 12.0
+  height3d: 20
+  name_additions:
+    - Neosid
+    - SD12
+    - style2
+  rm: 5.0
+  specialtags:
+    - Neosid
+    - SD12
+    - style2
+  w: 12.0
+  w2: 12.0
+
+
+D10.0mm_P5.00mm_Neosid_SD12_style3:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12.pdf
+  h: 10.0
+  height3d: 19.5
+  name_additions:
+    - Neosid
+    - SD12
+    - style3
+  rm: 5.0
+  specialtags:
+    - Neosid
+    - SD12
+    - style3
+  w: 10.0
+  w2: 10.0
+
+
+D14.2mm_P10.00mm_Neosid_SD14:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd14.pdf
+  h: 14.2
+  height3d: 24.5
+  name_additions:
+    - Neosid
+    - SD14
+  rm: 10.0
+  specialtags:
+    - Neosid
+    - SD14
+  w: 14.2
+  w2: 14.2

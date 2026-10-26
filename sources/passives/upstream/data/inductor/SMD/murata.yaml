@@ -1,0 +1,24 @@
+default_parameters:
+  manufacturer: Murata
+  library_name: Inductor_SMD
+
+series_DEMxxxxC:
+  default_parameters:
+    datasheet: "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_dem3518c.ashx"
+    3d:
+      type: 2 # best effort, this has a double chamfer on one side
+    tags:
+      - power
+      - shielded
+  csv: murata_dem.csv
+
+series_DFE2016:
+  default_parameters:
+    datasheet: "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx"
+    3d:
+      type: 2 # best effort, these parts are more like chip resistors
+    tags:
+      - power
+      - chip
+      - flatwire
+  csv: murata_dfe2016.csv

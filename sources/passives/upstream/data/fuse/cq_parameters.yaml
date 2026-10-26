@@ -1,0 +1,282 @@
+0ZRE0005FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0005FF_L8.3mm_W3.8mm  # model name
+  type: 'belfuse'  # So the generator knows which module to use
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'white body'  # Top color
+  body_color_key: 'orange body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+  include_in_qa: True
+
+0ZRE0008FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0008FF_L8.3mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0012FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0012FF_L8.3mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0016FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0016FF_L9.9mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0025FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0025FF_L9.6mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0033FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0033FF_L11.4mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0040FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0040FF_L11.5mm_W3.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0055FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0055FF_L14.0mm_W4.1mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0075FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0075FF_L11.5mm_W4.8mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0100FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0100FF_L18.7mm_W5.1mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0125FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0125FF_L21.2mm_W5.3mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0150FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0150FF_L23.4mm_W5.3mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+0ZRE0200FF:
+  model_name: Fuse_BelFuse_0ZRE_0ZRE0200FF_L24.9mm_W6.1mm
+  type: 'belfuse'
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'white body'
+  body_color_key: 'orange body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf'
+
+Keystone_3568:
+  model_name: Fuseholder_Blade_Mini_Keystone_3568  # model name
+  type: 'keystone'
+  W: 16.0  # Width
+  L: 6.73  # Length
+  H: 7.37  # Height
+  A1: 0.0  # Body above PCB
+  pin1: [-3.04, -1.67]  # pin1 corner
+  pin: [['rect', 0.0, 0.0, 1.57, 0.4, 2.79], ['rect', 9.92, 0.0, 1.57, 0.4, 2.79], ['rect', 0.0, 3.4, 1.57, 0.4, 2.79], ['rect', 9.92, 3.4, 1.57, 0.4, 2.79]]  # pins
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'black body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'http://www.keyelco.com/product-pdf.cfm?p=306'
+
+Bulgin_FX0456:
+  model_name: Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed  # model name
+  type: 'bulgin'
+  W: 12.5  # Width
+  L: 12.5  # Length
+  H: 35.1  # Height
+  H1: 8.0  # Height1
+  A1: 0.0  # Body above PCB
+  pin1: null  # pin1 corner
+  pin: [['rect', 0.0, 0.0, 0.2, 1.0, 5.0], ['rect', 10.16, 0.0, 0.2, 1.0, 5.0]]  # pins
+  npthpin: [['round', 0.08, -5.0, 2.0, 2.0, 1.0], ['round', 10.08, -5.0, 2.0, 2.0, 1.0], ['round', 0.08, 5.0, 2.0, 2.0, 1.0], ['round', 10.08, 5.0, 2.0, 2.0, 1.0]]  # npthpin
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'black body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.bulgin.com/products/pub/media/bulgin/data/Fuseholders.pdf'
+
+Bulgin_FX0457:
+  model_name: Fuseholder_Cylinder-5x20mm_Bulgin_FX0457_Horizontal_Closed
+  type: 'bulgin'
+  W: 12.5
+  L: 12.5
+  H: 35.1
+  H1: 8.0
+  A1: 0.0
+  pin1: null
+  pin: [['rect', 0.0, 0.0, 0.2, 1.0, 5.0], ['rect', 10.16, 0.0, 0.2, 1.0, 5.0]]
+  npthpin: null
+  npth_pin_color_key: 'black body'
+  body_top_color_key: 'metal grey pins'
+  body_color_key: 'black body'
+  pin_color_key: 'metal grey pins'
+  destination_dir: 'Fuse.3dshapes'
+  source: 'https://www.bulgin.com/products/pub/media/bulgin/data/Fuseholders.pdf'
+
+Schurter_0031-8002:
+  model_name: Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open  # model name
+  type: 'schurter'
+  W: 41.0  # Width
+  L: 15.0  # Length
+  L1: null  # Length 1
+  H: 7.5  # Height
+  H1: null  # Height1
+  A1: null  # Body above PCB
+  pin1: null  # pin1 corner
+  pin: [['rect', 0.0, 0.0, 1.1, 0.3, 4.0], ['rect', 37.5, 0.0, 1.1, 0.3, 4.0]]  # pins
+  fuse: [6.3, 32.0]  # fuse
+  npthpin: null  # npthpin
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'black body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.schurter.com/en/datasheet/typ_OG__Holder__6.3x32.pdf'
+
+Schurter_0031_8201:
+  model_name: Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open
+  type: 'schurter'
+  W: 22.5
+  L: 9.6
+  L1: null
+  H: 11.5
+  H1: null
+  A1: null
+  pin1: null
+  pin: [['rect', 0.0, 0.0, 1.1, 0.3, 4.0], ['rect', 22.5, 0.0, 1.1, 0.3, 4.0]]
+  fuse: [5.0, 20.0]
+  npthpin: null
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'black body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.schurter.com/en/datasheet/typ_OGN.pdf'
+
+Schurter_FAB_0031_355x:
+  model_name: Fuseholder_Cylinder-5x20mm_Schurter_FAB_0031-355x_Horizontal_Closed
+  type: 'schurter'
+  W: 31.5
+  L: 12.0
+  L1: 12.0
+  H: 10.06
+  H1: null
+  A1: null
+  pin1: null
+  pin: [['rect', 0.0, 0.0, 1.1, 0.3, 5.0], ['rect', 10.0, 0.0, 1.1, 0.3, 5.0]]
+  fuse: [5.0, 20.0]
+  npthpin: null
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'black body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FAB.pdf'
+
+Stelvio_Kontek_PTF78:
+  model_name: Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open  # model name
+  type: 'tme'
+  W: 24.4  # Width
+  L: 9.4  # Length
+  L1: null  # Length 1
+  H: 11.5  # Height
+  H1: null  # Height1
+  A1: null  # Body above PCB
+  pin1: null  # pin1 corner
+  pin: [['rect', 0.0, 0.0, 1.2, 0.5, 3.5], ['rect', 22.6, 0.0, 1.2, 0.5, 3.5]]  # pins
+  fuse: [5.0, 20.0]  # fuse
+  npthpin: null  # npthpin
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'light brown body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.schurter.com/en/datasheet/typ_OG__Holder__5x20.pdf'
+
+Littelfuse_No560_No460:
+  model_name: Fuseholder_TR5_Littelfuse_No560_No460  # model name
+  type: 'littlefuse'
+  W: 9.5  # Width
+  L: 10.0  # Length
+  L1: null  # Length 1
+  H: 4.3  # Height
+  H1: 1.3  # Height1
+  A1: null  # Body above PCB
+  pin1: null  # pin1 corner
+  pin: [['round', 0.0, 0.0, 0.5, 0.5, 3.43], ['round', 5.08, 0.0, 0.5, 0.5, 3.43]]  # pins
+  fuse: null  # fuse
+  npthpin: null  # npthpin
+  npth_pin_color_key: 'black body'  # NPTH Pin color
+  body_top_color_key: 'metal grey pins'  # Top color
+  body_color_key: 'white body'  # Body colour
+  pin_color_key: 'metal grey pins'  # Pin color
+  destination_dir: 'Fuse.3dshapes'  # Destination directory
+  source: 'https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf'

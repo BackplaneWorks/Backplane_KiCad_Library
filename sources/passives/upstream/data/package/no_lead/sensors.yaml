@@ -1,0 +1,48 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: 'Sensor'
+
+Winson_GM-402B_5x5mm_P1.27mm:
+  size_source: 'https://www.winsen-sensor.com/d/files/me2/mems--gm-402b--manual-v1_1.pdf'
+  custom_name_format: '{man:s}_{mpn:s}_{size_x:g}x{size_y:g}mm_P{pitch:g}mm{suffix:s}'
+  device_type: 'QFN'
+  manufacturer: 'Winson'
+  part_number: 'GM-402B'
+  ipc_class: 'qfn'
+  body_size_x:
+    nominal: 5
+  body_size_y:
+    nominal: 5
+  overall_height:
+    nominal: 1.55
+  num_pins_x: 1
+  num_pins_y: 3
+  pitch: 1.27
+  lead_width:
+    nominal: 0.6
+  lead_len:
+    nominal: 1.2
+
+Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm:
+  size_source: 'https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf'
+  custom_name_format: '{man:s}_{mpn:s}-1EP_{size_x:g}x{size_y:g}mm_P{pitch:g}mm{suffix:s}_EP{ep_size_x:g}x{ep_size_y:g}mm'
+  device_type: 'QFN'
+  manufacturer: 'Sensirion'
+  part_number: 'SCD4x'
+  ipc_class: 'qfn'
+  body_size_x: 10.1+/-0.3
+  body_size_y: 10.1+/-0.3
+  overall_height: 6.3+/-0.5
+  num_pins_x: 5
+  num_pins_y: 5
+  pitch: 1.25
+  lead_width: 0.8
+  lead_len: 1.5
+  lead_center_pos_x: 4
+  lead_center_pos_y: 4
+  EP_size_x: 4.8
+  EP_size_y: 4.8
+  EP_mask_x: 5
+  EP_mask_y: 5
+  EP_num_paste_pads: [2, 2]

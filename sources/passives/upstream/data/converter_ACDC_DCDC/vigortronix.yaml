@@ -1,0 +1,48 @@
+Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT:
+  library_name: Converter_ACDC
+  description: ACDC converter, Vigortronix, VTX-214-010-1xx, 10W, input 90-265VAC, output 3.3-48V, body size 36x56x25.5mm
+  tags: switching regulator filter
+  datasheet: https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-010-1-Series-D0034-1.pdf
+  at: [-12, 4]
+  size: [36, 56]
+  body_position_tolerance: [0.5, 0.5]
+  height: 25.5
+  pins: [
+    ["thtr", "1",  0,   0,  3, 3, 1.5],
+    ["tht",  "2", 12,   0,  3, 3, 1.5],
+    ["tht",  "3",  0, -48,  3, 3, 1.5],
+    ["tht",  "4",  5, -48,  3, 3, 1.5],
+  ]
+
+Converter_ACDC_Vigortronix_VTX-214-010-2xx_THT:
+  library_name: Converter_ACDC
+  description: Miniature ACDC converter, Vigortronix, VTX-214-010-2xx, 10W, input 90-265VAC, output 3.3-48V, body size 30x45.5x24mm
+  tags: switching regulator filter
+  datasheet: https://www.vigortronix.com/wp-content/uploads/2024/03/VTX-214-010-2xx-10W-Mini-AC-DC-Converter-Range-D0066.pdf
+  at: [-9, 3.25]
+  size: [30, 45.5]
+  body_position_tolerance: [0.5, 0.5]
+  height: 24.0
+  pins: [
+    ["thtr", "1",  0,   0,  3, 3, 1.5],
+    ["tht",  "2", 12,   0,  3, 3, 1.5],
+    ["tht",  "3", 12, -39,  3, 3, 1.5],
+    ["tht",  "4",  5, -39,  3, 3, 1.5],
+  ]
+
+Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT:
+  library_name: Converter_ACDC
+  description: Miniature ACDC converter, Vigortronix, VTX-214-015-1xx, 15W, output 3.3-48V, body size 45x55x21mm
+  tags: switching regulator filter
+  datasheet: https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-015-1-Series-D0035.pdf
+  at: [-5, 4]
+  size: [45, 55]
+  body_position_tolerance: [0.5, 0.5]
+  height: 21.0
+  pins: [
+    ["thtr", "1",  0,     0,  3, 3, 1.5],
+    ["tht",  "2", 17.5,   0,  3, 3, 1.5],
+    ["tht",  "3", 35,     0,  3, 3, 1.5],
+    ["tht",  "4", 27.5,  -47,  3, 3, 1.5],
+    ["tht",  "5", 7.5, -47,  3, 3, 1.5],
+  ]

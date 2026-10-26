@@ -1,0 +1,4 @@
+PartNumber,widthX,lengthY,landingX,landingY,landingInsideX,height,datasheet
+MLZ1608, 1.6, 0.8, 0.6, 0.8, 0.8, 0.8, "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf"
+MLZ2012_h0.85mm, 2, 1.25, 0.8, 1.2, 1, 0.85, "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
+MLZ2012_h1.25mm, 2, 1.25, 0.8, 1.2, 1, 1.25, "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"

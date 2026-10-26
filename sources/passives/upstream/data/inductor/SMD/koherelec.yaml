@@ -1,0 +1,14 @@
+default_parameters:
+  manufacturer: KOHERelec
+  library_name: Inductor_SMD
+
+series_MDA:
+  default_parameters:
+    # Manufacturer page link: http://www.kohergroup.com/en/product/584.html
+    3d:
+      type: 2
+    tags:
+      - high-current
+      - power
+      - shielded
+  csv: koherelec_mda.csv

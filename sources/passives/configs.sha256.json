@@ -1,0 +1,18 @@
+{
+  "configs/global.yaml": "01650c34a31a901adb8da7a4f570cdf2c4bc9ee0ad4f74a75c1cf814fad213c8",
+  "configs/ipc7351B_2terminal.yaml": "4002b54be423c3d5cca8ba2c7d248e344d14d7083cc7ca0276ca9876b47d262c",
+  "configs/least.yaml": "48fa03b9e7cb5cf7b3fdd151fdfe8686672373c6433fe23cb8db6ddd847b310a",
+  "configs/legacy-local.yaml": "f288fb7c0b299233a5419cddfb61198c2c67b1c2037cc6a68a626d0d53457e98",
+  "configs/most.yaml": "0c2bc5faa185dcc25824c713307eec1171e6165f6b413f20edde7f54c82ca9a8",
+  "configs/nominal.yaml": "9ff1d6ff71db788c7d819a48ae763c56c7665ec987c59b40a9bbd0544a6cf3c8",
+  "configs/package.yaml": "8b8d7f151b082dd0e39fd656463ac341d9de190cff6ec6e3e58fa8179d69c4c4",
+  "configs/sizes/capacitor_chip.yaml": "88d6acca230022f93af1043771b34d43be3062b70ce411a4b289a595c3f21051",
+  "configs/sizes/capacitor_chip_smaller_0603.yaml": "f432f56fc9ec8c8b174701660cba21536050a1044d69971eec2502226fb14d4f",
+  "configs/sizes/default_chip.yaml": "448c8f31242703bdb2af2737fb16644e88a4f793f1fd102b69aa292063fa2e52",
+  "configs/sizes/default_chip_smaller_0402.yaml": "9879bb0eb6c4061b3f0e2f4c77511af5deee175d85ad557ccf97cf722533d788",
+  "configs/sizes/default_chip_smaller_0603.yaml": "1d76dba16c84e921f2a2e0d2425b96c9e71026b9b3c6beba7b6c54c3d80a354c",
+  "configs/sizes/inductor.yaml": "194b94e4c2f6387c2b6c6c7a0c57ac5f4b636dfa5bb274bb23a108dfd7e26424",
+  "configs/sizes/resistor_chip.yaml": "e0f83836e89d85d74e72af127a78b1a9543f6c617b1fb1089559f558b4505fdb",
+  "configs/sizes/resistor_chip_smaller_0603.yaml": "944495bb38d7e6aacc4e5982221c3be820c6a7798a9badf5107a0798f28793d4",
+  "configs/sizes/resistor_chip_wide_body.yaml": "2e12605e893a31a54fbaa84abe6a615cd2fd8794e4e73d6b958cdd1b731a4054"
+}

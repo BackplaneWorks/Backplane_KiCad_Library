@@ -1,0 +1,210 @@
+Resonator-2Pin_W10.0mm_H5.0mm:
+  addSizeFootprintName: true
+  ddrill: 0.8
+  manufacturer: RedFrequency
+  part_number: MG/MT/MX
+  description: Ceramic Resonator/Filter
+  datasheet: http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 10
+  innerpack_height: 5
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 5
+  pack_width: 10
+  pad_size: 1.5
+  pins: 2
+  rm: 5
+
+Resonator-2Pin_W6.0mm_H3.0mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 6.5
+  innerpack_height: 3.0
+  innerpack_width: 6
+  lib_name: Crystal
+  pack_height: 3.0
+  pack_width: 6
+  pad_size: 1.7
+  pins: 2
+  rm: 5
+  tags: ceramic
+Resonator-2Pin_w7.0mm_h2.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 5.5
+  innerpack_height: 2.5
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 2.5
+  pack_width: 7
+  pad_size: 1.7
+  pins: 2
+  rm: 5
+  tags: ceramic
+Resonator-2Pin_w8.0mm_h3.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 6.5
+  innerpack_height: 3.5
+  innerpack_width: 8
+  lib_name: Crystal
+  pack_height: 3.5
+  pack_width: 8
+  pad_size: 1.7
+  pins: 2
+  rm: 5
+  tags: ceramic
+Resonator-3Pin_w10.0mm_h5.0mm:
+  addSizeFootprintName: true
+  ddrill: 0.8
+  manufacturer: RedFrequency
+  part_number: MG/MT/MX
+  description: Ceramic Resonator/Filter, 3-pin
+  datasheet: http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 10
+  innerpack_height: 5
+  innerpack_width: 10
+  lib_name: Crystal
+  pack_height: 5
+  pack_width: 10
+  pad_size: 1.5
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator-3Pin_w6.0mm_h3.0mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 6.5
+  innerpack_height: 3.0
+  innerpack_width: 6
+  lib_name: Crystal
+  pack_height: 3.0
+  pack_width: 6
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator-3Pin_w7.0mm_h2.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 5.5
+  innerpack_height: 2.5
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 2.5
+  pack_width: 7
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator-3Pin_w8.0mm_h3.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  description: Ceramic Resonator/Filter
+  footprint_name: Resonator
+  func: makeCrystalHC49Vert
+  height3d: 6.5
+  innerpack_height: 3.5
+  innerpack_width: 8
+  lib_name: Crystal
+  pack_height: 3.5
+  pack_width: 8
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator_Murata_CSTLSxxxG-3Pin_w8.0mm_h3.0mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  manufacturer: Murata
+  part_number: CSTLSxxxG
+  description: Ceramic Resonator/Filter
+  datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx
+  footprint_name: Resonator_Murata_CSTLSxxxG
+  func: makeCrystalHC49Vert
+  height3d: 5.5
+  innerpack_height: 3
+  innerpack_width: 8
+  lib_name: Crystal
+  pack_height: 3
+  pack_width: 8
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator_Murata_CSTLSxxxX-3Pin_w5.5mm_h3.0mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  manufacturer: Murata
+  part_number: CSTLSxxxX
+  description: Ceramic Resonator/Filter
+  datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx
+  footprint_name: Resonator_Murata_CSTLSxxxX
+  func: makeCrystalHC49Vert
+  height3d: 5.5
+  innerpack_height: 3
+  innerpack_width: 5.5
+  lib_name: Crystal
+  pack_height: 3
+  pack_width: 5.5
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator_Murata_DSN6-3Pin_W7.0mm_H2.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  manufacturer: Murata
+  part_number: DSN6
+  description: Ceramic Resonator/Filter
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf
+  footprint_name: Resonator_Murata_DSN6
+  func: makeCrystalHC49Vert
+  height3d: 8
+  innerpack_height: 2.54
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 2.54
+  pack_width: 7
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic
+Resonator_Murata_DSS6-3Pin_W7.0mm_H2.5mm:
+  addSizeFootprintName: true
+  ddrill: 1
+  manufacturer: Murata
+  part_number: DSS6
+  description: Ceramic Resonator/Filter
+  datasheet: http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf
+  footprint_name: Resonator_Murata_DSS6
+  func: makeCrystalHC49Vert
+  height3d: 7
+  innerpack_height: 2.54
+  innerpack_width: 7
+  lib_name: Crystal
+  pack_height: 2.54
+  pack_width: 7
+  pad_size: 1.7
+  pins: 3
+  rm: 2.5
+  tags: ceramic

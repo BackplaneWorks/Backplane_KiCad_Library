@@ -1,0 +1,47 @@
+default_parameters:
+  library: 'Fuse'
+
+defaults-yageo_3R-6:
+  maunfacturer: Yageo
+  datasheet: https://www.yageo.com/upload/media/product/app/datasheet/cpc/gdt/3r-6.pdf
+
+yageo_3R-6_M:
+  inherit: defaults-yageo_3R-6
+  fp_name: 'GDT_Yageo_3RxxxxM-6'
+  additional_tags:
+    - 3R-6
+
+  body_type: smd_cylinder
+  body_params:
+    num_pads: 3
+    body_diameter: 6.0 +/- 0.2      # D
+    body_length: 8.5 +/- 0.5        # T
+    end_pad_width: 1.0 +/- 0.1      # B
+    center_pad_width: 1.5 +/- 0.2   # B1
+    pin1_square: false
+    color: white
+
+  layout_type: smd_cross_body
+  layout_params:
+    center_pad_size: [2.2, 6.0]
+    end_pad_size: [1.6, 6.0]
+    end_pad_center_spacing: 8.5
+
+yageo_3R-6_L:
+  inherit: defaults-yageo_3R-6
+  fp_name: 'GDT_Yageo_3RxxxxL-6'
+
+  body_type: tht_cylinder
+  body_params:
+    num_pads: 3
+    body_diameter: 6.0 + 0.2 - 0.5  # D
+    body_length: 8.5 +/- 0.5        # T
+    total_length: 15.0              # T1 (max)
+    lead_diameter: 0.8 +/- 0.1      # d
+    lead_spacing: 3.8 +/- 0.3       # S
+
+  layout_type: tht_inline
+  layout_params:
+    pad:
+      drill: 1.0
+      size: [2.0, 3.0]

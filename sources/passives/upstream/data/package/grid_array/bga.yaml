@@ -1,0 +1,2102 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/grid_array
+
+default_parameters:
+  package_type: BGA
+
+BGA-624_21x21mm_Layout25x25_P0.8mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/SOT1529-1.pdf"
+  description: "BGA-624"
+  body_size_y: 21.0
+  body_size_x: 21.0
+  body_pcb_gap: 0.4
+  overall_height: 1.6
+  ball_diameter: 0.5
+  pitch: 0.8
+  layout_y: 25
+  layout_x: 25
+  row_skips: [[1], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+  pad_diameter: 0.4
+  mask_margin: 0.0625
+
+FCPBGA-780_23x23mm_Layout28x28_P0.8mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/98ASA00854D.pdf"
+  description: "FCPBGA-780"
+  compatible_mpns:
+    - "NXP_SOT1653-1"
+  device_type: "FCPBGA"
+  body_size_y: 23.0
+  body_size_x: 23.0
+  body_pcb_gap: 0.3
+  overall_height: 2.46
+  ball_diameter: 0.45
+  ball_type: "collapsible"
+  pitch: 0.8
+  layout_y: 28
+  layout_x: 28
+  pad_skips: [
+    A1, A28, AH1, AH28
+  ]
+
+LFBGA-100_10x10mm_Layout10x10_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=87"
+  description: "LFBGA-100"
+  device_type: "LFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  body_pcb_gap: 0.27
+  overall_height: 1.7
+  ball_diameter: 0.5
+  pitch: 0.8
+  layout_y: 10
+  layout_x: 10
+  pad_diameter: 0.5
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+LFBGA-144_10x10mm_Layout12x12_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f103ze.pdf#page=114"
+  description: "LFBGA-144"
+  device_type: "LFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  body_pcb_gap: 0.3
+  overall_height: 1.7
+  ball_diameter: 0.4
+  pitch: 0.8
+  layout_y: 12
+  layout_x: 12
+  pad_diameter: 0.4
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+LFBGA-289_14x14mm_Layout17x17_P0.8mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp131c.pdf"
+  description: "LFBGA-289"
+  device_type: "LFBGA"
+  body_size_y: 14.0
+  body_size_x: 14.0
+  pitch: 0.8
+  layout_y: 17
+  layout_x: 17
+  pad_diameter: 0.320
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+LFBGA-400_16x16mm_Layout20x20_P0.8mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "LFBGA-400, NSMD"
+  additional_tags:
+    - "400-ball"
+    - "FBGA"
+  device_type: "LFBGA"
+  body_size_y: 16.0
+  body_size_x: 16.0
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 20
+  layout_x: 20
+  mask_margin: 0.075
+
+LFBGA-484_18x18mm_Layout22x22_P0.8mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "LFBGA-484, NSMD"
+  additional_tags:
+    - "484-ball"
+    - "LFBGA"
+  device_type: "LFBGA"
+  body_size_y: 18.0
+  body_size_x: 18.0
+  overall_height: 1.268
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 22
+  layout_x: 22
+  mask_margin: 0.075
+
+ST_LFBGA-354_16x16mm_Layout19x19_P0.8mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf"
+  description: "ST LFBGA-354"
+  device_type: "LFBGA"
+  manufacturer: "ST"
+  body_size_y: 16.0
+  body_size_x: 16.0
+  pitch: 0.8
+  layout_y: 19
+  layout_x: 19
+  row_skips: [
+    [], # 1
+    [],
+    [],
+    [],
+    [19], # 5
+    [16],
+    [],
+    [16],
+    [],
+    [16], # 10
+    [],
+    [16],
+    [],
+    [16],
+    [19], # 15
+    [],
+    [],
+    [],
+    [], # 19
+  ]
+  pad_diameter: 0.32
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+ST_LFBGA-448_18x18mm_Layout22x22_P0.8mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf"
+  description: "ST LFBGA-448"
+  device_type: "LFBGA"
+  manufacturer: "ST"
+  body_size_y: 18.0
+  body_size_x: 18.0
+  pitch: 0.8
+  layout_y: 22
+  layout_x: 22
+  pad_skips: [
+    F22,J22,P22,U22,
+    G7,G9,G11,G13,G15,
+    H8,H10,H12,H14,H16,
+    J7,J15,
+    K8,K16,
+    L7,L15,
+    M8,M16,
+    N7,N15,
+    P8,P16,
+    R7,R9,R11,R13,R15,
+    T8,T10,T12,T14,T16
+  ]
+  pad_diameter: 0.32
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+ST_VFBGA-424_14x14mm_Layout27x27_P0.5mmP0.5x0.5mm_Stagger:
+# Caution: This package has a second ball grid in the middle. Even though that grid could fit the outer grid's 0.5mm
+# pitch, it is offset!
+# We further specify another secondary layout for the "checkerboard pattern" ball ring in between the center grid and
+# the outer pins to avoid having to type out a very large number of pad_skips.
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp255c.pdf"
+  description: "ST VFBGA-424"
+  device_type: "VFBGA"
+  manufacturer: "ST"
+  body_size_y: 14.0
+  body_size_x: 14.0
+  ball_diameter: 0.31
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 27
+  layout_x: 27
+  area_skips: [[d,4,ad,24]]
+  pad_skips: [
+  # bottom cutouts
+    A4, B4, A5, A8, B8, A9, A12, B12, A13, A16, B16, A17, A20, B20, A21, A24, B24, A25,
+  # top cutouts
+    AG3, AG4, AF4, AG7, AG8, AF8, AG11, AG12, AF12, AG15, AG16, AF16, AG19, AG20, AF20, AG23, AG24, AF24,
+  # left cutouts
+    C1, D1, D2, G1, H1, H2, L1, M1, M2, R1, T1, T2, W1, Y1, Y2, AC1, AD1, AD2,
+  # right cutouts
+    D26, D27, E27, H26, H27, J27, M26, M27, N27, T26, T27, U27, Y26, Y27, AA27, AD26, AD27, AE27
+  ]
+  mask_margin: 0.050
+  paste_margin: 0.000001
+  secondary_layouts:
+    - staggered: x
+      pitch_x: 0.5
+      pitch_y: 0.5
+      layout_x: 21
+      layout_y: 21
+      first_row: D
+      first_column: 4
+      first_ball: A1
+      area_skips: [[h,8,y,20]]
+    - staggered: x
+      row_name_prefix: "1"
+      first_ball: A1
+      pitch_x: 0.5
+      pitch_y: 0.5
+      layout_x: 12
+      layout_y: 12
+
+BGA-63_9.0x11.0mm_Layout10x12_P0.8mm:
+  size_source: "https://www.jedec.org/system/files/docs/MO-207N.pdf"
+  description: "BGA-63"
+  additional_tags:
+    - "JEDEC MO-207N DH-z"
+  body_size_y: 11.0
+  body_size_x: 9.0
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 12
+  layout_x: 10
+  row_skips: [[3,4,5,6,7,8], [2,3,4,5,6,7,8], [1,2,9,10], [1,2,9,10], [1,2,9,10], [1,2,9,10], [1,2,9,10], [1,2,9,10], [1,2,9,10], [1,2,9,10], [3,4,5,6,7,8], [3,4,5,6,7,8]]
+
+BGA-132_12.0x18.0mm_Layout13x17_P1.0mm:
+  size_source: "https://www.jedec.org/system/files/docs/MO-304D.pdf"
+  description: "BGA-132"
+  additional_tags:
+    - "JEDEC MO-304D P18.0x12.0-EJ-132B"
+  body_size_y: 18
+  body_size_x: 12
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 1
+  layout_y: 17
+  layout_x: 11
+  row_skips: [[4,5,6,7,8], [4,5,6,7,8], [4,5,6,7,8], [6], [6], [1,6,11], [1,6,11], [1,6,11], [1,6,11], [1,6,11], [1,6,11], [1,6,11], [6], [6], [4,5,6,7,8], [4,5,6,7,8], [4,5,6,7,8]]
+
+BGA-152_14.0x18.0mm_Layout13x17_P1.0mm:
+  size_source: "https://www.jedec.org/system/files/docs/MO-304D.pdf"
+  description: "BGA-152"
+  additional_tags:
+    - "JEDEC MO-304D P18.0x14.0-EJ-152D"
+  body_size_y: 18
+  body_size_x: 14
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 1
+  layout_y: 17
+  layout_x: 13
+  row_skips: [[5,6,7,8,9], [5,6,7,8,9], [5,6,7,8,9], [7], [7], [1,2,7,12,13], [1,2,7,12,13], [1,2,7,12,13], [1,2,7,12,13], [1,2,7,12,13], [1,2,7,12,13], [1,2,7,12,13], [7], [7], [5,6,7,8,9], [5,6,7,8,9], [5,6,7,8,9]]
+
+BGA-100_12.0x18.0mm_Layout10x17_P1.0mm:
+  size_source: "https://www.jedec.org/system/files/docs/MO-304D.pdf"
+  description: "BGA-100"
+  additional_tags:
+    - "JEDEC MO-304D P18.0x12.0-EJ-100A"
+  body_size_y: 18
+  body_size_x: 12
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 1
+  layout_y: 17
+  layout_x: 10
+  row_skips: [[3,4,5,6,7,8], [2,3,4,5,6,7,8,9], [1,2,3,4,5,6,7,8,9,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,10], [1,2,3,4,5,6,7,8,9,10], [2,3,4,5,6,7,8,9], [3,4,5,6,7,8]]
+
+BGA-100_14.0x18.0mm_Layout10x17_P1.0mm:
+  inherit: BGA-100_12.0x18.0mm_Layout10x17_P1.0mm
+  additional_tags:
+    - "JEDEC MO-304D P18.0x14.0-EJ-100A"
+  body_size_x: 14
+
+FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm:
+  size_source: "https://insignis-tech.com/download/785#page=88"
+  description: "FBGA-78"
+  additional_tags:
+    - "DDR3"
+    - "DDR3L"
+    - "DDR4"
+  device_type: "FBGA"
+  body_size_y: 10.5
+  body_size_x: 7.5
+  overall_height: 1.0
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 13
+  layout_x: 9
+  row_skips: [[4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6]]
+
+FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://insignis-tech.com/download/1912#page=87"
+  body_size_y: 10.6
+  overall_height: 1.2
+
+FBGA-78_8x10.5mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://insignis-tech.com/download/1978#page=86"
+  body_size_x: 8.0
+
+FBGA-78_9x10.5mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://www.issi.com/WW/pdf/43-46TR16256A-85120AL.pdf#page=86"
+  body_size_x: 9.0
+  overall_height: 1.2
+
+FBGA-78_9x10.6mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://insignis-tech.com/download/1900#page=87"
+  body_size_y: 10.6
+  body_size_x: 9.0
+  overall_height: 1.2
+
+FBGA-96_7.5x13mm_Layout9x16_P0.8mm:
+  inherit: FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://insignis-tech.com/download/746#page=96"
+  description: "FBGA-96"
+  body_size_y: 13
+  layout_y: 16
+  row_skips: [[4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6], [4, 5, 6]]
+
+FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+  size_source: "https://insignis-tech.com/download/1896#page=87"
+  body_size_y: 13.5
+  overall_height: 1.2
+
+FBGA-96_8x13mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+  size_source: "https://insignis-tech.com/download/1594#page=98"
+  body_size_y: 13.0
+  body_size_x: 8.0
+
+FBGA-96_8x14mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+  size_source: "generalized from https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28"
+  body_size_y: 14.0
+  body_size_x: 8.0
+  overall_height: 1.2
+
+FBGA-96_9x13mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+  size_source: "https://insignis-tech.com/download/1884#page=87"
+  body_size_y: 13.0
+  body_size_x: 9.0
+  overall_height: 1.2
+
+FBGA-96_9x14mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+  size_source: "generalized from https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26"
+  body_size_y: 14.0
+  body_size_x: 9.0
+  overall_height: 1.2
+
+Micron_FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=24"
+  manufacturer: "Micron"
+  ball_diameter: 0.47
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.52  # 0.42 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Micron_FBGA-78_8x10.5mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_8x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=25"
+  manufacturer: "Micron"
+  ball_diameter: 0.47
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.52  # 0.42 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Micron_FBGA-78_9x10.5mm_Layout9x13_P0.8mm:
+  inherit: FBGA-78_9x10.5mm_Layout9x13_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=23"
+  manufacturer: "Micron"
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.45  # 0.35 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=27"
+  manufacturer: "Micron"
+  ball_diameter: 0.47
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.52  # 0.42 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_8x14mm_Layout9x16_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28"
+  manufacturer: "Micron"
+  ball_diameter: 0.47
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.52  # 0.42 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm:
+  inherit: FBGA-96_9x14mm_Layout9x16_P0.8mm
+  size_source: "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26"
+  manufacturer: "Micron"
+  ball_type: 'non-collapsible'
+  pad_diameter: 0.45  # 0.35 + 2*mask_margin
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+Texas_DSBGA-28_1.9x3mm_Layout4x7_P0.4mm:
+  size_source: "http://www.ti.com/lit/ds/symlink/bq51050b.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf"
+  description: "Texas Instruments, DSBGA, area grid"
+  additional_tags:
+    - "TI"
+    - "28-ball"
+    - "YFP"
+    - "R-XBGA-N28"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 3.0
+  body_size_x: 1.9
+  overall_height: 0.5 # "0.5 Max" in datasheet
+  pitch: 0.4
+  layout_y: 7
+  layout_x: 4
+  pad_diameter: 0.225
+  mask_margin: 0.05
+
+Texas_DSBGA-49_3.33x3.488mm_Layout7x7_P0.4mm:
+  size_source: "http://www.ti.com/lit/ds/symlink/msp430f2234.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf"
+  description: "Texas Instruments, DSBGA, area grid"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 3.488
+  body_size_x: 3.33
+  body_pcb_gap: 0.05
+  overall_height: 0.625
+  ball_diameter: 0.25
+  pitch: 0.4
+  layout_y: 7
+  layout_x: 7
+  pad_diameter: 0.225
+  mask_margin: 0.05
+
+Texas_DSBGA-64_3.415x3.535mm_Layout8x8_P0.4mm:
+  size_source: "http://www.ti.com/lit/ds/slas718g/slas718g.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf"
+  description: "Texas Instruments, DSBGA, area grid"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 3.535
+  body_size_x: 3.415
+  overall_height: 0.625
+  pitch: 0.4
+  layout_y: 8
+  layout_x: 8
+  pad_diameter: 0.225
+  mask_margin: 0.05
+
+Texas_DSBGA-6_0.76x1.16mm_Layout2x3_P0.4mm:
+  size_source: "https://www.ti.com/lit/ds/symlink/ts5a12301e.pdf#page=23"
+  description: "Texas Instruments YFP0006, DSBGA-6"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.16 # 1.13 .. 1.19
+  body_size_x: 0.76 # 0.73 .. 0.79
+  overall_height: 0.5 # max
+  pitch: 0.4
+  layout_y: 3
+  layout_x: 2
+  pad_diameter: 0.23 # from https://www.ti.com/lit/ds/symlink/ts5a12301e.pdf#page=24
+  mask_margin: 0.05 # from https://www.ti.com/lit/ds/symlink/ts5a12301e.pdf#page=24
+
+Texas_DSBGA-8_1.5195x1.5195mm_Layout3x3_P0.5mm:
+  size_source: "http://www.ti.com/lit/ml/mxbg270/mxbg270.pdf"
+  description: "Texas Instruments, DSBGA, area grid, YZR pad definition"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.5195
+  body_size_x: 1.5195
+  overall_height: 0.6
+  pitch: 0.5
+  layout_y: 3
+  layout_x: 3
+  row_skips: [[], [2], []]
+  pad_diameter: 0.2625
+  mask_margin: 0.05
+
+Texas_DSBGA-6_0.757x1.01mm_Layout2x3_P0.35mm:
+  size_source: "https://www.ti.com/lit/ds/symlink/tps62843.pdf"
+  description: "Texas Instruments, DSBGA-6, 0.757x1.01mm, SMD, YKA0006 pad definition"
+  additional_tags:
+    - "TI"
+    - "0.787x1.04mm (max)"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.01
+  body_size_x: 0.757
+  body_pcb_gap: 0.155
+  overall_height: 0.4
+  ball_diameter: 0.215
+  pitch: 0.35
+  layout_y: 3
+  layout_x: 2
+  pad_diameter: 0.265
+  mask_margin: -0.0325
+  paste_margin: -0.0275
+  paste_shape: "roundrect"
+  paste_corner_radius: 0.05
+
+Texas_DSBGA-6_0.704x1.054mm_Layout2x3_P0.35mm:
+  size_source: "https://www.ti.com/lit/ds/symlink/tps62800.pdf"
+  description: "Texas Instruments, DSBGA-6, 0.704x1.054mm, NSMD, YKA0006-C01 pad definition"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.054
+  body_size_x: 0.704
+  overall_height: 0.4
+  pitch: 0.35
+  layout_y: 3
+  layout_x: 2
+  pad_diameter: 0.2
+  mask_margin: 0.0325
+
+Texas_DSBGA-6_0.95x1.488mm_Layout2x3_P0.4mm:
+  size_source: "https://www.ti.com/lit/ml/mxbg419/mxbg419.pdf, https://www.ti.com/lit/ds/symlink/tmp117.pdf"
+  description: "Texas Instruments, DSBGA, area grid, YBG pad definition"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.488
+  body_size_x: 0.95
+  overall_height: 0.531
+  pitch: 0.4
+  layout_y: 3
+  layout_x: 2
+  pad_diameter: 0.25
+  mask_margin: 0.05
+
+Texas_DSBGA-5_0.8875x1.3875mm_Layout2x3_P0.5mm:
+  size_source: "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf#page=42, https://www.ti.com/lit/ml/mxbg018l/mxbg018l.pdf"
+  description: "Texas Instruments, DSBGA, area grid, NSMD, YZP0005 pad definition"
+  additional_tags:
+    - "YZP"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.3875
+  body_size_x: 0.8875
+  overall_height: 0.5
+  pitch: 0.5
+  layout_y: 3
+  layout_x: 2
+  pad_skips: [B2]
+  pad_diameter: 0.23
+  mask_margin: 0.05
+
+Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm:
+  size_source: "https://www.ti.com/lit/gpn/ina234"
+  description: "Texas Instruments, DSBGA, area grid, NSMD, YBJ0008 pad definition"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.468
+  body_size_x: 0.705
+  body_pcb_gap: 0.105
+  overall_height: 0.35
+  ball_diameter: 0.18
+  pitch: 0.4
+  layout_y: 4
+  layout_x: 2
+  pad_diameter: 0.2
+  mask_margin: 0.05
+
+Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm:
+  size_source: "https://www.ti.com/lit/ml/mxbg027n/mxbg027n.pdf"
+  description: "Texas Instruments, DSBGA, 1.62mmx1.58mm, area grid, NSMD, YZF0009 pad definition"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.58
+  body_size_x: 1.62
+  overall_height: 0.625
+  pitch: 0.5
+  layout_y: 3
+  layout_x: 3
+  pad_diameter: 0.245
+  mask_margin: 0.05
+
+Texas_DSBGA-12_2.11x1.61mm_Layout4x3_P0.5mm:
+  compatible_mpns:
+    - "UFBGA-12_2.11x1.61mm_Layout4x3_P0.5mm"
+  additional_tags:
+    - "Die-Size-Ball-Grid-Array"
+  size_source: "https://www.ti.com/lit/ds/symlink/tsc2007.pdf#page=34, https://www.ti.com/lit/ml/mxbg028d/mxbg028d.pdf"
+  description: "Texas Instruments, YZG (R-XBGA-N12) package, 0.275 .. 0.475mm body thickness, NSMD"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  body_size_y: 1.61 # maximum, value is actually 1.50 .. 1.61 mm
+  body_size_x: 2.11 # maximum, value is actually 2.00 .. 2.11 mm
+  body_pcb_gap: 0.25 # nominal value from 0.15 .. 0.35
+  overall_height: 0.625 # maximum
+  pitch: 0.5
+  layout_y: 3
+  layout_x: 4
+  ball_diameter: 0.30 # nominal value from 0.25 .. 0.35
+  ball_type: 'collapsible'
+  mask_margin: 0.05
+
+Texas_MicroStar_Junior_BGA-113_7x7mm_Layout12x12_P0.5mm:
+  size_source: "http://www.ti.com/lit/ml/mpbg674/mpbg674.pdf, http://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf"
+  description: "Texas Instruments, BGA Microstar Junior, NSMD"
+  manufacturer: "Texas"
+  part_number: "MicroStar_Junior"
+  body_size_y: 7
+  body_size_x: 7
+  body_pcb_gap: 0.2
+  overall_height: 1.0
+  ball_diameter: 0.3
+  pitch: 0.5
+  layout_y: 12
+  layout_x: 12
+  row_skips: [[], [], [[4, 11]], [3, 10], [3, 10], [3, 6, 7, 10], [3, 6, 7, 10], [3, 10], [3, 10], [[3, 11]], [], []]
+  pad_diameter: 0.25
+  mask_margin: 0.025
+
+Texas_YFP0020_DSBGA-20_1.588x1.988mm_Layout4x5_P0.4mm:
+# NOTE: Generates non-Solder-mask-defined pads
+# with 0.05mm radial solder mask expansion, which is
+# the "preferred" variant according to the datasheet.
+# NOTE: Ball diameter is 0.21..0.25mm
+  size_source: "https://www.ti.com/lit/ds/symlink/txs0206.pdf"
+  description: "Texas Instruments, YFP0020, DSBGA-20, area grid"
+  device_type: "DSBGA"
+  manufacturer: "Texas"
+  part_number: "YFP0020"
+  body_size_y: 1.988 # 1.928 .. 1.988
+  body_size_x: 1.588 # 1.527 .. 1.588
+  overall_height: 0.5
+  pitch: 0.4
+  layout_y: 5
+  layout_x: 4
+  pad_diameter: 0.23 # 0.23mm is DS recommended pad size.
+  mask_margin: 0.05
+
+Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm:
+# similar to JEDEC MO-207N: AD-2 (see Ayy-2 / AD-z),
+# but ball_diameter 'b' = 0.35 instead of 0.45 --> AD-2a
+# and n = 36 instead of 48
+  size_source: "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13"
+  description: "Alliance TFBGA-36, NSMD"
+  additional_tags:
+    - "36-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  manufacturer: "Alliance"
+  body_size_y: 8.0
+  body_size_x: 6.0
+  overall_height: 1.2
+  ball_diameter: 0.35
+  ball_type: 'collapsible'
+  pitch: 0.75
+  layout_y: 8
+  layout_x: 6
+  row_skips: [[], [], [2, 5], [2, 3, 4, 5], [2, 3, 4, 5], [2, 5], [], []]
+  mask_margin: 0.05
+
+TFBGA-48_6x10mm_Layout6x8_P0.75mm:
+# JEDEC MO-207N: AF-2 (Ayy-2 / AF-z), thin profile
+  size_source: "https://www.jedec.org/system/files/docs/MO-207N.pdf"
+  description: "TFBGA-48, NSMD"
+  additional_tags:
+    - "48-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 10.0
+  body_size_x: 6.0
+  overall_height: 1.20
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 0.75
+  layout_y: 8
+  layout_x: 6
+
+Infineon_TFBGA-48_6x10mm_Layout6x8_P0.75mm:
+# Similar to JEDEC MO-207N: AF-2, thin profile, but ball b = 0.30 mm
+  inherit: TFBGA-48_6x10mm_Layout6x8_P0.75mm
+  size_source: "https://www.infineon.com/dgdl/Infineon-CY14U256LA_256-Kbit_(32_K_8)_nvSRAM-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec0a9c33546"
+  description: "Cypress / Infineon TFBGA-48, NSMD"
+  manufacturer: "Infineon"
+  ball_diameter: 0.30
+
+TFBGA-49_3x3mm_Layout7x7_P0.4mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-49, NSMD"
+  additional_tags:
+    - "49-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 3.0
+  body_size_x: 3.0
+  overall_height: 0.85
+  ball_diameter: 0.25
+  ball_type: 'collapsible'
+  pitch: 0.4
+  layout_y: 7
+  layout_x: 7
+  mask_margin: 0.05
+
+TFBGA-50_5.1x5.1mm_Layout9x9_P0.5mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/SOT1345-1.pdf"
+  description: "TFBGA-50"
+  compatible_mpns:
+    - SOT1345-1
+  device_type: "TFBGA"
+  manufacturer: "NXP"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  pitch: 0.5
+  layout_y: 9
+  layout_x: 9
+  row_skips: [[3, 7], [], [1, 3, 4, 5, 6, 7, 9], [3, 4, 5, 6, 7], [3, 4, 5, 6, 7], [3, 4, 5, 6, 7], [1, 3, 4, 5, 6, 7, 9], [], []]
+  pad_diameter: 0.28
+  mask_margin: 0.05
+  paste_margin: 0.01
+
+TFBGA-64_5x5mm_Layout8x8_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f100v8.pdf#page=83"
+  description: "TFBGA-64"
+  device_type: "TFBGA"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  body_pcb_gap: 0.15
+  overall_height: 1.2
+  ball_diameter: 0.3
+  pitch: 0.5
+  layout_y: 8
+  layout_x: 8
+  pad_diameter: 0.28
+  mask_margin: 0.045
+  paste_margin: 0.000001
+
+TFBGA-81_5x5mm_Layout9x9_P0.5mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-81, NSMD"
+  additional_tags:
+    - "81-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  overall_height: 0.83
+  ball_diameter: 0.25
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 9
+  layout_x: 9
+  mask_margin: 0.1
+
+TFBGA-100_8x8mm_Layout10x10_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=199"
+  description: "TFBGA-100"
+  device_type: "TFBGA"
+  body_size_y: 8.0
+  body_size_x: 8.0
+  body_pcb_gap: 0.15
+  overall_height: 1.1
+  ball_diameter: 0.4
+  pitch: 0.8
+  layout_y: 10
+  layout_x: 10
+  pad_diameter: 0.4
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+TFBGA-100_5.5x5.5mm_Layout10x10_P0.5mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "TFBGA-100, NSMD"
+  additional_tags:
+    - "100-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 5.5
+  body_size_x: 5.5
+  ball_diameter: 0.25
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 10
+  layout_x: 10
+  mask_margin: 0.075
+
+TFBGA-121_10x10mm_Layout11x11_P0.8mm:
+  size_source: "http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#p495"
+  description: "TFBGA-121"
+  device_type: "TFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  body_pcb_gap: 0.3
+  overall_height: 1.1
+  ball_diameter: 0.4
+  pitch: 0.8
+  layout_y: 11
+  layout_x: 11
+  pad_diameter: 0.4
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+TFBGA-169_9x9mm_Layout13x13_P0.65mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-169, NSMD"
+  additional_tags:
+    - "169-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 9.0
+  body_size_x: 9.0
+  overall_height: 1.0
+  ball_diameter: 0.25
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 13
+  layout_x: 13
+  mask_margin: 0.1
+
+Microchip_TFBGA-196_11x11mm_Layout14x14_P0.75mm_SMD:
+  size_source: "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956"
+  description: "TFBGA-196"
+  device_type: "TFBGA"
+  manufacturer: "Microchip"
+  suffix: "_SMD"
+  body_size_y: 11.0
+  body_size_x: 11.0
+  overall_height: 1.20
+  pitch: 0.75
+  layout_y: 14
+  layout_x: 14
+  pad_diameter: 0.35
+  mask_margin: -0.0375
+  paste_margin: 0.000001
+
+BGA-196_15x15mm_Layout14x14_P1.0mm:
+  size_source: "http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10502.pdf#page=99"
+  description: "BGA-196"
+  body_size_y: 15.0
+  body_size_x: 15.0
+  ball_diameter: 0.5
+  ball_type: 'collapsible'
+  pitch: 1.0
+  layout_y: 14
+  layout_x: 14
+  mask_margin: 0.05
+
+TFBGA-216_13x13mm_Layout15x15_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=219"
+  description: "TFBGA-216"
+  device_type: "TFBGA"
+  body_size_y: 13.0
+  body_size_x: 13.0
+  body_pcb_gap: 0.15
+  overall_height: 1.1
+  ball_diameter: 0.4
+  pitch: 0.8
+  layout_y: 15
+  layout_x: 15
+  row_skips: [[], [], [], [], [], [], [[7, 10]], [[7, 10]], [[7, 10]], [], [], [], [], [], []]
+  pad_diameter: 0.4
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+TFBGA-225_10x10mm_Layout15x15_P0.65mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "TFBGA-225, NSMD"
+  additional_tags:
+    - "225-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  ball_diameter: 0.35
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 15
+  layout_x: 15
+  mask_margin: 0.075
+
+TFBGA-289_9x9mm_Layout17x17_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp131c.pdf"
+  description: "TFBGA-289"
+  device_type: "TFBGA"
+  body_size_y: 9.0
+  body_size_x: 9.0
+  pitch: 0.5
+  layout_y: 17
+  layout_x: 17
+  pad_diameter: 0.230
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+TFBGA-256_13x13mm_Layout16x16_P0.8mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-256, NSMD"
+  additional_tags:
+    - "256-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 13.0
+  body_size_x: 13.0
+  overall_height: 1.04
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 16
+  layout_x: 16
+  mask_margin: 0.075
+
+TFBGA-324_12x12mm_Layout18x18_P0.65mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-324, NSMD"
+  additional_tags:
+    - "324-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 12.0
+  body_size_x: 12.0
+  overall_height: 0.97
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 18
+  layout_x: 18
+  mask_margin: 0.075
+
+TFBGA-361_13x13mm_Layout19x19_P0.65mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "TFBGA-361, NSMD"
+  additional_tags:
+    - "361-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 13.0
+  body_size_x: 13.0
+  ball_diameter: 0.35
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 19
+  layout_x: 19
+  mask_margin: 0.075
+
+ST_VFBGA-361_10x10mm_Layout19x19_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp255c.pdf#page=218"
+  description: "ST VFBGA-361"
+  compatible_mpns:
+    - "ST-Package-B09U"
+  device_type: "VFBGA"
+  manufacturer: "ST"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  pitch: 0.50
+  layout_y: 19
+  layout_x: 19
+  pad_diameter: 0.300  # pad data missing in datasheet, used that from similar ST_TFBGA-169_7x7mm_Layout13x13_P0.5mm
+  mask_margin: 0.038  # pad data missing in datasheet, used that from similar ST_TFBGA-169_7x7mm_Layout13x13_P0.5mm
+  paste_margin: 0.000001  # pad data missing in datasheet, used that from similar ST_TFBGA-169_7x7mm_Layout13x13_P0.5mm
+
+ST_TFBGA-169_7x7mm_Layout13x13_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32u595aj.pdf"
+  description: "ST TFBGA-169"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 13
+  layout_x: 13
+  pad_diameter: 0.300
+  mask_margin: 0.038
+  paste_margin: 0.000001
+
+TFBGA-576_16x16mm_Layout24x24_P0.65mm:
+  size_source: "https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf"
+  description: "TFBGA-576, NSMD"
+  additional_tags:
+    - "576-ball"
+    - "FBGA"
+  device_type: "TFBGA"
+  body_size_y: 16.0
+  body_size_x: 16.0
+  overall_height: 1.2
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 24
+  layout_x: 24
+  mask_margin: 0.075
+
+TFBGA-644_19x19mm_Layout28x28_P0.65mm:
+  size_source: "https://opensource.rock-chips.com/images/b/b6/Rockchip_RK3568_Datasheet_V1.3-20220929P.PDF"
+  description: "TFBGA-636"
+  additional_tags:
+    - "636-ball"
+    - "FBGA"
+    - "Rockchip"
+    - "RK3568"
+    - "RK3288"
+    - "Realtek"
+    - "RTD1296"
+    - "Allwinner"
+    - "A80"
+    - "A80T"
+  device_type: "TFBGA"
+  body_size_y: 19.0
+  body_size_x: 19.0
+  body_pcb_gap: 0.15
+  overall_height: 1.1
+  ball_diameter: 0.35
+  ball_type: 'collapsible'
+  pitch: 0.65
+  layout_y: 28
+  layout_x: 28
+  row_skips: [[],[],[],[],[],[],[],[],[],[[3,9],[20,26]],[],[],[[3,9],[20,26]],[],[],[[3,9],[20,26]],[],[],[[3,9],[20,26]],[],[],[],[],[],[],[],[],[]]
+  pad_skips: [
+    C7,C10,C13,C16,C19,C22,
+    D4,D7,D10,D13,D16,D19,D22,D25,
+    E5,E10,E13,E16,E19,E24,
+    F6,F10,F13,F16,F19,F23,
+    G3,G4,G7,G10,G13,G16,G19,G22,G25,G26,
+    H8,H10,H13,H16,H19,H21,
+    J10,J13,J16,J19,
+    Y10,Y13,Y16,Y19,
+    AA8,AA10,AA13,AA16,AA19,AA21,
+    AB3,AB4,AB7,AB10,AB13,AB16,AB19,AB22,AB25,AB26,
+    AC6,AC10,AC13,AC16,AC19,AC23,
+    AD5,AD10,AD13,AD16,AD19,AD24,
+    AE4,AE7,AE10,AE13,AE16,AE19,AE22,AE25,
+    AF7,AF10,AF13,AF16,AF19,AF22
+  ]
+
+ST_TFBGA-225_13x13mm_Layout15x15_P0.8mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32h7b3ri.pdf"
+  description: "ST TFBGA-225"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 13.0
+  body_size_x: 13.0
+  pitch: 0.8
+  layout_y: 15
+  layout_x: 15
+  pad_diameter: 0.400
+  mask_margin: 0.035
+  paste_ratio: 0.0125
+
+ST_TFBGA-257_10x10mm_Layout19x19_P0.5mmP0.65mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf"
+  description: "ST TFBGA-257"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  pitch: 0.5
+  layout_y: 19
+  layout_x: 19
+  area_skips: [[d,4,t,16]]
+  pad_skips: [
+    a5,a8,a11,a14,
+    f1,j1,m1,r1,
+    e19,h19,l19,p19,
+    w6,w9,w12,w15
+  ]
+  pad_diameter: 0.230
+  mask_margin: 0.050
+  secondary_layouts:
+    - pitch: 0.65
+      layout_x: 9
+      layout_y: 9
+      row_names: [1A, 1B, 1C, 1D, 1E, 1F, 1G, 1H, 1J]
+
+ST_TFBGA-320_11x11mm_Layout21x21_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp131c.pdf"
+  description: "ST TFBGA-320"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 11.0
+  body_size_x: 11.0
+  pitch: 0.5
+  layout_y: 21
+  layout_x: 21
+  pad_skips: [
+    a5,a8,a11,a14,a17,
+    d4,d5,d7,d9,d10,d12,d13,d15,d17,d18,
+    e1,e4,e18,e21,
+    f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,
+    g4,g6,g16,g18,
+    h1,h6,h8,h9,h10,h11,h12,h13,h14,h16,h21,
+    j4,j6,j8,j14,j16,j18,
+    k4,k6,k8,k14,k16,k18,
+    l1,l6,l8,l11,l14,l16,l21,
+    m4,m6,m8,m14,m16,m18,
+    n4,n6,n8,n14,n16,n18,
+    p1,p6,p8,p9,p10,p11,p12,p13,p14,p16,p21,
+    r4,r6,r16,r18,
+    t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,
+    u1,u4,u18,u21,
+    v4,v5,v7,v9,v10,v12,v13,v15,v17,v18,
+    aa5,aa8,aa11,aa14,aa17
+  ]
+  pad_diameter: 0.230
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+ST_TFBGA-361_12x12mm_Layout23x23_P0.5mmP0.65mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf"
+  description: "ST TFBGA-361"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 12.0
+  body_size_x: 12.0
+  pitch: 0.5
+  layout_y: 23
+  layout_x: 23
+  area_skips: [[e,5,w,19]]
+  pad_skips: [
+    a6,a9,a12,a15,a18,
+    f1,j1,m1,r1,v1,
+    f23,j23,m23,r23,v23,
+    ac6,ac9,ac12,ac15,ac18
+  ]
+  pad_diameter: 0.230
+  mask_margin: 0.050
+  secondary_layouts:
+    - pitch: 0.65
+      layout_x: 9
+      layout_y: 9
+      row_names: [1A, 1B, 1C, 1D, 1E, 1F, 1G, 1H, 1J]
+      pad_skips: [1a1, 1a9, 1j1, 1j9]
+
+ST_TFBGA-436_18x18mm_Layout22x22_P0.8mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32mp255c.pdf#page=222"
+  description: "ST TFBGA-436"
+  compatible_mpns:
+    - "ST-Package-B0MS"
+  device_type: "TFBGA"
+  manufacturer: "ST"
+  body_size_y: 18.0
+  body_size_x: 18.0
+  pitch: 0.8
+  layout_y: 22
+  layout_x: 22
+  pad_skips: [
+  # Bottom side cutouts
+    A5, A6, B6, A9, A10, B10, A13, A14, B14, A17, A18, B18,
+  # Top side cutouts
+    AB5, AB6, AA5, AB9, AB10, AA9, AB13, AB14, AA13, AB17, AB18, AA17,
+  # Left side cutouts
+    E1, E2, F1, J1, J2, K1, N1, N2, P1, U1, U2, V1,
+  # Right side cutouts
+    E22, F22, F21, J22, K22, K21, N22, P22, P21, U22, V22, V21
+  ]
+  pad_diameter: 0.320
+  mask_margin: 0.050
+
+TFBGA-265_14x14mm_Layout17x17_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/DM00387108.pdf#page=223"
+  description: "TFBGA-265"
+  device_type: "TFBGA"
+  body_size_y: 14.0
+  body_size_x: 14.0
+  body_pcb_gap: 0.15
+  overall_height: 1.1
+  ball_diameter: 0.4
+  pitch: 0.8
+  layout_y: 17
+  layout_x: 17
+  row_skips: [[], [], [], [], [], [[6, 13]], [6, 12], [6, 12], [6, 12], [6, 12], [6, 12], [[6, 13]], [], [], [], [], []]
+  pad_diameter: 0.325
+  mask_margin: 0.0325
+  paste_ratio: 0.0125
+
+UCBGA-36_2.5x2.5mm_Layout6x6_P0.4mm:
+  size_source: "https://www.latticesemi.com/view_document?document_id=213"
+  description: "UCBGA-36"
+  device_type: "UCBGA"
+  body_size_y: 2.5
+  body_size_x: 2.5
+  pitch: 0.4
+  layout_y: 6
+  layout_x: 6
+  pad_diameter: 0.27
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+UCBGA-49_3x3mm_Layout7x7_P0.4mm:
+  size_source: "https://www.latticesemi.com/view_document?document_id=213"
+  description: "UCBGA-49"
+  device_type: "UCBGA"
+  body_size_y: 3
+  body_size_x: 3
+  pitch: 0.4
+  layout_y: 7
+  layout_x: 7
+  pad_diameter: 0.27
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+ucBGA-64_4x4mm_Layout8x8_P0.4mm:
+  size_source: "https://www.latticesemi.com/view_document?document_id=213"
+  description: "ucBGA-64"
+  device_type: "ucBGA"
+  body_size_y: 4
+  body_size_x: 4
+  body_pcb_gap: 0.1
+  overall_height: 1.0
+  ball_diameter: 0.25
+  pitch: 0.4
+  layout_y: 8
+  layout_x: 8
+  pad_diameter: 0.30
+  mask_margin: -0.04
+  paste_margin: -0.04
+
+csBGA-64_5x5mm_Layout8x8_P0.5mm:
+  size_source: "https://www.latticesemi.com/view_document?document_id=213"
+  description: "csBGA-64"
+  device_type: "csBGA"
+  body_size_y: 5
+  body_size_x: 5
+  body_pcb_gap: 0.15
+  overall_height: 1.1
+  ball_diameter: 0.3
+  pitch: 0.5
+  layout_y: 8
+  layout_x: 8
+  pad_diameter: 0.35
+  mask_margin: -0.05
+  paste_margin: -0.05
+
+ST_UFBGA-59_5x5mm_Layout8x8_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32wba55ug.pdf"
+  description: "ST UFBGA-59"
+  device_type: "UFBGA"
+  manufacturer: "ST"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  pitch: 0.5
+  layout_y: 8
+  layout_x: 8
+  pad_skips: [f4,e6,d3,c4,c5]
+  pad_diameter: 0.300
+  mask_margin: 0.050
+  paste_margin: 0.000001
+
+ST_UFBGA-73_5x5mm_Layout9x9_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32wl54jc.pdf"
+  description: "ST UFBGA-73"
+  device_type: "UFBGA"
+  manufacturer: "ST"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  pitch: 0.5
+  layout_y: 9
+  layout_x: 9
+  pad_skips: [j4,j7,g1,f9,d1,c9,a3,a6]
+  pad_diameter: 0.230
+  mask_margin: 0.050
+  paste_margin: 0.025
+
+ST_UFBGA-81_5x5mm_Layout9x9_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32u073mb.pdf"
+  description: "ST UFBGA-81"
+  device_type: "UFBGA"
+  manufacturer: "ST"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  pitch: 0.5
+  layout_y: 9
+  layout_x: 9
+  pad_diameter: 0.250
+  mask_margin: 0.025
+  paste_margin: 0.053
+
+UCBGA-81_4x4mm_Layout9x9_P0.4mm:
+  size_source: "https://www.latticesemi.com/view_document?document_id=213"
+  description: "UCBGA-81"
+  device_type: "UCBGA"
+  body_size_y: 4
+  body_size_x: 4
+  pitch: 0.4
+  layout_y: 9
+  layout_x: 9
+  pad_diameter: 0.27
+  mask_margin: 0.035
+  paste_margin: 0.000001
+
+UFBGA-64_5x5mm_Layout8x8_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f051t8.pdf#page=91"
+  description: "UFBGA-64"
+  device_type: "UFBGA"
+  body_size_y: 5.0
+  body_size_x: 5.0
+  pitch: 0.5
+  layout_y: 8
+  layout_x: 8
+  pad_diameter: 0.28
+  mask_margin: 0.045
+  paste_margin: 0.000001
+
+UFBGA-100_7x7mm_Layout12x12_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=93"
+  description: "UFBGA-100"
+  device_type: "UFBGA"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 12
+  layout_x: 12
+  row_skips: [[], [], [6, 7], [[4, 10]], [[4, 10]], [[3, 11]], [[3, 11]], [[4, 10]], [[4, 10]], [6, 7], [], []]
+  pad_diameter: 0.28
+  mask_margin: 0.045
+  paste_margin: 0.000001
+
+ST_UFBGA-121_6x6mm_Layout11x11_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32g473pb.pdf"
+  description: "ST UFBGA-121"
+  device_type: "UFBGA"
+  manufacturer: "ST"
+  body_size_y: 6.0
+  body_size_x: 6.0
+  pitch: 0.5
+  layout_y: 11
+  layout_x: 11
+  pad_diameter: 0.225
+  mask_margin: 0.0325
+  paste_margin: 0.0125
+
+XBGA-121_10x10mm_Layout11x11_P0.8mm:
+  size_source: "http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf"
+  description: "XBGA-121"
+  device_type: "XBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  pitch: 0.8
+  layout_y: 11
+  layout_x: 11
+  pad_diameter: 0.32
+  mask_margin: 0.04
+  paste_margin: 0.0001
+
+ST_UFBGA-129_7x7mm_Layout13x13_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stm32wb55vc.pdf"
+  # Caution: the datasheet shows the BGA 90 deg rotated!
+  description: "ST UFBGA-129"
+  device_type: "UFBGA"
+  manufacturer: "ST"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 13
+  layout_x: 13
+  pad_skips: [
+    a4,a5,a9,a10,
+    d1,d5,d7,d9,d13,
+    e1,e4,e6,e8,e10,e13,
+    f5,f7,f9,
+    g4,g6,g8,g10,
+    h5,h7,h9,
+    j1,j4,j6,j8,j10,j13,
+    k1,k5,k7,k9,k13,
+    n4,n5,n9,n10
+  ]
+  pad_diameter: 0.275
+  mask_margin: 0.0625
+  paste_margin: 0.0125
+
+UFBGA-132_7x7mm_Layout12x12_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=123"
+  description: "UFBGA-132"
+  device_type: "UFBGA"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 12
+  layout_x: 12
+  row_skips: [[], [], [], [], [[5, 9]], [5, 8], [5, 8], [[5, 9]], [], [], [], []]
+  pad_diameter: 0.27
+  mask_margin: 0.04
+  paste_margin: 0.000001
+
+UFBGA-144_7x7mm_Layout12x12_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=186"
+  description: "UFBGA-144"
+  device_type: "UFBGA"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 12
+  layout_x: 12
+  pad_diameter: 0.28
+  mask_margin: 0.045
+  paste_margin: 0.000001
+
+UFBGA-144_10x10mm_Layout12x12_P0.8mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=189"
+  description: "UFBGA-144"
+  device_type: "UFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  pitch: 0.8
+  layout_y: 12
+  layout_x: 12
+  pad_diameter: 0.4
+  mask_margin: 0.075
+  paste_margin: 0.000001
+
+UFBGA-169_7x7mm_Layout13x13_P0.5mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f429ng.pdf#page=218"
+  description: "UFBGA-169"
+  device_type: "UFBGA"
+  body_size_y: 7.0
+  body_size_x: 7.0
+  pitch: 0.5
+  layout_y: 13
+  layout_x: 13
+  pad_diameter: 0.27
+  mask_margin: 0.04
+  paste_margin: 0.000001
+
+UFBGA-201_10x10mm_Layout15x15_P0.65mm:
+  size_source: "http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166"
+  description: "UFBGA-201"
+  device_type: "UFBGA"
+  body_size_y: 10.0
+  body_size_x: 10.0
+  pitch: 0.65
+  layout_y: 15
+  layout_x: 15
+  row_skips: [[], [], [], [], [[5, 12]], [5, 11], [5, 11], [5, 11], [5, 11], [5, 11], [[5, 12]], [], [], [], []]
+  pad_diameter: 0.3
+  mask_margin: 0.05
+  paste_margin: 0.000001
+
+WLP-4_0.728x0.728mm_Layout2x2_P0.35mm:
+  size_source: "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+  description: "WLP-4"
+  device_type: "WLP"
+  body_size_y: 0.728
+  body_size_x: 0.728
+  pitch: 0.35
+  layout_y: 2
+  layout_x: 2
+  row_skips: [[], []]
+  pad_diameter: 0.2
+  mask_margin: 0.02
+  paste_margin: 0.000001
+
+Lattice_caBGA-381_17x17mm_Layout20x20_P0.8mm:
+  size_source: "http://www.latticesemi.com/view_document?document_id=213"
+  description: "Lattice caBGA-381, ECP5 FPGAs"
+  device_type: "caBGA"
+  manufacturer: "Lattice"
+  body_size_y: 17.0
+  body_size_x: 17.0
+  pitch: 0.8
+  layout_y: 20
+  layout_x: 20
+  row_skips: [[1, 20], [], [], [], [], [], [], [], [], [], [], [], [], [], [6, 7, 8, 9, 10, 11, 12, 13, 14, 15], [], [], [], [], [1, 4, 9, 10, 13, 18, 20]]
+  pad_diameter: 0.4
+  mask_margin: 0.075
+
+Lattice_caBGA-381_17x17mm_Layout20x20_P0.8mm_SMD:
+  size_source: "http://www.latticesemi.com/view_document?document_id=213"
+  description: "Lattice caBGA-381, ECP5 FPGAs"
+  device_type: "caBGA"
+  manufacturer: "Lattice"
+  suffix: "_SMD"
+  body_size_y: 17.0
+  body_size_x: 17.0
+  pitch: 0.8
+  layout_y: 20
+  layout_x: 20
+  row_skips: [[1, 20], [], [], [], [], [], [], [], [], [], [], [], [], [], [6, 7, 8, 9, 10, 11, 12, 13, 14, 15], [], [], [], [], [1, 4, 9, 10, 13, 18, 20]]
+  pad_diameter: 0.6
+  mask_margin: -0.05
+
+Lattice_caBGA-756_27x27mm_Layout32x32_P0.8mm:
+  size_source: "http://www.latticesemi.com/view_document?document_id=213"
+  description: "Lattice caBGA-756, ECP5 FPGAs"
+  device_type: "caBGA"
+  manufacturer: "Lattice"
+  body_size_y: 27.0
+  body_size_x: 27.0
+  pitch: 0.8
+  layout_y: 32
+  layout_x: 32
+  row_skips: [[1, 6, 12, 21, 27, 32], [6, 12, 21, 27], [6, 12, 21, 27], [6, 12, 21, 27], [6, 12, 21, 27], [6, 7, 12, 21, 26, 27], [1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 20, 21, 25, 26, 27, 28, 29, 30, 31, 32], [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [8, 9, 24, 25], [8, 9, 24, 25], [1, 2, 3, 4, 5, 6, 7, 8, 9, 24, 25, 26, 27, 28, 29, 30, 31, 32], [8, 9, 24, 25], [8, 9, 24, 25], [8, 9, 24, 25], [8, 9, 24, 25], [8, 9, 24, 25], [8, 9, 24, 25], [7, 8, 9, 24, 25, 26], [8, 9, 24, 25], [1, 2, 3, 4, 5, 6, 7, 8, 9, 24, 25, 26, 27, 28, 29, 30, 31, 32], [8, 9, 24, 25], [8, 9, 24, 25], [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 18, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32], [6, 7, 8, 10, 13, 18, 21, 25, 26, 27], [6, 10, 13, 18, 21, 27], [6, 27], [6, 27], [6, 10, 13, 16, 19, 22, 25, 27], [1, 6, 10, 13, 16, 19, 22, 25, 27, 32]]
+  pad_diameter: 0.4
+  mask_margin: 0.075
+
+Lattice_iCE40_csBGA-132_8x8mm_Layout14x14_P0.5mm:
+  size_source: "http://www.latticesemi.com/view_document?document_id=213"
+  description: "Lattice csBGA-132, Option 2, iCE40 FPGAs"
+  device_type: "csBGA"
+  manufacturer: "Lattice"
+  part_number: "iCE40"
+  body_size_y: 8.0
+  body_size_x: 8.0
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 14
+  layout_x: 14
+  row_skips: [
+    [],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    [2, 13],
+    [2, 13],
+    [2, 5, 6, 7, 8, 9, 10, 13],
+    [2, 5, 10, 13],
+    [2, 5, 10, 13],
+    [2, 5, 10, 13],
+    [2, 5, 10, 13],
+    [2, 5, 6, 7, 8, 9, 10, 13],
+    [2, 13],
+    [2, 13],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    []
+  ]
+
+MAPBGA-272_9x9mm_Layout17x17_P0.5mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/98ASA00869D.pdf#page=1"
+  description: "MAPBGA 9x9x1.11 PKG"
+  device_type: "MAPBGA"
+  body_size_y: 9.0
+  body_size_x: 9.0
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 17
+  layout_x: 17
+  row_skips: [[1], [], [], [], [], [6, 7, 9, 11, 12], [6, 12], [], [6, 12], [], [6, 12], [6, 7, 9, 11, 12], [], [], [], [], []]
+
+MAPBGA-289_14x14mm_Layout17x17_P0.8mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/98ASA00855D.pdf#page=1"
+  description: "MAPBGA 14x14x1.18 PKG"
+  device_type: "MAPBGA"
+  body_size_y: 14.0
+  body_size_x: 14.0
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 17
+  layout_x: 17
+
+Analog_BGA-28_4x6.25mm_Layout4x7_P0.8mm:
+  size_source: "https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf"
+  description: "Analog BGA-28, 0.4mm pad"
+  manufacturer: "Analog"
+  body_size_y: 6.25
+  body_size_x: 4.0
+  pitch: 0.8
+  layout_y: 7
+  layout_x: 4
+  pad_diameter: 0.4
+  mask_margin: 0.05
+
+Analog_BGA-49_6.25x6.25mm_Layout7x7_P0.8mm:
+  size_source: "https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081600_0_bga49.pdf https://www.analog.com/media/en/technical-documentation/product-information/assembly-considerations-for-umodule-bga-lga-package.pdf"
+  description: "Analog BGA-49"
+  manufacturer: "Analog"
+  body_size_y: 6.25
+  body_size_x: 6.25
+  body_pcb_gap: 0.4
+  overall_height: 2.1
+  ball_diameter: 0.5
+  pitch: 0.8
+  layout_y: 7
+  layout_x: 7
+  pad_diameter: 0.4
+  mask_margin: 0.025
+  paste_margin: -0.01
+
+Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm:
+  size_source: "https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081605_b_bga165.pdf"
+  description: "Analog BGA-165 (Reference LTC DWG#05-08-1605 Rev B)"
+  manufacturer: "Analog"
+  body_size_y: 16.0
+  body_size_x: 11.9
+  body_pcb_gap: 0.5
+  overall_height: 3.32
+  ball_diameter: 0.6
+  pitch: 1.0
+  layout_y: 15
+  layout_x: 11
+  pad_diameter: 0.5
+  mask_margin: 0.05
+
+Analog_BGA-209_9.5x16mm_Layout11x19_P0.8mm:
+  size_source: "https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081561_bga209.pdf"
+  description: "Analog BGA-209 (Reference LTC DWG#05-08-1561 Rev B)"
+  manufacturer: "Analog"
+  body_size_y: 16.0
+  body_size_x: 9.5
+  body_pcb_gap: 0.4
+  overall_height: 4.72
+  ball_diameter: 0.5
+  pitch: 0.8
+  layout_y: 19
+  layout_x: 11
+  pad_diameter: 0.4
+  mask_margin: 0.05
+
+ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm:
+  size_source: "https://www.st.com/resource/en/datasheet/stulpi01a.pdf"
+  description: "ST uTFBGA-36, 0.25mm pad"
+  device_type: "uTFBGA"
+  manufacturer: "ST"
+  body_size_y: 3.6
+  body_size_x: 3.6
+  pitch: 0.5
+  layout_y: 6
+  layout_x: 6
+  pad_diameter: 0.25
+  mask_margin: 0.05
+
+WLP-9_1.468x1.448mm_Layout3x3_P0.4mm:
+  size_source: "https://pdfserv.maximintegrated.com/package_dwgs/21-100168.PDF"
+  description: "WLP-9"
+  device_type: "WLP"
+  body_size_y: 1.448
+  body_size_x: 1.468
+  pitch: 0.4
+  layout_y: 3
+  layout_x: 3
+  pad_diameter: 0.27
+  mask_margin: 0.02
+  paste_margin: 0.000001
+
+Maxim_WLP-12_2.008x1.608mm_Layout4x3_P0.4mm:
+  size_source: "https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF"
+  description: "Maxim WLP-12, W121H2+1"
+  device_type: "WLP"
+  manufacturer: "Maxim"
+  body_size_y: 1.608
+  body_size_x: 2.008
+  overall_height: 0.64
+  pitch: 0.4
+  layout_y: 3
+  layout_x: 4
+  pad_diameter: 0.25
+
+NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/SOT1963-1.pdf"
+  description: "NXP VFBGA-42"
+  device_type: "VFBGA"
+  manufacturer: "NXP"
+  body_size_y: 3.0
+  body_size_x: 2.6
+  body_pcb_gap: 0.2
+  overall_height: 1.0
+  ball_diameter: 0.25
+  pitch: 0.4
+  layout_y: 7
+  layout_x: 6
+  pad_diameter: 0.24
+  mask_margin: 0.04
+  paste_margin: 0.0175
+
+VFBGA-86_6x6mm_Layout10x10_P0.55mm:
+  size_source: "https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf#page=740"
+  description: "VFBGA-86"
+  device_type: "VFBGA"
+  body_size_y: 6.0
+  body_size_x: 6.0
+  pitch: 0.55
+  layout_y: 10
+  layout_x: 10
+  row_skips: [[], [6], [5, 7], [4, 7, 8], [3, 5, 7], [6, 8], [7], [4, 6], [], []]
+  pad_diameter: 0.2
+
+BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm:
+  size_source: "http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf"
+  description: "BGA-200"
+  body_size_y: 14.5
+  body_size_x: 10.0
+  pitch_x: 0.80
+  pitch_y: 0.65
+  layout_y: 22
+  layout_x: 12
+  row_skips: [[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[[1,13]],[[1,13]],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7],[6,7]]
+  pad_diameter: 0.27
+
+Infineon_LFBGA-292_17x17mm_Layout20x20_P0.8mm:
+  size_source: "https://www.infineon.com/cms/en/product/packages/PG-LFBGA/PG-LFBGA-292-11/"
+  description: "Infineon LFBGA-292, 0.35mm pad"
+  device_type: "LFBGA"
+  manufacturer: "Infineon"
+  body_size_y: 17.0
+  body_size_x: 17.0
+  pitch: 0.8
+  layout_y: 20
+  layout_x: 20
+  row_skips: [
+    [],
+    [],
+    [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+    [3,18],
+    [3,18],
+    [3,6,7,8,9,10,11,12,13,14,15,18],
+    [3,6,7,14,15,18],
+    [3,6,8,13,15,18],
+    [3,6,9,12,15,18],
+    [3,6,15,18],
+    [3,6,15,18],
+    [3,6,9,12,15,18],
+    [3,6,8,13,15,18],
+    [3,6,7,14,15,18],
+    [3,6,7,8,9,10,11,12,13,14,15,18],
+    [3,18],
+    [3,18],
+    [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+    [],
+    []
+  ]
+  pad_diameter: 0.35
+
+BGA-324_15x15mm_Layout18x18_P0.8mm:
+  size_source: "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf#page=92"
+  description: "BGA-324"
+  additional_tags:
+    - "GateMate FPGA"
+  body_size_y: 15
+  body_size_x: 15
+  overall_height: 1.19
+  ball_diameter: 0.45
+  ball_type: "collapsible"
+  pitch: 0.8
+  layout_y: 18
+  layout_x: 18
+
+BGA-529_19x19mm_Layout23x23_P0.8mm:
+  size_source: "https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf"
+  description: "BGA-529, NSMD"
+  additional_tags:
+    - "529-ball"
+    - "FBGA"
+  body_size_y: 19.0
+  body_size_x: 19.0
+  overall_height: 2.75
+  ball_diameter: 0.5
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 23
+  layout_x: 23
+  mask_margin: 0.1
+
+Texas_BGA-289_15x15mm_Layout17x17_P0.8mm:
+  size_source: "https://www.ti.com/lit/ml/mpbg777/mpbg777.pdf"
+  description: "Texas Instruments BGA-289, 0.4mm pad"
+  additional_tags:
+    - "ZAV"
+    - "S-PBGA-N289"
+  manufacturer: "Texas"
+  body_size_y: 15
+  body_size_x: 15
+  body_pcb_gap: 0.4
+  overall_height: 1.40
+  ball_diameter: 0.50
+  pitch: 0.8
+  layout_y: 17
+  layout_x: 17
+  pad_diameter: 0.4
+
+Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm:
+  size_source: "https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54"
+  description: "Alliance TFBGA 54 pins"
+  device_type: "TFBGA"
+  manufacturer: "Alliance"
+  body_size_y: 8
+  body_size_x: 8
+  overall_height: 1.2
+  ball_diameter: 0.45
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 9
+  layout_x: 9
+  row_skips: [
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+    [4,5,6],
+  ]
+
+Analog_BGA-77_9x15mm_Layout7x11_P1.27mm:
+  size_source: "https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081964_B_bga77.pdf"
+  description: "Analog Devices BGA-77, 0.63mm pad"
+  additional_tags:
+    - "LTC Dwg 05-08-1964 Rev. B"
+  manufacturer: "Analog"
+  body_size_y: 15
+  body_size_x: 9
+  body_pcb_gap: 0.6
+  overall_height: 2.42
+  ball_diameter: 0.75
+  pitch: 1.27
+  layout_y: 11
+  layout_x: 7
+  pad_diameter: 0.63
+
+Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm:
+  size_source: "https://www.ti.com/lit/ds/symlink/tmp114.pdf"
+  description: "Texas Instruments PicoStar - 0.15 mm max height"
+  additional_tags:
+    - "PicoStar"
+  manufacturer: "Texas"
+  part_number: "PicoStar"
+  body_size_y: 0.758
+  body_size_x: 0.758
+  overall_height: 0.15
+  pitch: 0.4
+  layout_y: 2
+  layout_x: 2
+  pad_diameter: 0.23
+  mask_margin: 0.05
+
+LFBGA-169_12x16mm_Layout14x28_P0.5mm:
+  size_source: "https://www.jedec.org/sites/default/files/docs/MO-276F.pdf"
+  description: "JEDEC eMMC AA BGA-169"
+  device_type: "LFBGA"
+  body_size_y: 16.0
+  body_size_x: 12.0
+  overall_height: 1.4
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 28
+  layout_x: 14
+  row_skips: [[1, 2, 3, 5, 7, 8, 10, 12, 13, 14], [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [], [], [], [5, 6, 7, 8, 9, 10, 11], [4, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 11], [4, 5, 6, 7, 8, 9, 10, 11], [], [], [], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14], [1, 2, 3, 5, 7, 8, 10, 12, 13, 14]]
+
+LFBGA-169_12x18mm_Layout14x28_P0.5mm:
+  inherit: LFBGA-169_12x16mm_Layout14x28_P0.5mm
+  description: "JEDEC eMMC AB BGA-169"
+  body_size_y: 18.0
+  body_size_x: 12.0
+
+LFBGA-169_14x18mm_Layout14x28_P0.5mm:
+  inherit: LFBGA-169_12x16mm_Layout14x28_P0.5mm
+  description: "JEDEC eMMC AC BGA-169"
+  body_size_y: 18.0
+  body_size_x: 14.0
+
+LFBGA-153_11.5x13mm_Layout14x14_P0.5mm:
+  size_source: "https://www.jedec.org/sites/default/files/docs/MO-276F.pdf"
+  description: "JEDEC eMMC AN BGA-153"
+  device_type: "LFBGA"
+  body_size_y: 13.0
+  body_size_x: 11.5
+  overall_height: 1.4
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 14
+  layout_x: 14
+  row_skips: [[], [], [], [5, 6, 7, 8, 9, 10, 11], [4, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 6, 7, 8, 9, 11], [4, 11], [4, 5, 6, 7, 8, 9, 10, 11], [], [], []]
+
+BGA-24_6x8mm_Layout_5x5_P1.0mm:
+  size_source: "https://www.issi.com/WW/pdf/66-67WVO32M8DALL-BLL.pdf#page=32"
+  description: "BGA-24"
+  body_size_y: 8
+  body_size_x: 6
+  overall_height: 1.2
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 1.0
+  layout_y: 5
+  layout_x: 5
+  row_skips: [[1], [], [], [], []]
+
+BGA-24_8x8mm_Layout5x5_P1.0mm:
+  size_source: "https://www.infineon.com/assets/row/public/packages/73/package_outline_download/infineon-pg-bga-24-804-spo-pdf-package-en.pdf"
+  description: "BGA-24"
+  body_size_y: 8
+  body_size_x: 8
+  overall_height: 1.0
+  body_pcb_gap: 0.2
+  ball_diameter: 0.4
+  ball_type: 'collapsible'
+  pitch: 1.0
+  layout_y: 5
+  layout_x: 5
+  pad_skips: [A1]
+
+Microchip_FCSG325_BGA-325_11x11mm_Layout21x21_P0.5mm:
+  size_source: "https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/UserGuides/microchip_polarfire_soc_fpga_packaging_and_pin_descriptions_user_guide_vb.pdf"
+  description: "FCSG325"
+  device_type: "BGA"
+  manufacturer: "Microchip"
+  part_number: "FCSG325"
+  body_size_y: 11.0
+  body_size_x: 11.0
+  overall_height: 1.34
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 21
+  layout_x: 21
+  row_skips: [
+    [],
+    [],
+    [3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
+    [3, 19],
+    [3, 19],
+    [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    [3, 6, 16, 19],
+    [3, 6, 8, 9, 10, 11, 12, 13, 14, 16, 19],
+    [3, 6, 8, 14, 16, 19],
+    [3, 6, 8, 14, 16, 19],
+    [6, 8, 14, 16],
+    [3, 6, 8, 14, 16, 19],
+    [3, 6, 8, 14, 16, 19],
+    [3, 6, 8, 9, 10, 11, 12, 13, 14, 16, 19],
+    [3, 6, 16, 19],
+    [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    [3, 19],
+    [3, 19],
+    [3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
+    [],
+    []
+  ]
+
+Microchip_FCVG484_BGA-484_19x19mm_Layout22x22_P0.8mm:
+  size_source: "https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/UserGuides/microchip_polarfire_soc_fpga_packaging_and_pin_descriptions_user_guide_vb.pdf"
+  description: "FCVG484"
+  device_type: "BGA"
+  manufacturer: "Microchip"
+  part_number: "FCVG484"
+  body_size_y: 19.0
+  body_size_x: 19.0
+  overall_height: 2.92
+  ball_diameter: 0.5
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 22
+  layout_x: 22
+
+Microchip_FCSG536_BGA-536_16x16mm_Layout30x30_P0.5mm:
+  size_source: "https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/UserGuides/microchip_polarfire_soc_fpga_packaging_and_pin_descriptions_user_guide_vb.pdf"
+  description: "FCSG536"
+  device_type: "BGA"
+  manufacturer: "Microchip"
+  part_number: "FCSG536"
+  body_size_y: 16.0
+  body_size_x: 16.0
+  overall_height: 1.4
+  ball_diameter: 0.3
+  ball_type: 'collapsible'
+  pitch: 0.5
+  layout_y: 30
+  layout_x: 30
+  row_skips: [
+    [],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 3, 4, 5, 6, 9, 12, 15, 16, 19, 22, 25, 26, 27, 28, 29],
+    [2, 9, 12, 15, 16, 19, 22, 29],
+    [2, 9, 12, 15, 16, 19, 22, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 12, 15, 16, 19, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 12, 15, 16, 19, 29],
+    [2, 12, 15, 16, 19, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 15, 16, 29],
+    [2, 15, 16, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 15, 16, 29],
+    [2, 15, 16, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 12, 15, 16, 19, 29],
+    [2, 12, 15, 16, 19, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 12, 15, 16, 19, 22, 23, 24, 25, 26, 27, 28, 29],
+    [2, 9, 12, 15, 16, 19, 22, 29],
+    [2, 9, 12, 15, 16, 19, 22, 29],
+    [2, 3, 4, 5, 6, 9, 12, 15, 16, 19, 22, 25, 26, 27, 28, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 6, 9, 12, 15, 16, 19, 22, 25, 29],
+    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    []
+  ]
+
+Microchip_FCVG784_BGA-784_23x23mm_Layout28x28_P0.8mm:
+  size_source: "https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/UserGuides/microchip_polarfire_soc_fpga_packaging_and_pin_descriptions_user_guide_vb.pdf"
+  description: "FCVG784"
+  device_type: "BGA"
+  manufacturer: "Microchip"
+  part_number: "FCVG784"
+  body_size_y: 23.0
+  body_size_x: 23.0
+  overall_height: 2.92
+  ball_diameter: 0.5
+  ball_type: 'collapsible'
+  pitch: 0.8
+  layout_y: 28
+  layout_x: 28
+
+Microchip_FCG1152_BGA-1152_35x35mm_Layout34x34_P1.0mm:
+  size_source: "https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/UserGuides/microchip_polarfire_soc_fpga_packaging_and_pin_descriptions_user_guide_vb.pdf"
+  description: "FCG1152"
+  device_type: "BGA"
+  manufacturer: "Microchip"
+  part_number: "FCG1152"
+  body_size_y: 35.0
+  body_size_x: 35.0
+  overall_height: 2.8
+  ball_diameter: 0.64
+  ball_type: 'collapsible'
+  pitch: 1.0
+  layout_y: 34
+  layout_x: 34
+  row_skips: [[1, 34], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+    [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [1, 34]]
+
+NXP_SOT1982-1_VFBGA-98_7x7mm_Layout13x13_P0.5mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/SOT1982-1.pdf"
+  description: "NXP VFBGA-98 (Case SOT1982-1), 0.28mm pad"
+  device_type: "VFBGA"
+  manufacturer: "NXP"
+  part_number: "SOT1982-1"
+  body_size_y: 7
+  body_size_x: 7
+  body_pcb_gap: 0.09
+  overall_height: 0.97 # Dim A
+  ball_diameter: 0.3
+  pitch: 0.5
+  layout_y: 13
+  layout_x: 13
+  row_skips: [
+    [             4,                     10,           ], #A1...A13
+    [             4,                     10,           ], #B1...B13
+    [         3,  4,  5,  6,      8,  9, 10, 11        ], #C1...C13
+    [ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13], #D1...D13
+    [         3,  4,                     10, 11,       ], #E1...E13
+    [         3,  4,          7,         10, 11,       ], #F1...F13
+    [             4,          7,         10,           ], #G1...G13
+    [         3,  4,          7,         10, 11,       ], #H1...H13
+    [         3,  4,                     10, 11,       ], #J1...J13
+    [ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13], #K1...K13
+    [         3,  4,  5,  6,      8,  9, 10, 11        ], #L1...L13
+    [             4,                     10,           ], #M1...M13
+    [             4,                     10,           ] #N1...N13
+  ]
+  pad_diameter: 0.28
+  mask_margin: 0.05
+  paste_margin: 0.03
+
+NXP_SOT2162-1_VFBGA-59_4x4mm_Layout9x9_P0.4mm:
+  size_source: "https://www.nxp.com/docs/en/package-information/SOT2162-1.pdf"
+  description: "NXP VFBGA-59 (Case SOT2162-1), 0.24mm pad"
+  device_type: "VFBGA"
+  manufacturer: "NXP"
+  part_number: "SOT2162-1"
+  body_size_y: 4
+  body_size_x: 4
+  body_pcb_gap: 0.09
+  overall_height: 0.86 # Dim A
+  ball_diameter: 0.25
+  pitch: 0.4
+  layout_y: 9
+  layout_x: 9
+  row_skips: [
+    [      3,    5,    7      ],
+    [            5            ],
+    [1,    3,          7,    9],
+    [],
+    [1, 2,    4,    6,    8, 9],
+    [],
+    [1,    3,          7,    9],
+    [            5            ],
+    [      3,    5,    7      ]
+  ]
+  pad_diameter: 0.24
+  mask_margin: 0.04
+  paste_margin: 0.0175

@@ -1,0 +1,32 @@
+Johanson_2450AT18x100:
+  model_name: 'Johanson_2450AT18x100'
+  length: 3.2  # package length
+  width: 1.6  # package width
+  height: 1.3  # package height
+  pin_band: 0.5  # pin band
+  pin_thickness: 0.001  # pin thickness
+  edge_fillet: 'auto'  # fillet of edges
+  rotation: 0
+  pm: 0.5  # polarity mark
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  mark_color_key: 'light brown label'
+  destination_dir: 'RF_Antenna.3dshapes'
+  source: 'https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf'
+  include_in_qa: True
+
+Johanson_2450AT43F0100:
+  model_name: 'Johanson_2450AT43F0100'
+  length: 6.0
+  width: 2.0
+  height: 1.2
+  pin_band: 0.5
+  pin_thickness: 0.001
+  edge_fillet: 'auto'
+  rotation: 0
+  pm: 0.75
+  body_color_key: 'white body'
+  pin_color_key: 'metal grey pins'
+  mark_color_key: 'light brown label'
+  destination_dir: 'RF_Antenna.3dshapes'
+  source: 'https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf'

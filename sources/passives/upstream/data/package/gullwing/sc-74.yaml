@@ -1,0 +1,71 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'SC-74'
+  library_Suffix: 'TO_SOT_SMD'
+
+SC-74-6_1.55mmx2.90mm_P0.95mm:
+# This is a JEITA standard package.
+# Some manufacturers use the name SOT-457, or SOT-23-6 for variants of this
+# package, usually with stricter tolerances than the JEITA standard.
+  size_source: 'https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=39'
+  body_size_x:
+    minimum: 1.3
+    maximum: 1.8
+  body_size_y:
+    minimum: 2.7
+    maximum: 3.1
+  overall_height:
+    minimum: 0.9
+    maximum: 1.45
+  overall_size_x:
+    minimum: 2.2
+    maximum: 3.2
+  lead_width:
+    minimum: 0.20
+    maximum: 0.50
+  lead_len:
+    minimum: 0.1
+    maximum: 0.6
+  pitch: 0.95
+  num_pins_x: 0
+  num_pins_y: 3
+
+SC-74A-5_1.55mmx2.90mm_P0.95mm:
+# SC-74A is a JEITA standard package.
+# Some manufacturers use the name SOT-25 or SOT-23-5 for variants of this
+# package, usually with stricter tolerances than the JEITA standard.
+# it is simply an SC-74 variant with 5 pins
+  inherit: SC-74-6_1.55mmx2.90mm_P0.95mm
+  size_source: 'https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=41'
+  device_type: 'SC-74A'
+  pin_count: 5
+  deleted_pins: [5]
+
+ROHM_SOT-457_ClockwisePinNumbering:
+  size_source: 'https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/imh3at110-e.pdf'
+  custom_name_format: 'ROHM_SOT-457_ClockwisePinNumbering'
+  manufacturer: 'ROHM'
+  part_number: 'SOT-457'
+  suffix: '_ClockwisePinNumbering'
+  body_size_x:
+    minimum: 2.8
+    maximum: 3.0
+  body_size_y:
+    minimum: 1.5
+    maximum: 1.8
+  overall_height:
+    minimum: 1.0
+    maximum: 1.3
+  overall_size_y:
+    minimum: 2.6
+    maximum: 3.0
+  lead_width:
+    minimum: 0.25
+    maximum: 0.40
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.95
+  num_pins_x: 3
+  num_pins_y: 0

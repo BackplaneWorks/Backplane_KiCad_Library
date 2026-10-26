@@ -1,0 +1,39 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+default_parameters:
+  device_type: 'SO'
+  override_lib_name: 'Inductor_SMD'
+
+Transformer_Ethernet_Bourns_DR331:
+  size_source: 'https://bourns.com/docs/product-datasheets/dr331.pdf'
+  custom_name_format: 'L_CommonMode_{man}_{mpn:s}' # Custom name to match existing footprint
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: Bourns
+  part_number: DR331
+  body_size_x: 7.3
+  body_size_y: 5.4 +/-0.2
+  overall_height: 4.70 +/-0.15
+  overall_size_x: 9.00 +/-0.3
+  lead_width: 0.50
+  lead_len: 1.75
+  pitch: 2.54
+  num_pins_x: 0
+  num_pins_y: 2
+
+Choke_CommonMode_XR_GM0905C:
+  size_source: 'https://www.lcsc.com/datasheet/C42418174.pdf'
+  custom_name_format: 'L_CommonModeChoke_{man}_{mpn:s}' # Custom name to match existing footprint
+  # Intended name after a future rename
+  #custom_name_format: 'Transformer_Ethernet_{man}_{mpn:s}_SO-{pincount}_{size_x:g}x{size_y:g}mm{vias:s}'
+  manufacturer: XR
+  part_number: XRGM0905C
+  body_size_x: 9.2 +/- 0.3 # A
+  body_size_y: 6.0 +/-0.3 # B
+  overall_height: 5.0 +/-0.3 # C
+  overall_size_x: 9.20 +/-0.3 # A
+  lead_width: 1.0 +/- 0.1 # E
+  lead_len: 1.75 # (Atyp - F)/2
+  pitch: 2.54 # +/- 0.2 # D
+  num_pins_x: 0
+  num_pins_y: 2

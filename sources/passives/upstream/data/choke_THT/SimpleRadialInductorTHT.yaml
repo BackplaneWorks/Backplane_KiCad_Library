@@ -1,0 +1,68 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L
+  func: makeResistorRadial
+  has3d: 1
+  lib_name: Inductor_THT
+  rm: 5.0
+  rm2: 0
+  s_3d:
+    - 1
+    - 1
+    - 1
+  seriesname: Radial
+  specialfpname: ''
+  type: simple
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+D7.5mm_P5.00mm_Neosid_SD75:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd75.pdf
+  ddrill: 0.8
+  h: 4.6
+  height3d: 10.5
+  name_additions:
+    - Neosid
+    - SD75
+  specialtags:
+    - Neosid
+    - SD75
+  w: 7.5
+  w2: 7.5
+
+
+D8.0mm_P5.00mm_Neosid_SD8:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd8.pdf
+  ddrill: 0.8
+  h: 8
+  height3d: 9.6
+  name_additions:
+    - Neosid
+    - SD8
+  specialtags:
+    - Neosid
+    - SD8
+  w: 8
+  w2: 8
+
+
+D8.0mm_P5.00mm_Neosid_NE-CPB-07E:
+  inherit: base
+  add_description: http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_NE_CPB07E.pdf
+  ddrill: 1.2
+  h: 8
+  height3d: 7.5
+  name_additions:
+    - Neosid
+    - NE-CPB-07E
+  specialtags:
+    - Neosid
+    - NE-CPB-07E
+  w: 8
+  w2: 8

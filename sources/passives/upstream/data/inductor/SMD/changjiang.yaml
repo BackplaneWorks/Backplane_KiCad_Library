@@ -1,0 +1,50 @@
+default_parameters:
+  manufacturer: Changjiang
+  library_name: Inductor_SMD
+
+series_FNR:
+  default_parameters:
+    # yes, that is the complete series datasheet.
+    datasheet: "https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf"
+    3d:
+      # best effort, it's wirewound, not really the classic block style
+      # also, the series describes three body styles.
+      type: 2
+    tags:
+      - wirewound
+      - power
+      - shielded
+  # Fields have same order as in the datasheet(partno,A,B,C,D,E,atyp,btyp,ctyp)
+  csv: changjiang_fnr.csv
+
+series_FTC:
+  default_parameters:
+    3d:
+      type: 1
+    datasheet: "http://www.cjiang.com.cn/Pr_download_id_1117.html"
+    tags:
+      - cjiang
+      - ftc
+      - molded
+      - power
+      - shielded
+    topFilletRadius: 0.1
+  # CSV fields: Series,L,G/Typ,W,W,E,T,A,B,C,(0.1 for FTCxxxxxxD|0.2 for FTCxxxxxxS)
+  csv: changjiang_ftc.csv
+
+series_FXL:
+  default_parameters:
+    datasheet: "https://www.lcsc.com/datasheet/lcsc_datasheet_2404260921_cjiang--Changjiang-Microelectronics-Tech-FXL0420-2R2-M_C167206.pdf"
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - power
+      - shielded
+      - cjiang
+      - fxl
+  # CSV fields: (partno,A-0.55,B,C,D,E,atyp,btyp,ctyp])
+  # (0.55 is a guess on the nominal body size, with the actual body being 0.275mm smaller than the body plus contacts)
+  csv: changjiang_fxl.csv

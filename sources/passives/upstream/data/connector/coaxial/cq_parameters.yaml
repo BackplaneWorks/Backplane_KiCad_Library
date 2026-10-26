@@ -1,0 +1,208 @@
+SMA_Amphenol_132134_Vertical:
+  model_name: 'SMA_Amphenol_132134_Vertical'     # modelName
+  W: 7.00                                      # Body width
+  L: 7.00                                      # Body length
+  H: 1.50                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.30                                     # Body cut
+  AW: 5.50                                     # Appendix width
+  AL: 1.50                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 1.50                                     # Appendix Z
+  AW1: 5.30                                    # Appendix width 1
+  AL1: 6.03                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 3.00                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, 0.0, 1.27, 1.27, 3.94], ['rect', -2.54, -2.54, 1.02, 1.02, 3.94], ['rect', 2.54, -2.54, 1.02, 1.02, 3.94], ['rect', -2.54, 2.54, 1.02, 1.02, 3.94], ['rect', 2.54, 2.54, 1.02, 1.02, 3.94]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'gold pins'              # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 0                                 # Rotation if required
+  rotationy: null
+  translate: null
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'https://www.amphenolrf.com/library/download/link/link_id/593003/parent/132134/'
+  include_in_qa: True
+
+SMA_Amphenol_901-144_Vertical:
+  model_name: 'SMA_Amphenol_901-144_Vertical'    # modelName
+  W: 6.35                                      # Body width
+  L: 6.35                                      # Body length
+  H: 1.50                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.00                                     # Body cut
+  AW: 4.50                                     # Appendix width
+  AL: 3.00                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 1.50                                     # Appendix Z
+  AW1: 5.30                                    # Appendix width 1
+  AL1: 5.02                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 4.50                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, 0.0, 1.27, 1.27, 3.94], ['rect', -2.54, -2.54, 1.02, 1.02, 3.94], ['rect', 2.54, -2.54, 1.02, 1.02, 3.94], ['rect', -2.54, 2.54, 1.02, 1.02, 3.94], ['rect', 2.54, 2.54, 1.02, 1.02, 3.94]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'gold pins'              # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 0                                 # Rotation if required
+  rotationy: null
+  translate: null
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/'
+
+SMA_Amphenol_132134-14_Vertical:
+  model_name: 'SMA_Amphenol_132134-14_Vertical'  # modelName
+  W: 7.00                                      # Body width
+  L: 7.00                                      # Body length
+  H: 1.50                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.30                                     # Body cut
+  AW: 5.50                                     # Appendix width
+  AL: 2.00                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 1.50                                     # Appendix Z
+  AW1: 5.20                                    # Appendix width 1
+  AL1: 5.85                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 3.50                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, 0.0, 0.61, 0.61, 3.94], ['rect', -2.54, -2.54, 1.02, 1.02, 3.94], ['rect', 2.54, -2.54, 1.02, 1.02, 3.94], ['rect', -2.54, 2.54, 1.02, 1.02, 3.94], ['rect', 2.54, 2.54, 1.02, 1.02, 3.94]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'gold pins'              # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 0                                 # Rotation if required
+  rotationy: null
+  translate: null
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'https://www.amphenolrf.com/library/download/link/link_id/596217/parent/132134-14/'
+
+SMA_Amphenol_132134-16_Vertical:
+  model_name: 'SMA_Amphenol_132134-16_Vertical'  # modelName
+  W: 7.00                                      # Body width
+  L: 7.00                                      # Body length
+  H: 1.50                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.30                                     # Body cut
+  AW: 5.00                                     # Appendix width
+  AL: 1.50                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 1.50                                     # Appendix Z
+  AW1: 5.20                                    # Appendix width 1
+  AL1: 6.53                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 3.00                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, 0.0, 1.27, 1.27, 2.0], ['rect', -2.54, -2.54, 1.02, 1.02, 2.79], ['rect', 2.54, -2.54, 1.02, 1.02, 2.79], ['rect', -2.54, 2.54, 1.02, 1.02, 2.79], ['rect', 2.54, 2.54, 1.02, 1.02, 2.79]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'gold pins'              # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 0                                 # Rotation if required
+  rotationy: null
+  translate: null
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'https://www.amphenolrf.com/library/download/link/link_id/598157/parent/132134-16/'
+
+BNC_TEConnectivity_1478204_Vertical:
+  model_name: 'BNC_TEConnectivity_1478204_Vertical'  # modelName
+  W: 12.00                                      # Body width
+  L: 2.00                                      # Body length
+  H: 0.00                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  AW: 10.00                                     # Appendix width
+  AL: 11.70                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 2.00                                     # Appendix Z
+  AW1: 5.00                                    # Appendix width 1
+  AL1: 10.00                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 2.00                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, 0.0, 0.9, 0.9, 4.5], ['rect2', -3.175, -3.175, 0.85, 0.85, 4.5, 45.0], ['rect2', 3.175, -3.175, 0.85, 0.85, 4.5, 45.0], ['rect2', -3.175, 3.175, 0.85, 0.85, 4.5, 45.0], ['rect2', 3.175, 3.175, 0.85, 0.85, 4.5, 45.0]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'metal grey pins'        # Body color
+  pin_color_key      : 'metal grey pins'        # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 180                                 # Rotation if required
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'http://www.te.com/usa-en/product-1-1478204-0.html'
+
+U.FL_Molex_MCRF_73412-0110_Vertical:
+  model_name: 'U.FL_Molex_MCRF_73412-0110_Vertical'  # modelName
+  W: 2.60                                      # Body width
+  L: 2.60                                      # Body length
+  H: 0.36                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.00                                     # Body cut
+  AW: 2.00                                     # Appendix width
+  AL: 0.87                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 0.36                                     # Appendix Z
+  AW1: 0.50                                    # Appendix width 1
+  AL1: 0.80                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 0.36                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['smd', 0.0, 1.325, 0.6, 0.35, 0.1], ['smd', 0.0, -1.325, 0.6, 0.35, 0.1], ['smd', -1.3, 0.0, 0.35, 1.8, 0.1], ['smd', 1.3, 0.0, 0.35, 1.8, 0.1]]
+  body_top_color_key : 'gold pins'              # Top color
+  body_color_key     : 'white body'             # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 0                                  # Rotation if required
+  rotationy: null
+  translate: null
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'http://www.molex.com/pdm_docs/sd/734120110_sd.pdf'
+
+
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount:
+  model_name: 'SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount'    # modelName
+  W: 6.35                                      # Body width
+  L: 6.35                                      # Body length
+  H: 1.50                                      # Body height
+  BX: 0.00                                     # Body center X
+  BY: 0.00                                     # Body center Y
+  BT: 0.00                                     # Body cut
+  AW: 5.50                                     # Appendix width
+  AL: 2.00                                     # Appendix length
+  AX: 0.00                                     # Appendix X
+  AY: 0.00                                     # Appendix Y
+  AZ: 1.50                                     # Appendix Z
+  AW1: 6.30                                    # Appendix width 1
+  AL1: 6.02                                    # Appendix length 1
+  AX1: 0.00                                    # Appendix X 1
+  AY1: 0.00                                    # Appendix Y 1
+  AZ1: 3.50                                    # Appendix Z 1
+  A1: 0.01                                      # Body-board separation
+  pin: [['round', 0.0, -0.05, 1.27, 1.27, 2.0], ['rect3', -2.77, -2.665, 0.81, 1.02, 3.81], ['rect3', 2.77, -2.665, 0.81, 1.02, 2.79], ['rect3', -2.77, -0.135, 0.81, 1.07, 3.81], ['rect3', 2.77, -0.135, 0.81, 1.07, 3.81]]
+  body_top_color_key : 'white body'             # Top color
+  body_color_key     : 'gold pins'              # Body color
+  pin_color_key      : 'gold pins'              # Pin color
+  npth_pin_color_key : 'metal grey pins'        # NPTH Pin color
+  rotation: 90                                  # Rotation if required
+  rotationy: 90                                 # Rotation if required
+  translate: [2.0, 0.0, 0.6]                    # translation
+  destination_dir: 'Connector_Coaxial.3dshapes' # destination directory
+  source: 'https://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf'

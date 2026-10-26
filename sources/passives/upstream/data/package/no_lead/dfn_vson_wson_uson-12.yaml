@@ -1,0 +1,241 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/No-lead
+
+default_parameters:
+  library: Package_SON
+
+##############################################################################
+# Pitch 0.4 mm
+##############################################################################
+
+Nexperia_HUSON-12_USON-12-1EP_1.35x2.5mm_P0.4mm_EP0.4x2mm:
+  size_source: 'https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf'
+  device_type: 'USON'
+  manufacturer: 'Nexperia'
+  part_number: 'HUSON-12'
+  ipc_class: 'qfn'
+  body_size_x: 1.25 .. 1.35 .. 1.45
+  body_size_y: 2.4 .. 2.5 .. 2.6
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    maximum: 0.55
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.4
+  lead_shape: square
+  lead_width: 0.15 .. 0.20 .. 0.25
+  lead_len: 0.2 .. 0.25 .. 0.3
+  lead_height:
+    nominal: 0.127
+  EP_size_x: 0.35 .. 0.40 .. 0.45
+  EP_size_y: 1.9 .. 2.0 .. 2.1
+  EP_chamfer: 0.25
+
+TDFN-12-1EP_3x3mm_P0.4mm_EP1.7x2.45mm:
+  library: Package_DFN_QFN # TEMPORARY
+# This is actually WSON / WDFN package (height = 0.75)
+  size_source: 'https://www.renesas.com/us/en/document/psc/package-drawing-tdfn-12pin-l123x3c'
+  device_type: 'TDFN'
+  suffix: ''
+  body_size_x: 3.0 +/-0.05
+  body_size_y: 3.0 +/-0.05
+  overall_height: 0.75
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.4
+  lead_width: 0.2 +/-0.05
+  lead_len: 0.4 +/-0.05
+  EP_size_x: 1.7 +/-0.1
+  EP_size_y: 2.45 +/-0.1
+  EP_num_paste_pads: [3, 4]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [3, 4]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+##############################################################################
+# Pitch 0.45 mm
+##############################################################################
+
+DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm:
+  library: Package_DFN_QFN # TEMPORARY
+# WSON / WDFN, see height
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/DFN_12_05-08-1725.pdf'
+  device_type: 'DFN'
+  body_size_x:
+    nominal: 3.0
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3.0
+    tolerance: 0.1
+  body_pcb_gap: 0.0 .. 0.05
+  overall_height:
+    nominal: 0.75
+    tolerance: 0.05
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.45
+  lead_shape: rounded
+  lead_width:
+    nominal: 0.23
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.1
+  lead_height:
+    nominal: 0.2
+  EP_size_x:
+    nominal: 1.65
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 2.38
+    tolerance: 0.1
+  EP_chamfer: 0.2
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm:
+  library: Package_DFN_QFN # TEMPORARY
+# This package is USON / UDFN actually (height = 0.57 .. 0.60 .. 0.63)
+  size_source: 'https://www.diodes.com/assets/Datasheets/PAM2306.pdf'
+  device_type: 'WDFN'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.95
+    maximum: 3.05
+  body_size_y:
+    minimum: 2.95
+    maximum: 3.05
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.45
+  lead_width_min: 0.15
+  lead_width_max: 0.25
+  lead_len_min: 0.35
+  lead_len_max: 0.45
+  EP_size_x: 1.7
+  EP_size_y: 2.5
+  EP_num_paste_pads: [2, 2]
+
+##############################################################################
+# Pitch 0.5 mm
+##############################################################################
+
+ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm:
+  library: Package_DFN_QFN # TEMPORARY
+# package is close to USON / UDFN package (see height), but minimum height is in X1 range
+  size_source: 'https://www.st.com/resource/en/datasheet/st25dv04k.pdf#page=152'
+  device_type: 'UFDFPN'
+  manufacturer: 'ST'
+  body_size_x: 2.95 .. 3.0 .. 3.1
+  body_size_y: 2.95 .. 3.0 .. 3.1
+  overall_height: 0.45 .. 0.55 .. 0.6
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.5
+  lead_width: 0.2 .. 0.25 .. 0.3
+  lead_len: 0.25 .. 0.3 .. 0.35
+  EP_size_x: 1.35 .. 1.40 .. 1.45
+  EP_size_y: 2.5 .. 2.55 .. 2.6
+
+WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/tps63710.pdf#page=33'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    maximum: 0.8
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  EP_size_x:
+    nominal: 1.5
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 2.5
+    tolerance: 0.1
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+DFN-12-1EP_3x3mm_P0.5mm_EP1.6x2.5mm:
+  library: Package_DFN_QFN # TEMPORARY
+# VSON / VDFN (height = 0.85 +/- 0.05)
+  size_source: 'https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2207-2MHz-3A-PWM-Buck-Regulator-DS20006470A.pdf#page=22'
+  device_type: 'DFN'
+  body_size_x: 3 +/-0.05
+  body_size_y: 3 +/-0.05
+  overall_height: 0.85 +/-0.05
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.5
+  lead_width: 0.23 +/-0.05
+  lead_len: 0.4 +/-0.5
+  EP_size_x: 1.7
+  EP_size_y: 2.4
+  EP_size_x_overwrite: 1.6
+  EP_size_y_overwrite: 2.5
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.3
+    EP_num_paste_pads: [2, 2]
+    paste_via_clearance: 0.1
+    paste_avoid_via: False
+
+WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62'
+  device_type: 'WSON'
+  ipc_class: 'qfn'
+  body_size_x:
+    minimum: 3.9
+    maximum: 4.1
+  body_size_y:
+    minimum: 3.9
+    maximum: 4.1
+  overall_height:
+    minimum: 0.8
+    maximum: 1
+  num_pins_x: 0
+  num_pins_y: 6
+  pitch: 0.5
+  lead_width:
+    minimum: 0.2
+    maximum: 0.3
+  lead_len:
+    minimum: 0.3
+    maximum: 0.5
+  EP_size_x:
+    nominal: 2.6
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 3
+    tolerance: 0.1
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [3, 3]
+    drill: 0.2
+    EP_paste_coverage: 0.75
+    paste_via_clearance: 0.1
+    paste_avoid_via: False

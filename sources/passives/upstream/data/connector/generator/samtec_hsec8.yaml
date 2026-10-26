@@ -1,0 +1,138 @@
+defaults:
+  library: 'Samtec_HSEC8'
+
+HSEC8-1XX-01-DV:
+  inherit: 'defaults'
+  fp_name: 'Samtec_HSEC8-1{num_pos:02d}-{fp_thickness_code}-X-DV{fp_options}'
+  fp_suffix: '_Socket'     # optional: defaults to ''
+  description: '0.8 mm Highspeed card edge card connector socket for {thickness}mm PCBs, vertical{details}'
+  parameters:
+    fp_options: ""
+    fp_thickness_code: '01'
+    details: ""
+    thickness: 1.57
+  source: 'https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf'
+  tags: 'conn samtec card-edge socket high-speed'
+  positions: [10, 13, 20, 25, 30, 37, 40, 49, 50, 60, 70, 80, 90, 100]
+  gap:
+    9: [4, 4]
+    13: [6, 4]
+    25: [6, 4]
+    37: [21, 4]
+    40: [22, 4]
+    49: [27, 4]
+    50: [27, 4]
+    60: [32, 4]
+    70: [32, 4]
+    80: [32, 4]
+    90: [32, 4]
+    100: [32, 4]
+  pad_pitch: 0.8
+  pads:
+    size:
+      x: 0.5
+      y: 1.2
+  row_pitch: 3.4
+  body_size:
+    x_offset: 2.7
+    y: 7.0
+  body_shape:
+    top:
+      polyline: [[pl - 0.7, t], [pl - 0.7, t + 0.7], [pr + 0.7, t + 0.7], [pr + 0.7, t]]
+    bottom: 'mirror'
+  first_pin:
+    body_chamfer: 1.3
+    position: 'bottom'
+    marker:
+      shape: 'circle' # shape of pin 1 marker on Silk and Fab (circle or triangle)
+      size: 0.5       # size of the pin 1 marker (default: pad_size.y)
+      offset: -0.7    # offset from the body edge (default: 0 corresponds to silk line width)
+
+HSEC8-1XX-01-DV-A:
+  inherit: 'HSEC8-1XX-01-DV'
+  fp_suffix: '_Socket_AlignmentPins'     # optional: defaults to ''
+  parameters:
+    fp_options: "-A"
+    details: ", alignment pins"
+  positions: [10, 13, 20, 25, 30, 37, 40, 49, 50, 60, 70, 80, 90, 100]
+  mount_pads:
+    align_l: # NPTH alignment pin left:
+      center:
+        x_offset: 1.5   # offset from edge-pad center
+        y: 1.5
+      drill: 1.27    # null (default) or diameter
+      size: null    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: False    # False (default) or True
+      ends: 'left'    # both (default) or [left|right]
+    align_r: # NPTH alignment pin right:
+      center:
+        x_offset: 1.5   # offset from edge-pad center
+        y: 0.0
+      drill: 1.27    # null (default) or diameter
+      size: null    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: False    # False (default) or True
+      ends: 'right'    # both (default) or [left|right]
+
+HSEC8-1XX-01-DV-A-WT:
+  inherit: 'HSEC8-1XX-01-DV-A'
+  fp_suffix: '_Socket_WeldTabs'     # optional: defaults to ''
+  parameters:
+    fp_options: "-A-WT"
+    details: ", alignment pins, weld tabs"
+  positions: [9, 10, 13, 20, 25, 30, 37, 40, 49, 50, 60, 70, 80, 90, 100]
+  body_size:
+    x_offset: 5.0
+  mount_pads:
+    weld_tabs: # PTH weld-tab pins:
+      center:
+        x_offset: 3.85   # offset from edge-pad center
+        y: 0
+      drill: 0.84    # null (default) or diameter
+      size: 2.54    # null (default) or diameter
+      shape: 'circ'   # circ (default) or rect
+      paste: True    # False (default) or True
+      ends: 'both'    # both (default) or [left|right]
+  clean_silk: True
+
+HSEC8-1XX-01-DV-A-BL:
+  inherit: 'HSEC8-1XX-01-DV-A-WT'
+  fp_suffix: '_Socket_WeldTabs_BoardLocks'     # optional: defaults to ''
+  positions: [9, 10, 13, 20, 25, 30, 37, 40, 49, 50, 60, 70, 80, 90, 100]
+  parameters:
+    fp_options: "-A-BL"
+    details: ", alignment pins, weld tabs, board locks"
+  body_size:
+    x_offset: 8.325
+  clean_silk: False
+
+HSEC8-1XX-03-DV:
+  inherit: 'HSEC8-1XX-01-DV'
+  parameters:
+    fp_thickness_code: '03'
+    thickness: 2.36
+  positions: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  row_pitch: 4.19
+  body_size:
+    y: 7.79
+
+HSEC8-1XX-03-DV-A:
+  inherit: 'HSEC8-1XX-01-DV-A'
+  parameters:
+    fp_thickness_code: '03'
+    thickness: 2.36
+  positions: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  row_pitch: 4.19
+  body_size:
+    y: 7.79
+
+HSEC8-1XX-03-DV-A-WT:
+  inherit: 'HSEC8-1XX-01-DV-A-WT'
+  parameters:
+    fp_thickness_code: '03'
+    thickness: 2.36
+  positions: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  row_pitch: 4.19
+  body_size:
+    y: 7.79

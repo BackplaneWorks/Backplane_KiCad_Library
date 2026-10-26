@@ -1,0 +1,12 @@
+*.swp
+*.pyc
+*.bak
+symbol-generators/**/*kicad_sym
+.vscode
+.venv
+
+# CI output files
+metrics.txt
+junit*.xml
+*api.token
+tmp/*

@@ -1,0 +1,567 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T17:08:54",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "holes_4layer_positive.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 64.0
+                    },
+                    "uuid": "b58f7f20-9e69-59e8-b1d3-546daf049bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 46.0
+                    },
+                    "uuid": "b005d5ad-96b3-55d5-8fb9-4c9b989e8f31"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.0,
+                        "y": 20.0
+                    },
+                    "uuid": "fc684f76-0030-58e5-80ac-075001dccce9"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 14.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ea5a42fd-0d8a-536b-ae17-93153326ee9f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.0,
+                        "y": 150.0
+                    },
+                    "uuid": "aa3fc80f-971f-5be9-b8e2-9e2271fc9354"
+                },
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.0,
+                        "y": 176.0
+                    },
+                    "uuid": "24b75d5e-91db-5882-80d5-28f80d937783"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 15.4,
+                        "y": 150.4
+                    },
+                    "uuid": "9782e165-4dc8-5729-9393-778c7e1196eb"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on B.Cu",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 118.0
+                    },
+                    "uuid": "49702cce-3185-5e50-8ec7-2fed192a2c20"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 92.0
+                    },
+                    "uuid": "1d3a1232-47ef-582d-b843-55c3852915fa"
+                },
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 116.0
+                    },
+                    "uuid": "8313c861-e454-5efb-a45b-b9ef506736de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 92.0
+                    },
+                    "uuid": "1d3a1232-47ef-582d-b843-55c3852915fa"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 98.0
+                    },
+                    "uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 46.0
+                    },
+                    "uuid": "b005d5ad-96b3-55d5-8fb9-4c9b989e8f31"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 72.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 72.0
+                    },
+                    "uuid": "333b53f8-49ee-58a9-937f-2afd913eb474"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 92.0
+                    },
+                    "uuid": "1d3a1232-47ef-582d-b843-55c3852915fa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 41.4,
+                        "y": 46.4
+                    },
+                    "uuid": "bafd755b-007f-503d-95e3-29b851b97582"
+                },
+                {
+                    "description": "Pad 1 [TEST] of  on F.Cu",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 14.0
+                    },
+                    "uuid": "312370f0-bea4-5e5d-b1db-151cd13e216a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 168.0
+                    },
+                    "uuid": "ac3281c7-f881-5385-bff0-ae6d01dd847d"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 144.0
+                    },
+                    "uuid": "89ec50a7-a11c-5346-ba52-8dffe432eb4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 144.0
+                    },
+                    "uuid": "89ec50a7-a11c-5346-ba52-8dffe432eb4d"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 124.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 144.0
+                    },
+                    "uuid": "89ec50a7-a11c-5346-ba52-8dffe432eb4d"
+                },
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 93.0,
+                        "y": 150.0
+                    },
+                    "uuid": "f8db01cc-8572-5c7d-b2da-b0b4f5a4bd5a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In2.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 98.0
+                    },
+                    "uuid": "30804f66-95ef-54a8-b067-f3fafe5ba80b"
+                },
+                {
+                    "description": "Track [TEST] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 124.0
+                    },
+                    "uuid": "62aa35b4-975d-563c-b8cb-f2612e921657"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 12.0
+                    },
+                    "uuid": "3f11207d-5f12-5e01-b9b7-0428f5ec4aab"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ffac0ff6-b88a-5448-9096-68e773eb8007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ffac0ff6-b88a-5448-9096-68e773eb8007"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 64.0
+                    },
+                    "uuid": "20bbb26a-41ae-5190-9ae0-3d09fc4f2ead"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 116.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 92.0
+                    },
+                    "uuid": "daaf5cbe-f62a-5d3f-8e51-dc893c567726"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 20.0
+                    },
+                    "uuid": "1167f4f2-e7a7-5ef6-9e53-826294eb1908"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 46.0
+                    },
+                    "uuid": "f0312cdf-c26d-59b2-adda-6d3c365f1f55"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ffac0ff6-b88a-5448-9096-68e773eb8007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 144.0
+                    },
+                    "uuid": "8fae2779-c7e0-57a5-829c-fe5268dd44ed"
+                },
+                {
+                    "description": "Zone [TEST] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 116.0
+                    },
+                    "uuid": "848ddca8-4653-5306-81df-8b6ac0723e58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 72.0
+                    },
+                    "uuid": "52eb9c4a-55d8-55cc-af21-d049c36460d9"
+                },
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 46.4
+                    },
+                    "uuid": "5adb02fd-ae9d-544f-a2a1-050e610c0539"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 98.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                },
+                {
+                    "description": "Track [TEST] on In1.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 72.0
+                    },
+                    "uuid": "52eb9c4a-55d8-55cc-af21-d049c36460d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TEST] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 98.0
+                    },
+                    "uuid": "24b0d8da-42d5-5160-a3c0-c1a3c9e3d735"
+                },
+                {
+                    "description": "PTH pad 1 [TEST] of ",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 92.0
+                    },
+                    "uuid": "daaf5cbe-f62a-5d3f-8e51-dc893c567726"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

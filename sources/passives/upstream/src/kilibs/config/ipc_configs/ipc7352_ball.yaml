@@ -1,0 +1,20 @@
+# Dimensions taken from ipc7352
+
+# Ball grid array components
+# Based on IPC-7352, Table 3-11
+ball_size_data:
+    least:
+        collapsible_ratio: -0.25
+        non_collapsible_ratio: 0.05
+        courtyard: 0.50
+        round_base: 0.01
+    nominal:
+        collapsible_ratio: -0.20
+        non_collapsible_ratio: 0.10
+        courtyard: 1.00
+        round_base: 0.01
+    most:
+        collapsible_ratio: -0.15
+        non_collapsible_ratio: 0.15
+        courtyard: 2.00
+        round_base: 0.01

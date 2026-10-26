@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#
+# Check script formatting
+
+# Set kicad.check-format to allow this hook to run
+# If not set, the hook always succeeds.
+
+do_checks=false
+
+# Check if formatting is configured
+if [ "$(git config --get kicad.pre-push-checks)" = true ]; then
+    do_checks=true
+fi
+
+if [ "$do_checks" = false ]; then
+    echo "Skipping pre-push checks as kicad.pre-push-checks is not set to 'true'."
+    exit 0
+fi
+
+set -e
+
+./manage.sh tests

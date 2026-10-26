@@ -1,0 +1,260 @@
+defaults:
+  library: 'Test'
+  clean_silk: True
+  parameters:
+    num_pos_div_10: $(num_pos // 10) # comment after eval statement is ignored
+    num_pos_mod_10: $(num_pos % 10)
+    num_pos_mod_10_string: " $(num_pos % 10) "
+    two: $(sqrt(4))
+    formatted_string: $("a=%f" % two)
+    explicit_string: $(str("10"))
+    test: [ $(1+2), $(17+4) ]
+    test2: $([ 1+2, 17+4 ])
+    test3: [ $(1+2), 17+4 ]
+
+MarkerTest:
+  inherit: 'defaults'
+  description: 'Marker test'
+  fp_name: 'marker-{num_pos:02d}-{num_pos_mod_10:03d}'
+  fp_suffix: ''     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  positions: 2
+  pad_pitch: 4.0
+  row_pitch: 3.0
+  pads:
+    size: [1.5, 2.5]
+    drill: 0.5
+  body_size:
+    x_offset: 5.0
+    y: 5.0
+  first_pin:
+    position: 'top'
+    body_chamfer: 0.5
+    marker:
+      shape: 'triangle'
+
+
+THT_Test:
+  inherit: 'defaults'
+  description: 'THT Test'
+  fp_name: 'tht-{num_pos:02d}'
+  fp_suffix: '_Test0'     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  positions: 2
+  pad_pitch: 4.0
+  row_pitch: 3.0
+  pads:
+    shape: 'oval'
+    size: [1.5, 2.5]
+    drill: 0.5
+  body_size:
+    x_offset: 5.0
+    y: 5.0
+  first_pin:
+    position: 'top'
+    body_chamfer: 0.5
+    marker:
+      shape: 'triangle'
+    pad:
+      shape: 'rect'
+      size: [1.7, 2.9]
+      drill: 1.0
+  mount_pads:
+    SMDl:
+      size: 1.0
+      center:
+        x_offset: 4.75
+        y: 1
+      ends: 'left'
+    THTr:
+      shape: 'roundrect'
+      drill: 0.5
+      size: 1.5
+      center:
+        x_offset: 4.35
+        y: 1
+      rotation: 50
+      ends: 'right'
+
+Polygon_Test0:
+  inherit: 'defaults'
+  description: 'Polygon-Offset Test'
+  fp_name: 'polygon-offset-{num_pos:02d}'
+  fp_suffix: '_Test0'     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  positions: 2
+  pad_pitch: 4.0
+  pads:
+    size: [0.75, 2.25]
+  body_size:
+    x_offset: 5.0
+    y: 5.0
+  first_pin:
+    position: 'top'
+    body_chamfer: 0.5
+    marker:
+      shape: 'triangle'
+  mount_pads:
+    SMDr1:
+      shape: 'roundrect'
+      #drill: 0.5
+      size: 1.5
+      center:
+        x_offset: 4.5
+        y: 1 #[-1, 1]
+      ends: 'right'
+    SMDl:
+      shape: #'rect' #'circ'
+      size: [1.5, 18]
+      center:
+        x_offset: 4.5
+        y: -1
+      ends: 'left'
+    SMDr:
+      shape: 'rect'
+      size: 1.5
+      center:
+        x_offset: 4.5
+        y: -1
+      ends: 'right'
+
+Polygon_Test1:
+  inherit: 'defaults'
+  description: 'Polygon-Offset Test'
+  fp_name: 'polygon-offset-{num_pos:02d}'
+  fp_suffix: '_Test_Circle'     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  positions: 5
+  pad_pitch: 1.0
+  pads:
+    size: [0.75, 2.25]
+  body_size:
+    x_offset: 5.0
+    y: 5.0
+  first_pin:
+    position: 'bottom'
+    body_chamfer: 0.5
+    marker:
+      shape: 'circle'
+      offset: -2.5
+      size: 4.5
+    pad:
+      shape: 'rect'
+      size: [0.85, 2.5]
+
+Polygon_Test:
+  inherit: 'defaults'
+  description: 'Polygon-Offset Test 3'
+  fp_name: 'polygon-offset-{num_pos:02d}'
+  fp_suffix: '_Test'     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  parameters:
+    point5: 0.5
+  positions: 5
+  pad_pitch: 1.0
+  pads:
+    size: [0.75, $(2.25 + point5)] # + $(point5) - ${point5}]
+    shape: 'rect'
+  body_size:
+    x_offset: $(10 * point5) # 5.0
+    y: $(20 * point5 - 5.0) # 5.0
+  first_pin:
+    position: 'bottom'
+    body_chamfer: 0.5
+    marker:
+      shape: 'circle'
+      offset: -2.5
+      size: 2.5
+  body_shape: # very odd shape
+    right:
+      polyline: [[r - 1, t + 1], [r, t + 1], [r - 1, t + 1.05], [r, (b - $(body_size.x_offset)/10)]]
+      #polyline: [[r - 1, t + 1], [r, t + 1], [r - 1, t + 1], [r, b-0.5]]
+    bottom:
+      polyline: [[r - 1, b - 0.5], [r - 1, b],]
+#    left:
+#      polyline: [[l, t + 1], [l + 0.5, t + 1.5], [l, t + 0.25],]
+  additional_drawings:
+    inner:
+      type: poly
+      layer: F.Fab
+      points:
+        - [l + 0.2, t + 0.2]
+        - [r - 0.2, t + 0.2]
+        - [r - 0.2, b - 0.2]
+        - [l + 0.2, b - 0.2]
+      close: True
+  mount_pads: # odd mount pad positions
+    NPTHl:
+      drill: 1.0
+      center:
+        x_offset: 4.75
+        y: 1
+      ends: 'left'
+    THTr:
+      shape: 'roundrect'
+      drill: 0.5
+      size: 1.5
+      center:
+        x_offset: 4.35
+        y: 1
+      rotation: 50
+      ends: 'right'
+    SMDl:
+      shape: 'circ'
+      size: 1.5
+      center:
+        x_offset: 4.5
+        y: -1
+      ends: 'left'
+    SMDr:
+      #shape: 'rect'
+      size: 1.5
+      center:
+        x_offset: 2
+        y: -2
+      rotation: 20
+      ends: 'right'
+    PTHt:
+      drill: 0.8
+      size: 1.5
+      center:
+        x: 0
+        y: 2.5
+      ends: 'right'
+
+AST_Test:
+  inherit: 'defaults'
+  description: 'AST test'
+  fp_name: 'ast_test-{num_pos:02d}-{mount_pad_angle:d}'
+  fp_suffix: ''     # optional: defaults to ''
+  source: '~'
+  tags: 'test'
+  parameters:
+    mount_pad_offset: 3.7
+    mount_pad_angle: 30
+    mount_pad_radians : $(radians(mount_pad_angle))
+  positions: [2, 3, 4]
+  pad_pitch: $(sqrt(4))
+  row_pitch: 0
+  pads:
+    size: [ 1.5, 2.5 ]
+  body_size:
+    x_offset: $((mount_pad_offset + mount_pads.pad_tr.size * cos(mount_pad_radians)) if (num_pos < 3) else 5.0)
+    y: $(pads.size[1] + 2 * mount_pad_offset * sin(mount_pad_radians))
+  first_pin:
+    position: 'top'
+    body_chamfer: 0.5
+    marker:
+      shape: 'triangle'
+  mount_pads:
+    pad_tr:
+      center:
+        x_offset: $(mount_pad_offset * cos(mount_pad_radians))
+        y: $(mount_pad_offset * sin(mount_pad_radians))
+      size: $(0.25 * mount_pad_offset)
+      rotation: $(mount_pad_angle)

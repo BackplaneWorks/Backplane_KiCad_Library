@@ -1,0 +1,20 @@
+default_parameters:
+  manufacturer: SXN # Shun Xiang Nuo Electric
+  library_name: Inductor_SMD
+
+series_SMDRI:
+  default_parameters:
+    # Alternate source for datasheet
+    datasheet: "https://www.sxndz.com/upload/202108/16/202108161607454319.pdf"
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - sxn
+      - smdri
+  # NOTE: CSV is formatted in the same order as the datasheet, but you need
+  # to compute a few values yourself.
+  # A,B,C,D,E,F,G+F,H
+  csv: sxn_smdri.csv

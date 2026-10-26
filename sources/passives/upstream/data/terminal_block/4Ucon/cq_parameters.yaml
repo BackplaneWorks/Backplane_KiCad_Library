@@ -1,0 +1,280 @@
+ucon_17809_02x02_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x02x1.27mm_Vertical
+  num_pins: 4
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+  include_in_qa: True
+
+ucon_17809_02x03_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x03x1.27mm_Vertical
+  num_pins: 6
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x04_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x04x1.27mm_Vertical
+  num_pins: 8
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x05_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x05x1.27mm_Vertical
+  num_pins: 10
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x06_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x06x1.27mm_Vertical
+  num_pins: 12
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x07_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x07x1.27mm_Vertical
+  num_pins: 14
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x08_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x08x1.27mm_Vertical
+  num_pins: 16
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x09_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x09x1.27mm_Vertical
+  num_pins: 18
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x10_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x10x1.27mm_Vertical
+  num_pins: 20
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x11_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x11x1.27mm_Vertical
+  num_pins: 22
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x12_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x12x1.27mm_Vertical
+  num_pins: 24
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x13_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x13x1.27mm_Vertical
+  num_pins: 26
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x14_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x14x1.27mm_Vertical
+  num_pins: 28
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x15_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x15x1.27mm_Vertical
+  num_pins: 30
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x16_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x16x1.27mm_Vertical
+  num_pins: 32
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x17_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x17x1.27mm_Vertical
+  num_pins: 34
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x18_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x18x1.27mm_Vertical
+  num_pins: 36
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x19_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x19x1.27mm_Vertical
+  num_pins: 38
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x20_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x20x1.27mm_Vertical
+  num_pins: 40
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x21_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x21x1.27mm_Vertical
+  num_pins: 42
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x22_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x22x1.27mm_Vertical
+  num_pins: 44
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x23_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x23x1.27mm_Vertical
+  num_pins: 46
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x24_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x24x1.27mm_Vertical
+  num_pins: 48
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x25_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x25x1.27mm_Vertical
+  num_pins: 50
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x26_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x26x1.27mm_Vertical
+  num_pins: 52
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x27_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x27x1.27mm_Vertical
+  num_pins: 54
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x28_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x28x1.27mm_Vertical
+  num_pins: 56
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x29_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x29x1.27mm_Vertical
+  num_pins: 58
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x30_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x30x1.27mm_Vertical
+  num_pins: 60
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x34_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x34x1.27mm_Vertical
+  num_pins: 68
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x35_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x35x1.27mm_Vertical
+  num_pins: 70
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x40_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x40x1.27mm_Vertical
+  num_pins: 80
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x50_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x50x1.27mm_Vertical
+  num_pins: 100
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x62_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x62x1.27mm_Vertical
+  num_pins: 124
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'
+
+ucon_17809_02x91_1.27mm:
+  series_name: 17809
+  file_name: 4UCON_17809_02x91x1.27mm_Vertical
+  num_pins: 182
+  pin_pitch: 1.27
+  pin_y_pitch: 2.54
+  source: 'N/A'

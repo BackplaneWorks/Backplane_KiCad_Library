@@ -1,0 +1,6 @@
+pyyaml
+future
+pycodestyle
+pytest
+typing_extensions
+asteval >= 0.9.31

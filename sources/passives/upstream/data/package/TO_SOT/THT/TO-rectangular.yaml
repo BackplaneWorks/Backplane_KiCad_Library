@@ -1,0 +1,447 @@
+TO-264-2:
+  size_source: "https://www.fairchildsemi.com/package-drawings/TO/TO264A03.pdf"
+  plastic_dimensions_xyz: [20, 26, 5]
+  metal_dimensions_xyz: [20, 0, 2]
+  number_of_pins: 2
+  pitch: 10.9
+  pad_dimensions_xy: [2.5, 4.5]
+  pad_hole_diameter: 1.5
+  mounting_hole_position: [10, 20]
+  mounting_hole_diameter_on_package: 3.3
+  mounting_hole_diameter_on_pcb: 3.3
+  pin_min_length_before_90deg_bend: 5.08    # for horizontal mount
+  pin_width_height: [1, 0.6]
+  pin_offset_z: 1.9  # plastic[2] - (2.8 + 0.3)
+  generate_footprint_type: vertical, horizontal
+
+TO-264-3:
+  inherit: TO-264-2
+  number_of_pins: 3
+  pitch: 5.45
+
+TO-264-5:
+  inherit: TO-264-2
+  size_source: "https://www.onsemi.com/pub/Collateral/NJL3281D-D.PDF"
+  number_of_pins: 5
+  pitch: 3.81
+
+
+TO-247-2:
+  size_source: "https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html"
+  plastic_dimensions_xyz: [15.9, 20.95, 5.03]
+  metal_dimensions_xyz: [0, 0, 0]
+  number_of_pins: 2
+  pitch: 10.9
+  pad_dimensions_xy: [2.5, 4.5]
+  pad_hole_diameter: 1.5
+  mounting_hole_position: [7.95, 14.78] # [plastic_dimensions_x / 2, plastic_dimensions_y - 6.17]
+  mounting_hole_diameter_on_package: 3.61
+  mounting_hole_diameter_on_pcb: 3.6
+  pin_min_length_before_90deg_bend: 5.08    # for horizontal mount
+  pin_width_height: [1.2, 0.6]
+  pin_offset_z: 2.33  # plastic_dimensions_z - (2.4 + 0.3)
+  generate_footprint_type: vertical, horizontal
+
+TO-247-3:
+  inherit: TO-247-2
+  number_of_pins: 3
+  pitch: 5.45
+
+TO-247-4:
+  inherit: TO-247-2
+  number_of_pins: 4
+  pitch_list: [5.08, 2.54, 2.54]
+  pitch: 2.54
+
+TO-247-5:
+  inherit: TO-247-2
+  size_source: "http://ww1.microchip.com/downloads/en/DeviceDoc/20005685A.pdf"
+  number_of_pins: 5
+  pitch: 2.54
+
+
+TO-218-2:
+  size_source: "https://www.vishay.com/docs/95214/fto218.pdf"
+  plastic_dimensions_xyz: [14.94, 12.19, 4.8]
+  metal_dimensions_xyz: [14.94, 19.98, 1.27]  # [plastic_dimensions_x, 12.19+7.79, 1.27]
+  number_of_pins: 2
+  pitch: 10.95
+  pad_dimensions_xy: [2.5, 3.5]
+  pad_hole_diameter: 1.5
+  mounting_hole_position: [7.47, 16.2]  # [plastic_dimensions_x / 2, 16.2]
+  mounting_hole_diameter_on_package: 4.23
+  mounting_hole_diameter_on_pcb: 4.04
+  pin_min_length_before_90deg_bend: 2.35    # for horizontal mount
+  pin_width_height: [1.15, 0.4]
+  additional_tags: ["SOT-93"]
+  pin_offset_z: 3.17
+  generate_footprint_type: vertical, horizontal
+
+TO-218-3:
+  inherit: TO-218-2
+  number_of_pins: 3
+  pitch: 5.475
+
+
+TO-251-2:
+  size_source: "https://www.diodes.com/assets/Package-Files/TO251.pdf"
+  plastic_dimensions_xyz: [6.58, 6.1, 2.3]
+  metal_dimensions_xyz: [5.34, 7, 0.5]
+  number_of_pins: 2
+  pitch: 4.58
+  pad_dimensions_xy: [1.8, 1.8]
+  pad_hole_diameter: 1.1
+  mounting_hole_position: [3.29, 2.2]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.9]
+  pin_min_length_before_90deg_bend: 2.5    # for horizontal mount
+  pin_width_height: [0.75, 0.5]
+  additional_tags: ["IPAK"]
+  pin_offset_z: 1.27
+  additional_pin_pad_size: [5.7, 6.2]  # size of additional SMD pad
+  metal_offset_x: 0.62  # (plastic_dimensions_x - metal_dimensions_x) / 2
+  generate_footprint_type: vertical, horizontal
+
+TO-251-3:
+  inherit: TO-251-2
+  number_of_pins: 3
+  pitch: 2.29
+
+
+TO-126-2:
+  size_source: "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
+  plastic_dimensions_xyz: [8, 11, 2.79]
+  metal_dimensions_xyz: [0, 0, 0]
+  number_of_pins: 2
+  pitch: 5.08
+  pad_dimensions_xy: [1.8, 1.8]
+  pad_hole_diameter: 1
+  mounting_hole_position: [4, 7.1]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.9]
+  mounting_hole_diameter_on_package: 3.2
+  mounting_hole_diameter_on_pcb: 3.2
+  pin_min_length_before_90deg_bend: 4    # for horizontal mount
+  pin_width_height: [0.75, 0.5]
+  pin_offset_z: 1.79
+  generate_footprint_type: vertical, horizontal
+
+TO-126-3:
+  inherit: TO-126-2
+  size_source: "https://www.diodes.com/assets/Package-Files/TO126.pdf"
+  plastic_dimensions_xyz: [8, 11, 3.25]
+  number_of_pins: 3
+  pitch: 2.28
+  pin_offset_z: 2
+
+
+TO-220-2:
+  size_source: "https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF"
+  plastic_dimensions_xyz: [10, 9.25, 4.4]
+  metal_dimensions_xyz: [10, 15.65, 1.27]
+  number_of_pins: 2
+  pitch: 5.08
+  pad_dimensions_xy: [2, 2]
+  pad_hole_diameter: 1.1
+  mounting_hole_position: [5, 12.85]  # [plastic_dimensions_x / 2, metal_dimensions_y - 2.8]
+  mounting_hole_diameter_on_package: 3.7
+  mounting_hole_diameter_on_pcb: 3.5
+  pin_min_length_before_90deg_bend: 3.81    # for horizontal mount
+  pin_width_height: [0.75, 0.5]
+  pin_offset_z: 3.15
+  generate_footprint_type: vertical, horizontal
+
+TO-220-3:
+  inherit: TO-220-2
+  size_source: "https://www.vishay.com/docs/66542/to-220-1.pdf"
+  number_of_pins: 3
+  pitch: 2.54
+
+TO-220-4:
+  inherit: TO-220-2
+  size_source: ""
+  number_of_pins: 4
+  pitch: 2.54
+
+TO-220-5:
+  inherit: TO-220-2
+  size_source: "http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421_straight_lead.pdf"
+  number_of_pins: 5
+  pitch: 1.7
+  additional_tags: ["Pentawatt"]
+  pad_dimensions_xy: [1.3, 1.8]
+
+TO-220-4_Staggered:
+  inherit: TO-220-4
+  device_type: "TO-220"
+  staggered_pitch: [3.7, 3.8]  # y-distance between pins
+  pin_offset_z: 4.5  # z-offset of back-pins in staggered mode
+  pin_min_length_before_90deg_bend: 2.05  # y-offset of back-pins in staggered mode
+  pad_dimensions_xy: [1.8, 1.8]  # width/height of pads
+  generate_footprint_type: vertical-odd, vertical-even, horizontal-odd, horizontal-even
+
+TO-220-5_Staggered:
+  inherit: TO-220-4_Staggered
+  size_source: "http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421.pdf?domain=www.linear.com, https://www.diodes.com/assets/Package-Files/TO220-5.pdf"
+  number_of_pins: 5
+  pitch: 1.7
+  additional_tags: ["Pentawatt"]
+  pin_min_length_before_90deg_bend: 3.33  # 2.05+1.28  # y-offset of back-pins in staggered mode
+
+TO-220-7_Staggered_Vertical:
+  inherit: TO-220-4_Staggered
+  size_source: "https://www.mouser.com/datasheet/2/389/cd00000076-1795191.pdf#page=14, https://www.jedec.org/system/files/docs/TO-220L-01.pdf"
+  number_of_pins: 7
+  pitch: 1.27  # G/2
+  additional_tags: ["Heptawatt-V", "NDZ0007B"]
+  plastic_dimensions_xyz: [10.16, 9.15, 4.8] # H2 (0.4" in JEDEC), L6-L7 = 15.5-6.35, A max, see Vertical; 'A' nominal is 165 mils / 4.20 mm in JEDEC
+  # plastic_dimensions_xyz: [10.16, (15.1+15.8)/2-(6+6.6)/2, 4.8] # H2 max, L6-L7, A, see Horizontal
+  metal_dimensions_xyz: [10.16, 15.5, 1.37] # H2 max, L6, C max, see Vertical
+  # metal_dimensions_xyz: [  plastic[0], (15.1+15.8)/2, 1.37] # H2 max, L6, C max, see Horizontal
+  mounting_hole_position: [5.08, 12.7]  # [plastic_dimensions_x / 2, metal_dimensions_y - (2.6+3)/2]
+  mounting_hole_diameter_on_package: 3.75  # (3.65+3.85)/2
+  pin_width_height: [0.7, 0.45]  # [(0.6+0.8)/2, (0.35+0.55)/2]  # F, E
+  staggered_pitch: [5.08, 5.10]  # M1 in Heptawatt V, L3 in Heptawatt H
+  pin_offset_z: 2.8  # dimension: M in Heptawatt V
+  pin_min_length_before_90deg_bend: 2.925  # 15.8-((15.1+15.8)/2-(2.6+3)/2)-((0.35+0.55)/2)/2 --> L2-(L6-L5)-E/2 in Heptawatt H, will be used only in Horizontal footprints
+  # pin_min_length_before_90deg_bend: 5.975  # 18.4-((15.1+15.8)/2-(2.6+3)/2)-((0.35+0.55)/2)/2 if using this source: https://www.st.com/resource/en/datasheet/cd00000208.pdf#page=12
+  generate_footprint_type: vertical-odd
+
+TO-220-7_Staggered_Horizontal:
+  inherit: TO-220-7_Staggered_Vertical
+  additional_tags: ["Heptawatt-H"]
+  generate_footprint_type: horizontal-odd
+
+TO-220-9_Staggered:
+  inherit: TO-220-4_Staggered
+  size_source: ""
+  number_of_pins: 9
+  pitch: 0.97
+  pin_width_height: [0.5, 0.38]
+  pad_hole_diameter: 0.7
+  pad_dimensions_xy: [1.5, 1.5]
+
+TO-220-9_P1.93x5.08mm_StaggerOdd_Lead3.378mm_Vertical: # 'Lead3.378mm' --> it's the distance between plastic front and the staggered pins (it's calculated in the script)
+# TO-220-2 probably need some fixes, so we are not inheriting here
+# converting values from controling dimension in inch, using 3 decimal
+  device_type: "TO-220"
+  size_source: "Texas Instruments NEC0009A, https://www.ti.com/lit/ml/mpsf023/mpsf023.pdf?ts=1736330780857"
+  additional_tags: [ "Texas_NEC0009A", "Texas_TA09A-(Rev-C)" ]
+  plastic_dimensions_xyz: [ 10.16, 8.687, 4.572 ]  # [ 0.400", 0.342", 0.180" ]
+  metal_dimensions_xyz: [ 10.16, 14.986, 1.27 ]    # [ 0.400", 0.248" + 0.342", 0.050" ]
+  mounting_hole_position: [ 5.08, null ]           # [ metal_dimensions_x / 2, don't matter ]
+  mounting_hole_diameter_on_package: 3.835         # 0.151"
+  number_of_pins: 9
+  pitch: 0.965                       # .038", it will result in pitch 1.93mm between pins in the same row
+  staggered_pitch: [ 5.08, null ]    # there's no horizontal staggered_pitch in this package
+  pin_offset_z: 2.87                 # z-offset of back-pins in staggered mode
+  pin_width_height: [ 0.508, 0.381 ] # [0.020", 0.015"]
+  pad_hole_diameter: 0.85            # IPC level B --> pin_diagonal + 0.20mm = sqrt(0.508^2 + 0.381^2) + 0.20mm = 0.835mm --> 0.85mm drill size
+  pad_dimensions_xy: [ 1.50, 1.50 ]  # width/height of pads
+  generate_footprint_type: vertical-odd
+
+TO-220-11_Staggered:
+  inherit: TO-220-4_Staggered
+  size_source: "http://www.st.com/resource/en/datasheet/tda7391lv.pdf"
+  number_of_pins: 11
+  pitch: 1.7
+  pin_width_height: [0.7, 0.5]
+  additional_tags: ["Multiwatt-11"]
+  plastic_dimensions_xyz: [20.2, 10.7, 5]
+  metal_dimensions_xyz: [20.2, 17.5, 1.6]
+  metal_angled: [2.25, 2.25]
+  pad_hole_diameter: 1
+  mounting_hole_position: [10.1, 14.7]  # [  plastic[0] / 2, 17.5-2.8]
+  mounting_hole_diameter_on_package: 3.7
+  mounting_hole_diameter_on_pcb: 3.5
+  pin_width_height: [1, 0.6]
+  staggered_pitch: [5.08, 2.54]  # y-distance between pins
+  pin_offset_z: 4.5  # z-offset of back-pins in staggered mode
+  pin_min_length_before_90deg_bend: 3.3  # y-offset of back-pins in staggered mode
+  pad_dimensions_xy: [1.8, 1.8]  # width/height of pads
+
+TO-220-15_Staggered:
+  inherit: TO-220-11_Staggered
+  additional_tags: ["Multiwatt-15"]
+  size_source: "http://www.st.com/resource/en/datasheet/l298.pdf"
+  number_of_pins: 15
+  pitch: 1.27
+
+
+TO-3P-3:
+  size_source: "https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.TO-3P(N).html"
+  plastic_dimensions_xyz: [15.5, 19.3, 4.5]
+  metal_dimensions_xyz: [15.5, 20, 1.5]
+  number_of_pins: 3
+  pitch: 5.45
+  pad_dimensions_xy: [2.5, 4.5]
+  pad_hole_diameter: 1.5
+  mounting_hole_position: [7.75, 15.8]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.5]
+  mounting_hole_diameter_on_package: 3.2
+  mounting_hole_diameter_on_pcb: 3.4
+  pin_min_length_before_90deg_bend: 3.0    # for horizontal mount
+  pin_width_height: [1.0, 0.6]
+  pin_offset_z: 3.0
+  metal_angled: [1.15, 2]
+  plastic_angled: [2.19, 3.5]
+  generate_footprint_type: vertical, horizontal
+
+
+TO-262-3:
+  size_source: "http://www.onsemi.com/pub/Collateral/EN8586-D.PDF"
+  plastic_dimensions_xyz: [10, 9.2, 4.5]
+  metal_dimensions_xyz: [10, 10.4, 1.3]
+  number_of_pins: 3
+  pitch: 2.54
+  pad_dimensions_xy: [2, 2]
+  pad_hole_diameter: 1.1
+  mounting_hole_position: [5, 5.3]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.9]
+  pin_min_length_before_90deg_bend: 3.25    # for horizontal mount
+  pin_width_height: [0.8, 0.5]
+  pin_offset_z: 2.65
+  additional_pin_pad_size: [10, 8]
+  metal_offset_x: 0  # (plastic_dimensions_x - metal_dimensions_x) / 2
+  additional_tags: ["IIPAK", "I2PAK"]
+  generate_footprint_type: vertical, horizontal
+
+TO-262-5:
+  inherit: TO-262-3
+  size_source: "http://pdf.datasheetcatalog.com/datasheet/irf/iris4011.pdf"
+  number_of_pins: 5
+  pitch: 1.7
+
+
+SIPAK:
+  size_source: ""
+  plastic_dimensions_xyz: [6.6, 6.4, 2.3]
+  metal_dimensions_xyz: [5.33, 7.12, 0.4]
+  number_of_pins: 3
+  pitch: 2.286
+  pad_dimensions_xy: [1.8, 1.8]
+  pad_hole_diameter: 1.1
+  mounting_hole_position: [3.3, 2.5]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.9]
+  pin_min_length_before_90deg_bend: 1.02    # for horizontal mount
+  pin_width_height: [0.9, 0.5]
+  pin_offset_z: 1.42
+  additional_pin_pad_size: [5.5, 6.2]
+  metal_offset_x: 0.635  # (plastic_dimensions_x - metal_dimensions_x) / 2
+  generate_footprint_type: vertical, horizontal
+
+
+TO-3PB-3:
+  size_source: "http://www.onsemi.com/pub/Collateral/340AC.PDF"
+  plastic_dimensions_xyz: [15.6, 18.5, 4.8]
+  metal_dimensions_xyz: [15.6, 20, 2]
+  number_of_pins: 3
+  pitch: 5.45
+  pad_dimensions_xy: [2.5, 4.5]
+  pad_hole_diameter: 1.5
+  mounting_hole_position: [7.8, 15]  # [plastic_dimensions_x / 2, plastic_dimensions_y - 3.5]
+  mounting_hole_diameter_on_package: 3.2
+  mounting_hole_diameter_on_pcb: 3.4
+  pin_min_length_before_90deg_bend: 1.6    # for horizontal mount
+  pin_width_height: [1.0, 0.6]
+  metal_angled: [1.3, 2.3]
+  plastic_angled: [2.7, 4.7]
+  pin_offset_z: 1.7
+  generate_footprint_type: vertical, horizontal
+
+
+TO-220F-2:
+  size_source: "http://www.onsemi.com/pub/Collateral/FFPF10F150S-D.pdf"
+  plastic_dimensions_xyz: [10.26, 9.19, 4.7]  # [10.26, 15.87-6.68, 4.7]
+  metal_dimensions_xyz: [10.26, 15.87, 2.52]
+  number_of_pins: 2
+  pitch: 5.08
+  pad_dimensions_xy: [2, 2]
+  pad_hole_diameter: 1.2
+  mounting_hole_position: [5.13, 12.57]  # [plastic_dimensions_x / 2, metal_dimensions_y - 3.3]
+  mounting_hole_diameter_on_package: 3.7
+  mounting_hole_diameter_on_pcb: 3.5
+  pin_min_length_before_90deg_bend: 3.23    # for horizontal mount
+  pin_width_height: [0.6, 0.7]
+  pin_offset_z: 3.0475  # 2.76+0.575/2
+  generate_footprint_type: vertical, horizontal
+
+TO-220F-3:
+  inherit: TO-220F-2
+  size_source: "http://www.st.com/resource/en/datasheet/stp20nm60.pdf"
+  number_of_pins: 3
+  pitch: 2.54
+
+TO-220F-4:
+  inherit: TO-220F-2
+  size_source: "https://www.njr.com/semicon/PDF/package/TO-220F-4_E.pdf"
+  number_of_pins: 4
+  pitch: 2.54
+
+TO-220F-5:
+  inherit: TO-220F-2
+  size_source: ""
+  number_of_pins: 5
+  pitch: 1.7
+  additional_tags: ["PentawattF"]
+  pad_dimensions_xy: [1.3, 1.8]
+
+TO-220F-4_Staggered_Py3.7mm:
+  inherit: TO-220F-4
+  device_type: "TO-220F"
+  staggered_pitch: [3.7, 3.8]  # y-distance between pins
+  pin_offset_z: 4.5  # z-offset of back-pins in staggered mode
+  pin_min_length_before_90deg_bend: 2.05  # y-offset of back-pins in staggered mode
+  pad_dimensions_xy: [1.8, 1.8]  # width/height of pads
+  generate_footprint_type: vertical-odd, vertical-even
+
+TO-220F-4_Staggered_Py2.05mm:
+  inherit: TO-220F-4_Staggered_Py3.7mm
+  staggered_pitch: [2.05, 2.05]
+
+TO-220F-5_Staggered_Py3.7mm:
+  inherit: TO-220F-4_Staggered_Py3.7mm
+  size_source: ""
+  number_of_pins: 5
+  pitch: 1.7
+  additional_tags: ["PentawattF"]
+  pin_min_length_before_90deg_bend: 3.33  # 2.05+1.28
+
+TO-220F-5_Staggered_Py2.06mm:
+  inherit: TO-220F-5_Staggered_Py3.7mm
+  staggered_pitch: [2.06, 2.06]
+
+TO-220F-7_Staggered:
+  inherit: TO-220F-4_Staggered_Py3.7mm
+  size_source: ""
+  number_of_pins: 7
+  pitch: 1.27
+  generate_footprint_type: vertical-odd, vertical-even
+
+TO-220F-9_Staggered:
+  inherit: TO-220F-4_Staggered_Py3.7mm
+  size_source: ""
+  number_of_pins: 9
+  pitch: 0.9
+  pin_width_height: [0.5, 0.38]
+  pad_hole_diameter: 0.7
+  pad_dimensions_xy: [1.5, 1.5]  # width/height of pads
+
+TO-220F-11_Staggered:
+  inherit: TO-220F-4_Staggered_Py3.7mm
+  size_source: "http://www.ti.com/lit/ds/symlink/lm3886.pdf"
+  number_of_pins: 11
+  pitch: 1.7
+  plastic_dimensions_xyz: [20.02, 10.64, 4.5]
+  metal_dimensions_xyz: [20.02, 19.58, 3.3]
+  metal_angled: [2.84, 2.84]
+  pad_hole_diameter: 1
+  mounting_hole_position: [10.01, 14.7]  # [plastic[0] / 2, 17.5-2.8]
+  mounting_hole_diameter_on_package: 3.7
+  mounting_hole_diameter_on_pcb: 3.5
+  pin_width_height: [0.7, 0.5]
+  staggered_pitch: [5.08, 2.54]
+  pin_offset_z: 4.5
+  pin_min_length_before_90deg_bend: 3.3
+  pad_dimensions_xy: [1.8, 1.8]
+  additional_tags: ["MultiwattF-11"]
+
+TO-220F-15_Staggered:
+  inherit: TO-220F-11_Staggered
+  size_source: ""
+  number_of_pins: 15
+  pitch: 1.27
+  additional_tags: ["MultiwattF-15"]

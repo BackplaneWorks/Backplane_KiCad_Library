@@ -1,0 +1,39 @@
+default_parameters:
+  manufacturer: Sunlord
+  library_name: Inductor_SMD
+
+series_SWPA:
+  default_parameters:
+    datasheet: "https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf"
+    3d:
+      type: 1
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+    tags:
+      - swpa
+  csv: sunlord_swpa.csv
+
+series_MWSA-S:
+  default_parameters:
+    datasheet: "https://sunlordinc.com/Download.aspx?file=L1VwbG9hZEZpbGVzL1BERl9DYXQvMjAyMjExMTUxNDQ4MDU0NTQucGRm&lan=en"
+    3d:
+      type: 2
+      bodyColor: black body
+      pinColor: metal grey pins
+    tags:
+      - mwsa
+  csv: sunlord_mwsa.csv
+
+series_SWRB-S:
+  default_parameters:
+    datasheet: "https://www.sunlordinc.com/Download.aspx?file=L1VwbG9hZEZpbGVzL1BERl9DYXQvMjAyMTA2MTAxMTMyMzc4MTEucGRm&lan=en"
+    3d:
+      type: 1
+      bodyColor: black body
+      pinColor: metal grey pins
+      padThickness: 0.05
+      cornerRadius: 2
+    tags:
+      - swrb
+  csv: sunlord_swrb.csv

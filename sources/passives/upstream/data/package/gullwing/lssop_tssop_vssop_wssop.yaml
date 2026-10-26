@@ -1,0 +1,2919 @@
+# Documentation: https://gitlab.com/groups/kicad/libraries/-/wikis/Footprint-Generators/Gullwing
+
+# SSOP subgroup (shrink small outline package)
+#
+# This file cointains JEDEC SSOP and JEITA/EIAJ P-SSOP packages with lead space / pitch equal or less than 1.00 mm,
+# and maximum height SMALLER than 1.70 mm
+#
+# classification according to JEITA EDR-7314A (height A2 does not include the leads):
+#
+#         height A (max)   A2 (nominal)    meaning
+# LSSOP |    1.70 mm    |    1.40 mm    |  Low SSOP
+# TSSOP |    1.20 mm    |    1.00 mm    |  Thin SSOP
+# VSSOP |    1.00 mm    |    0.80 mm    |  Very Thin SSOP
+# WSSOP |    0.80 mm    |    0.60 mm    |  Very Very Thin SSOP
+#
+# Packages with heat sink will have the letter 'H', such as HTSSOP (thermally enhanced variation of TSSOP).
+#
+# Relevant JEDEC / JEITA standards:
+#
+# Standard               | package(s)
+# JEDEC MO-272           | LSSOP
+# JEDEC MO-153, MO-194   | TSSOP / HTSSOP
+# JEDEC MO-187           | LSSOP / VSSOP / TSSOP, some manufacturers call packages from this standard as MSOP (3x3mm packages)
+# JEITA ED-7311-20       | LSSOP / TSSOP / VSSOP, with SSOP definitions included as well
+# JEITA ED-7311-21       | some HTSSOP / HVSSOP (packages with top / bottom heat sink), it overlaps HSSOP and HSOP
+#
+# Others: JEDEC MO-351
+#
+##############################################################################
+#
+# JEDEC TSSOP and HTSSOP has:
+# - lead space / pitch 0.40 / 0.50 / 0.635 / 0.65 mm
+# - width 2.80 / 4.40 / 6.10 / 8.00
+# - height equal or smaller than 1.20 mm
+
+default_parameters:
+  device_type: 'TSSOP'
+  library_Suffix: 'SO'
+
+##############################################################################
+# 0.40 PITCH
+# BODY WIDTH (E1) = 4.40 NOM
+##############################################################################
+
+TSSOP-14_4.4x3.6mm_P0.4mm:
+  size_source: 'JEDEC MO-194 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-194'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 3.6 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 7
+
+TSSOP-16_4.4x3.6mm_P0.4mm:
+  size_source: 'JEDEC MO-194 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-194'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 3.6 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 8
+
+TSSOP-20_4.4x5mm_P0.4mm:
+  size_source: 'JEDEC MO-194 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-194'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 5.0 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 10
+
+TSSOP-24_4.4x5mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var CA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 5.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSSOP-32_4.4x6.5mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var CB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 6.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSSOP-36_4.4x7.8mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var CC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-48_4.4x9.7mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var CD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSSOP-56_4.4x11.3mm_P0.4mm:
+  size_source: 'JEDEC MO-194 Var AF https://www.jedec.org/document_search?search_api_views_fulltext=MO-194'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 11.3 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 6.4
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 28
+
+##############################################################################
+# 0.40 PITCH
+# BODY WIDTH (E1) = 6.10 NOM
+##############################################################################
+
+TSSOP-36_6.1x7.8mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-48_6.1x9.7mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSSOP-52_6.1x11mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 26
+
+TSSOP-56_6.1x12.5mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 28
+
+TSSOP-64_6.1x14mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 32
+
+TSSOP-80_6.1x17mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var FF https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 17.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 40
+
+TSSOP-100_6.1x20.8mm_P0.4mm:
+  size_source: 'JEDEC MO-194 Var BB https://www.jedec.org/document_search?search_api_views_fulltext=MO-194'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 20.8 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 8.1
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 50
+
+##############################################################################
+# 0.40 PITCH
+# BODY WIDTH (E1) = 8.00 NOM
+##############################################################################
+
+TSSOP-48_8x9.7mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSSOP-52_8x11mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 26
+
+TSSOP-56_8x12.5mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 28
+
+TSSOP-60_8x12.5mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JC-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 30
+
+TSSOP-64_8x14mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 32
+
+TSSOP-68_8x14mm_P0.4mm:
+  size_source: 'JEDEC MO-153 Var JD-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.13 .. 0.23
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.4
+  num_pins_x: 0
+  num_pins_y: 34
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 2.30 NOM
+##############################################################################
+
+VSSOP-8_2.3x2mm_P0.5:
+# it was previously in vssop.yaml file, height A = 1.00mm max (from JEDEC)
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-187-f'
+  compatible_mpns:
+    - JEDEC-MO-187-CA
+    - Texas_DCU0008A # https://www.ti.com/lit/ml/mpds050e/mpds050e.pdf, height 0.9mm max here
+  device_type: 'VSSOP'
+  body_size_x: 2.3 +/- 0.2 # Tolerance aaa = 0.2 applies to each side separately
+  body_size_y: 2.0 +/- 0.2 # Tolerance aaa = 0.2 applies to each side separately
+  overall_size_x: 3.1 +/- 0.25 # Tolerance bbb = 0.25 applies to each side separately
+  lead_width: 0.17 .. 0.33 # TI DCU min is 0.17 .. 0.25
+  lead_len: 0.15 .. 0.28 .. 0.40 # TI DCU is 0.2 .. 0.35
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 4
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 3.00 NOM
+##############################################################################
+
+MSOP-10_3x3mm_P0.5mm:
+# JEDEC MO-187F
+# it could be called 'MO187BA_TSSOP-10', 'MSOP' seems to be vendor-driven marketing/industry term
+# it was previously in msop.yaml file, height A = 1.10 mm maximum
+  size_source: 'JEDEC MO-187 variation BA, 0.85mm body thickness, https://www.jedec.org/system/files/docs/mo-187F.pdf'
+  compatible_mpns:
+    - 'TSSOP-10_3x3mm_P0.5mm'
+  device_type: 'MSOP'
+  # force_small_pitch_ipc_definition: True # disabled, no change if True
+  body_size_x: 3.00 # value "E1", JEDEC is 'BSC', no tolerances
+  body_size_y: 3.00 # value "D"
+  body_height: 0.75 .. 0.85 .. 0.95
+  body_pcb_gap: 0.00 .. 0.15
+  overall_size_x: 4.90 # value "E"
+  lead_width: 0.17.. 0.33 # value "b"
+  lead_len: 0.40 .. 0.60 .. 0.80 # value "L"
+  lead_height: 0.08 .. 0.23
+  pitch: 0.5 # value "e"
+  num_pins_x: 0
+  num_pins_y: 5
+
+TSSOP-10_3x3mm_P0.5mm:
+# similar to JEDEC MO-187, variation BA, but Texas / NXP sizes and tolerances
+# both Texas and NXP dimensions generates the same IPC footprint! See: https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/merge_requests/2011
+  size_source: 'https://www.ti.com/lit/ml/mpds035c/mpds035c.pdf, https://www.ti.com/lit/ds/symlink/ads1115.pdf#page=50, https://www.nxp.com/docs/en/package-information/SOT552-1.pdf'
+  compatible_mpns:
+    - 'Texas_DGS0010A Texas_VSSOP-10'
+    - 'NXP_SOT552-1'
+    - 'MSOP-10_3x3mm_P0.5mm' # vendor-driven term
+    - 'VSSOP-10_3x3mm_P0.5mm' # Old but compatible name for this package
+  device_type: 'TSSOP'
+  body_size_x:
+    minimum: 2.90
+    maximum: 3.10
+  body_size_y:
+    minimum: 2.90
+    maximum: 3.10
+  overall_height: 1.1  # maximum
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_y:
+    minimum: 4.75
+    maximum: 5.05
+  # Size HACK to generate texas recommended footprint, see
+  # https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/merge_requests/2011
+  # Hack sizes commented, this generates a Texas recommended footprint (see land-pattern example page):
+  #overall_size_y:
+    #minimum: 4.85 #Datasheet value is 4.75 and 5.05 but this generate a 4.3 pin separation --> HACK
+    #maximum: 5.15 #by adding 0.1 in both pin separation is correct.
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  lead_height: 0.13 .. 0.23
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 5
+
+HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm:
+# this is HTSSOP actually, it was previously in hvssop.yaml file
+  size_source: 'https://www.ti.com/lit/ds/symlink/bq24090.pdf'
+  compatible_mpns:
+    - JEDEC-MO-187_BA-T
+    - Texas_DGQ0010D
+  device_type: 'HVSSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.100
+  body_size_y:
+    nominal: 3
+    tolerance: 0.100
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.75
+    maximum: 5.05
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 5
+  EP_size_x:
+    nominal: 1.83
+  EP_size_y:
+    nominal: 1.89
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    paste_avoid_via: False
+    EP_num_paste_pads: [2, 2]
+
+MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18'
+  device_type: 'MSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 3
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.1
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 5
+  EP_size_x:
+    nominal: 1.68
+    tolerance: 0
+  EP_size_y:
+    nominal: 1.88
+    tolerance: 0
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1.1, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+MSOP-10-1EP_3x3mm_P0.5mm_EP1.73x1.98mm:
+# it was previously in msop.yaml file
+  size_source: 'www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en#page=10'
+  device_type: 'MSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  overall_height:
+  # calculated using toleranced size class
+  # (0.86 +/- 0.05) + (0.05 ... 0.15)
+  # min_rms: 0.8892893218813452, max_rms: 1.0307106781186548
+    minimum: 0.89
+    maximum: 1.03
+  overall_size_x:
+    nominal: 4.88
+    tolerance: 0.2
+  lead_width:
+    minimum: 0.18
+    maximum: 0.27
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.1
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 5
+  EP_size_x:
+    nominal: 1.73
+    tolerance: 0
+  EP_size_y:
+    nominal: 1.98
+    tolerance: 0
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1, 1.2]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+MSOP-10-1EP_3x3mm_P0.5mm_EP2.2x3.1mm_Mask1.83x1.89mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.ti.com/lit/ds/symlink/xtr111.pdf#page=27'
+  device_type: 'MSOP'
+  body_size_x:
+    minimum: 2.9
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    maximum: 3.1
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.75
+    maximum: 5.05
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 5
+  EP_size_x:
+    nominal: 2.2
+    tolerance: 0
+  EP_size_y:
+    nominal: 3.1
+    tolerance: 0
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x:
+    nominal: 1.83
+    tolerance: 0
+  EP_mask_y:
+    nominal: 1.89
+    tolerance: 0
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    grid: [1.3, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+
+MSOP-16_3x4.039mm_P0.5mm:
+# it was previously in msop.yaml file
+  size_source: 'http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081669_A_MS16.pdf'
+  device_type: 'MSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 4.039
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.10
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 8
+
+Analog_MSOP-12-16_3x4.039mm_P0.5mm:
+# it was previously in msop.yaml file
+  inherit: MSOP-16_3x4.039mm_P0.5mm
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081847_b_ms16(12).pdf'
+  additional_tags:
+    - 'Linear-Technology'
+  compatible_mpns:
+    - 'MS16-(12)'
+  manufacturer: Analog
+  hidden_pins: [2, 4, 13, 15]
+  pad_to_pad_min_x_overwrite: 3.322 # 5.10 - 2*0.889
+  pad_to_pad_max_x_overwrite: 5.10
+  pad_size_y_overwrite: 0.305
+
+MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf'
+  device_type: 'MSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 4.039
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.10
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x:
+    nominal: 1.651
+    tolerance: 0.102
+  EP_size_y:
+    nominal: 2.845
+    tolerance: 0.102
+  EP_num_paste_pads: [2, 2]
+  EP_paste_coverage: 0.7
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.25
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+
+Analog_MSOP-12-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm:
+# it was previously in msop.yaml file
+  inherit: MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081871_d_mse16(12).pdf https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf'
+  additional_tags:
+    - 'Linear-Technology'
+  compatible_mpns:
+    - 'MSE16-(12)'
+  manufacturer: Analog
+  hidden_pins: [2, 4, 13, 15]
+  pad_to_pad_min_x_overwrite: 3.322 # 5.10 - 2*0.889
+  pad_to_pad_max_x_overwrite: 5.10
+  pad_size_y_overwrite: 0.305
+
+Texas_DGS0020A_VSSOP-20_3.0x5.1mm_P0.50mm:
+  size_source: 'https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf'
+  manufacturer: 'Texas'
+  part_number: 'DGS0020A'
+  body_size_x:
+    minimum: 2.90
+    maximum: 3.10
+  body_size_y:
+    minimum: 5.00
+    maximum: 5.20
+  overall_size_x:
+    minimum: 4.70
+    maximum: 5.10
+  lead_width:
+    minimum: 0.165
+    maximum: 0.275
+  lead_len:
+    minimum: 0.40
+    maximum: 0.70
+  pitch: 0.50
+  num_pins_x: 0
+  num_pins_y: 10
+  pad_to_pad_min_x_overwrite: 2.95
+  pad_to_pad_max_x_overwrite: 5.85
+  pad_size_y_overwrite: 0.30
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 3.90 NOM
+##############################################################################
+
+PowerSSO-16-1EP_3.9x4.9mm_P0.5mm_EP2.5x3.61mm:
+# This is LSSOP package, it was previously in powersso.yaml file
+# Similar to JEDEC MO-272, variation DA (but custom Exposed Pad)
+  size_source: 'https://www.st.com/resource/en/datasheet/vnd7020aj.pdf' # page 39
+  device_type: 'PowerSSO'
+  body_size_x: 3.9
+  body_size_y: 4.9
+  body_height: 1.1 .. 1.6
+  overall_height:
+    maximum: 1.70
+  body_pcb_gap: 0.0 .. 0.10
+  overall_size_x: 6.0
+  lead_width: 0.20 .. 0.30
+  lead_len: 0.40 .. 0.60 .. 0.85
+  lead_height: 0.19 .. 0.25
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x:
+    minimum: 2.20
+    nominal: 2.50 # JEDEC is 2.00 .. 3.00mm
+  EP_size_y:
+    minimum: 3.31
+    nominal: 3.61 # JEDEC is 3.00 .. 4.00mm
+  thermal_vias:
+    count: [2, 4]
+    drill: 0.3
+    grid: [1.2, 1.2]
+    paste_avoid_via: False
+    EP_num_paste_pads: [1, 1]
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 4.40 NOM
+##############################################################################
+
+TSSOP-20_4.4x5mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 5.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 10
+
+TSSOP-24_4.4x6.5mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 6.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSSOP-28_4.4x7.8mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 14
+
+TSSOP-30_4.4x7.8mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BC-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 15
+
+TSSOP-36_4.4x9.7mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-38_4.4x9.7mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 19
+
+HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP1.5x3.3mm:
+# It was previously in httsop.yaml
+  size_source: 'JEDEC MO-153 Var BDT-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'HTSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 19
+  EP_size_x:
+    nominal: 1.50
+  EP_size_y:
+    nominal: 3.30
+  EP_num_paste_pads: [1, 2]
+  thermal_vias:
+    count: [2, 4]
+    drill: 0.2
+    grid: [0.9, 0.9]
+    paste_avoid_via: false
+    EP_num_paste_pads: [1, 3]
+
+HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP2.74x4.75mm:
+# It was previously in httsop.yaml
+  inherit: 'HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP1.5x3.3mm'
+  size_source: 'JEDEC MO-153 Var BDT-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153 https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-tssop/tssop_38_05-08-1865.pdf'
+  device_type: 'HTSSOP'
+  body_height: 1.0 +0.05 -0.2
+  body_pcb_gap: 0.05 .. 0.15
+  lead_height: 0.09 .. 0.20
+  EP_size_x:
+    nominal: 2.74
+  EP_size_y:
+    nominal: 4.75
+  EP_num_paste_pads: [2, 3]
+  thermal_vias:
+    count: [3, 5]
+    EP_num_paste_pads: [2, 3]
+
+Linear_HTSSOP-31-38-1EP_4.4x9.7mm_P0.5mm_EP2.74x4.75mm:
+# It was previously in httsop.yaml
+  inherit: 'HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP1.5x3.3mm'
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-tssop/tssop_38_05-08-1865.pdf'
+  compatible_mpns:
+    - 'FE38-(31)'
+  device_type: 'HTSSOP'
+  manufacturer: 'Linear'
+  lead_len: 0.50 .. 0.75
+  hidden_pins: [23, 25, 27, 29, 31, 33, 35]
+  EP_size_x:
+    nominal: 2.74
+  EP_size_y:
+    nominal: 4.75
+  EP_num_paste_pads: [2, 3]
+  thermal_vias:
+    count: [3, 5]
+    EP_num_paste_pads: [2, 3]
+  pad_to_pad_min_x_overwrite: 4.50
+  pad_to_pad_max_x_overwrite: 6.60
+  pad_size_y_overwrite: 0.315
+
+HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP3.05x6.65mm:
+# It was previously in httsop.yaml
+  inherit: 'HTSSOP-38-1EP_4.4x9.7mm_P0.5mm_EP1.5x3.3mm'
+  size_source: 'JEDEC MO-153 variation BDT-1 (with exposed pad size from Maxim / Analog Devices), https://www.jedec.org/document_search?search_api_views_fulltext=MO-153, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tssop-exp/21-0714.pdf'
+  compatible_mpns:
+    - 'U38E-3C' # Maxim Integrated / Analog Devices
+  device_type: 'HTSSOP'
+  EP_size_x: 2.80 .. 3.05 .. 3.15
+  EP_size_y: 6.40 .. 6.65 .. 6.75
+  EP_num_paste_pads: [2, 4]
+  thermal_vias:
+    count: [3, 7]
+    EP_num_paste_pads: [2, 4]
+
+TSSOP-44_4.4x11mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 22
+
+TSSOP-50_4.4x12.5mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var BF https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 25
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 6.10 NOM
+##############################################################################
+
+TSSOP-28_6.1x7.8mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 14
+
+TSSOP-36_6.1x9.7mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-40_6.1x11mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSSOP-44_6.1x11mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EC-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 22
+
+TSSOP-48_6.1x12.5mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var ED https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSSOP-56_6.1x14mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 28
+
+TSSOP-64_6.1x17mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var EF https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 17.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.27
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 32
+
+##############################################################################
+# 0.50 PITCH
+# BODY WIDTH (E1) = 8.00 NOM
+##############################################################################
+
+TSSOP-36_8x9.7mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var HA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-40_8x11mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var HB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 20
+
+TSSOP-48_8x12.5mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var HC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 24
+
+TSSOP-56_8x14mm_P0.5mm:
+  size_source: 'JEDEC MO-153 Var HD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 28
+
+##############################################################################
+# 0.635 PITCH
+# BODY WIDTH (E1) = 6.10 NOM
+##############################################################################
+
+HTSSOP-44_6.1x14mm_P0.635mm_TopEP4.14x7.01mm:
+# It was previously in httsop.yaml (HTSSOP-44_6.1x14mm_P0.5mm_TopEP4.14x7.01mm, typo in name)
+  size_source: 'http://www.ti.com/lit/ds/symlink/tpa3251.pdf#page=38'
+  compatible_mpns:
+    - Texas_DDV0044D
+  custom_name_format: 'HTSSOP-{pincount}_{size_x:g}x{size_y:g}mm_P{pitch}mm_TopEP4.14x7.01mm'
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 6.0
+    maximum: 6.2
+  body_size_y:
+    minimum: 13.9
+    maximum: 14.1
+  overall_height: 1.0 .. 1.2
+  overall_size_y:
+    minimum: 7.9
+    maximum: 8.3
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.635
+  num_pins_x: 0
+  num_pins_y: 22
+
+HTSSOP-44-1EP_6.1x14mm_P0.635mm_EP5.2x14mm_Mask4.31x8.26mm:
+# It was previously in httsop.yaml (HTSSOP-44-1EP_6.1x14.0mm_P0.635mm_EP4.31x8.26mm_Mask4.31x8.26mm_ThermalVias, typo in name)
+  size_source: 'http://www.ti.com/lit/pdf/pptd165'
+  compatible_mpns:
+    - Texas_DDW0044B
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 6.0
+    maximum: 6.2
+  body_size_y:
+    minimum: 13.9
+    maximum: 14.1
+  overall_height: 1.2 # maximum
+  overall_size_y:
+    minimum: 7.9
+    maximum: 8.3
+  lead_width:
+    minimum: 0.17
+    maximum: 0.27
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.635
+  num_pins_x: 0
+  num_pins_y: 22
+  EP_size_x: 5.2
+  EP_size_y: 14
+  EP_num_paste_pads: [3, 5]
+  EP_mask_x: 4.31
+  EP_mask_y: 8.26
+  thermal_vias:
+    count: [5, 13]
+    drill: 0.2
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 3]
+    EP_paste_coverage: 0.65
+
+##############################################################################
+# 0.65 PITCH
+# BODY WIDTH (E1) = 3.00 NOM
+##############################################################################
+
+MSOP-8_3x3mm_P0.65mm:
+# it was previously in msop.yaml,
+  size_source: 'https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x: 3 +/-0.2 # value "E1" in MO-187F variant AA
+  body_size_y: 3 +/-0.2 # value "D" in MO-187F variant AA
+  body_height: 0.75 .. 0.85 .. 0.95
+  overall_height: 1.10 # maximum
+  body_pcb_gap: 0.00 .. 0.15
+  overall_size_x: 4.9 +/-0.25 # value "E" in MO-187F variant AA
+  lead_width: 0.22 .. 0.38 # value "b" in MO-187F variant AA
+  lead_len: 0.4 .. 0.6 .. 0.8 # value "L" in MO-187F variant AA
+  lead_height: 0.08 .. 0.23
+  pitch: 0.65 # value "e" in MO-187F variant AA
+  num_pins_x: 0
+  num_pins_y: 4
+
+VSSOP-8_3x3mm_P0.65:
+# this is TSSOP actually, it was previously in vssop.yaml file
+  size_source: 'https://www.jedec.org/standards-documents/docs/mo-187-f'
+  compatible_mpns:
+    - JEDEC-MO-187-AA
+    - Texas_DGK0008A # https://www.ti.com/lit/ds/symlink/opa2340.pdf#page=33, https://www.ti.com/lit/ml/mpds028e/mpds028e.pdf
+  device_type: 'VSSOP'
+  body_size_x: 3.0 +/- 0.2 # Tolerance aaa = 0.2 applies to each side separately
+  body_size_y: 3.0 +/- 0.2 # Tolerance aaa = 0.2 applies to each side separately
+  overall_height: 1.1 # maximum
+  overall_size_x: 4.9 +/- 0.25 # Tolerance bbb = 0.25 applies to each side separately
+  lead_width: 0.22 .. 0.38 # TI DGK min is 0.25
+  lead_len: 0.4 .. 0.6 .. 0.8 # TI DGK max is 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.diodes.com/assets/Package-Files/MSOP-8EP.pdf'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x: 2.9 .. 3.0 .. 3.1
+  body_size_y: 2.9 .. 3.0 .. 3.1
+  body_height: 0.75 .. 0.86 .. 0.95
+  overall_height:
+    maximum: 1.1
+  body_pcb_gap: 0.05 .. 0.10 .. 0.15
+  overall_size_x: 4.7 .. 4.9 .. 5.1
+  lead_width: 0.22 .. 0.3 .. 0.38
+  lead_len: 0.4 .. 0.6 .. 0.8
+  lead_height: 0.08 .. 0.15 .. 0.23
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x: 1.3 .. 1.5 .. 1.7
+  EP_size_y: 1.6 .. 1.8 .. 2.0
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1.1, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm:
+# this is HTSSOP actually, it was previously in hvssop.yaml file
+  size_source: 'https://www.ti.com/lit/ds/symlink/tpa6110a2.pdf'
+  device_type: 'HVSSOP'
+  body_size_x:
+    nominal: 3
+    tolerance: 0.100
+  body_size_y:
+    nominal: 3
+    tolerance: 0.100
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.75
+    maximum: 5.05
+  lead_width:
+    minimum: 0.25
+    maximum: 0.38
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    nominal: 1.57
+  EP_size_y:
+    nominal: 1.89
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    paste_avoid_via: False
+    EP_num_paste_pads: [2, 2]
+
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf#page=13'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 3
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.1
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.22
+    maximum: 0.38
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    nominal: 1.68
+    tolerance: 0
+  EP_size_y:
+    nominal: 1.88
+    tolerance: 0
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1.1, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm:
+# it was previously in msop.yaml file
+  size_source: 'http://www.ti.com/lit/ds/symlink/lm25085.pdf#page=32'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 3
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3
+    tolerance: 0.1
+  overall_height:
+    maximum: 1.09
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.15
+  lead_width:
+    nominal: 0.3
+    tolerance: [-0.05, 0.1]
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.12
+  lead_height: 0.13 .. 0.23
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    nominal: 1.73
+    tolerance: 0.15
+  EP_size_y:
+    nominal: 1.85
+    tolerance: 0.15
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1.1, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.95x2.15mm:
+# it was previously in msop.yaml file
+  size_source: 'http://www.st.com/resource/en/datasheet/pm8834.pdf'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_size_y:
+    minimum: 2.9
+    nominal: 3
+    maximum: 3.1
+  body_height: 0.78 .. 0.86 .. 0.94
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 4.75
+    nominal: 4.9
+    maximum: 5.05
+  lead_width:
+    minimum: 0.25
+    nominal: 0.33
+    maximum: 0.41 # given as 0.7 but that can not be true. (larger than pitch)
+  lead_len:
+    minimum: 0.4
+    nominal: 0.55
+    maximum: 0.7
+  lead_height: 0.13 .. 0.23
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    minimum: 1.63
+    nominal: 1.73
+    maximum: 1.73
+  EP_size_y:
+    minimum: 2.08
+    nominal: 2.18
+    maximum: 2.28
+  EP_num_paste_pads: [2, 2]
+  EP_size_x_overwrite: 1.95
+  EP_size_y_overwrite: 2.15
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1.1, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm:
+# this is TSSOP actually (height = 1.1mm max), it was previously in vssop.yaml file
+  size_source: 'https://www.ti.com/lit/ds/symlink/tpa711.pdf'
+  device_type: 'VSSOP'
+  manufacturer: 'Texas'
+  part_number: 'DGN0008D'
+  body_size_x:
+    minimum: 2.90
+    maximum: 3.10
+  body_size_y:
+    minimum: 2.90
+    maximum: 3.10
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.85 # Datasheet value is 4.75 and 5.05 but this generate a 4.3 pin separation
+    maximum: 5.15 # by adding 0.1 in both pin separation is correct.
+  lead_width:
+    minimum: 0.25
+    maximum: 0.38
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    minimum: 1.28
+    maximum: 1.57
+  EP_size_y:
+    minimum: 1.63
+    maximum: 1.89
+  EP_mask_x: 1.57
+  EP_mask_y: 1.89
+  EP_size_x_overwrite: 2.00
+  EP_size_y_overwrite: 2.94
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    grid: [1.10, 1.22]
+    paste_avoid_via: True
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [1, 2]
+    EP_paste_coverage: 0.75
+
+Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm:
+# this is TSSOP actually (height = 1.1mm max), it was previously in vssop.yaml file
+  size_source: 'https://www.ti.com/lit/ds/symlink/tpa711.pdf'
+  device_type: 'VSSOP'
+  manufacturer: 'Texas'
+  part_number: 'DGN0008G'
+  body_size_x:
+    minimum: 2.90
+    maximum: 3.10
+  body_size_y:
+    minimum: 2.90
+    maximum: 3.10
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.85 # Datasheet value is 4.75 and 5.05 but this generate a 4.3 pin separation
+    maximum: 5.15 # by adding 0.1 in both pin separation is correct.
+  lead_width:
+    minimum: 0.25
+    maximum: 0.38
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    minimum: 1.646
+    maximum: 1.846
+  EP_size_y:
+    minimum: 1.95
+    maximum: 2.15
+  EP_mask_x: 1.846
+  EP_mask_y: 2.15
+  EP_size_x_overwrite: 2.00
+  EP_size_y_overwrite: 2.94
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    grid: [1.10, 1.22]
+    paste_avoid_via: True
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.75
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm:
+# this is TSSOP actually (height = 1.1mm max), it was previously in vssop.yaml file,
+  size_source: 'https://www.ti.com/lit/ds/symlink/tps7a4101.pdf'
+  device_type: 'VSSOP'
+  manufacturer: 'Texas'
+  part_number: 'DGN0008B'
+  body_size_x:
+    minimum: 2.90
+    maximum: 3.10
+  body_size_y:
+    minimum: 2.90
+    maximum: 3.10
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 4.85 # Datasheet value is 4.75 and 5.05 but this generate a 4.3 pin separation
+    maximum: 5.15 # by adding 0.1 in both pin separation is correct.
+  lead_width:
+    minimum: 0.25
+    maximum: 0.38
+  lead_len:
+    minimum: 0.4
+    maximum: 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    minimum: 1.646
+    maximum: 1.846
+  EP_size_y:
+    minimum: 1.95
+    maximum: 2.15
+  EP_mask_x: 1.88
+  EP_mask_y: 1.98
+  EP_size_x_overwrite: 2.00
+  EP_size_y_overwrite: 3.00
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    grid: [1.10, 1.22]
+    paste_avoid_via: True
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.75
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm:
+# it was previously in msop.yaml file
+  size_source: 'http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf#page=15'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 3
+    tolerance: 0.1
+  body_size_y:
+    nominal: 3.0
+    tolerance: 0.1
+  body_height: 0.86 +/- 0.05
+  overall_height:
+    nominal: 0.94
+    tolerance: 0.1
+  body_pcb_gap: 0.08 +/- 0.05
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0
+  lead_width:
+    nominal: 0.33
+    tolerance: [-0.1, 0.03]
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.1
+  lead_height: 0.15 +/- 0.05
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+  EP_size_x:
+    nominal: 1.73
+    tolerance: 0
+  EP_size_y:
+    nominal: 2.36
+    tolerance: 0
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x: 1.73
+  EP_mask_y: 2.36
+  EP_size_x_overwrite: 2.5
+  EP_size_y_overwrite: 3
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.2
+    grid: [1, 1]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+MSOP-12_3x4.039mm_P0.65mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081668_a_ms12.pdf'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 4.039
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.1
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.22
+    maximum: 0.38
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 6
+
+MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm:
+# it was previously in msop.yaml file
+  size_source: 'https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081666_g_mse12.pdf'
+  device_type: 'MSOP'
+  force_small_pitch_ipc_definition: True
+  body_size_x:
+    nominal: 3
+    tolerance: 0.102
+  body_size_y:
+    nominal: 4.039
+    tolerance: 0.102
+  overall_height:
+    maximum: 1.1
+  body_pcb_gap: 0.1016 +/- 0.0508
+  overall_size_x:
+    nominal: 4.9
+    tolerance: 0.152
+  lead_width:
+    minimum: 0.22
+    maximum: 0.38
+  lead_len:
+    nominal: 0.53
+    tolerance: 0.152
+  lead_height: 0.18  # nominal
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 6
+  EP_size_x:
+    nominal: 1.651
+    tolerance: 0.102
+  EP_size_y:
+    nominal: 2.845
+    tolerance: 0.102
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 3]
+    drill: 0.2
+    grid: [1, 1]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.7
+
+##############################################################################
+# 0.65 PITCH
+# BODY WIDTH (E1) = 4.40 NOM
+##############################################################################
+
+TSSOP-8_4.4x3mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 3.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 4
+
+TSSOP-14_4.4x5mm_P0.65mm:
+  size_source: 'JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.30 .. 4.40 .. 4.50
+  body_size_y: 4.90 .. 5.00 .. 5.10
+  body_height: 1.0 +0.05 -0.2
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.40
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.60 +/- 0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 7
+
+Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm:
+# previously 'HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm' (as 'Texas_PWP0014A' in htssop.yaml)
+  inherit: TSSOP-14_4.4x5mm_P0.65mm
+  size_source: 'Texas Instruments PWP0014A, based on JEDEC MO-153 variation ABT-1, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd287a/pptd287a.pdf, https://www.ti.com/lit/ds/symlink/lm5161.pdf#page=34, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  compatible_mpns:
+    - 'Texas_PowerPAD-TSSOP'
+  device_type: 'HTSSOP'
+  manufacturer: 'Texas'
+  body_height: 1.0 +0.05 -0.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.20 .. 6.40 .. 6.60 # nominal agrees with JEDEC, minimum / maximum from Texas
+  lead_width: 0.19 .. 0.30 # Texas
+  lead_len: 0.50 .. 0.75 # Texas
+  lead_height: 0.09 .. 0.20
+  EP_size_x: 3.105 .. 3.155 # Exposed Pad from Texas package
+  EP_size_y: 3.205 .. 3.255
+  EP_num_paste_pads: [2, 2] # https://www.ti.com/lit/an/sloa122/sloa122.pdf#page=5
+  EP_mask_x: 3.155 # sizes based on Texas Land Pattern example
+  EP_mask_y: 3.255 # sizes based on Texas Land Pattern example
+  EP_size_x_overwrite: 3.4 # sizes based on Texas Land Pattern example
+  EP_size_y_overwrite: 5.0 # sizes based on Texas Land Pattern example
+  thermal_vias:
+    count: [3, 5]
+    drill: 0.2
+    grid: [1.1, 1.1]
+    EP_num_paste_pads: [2, 2]
+    paste_between_vias: 1
+
+Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.94x3.34mm:
+  inherit: Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm
+  size_source: 'Texas Instruments PWP0014J, https://www.ti.com/lit/ml/pptd381/pptd381.pdf, https://www.ti.com/lit/ds/symlink/tps1htc100-q1.pdf#page=40'
+  EP_size_x: 2.28 .. 2.94
+  EP_size_y: 2.68 .. 3.34
+  EP_mask_x: 2.94
+  EP_mask_y: 3.34
+  thermal_vias:
+    count: [3, 5]
+    drill: 0.2
+    grid: [1.1, 1.1]
+    paste_between_vias: 1
+
+TSSOP-16_4.4x5mm_P0.65mm:
+  size_source: 'https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  compatible_mpns:
+    - JEDEC-MO-153-AB
+    - Texas_PW0016A # https://www.ti.com/lit/pdf/MPDS361
+    - Microchip-ST # https://ww1.microchip.com/downloads/en/DeviceDoc/16L_TSSOP_4_4_ST_C04-0068A.pdf
+    - Toshiba-TSSOP16-P-0044-0.65A # https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.TSSOP16.html
+    - NXP-SOT403-1 # https://www.nxp.com/docs/en/package-information/SOT403-1.pdf
+    - Infineon-P-TSSOP-16-800 # https://www.infineon.com/cms/en/product/packages/P-TSSOP/P-TSSOP-16-800/
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 5.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 8
+
+TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm:
+  size_source: 'Allegro A4954 https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx'
+  device_type: 'TSSOP' # It's actually HTSSOP, will fix later
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 5.0 +/-0.1
+  overall_height: 1.2
+  overall_size_x: 6.4 +/-0.2
+  lead_width: 0.19 .. 0.30
+  lead_len: 0.6 +/-0.15
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x:
+    nominal: 3
+  EP_size_y:
+    nominal: 3
+  EP_num_paste_pads: [2, 2]
+  thermal_vias:
+    count: [2, 2]
+    drill: 0.3
+    paste_avoid_via: false
+    EP_num_paste_pads: [2, 2]
+
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm:
+# It was previously in htssop.yaml
+  size_source: 'https://www.st.com/resource/en/datasheet/stp08cp05.pdf#page=20'
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    nominal: 4.4
+    maximum: 4.5
+  body_size_y:
+    minimum: 4.9
+    nominal: 5
+    maximum: 5.1
+  overall_height:
+    maximum: 1.2
+  overall_size_x:
+    minimum: 6.2
+    nominal: 6.4
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.45
+    nominal: 0.6
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x:
+    nominal: 3
+  EP_size_y:
+    nominal: 3
+  EP_num_paste_pads: [2, 2]
+
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm:
+# It was previously in htssop.yaml, only DRV8833PWP / DRV8847PWP symbols use this footprint
+  size_source: 'Texas Instruments PWP0016C, based on JEDEC MO-153 variation ABT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd023ac/pptd023ac.pdf, https://www.ti.com/lit/ds/symlink/drv8833.pdf#page=27, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  compatible_mpns:
+    - 'Texas_PWP0016C Texas_PowerPAD-TSSOP'
+  device_type: 'HTSSOP'
+  body_size_x: 4.30 .. 4.40 .. 4.50 # JEDEC / Texas
+  body_size_y: 4.90 .. 5.00 .. 5.10 # JEDEC / Texas
+  body_height: 1.0 +0.05 -0.2
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.20 .. 6.40 .. 6.60 # nominal agrees with JEDEC, minimum / maximum from Texas
+  lead_width: 0.19 .. 0.30 # minimum from Texas, maximum agrees with JEDEC / Texas
+  lead_len: 0.50 .. 0.75 # minimum from Texas, maximum agrees with JEDEC / Texas
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x: 1.75 .. 2.46 # Exposed Pad from Texas package
+  EP_size_y: 1.75 .. 2.31
+  EP_num_paste_pads: [2, 1]
+  EP_mask_x: 2.46 # sizes based on Texas Land Pattern example
+  EP_mask_y: 2.31 # sizes based on Texas Land Pattern example
+  EP_size_x_overwrite: 3.4 # sizes based on Texas Land Pattern example
+  EP_size_y_overwrite: 5.0 # sizes based on Texas Land Pattern example
+  thermal_vias:
+    count: [3, 4]
+    drill: 0.2
+    grid: [1, 1.2]
+    EP_num_paste_pads: [2, 1]
+
+
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.78x3.37mm:
+  inherit: HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm
+  size_source: 'Texas Instruments PWP0016M, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd352a/pptd352a.pdf'
+  compatible_mpns:
+    - 'Texas_PWP0016M Texas_PowerPAD-TSSOP'
+    - 'JEDEC_MO-153-variation-ABT'
+  # Note: General dimensions (except for EP) based on JEDEC MO-153 variation ABT,
+  # In the PWP0016M datasheet it just says "Reference JEDEC registration MO-153."
+  # ... but there is no JEDEC package with 2.78x3.37mm EP.
+  EP_size_x: 2.20 .. 2.78 # Exposed Pad from Texas package, not including "corner fins"
+  EP_size_y: 2.48 .. 3.37 #  Exposed Pad from Texas package, not including "top fin"
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x: 2.78 # sizes based on Texas Land Pattern example
+  EP_mask_y: 3.37 # sizes based on Texas Land Pattern example
+  # NOTE: EP_size_x_overwrite and EP_size_y_overwrite same as in PWP0016C
+  thermal_vias:
+    grid: [1.2, 1.2]
+    EP_num_paste_pads: [2, 2]
+
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm:
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps2660.pdf#page=48'
+  compatible_mpns:
+    - Texas_PWP0016H
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 4.9
+    maximum: 5.1
+  overall_height: 1.2 # maximum
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 8
+  EP_size_x: 3.4
+  EP_size_y: 5.0
+  EP_num_paste_pads: [1, 2]
+  EP_mask_x: 2.66
+  EP_mask_y: 2.46
+  thermal_vias:
+    count: [3, 4]
+    drill: 0.2
+    grid: [1.2, 1.2]
+
+TSSOP-20_4.4x6.5mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 6.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+
+Texas_PW0020A_TSSOP-20_4.4x6.5mm_P0.65mm:
+  size_source: 'https://www.ti.com/lit/ml/mpds362a/mpds362a.pdf'
+  device_type: 'TSSOP'
+  manufacturer: 'Texas'
+  part_number: 'PW0020A'
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 6.40
+    maximum: 6.60
+  overall_height: 1.2 # maximum
+  overall_size_x:
+    minimum: 6.20
+    maximum: 6.60
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  pad_to_pad_min_x_overwrite: 4.30
+  pad_to_pad_max_x_overwrite: 7.30
+  pad_size_y_overwrite: 0.45
+
+TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.15x3.35mm:
+  size_source: 'https://pdfserv.maximintegrated.com/package_dwgs/21-100132.PDF'
+  device_type: 'TSSOP' # actually it's HTSSOP
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 6.40
+    maximum: 6.60
+  overall_height:
+    maximum: 1.10
+  overall_size_x:
+    minimum: 6.30
+    maximum: 6.50
+  lead_width:
+    minimum: 0.195
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.70
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x:
+    minimum: 1.90
+    nominal: 2.15
+    maximum: 2.26
+  EP_size_y:
+    minimum: 3.10
+    nominal: 3.35
+    maximum: 3.45
+  EP_num_paste_pads: [2, 2]
+
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.74x3.86mm:
+# It was previously in httsop.yaml
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/4011fb.pdf#page=24'
+  compatible_mpns:
+    - Analog-FE-CB
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 6.4
+    maximum: 6.6
+  overall_height:
+    maximum: 1.2
+  overall_size_x:
+    nominal: 6.4
+  lead_width:
+    minimum: 0.195
+    maximum: 0.3
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x:
+    nominal: 2.74
+  EP_size_y:
+    nominal: 3.86
+  EP_num_paste_pads: [1, 2]
+
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.85x4mm:
+# It was previously in httsop.yaml
+  size_source: 'https://pdfserv.maximintegrated.com/package_dwgs/21-0108.PDF'
+  compatible_mpns:
+    - Maxim-U20E-1
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 6.4
+    maximum: 6.6
+  overall_height:
+    maximum: 1.1
+  overall_size_x:
+    minimum: 6.25
+    maximum: 6.5
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x:
+    minimum: 2.6
+    maximum: 3.1
+  EP_size_y:
+    minimum: 3.8
+    maximum: 4.2
+  EP_num_paste_pads: [1, 2]
+
+HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm:
+# It was previously in httsop.yaml
+  size_source: 'http://www.ti.com/lit/ds/symlink/bq24006.pdf'
+  compatible_mpns:
+    - Texas_PWP/R-PDSO-G20
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 6.4
+    maximum: 6.6
+  overall_height: 1.20 # maximum
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x:
+    nominal: 3.4
+  EP_size_y:
+    nominal: 6.5
+  EP_num_paste_pads: [1, 2]
+  EP_mask_x: 2.4
+  EP_mask_y: 3.7
+
+Texas_PWP0020U:
+# HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm:
+# It was previously in httsop.yaml
+  size_source: 'http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=37&zoom=160,-90,3'
+  compatible_mpns:
+    - Texas_PWP0020U
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 6.4
+    maximum: 6.6
+  overall_height: 1.20 # maximum
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x: 3.4
+  EP_size_y: 6.5
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x: 2.75
+  EP_mask_y: 3.43
+  thermal_vias:
+    count: [3, 5]
+    drill: 0.3
+    grid: [1.3, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+Texas_PWP0020T:
+# HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm:
+# It was previously in httsop.yaml
+  size_source: 'https://www.ti.com/lit/ds/symlink/tps2663.pdf#page=49'
+  compatible_mpns:
+    - Texas_PWP0020T
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 6.4
+    maximum: 6.6
+  overall_height: 1.2 # maximum
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 10
+  EP_size_x: 2.16 .. 2.96
+  EP_size_y: 2.21 .. 2.96
+  EP_num_paste_pads: [1, 1]
+  EP_mask_x: 2.96
+  EP_mask_y: 2.96
+  EP_size_x_overwrite: 3.4
+  EP_size_y_overwrite: 6.5
+  thermal_vias:
+    count: [3, 5]
+    drill: 0.3
+    grid: [1.3, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 2]
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+TSSOP-24_4.4x7.8mm_P0.65mm:
+  size_source: 'JEDEC MO-153 variation AD, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.30 .. 4.40 .. 4.50
+  body_size_y: 7.70 .. 7.80 .. 7.90
+  body_height: 1.0 +0.05 -0.2
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.40
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.60 +/- 0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 12
+
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm:
+# It was previously in htssop.yaml; merged with TSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm
+# JEDEC has exposed pad size E2xD1 = 1.50x2.70mm minimum
+  inherit: TSSOP-24_4.4x7.8mm_P0.65mm
+  size_source: 'JEDEC MO-153 variation ADT, 1.00mm body thickness, custom Exposed Pad size from STMicroelectronics, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153, https://www.st.com/resource/en/datasheet/stp16cp05.pdf#page=25, https://www.st.com/resource/en/datasheet/led1642gw.pdf#page=37'
+  device_type: 'HTSSOP'
+  overall_size_x: 6.20 .. 6.40 .. 6.60 # JEDEC E, nominal agrees with JEDEC, minimum / maximum are from ST
+  lead_width: 0.19 .. 0.30 # ST's b, differs a little from JEDEC
+  EP_size_x: 3.00 .. 3.20 .. 3.40 # STMicroelectronics E2
+  EP_size_y: 4.80 .. 5.00 .. 5.20 # ST's D1
+  EP_num_paste_pads: [2, 3]
+
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x2.98mm:
+# It was previously in htssop.yaml as 'Texas_PWP0024P'
+  inherit: TSSOP-24_4.4x7.8mm_P0.65mm
+  size_source: 'Texas Instruments PWP0024P, based on JEDEC MO-153 variation ADT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd064i/pptd064i.pdf, https://web.archive.org/web/20170223145154/http://www.ti.com/lit/ds/symlink/tlc5949.pdf#page=49, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  compatible_mpns:
+    - 'Texas_PWP0024P Texas_PowerPAD'
+  device_type: 'HTSSOP'
+  overall_size_x: 6.20 .. 6.40 .. 6.60 # JEDEC E, nominal agrees with JEDEC, minimum / maximum are from Texas
+  lead_width: 0.19 .. 0.30 # Texas, minimum differs from JEDEC
+  lead_len: 0.50 .. 0.75 # Texas, minimum differs from JEDEC
+  EP_size_x: 1.5 .. 2.4 # Exposed Pad from Texas package
+  EP_size_y: 2.08 .. 2.98
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x: 2.4 # sizes based on Texas Land Pattern example
+  EP_mask_y: 2.98 # sizes based on Texas Land Pattern example
+  EP_size_x_overwrite: 3.4 # sizes based on Texas Land Pattern example
+  EP_size_y_overwrite: 7.8 # sizes based on Texas Land Pattern example
+  thermal_vias:
+    count: [3, 7]
+    drill: 0.2
+    grid: [1, 1]
+    paste_avoid_via: false
+
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.44x3.42mm:
+  inherit: HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x2.98mm # PWP0024U is similar to PWP0024P
+  size_source: 'Texas Instruments PWP0024U, based on JEDEC MO-153 variation ADT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd402/pptd402.pdf, https://www.ti.com/lit/ds/symlink/tlc5949.pdf#page=50, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  compatible_mpns:
+    - 'Texas_PWP0024U Texas_PowerPAD'
+  device_type: 'HTSSOP'
+  lead_width: 0.17 .. 0.30 # back to JEDEC...
+  EP_size_x: 1.74 .. 2.44 # Exposed Pad from Texas package
+  EP_size_y: 2.72 .. 3.42
+  EP_mask_x: 2.44 # sizes based on Texas Land Pattern example; EP size, vias / grid are the same of parent footprint
+  EP_mask_y: 3.42 # sizes based on Texas Land Pattern example; EP size, vias / grid are the same of parent footprint
+
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x4.68mm_ThermalVias:
+# It was previously in httsop.yaml,
+# either we update the size_source here to the OLD datasheet, or we use NEW datasheet and update some sizes (footprint will be renamed...), parts that use this footprint are still active
+  size_source: 'http://www.ti.com/lit/ds/symlink/tps703.pdf'
+  # needs update here, MASK only makes sense if using old datasheet (mask = 2.4x4.68 mm): https://web.archive.org/web/20180403131740/http://www.ti.com/lit/ds/symlink/tps703.pdf#page=44
+  # new datasheet's mask = 2.4x4.18 mm
+  compatible_mpns:
+    - Texas_PWP/R-PDSO-G24 # new datasheet uses 'PWP0024A'
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 7.7
+    maximum: 7.9
+  overall_height: 1.20 # maximum
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.19 # 0.17 in new datasheet, same value from JEDEC
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 12
+  EP_size_x: 3.4 # this value is actually EP_size_x_overwrite
+  EP_size_y: 7.8 # EP_size_y_overwrite
+  EP_num_paste_pads: [1, 2]
+  EP_mask_x: 2.4
+  EP_mask_y: 4.68 # needs update, new datasheet = 4.18mm
+  thermal_vias:
+    count: [3, 6]
+    drill: 0.3
+    grid: [1.3, 1.3] # from old datasheet, new is [1.2, 1.2]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [1, 2]
+    EP_paste_coverage: 0.65
+
+TSSOP-28_4.4x9.7mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var AE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 4.4 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.4
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+
+TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.74x4.75mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/lt3762.pdf'
+  device_type: 'TSSOP' # it's actually HTSSOP
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 9.60
+    maximum: 9.80
+  overall_height:
+    maximum: 1.20
+  overall_size_x: 6.4
+  lead_width:
+    minimum: 0.195
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x:
+    nominal: 2.74
+  EP_size_y:
+    nominal: 4.75
+  EP_num_paste_pads: [2, 3]
+  thermal_vias:
+    count: [3, 4]
+    drill: 0.2
+    paste_avoid_via: false
+    EP_num_paste_pads: [2, 3]
+
+HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm:
+# It was previously in httsop.yaml (HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.20mm, typo in name)
+  size_source: 'https://www.trinamic.com/fileadmin/assets/Support/AppNotes/AN005x-IC_Package_PCB_Footprint_Guidelines_HTSSOP28_rev1.00.pdf'
+  #size source: 'JEDEC MO-153 Var AET https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'HTSSOP'
+  body_size_x: 4.3 .. 4.4 .. 4.5
+  body_size_y: 9.6 .. 9.7 .. 9.8
+  body_height: 1.0 +0.05 -0.2
+  overall_height:
+    maximum: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 6.2 .. 6.4 .. 6.6
+  lead_width: 0.20 .. 0.29
+  lead_len: 0.45 .. 0.60 .. 0.75
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x: 2.75
+  EP_size_y: 6.2
+  thermal_vias:
+    count: [2, 4]
+    drill: 0.3
+    paste_avoid_via: false
+    EP_num_paste_pads: [1, 3]
+
+HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm:
+# It was previously in httsop.yaml
+  size_source: 'https://pdfserv.maximintegrated.com/package_dwgs/21-0108.PDF'
+  device_type: 'HTSSOP'
+  body_size_x: 4.3 .. 4.5
+  body_size_y: 9.6 .. 9.8
+  overall_height:
+    maximum: 1.1
+  overall_size_x: 6.25 .. 6.5
+  lead_width: 0.19 .. 0.3
+  lead_len: 0.5 .. 0.7
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x: 2.6 .. 3.1
+  EP_size_y: 5.2 .. 5.6
+  thermal_vias:
+    count: [2, 4]
+    drill: 0.3
+    paste_avoid_via: false
+    EP_num_paste_pads: [1, 3]
+
+TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x6.7mm:
+  size_source: 'JEDEC MO-153 Var AET Pkg.Code U28E-4 https://pdfserv.maximintegrated.com/package_dwgs/21-0108.PDF'
+  device_type: 'TSSOP' # It's actually HTSSOP
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 9.60
+    maximum: 9.80
+  body_height: 0.85 .. 0.95
+  overall_height:
+    maximum: 1.10
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x:
+    minimum: 6.25
+    maximum: 6.50
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.70
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x:
+    minimum: 2.60
+    maximum: 3.10
+  EP_size_y:
+    minimum: 6.50
+    maximum: 6.90
+  EP_num_paste_pads: [2, 3]
+
+TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.7mm_Mask3.1x4.05mm:
+# Similar to JEDEC MO-153, variation AET, custom Exposed Pad from Texas
+  size_source: 'Texas Instruments PWP0028M, https://www.ti.com/lit/ml/pptd351/pptd351.pdf, https://www.ti.com/lit/ds/symlink/tas5805m.pdf#page=99'
+  device_type: 'TSSOP' # It's actually HTSSOP
+  compatible_mpns:
+    - 'Texas_PowerPAD-TSSOP'
+    - 'JEDEC_MO-153-variation-AET'
+  additional_tags:
+    - 'HTSSOP'
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 9.60
+    maximum: 9.80
+  overall_height:
+    maximum: 1.20
+  body_pcb_gap:
+    minimum: 0.05
+    maximum: 0.15
+  overall_size_x:
+    minimum: 6.20
+    maximum: 6.60
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x:
+    minimum: 2.58
+    maximum: 3.10
+  EP_size_y:
+    minimum: 3.53
+    maximum: 4.05
+  # From now on, sizes from land pattern example
+  EP_size_x_overwrite: 3.4
+  EP_size_y_overwrite: 9.7
+  EP_num_paste_pads: [2, 2]
+  EP_mask_x:
+    nominal: 3.10
+  EP_mask_y:
+    nominal: 4.05
+  thermal_vias:
+    count: [3, 8]
+    grid: [1.2, 1.2]
+    drill: 0.2
+
+TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.05x7.56mm:
+  size_source: 'https://www.analog.com/media/en/technical-documentation/data-sheets/38921fc.pdf'
+  device_type: 'TSSOP' # It's actually HTSSOP
+  body_size_x:
+    minimum: 4.30
+    maximum: 4.50
+  body_size_y:
+    minimum: 9.60
+    maximum: 9.80
+  overall_height:
+    maximum: 1.20
+  overall_size_x: 6.4
+  lead_width:
+    minimum: 0.195
+    maximum: 0.30
+  lead_len:
+    minimum: 0.50
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x:
+    nominal: 3.05
+  EP_size_y:
+    nominal: 7.56
+  EP_num_paste_pads: [2, 4]
+  thermal_vias:
+    count: [3, 5]
+    drill: 0.2
+    paste_avoid_via: false
+    EP_num_paste_pads: [2, 4]
+
+Texas_PWP0028V:
+# Texas_PWP0028V_TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.7mm_Mask2.94x5.62mm
+  size_source: 'https://www.ti.com/lit/ds/symlink/lm5176.pdf?ts=1728516913971&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5176'
+  device_type: 'TSSOP' # It's actually HTSSOP
+  manufacturer: 'Texas'
+  part_number: 'PWP0028V'
+  body_size_x:
+    minimum: 4.3
+    maximum: 4.5
+  body_size_y:
+    minimum: 9.6
+    maximum: 9.8
+  overall_height:
+    maximum: 1.2
+  overall_size_x:
+    minimum: 6.2
+    maximum: 6.6
+  lead_width:
+    minimum: 0.17
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+  EP_size_x:
+    minimum: 2.24
+    maximum: 2.94
+  EP_size_y:
+    minimum: 4.92
+    maximum: 5.62
+  EP_num_paste_pads: [2, 5]
+  EP_mask_x: 2.94
+  EP_mask_y: 5.62
+  EP_size_x_overwrite: 3.4
+  EP_size_y_overwrite: 9.7
+  thermal_vias:
+    count: [3, 8]
+    drill: 0.2
+    grid: [1.47, 1.12]
+    paste_avoid_via: false
+    EP_num_paste_pads: [2, 5]
+    EP_paste_coverage: 0.75
+
+##############################################################################
+# 0.65 PITCH
+# BODY WIDTH (E1) = 6.10 NOM
+##############################################################################
+
+TSSOP-24_6.1x7.8mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 7.8 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 12
+
+TSSOP-28_6.1x9.7mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+
+TSSOP-30_6.1x9.7mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 15
+
+TSSOP-32_6.1x11mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 16
+
+Texas_DAD0032A_HTSSOP-32_6.1x11mm_P0.65mm_TopEP3.71x3.81mm:
+# It was previously in httsop.yaml
+  size_source: 'https://www.ti.com/lit/ds/symlink/tpa3116d2.pdf'
+  additional_tags:
+    - 'PowerPAD'
+  device_type: 'HTSSOP'
+  manufacturer: Texas
+  part_number: DAD0032A
+  body_size_x: 6.0 .. 6.2
+  body_size_y: 10.9 .. 11.1
+  overall_height: 1.0 .. 1.15
+  overall_size_x: 7.9 .. 8.3
+  lead_width: 0.19 .. 0.30
+  lead_len: 0.5 .. 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 16
+  top_slug:
+    shape: rectangle
+    x: 3.31 .. 4.11
+    y: 3.26 .. 4.36
+
+TSSOP-36_6.1x12.5mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-38_6.1x12.5mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DD-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 19
+
+Texas_DAP_R-PDSO-G38:
+# HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm
+# It was previously in httsop.yaml
+  size_source: 'https://www.ti.com/jp/lit/ml/pptd158c/pptd158c.pdf'
+  compatible_mpns:
+    - Texas_DAP
+    - Texas_R-PDSO-G38
+  device_type: 'HTSSOP'
+  body_size_x:
+    minimum: 6.0
+    maximum: 6.2
+  body_size_y:
+    minimum: 12.4
+    maximum: 12.6
+  overall_height: 1.20 # maximum
+  overall_size_x:
+    minimum: 7.9
+    maximum: 8.3
+  lead_width:
+    minimum: 0.19
+    maximum: 0.30
+  lead_len:
+    minimum: 0.5
+    maximum: 0.75
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 19
+  EP_size_x: 5.2
+  EP_size_y: 12.5
+  EP_num_paste_pads: [2, 3]
+  EP_mask_x: 3.39
+  EP_mask_y: 6.35
+  thermal_vias:
+    count: [4, 10]
+    drill: 0.2
+    grid: [1.3, 1.3]
+    paste_avoid_via: False
+    paste_via_clearance: 0.1
+    EP_num_paste_pads: [2, 3]
+    EP_paste_coverage: 0.65
+    paste_between_vias: 1
+    paste_rings_outside: 1
+
+TSSOP-40_6.1x14mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var DE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 6.1 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 8.1
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 20
+
+##############################################################################
+# 0.65 PITCH
+# BODY WIDTH (E1) = 8.0 NOM
+##############################################################################
+
+TSSOP-28_8x9.7mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var GA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 9.7 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 14
+
+TSSOP-32_8x11mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var GB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 11.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 16
+
+TSSOP-36_8x12.5mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var GC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 12.5 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 18
+
+TSSOP-40_8x14mm_P0.65mm:
+  size_source: 'JEDEC MO-153 Var GD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153'
+  device_type: 'TSSOP'
+  body_size_x: 8.0 +/-0.1
+  body_size_y: 14.0 +/-0.1
+  body_height: 1.0 +0.05 -0.2
+  overall_height: 1.2
+  body_pcb_gap: 0.05 .. 0.15
+  overall_size_x: 10.0
+  lead_width: 0.17 .. 0.30
+  lead_len: 0.6 +/-0.15
+  lead_height: 0.09 .. 0.20
+  pitch: 0.65
+  num_pins_x: 0
+  num_pins_y: 20
+
+##############################################################################
+# 4.0 PITCH
+# BODY WIDTH (E1) = 4.4 NOM
+##############################################################################
+
+TSSOP-4_4.4x5mm_P4mm:
+# height is actually 1.45 + 0.15 = 1.60 mm maximum, it's not really TSSOP since manufacturer says this package does not conform to any standard
+  size_source: 'https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF#page=4'
+  device_type: 'TSSOP'
+  body_size_x: 4.25 .. 4.55
+  body_size_y: 4.85 .. 5.15
+  overall_height: 1.75
+  overall_size_x: 6.3 .. 6.7
+  lead_width: 0.6 .. 0.7
+  lead_len: 0.5 .. 0.7
+  pitch: 4.0
+  num_pins_x: 0
+  num_pins_y: 2
+
+##############################################################################
+# 0.5 PITCH
+# BODY WIDTH (E1) = 2.00 NOM
+##############################################################################
+
+Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm:
+# JEDEC MO-345, this package seems not to be TSOT (manufacturer states it's SOT)
+  size_source: 'https://www.ti.com/lit/ds/symlink/tmux1574.pdf#page=42'
+  compatible_mpns:
+    - SOT-23-THIN
+  custom_name_format: 'Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm'
+  device_type: 'TSSOP'
+  manufacturer: 'Texas'
+  part_number: 'DYY0016A'
+  body_size_x: 1.9 .. 2.1
+  body_size_y: 4.1 .. 4.3
+  overall_height: 1.1
+  overall_size_x: 3.16 .. 3.36
+  lead_width: 0.3 .. 0.3
+  lead_len: 0.63 .. 0.63
+  pitch: 0.5
+  num_pins_x: 0
+  num_pins_y: 8

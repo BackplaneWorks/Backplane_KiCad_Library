@@ -1,0 +1,291 @@
+# Base configuration extracted by YAMLCommon (threshold=0.90)
+base:
+  R_POW: 0
+  classname: L_CommonMode_Toroid
+  seriesname: Vertical
+  deco: chokewire
+  func: makeResistorRadial
+  has3d: 1
+  height3d: 31
+  lib_name: Inductor_THT
+  pins: 4
+  s_3d:
+    - 1
+    - 1
+    - 1
+  specialfpname: ''
+  type: simple
+  vlines: false
+  x_3d:
+    - 0
+    - 0
+    - 0
+
+Vertical_L19.3mm_W10.8mm_Px6.35mm_Py15.24mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 10.795
+  innerh: 6.35
+  innerw: 19.304
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 6.35
+  rm2: 15.239999999999998
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 19.304
+  w2: 6.434666666666666
+
+
+Vertical_L30.5mm_W15.2mm_Px10.16mm_Py20.32mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 15.239999999999998
+  innerh: 10.16
+  innerw: 30.479999999999997
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 10.16
+  rm2: 20.32
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 30.479999999999997
+  w2: 10.159999999999998
+
+
+Vertical_L34.3mm_W20.3mm_Px15.24mm_Py22.86mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 20.32
+  innerh: 15.239999999999998
+  innerw: 34.29
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 15.239999999999998
+  rm2: 22.86
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 34.29
+  w2: 11.43
+
+
+Vertical_L36.8mm_W20.3mm_Px15.24mm_Py22.86mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 20.32
+  innerh: 15.239999999999998
+  innerw: 36.83
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 15.239999999999998
+  rm2: 22.86
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 36.83
+  w2: 12.276666666666666
+
+
+Vertical_L38.1mm_W20.3mm_Px15.24mm_Py22.86mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.8
+  h: 20.32
+  innerh: 15.239999999999998
+  innerw: 38.099999999999994
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 15.239999999999998
+  rm2: 22.86
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 38.099999999999994
+  w2: 12.699999999999998
+
+
+Vertical_L39.4mm_W20.3mm_Px15.24mm_Py22.86mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 20.32
+  innerh: 15.239999999999998
+  innerw: 39.37
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 15.239999999999998
+  rm2: 22.86
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 39.37
+  w2: 13.123333333333333
+
+
+Vertical_L41.9mm_W20.3mm_Px15.24mm_Py22.86mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 1.5
+  h: 20.32
+  innerh: 15.239999999999998
+  innerw: 41.91
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 15.239999999999998
+  rm2: 22.86
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 41.91
+  w2: 13.969999999999999
+
+
+Vertical_L43.2mm_W22.9mm_Px17.78mm_Py30.48mm_Bourns_8100:
+  inherit: base
+  add_description: http://datasheet.octopart.com/8120-RC-Bourns-datasheet-10228452.pdf
+  ddrill: 2.2
+  h: 22.86
+  innerh: 17.779999999999998
+  innerw: 43.18
+  name_additions:
+    - Bourns
+    - '8100'
+  rm: 17.779999999999998
+  rm2: 30.479999999999997
+  specialtags:
+    - Bourns
+    - '8100'
+  w: 43.18
+  w2: 14.393333333333333
+
+
+Vertical_L21.0mm_W10.0mm_Px5.08mm_Py12.7mm_Murata_5100:
+  inherit: base
+  add_description: http://www.murata-ps.com/data/magnetics/kmp_5100.pdf
+  ddrill: 1.1
+  h: 10
+  innerh: 5.08
+  innerw: 21
+  name_additions:
+    - Murata
+    - '5100'
+  rm: 5.08
+  rm2: 12.7
+  specialtags:
+    - Murata
+    - '5100'
+  w: 21
+  w2: 7.0
+
+
+Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_Murata_5200:
+  inherit: base
+  add_description: http://www.murata-ps.com/data/magnetics/kmp_5200.pdf
+  ddrill: 1.1
+  h: 16.3
+  innerh: 10.16
+  innerw: 24
+  name_additions:
+    - Murata
+    - '5200'
+  rm: 10.16
+  rm2: 20.32
+  specialtags:
+    - Murata
+    - '5200'
+  w: 24
+  w2: 8.0
+
+PRODTech_1065:
+  inherit: base
+  add_description: https://www.lcsc.com/datasheet/C5158821.pdf
+  ddrill: 1.0
+  h: 7.5
+  # These two are just for graphics, but possibly relevant for 3D
+  # So we make them match the toroid dims
+  innerh: 7.5
+  innerw: 13
+  name_additions:
+    - PRODTech
+    - 'PDMCAT1065'
+  rm: 6
+  rm2: 5
+  specialtags:
+    - PRODTech
+    - 'PDMCAT1065'
+  w: 13
+  w2: 1.5
+
+PRODTech_PDMCAT18107-102ML:
+  inherit: base
+  add_description: https://www.lcsc.com/datasheet/C2831472.pdf
+  ddrill: 1.5 # 1.2+/-0.1 pin dia => 1.3mm
+  h: 12
+  # These two are just for graphics, but possibly relevant for 3D
+  # So we make them match the toroid dims
+  innerh: 12
+  innerw: 22
+  name_additions:
+    - PRODTech
+    - PDMCAT18107-102ML
+  rm: 9
+  rm2: 8
+  specialtags:
+    - PRODTech
+    - PDMCAT18107-102ML
+  w: 22
+  w2: 1.5
+
+PRODTech_PDMCAT18107-202ML:
+  inherit: PRODTech_PDMCAT18107-102ML
+  ddrill: 1.3 # 1.0+/-0.1 pin dia
+  name_additions:
+    - PRODTech
+    - PDMCAT18107-202ML
+  specialtags:
+    - PRODTech
+    - PDMCAT18107-202ML
+
+PRODTech_PDMCAT18107-502ML:
+  inherit: PRODTech_PDMCAT18107-102ML
+  ddrill: 1.05 # 0.75+/-0.1 pin dia
+  name_additions:
+    - PRODTech
+    - PDMCAT18107-502ML
+  specialtags:
+    - PRODTech
+    - PDMCAT18107-502ML
+
+PRODTech_PDMCAT18107-103ML:
+  inherit: PRODTech_PDMCAT18107-102ML
+  ddrill: 0.9 # 0.6+/-0.1 pin dia
+  name_additions:
+    - PRODTech
+    - PDMCAT18107-103ML
+  specialtags:
+    - PRODTech
+    - PDMCAT18107-103ML
+
+PRODTech_PDMCAT18107-203ML:
+  inherit: PRODTech_PDMCAT18107-102ML
+  ddrill: 0.7 # 0.5+/-0.1 pin dia
+  name_additions:
+    - PRODTech
+    - PDMCAT18107-203ML
+  specialtags:
+    - PRODTech
+    - PDMCAT18107-203ML
