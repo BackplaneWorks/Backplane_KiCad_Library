@@ -27,7 +27,7 @@ def main():
     (ROOT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     with (ROOT/'CATALOGUE.csv').open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
-    folders=['libraries','3dmodels','sources','docs','scripts','verification','previews','boards']
+    folders=['libraries','3dmodels','sources','docs','scripts','verification','previews','boards','.github']
     files=[ROOT/n for n in ['README.md','LICENSES.md','manifest.json','CATALOGUE.csv','fp-lib-table.example','.gitignore','.backplane.json','.backplane/intent.md']]
     for folder in folders:
         for p in (ROOT/folder).rglob('*'):

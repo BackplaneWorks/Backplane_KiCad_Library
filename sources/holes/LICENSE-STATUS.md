@@ -7,12 +7,10 @@ Original custom files copied from /home/h/Documents/KiCad_Library:
 - definitions/mounting_hole_exposed_substrate.yaml
 
 No license notice was found for these files. They are untracked in that
-repository. Preserve them locally and obtain the author's explicit license
-choice before public redistribution. Do not apply another repository's license
-to them by assumption.
-
-This requested local bundle does not publish or redistribute these files.
-No license decision or further approval is needed to complete the local work.
+repository. The project owner has now requested publication under BackplaneWorks
+and automatic distribution with Backplane and Backplane_KiCad. No separate
+general public license has been selected for the custom work. Do not apply
+another repository's license to it by assumption; retain upstream notices.
 
 Supporting upstream hole_sizes.yaml is copied from kicad-footprint-generator,
 revision 9d5b3f76364cfd307ec06d2137f387d18b6768a0. Its README states

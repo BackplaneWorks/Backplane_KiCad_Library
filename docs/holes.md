@@ -167,11 +167,11 @@ The completed run has 152 passing assertions across six boards.
 
 No license was found for the original custom generator/YAML/footprints in
 `/home/h/Documents/KiCad_Library`, and their untracked status provides no
-historical license grant. The author must confirm the license before these
-files are included in a public release. This is an explicit unresolved release
-condition, not permission inferred from possession of the files.
-The requested local bundle is complete; no public release is being performed
-and this license boundary does not block the local deliverable.
+historical license grant. The project owner has requested publication under BackplaneWorks and bundling
+with Backplane. No separate general public license has been selected for this
+custom material; the publication request does not replace upstream notices.
+Publication and Backplane bundling are explicitly requested by the project
+owner; original notices remain intact.
 
 Upstream generator data is GPL-3.0-or-later according to its bundled README;
 the upstream GPL, LGPL and MIT notices are preserved in `sources/holes/licenses/`.

@@ -9,8 +9,8 @@ This collection has mixed provenance; there is no blanket relicensing.
   and design-use exception; see `3dmodels/LICENSE.md` and its credits.
 - The original custom mounting holes, YAML and custom generator are recovered
   user-authored local assets. Their source directory contains no explicit license
-  for that custom work. They are included for the requested local reuse; no
-  public redistribution grant is inferred. See `sources/holes/LICENSE-STATUS.md`.
+  for that custom work. The project owner requested publication under BackplaneWorks and bundling in
+  Backplane. No separate general public license has been selected for this custom work. See `sources/holes/LICENSE-STATUS.md`.
   Upstream supporting data's separate notices are retained alongside them.
 - The Shoggoth source was supplied for this artwork. Its original files and
   provenance are retained without inventing a license or transferring ownership.
@@ -20,6 +20,6 @@ This collection has mixed provenance; there is no blanket relicensing.
 - No blanket public license has been selected for the new local integration
   material. Confirm rights and choose appropriate terms before a public release.
 
-The downloadable ZIP is a local handoff, not publication to a package registry
-or remote repository. Preserve all upstream notices when redistributing any
-portion for which redistribution is authorized.
+The project owner requested repository publication and distribution with
+Backplane. This does not replace any upstream license or select a blanket
+license for the custom material. Preserve all retained notices.

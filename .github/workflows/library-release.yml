@@ -1,0 +1,40 @@
+name: Library release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify portable runtime payload
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+          RELEASE_REF: ${{ github.ref_name }}
+        run: |
+          version="${RELEASE_REF#v}"
+          if [[ "$GITHUB_REF_TYPE" != tag ]]; then version="snapshot-${SOURCE_COMMIT:0:12}"; fi
+          python scripts/package_runtime.py --version "$version" --source-commit "$SOURCE_COMMIT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backplane-kicad-library
+          path: release/*.tar.gz*
+      - name: Publish tagged payload
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release view "$RELEASE_TAG" >/dev/null 2>&1 || gh release create "$RELEASE_TAG" --verify-tag --title "$RELEASE_TAG" --notes 'Reusable KiCad mounting holes, Shoggoth artwork, and IPC-density passives for Backplane.'
+          gh release upload "$RELEASE_TAG" release/*.tar.gz* --clobber

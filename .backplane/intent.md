@@ -1,6 +1,6 @@
 # Goal
 
-A complete reusable Backplane KiCad footprint library.
+A reusable Backplane KiCad footprint library, published in a repository under BackplaneWorks.
 
 # Parts
 
@@ -13,3 +13,5 @@ A complete reusable Backplane KiCad footprint library.
 
 - Preserve original names, exact geometry, source provenance and licenses.
 - Document silk exclusion and copper keepout behavior across layer stacks accurately.
+- Keep the repository explanation short and retain the approved catalogue image.
+- Coordinate with Bub for automatic bundling with Backplane, alongside Backplane_KiCad.
