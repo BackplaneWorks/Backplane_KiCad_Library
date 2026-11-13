@@ -17,6 +17,9 @@ This collection has mixed provenance; there is no blanket relicensing.
   The bundled DejaVu caption font has its own retained license at
   `sources/shoggoth/original/source/caption-font-LICENSE.txt`; the installed
   footprints use outlines, not a font dependency.
+- The Backplane logo footprints are Backplane's own marks, generated from its
+  brand SVGs. The wordmark is outlined from Berkeley Mono; the font itself is
+  not included. Trademark use is Backplane's to decide.
 - No blanket public license has been selected for the new local integration
   material. Confirm rights and choose appropriate terms before a public release.
 

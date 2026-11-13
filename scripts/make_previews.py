@@ -42,6 +42,8 @@ def index():
             name=footprint.stem
             if 'MountingHole' in lib.stem:
                 svg=ROOT/'verification/holes/footprint-load'/f'{name}.svg'
+            elif 'Logo' in lib.stem:
+                svg=ROOT/'verification/logo/footprint-load'/f'{name}.svg'
             elif 'Shoggoth' in lib.stem:
                 svg=ROOT/'verification/shoggoth/footprint-load'/f'{name}.svg'
             else:
@@ -49,11 +51,11 @@ def index():
                 svg=ROOT/'verification/passives/svg'/density/f'{name}.svg'
             assert svg.exists(),svg
             entries.append((lib.stem,name,svg))
-    assert len(entries)==199
+    assert len(entries)==223
     columns=5;cw=460;ch=220;header=105
     out=Image.new('RGB',(columns*cw,header+math.ceil(len(entries)/columns)*ch),'#f1f0e8')
     d=ImageDraw.Draw(out)
-    d.text((24,15),'BACKPLANE / ALL 199 FOOTPRINTS',font=font(30,True),fill='#17271d')
+    d.text((24,15),f'BACKPLANE / ALL {len(entries)} FOOTPRINTS',font=font(30,True),fill='#17271d')
     d.text((24,60),'Native KiCad footprint plots · individual cells fit to view, not to common scale',font=font(20),fill='#17271d')
     for i,(lib,name,svg) in enumerate(entries):
         x=(i%columns)*cw;y=header+(i//columns)*ch
@@ -63,6 +65,7 @@ def index():
         chunks=[name[j:j+43] for j in range(0,len(name),43)]
         for j,s in enumerate(chunks):d.text((x+15,y+38+j*18),s,font=font(14),fill='#17271d')
         palette={'#F2EDA1':'#263829','#AFAFAF':'#62665e'}
+        if 'Logo' in lib:palette.update({'#D864FF':'#d6ad45','#C83434':'#d6ad45','#E8B2A7':'#263829'})
         if 'Shoggoth' in lib:palette.update({'#D864FF':'#d6ad45','#C83434':'#d6ad45'})
         art=raster(svg,900,palette=palette)
         # Trim plot whitespace (including invisible SVG backdrop), keep geometry.

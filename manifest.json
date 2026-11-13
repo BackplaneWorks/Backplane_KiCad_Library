@@ -1,8 +1,9 @@
 {
   "name": "Backplane_KiCad_Library",
   "version": "2026.10.26",
-  "footprint_count": 199,
+  "footprint_count": 223,
   "libraries": {
+    "Backplane_Logo": 24,
     "Backplane_MountingHole": 60,
     "Backplane_Passives_Least": 45,
     "Backplane_Passives_Most": 44,
@@ -17,9 +18,250 @@
   "provenance": [
     "sources/holes/manifest.json",
     "sources/passives/provenance.json",
-    "docs/shoggoth.md"
+    "docs/shoggoth.md",
+    "sources/backplane_logo/README.md"
   ],
   "entries": [
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_12mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_12mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_12mm_Cu.kicad_mod",
+      "sha256": "fa4cafef433912103ba31674c9c27e601abdec7113da15ea503d3812f4115b5a"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_12mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_12mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_12mm_SilkS.kicad_mod",
+      "sha256": "2458d07ba59a7a2056f96a66baefff5ff11e2500bb675d2aeab54de675194c8b"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_12mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_12mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_12mm_SilkS_Back.kicad_mod",
+      "sha256": "a0240ab8d9c295d03824a0587aa626e0968a0722d6080f55b563d930fae62cdb"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_20mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_20mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_20mm_Cu.kicad_mod",
+      "sha256": "0fce754dcd54faa73fdd96077f97cffcb0d459aea7452621ab52ceb42ea83ad8"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_20mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_20mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_20mm_SilkS.kicad_mod",
+      "sha256": "35f3aa4dd15386fcbcd99871f9434fb98b706d26836ac76db3109197ebef6aca"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_20mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_20mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_20mm_SilkS_Back.kicad_mod",
+      "sha256": "3d20a4b8dacf960bd36188a12b546cfcf152431e7cb0a828ac25593399c1db13"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_30mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_30mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_30mm_Cu.kicad_mod",
+      "sha256": "2e92c2f1f7b0bffb705db57e729a38f3c9134580db9f078d6c8bdf7dc4972dd0"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_30mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_30mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_30mm_SilkS.kicad_mod",
+      "sha256": "1d98e535e47950486609deff35b33645caa122918d3a538e9ecfa9708114731c"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_30mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_30mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_30mm_SilkS_Back.kicad_mod",
+      "sha256": "0695e7885788512147e5cae327abd91f9dc2e1cffd22be15dbd836a833a19848"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_3mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_3mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_3mm_Cu.kicad_mod",
+      "sha256": "020b85c1cff5d38db0ae02525490489d5879360a5ba653b8e0822e7cf8bcce33"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_3mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_3mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_3mm_SilkS.kicad_mod",
+      "sha256": "3899fed6f1b14902f59517ce7315cc080d20703f31ca192fd9e06fd0178eb1f0"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_3mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_3mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_3mm_SilkS_Back.kicad_mod",
+      "sha256": "e72bf52cb69406339ea696acf0f7dc707f13c8d6346fc3241bce3274d5dd2647"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_5mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_5mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_5mm_Cu.kicad_mod",
+      "sha256": "78bbee4379ebe7a589b228dcfe40ec43d6ed71452e744404616cacf013d51f1f"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_5mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_5mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_5mm_SilkS.kicad_mod",
+      "sha256": "e478adb41f5d467ef3753c2107a90008653c67dc1b65987ff03b55e9bd0fb696"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_5mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_5mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_5mm_SilkS_Back.kicad_mod",
+      "sha256": "86374771a0ea1f2e7b5e88038818ee75d11b760664b2c19137f9234a9c648beb"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_8mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_8mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_8mm_Cu.kicad_mod",
+      "sha256": "6fef540285310aeacdd59ddfd62bccff92ac0e79f21bf2dd1b315df943d6d627"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_8mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_8mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_8mm_SilkS.kicad_mod",
+      "sha256": "43cbf4fb34f3b15e56fca0b62f0332b4fb4fe74dad526e7d0ab588d65af7aaf8"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Mark_8mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Mark_8mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Mark_8mm_SilkS_Back.kicad_mod",
+      "sha256": "89d2c76c3033e301fa82365a163284288887c6aa8b45bbed0a9011d996f3f697"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_20mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_20mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_20mm_Cu.kicad_mod",
+      "sha256": "896ea576af75e8bf3e304983ef744018e49f5118956bdb44e4cba5181417b87a"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_20mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_20mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_20mm_SilkS.kicad_mod",
+      "sha256": "da120f537a04c2532e304227e0f25e5b1b264150a75e1d83addfc606d244fdad"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_20mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_20mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_20mm_SilkS_Back.kicad_mod",
+      "sha256": "c82403ff5679f5183da63e912a31a1a94f941087e6f09f2d131b40d71b0a8590"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_30mm_Cu",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_30mm_Cu",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_30mm_Cu.kicad_mod",
+      "sha256": "30ee64859ab634ead80e6777322c55a8d1ae71dc89459ebd45f0b08508ef3c90"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_30mm_SilkS",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_30mm_SilkS",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_30mm_SilkS.kicad_mod",
+      "sha256": "8af7d109c4b40769f348d035e88cb77c9b885e4f37d228bd8f9cfb1ff10fe966"
+    },
+    {
+      "id": "Backplane_Logo:Backplane_Logo_Text_30mm_SilkS_Back",
+      "library": "Backplane_Logo",
+      "name": "Backplane_Logo_Text_30mm_SilkS_Back",
+      "family": "artwork",
+      "density": "",
+      "variant_status": "standard",
+      "file": "libraries/Backplane_Logo.pretty/Backplane_Logo_Text_30mm_SilkS_Back.kicad_mod",
+      "sha256": "b8ea72b5e04c98f123d2f6dbfd1c281802624d9c91716881926d5c1b1a49f67c"
+    },
     {
       "id": "Backplane_MountingHole:MountingHole_2.1mm_ExposedSubstrate",
       "library": "Backplane_MountingHole",

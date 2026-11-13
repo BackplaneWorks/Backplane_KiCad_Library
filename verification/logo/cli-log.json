@@ -1,0 +1,94 @@
+[
+  {
+    "argv": [
+      "--version"
+    ],
+    "code": 0,
+    "stdout": "10.99.0\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "fp",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,B.SilkS",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/libraries/Backplane_Logo.pretty"
+    ],
+    "code": 0,
+    "stdout": "-load/Backplane_Logo_Mark_3mm_SilkS_Back.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_3mm_SilkS_Back.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_5mm_Cu' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_Cu.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_Cu.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_5mm_SilkS' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_SilkS.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_SilkS.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_5mm_SilkS_Back' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_SilkS_Back.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_5mm_SilkS_Back.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_8mm_Cu' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_Cu.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_Cu.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_8mm_SilkS' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_SilkS.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_SilkS.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Mark_8mm_SilkS_Back' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_SilkS_Back.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Mark_8mm_SilkS_Back.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_20mm_Cu' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_Cu.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_Cu.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_20mm_SilkS' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_SilkS.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_SilkS.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_20mm_SilkS_Back' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_SilkS_Back.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_20mm_SilkS_Back.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_30mm_Cu' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_Cu.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_Cu.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_30mm_SilkS' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_SilkS.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_SilkS.svg'.\nDone.\nPlotting footprint 'Backplane_Logo_Text_30mm_SilkS_Back' to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_SilkS_Back.svg'\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/footprint-load/Backplane_Logo_Text_30mm_SilkS_Back.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "fp",
+      "upgrade",
+      "--force",
+      "--output",
+      "/tmp/backplane_logo_roundtrip.pretty",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/libraries/Backplane_Logo.pretty"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/logo_test-drc.json",
+      "--severity-all",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/logo_test.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/logo_test-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers",
+      "--layers",
+      "F.Cu,F.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+      "--mode-multi",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/logo_test.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/logo_test-F_Cu.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/logo_test-F_Mask.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/logo_test-F_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/logo_test-B_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/logo_test-Edge_Cuts.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "pcb",
+      "export",
+      "svg",
+      "--output",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/mirrored",
+      "--layers",
+      "B.SilkS,Edge.Cuts",
+      "--mode-multi",
+      "--mirror",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--black-and-white",
+      "/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/logo_test.kicad_pcb"
+    ],
+    "code": 0,
+    "stdout": "Plotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/mirrored/logo_test-B_Silkscreen.svg'.\nPlotted to '/home/h/Documents/Backplane/Backplane_KiCad_Library/verification/logo/layers/mirrored/logo_test-Edge_Cuts.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]

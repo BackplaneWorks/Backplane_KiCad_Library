@@ -10,19 +10,19 @@ def main():
     rows=[]
     for lib in sorted((ROOT/'libraries').glob('*.pretty')):
         for p in sorted(lib.glob('*.kicad_mod')):
-            family='mounting_hole' if 'MountingHole' in lib.stem else 'artwork' if 'Shoggoth' in lib.stem else 'passive'
+            family='mounting_hole' if 'MountingHole' in lib.stem else 'artwork' if ('Shoggoth' in lib.stem or 'Logo' in lib.stem) else 'passive'
             rows.append({'id':lib.stem+':'+p.stem,'library':lib.stem,'name':p.stem,'family':family,
                          'density':lib.stem.rsplit('_',1)[1].lower() if family=='passive' else '',
                          'variant_status':'original_local_least_only' if 'LegacyLocal' in p.stem else 'standard',
                          'file':str(p.relative_to(ROOT)),'sha256':sha(p)})
-    assert len(rows)==199
+    assert len(rows)==223
     counts=dict(collections.Counter(r['library'] for r in rows))
     manifest={'name':'Backplane_KiCad_Library','version':'2026.10.26','footprint_count':len(rows),
               'libraries':counts,'step_models':len(list((ROOT/'3dmodels').rglob('*.step'))),
               'tested_runtime':'10.99.0-bp.4','runtime_source_commit':'5dbc22d292704d02b609d5b7a0edc971f1b7f08b',
               'canonical_project':'boards/library_catalogue/library_catalogue.kicad_pro',
               'canonical_board_sha256':sha(ROOT/'boards/library_catalogue/library_catalogue.kicad_pcb'),
-              'provenance':['sources/holes/manifest.json','sources/passives/provenance.json','docs/shoggoth.md'],
+              'provenance':['sources/holes/manifest.json','sources/passives/provenance.json','docs/shoggoth.md','sources/backplane_logo/README.md'],
               'entries':rows}
     (ROOT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     with (ROOT/'CATALOGUE.csv').open('w',newline='') as f:

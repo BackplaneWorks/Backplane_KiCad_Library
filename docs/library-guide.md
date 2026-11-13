@@ -1,6 +1,6 @@
 # Backplane KiCad Library
 
-A portable, project-local collection of **199 reusable footprints in five libraries**.
+A portable, project-local collection of **223 reusable footprints in six libraries**.
 Open `boards/library_catalogue/library_catalogue.kicad_pro` for a saved visual
 showcase. The catalogue has no circuit and is not intended for manufacture.
 No symbol library is needed for these footprints.
@@ -8,6 +8,7 @@ No symbol library is needed for these footprints.
 | Library nickname | Contents | Count |
 | --- | --- | ---: |
 | `Backplane_MountingHole` | Original exposed-substrate NPTH holes; 20 named sizes × center/edge/corner | 60 |
+| `Backplane_Logo` | Backplane mark 3–30 mm and mark + wordmark 20/30 mm; front silk, back silk, Cu + mask | 24 |
 | `Backplane_Shoggoth` | Mascot and caption badge, nominal 25/35/50 mm | 6 |
 | `Backplane_Passives_Least` | 18 resistor, 14 capacitor, 12 chip-inductor packages + original local 0806 | 45 |
 | `Backplane_Passives_Nominal` | Same packages, nominal material settings | 44 |
@@ -55,6 +56,12 @@ silk with **Subtract soldermask from silkscreen**. Comment and courtyard outline
 do not enforce a silk prohibition. Keep the relevant DRC checks enabled and
 inspect plotted output. See [the hole guide](holes.md) for the measured
 clearances, orientations and two-/four-layer negative/control experiments.
+
+## Backplane logos
+
+Outlined from the brand SVGs, with nothing under the fab's 0.15 mm silkscreen
+minimum; small sizes are simplified, not just scaled. `_SilkS_Back` versions are
+stored mirrored for the back. See [logos](logo.md).
 
 ## Shoggoth artwork
 

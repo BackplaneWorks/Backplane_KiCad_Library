@@ -17,6 +17,7 @@ All validation was performed locally; nothing was uploaded to a fab.
 | 3D bodies | 42 STEP models load with valid shapes in FreeCAD; bounding boxes/volumes measured; representative bodies rendered and inspected | `verification/passives/model-validation.json`, `3dmodels/` |
 | Artwork | Six footprints load, native upgrade/roundtrip has zero layer geometry difference, all individual boards have zero DRC violations/unconnected items | `verification/shoggoth/verification-report.json` |
 | Artwork layers | Six separate Cu/Mask/Silk/Paste plot sets; Cu/Mask raster equality and blank paste; three preserved face-mask holes | `verification/shoggoth/layers/`, `geometry-report.json` |
+| Logos | 24 footprints load and plot; native upgrade roundtrip has zero geometry difference; every polygon simple and hole-free; no ink or gap under 0.15 mm; all parts and letter counters kept; Cu = Mask; back = mirrored front; one true-scale board with all 24 has zero DRC violations (KiCad 10.99.0-bp.12.1) | `verification/logo/verification-report.json`, `build-report.json`, `previews/logo/logo-sheet.png` |
 | Saved catalogue | 56 top-level items imported through IPC, all `ISC_OK`, committed and saved at the canonical path; 4 copper layers read back | `verification/catalogue-ipc-save.json` |
 | Catalogue DRC | Zero violations and zero unconnected items | `verification/catalogue-drc.json` |
 | Catalogue schematic | Documentation-only schematic successfully exported by KiCad | `verification/catalogue-schematic/library_catalogue.svg` |
