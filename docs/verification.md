@@ -22,6 +22,7 @@ All validation was performed locally; nothing was uploaded to a fab.
 | Catalogue DRC | Zero violations and zero unconnected items | `verification/catalogue-drc.json` |
 | Catalogue schematic | Documentation-only schematic successfully exported by KiCad | `verification/catalogue-schematic/library_catalogue.svg` |
 | Model resolution | All nine catalogue passive instances resolve their relative STEP paths in an actual component-inclusive KiCad STEP export | `verification/catalogue-step-export.log`, `catalogue-model-paths.json` |
+| Runtime bp.13.1 | On the shipped `10.99.0-bp.13.1` (`e7f1bdb7a3`): all 223 footprints export as SVG; its default table names all six libraries; a board placing all 223 resolves through it (a nickname no table has is reported); all 42 passive STEP models reach a STEP export; catalogue DRC zero violations, zero unconnected; the runtime's own Backplane-library smoke passes | `verification/runtime-bp.13.1/verification-report.json`, `scripts/verify_runtime.py` |
 | Local release | ZIP decompression and each archived file's SHA256 checked against the source files | `SHA256SUMS`, `release/*.sha256` |
 
 No-net catalogue pads and floating artwork do not form a circuit; zero

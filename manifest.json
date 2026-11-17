@@ -1,6 +1,6 @@
 {
   "name": "Backplane_KiCad_Library",
-  "version": "2026.10.26",
+  "version": "2026.11.17",
   "footprint_count": 223,
   "libraries": {
     "Backplane_Logo": 24,
@@ -11,8 +11,8 @@
     "Backplane_Shoggoth": 6
   },
   "step_models": 42,
-  "tested_runtime": "10.99.0-bp.4",
-  "runtime_source_commit": "5dbc22d292704d02b609d5b7a0edc971f1b7f08b",
+  "tested_runtime": "10.99.0-bp.13.1",
+  "runtime_source_commit": "e7f1bdb7a3509e1473f562bd65ad108269b4262d",
   "canonical_project": "boards/library_catalogue/library_catalogue.kicad_pro",
   "canonical_board_sha256": "4e5650222ffd4db0ebc109ee9257cf6cd1f587143b1623140698ba5104a65bc4",
   "provenance": [

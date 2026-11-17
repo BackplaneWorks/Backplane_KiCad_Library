@@ -17,9 +17,9 @@ def main():
                          'file':str(p.relative_to(ROOT)),'sha256':sha(p)})
     assert len(rows)==223
     counts=dict(collections.Counter(r['library'] for r in rows))
-    manifest={'name':'Backplane_KiCad_Library','version':'2026.10.26','footprint_count':len(rows),
+    manifest={'name':'Backplane_KiCad_Library','version':'2026.11.17','footprint_count':len(rows),
               'libraries':counts,'step_models':len(list((ROOT/'3dmodels').rglob('*.step'))),
-              'tested_runtime':'10.99.0-bp.4','runtime_source_commit':'5dbc22d292704d02b609d5b7a0edc971f1b7f08b',
+              'tested_runtime':'10.99.0-bp.13.1','runtime_source_commit':'e7f1bdb7a3509e1473f562bd65ad108269b4262d',
               'canonical_project':'boards/library_catalogue/library_catalogue.kicad_pro',
               'canonical_board_sha256':sha(ROOT/'boards/library_catalogue/library_catalogue.kicad_pcb'),
               'provenance':['sources/holes/manifest.json','sources/passives/provenance.json','docs/shoggoth.md','sources/backplane_logo/README.md'],
@@ -41,10 +41,10 @@ def main():
     (ROOT/'SHA256SUMS').write_text(checksums)
     files.append(ROOT/'SHA256SUMS')
     release=ROOT/'release';release.mkdir(exist_ok=True)
-    destination=release/'Backplane_KiCad_Library-2026.10.26.zip'
+    destination=release/'Backplane_KiCad_Library-2026.11.17.zip'
     with zipfile.ZipFile(destination,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for p in files:
-            info=zipfile.ZipInfo('Backplane_KiCad_Library/'+str(p.relative_to(ROOT)),date_time=(2026,10,26,0,0,0))
+            info=zipfile.ZipInfo('Backplane_KiCad_Library/'+str(p.relative_to(ROOT)),date_time=(2026,11,17,0,0,0))
             info.compress_type=zipfile.ZIP_DEFLATED
             info.external_attr=(0o100755 if p.stat().st_mode&0o111 else 0o100644)<<16
             z.writestr(info,p.read_bytes())

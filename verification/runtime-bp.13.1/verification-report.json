@@ -1,0 +1,35 @@
+{
+  "runtime": "10.99.0-bp.13.1",
+  "runtime_source_commit": "e7f1bdb7a3509e1473f562bd65ad108269b4262d",
+  "library_commit": "314532f925fef0becc5a6eaf6be3b000f41cb0d0",
+  "svg_exports": {
+    "Backplane_Logo": 24,
+    "Backplane_MountingHole": 60,
+    "Backplane_Passives_Least": 45,
+    "Backplane_Passives_Most": 44,
+    "Backplane_Passives_Nominal": 44,
+    "Backplane_Shoggoth": 6
+  },
+  "default_table_names_all": true,
+  "all_board_lib_problems": [],
+  "all_board_violation_types": {
+    "clearance": 18,
+    "lib_footprint_mismatch": 40
+  },
+  "negative_control_reported": true,
+  "step_models_wanted": 42,
+  "step_models_found": 42,
+  "step_missing_lines": [],
+  "catalogue_drc": {
+    "violations": 0,
+    "unconnected": 0
+  },
+  "command": "python3 scripts/verify_runtime.py <library> <runtime root> verification/runtime-bp.13.1",
+  "runtime_release": "https://github.com/BackplaneWorks/Backplane_KiCad/releases/tag/backplane-kicad-v10.99.0-bp.13.1",
+  "runtime_bundled_smoke": "scripts/backplane-library-smoke.py at e7f1bdb7a3 passed on the downloaded, checksum-verified runtime",
+  "notes": {
+    "lib_footprint_mismatch": "the 40 Edge/Corner mounting holes on the all-footprint fixture: their rule areas are stored in board coordinates and the fixture moves the footprint without them; the catalogue board, placed through KiCad, has none",
+    "clearance": "the fixture's tight 60 mm grid; not a library property",
+    "library_commit": "content verified at this commit; the release commit changes only version metadata, docs and this record"
+  }
+}

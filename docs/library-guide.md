@@ -38,7 +38,7 @@ file changes; use KiCad's normal update-from-library workflow.
 
 The delivered footprints use KiCad 8-era artwork syntax or the original
 20260206 generator syntax. The complete collection was tested in **Backplane
-KiCad 10.99.0-bp.4**, source `5dbc22d292704d02b609d5b7a0edc971f1b7f08b`.
+KiCad 10.99.0-bp.13.1**, source `e7f1bdb7a3509e1473f562bd65ad108269b4262d` (first recorded on 10.99.0-bp.4).
 The saved catalogue uses that runtime's newer native format; older KiCad
 versions are not asserted compatible with the complete bundle.
 

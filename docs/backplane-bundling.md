@@ -4,7 +4,7 @@ Repository: `BackplaneWorks/Backplane_KiCad_Library`.
 Tagged releases automatically publish a platform-independent runtime payload:
 
 ```text
-https://github.com/BackplaneWorks/Backplane_KiCad_Library/releases/download/v2026.10.26/backplane-kicad-library-2026.10.26.tar.gz
+https://github.com/BackplaneWorks/Backplane_KiCad_Library/releases/download/v2026.11.17/backplane-kicad-library-2026.11.17.tar.gz
 ```
 
 The adjacent `.sha256` contains the archive checksum. Pin both the library
@@ -28,19 +28,19 @@ At install/runtime setup:
 2. Point the KiCad process environment's `BACKPLANE_KICAD_LIBRARY` at the
    absolute extracted root. Project text variables alone do not resolve these
    model references in the tested STEP exporter.
-3. Register the five `.pretty` directories in Backplane's managed KiCad library
+3. Register the six `.pretty` directories in Backplane's managed KiCad library
    configuration, using the nicknames in the manifest. Preserve existing
    project/user entries. Do not overwrite the user's global KiCad tables or
    edit existing board instances to install a library.
 4. Cover desktop packaging and headless/CLI/IPC launches on Linux, macOS and
    Windows, so all use the same managed library and resolve the same models.
 5. Smoke-test a hole, each Shoggoth size and each passive density, plus a STEP
-   export that actually includes a passive model. Assert all 199 entries and
+   export that actually includes a passive model. Assert all 223 entries and
    42 models are present; a CLI exit code alone is insufficient when its output
    reports missing models.
 
-Validated KiCad runtime: `10.99.0-bp.4`, source
-`5dbc22d292704d02b609d5b7a0edc971f1b7f08b`. The passive and original hole files
+Validated KiCad runtime: `10.99.0-bp.13.1`, source
+`e7f1bdb7a3509e1473f562bd65ad108269b4262d` (first recorded on `10.99.0-bp.4`). The passive and original hole files
 use native footprint version `20260206`; do not assume an older 10.0.6 runtime
 can consume the entire collection. The catalogue board itself uses the newer
 runtime's native board format and is not part of the runtime payload.

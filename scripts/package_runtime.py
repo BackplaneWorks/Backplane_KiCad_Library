@@ -62,7 +62,7 @@ def build(output,version,commit):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,default=ROOT/'release')
-    parser.add_argument('--version',default='2026.10.26')
+    parser.add_argument('--version',default='2026.11.17')
     parser.add_argument('--source-commit',default=None)
     args=parser.parse_args()
     commit=args.source_commit or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
